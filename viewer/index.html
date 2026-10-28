@@ -237,7 +237,7 @@ body.director .copy { display: inline-block; }
   font-family: var(--font-display); font-weight: 700; text-wrap: balance; line-height: 1.45; box-shadow: 4px 4px 0 var(--comic-ink);
 }
 /* labels are small black stamps */
-.tag-box { padding: .35em .85em; background: var(--comic-ink); color: var(--caption); font-family: var(--font-ui); font-weight: 800; font-size: calc(var(--fs, 1) * .86em); letter-spacing: .06em; box-shadow: 3px 3px 0 var(--rim); }
+.tag-box { padding: .25em .7em; background: rgba(10, 7, 4, .6); border-radius: 1em; box-shadow: 0 0 .9em .55em rgba(10, 7, 4, .6); color: #f3e3c2; font-family: var(--font-ui); font-weight: 700; font-size: calc(var(--fs, 1) * .82em); letter-spacing: .14em; text-shadow: 0 0 3px #000; }
 /* sound effects */
 .sfx { font-family: var(--font-shout); font-weight: 700; font-size: calc(var(--fs, 1) * clamp(1.7rem, 6.2cqw, 3.6rem)); line-height: 1; color: #ffd54a; -webkit-text-stroke: 3px var(--comic-ink); paint-order: stroke fill; text-shadow: 4px 4px 0 var(--comic-ink); letter-spacing: .02em; white-space: nowrap; }
 
@@ -305,6 +305,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
 /* ---------- lettering system: Baba speaking now (the synagogue) gets the one caption box; his memories are open narration on a soft shadow ---------- */
 /* a caption that sits in its own big beat */
 .cap.c-open { background: rgba(10, 7, 4, .6); border: 0; border-radius: 1em; box-shadow: 0 0 1.1em .7em rgba(10, 7, 4, .6); padding: .45em .8em; color: #fff6e4; font-weight: 700; font-size: calc(var(--fs, 1) * 1.08em); text-shadow: 0 0 2px #000, 0 0 6px rgba(0, 0, 0, .9), 0 1px 14px rgba(0, 0, 0, .7); }
+.cap.c-now { color: #f8dca0; }
 .cap.big { font-size: calc(var(--fs, 1) * 1.55em); line-height: 1.25; }
 .cap.c-open.big { font-size: calc(var(--fs, 1) * 1.6em); }
 
@@ -379,6 +380,19 @@ html.js .pw[data-en="iris"].in .art { animation: enIris 1.2s cubic-bezier(.4, 0,
 .card li::before { content: counter(li); position: absolute; inset-inline-start: 0; top: .05em; width: 1.35em; height: 1.35em; display: grid; place-items: center; border-radius: 50%; background: #d46a6a; color: #fff6dd; font-family: var(--font-bubble); font-weight: 700; font-size: .8em; }
 .card li b { font-family: var(--font-display); font-weight: 900; }
 
+
+/* ---------- interlude: from the synagogue back into 1946, one line at a time while the picture drains of colour ---------- */
+.interlude { position: relative; z-index: 5; height: 460vh; }
+.il-stage { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: #050403; }
+.il-img { position: absolute; inset: -4%; background: center / cover no-repeat; opacity: 0; transform: scale(var(--s, 1.1)); will-change: opacity, transform, filter; }
+.il-dark { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 45%, rgba(0, 0, 0, .25), rgba(0, 0, 0, .86) 88%); }
+.il-grain { position: absolute; inset: 0; background-image: var(--grain); opacity: .1; mix-blend-mode: overlay; }
+.il-lines { position: absolute; inset: 0; display: grid; place-items: center; padding: 0 8vw; }
+.il-lines p { grid-area: 1 / 1; margin: 0; max-width: 24ch; font-family: var(--font-display); font-weight: 700; font-size: clamp(1.45rem, 4.6vw, 3.1rem); line-height: 1.35; color: #f3e8d2; text-align: center; text-wrap: balance; text-shadow: 0 2px 18px #000, 0 0 3px #000; opacity: 0; transform: translateY(22px); filter: blur(8px); transition: opacity 1s ease, transform 1.2s ease, filter 1s ease; }
+.il-lines p.on { opacity: 1; transform: none; filter: none; }
+.il-lines p.il-last { color: #f8dca0; }
+@media (prefers-reduced-motion: reduce) { .il-lines p { transition-duration: .01s; } }
+
 /* ---------- cinematic cover: a low sun behind the title, turning rays, and a short man with a giant's shadow ---------- */
 .cover.cine { background: radial-gradient(ellipse 80% 55% at 50% 64%, rgba(255, 176, 92, .55), transparent 70%), radial-gradient(ellipse 120% 90% at 50% 70%, #3b2413 0%, #160d07 55%, #070403 100%); color: var(--ink); }
 .cover.cine::before { display: none; }
@@ -412,6 +426,23 @@ html.js .pw[data-en="iris"].in .art { animation: enIris 1.2s cubic-bezier(.4, 0,
 @keyframes cvSpin { to { transform: translate(-50%, -50%) rotate(360deg); } }
 @keyframes cvSweep { 0%, 100% { background-position: 50% 0; } 6% { background-position: 50% 100%; } 12% { background-position: 50% 0; } }
 @keyframes cvGlow { 0%, 100% { filter: drop-shadow(0 0 0 rgba(255, 200, 120, 0)); } 50% { filter: drop-shadow(0 0 22px rgba(255, 200, 120, .45)); } }
+
+
+/* the cover picture: the family on the foggy platform, slowly coming out of the dark */
+.cv-art { position: absolute; inset: -3%; background: url("art/p02-a.webp") center 40% / cover no-repeat; filter: saturate(.9) brightness(.62); opacity: 0; transform: scale(1.14); transition: opacity 2.6s ease, transform 16s cubic-bezier(.2, .7, .2, 1); }
+.cv-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(5, 3, 2, .82) 0%, rgba(5, 3, 2, .35) 30%, rgba(5, 3, 2, .15) 55%, rgba(5, 3, 2, .92) 100%); }
+.cover.cine.go .cv-art { opacity: 1; transform: scale(1.02); }
+.cover.cine .cv-sun { top: 36%; opacity: 0; mix-blend-mode: screen; }
+.cover.cine.go .cv-sun { opacity: .55; }
+.cover.cine .cv-rays { top: 36%; mix-blend-mode: screen; }
+.cover.cine.go .cv-rays { opacity: .5; }
+.cover.cine .cv-fig { display: none; }
+.cv-tagline { margin: 4px 0 0; max-width: 30ch; font-family: var(--font-display); font-style: italic; font-size: clamp(1rem, 2.6vw, 1.3rem); color: #f3e3c2; text-shadow: 0 1px 10px #000; text-wrap: balance; opacity: 0; transition: opacity 1.6s ease 2.8s; }
+.cv-by { margin: 18px 0 0; font-size: .82rem; letter-spacing: .22em; color: rgba(248, 220, 160, .85); text-shadow: 0 1px 6px #000; opacity: 0; transition: opacity 1.4s ease 3.4s; }
+.cover.cine.go .cv-tagline, .cover.cine.go .cv-by { opacity: 1; }
+.cover.cine .cover-inner { margin-bottom: 0; }
+.cover.cine .cover-inner::before { content: ""; position: absolute; inset: -12% -18%; z-index: -1; background: radial-gradient(closest-side, rgba(4, 3, 2, .72), rgba(4, 3, 2, .45) 60%, transparent 100%); pointer-events: none; }
+.cv-by { color: #f8dca0; }
 
 /* ---------- loader: the distance to Father counts down while the book loads ---------- */
 html.loading, html.loading body { overflow: hidden; }
@@ -483,6 +514,7 @@ html.loading, html.loading body { overflow: hidden; }
 
 <main id="book">
   <section class="cover cine" id="cover" aria-label="פתיחה">
+    <div class="cv-art"></div>
     <div class="cv-rays"></div>
     <div class="cv-sun"></div>
     <svg class="cv-fig" viewBox="0 0 100 200" aria-hidden="true">
@@ -497,11 +529,13 @@ html.loading, html.loading body { overflow: hidden; }
       <h1 class="title" id="cvTitle"></h1>
       <div class="rule"></div>
       <p class="subtitle" data-k="cover.sub"></p>
+      <p class="cv-tagline" data-k="cover.tag"></p>
       <button class="cta" id="startBtn" type="button" data-k="cover.start"></button>
       <div class="cue">
         <span data-k="cover.cue"></span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>
       </div>
+      <p class="cv-by" data-k="cover.by"></p>
     </div>
   </section>
   <div id="pages"></div>
@@ -526,7 +560,7 @@ html.loading, html.loading body { overflow: hidden; }
   var STR = {
     he: {
       'ui.director': 'מצב במאי', 'ui.page': 'דף {n} מתוך {total}', 'ui.copy': 'העתק הנחיה', 'ui.copied': 'הועתק', 'ui.waiting': 'האיור ממתין',
-      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'הגיבור שלי', 'cover.sub': 'המסע אל אבא · סיפור אמיתי בקומיקס', 'card.t': 'מה לקחתי מהמסע', 'card.1': 'גדול באמת — מודדים בלב, לא בסנטימטרים.', 'card.2': 'חסד אמיתי נעשה בשקט, בלי לשאול ובלי לספר.', 'card.3': 'לפעמים הגיבור שחיפשנו כבר עומד מולנו. צריך רק ללמוד לראות אותו.', 'cover.cue': 'או גוללים למטה', 'cover.start': 'התחל לקרוא', 'ld.year': 'מרץ 1946', 'ld.l2': 'ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה.', 'ld.lbl': 'המרחק אל אבא', 'ld.km': 'קילומטר', 'ld.m': 'מטר', 'ld.l3': 'מה מחכה בסוף הדרך?', 'ld.skip': 'דלג',
+      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'הגיבור שלי', 'cover.sub': 'המסע אל אבא · סיפור אמיתי בקומיקס', 'card.t': 'מה לקחתי מהמסע', 'card.1': 'גדול באמת — מודדים בלב, לא בסנטימטרים.', 'card.2': 'חסד אמיתי נעשה בשקט, בלי לשאול ובלי לספר.', 'card.3': 'לפעמים הגיבור שחיפשנו כבר עומד מולנו. צריך רק ללמוד לראות אותו.', 'cover.cue': 'או גוללים למטה', 'cover.tag': 'מרץ 1946. ילד אחד, מזוודה אחת, ואבא שמעולם לא ראה.', 'cover.by': 'על פי סיפורו האמיתי של סבא עמנואל', 'il.1': 'אבל כדי להבין את הסיפור הזה...', 'il.2': 'צריך לחזור אחורה. הרבה אחורה.', 'il.3': 'אירופה, 1946. המלחמה הנוראה ביותר שידע העולם נגמרה רק לפני שנה.', 'il.4': 'ערים שלמות הפכו לאבק. מיליוני משפחות נקרעו.', 'il.5': 'בתחנות הרכבת חיכו אנשים עם מזוודה אחת — כל מה שנשאר להם.', 'il.6': 'ובתוך כל זה... ילד אחד, בן שמונה וחצי,', 'il.7': 'יוצא למסע לפגוש את אבא שמעולם לא ראה.', 'cover.start': 'התחל לקרוא', 'ld.year': 'מרץ 1946', 'ld.l2': 'ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה.', 'ld.lbl': 'המרחק אל אבא', 'ld.km': 'קילומטר', 'ld.m': 'מטר', 'ld.l3': 'מה מחכה בסוף הדרך?', 'ld.skip': 'דלג',
       'outro.text': 'המשך יבוא...', 'outro.restart': 'חזרה להתחלה',
       'p1.cap0': 'לפני שהיה ‘באבא’... הוא היה ילד קטן בשם עמנואל.',
       'p1.cap1': 'ערב שבת. בית הכנסת.',
@@ -571,7 +605,7 @@ html.loading, html.loading body { overflow: hidden; }
     },
     en: {
       'ui.director': 'Director mode', 'ui.page': 'Page {n} of {total}', 'ui.copy': 'Copy prompt', 'ui.copied': 'Copied', 'ui.waiting': 'Artwork pending',
-      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'My Hero', 'cover.sub': 'The Journey to Father · a true story in comics', 'card.t': 'What I took from the journey', 'card.1': 'True greatness is measured in heart, not in inches.', 'card.2': 'Real kindness is done quietly, without asking and without telling.', 'card.3': 'Sometimes the hero we are looking for is already standing in front of us. We only have to learn to see him.', 'cover.cue': 'or scroll down', 'cover.start': 'Start reading', 'ld.year': 'MARCH 1946', 'ld.l2': 'An eight-and-a-half-year-old boy sets out to meet the father he has never seen.', 'ld.lbl': 'THE DISTANCE TO FATHER', 'ld.km': 'kilometers', 'ld.m': 'meters', 'ld.l3': 'What is waiting at the end of the road?', 'ld.skip': 'Skip',
+      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'My Hero', 'cover.sub': 'The Journey to Father · a true story in comics', 'card.t': 'What I took from the journey', 'card.1': 'True greatness is measured in heart, not in inches.', 'card.2': 'Real kindness is done quietly, without asking and without telling.', 'card.3': 'Sometimes the hero we are looking for is already standing in front of us. We only have to learn to see him.', 'cover.cue': 'or scroll down', 'cover.tag': 'March 1946. One boy, one suitcase, and a father he had never seen.', 'cover.by': 'Based on the true story of Grandpa Emmanuel', 'il.1': 'But to understand this story...', 'il.2': 'we have to go back. A long way back.', 'il.3': 'Europe, 1946. The most terrible war the world had ever known had ended only a year before.', 'il.4': 'Whole cities had turned to dust. Millions of families had been torn apart.', 'il.5': 'At the railway stations people waited with one suitcase — all they had left.', 'il.6': 'And in the middle of it all... one boy, eight and a half years old,', 'il.7': 'setting out to meet the father he had never seen.', 'cover.start': 'Start reading', 'ld.year': 'MARCH 1946', 'ld.l2': 'An eight-and-a-half-year-old boy sets out to meet the father he has never seen.', 'ld.lbl': 'THE DISTANCE TO FATHER', 'ld.km': 'kilometers', 'ld.m': 'meters', 'ld.l3': 'What is waiting at the end of the road?', 'ld.skip': 'Skip',
       'outro.text': 'To be continued...', 'outro.restart': 'Back to the beginning',
       'p1.cap0': 'Before he was ‘Baba’... he was a little boy named Emmanuel.',
       'p1.cap1': 'Friday evening. The synagogue.',
@@ -685,7 +719,7 @@ html.loading, html.loading body { overflow: hidden; }
   var SLOPE = .07;
   function C(t, b, l, r) { return { t: t || 0, b: b || 0, l: l || 0, r: r || 0 }; }
   var PAGES = [
-    { theme: 'gold', parts: [P('dust', 50), P('smoke', 3, COOL)], pulse: 'breath', H: 160,
+    { theme: 'gold', parts: [P('dust', 50), P('smoke', 3, COOL)], pulse: 'breath', H: 111,
       panels: [
         { id: 'a', x: 0, y: 0, w: 100, h: 44, cut: C(0, 1), z: 1,
           shot: 'Wide cinematic interior of a small warm Israeli neighborhood synagogue on a Friday afternoon: golden light from arched windows, wooden benches, a Torah ark with a blue curtain. At the center Baba sits smiling kindly behind a wooden table with an open notebook, surrounded by worshippers in prayer shawls and children leaning in affectionately. Ultra-wide establishing shot, about 2.3:1.', chars: ['baba'], pal: 'warm',
@@ -701,21 +735,9 @@ html.loading, html.loading body { overflow: hidden; }
         { id: 'd', x: 60, y: 60.4, w: 40, h: 18.1, cut: C(1, 1), z: 2,
           shot: 'A very small child of about 5 peeking wide-eyed over the top of a wooden synagogue bench: only eyes, nose and little fingers visible, innocent surprise, warm light. About 2:1.', chars: [], pal: 'warm',
           text: [{ k: 'bub', id: 'p1.q2', from: 'end', x: 6, v: 'top', y: 12, w: 42, tail: 'bs', m: [47, 50] }] },
-        { id: 'e', x: 0, y: 75.9, w: 62, h: 34.04, cut: C(1, 1), z: 3, sp: 8,
+        { id: 'e', x: 0, y: 75.9, w: 100, h: 35.1, cut: C(1, 0), z: 3, sp: 8,
           shot: 'Baba in the synagogue leaning slightly toward a small group of attentive children and young parents who gather around him with delighted anticipation; he gives a conspiratorial smile. Warm gold light. Wide, about 2:1.', chars: ['baba', 'kid'], pal: 'warm',
           text: [{ k: 'bub', id: 'p1.b1', from: 'start', x: 5, v: 'top', y: 8, w: 46, tail: 'be', m: [42, 41] }] },
-        { id: 'f', x: 64, y: 77.5, w: 36, h: 35.1, cut: C(1, 1), z: 3, memory: true,
-          shot: 'Memory vignette: a misty empty European railway platform in 1946, a black steam locomotive releasing white steam, old brown suitcases stacked on the platform, cold blue-gray palette, dreamlike faded edges. About 1:1.', chars: [], pal: 'cold',
-          text: [{ k: 'cap', id: 'p1.cap2', from: 'start', x: 4, v: 'bottom', y: 5, w: 92 }] },
-        { id: 'g', x: 0, y: 107.1, w: 100, h: 52, cut: C(1, 0), fade: 'b', z: 4, memory: true, fy: 0, flat: true, ty: 12,
-          shot: 'Cold, foggy European railway station in March 1946: iron arched roof, a steam train at the left. At the right on the platform stand Emmanuel (boy, flat cap), his mother (blue headscarf, coat) and his brother Shimon, holding suitcases; the boy gazes forward thoughtfully, hopeful and uneasy. Blue-gray and brown palette. Wide, about 2:1, the lower edge fading into fog.', chars: ['emmanuel', 'mother', 'shimon'], pal: 'cold',
-          text: [
-            { k: 'tag', id: 'p1.tag1', from: 'start', x: 3, v: 'top', y: 7, w: 0 },
-            { k: 'tho', id: 'p1.th1', from: 'start', x: 6, v: 'top', y: 20, w: 38, tail: 'be', m: [44, 24] },
-            { k: 'cap', id: 'p1.cap3', from: 'start', x: 3, v: 'bottom', y: 5, w: 94 }
-          ] },
-        { id: 'br', bridge: 'smoke', x: 50, y: 98, w: 50, h: 26, z: 7 },
-        { id: 'n1', layer: true, x: 2, y: 132, w: 12, h: 12, z: 9, sp: 14, d: 'מזוודה ישנה שחוצה את הגבול בין הזיכרון לתחנה.', shot: 'An old brown leather suitcase with brass corners and a worn handle, three-quarter view, painterly graphic-novel style with soft ink outlines, soft light from the upper left.', text: [], chars: [], pal: 'cold' }
       ] },
     S('station', [P('smoke', 9, '210,215,222'), P('fog', 4, COOL), P('dust', 18, COOL)], ''),
     S('train', [P('streak', 9, '170,200,235'), P('dust', 18, COOL), P('smoke', 4, COOL)], ''),
@@ -1424,9 +1446,10 @@ html.loading, html.loading body { overflow: hidden; }
   var ROTS = ['-1.3deg', '.9deg', '-.6deg', '1.2deg', '-.9deg', '.5deg'];
   var SHAPES = ['52% 48% 50% 50% / 46% 50% 50% 54%', '48% 52% 46% 54% / 52% 46% 54% 48%', '55% 45% 52% 48% / 50% 54% 46% 50%', '47% 53% 55% 45% / 47% 52% 48% 53%'];
   var PRESENT = { 0: 1, 14: 1, 22: 1, 23: 1 };
+  /* one narration style for the whole book; Baba speaking in the present only changes the colour of the words */
   function capStyle(tx) {
-    var st = tx.st || (PRESENT[tx.pg] ? 'box' : 'open');
-    return st === 'box' ? '' : st;
+    if (tx.st === 'box') return '';
+    return PRESENT[tx.pg] ? 'open c-now' : 'open';
   }
   function textEl(parent, tx, i) {
     var d = el('div', 'txt', parent);
@@ -1506,17 +1529,18 @@ html.loading, html.loading body { overflow: hidden; }
     var dist = Math.sqrt(vx * vx + vy * vy); if (dist < 1) return;
     var ux = vx / dist, uy = vy / dist, tt = 1 / Math.sqrt((ux / a) * (ux / a) + (uy / b) * (uy / b));
     var em = parseFloat(getComputedStyle(d).fontSize) || 14, gap = Math.max(5, em * .45);
-    var L = dist - tt - gap; if (L < em * .7) return;
-    var maxL = Math.min(Wp, Hp) * .62; if (L > maxL) L = maxL;
+    /* a tail is a short wedge that leans toward the speaker; it never runs all the way to the mouth */
+    var L = Math.min(dist - tt - gap, em * 1.6); if (L < em * .5) return;
     var tipx = a + (tt + L) * ux, tipy = b + (tt + L) * uy;
-    var psi = Math.atan2(uy / b, ux / a), half = Math.max(.1, Math.min(.42, (em * .62) / ((a + b) / 2)));
+    var psi = Math.atan2(uy / b, ux / a), half = Math.max(.08, Math.min(.34, (em * .5) / ((a + b) / 2)));
     var E = function (ps) { return [a + a * Math.cos(ps), b + b * Math.sin(ps)]; };
-    var B1 = E(psi - half), B2 = E(psi + half), nx = -uy, ny = ux, bend = Math.min(L * .22, em * 1.6);
+    var B1 = E(psi - half), B2 = E(psi + half), nx = -uy, ny = ux, bend = L * .16;
     var svg = svgEl('svg', { 'class': 'tl', width: bw, height: bh, viewBox: '0 0 ' + bw + ' ' + bh, 'aria-hidden': 'true' });
     var g = svgEl('g', { filter: 'url(#rough2)' }, svg);
     if (tx.k === 'tho') {
-      [[.2, .36], [.5, .26], [.8, .17]].forEach(function (q) {
-        svgEl('circle', { cx: a + (tt + L * q[0] + gap * .2) * ux, cy: b + (tt + L * q[0] + gap * .2) * uy, r: em * q[1] }, g);
+      /* three small clouds in a tight row just outside the bubble, pointing at the thinker */
+      [[.5, .32], [1.12, .22], [1.6, .14]].forEach(function (q) {
+        svgEl('circle', { cx: a + (tt + em * q[0]) * ux, cy: b + (tt + em * q[0]) * uy, r: em * q[1] }, g);
       });
     } else {
       var c1 = [(B1[0] + tipx) / 2 + nx * bend, (B1[1] + tipy) / 2 + ny * bend], c2 = [(B2[0] + tipx) / 2 + nx * bend * .35, (B2[1] + tipy) / 2 + ny * bend * .35];
@@ -1614,6 +1638,31 @@ html.loading, html.loading body { overflow: hidden; }
     dot.addEventListener('click', function () { sec.scrollIntoView({ behavior: RM ? 'auto' : 'smooth', block: 'start' }); });
     dots.push(dot);
   });
+
+  /* the interlude sits between page 1 and page 2 */
+  var interlude = el('section', 'interlude');
+  interlude.id = 'interlude'; interlude.setAttribute('aria-label', '1946');
+  var ilStage = el('div', 'il-stage', interlude);
+  var ilImgs = ['p01-a', 'p03-d', 'p01-f'].map(function (n) { var d = el('div', 'il-img', ilStage); d.style.backgroundImage = 'url("art/' + n + '.webp")'; return d; });
+  el('div', 'il-dark', ilStage); el('div', 'il-grain', ilStage);
+  var ilBox = el('div', 'il-lines', ilStage), ilLines = [];
+  for (var il = 1; il <= 7; il++) { var lp = el('p', il === 7 ? 'il-last' : '', ilBox); lp.dataset.k = 'il.' + il; ilLines.push(lp); }
+  secs[0].after(interlude);
+  var ilOn = -1;
+  function interludeFrame(vh) {
+    var r = interlude.getBoundingClientRect(), span = r.height - vh;
+    var q = Math.min(1, Math.max(0, -r.top / span));
+    if (r.bottom < -vh || r.top > vh * 2) return false;
+    var n = ilLines.length, k = Math.min(n - 1, Math.floor(q * (n + .6)));
+    if (q <= 0.01) k = -1;
+    if (k !== ilOn) { ilLines.forEach(function (lp, j) { lp.classList.toggle('on', j === k); }); ilOn = k; }
+    var a = Math.max(0, 1 - q * 4.5), c = Math.min(1, Math.max(0, (q - .72) * 5)), b = Math.min(1, Math.max(0, q * 4.5 - .35)) * (1 - c);
+    ilImgs[0].style.opacity = a.toFixed(3); ilImgs[0].style.filter = 'grayscale(' + Math.min(1, q * 5).toFixed(2) + ') brightness(' + (1 - q * 1.5).toFixed(2) + ')';
+    ilImgs[1].style.opacity = b.toFixed(3); ilImgs[1].style.filter = 'grayscale(.85) sepia(.15) brightness(.75)';
+    ilImgs[2].style.opacity = c.toFixed(3); ilImgs[2].style.filter = 'grayscale(.35) brightness(.8)';
+    ilImgs.forEach(function (im) { im.style.setProperty('--s', (1.14 - q * .12).toFixed(3)); });
+    return r.top <= vh * .5 && r.bottom > vh * .5;
+  }
 
   /* ===================== layout: desktop collage or phone column ===================== */
   function corners(w, h, c) {
@@ -1820,7 +1869,9 @@ html.loading, html.loading body { overflow: hidden; }
       if (secs[i].getBoundingClientRect().top <= mid) idx = i; else break;
     }
     if (idx === secs.length - 1 && secs[idx].getBoundingClientRect().bottom < mid) idx = N;
-    setActive(idx);
+    if (interludeFrame(vh)) {
+      if (active !== -5) { active = -5; hud.classList.add('off'); railEl.classList.add('off'); applyScene('hard', '', [P('smoke', 6, COOL), P('dust', 10, COOL)]); }
+    } else setActive(idx);
 
     var cr = cover.getBoundingClientRect();
     var p = Math.min(1, Math.max(0, -cr.top / (vh * 0.8)));
