@@ -25,3 +25,7 @@ A family comic book (book 1 of "Grandpa Emmanuel's stories"), 24 pages, true sto
 ## Flow
 1. Illustrator agent creates character sheets, then pages 1 to 24, one commit per page.
 2. Claude pulls `art/`, converts to WebP, publishes the viewer, and the user arranges pages in the viewer's layout editor.
+
+## Codex artwork handoff
+
+חומרי ההפקה וההנחיות לשיתוף בין Codex לקלוד נמצאים ב־[CODEX-CLAUDE-HANDOFF.md](CODEX-CLAUDE-HANDOFF.md) ובתיקיית `handoffs/codex/`. התמונות בתיקיית המסירה הן טיוטות, והצופה המקורי והתשתית הקיימת נשמרו.

@@ -1,0 +1,320 @@
+{
+  "stage": "preview_draft",
+  "character": "shimon",
+  "candidate": "characters/shimon-v01.png",
+  "approved": false,
+  "required_reference_missing": null,
+  "images_generated": [
+    "characters/emmanuel-v01.png",
+    "characters/baba-v01.png",
+    "characters/mother-v01.png",
+    "characters/shimon-v01.png",
+    "characters/father-v01.png",
+    "characters/kid-v01.png",
+    "characters/girl-v01.png",
+    "characters/kidSmall-v01.png",
+    "characters/lebBoy-v01.png",
+    "characters/lebParents-v01.png",
+    "characters/stowaway-v01.png"
+  ],
+  "production_panels_generated": 105,
+  "references": {
+    "baba_identity": "ref/baba-photo.jpg",
+    "style": [
+      "ref/comic-style-page.jpg",
+      "ref/comic-style-station.jpg"
+    ]
+  },
+  "character_reviews": {
+    "emmanuel": {
+      "candidate": "characters/emmanuel-v01.png",
+      "approved": false
+    },
+    "baba": {
+      "candidate": "characters/baba-v01.png",
+      "approved": true,
+      "identity_reference": "ref/baba-photo.jpg",
+      "approval_basis": "User replied תמשיך after reviewing Baba candidate."
+    },
+    "mother": {
+      "candidate": "characters/mother-v01.png",
+      "approved": true,
+      "approval_basis": "User explicitly replied מאשר after reviewing mother-v01."
+    },
+    "shimon": {
+      "candidate": "characters/shimon-v01.png",
+      "approved": false,
+      "review": "accepted for production after internal review; user requested autonomous continuation"
+    },
+    "father": {
+      "candidate": "characters/father-v01.png",
+      "approved": false,
+      "review": "internally reviewed for production"
+    },
+    "kid": {
+      "candidate": "characters/kid-v01.png",
+      "approved": false,
+      "review": "internally reviewed for production"
+    },
+    "girl": {
+      "candidate": "characters/girl-v01.png",
+      "approved": false,
+      "review": "internally reviewed for production"
+    },
+    "kidSmall": {
+      "candidate": "characters/kidSmall-v01.png",
+      "approved": false,
+      "review": "internally reviewed for production"
+    },
+    "lebBoy": {
+      "candidate": "characters/lebBoy-v01.png",
+      "approved": false,
+      "review": "internally reviewed for production"
+    },
+    "lebParents": {
+      "candidate": "characters/lebParents-v01.png",
+      "approved": false,
+      "review": "internally reviewed for production"
+    },
+    "stowaway": {
+      "candidate": "characters/stowaway-v01.png",
+      "approved": false,
+      "review": "internal review: stowaway resembles mother; needs more distinct features"
+    }
+  },
+  "next_character": "father",
+  "workflow": "automatic review as requested by user",
+  "page01_drafts": [
+    "a",
+    "h",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "n1"
+  ],
+  "page01_review": "Drafts include corrected d and f. g may lose characters in crop; required sizes and lettering space must be validated. All remain drafts.",
+  "page02_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page02_review": "c v02 and d v02 selected; crop and lettering pending",
+  "page03_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "page03_review": "a-d regenerated without unwanted people; needs final size/crop check and e needs space check",
+  "page04_drafts": [
+    "a",
+    "b",
+    "c",
+    "n1"
+  ],
+  "page04_review": "n1 v03 still has visible gray glow; original selected, requires clean alpha; crop and dimensions pending.",
+  "page05_drafts": [
+    "a",
+    "b",
+    "c"
+  ],
+  "page05_review": "verify crop and lettering margins; b four beds; all remain drafts",
+  "page06_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page06_review": "b,c,d regenerated in ship dining room; verify crop and lettering margins",
+  "page07_drafts": [
+    "a",
+    "b",
+    "c",
+    "n1"
+  ],
+  "page07_review": "n1 v03 still has visible gray glow; original selected, requires clean alpha; crop and dimensions pending.",
+  "page08_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page08_review": "a v03 selected with bare head, cap in hand and centered character; crop and lettering unverified.",
+  "page09_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "page09_review": "a v03 and e v05 selected, same ship continuity via hull-only e; crop and dimensions pending",
+  "page10_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "n1"
+  ],
+  "page10_review": "n1 has coloured halos and needs clean alpha; all require crop and lettering verification",
+  "page11_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g"
+  ],
+  "page11_review": "b–g v03 selected with scene-specific actions; crop, lettering and continuity unverified.",
+  "page12_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page12_review": "a v04 two funnels and d v03 selected; verify crop",
+  "page13_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page13_review": "validate day/night lighting, character distinction, crop and lettering",
+  "page14_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page14_review": "b v03 shows hands under bunk; c v02 and d v03 depict cabin; continuity and cropping remain to check.",
+  "page15_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "page15_review": "b,c,d v03, e v04 and f v02 selected; verify continuity and crop.",
+  "page16_drafts": [
+    "a",
+    "b",
+    "c"
+  ],
+  "page16_review": "a v02 and c v02 selected with harbor cranes and Mount Carmel; historical details and crop pending",
+  "page17_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "n1"
+  ],
+  "page17_review": "n1 alpha halo needs repair; check Haifa details, crop and lettering",
+  "page18_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page18_review": "d v03 selected: small central man waves both hands, verify visibility when cropped",
+  "page19_drafts": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "page19_review": "a v02 candidate has suspected anachronistic dome; original retained pending historical review; b v03 c v02 d v03 selected",
+  "page20_drafts": [
+    "a",
+    "b",
+    "c"
+  ],
+  "page20_review": "c v02 selected: father puts orange and bread on step; door and setting continuity with 21-a need visual validation",
+  "page21_drafts": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "page21_review": "a v03 selected on doorstep; door differs from 20-c and bread not visible; crop and continuity pending",
+  "page22_drafts": [
+    "a",
+    "b",
+    "c",
+    "n1"
+  ],
+  "page22_review": "b v02 selected for close-up of hands; verify crop and skin/hands anatomy; layer n1 still needs visual edge check",
+  "page23_drafts": [
+    "a",
+    "b"
+  ],
+  "page24_drafts": [
+    "a",
+    "z"
+  ],
+  "page23_review": "b v02 selected; verify close-up crop.",
+  "page24_review": "a,z regenerated; check crop and lettering",
+  "inventory": {
+    "expected": 105,
+    "present_drafts": 105,
+    "missing": [],
+    "size_mismatches": 30,
+    "alpha_layers": [
+      [
+        "p01-n1.png",
+        "RGBA",
+        [
+          0,
+          255
+        ]
+      ],
+      [
+        "p04-n1.png",
+        "RGBA",
+        [
+          0,
+          254
+        ]
+      ],
+      [
+        "p07-n1.png",
+        "RGBA",
+        [
+          0,
+          254
+        ]
+      ],
+      [
+        "p10-n1.png",
+        "RGBA",
+        [
+          0,
+          254
+        ]
+      ],
+      [
+        "p17-n1.png",
+        "RGBA",
+        [
+          0,
+          254
+        ]
+      ],
+      [
+        "p22-n1.png",
+        "RGBA",
+        [
+          0,
+          254
+        ]
+      ]
+    ]
+  }
+}

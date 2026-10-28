@@ -1,0 +1,1641 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>המסע אל אבא</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700;900&family=Heebo:wght@400;500;700;800&family=Rubik:wght@500;600;700&family=Karantina:wght@700&display=swap">
+<style>
+/* Layout concept: one long vertical read. The comic is a column of panel rows floating in a dark room; as each page crosses the middle of the screen the room's colour, light and drifting particles change to match it. All lettering is live HTML (bubbles, captions, labels) so any language can replace it. */
+@property --ca { syntax: '<color>'; inherits: true; initial-value: #3a2510; }
+@property --cb { syntax: '<color>'; inherits: true; initial-value: #1c1208; }
+@property --cc { syntax: '<color>'; inherits: true; initial-value: #0d0907; }
+@property --ce { syntax: '<color>'; inherits: true; initial-value: rgba(0,0,0,0); }
+@property --cg { syntax: '<color>'; inherits: true; initial-value: rgba(255,190,100,.4); }
+
+:root {
+  --bg: #0d0907;
+  --ink: #f1e6cf;
+  --ink-dim: #bfae8e;
+  --gold: #e0a84f;
+  --paper: #e6d7b6;
+  --paper-deep: #cdb98f;
+  --paper-ink: #3b2a17;
+  --comic-ink: #1b1410;
+  --caption: #f3e3b8;
+  --line: rgba(241, 230, 207, .16);
+  --rim: #efe3c8;
+  --font-display: 'Frank Ruhl Libre', 'David Libre', 'Times New Roman', serif;
+  --font-ui: 'Heebo', 'Assistant', 'Arial Hebrew', Arial, sans-serif;
+  --gutter: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  --grain: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-dark: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .25 0 0 0 0 .16 0 0 0 0 .07 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--bg); }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-ui); -webkit-tap-highlight-color: transparent; overflow-x: hidden; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+/* ---------- fixed atmosphere ---------- */
+#atmos { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+#bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 110% 100% at 50% 42%, transparent 48%, var(--ce) 118%),
+    radial-gradient(ellipse 120% 100% at 50% 42%, var(--ca) 0%, var(--cb) 52%, var(--cc) 100%);
+  transition: --ca 1.8s ease, --cb 1.8s ease, --cc 1.8s ease, --ce 1.8s ease, --cg 1.8s ease;
+}
+#glow {
+  position: absolute; left: 50%; top: 46%;
+  width: min(130vw, 1200px); height: min(120vh, 960px);
+  transform: translate(-50%, -50%);
+  background: radial-gradient(closest-side, var(--cg), transparent 100%);
+  transition: --cg 1.8s ease;
+}
+#glow.p-breath { animation: breath 7s ease-in-out infinite; }
+#glow.p-candle { animation: candle 3.4s steps(1, end) infinite; }
+#glow.p-pulse { animation: dimpulse 4.2s ease-in-out infinite; }
+#glow.p-lightning { animation: lightning 9s linear infinite; }
+#glow.p-flicker { animation: flicker 1.9s steps(1, end) infinite; }
+#glow.p-sunrise { animation: breath 9s ease-in-out infinite; }
+@keyframes breath { 0%, 100% { opacity: .8; transform: translate(-50%, -50%) scale(1); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); } }
+@keyframes candle { 0% { opacity: .9; } 14% { opacity: .72; } 31% { opacity: 1; } 47% { opacity: .8; } 63% { opacity: .95; } 82% { opacity: .7; } 100% { opacity: .9; } }
+@keyframes dimpulse { 0%, 100% { opacity: .85; } 50% { opacity: .35; } }
+@keyframes lightning { 0%, 58%, 62%, 100% { opacity: .55; } 59% { opacity: 1; } 60% { opacity: .5; } 61% { opacity: .95; } }
+@keyframes flicker { 0% { opacity: .9; } 20% { opacity: .55; } 40% { opacity: 1; } 55% { opacity: .6; } 80% { opacity: .95; } 100% { opacity: .9; } }
+#fx { position: absolute; inset: 0; width: 100%; height: 100%; }
+.vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 46%, transparent 52%, rgba(0, 0, 0, .6) 112%); }
+.grain { position: absolute; inset: 0; background-image: var(--grain); opacity: .06; mix-blend-mode: overlay; }
+
+/* ---------- fixed controls ---------- */
+.topbar {
+  position: fixed; z-index: 20; top: env(safe-area-inset-top, 0px); inset-inline: 0;
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding-block: 12px;
+  padding-left: var(--gutter); padding-right: var(--gutter-r);
+  pointer-events: none;
+}
+.topbar > * { pointer-events: auto; }
+.pill {
+  display: inline-flex; align-items: center; min-height: 38px; padding: 0 14px; gap: 6px;
+  background: rgba(20, 13, 8, .6); border: 1px solid var(--line); border-radius: 999px;
+  backdrop-filter: blur(6px); cursor: pointer; font-size: .9rem; font-weight: 600;
+  transition: background .2s ease, border-color .2s ease;
+}
+.pill:hover { background: rgba(224, 168, 79, .18); border-color: rgba(224, 168, 79, .55); }
+.pill[aria-pressed="true"] { background: rgba(224, 168, 79, .22); border-color: rgba(224, 168, 79, .6); }
+.langs { display: inline-flex; gap: 6px; }
+.hud {
+  position: fixed; z-index: 20; inset-inline: 0; bottom: env(safe-area-inset-bottom, 0px);
+  display: grid; justify-items: center; gap: 7px; padding-block: 26px 14px;
+  padding-left: var(--gutter); padding-right: var(--gutter-r);
+  background: linear-gradient(to top, rgba(8, 5, 3, .72), transparent);
+  pointer-events: none; transition: opacity .6s ease;
+}
+.hud.off { opacity: 0; }
+.hud-label { font-family: var(--font-display); font-size: 1rem; letter-spacing: .04em; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.hud-track { width: min(100%, 420px); height: 3px; border-radius: 3px; background: rgba(241, 230, 207, .14); overflow: hidden; }
+.hud-fill { height: 100%; width: 0; border-radius: 3px; background: linear-gradient(90deg, var(--gold), #f3d9a0); transition: width .5s ease; }
+.rail { position: fixed; z-index: 20; inset-inline-end: max(10px, env(safe-area-inset-right, 0px)); top: 50%; transform: translateY(-50%); display: grid; gap: 7px; padding: 8px 6px; border-radius: 999px; background: rgba(20, 13, 8, .35); transition: opacity .6s ease; }
+html[dir="ltr"] .rail { inset-inline-end: max(10px, env(safe-area-inset-right, 0px)); }
+.rail.off { opacity: 0; pointer-events: none; }
+.rail button { all: unset; box-sizing: border-box; width: 11px; height: 11px; display: grid; place-items: center; cursor: pointer; border-radius: 50%; }
+.rail button::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: rgba(241, 230, 207, .35); transition: transform .25s ease, background .25s ease; }
+.rail button:hover::before { background: var(--gold); transform: scale(1.5); }
+.rail button.on::before { background: var(--gold); transform: scale(1.9); }
+.rail button:focus-visible { outline: 2px solid var(--gold); }
+
+/* ---------- cover and outro ---------- */
+main { position: relative; z-index: 5; }
+.cover, .outro {
+  min-height: 100svh; display: grid; place-items: center; text-align: center;
+  padding-block: 80px 60px; padding-left: var(--gutter); padding-right: var(--gutter-r);
+  position: relative; overflow: hidden; color: var(--paper-ink);
+}
+.cover {
+  background:
+    radial-gradient(ellipse 70% 60% at 22% 18%, rgba(255, 214, 140, .75), transparent 70%),
+    var(--grain-dark),
+    linear-gradient(180deg, #e9dab8 0%, #d6c197 62%, rgba(185, 158, 108, 0) 100%);
+}
+.outro {
+  background:
+    linear-gradient(0deg, transparent 0, rgba(0,0,0,0) 0) ,
+    radial-gradient(ellipse 70% 60% at 70% 80%, rgba(255, 214, 140, .7), transparent 70%),
+    var(--grain-dark),
+    linear-gradient(0deg, #e0cfa6 0%, #cdb78b 70%, rgba(185, 158, 108, 0) 100%);
+}
+.cover::before { content: ""; position: absolute; inset: -20%; pointer-events: none; background: radial-gradient(circle at 30% 25%, rgba(255, 220, 150, .6), transparent 45%); animation: drift 16s ease-in-out infinite alternate; }
+@keyframes drift { from { transform: translate(-4%, -2%) scale(1); } to { transform: translate(6%, 4%) scale(1.12); } }
+.cover-inner, .outro-inner { position: relative; display: grid; gap: 14px; justify-items: center; max-width: 640px; will-change: transform, opacity; }
+.kicker { margin: 0; font-size: .95rem; letter-spacing: .18em; font-weight: 700; color: rgba(59, 42, 23, .7); }
+.title { margin: 0; font-family: var(--font-display); font-weight: 900; font-size: clamp(3rem, 12vw, 6.6rem); line-height: 1.04; text-wrap: balance; color: #3a2310; text-shadow: 0 2px 0 rgba(255, 240, 205, .55); }
+.subtitle { margin: 0; font-family: var(--font-display); font-size: clamp(1.15rem, 3.6vw, 1.6rem); color: rgba(59, 42, 23, .85); }
+.rule { width: 72px; height: 2px; background: rgba(59, 42, 23, .45); margin-block: 6px; }
+.cue { margin-top: 26px; display: grid; justify-items: center; gap: 6px; font-weight: 700; color: rgba(59, 42, 23, .8); }
+.cue svg { width: 26px; height: 26px; animation: bob 1.8s ease-in-out infinite; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+.outro-text { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(2.2rem, 8vw, 4rem); }
+.cta { margin-top: 14px; min-height: 52px; padding: 0 36px; font-size: 1.1rem; font-weight: 700; color: #fbeed0; background: #4a2d14; border: 0; border-radius: 999px; cursor: pointer; box-shadow: 0 10px 26px rgba(74, 45, 20, .35); transition: transform .2s ease, background .2s ease; }
+.cta:hover { background: #5d3a1b; transform: translateY(-1px); }
+
+/* ---------- pages and panels ---------- */
+/* A page is one canvas, 100 units wide. Panels are placed in those units, cut with parallel diagonal gutters, overlapped, faded into each other and nudged at different speeds while you scroll. */
+.page {
+  container-type: inline-size;
+  width: min(100%, 980px); margin-inline: auto;
+  padding-block: 2vh;
+  padding-left: var(--gutter); padding-right: var(--gutter-r);
+}
+.page + .page { margin-top: calc(min(100vw, 980px) * -.07); }
+.canvas { position: relative; width: 100%; aspect-ratio: 100 / 160; }
+.pw { position: absolute; will-change: transform; }
+.frame {
+  position: absolute; inset: 0; z-index: 1;
+  filter: drop-shadow(3px 0 0 var(--rim)) drop-shadow(-3px 0 0 var(--rim)) drop-shadow(0 3px 0 var(--rim)) drop-shadow(0 -3px 0 var(--rim)) drop-shadow(0 18px 26px rgba(0, 0, 0, .5));
+}
+.panel { position: absolute; inset: 0; overflow: hidden; background: #2a1d12; isolation: isolate; }
+.panel.circle { border-radius: 50%; }
+.panel::after {
+  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background: radial-gradient(circle, rgba(0, 0, 0, .6) 0 1.2px, transparent 1.7px) 0 0 / 7px 7px;
+  opacity: .32; mix-blend-mode: multiply;
+  -webkit-mask-image: radial-gradient(ellipse at 0% 100%, #000, transparent 55%);
+  mask-image: radial-gradient(ellipse at 0% 100%, #000, transparent 55%);
+}
+.panel.memory::before { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; box-shadow: inset 0 0 70px 16px rgba(30, 50, 80, .55); }
+.art { position: absolute; inset: 0; overflow: hidden; }
+.art img { position: absolute; inset: -6% 0; width: 100%; height: 112%; object-fit: cover; transform: scaleX(var(--flip, 1)) translateY(var(--py, 0px)) scale(calc(var(--sc, 1.05) * var(--zm, 1))); opacity: 0; transition: opacity .6s ease; will-change: transform; }
+.art img.ok { opacity: 1; }
+.ph {
+  position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 1.2cqw; text-align: center; padding: 8%;
+  background: var(--grain-dark), linear-gradient(155deg, var(--pa), var(--pb));
+  color: rgba(246, 236, 214, .92);
+}
+.ph .num { font-family: var(--font-display); font-weight: 900; font-size: clamp(2.4rem, 11cqw, 5.5rem); line-height: 1; opacity: .9; }
+.ph .brief { margin: 0; font-family: var(--font-display); font-size: clamp(.8rem, 2cqw, 1.15rem); line-height: 1.5; max-width: 30ch; text-wrap: balance; opacity: .92; }
+.ph .tag { margin: 0; font-size: .72rem; letter-spacing: .12em; font-weight: 700; opacity: .7; }
+.ph .prompt { display: none; margin: 0; max-width: 60ch; max-height: 70%; overflow: auto; text-align: start; direction: ltr; font: 500 .7rem/1.5 ui-monospace, Menlo, Consolas, monospace; background: rgba(0, 0, 0, .45); padding: 8px 10px; border-radius: 4px; user-select: text; }
+body.director .ph .prompt { display: block; }
+body.director .ph .brief { display: none; }
+.copy { display: none; margin-top: 4px; min-height: 34px; padding: 0 12px; background: rgba(0, 0, 0, .5); border: 1px solid rgba(255, 255, 255, .3); border-radius: 999px; cursor: pointer; font-size: .8rem; }
+body.director .copy { display: inline-block; }
+
+/* a bridge is drawn over the gutter so one panel's atmosphere spills into the next */
+.bridge { pointer-events: none; }
+.b-smoke i { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(228, 233, 239, .6), transparent 68%); filter: blur(7px); animation: puff 14s ease-in-out infinite alternate; }
+.b-smoke i:nth-child(1) { left: 0; top: 34%; width: 62%; height: 62%; }
+.b-smoke i:nth-child(2) { left: 26%; top: 0; width: 56%; height: 72%; animation-delay: -5s; }
+.b-smoke i:nth-child(3) { left: 52%; top: 30%; width: 48%; height: 68%; animation-delay: -9s; }
+.b-smoke i:nth-child(4) { left: 12%; top: 52%; width: 44%; height: 48%; animation-delay: -3s; }
+@keyframes puff { from { transform: translate(-6%, 5%) scale(.95); } to { transform: translate(9%, -9%) scale(1.14); } }
+
+/* lettering: live text drawn like hand-inked comic lettering */
+:root { --font-bubble: 'Rubik', 'Heebo', 'Assistant', Arial, sans-serif; --font-shout: 'Karantina', 'Secular One', 'Heebo', Arial, sans-serif; --paper-bubble: #fffdf6; }
+.txt { position: absolute; z-index: 3; isolation: isolate; line-height: 1.38; font-size: calc(var(--fs, 1) * clamp(.78rem, 2.05cqw, 1.22rem)); transform: rotate(var(--rot, 0deg)); }
+.bub, .tho, .whisper, .shout { padding: .68em 1.15em .74em; color: var(--comic-ink); font-family: var(--font-bubble); font-weight: 600; letter-spacing: .01em; text-align: center; text-wrap: balance; }
+.bub::before, .tho::before, .whisper::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; background: var(--paper-bubble);
+  border: 2.8px solid var(--comic-ink); border-radius: var(--shape, 52% 48% 50% 50% / 46% 50% 50% 54%);
+  box-shadow: 3px 3px 0 var(--comic-ink); filter: url(#rough);
+}
+.tho::before { border-radius: var(--shape-t, 46% 54% 52% 48% / 58% 56% 44% 42%); }
+.whisper::before { border-style: dashed; box-shadow: none; }
+.whisper { font-weight: 500; font-style: italic; opacity: .95; }
+/* curved tails */
+.bub::after, .whisper::after {
+  content: ""; position: absolute; width: 1.5em; height: 2em; z-index: -1; filter: url(#rough);
+  background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 50'%3E%3Cpath d='M4 -2 C6 22 14 36 31 50 C21 32 24 12 36 -2' fill='%23fffdf6' stroke='%231b1410' stroke-width='3.4' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+}
+.t-bs::after { bottom: -1.75em; inset-inline-start: 20%; }
+.t-be::after { bottom: -1.75em; inset-inline-end: 20%; transform: scaleX(-1); }
+.t-ts::after { top: -1.75em; inset-inline-start: 20%; transform: scaleY(-1); }
+.t-te::after { top: -1.75em; inset-inline-end: 20%; transform: scale(-1, -1); }
+/* thought clouds trail off in dots */
+.tho { font-weight: 600; }
+.tho::after {
+  content: ""; position: absolute; width: 2.2em; height: 1.9em; z-index: -1; filter: url(#rough);
+  background:
+    radial-gradient(circle at 70% 24%, var(--paper-bubble) 0 .36em, var(--comic-ink) .38em .52em, transparent .55em),
+    radial-gradient(circle at 34% 68%, var(--paper-bubble) 0 .22em, var(--comic-ink) .24em .36em, transparent .39em);
+}
+.tho.t-bs::after { bottom: -1.7em; inset-inline-start: 14%; }
+.tho.t-be::after { bottom: -1.7em; inset-inline-end: 14%; transform: scaleX(-1); }
+.tho.t-ts::after { top: -1.7em; inset-inline-start: 14%; transform: scaleY(-1); }
+.tho.t-te::after { top: -1.7em; inset-inline-end: 14%; transform: scale(-1, -1); }
+/* shouts: ink burst */
+.shout { font-family: var(--font-shout); font-weight: 700; font-size: calc(var(--fs, 1) * clamp(1rem, 2.9cqw, 1.7rem)); letter-spacing: .02em; line-height: 1.15; padding: 1.15em 1.5em; }
+.shout::before, .shout::after { content: ""; position: absolute; z-index: -1; clip-path: polygon(50.0% -0.3%, 57.8% 17.6%, 71.7% 7.2%, 73.1% 22.5%, 91.4% 18.6%, 83.3% 34.7%, 98.7% 39.4%, 85.0% 50.0%, 101.7% 61.2%, 83.3% 65.3%, 89.1% 79.6%, 73.1% 77.5%, 73.0% 95.4%, 57.8% 82.4%, 50.0% 97.5%, 41.8% 84.3%, 27.0% 95.4%, 26.9% 77.5%, 10.9% 79.6%, 18.5% 64.4%, -1.7% 61.2%, 13.0% 50.0%, 1.3% 39.4%, 16.7% 34.7%, 8.6% 18.6%, 28.2% 24.0%, 28.3% 7.2%, 41.8% 15.7%); }
+.shout::before { inset: -9%; background: var(--comic-ink); }
+.shout::after { inset: -3%; background: #ffe27a; }
+/* narration boxes */
+.cap {
+  padding: .6em 1em; background: var(--caption); color: #2d2014; border: 2.5px solid var(--comic-ink);
+  font-family: var(--font-display); font-weight: 700; text-wrap: balance; line-height: 1.45; box-shadow: 4px 4px 0 var(--comic-ink);
+}
+.cap::before { content: ""; position: absolute; top: -.5em; inset-inline-start: .9em; width: 2.4em; height: .78em; background: rgba(224, 188, 98, .88); border: 1.5px solid rgba(27, 20, 16, .35); transform: rotate(-4deg); }
+/* labels are small black stamps */
+.tag-box { padding: .35em .85em; background: var(--comic-ink); color: var(--caption); font-family: var(--font-ui); font-weight: 800; font-size: calc(var(--fs, 1) * .86em); letter-spacing: .06em; box-shadow: 3px 3px 0 var(--rim); }
+/* sound effects */
+.sfx { font-family: var(--font-shout); font-weight: 700; font-size: calc(var(--fs, 1) * clamp(1.7rem, 6.2cqw, 3.6rem)); line-height: 1; color: #ffd54a; -webkit-text-stroke: 3px var(--comic-ink); paint-order: stroke fill; text-shadow: 4px 4px 0 var(--comic-ink); letter-spacing: .02em; white-space: nowrap; }
+
+/* reveal on scroll */
+html.js .frame { opacity: 0; transform: translateY(40px) scale(.97); transition: opacity .9s ease, transform .9s cubic-bezier(.2, .8, .2, 1); }
+html.js .pw.in .frame { opacity: 1; transform: none; }
+html.js .txt { opacity: 0; transform: scale(.7) rotate(var(--rot, 0deg)); transform-origin: 50% 90%; transition: opacity .35s ease, transform .55s cubic-bezier(.3, 1.6, .5, 1); transition-delay: calc(.55s + var(--d, 0) * .32s); }
+html.js .pw.in .txt { opacity: 1; transform: rotate(var(--rot, 0deg)); }
+
+@media (max-width: 700px) {
+  .page { padding-block: 1vh; }
+  .page + .page { margin-top: calc(100vw * -.07); }
+  .txt { font-size: clamp(.82rem, 3.7cqw, 1.05rem); }
+  .rail { display: none; }
+}
+
+
+/* layers: transparent cut-outs that float over the panels */
+.layer img.lyr { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; pointer-events: none; transform: scaleX(var(--flip, 1)); }
+html[dir="ltr"] { --flip: -1; }
+.lyr-ph { display: none; }
+
+/* studio: only in edit mode */
+body.edit .frame { opacity: 1 !important; transform: none !important; }
+body.edit .txt { opacity: 1 !important; transform: none !important; pointer-events: auto; cursor: move; outline: 1.5px dashed rgba(102, 196, 223, .9); }
+body.edit .pw { outline: 1.5px dashed rgba(246, 214, 92, .75); pointer-events: auto; cursor: move; touch-action: none; transform: none !important; user-select: none; }
+body.edit .pw.sel { outline: 2.5px solid #f6d65c; }
+body.edit .txt.sel { outline: 2.5px solid #66c4df; }
+body.edit .layer:not(.has) .lyr-ph { display: grid; place-items: center; position: absolute; inset: 0; border: 2px dashed #f6d65c; font-size: .75rem; text-align: center; color: #f6d65c; background: rgba(0, 0, 0, .35); padding: 6px; word-break: break-all; }
+body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
+.hdl { position: absolute; width: 13px; height: 13px; background: #f6d65c; border: 2px solid #1b1410; border-radius: 2px; z-index: 60; transform: translate(-50%, -50%); touch-action: none; }
+.hdl[data-h="nw"] { left: 0; top: 0; cursor: nwse-resize; } .hdl[data-h="n"] { left: 50%; top: 0; cursor: ns-resize; } .hdl[data-h="ne"] { left: 100%; top: 0; cursor: nesw-resize; }
+.hdl[data-h="e"] { left: 100%; top: 50%; cursor: ew-resize; } .hdl[data-h="se"] { left: 100%; top: 100%; cursor: nwse-resize; } .hdl[data-h="s"] { left: 50%; top: 100%; cursor: ns-resize; }
+.hdl[data-h="sw"] { left: 0; top: 100%; cursor: nesw-resize; } .hdl[data-h="w"] { left: 0; top: 50%; cursor: ew-resize; }
+.tools { display: inline-flex; gap: 8px; }
+#studio { position: fixed; z-index: 40; left: max(12px, env(safe-area-inset-left, 0px)); top: calc(64px + env(safe-area-inset-top, 0px)); bottom: 84px; width: 300px; display: flex; flex-direction: column; direction: rtl; background: rgba(18, 12, 8, .96); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 12px 40px rgba(0, 0, 0, .5); font-size: .84rem; }
+#studio { opacity: .62; transition: opacity .2s ease; }
+#studio:hover, #studio:focus-within { opacity: 1; }
+#studio[hidden] { display: none; }
+.st-head { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.st-x { all: unset; cursor: pointer; font-size: 1.4rem; line-height: 1; padding: 0 6px; }
+.st-body { flex: 1; overflow: auto; padding: 12px 14px; display: grid; gap: 8px; align-content: start; }
+.st-row { display: grid; grid-template-columns: 1fr 120px; gap: 8px; align-items: center; }
+.st-row input[type="number"], .st-row select { width: 100%; min-height: 30px; background: #241a12; color: var(--ink); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; font: inherit; }
+.st-row input[type="range"] { width: 100%; }
+.st-row:has(textarea) { grid-template-columns: 1fr; }
+.st-ta { width: 100%; background: #241a12; color: var(--ink); border: 1px solid var(--line); border-radius: 4px; padding: 6px; font: inherit; resize: vertical; }
+.st-btn { display: inline-flex; justify-content: center; align-items: center; min-height: 32px; padding: 0 10px; background: #2d2118; color: var(--ink); border: 1px solid var(--line); border-radius: 4px; cursor: pointer; font: inherit; font-weight: 600; }
+.st-btn:hover { background: #3b2b1d; }
+.st-btn.danger { color: #ff9c8f; }
+.st-add { display: flex; flex-wrap: wrap; gap: 6px; }
+.st-h { margin: 0; font-family: var(--font-display); font-size: 1.05rem; }
+.st-hint { margin: 0; color: var(--ink-dim); line-height: 1.5; }
+.st-sep { border: 0; height: 1px; background: var(--line); width: 100%; margin: 6px 0; }
+.st-status { padding: 8px 14px; border-top: 1px solid var(--line); color: var(--ink-dim); min-height: 34px; }
+@media (max-width: 700px) { #editBtn { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  html.js .frame, html.js .txt { transition-duration: .01s; transition-delay: 0s; }
+  .cover::before, .cue svg, #glow { animation: none !important; }
+  #bg { transition-duration: .01s; }
+}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="rough" x="-8%" y="-8%" width="116%" height="116%"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G"/></filter></svg>
+<div id="atmos" aria-hidden="true">
+  <div id="bg"></div>
+  <div id="glow"></div>
+  <canvas id="fx"></canvas>
+  <div class="vignette"></div>
+  <div class="grain"></div>
+</div>
+
+<div class="topbar">
+  <div class="langs" role="group" aria-label="שפה / Language">
+    <button class="pill" type="button" data-lang="he" aria-pressed="true">עברית</button>
+    <button class="pill" type="button" data-lang="en" aria-pressed="false">English</button>
+  </div>
+  <div class="tools"><button class="pill" type="button" id="editBtn" aria-pressed="false">עריכת פריסה</button><button class="pill" type="button" id="director" aria-pressed="false" data-k="ui.director">מצב במאי</button></div>
+</div>
+
+<nav class="rail off" id="rail" aria-label="דפי הספר"></nav>
+<div class="hud off" id="hud" aria-live="polite">
+  <div class="hud-label" id="hudLabel"></div>
+  <div class="hud-track" role="progressbar" aria-valuemin="1" id="hudTrack"><div class="hud-fill" id="hudFill"></div></div>
+</div>
+
+<main id="book">
+  <section class="cover" id="cover" aria-label="פתיחה">
+    <div class="cover-inner" id="coverInner">
+      <p class="kicker" data-k="cover.kicker"></p>
+      <h1 class="title" data-k="cover.title"></h1>
+      <div class="rule"></div>
+      <p class="subtitle" data-k="cover.sub"></p>
+      <div class="cue">
+        <span data-k="cover.cue"></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>
+      </div>
+    </div>
+  </section>
+  <div id="pages"></div>
+  <section class="outro" id="outro" aria-label="סיום">
+    <div class="outro-inner" id="outroInner">
+      <p class="outro-text" data-k="outro.text"></p>
+      <div class="rule"></div>
+      <button class="cta" id="restart" type="button" data-k="outro.restart"></button>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  document.documentElement.classList.add('js');
+  var RM = false;
+  try { RM = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+
+  /* ===================== text: every string the reader sees ===================== */
+  /* To add a language, add one more object here with the same keys and one more button in .langs. Missing keys fall back to Hebrew. */
+  var STR = {
+    he: {
+      'ui.director': 'מצב במאי', 'ui.page': 'דף {n} מתוך {total}', 'ui.copy': 'העתק הנחיה', 'ui.copied': 'הועתק', 'ui.waiting': 'האיור ממתין',
+      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'המסע אל אבא', 'cover.sub': 'סיפור משפחתי בקומיקס', 'cover.cue': 'גוללים כדי לקרוא',
+      'outro.text': 'המשך יבוא...', 'outro.restart': 'חזרה להתחלה',
+      'p1.cap0': 'לפני שהיה ‘באבא’... הוא היה ילד קטן בשם עמנואל.',
+      'p1.cap1': 'ערב שבת. בית הכנסת.',
+      'p1.q1': 'באבא, למה לא כתבת סיפור השבוע?',
+      'p1.q2': 'יש סיפור?',
+      'p1.b1': 'כי היום... אספר לכם סיפור אמיתי.',
+      'p1.cap2': 'מרץ 1946. הייתי בן שמונה וחצי, ויצאתי למסע לפגוש את אבא שלי, שלא הכרתי.',
+      'p1.tag1': 'תחנת רכבת, אירופה · 1946',
+      'p1.th1': 'איך נראה אבא שלי? מעולם לא פגשתי אותו...',
+      'p1.cap3': 'והוא עוד לא ידע... שהמסע הזה ישנה את חייו.',
+      'p1.brief.a': 'בית הכנסת בערב שבת. הבאבא במרכז, מוקף אנשים אוהבים.',
+      'p1.brief.b': 'הבאבא מחייך, קלוז־אפ חם.',
+      'p1.brief.c': 'נכד סקרן שואל את הבאבא.',
+      'p1.brief.d': 'ילד קטן מציץ מעל הספסל.',
+      'p1.brief.e': 'הבאבא מתכופף אל הילדים ומתחיל לספר.',
+      'p1.brief.f': 'זיכרון: רציף ערפילי ורכבת קיטור.',
+      'p1.brief.h': 'עיגול: יד כותבת במחברת ישנה.',
+      'p1.brief.g': 'תחנת רכבת באירופה, 1946. עמנואל, אמא ושמעון עם מזוודות.',
+      'scene.2': 'כניסה לזיכרון. עמנואל, אמא ושמעון על הרציף, העשן מתפזר. “איך נראה אבא?”',
+      'scene.3': 'נסיעה ברכבת דרך צרפת. עמנואל צמוד לחלון, אמא מעודדת.',
+      'scene.4': 'נמל מרסיי: המון אנשים, מזוודות, ואונייה ענקית. עמנואל נדהם.',
+      'scene.5': 'עלייה לאונייה טרנסילבניה. תא קטן עם 4 מיטות. עמנואל חושב שזה ארמון.',
+      'scene.6': 'חדר אוכל כשר. עמנואל טועם זיתים בפעם הראשונה.',
+      'scene.7': 'עמנואל פוגש ילד מלבנון. שני ילדים משחקים וצוחקים.',
+      'scene.8': 'הילד הלבנוני לא מגיע, ואחר כך מתרחק. הוריו אסרו עליו לשחק עם יהודי. כאב ראשון.',
+      'scene.9': 'ים פתוח וסערה קלה. הנוסעים מפחדים, ועמנואל דווקא מתרגש.',
+      'scene.10': 'עצירה בנאפולי. רחוב תוסס ומופע ליצנים שכולם נהנים ממנו.',
+      'scene.11': 'אחרי המופע מתברר שכייסו את הנוסעים. בהלה. לעמנואל היו רק כמה מטבעות.',
+      'scene.12': 'לילה באונייה. רעש מתחת למיטה. עמנואל מפחד.',
+      'scene.13': 'מתגלה אישה שמסתתרת מתחת למיטה. אמא מרגיעה אותה.',
+      'scene.14': 'אמא מביאה לה אוכל בסתר. עמנואל לומד חסד בלי מילים.',
+      'scene.15': 'הבאבא עוצר את הסיפור ושואל את הילדים: “למה היא התחבאה לדעתכם?”',
+      'scene.16': 'זריחה. האונייה מתקרבת לחיפה. אנשים בוכים ומתפללים.',
+      'scene.17': 'נמל חיפה: סירות קטנות והמון אנשים מנופפים.',
+      'scene.18': 'אמא צועקת בשמחה. עמנואל מחפש את אבא ורואה אדם נמוך מנפנף.',
+      'scene.19': 'עמנואל בהלם. זה אבא? הוא דמיין גיבור גבוה. פניו מאוכזבות.',
+      'scene.20': 'ימים ראשונים בארץ. עמנואל מרוחק, והאבא מנסה להתקרב בשקט.',
+      'scene.21': 'רגע גבול חד מצד האב. לא כעסני, עוצמתי. עמנואל מגלה כוח אמיתי.',
+      'scene.22': 'חיבור ראשון. הם הולכים יחד, כתף אל כתף.',
+      'scene.23': 'הבאבא מסיים: “יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.”',
+      'scene.24': 'עמוד הסיום. הבאבא מוקף נכדים וחיוך. “המשך יבוא – הספר הבא.”'
+    },
+    en: {
+      'ui.director': 'Director mode', 'ui.page': 'Page {n} of {total}', 'ui.copy': 'Copy prompt', 'ui.copied': 'Copied', 'ui.waiting': 'Artwork pending',
+      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'The Journey to Father', 'cover.sub': 'A family story in comics', 'cover.cue': 'Scroll to read',
+      'outro.text': 'To be continued...', 'outro.restart': 'Back to the beginning',
+      'p1.cap0': 'Before he was ‘Baba’... he was a little boy named Emmanuel.',
+      'p1.cap1': 'Friday evening. The synagogue.',
+      'p1.q1': 'Baba, why didn’t you write a story this week?',
+      'p1.q2': 'Is there a story?',
+      'p1.b1': 'Because today... I’m going to tell you a true story.',
+      'p1.cap2': 'March 1946. I was eight and a half, and I set out to meet my father, whom I had never known.',
+      'p1.tag1': 'Railway station, Europe · 1946',
+      'p1.th1': 'What does my father look like? I have never met him...',
+      'p1.cap3': 'And he didn’t yet know... that this journey would change his life.',
+      'p1.brief.a': 'The synagogue on Friday evening. Baba at the centre, surrounded by people who love him.',
+      'p1.brief.b': 'Baba smiling, warm close-up.',
+      'p1.brief.c': 'A curious grandchild asks Baba a question.',
+      'p1.brief.d': 'A small child peeks over the bench.',
+      'p1.brief.e': 'Baba leans in towards the children and begins to tell.',
+      'p1.brief.f': 'Memory: a misty platform and a steam train.',
+      'p1.brief.h': 'Circle: a hand writing in an old notebook.',
+      'p1.brief.g': 'A European railway station, 1946. Emmanuel, Mother and Shimon with suitcases.',
+      'scene.2': 'Entering the memory. Emmanuel, Mother and Shimon on the platform as the smoke clears. “What does Father look like?”',
+      'scene.3': 'A train ride across France. Emmanuel at the window, Mother encouraging him.',
+      'scene.4': 'The port of Marseille: crowds, suitcases and an enormous ship. Emmanuel is amazed.',
+      'scene.5': 'Boarding the Transylvania. A small cabin with four beds. Emmanuel thinks it is a palace.',
+      'scene.6': 'The kosher dining room. Emmanuel tastes olives for the first time.',
+      'scene.7': 'Emmanuel meets a boy from Lebanon. Two children play and laugh.',
+      'scene.8': 'The Lebanese boy does not come, then keeps his distance. His parents forbade him to play with a Jew. A first hurt.',
+      'scene.9': 'Open sea and a light storm. The passengers are afraid, and Emmanuel is thrilled.',
+      'scene.10': 'A stop in Naples. A lively street and a clown show everyone enjoys.',
+      'scene.11': 'After the show the passengers find they were pickpocketed. Panic. Emmanuel had only a few coins.',
+      'scene.12': 'Night on the ship. A noise under the bed. Emmanuel is scared.',
+      'scene.13': 'A woman is hiding under the bed. Mother calms her.',
+      'scene.14': 'Mother secretly brings her food. Emmanuel learns kindness without words.',
+      'scene.15': 'Baba pauses the story and asks the children: “Why was she hiding, do you think?”',
+      'scene.16': 'Sunrise. The ship nears Haifa. People weep and pray.',
+      'scene.17': 'Haifa port: small boats and a crowd waving.',
+      'scene.18': 'Mother cries out with joy. Emmanuel looks for his father and sees a short man waving.',
+      'scene.19': 'Emmanuel is stunned. Is that Father? He had imagined a tall hero. His face falls.',
+      'scene.20': 'The first days in the land. Emmanuel keeps his distance while his father quietly tries to come closer.',
+      'scene.21': 'A sharp moment of boundaries from Father. Not angry, but powerful. Emmanuel discovers real strength.',
+      'scene.22': 'The first bond between them. They walk together, shoulder to shoulder.',
+      'scene.23': 'Baba concludes: “Some people don’t look big... until you discover how much heart they have.”',
+      'scene.24': 'The closing page. Baba surrounded by grandchildren and a smile. “To be continued in the next book.”'
+    }
+  };
+  var LANG_DIR = { he: 'rtl', en: 'ltr' };
+  var lang = 'he';
+  function t(k) { return (STR[lang] && STR[lang][k] != null) ? STR[lang][k] : (STR.he[k] != null ? STR.he[k] : k); }
+
+  /* ===================== art direction: paste these into any image tool ===================== */
+  var STYLE = 'Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.';
+  var BIBLE = {
+    baba: 'BABA (the elderly narrator, 75+, based on the real grandfather): receding hairline with short gray-white hair at the sides, thin rectangular glasses, small knitted kippah, kind laugh lines, warm wise smile, white collared shirt and simple dark jacket.',
+    emmanuel: 'EMMANUEL as a boy (8.5, England 1946): slim, big curious intelligent dark-brown eyes, short dark hair, flat wool newsboy cap, brown wool jacket with white collar, knee-length shorts, long socks, old brown suitcase.',
+    mother: 'MOTHER (late 30s): strong and gentle Jewish woman, kind protective face, dark hair under a simple blue headscarf, modest dark-blue wool coat, long skirt, worn leather handbag.',
+    shimon: 'SHIMON (14.5): quiet, responsible teenage brother, short dark hair, flat grey cap, grey wool jacket, trousers with suspenders, carries a suitcase.',
+    kid: 'A modern Israeli grandchild (about 10): short brown hair, small kippah, light shirt and olive knit vest.',
+    girl: 'A modern Israeli granddaughter (about 8): brown bob haircut, bright eyes, pink cardigan over a white blouse.',
+    kidSmall: 'The youngest listener (about 5): round face, messy light-brown hair, small kippah, big wide eyes, striped sweater.',
+    father: 'FATHER (Emmanuel\'s father, about 45-50 in 1946): short in stature, clearly shorter than his wife; strong weathered face, deep calm eyes, a quiet inner dignity, short dark hair graying at the temples; simple work clothes: khaki trousers, a pale shirt with rolled sleeves, a worn flat cap; strong hands.',
+    lebBoy: 'LEBANESE BOY (about 8.5): dark curly hair, bright friendly eyes, white short-sleeved shirt and short trousers, well-kept.',
+    lebParents: 'LEBANESE PARENTS 1946: the father in a dark suit and a red tarboosh, the mother in a pale elegant dress, a small hat and gloves; formal, reserved posture.',
+    stowaway: 'THE HIDDEN WOMAN (about 40): thin, pale, frightened dark eyes, dark hair pinned back, plain gray dress, worn cardigan; fragile but dignified.'
+  };
+  var PAL = {
+    warm: 'Palette: warm golden light, honey wood, soft amber.',
+    cold: 'Palette: cold blue-gray, fog, iron and brown, 1946 Europe.',
+    port: 'Palette: hazy pale blue-gray water, warm sandy stone, soft sunlight, Mediterranean port.',
+    sea: 'Palette: bright clean blues of the open sea, white decks, warm sun glints.',
+    storm: 'Palette: deep slate and navy blues, dark clouds, white foam, dramatic contrast.',
+    naples: 'Palette: saturated warm terracotta, yellow ochre, faded pastel walls, vivid costumes, strong sunlight.',
+    panic: 'Palette: amber and brown-red tension, late-afternoon light, harsher contrast.',
+    night: 'Palette: deep midnight blue and black with small warm lamp accents and silver moonlight.',
+    dawn: 'Palette: golden pink dawn, glowing peach sky, green hills, white buildings.',
+    haifa: 'Palette: bright Mediterranean morning, turquoise sea, white stone buildings, warm golden light.',
+    land: 'Palette: dusty ochre and sand, whitewashed stone, silver-green eucalyptus, strong warm Middle-Eastern sunlight, 1946.',
+    hard: 'Palette: high-contrast deep shadows against bright window light, restrained muted colors.'
+  };
+
+  /* ===================== palettes and particle recipes ===================== */
+  var T = {
+    gold:     { a: '#7a5320', b: '#3a2510', c: '#120b05', e: 'rgba(70,105,140,.34)',  g: 'rgba(255,190,100,.50)' },
+    goldEnd:  { a: '#7a5320', b: '#35230f', c: '#110a05', e: 'rgba(80,115,150,.5)',   g: 'rgba(255,190,100,.46)' },
+    station:  { a: '#66727c', b: '#303a43', c: '#0d1115', e: 'rgba(150,110,70,.18)',  g: 'rgba(200,210,222,.30)' },
+    train:    { a: '#3d5266', b: '#1c2a38', c: '#070b10', e: 'rgba(0,0,0,.35)',       g: 'rgba(140,175,210,.30)' },
+    port:     { a: '#6d7f8a', b: '#33434f', c: '#0e151b', e: 'rgba(0,0,0,.3)',        g: 'rgba(214,204,172,.30)' },
+    cabin:    { a: '#7a5a34', b: '#2c2a35', c: '#0b0b10', e: 'rgba(30,50,90,.4)',     g: 'rgba(255,200,120,.45)' },
+    dining:   { a: '#8a5a22', b: '#3b2410', c: '#130b05', e: 'rgba(0,0,0,.3)',        g: 'rgba(255,176,80,.50)' },
+    seaDay:   { a: '#4f8ea8', b: '#1f4a63', c: '#08161f', e: 'rgba(255,220,160,.12)', g: 'rgba(190,235,255,.40)' },
+    sadSea:   { a: '#46586a', b: '#1e2a38', c: '#080c12', e: 'rgba(0,0,0,.35)',       g: 'rgba(150,170,195,.25)' },
+    storm:    { a: '#26384f', b: '#0f1a2a', c: '#04070c', e: 'rgba(0,0,0,.4)',        g: 'rgba(120,160,220,.35)' },
+    naples:   { a: '#a0612a', b: '#4a2a1c', c: '#160c08', e: 'rgba(210,80,60,.18)',   g: 'rgba(255,170,90,.55)' },
+    panic:    { a: '#5a2e2a', b: '#2a1618', c: '#0b0607', e: 'rgba(0,0,0,.4)',        g: 'rgba(255,120,90,.30)' },
+    night:    { a: '#18284a', b: '#0a1226', c: '#020409', e: 'rgba(0,0,0,.4)',        g: 'rgba(90,130,200,.30)' },
+    lamp:     { a: '#3a3020', b: '#12100c', c: '#030303', e: 'rgba(0,0,0,.4)',        g: 'rgba(255,205,120,.60)' },
+    candle:   { a: '#6a4524', b: '#2a1a0e', c: '#0c0704', e: 'rgba(0,0,0,.3)',        g: 'rgba(255,175,90,.55)' },
+    dawn:     { a: '#d98a4a', b: '#6a4a62', c: '#141425', e: 'rgba(40,40,90,.35)',    g: 'rgba(255,200,130,.65)' },
+    haifa:    { a: '#d3a35a', b: '#4b6d86', c: '#0f1c28', e: 'rgba(0,0,0,.25)',       g: 'rgba(255,225,160,.55)' },
+    joy:      { a: '#b8782e', b: '#5a3a1a', c: '#1a0f06', e: 'rgba(0,0,0,.25)',       g: 'rgba(255,200,110,.50)' },
+    letdown:  { a: '#7b7468', b: '#35342f', c: '#0f0f0e', e: 'rgba(60,80,110,.3)',    g: 'rgba(190,185,170,.25)' },
+    earth:    { a: '#8a7350', b: '#3f3526', c: '#14100a', e: 'rgba(0,0,0,.3)',        g: 'rgba(240,210,150,.35)' },
+    hard:     { a: '#5b5048', b: '#241e1b', c: '#070606', e: 'rgba(0,0,0,.5)',        g: 'rgba(255,230,200,.20)' },
+    together: { a: '#c58a3c', b: '#6b4220', c: '#1c0f06', e: 'rgba(0,0,0,.2)',        g: 'rgba(255,205,120,.60)' }
+  };
+  var WARM = '255,225,170', COOL = '190,205,225', GOLD = '255,205,120';
+  function P(k, n, c, s) { return { k: k, n: n, c: c || WARM, s: s || 1 }; }
+
+  /* ===================== the book ===================== */
+  /* A panel is a box in page units (the page is 100 wide, H tall). cut = diagonal edges: t / b / l / r as +1 or -1 (which end of the edge sits lower or further in).
+     Panels whose facing edges use the same cut direction get parallel diagonal gutters. fade = t | b | tb | s | e dissolves that edge into whatever is behind it.
+     sp = how far the panel drifts against the scroll, circle = round inset, bridge = a drifting effect drawn over the gutter.
+     text: k = bub | tho | cap | tag, from = start | end, v = top | bottom, x / y = offsets in % of the panel, w = width in %, tail = bs | be | ts | te. */
+  var SLOPE = .07;
+  function C(t, b, l, r) { return { t: t || 0, b: b || 0, l: l || 0, r: r || 0 }; }
+  var PAGES = [
+    { theme: 'gold', parts: [P('dust', 50), P('smoke', 3, COOL)], pulse: 'breath', H: 160,
+      panels: [
+        { id: 'a', x: 0, y: 0, w: 100, h: 44, cut: C(0, 1), z: 1,
+          shot: 'Wide cinematic interior of a small warm Israeli neighborhood synagogue on a Friday afternoon: golden light from arched windows, wooden benches, a Torah ark with a blue curtain. At the center Baba sits smiling kindly behind a wooden table with an open notebook, surrounded by worshippers in prayer shawls and children leaning in affectionately. Ultra-wide establishing shot, about 2.3:1.', chars: ['baba'], pal: 'warm',
+          text: [{ k: 'cap', id: 'p1.cap1', from: 'start', x: 3, v: 'top', y: 8, w: 30 }] },
+        { id: 'h', circle: true, x: 72, y: 3, w: 24, h: 24, z: 6, sp: 22,
+          shot: 'Circular close-up: an elderly hand holding a pen and writing in an old worn notebook on a wooden desk, warm side light, shallow depth of field. 1:1.', chars: [], pal: 'warm',
+          text: [{ k: 'cap', id: 'p1.cap0', from: 'end', x: 2, v: 'bottom', y: -40, w: 118 }] },
+        { id: 'b', x: 0, y: 38.5, w: 58, h: 40, cut: C(1, 1), z: 2,
+          shot: 'Tight close-up portrait of Baba, a tender knowing smile, a twinkle in his eyes, soft window light, blurred congregation behind him. About 3:2.', chars: ['baba'], pal: 'warm', text: [] },
+        { id: 'c', x: 60, y: 42.7, w: 40, h: 19, cut: C(1, 1), z: 2, sp: -10,
+          shot: 'Medium side shot of a curious boy of about 10 in a synagogue looking up at someone off-frame as he asks a question, warm light, blurred background. About 2:1.', chars: ['kid'], pal: 'warm',
+          text: [{ k: 'bub', id: 'p1.q1', from: 'start', x: 6, v: 'top', y: 10, w: 68, tail: 'be' }] },
+        { id: 'd', x: 60, y: 60.4, w: 40, h: 18.1, cut: C(1, 1), z: 2,
+          shot: 'A very small child of about 5 peeking wide-eyed over the top of a wooden synagogue bench: only eyes, nose and little fingers visible, innocent surprise, warm light. About 2:1.', chars: [], pal: 'warm',
+          text: [{ k: 'bub', id: 'p1.q2', from: 'end', x: 6, v: 'top', y: 12, w: 42, tail: 'bs' }] },
+        { id: 'e', x: 0, y: 75.9, w: 62, h: 34.04, cut: C(1, 1), z: 3, sp: 8,
+          shot: 'Baba in the synagogue leaning slightly toward a small group of attentive children and young parents who gather around him with delighted anticipation; he gives a conspiratorial smile. Warm gold light. Wide, about 2:1.', chars: ['baba', 'kid'], pal: 'warm',
+          text: [{ k: 'bub', id: 'p1.b1', from: 'start', x: 5, v: 'top', y: 8, w: 46, tail: 'be' }] },
+        { id: 'f', x: 64, y: 77.5, w: 36, h: 35.1, cut: C(1, 1), z: 3, memory: true,
+          shot: 'Memory vignette: a misty empty European railway platform in 1946, a black steam locomotive releasing white steam, old brown suitcases stacked on the platform, cold blue-gray palette, dreamlike faded edges. About 1:1.', chars: [], pal: 'cold',
+          text: [{ k: 'cap', id: 'p1.cap2', from: 'start', x: 4, v: 'bottom', y: 5, w: 92 }] },
+        { id: 'g', x: 0, y: 107.1, w: 100, h: 52, cut: C(1, 0), fade: 'b', z: 4, memory: true,
+          shot: 'Cold, foggy European railway station in March 1946: iron arched roof, a steam train at the left. At the right on the platform stand Emmanuel (boy, flat cap), his mother (blue headscarf, coat) and his brother Shimon, holding suitcases; the boy gazes forward thoughtfully, hopeful and uneasy. Blue-gray and brown palette. Wide, about 2:1, the lower edge fading into fog.', chars: ['emmanuel', 'mother', 'shimon'], pal: 'cold',
+          text: [
+            { k: 'tag', id: 'p1.tag1', from: 'start', x: 3, v: 'top', y: 7, w: 0 },
+            { k: 'tho', id: 'p1.th1', from: 'start', x: 6, v: 'top', y: 20, w: 38, tail: 'be' },
+            { k: 'cap', id: 'p1.cap3', from: 'start', x: 3, v: 'bottom', y: 5, w: 94 }
+          ] },
+        { id: 'br', bridge: 'smoke', x: 50, y: 98, w: 50, h: 26, z: 7 },
+        { id: 'n1', layer: true, x: 70, y: 103, w: 15, h: 15, z: 9, sp: 14, d: 'מזוודה ישנה שחוצה את הגבול בין הזיכרון לתחנה.', shot: 'An old brown leather suitcase with brass corners and a worn handle, three-quarter view, painterly graphic-novel style with soft ink outlines, soft light from the upper left.', text: [], chars: [], pal: 'cold' }
+      ] },
+    S('station', [P('smoke', 9, '210,215,222'), P('fog', 4, COOL), P('dust', 18, COOL)], ''),
+    S('train', [P('streak', 9, '170,200,235'), P('dust', 18, COOL), P('smoke', 4, COOL)], ''),
+    S('port', [P('cloud', 5, '215,218,215'), P('dust', 22, COOL), P('smoke', 3, '200,200,200')], 'breath'),
+    S('cabin', [P('dust', 30), P('spark', 6, GOLD)], 'candle'),
+    S('dining', [P('dust', 30), P('spark', 8, GOLD)], 'candle'),
+    S('seaDay', [P('shimmer', 30, '255,255,255'), P('dust', 14, '240,250,255')], 'breath'),
+    S('sadSea', [P('fog', 5, '160,175,195'), P('dust', 10, COOL)], ''),
+    S('storm', [P('rain', 90, '170,200,235'), P('fog', 4, '120,140,170')], 'lightning'),
+    S('naples', [P('spark', 24, '255,200,120'), P('dust', 20)], 'breath'),
+    S('panic', [P('dust', 12, '255,180,150'), P('smoke', 3, '200,150,140')], 'flicker'),
+    S('night', [P('fog', 7, '100,130,190'), P('dust', 8, '150,170,220')], 'pulse'),
+    S('lamp', [P('spark', 14, '255,215,140'), P('dust', 14)], 'breath'),
+    S('candle', [P('spark', 12, GOLD), P('dust', 26)], 'candle'),
+    S('gold', [P('dust', 40), P('smoke', 2, COOL)], 'breath'),
+    S('dawn', [P('shimmer', 26, '255,230,180'), P('cloud', 4, '255,210,170'), P('dust', 20, '255,235,200')], 'sunrise'),
+    S('haifa', [P('shimmer', 30, '255,245,215'), P('cloud', 4, '250,240,225'), P('dust', 20)], 'breath'),
+    S('joy', [P('dust', 30), P('spark', 8, GOLD)], 'breath'),
+    S('letdown', [P('dust', 14, COOL), P('fog', 3, '170,170,165')], ''),
+    S('earth', [P('dust', 36, '230,205,150'), P('cloud', 3, '220,200,160')], ''),
+    S('hard', [P('dust', 6, COOL)], ''),
+    S('together', [P('dust', 40, GOLD), P('spark', 6, GOLD)], 'breath'),
+    S('gold', [P('dust', 28)], 'breath'),
+    S('goldEnd', [P('paper', 8, '240,225,190'), P('dust', 30)], 'breath')
+  ];
+  function S(theme, parts, pulse) { return { theme: theme, parts: parts, pulse: pulse, stub: true }; }
+  /* ===================== pages 2 to 24: written as tiers; the layout engine keeps facing edges parallel ===================== */
+  function X(k, pos, he, en, w) {
+    var from = pos.charAt(1) === 's' ? 'start' : 'end';
+    var v = pos.charAt(0) === 't' ? 'top' : 'bottom';
+    return { k: k, from: from, v: v, x: 5, y: v === 'top' ? 7 : 6, w: w === undefined ? (k === 'tag' ? 0 : 52) : w, tail: (k === 'bub' || k === 'tho' || k === 'whisper') ? (from === 'start' ? 'bs' : 'be') : '', he: he, en: en };
+  }
+  function Pn(id, w, d, shot, chars, pal, text, o) {
+    var p = { id: id, w: w, d: d, shot: shot, chars: chars || [], pal: pal || 'warm', text: text || [] };
+    if (o) Object.keys(o).forEach(function (k) { p[k] = o[k]; });
+    return p;
+  }
+  var STORY = {
+    2: { tiers: [
+      { h: 44, lean: 1, panels: [Pn('a', 100, 'רציף התחנה בערפל. עמנואל, אמא ושמעון עם מזוודות.', 'Wide establishing shot of a cold, foggy European railway platform in March 1946: iron arched roof, steam drifting, a black steam locomotive at the left receding into the mist, scattered luggage and a few distant travelers. In the right foreground the three travelers stand close together: Emmanuel (small, flat cap, holding an old suitcase), his mother (blue headscarf, dark-blue coat) and Shimon (grey cap, suitcase). They look toward the incoming train. Blue-gray and brown tones.', ['emmanuel', 'mother', 'shimon'], 'cold', [X('tag', 'ts', 'תחנת רכבת, אירופה · מרץ 1946', 'Railway station, Europe · March 1946')], { fade: 't', memory: true })] },
+      { h: 32, lean: 1, panels: [
+        Pn('b', 6, 'פניו של עמנואל: מבט קדימה, מלא תקווה.', 'Close-up of Emmanuel\'s face (8.5 years old, flat cap), looking ahead down the platform with big curious eyes, hope and a trace of worry, steam softly blurred behind him, cold blue-gray light with a faint warm glint in his eyes.', ['emmanuel'], 'cold', [X('tho', 'ts', 'איך נראה אבא?', 'What does Father look like?', 46)], { memory: true }),
+        Pn('c', 4, 'שמעון שותק ואחראי ומחזיק את המזוודה.', 'Medium shot of Shimon (14.5) standing quietly with a suitcase in each hand, protective big-brother posture, glancing at his younger brother, foggy platform behind.', ['shimon'], 'cold', [], { memory: true })] },
+      { h: 24, lean: 0, panels: [Pn('d', 100, 'עיניים גדולות. הדמיון: אבא גבוה וחזק.', 'Extreme close-up on a boy\'s eyes only (Emmanuel), wide and shining, reflecting a tiny steam train; wide strip composition, the lower part fading into pale fog.', ['emmanuel'], 'cold', [X('cap', 'bs', 'בראש שלי הוא היה גבוה וחזק, גיבור שהצליח לברוח מהנאצים.', 'In my mind he was tall and strong, a hero who had escaped the Nazis.', 78)], { fade: 'b', memory: true })] }
+    ] },
+    3: { tiers: [
+      { h: 34, lean: -1, panels: [Pn('a', 100, 'הרכבת יוצאת מלונדון ועוברת בכפר האנגלי.', 'Wide shot from outside of a steam train crossing a stone viaduct through English countryside at morning, a plume of white steam, green hills, grey sky, small lit windows along the carriages. Soft cold light.', [], 'cold', [X('cap', 'ts', 'בסוף מרץ 1946 יצאנו מלונדון ברכבת, דרך כל צרפת, אל נמל מרסיי.', 'At the end of March 1946 we left London by train, across all of France, to the port of Marseille.', 46)], { fade: 't', memory: true })] },
+      { h: 30, lean: -1, panels: [
+        Pn('b', 1, 'נוף אנגלי מהחלון.', 'English green fields and a church spire seen through a train window frame, raindrops on the glass, soft light. Landscape composition with the window frame visible at the edges.', [], 'cold', [X('tag', 'bs', 'אנגליה', 'England')]),
+        Pn('c', 1, 'נוף צרפתי מהחלון.', 'French countryside through a train window: poplar trees, a farmhouse, yellow fields, a village with a stone bridge, brighter light. Window frame visible at the edges.', [], 'warm', [X('tag', 'bs', 'צרפת', 'France')]),
+        Pn('d', 1, 'אירופה החרבה אחרי המלחמה.', 'A war-torn European town seen through a train window: a broken bridge, bombed buildings with exposed walls, grey sky, sparse trees; sober and silent. Window frame visible at the edges.', [], 'cold', [X('tag', 'bs', 'אירופה אחרי המלחמה', 'Europe after the war')], { memory: true })] },
+      { h: 40, lean: 0, panels: [Pn('e', 100, 'בתוך הקרון: עמנואל צמוד לחלון, אמא מעודדת.', 'Interior of a train compartment in warm lamplight: Emmanuel pressed to the window looking out, his reflection faintly in the glass; beside him his mother smiling and encouraging, her hand on his shoulder; Shimon reading in the corner. Cozy warmth in contrast to the cold outside.', ['emmanuel', 'mother', 'shimon'], 'warm', [X('bub', 'ts', 'עוד קצת, חמוד שלי. כל קילומטר מקרב אותנו לאבא.', 'Just a little more, sweetheart. Every mile brings us closer to Father.', 50)], { fade: 'b' })] }
+    ] },
+    4: { tiers: [
+      { h: 44, lean: 1, panels: [Pn('a', 100, 'נמל מרסיי הומה: אנשים, מזוודות וספינות.', 'Wide panoramic view of the harbor of Marseille in spring 1946: several large ships docked, cranes, thousands of travelers with suitcases on the quay, horse carts, warm hazy sunlight over pale blue-gray water, gulls.', [], 'port', [X('cap', 'ts', 'בנמל מרסיי היו המון אנשים, מזוודות וספינות.', 'Marseille harbor was full of people, suitcases and ships.', 42)], { fade: 't' })] },
+      { h: 40, lean: 0, panels: [
+        Pn('b', 5, 'האונייה הענקית מלמטה.', 'Low-angle view from the quay looking up at the enormous black hull of the ocean liner Transylvania, white superstructure and two funnels against the sky, tiny figures at the railings; scale emphasized, a small boy\'s silhouette at the bottom edge looking up.', ['emmanuel'], 'port', [X('bub', 'ts', 'אני לא מאמין... כמה היא גדולה!', 'I can\'t believe it... how huge she is!', 56)]),
+        Pn('c', 5, 'עמנואל נדהם מהאונייה.', 'Close-up of Emmanuel\'s astonished face, mouth open, eyes wide, looking up at something huge off-frame, sunlight on his cheek, the harbor blurred behind.', ['emmanuel'], 'port', [X('cap', 'bs', 'בפעם הראשונה בחיי ראיתי אונייה ענקית.', 'For the first time in my life I saw a huge ship.', 92)])] }
+    ], layers: [{ id: 'n1', d: 'שלושה שחפים שחוצים את הגבול בין הפאנלים.', shot: 'A flock of three seagulls in flight, wings spread at different angles, painterly graphic-novel style, white and grey feathers with soft ink outlines.', tier: 0, dy: -8, x: 54, w: 30, h: 16 }] },
+    5: { tiers: [
+      { h: 30, lean: -1, panels: [Pn('a', 100, 'מסדרון האונייה בדרך לתא.', 'Narrow steel corridor on the ship, white-painted walls, round portholes spilling bright sea light along a patterned floor, cabin doors with plain brass plates (blank, no text), Emmanuel small in the distance carrying his suitcase behind his mother.', ['emmanuel', 'mother'], 'sea', [X('cap', 'ts', 'עלינו לאונייה הגדולה, טרנסילבניה.', 'We boarded the great ship, the Transylvania.', 40)], { fade: 't' })] },
+      { h: 48, lean: 0, panels: [
+        Pn('b', 6, 'התא הקטן עם ארבע המיטות.', 'Small ship cabin with four bunk beds (two stacked bunks on each wall), a round porthole showing the sea, a warm lamp, folded blankets, suitcases stowed; Shimon placing a suitcase on a bed while their mother looks around with a content smile. Cozy and neat.', ['mother', 'shimon'], 'warm', [X('cap', 'bs', 'קיבלנו תא קטן עם ארבע מיטות.', 'We were given a small cabin with four beds.', 90)]),
+        Pn('c', 4, 'עמנואל פורש ידיים: זה ארמון!', 'Emmanuel standing on the lower bunk with arms spread wide and a delighted face, as if in a palace; warm glow, porthole light behind him.', ['emmanuel'], 'warm', [X('bub', 'ts', 'זה ארמון!', 'It\'s a palace!', 60), X('cap', 'bs', 'הרגשתי כאילו הגעתי לגן עדן.', 'I felt as if I had reached paradise.', 92)])] }
+    ] },
+    6: { tiers: [
+      { h: 38, lean: 1, panels: [Pn('a', 100, 'חדר האוכל הכשר באונייה.', 'Warm wood-paneled ship dining hall with a section for kosher eaters, white tablecloths; Emmanuel, his mother and Shimon seated at a round table, stewards carrying trays, amber light from brass lamps, portholes with sea light. Wide and welcoming.', ['emmanuel', 'mother', 'shimon'], 'warm', [X('cap', 'ts', 'בחדר האוכל היה חלק לאוכלי כשר, ושם אכלנו.', 'The dining hall had a kosher section, and that is where we ate.', 44)], { fade: 't' })] },
+      { h: 34, lean: 1, panels: [
+        Pn('b', 1, 'זית על מזלג: הטעימה הראשונה.', 'Extreme close-up of a small boy\'s hand lifting a green olive on a fork toward his mouth, curious eyes just visible behind it, warm table light.', ['emmanuel'], 'warm', [X('cap', 'bs', 'גיליתי מאכלים שלא הכרתי, כי באנגליה בזמן המלחמה לא ראיתי אותם.', 'I discovered foods I had never known, because in wartime England I had not seen them.', 92)]),
+        Pn('c', 1, 'הפרצוף המצחיק של עמנואל.', 'Comic reaction close-up: Emmanuel\'s face scrunching hilariously at the sharp salty taste of an olive, eyes squeezed, nose wrinkled, tongue slightly out, a hint of a smile; warm light.', ['emmanuel'], 'warm', [X('bub', 'ts', 'איכס... רגע, זה דווקא טעים!', 'Yuck... wait, it\'s actually good!', 56)])] },
+      { h: 26, lean: 0, panels: [Pn('d', 100, 'אמא ושמעון צוחקים, עמנואל מושיט יד לעוד זית.', 'Mother and Shimon laughing together at the table while Emmanuel reaches for another olive from a small bowl; happy family warmth.', ['mother', 'shimon', 'emmanuel'], 'warm', [X('cap', 'bs', 'במיוחד אהבתי את הזיתים.', 'I especially loved the olives.', 50)], { fade: 'b' })] }
+    ] },
+    7: { tiers: [
+      { h: 46, lean: 1, panels: [Pn('a', 100, 'שני ילדים רצים ומשחקים על הסיפון.', 'Bright open ship deck on a sunny day: two boys of the same age run and play tag among deck chairs, sparkling blue sea behind, white railings; one is Emmanuel (flat cap) and the other a Lebanese boy (dark curly hair, white shirt, short trousers); joyous motion.', ['emmanuel', 'lebBoy'], 'sea', [X('cap', 'ts', 'בחדר האוכל התחברתי עם ילד בגילי, מלבנון. שיחקנו הרבה יחד.', 'At the dining hall I made friends with a boy my age, from Lebanon. We played together a lot.', 44)], { fade: 't' })] },
+      { h: 32, lean: 0, panels: [
+        Pn('b', 6, 'שני החברים משחקים בגולות.', 'The two boys sitting on the deck sharing a game of marbles, laughing, heads close together, sunlight and sea sparkles.', ['emmanuel', 'lebBoy'], 'sea', [X('bub', 'ts', 'בוא נראה מי מנצח!', 'Let\'s see who wins!', 44)]),
+        Pn('c', 4, 'הילד הלבנוני מחייך.', 'Close-up of the Lebanese boy\'s friendly beaming face, bright eyes, wind in his curly hair, blue sky behind.', ['lebBoy'], 'sea', [X('bub', 'ts', 'אני לא אפסיד!', 'I won\'t lose!', 56)])] }
+    ], layers: [{ id: 'n1', d: 'שחף בודד שחוצה את הגבול בין הפאנלים.', shot: 'A single seagull in flight with wings fully spread, painterly graphic-novel style, white and grey feathers with soft ink outlines.', tier: 0, dy: -6, x: 62, w: 20, h: 12 }] },
+    8: { g: 2, tiers: [
+      { h: 46, lean: 0, panels: [Pn('a', 100, 'עמנואל לבד על הסיפון, מחכה.', 'Wide empty sunlit ship deck in late morning: Emmanuel standing alone at the railing holding his flat cap, looking across the deck toward the dining entrance, waiting; long shadows, empty deck chairs, a lonely feeling.', ['emmanuel'], 'sea', [X('tho', 'ts', 'למה הוא לא בא?', 'Why isn\'t he coming?', 36)], { fade: 'tb' })] },
+      { pre: 16, h: 30, lean: 0, panels: [Pn('b', 100, 'הילד מתרחק, ההורים מובילים אותו.', 'Far away across the deck, a well-dressed Lebanese couple (father in a dark suit and tarboosh, mother in a pale dress and hat) leads their son by the hands, the boy glancing back over his shoulder with a sad look; the composition emphasizes the empty gap between the boys.', ['lebBoy', 'lebParents'], 'sea', [X('cap', 'bs', 'אחרי יומיים נגמרה החברות. הוריו ראו שאנחנו אוכלים במחלקה הכשרה, ואסרו עליו לשחק איתי.', 'After two days the friendship ended. His parents saw that we ate in the kosher section and forbade him to play with me.', 70)], { fade: 'tb' })] },
+      { pre: 10, h: 32, lean: 0, panels: [
+        Pn('c', 5, 'עמנואל מבין: תערובת בלבול וכאב.', 'Close-up of Emmanuel\'s face: confusion turning to hurt, eyes lowered, lips pressed, soft cold light.', ['emmanuel'], 'sea', []),
+        Pn('d', 5, 'גולה מתגלגלת על סיפון ריק.', 'A small glass marble rolling away across an empty wooden deck, blurred sea behind; a symbol of the ended game. Wide composition with the marble small in the frame.', [], 'sea', [X('cap', 'bs', 'זו הייתה הפעם הראשונה שהרגשתי את הכאב הזה.', 'It was the first time I felt that kind of pain.', 92)])] }
+    ] },
+    9: { tiers: [
+      { h: 36, lean: -1, panels: [Pn('a', 100, 'ים סוער, האונייה מתנדנדת.', 'Dramatic wide view of a large ocean liner on a rough open sea under dark clouds, waves rising and spray over the bow, the ship tilted slightly; deep blue and slate colors with a break of light on the horizon.', [], 'storm', [X('cap', 'ts', 'יום אחד הים התחיל להתנדנד. סערה קלה.', 'One day the sea began to rock. A light storm.', 38)], { fade: 't' })] },
+      { h: 30, lean: -1, panels: [
+        Pn('b', 1, 'נוסעים מפחדים בטרקלין.', 'Passengers in a ship lounge clinging to furniture as the room tilts, worried faces, a woman clutching her hat, a man holding a cup; a slanted composition.', [], 'storm', [X('bub', 'ts', 'אוי, איזה גלים!', 'Oh, what waves!', 56)]),
+        Pn('c', 1, 'אמא ושמעון אוחזים במעקה.', 'Mother with an arm around Shimon, gripping a handrail, anxious but protective, Shimon steady and calm.', ['mother', 'shimon'], 'storm', []),
+        Pn('d', 1, 'עמנואל מתרגש ליד החלון.', 'Emmanuel at the porthole looking out at huge waves with dancing eyes and a grin, thrilled, hands pressed to the glass, flashes of water lighting his face.', ['emmanuel'], 'storm', [X('shout', 'ts', 'וואו! כמו נדנדה ענקית!', 'Wow! Like a giant swing!', 56)])] },
+      { h: 26, lean: 0, panels: [Pn('e', 100, 'גל מתנפץ אל דופן האונייה.', 'Wide low shot of a huge wave crashing against the ship\'s hull, white foam and spray flying, dark storm sky; powerful and rhythmic.', [], 'storm', [X('sfx', 'bs', 'שפלאש!', 'SPLASH!')], { fade: 'b' })] }
+    ] },
+    10: { tiers: [
+      { h: 46, lean: 1, panels: [Pn('a', 100, 'רחוב תוסס בנאפולי ומופע ליצנים.', 'Lively street scene in Naples, Italy, 1946: a narrow cobbled street lined with colorful faded buildings, laundry strung overhead, balconies with people leaning out, a crowd in a half circle around street clowns performing; Emmanuel with his mother and Shimon among the onlookers; warm vivid colors and sunlight.', ['emmanuel', 'mother', 'shimon'], 'naples', [X('cap', 'ts', 'בנאפולי ירדנו לטייל קצת בעיר.', 'In Naples we went ashore to see a little of the city.', 40)], { fade: 't' })] },
+      { h: 32, lean: 1, panels: [
+        Pn('b', 4, 'ליצני רחוב מג\'נגלים.', 'Street clowns in white make-up and baggy costumes juggling colorful balls and clubs, comic poses, one clown balancing a hat on his nose.', [], 'naples', []),
+        Pn('c', 6, 'קהל צוחק, ובקצה מישהו חשוד.', 'A crowd of delighted onlookers: children on shoulders, families laughing, hats thrown in the air; at the back of the crowd, nearly unnoticed, a shady man\'s hand slipping into a coat pocket (a subtle background detail).', [], 'naples', [X('cap', 'bs', 'ליצני רחוב עשו לנו הצגות, וכולם נהנו.', 'Street clowns put on a show for us, and everyone enjoyed it.', 92)])] },
+      { h: 28, lean: 0, panels: [Pn('d', 100, 'עמנואל מוחא כפיים בהנאה.', 'Emmanuel clapping with a huge grin, eyes shining, his mother and Shimon laughing beside him, warm Naples light.', ['emmanuel', 'mother', 'shimon'], 'naples', [X('bub', 'te', 'עוד! עוד!', 'More! More!', 30)], { fade: 'b' })] }
+    ], layers: [{ id: 'n1', d: 'כדורי ג\'אגלינג בקשת מעל הגבול.', shot: 'Four colorful juggling balls and one club flying in an arc, painterly graphic-novel style, saturated red, yellow, blue and green with soft ink outlines and small motion trails (opaque).', tier: 0, dy: -4, x: 18, w: 34, h: 16 }] },
+    11: { tiers: [
+      { h: 30, lean: 1, panels: [Pn('a', 100, 'חזרה לאונייה: הנוסעים מגלים.', 'Back on the ship\'s deck in late afternoon: passengers returning up the gangway with the Naples harbor behind; the mood turns from cheerful to alarmed as people start patting their pockets.', [], 'warm', [X('cap', 'ts', 'כשחזרנו לאונייה גילו כולם שכייסו אותם.', 'When we got back to the ship, everyone discovered they had been pickpocketed.', 42)], { fade: 't' })] },
+      { h: 30, lean: 1, panels: [
+        Pn('b', 1, 'גבר מבוהל עם כיס ריק.', 'Close-up of a man\'s panicked face, his hand pushed deep into an empty coat pocket.', [], 'panic', [X('bub', 'ts', 'הארנק שלי!', 'My wallet!', 66)]),
+        Pn('c', 1, 'אישה מזועזעת עם תיק פתוח.', 'A woman gasping, holding her open empty handbag, hat askew.', [], 'panic', [X('shout', 'ts', 'גנבו לי הכול!', 'They stole everything!', 62)]),
+        Pn('d', 1, 'זקן מוציא את הכיסים החוצה.', 'An older man in glasses turning out his pockets with a stunned expression.', [], 'panic', []),
+        Pn('e', 1, 'אמא בודקת את התיק, רגועה.', 'Emmanuel\'s mother calmly checking her purse with a small amused smile.', ['mother'], 'panic', [X('bub', 'ts', 'אצלי כמעט לא נגנב דבר.', 'Almost nothing was taken from me.', 74)])] },
+      { h: 34, lean: 0, panels: [
+        Pn('f', 6, 'כמה מטבעות קטנות בכף היד.', 'Close-up of Emmanuel\'s open palm holding a few tiny coins, his surprised face visible behind it, the pocket turned out.', ['emmanuel'], 'warm', [X('cap', 'bs', 'אפילו אותי כייסו, אבל היו לי רק כמה מטבעות קטנות בכיס.', 'They even pickpocketed me, but I only had a few small coins in my pocket.', 92)]),
+        Pn('g', 4, 'עמנואל מביט באמא בפליאה.', 'Emmanuel looking up at his unbothered mother with wide amazed eyes.', ['emmanuel', 'mother'], 'warm', [X('tho', 'ts', 'איך היא לא נבהלה?', 'How come she isn\'t panicking?', 70)])] }
+    ] },
+    12: { tiers: [
+      { h: 30, lean: 1, panels: [Pn('a', 100, 'לילה בים: האונייה הקטנה מתחת לכוכבים.', 'Night at sea: the ocean liner small under a huge starry sky, its portholes glowing, dark deep-blue water with a silver moon trail; peaceful but vast.', [], 'night', [X('cap', 'ts', 'בלילה, באונייה, שמעתי פתאום רעש.', 'At night on the ship I suddenly heard a noise.', 40)], { fade: 't' })] },
+      { h: 42, lean: 0, panels: [
+        Pn('b', 5, 'עמנואל ער במיטה, עיניו פקוחות.', 'Dark cabin seen from a top bunk: Emmanuel lying awake with a blanket to his chin, eyes wide, moonlight from the porthole drawing a pale circle on the floor, deep blue shadows.', ['emmanuel'], 'night', [X('whisper', 'ts', 'מי שם?', 'Who\'s there?', 36)]),
+        Pn('c', 5, 'חושך מתחת למיטה ושתי עיניים נוצצות.', 'Low angle on the cabin floor under a bed: darkness, a faint moonlit shape and the glint of two frightened eyes in the black space, a corner of a gray blanket.', [], 'night', [])] },
+      { h: 28, lean: 0, panels: [Pn('d', 100, 'עיניו הגדולות של עמנואל מפחד.', 'Extreme close-up of Emmanuel\'s frightened face, eyes huge, a bead of sweat, deep blue night lighting; a narrow wide strip.', ['emmanuel'], 'night', [], { fade: 'b' })] }
+    ] },
+    13: { tiers: [
+      { h: 44, lean: -1, panels: [Pn('a', 100, 'מציצים מתחת למיטה: אישה מפוחדת.', 'Low camera on the cabin floor looking under a bed: a frightened woman of about 40 hidden in the shadow, gray dress, dark hair pinned back, her wide fearful eyes meeting the camera, faint lamplight; Emmanuel\'s bare feet and hand are visible at the edge of the frame as he peeks.', ['stowaway', 'emmanuel'], 'night', [X('tho', 'ts', 'אישה?', 'A woman?', 28)], { fade: 't' })] },
+      { h: 36, lean: 0, panels: [
+        Pn('b', 4, 'עיניה המפוחדות של האישה.', 'Close-up of the woman\'s frightened eyes and a trembling hand raised to her lips, asking for silence.', ['stowaway'], 'night', []),
+        Pn('c', 6, 'אמא כורעת ומושיטה יד.', 'Mother kneeling by the bed, her hand gently outstretched toward the hidden woman, a kind calm face, soft lamplight.', ['mother'], 'warm', [X('bub', 'ts', 'אל תפחדי. כאן את בטוחה.', 'Don\'t be afraid. You\'re safe here.', 56)])] },
+      { h: 30, lean: 0, panels: [Pn('d', 100, 'כולם בתא באור המנורה.', 'Wide cabin shot in warm lamplight: mother kneeling, the woman edging out slightly from under the bed, Shimon watching from the bunk with a finger to his lips, Emmanuel standing still with wide eyes.', ['mother', 'stowaway', 'shimon', 'emmanuel'], 'warm', [X('cap', 'bs', 'היא ישנה מתחת למיטה, והזהירו אותי שלא לדבר על הנוסעת הזאת.', 'She slept under the bed, and I was warned not to talk about this passenger.', 94)], { fade: 'b' })] }
+    ] },
+    14: { tiers: [
+      { h: 38, lean: 1, panels: [Pn('a', 100, 'אמא עוטפת אוכל במפית בלי שיראו.', 'Ship dining hall at the end of a meal: Emmanuel\'s mother casually wraps a bread roll, a boiled egg and an apple into a white cloth napkin while glancing around to make sure nobody notices; a calm, clever expression; warm lamplight.', ['mother'], 'warm', [X('cap', 'ts', 'אמא הייתה מביאה לה אוכל בסתר, אחרי שגמרנו לאכול.', 'Mother would secretly bring her food after we finished eating.', 42)], { fade: 't' })] },
+      { h: 32, lean: 0, panels: [Pn('b', 100, 'יד מושיטה חבילה אל יד רועדת.', 'Intimate close-up of hands in the dark: the mother\'s hand passing a napkin bundle under the edge of a bed to a thin trembling hand reaching out from the shadow; a thin ray of lamplight; tender.', [], 'night', [])] },
+      { h: 34, lean: 0, panels: [
+        Pn('c', 6, 'עמנואל מתבונן ומבין.', 'Emmanuel in his bunk watching quietly, understanding slowly dawning on his face, soft warm light.', ['emmanuel'], 'warm', [X('cap', 'bs', 'לא נאמרה מילה.', 'Not a word was said.', 70)]),
+        Pn('d', 4, 'עיניה הדומעות והמודות של האישה.', 'The hidden woman\'s grateful, tearful eyes with a faint smile, lit by a thin ray of light.', ['stowaway'], 'warm', [X('cap', 'bs', 'ככה למדתי חסד בלי מילים.', 'That is how I learned kindness without words.', 94)])] }
+    ] },
+    15: { tiers: [
+      { h: 44, lean: 1, panels: [Pn('a', 100, 'בית הכנסת: הבאבא עוצר את הסיפור.', 'Back in the warm Israeli synagogue: Baba mid-story, raising one finger to pause, children and parents leaning forward on benches, golden light from arched windows, a playful mood.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [X('bub', 'ts', 'עוצרים לרגע! למה האישה התחבאה מתחת למיטה, לדעתכם?', 'Let\'s pause! Why was the woman hiding under the bed, do you think?', 52)], { fade: 't' })] },
+      { h: 30, lean: 1, panels: [
+        Pn('b', 1, 'ילדה חושבת חזק.', 'A girl of about 8 (brown bob, pink cardigan) thinking hard, finger on her chin, looking up.', ['girl'], 'warm', [X('bub', 'ts', 'אולי היא פחדה מהקפטן?', 'Maybe she was afraid of the captain?', 70)]),
+        Pn('c', 1, 'נער מרים יד בהתלהבות.', 'The ten-year-old boy in a kippah and olive vest, hand shooting up eagerly.', ['kid'], 'warm', [X('bub', 'ts', 'אני יודע! היא גנבה משהו!', 'I know! She stole something!', 72)]),
+        Pn('d', 1, 'הקטן לוחש בעיניים גדולות.', 'The little five-year-old, eyes huge, hugging his knees, whispering.', ['kidSmall'], 'warm', [X('bub', 'ts', 'היא ברחה מהמפלצת?', 'Did she run away from the monster?', 74)])] },
+      { h: 34, lean: 0, panels: [
+        Pn('e', 6, 'הבאבא עם גבה מורמת ומבט שובב.', 'Close-up of Baba\'s twinkling eyes and playful raised eyebrow, a finger raised in a wait-and-see gesture.', ['baba'], 'warm', [X('bub', 'ts', 'פרס יקר ערך יינתן לפותר החידה!', 'A valuable prize will go to whoever solves the riddle!', 60)]),
+        Pn('f', 4, 'מעגל המאזינים הנלהבים.', 'Wide cozy shot of the whole circle of listeners leaning in, a thermos and cups on the table, warm light.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [], { fade: 'b' })] }
+    ] },
+    16: { tiers: [
+      { h: 70, lean: 1, panels: [Pn('a', 100, 'זריחה: חיפה והכרמל לפנינו.', 'Full-bleed splash: sunrise over the sea, golden pink sky; ahead, the green Mount Carmel and the white and stone houses of Haifa glowing in first light, the ship\'s bow and railing in the foreground with small figures standing at the rail; hopeful and majestic.', [], 'dawn', [X('cap', 'ts', 'בביירות לא נתנו לנו לרדת מהאונייה, וחיכינו כמה שעות. ואז הגענו לחיפה.', 'In Beirut they did not let us leave the ship, and we waited for hours. Then we reached Haifa.', 48)], { fade: 't' })] },
+      { h: 30, lean: 0, panels: [
+        Pn('b', 4, 'פנים דומעות ותפילה בזריחה.', 'Faces of passengers at the railing, eyes shining with tears, an old man praying with a prayer book, golden dawn light on their faces.', [], 'dawn', [X('cap', 'bs', 'אנשים סביבי בכו והתפללו.', 'People around me wept and prayed.', 92)]),
+        Pn('c', 6, 'עמנואל ואמא על המעקה באור הזהוב.', 'Emmanuel and his mother at the railing in the golden light: the mother\'s hand over her heart, tears of joy; Emmanuel looking at the coast, serious and moved.', ['emmanuel', 'mother'], 'dawn', [])] }
+    ] },
+    17: { tiers: [
+      { h: 34, lean: -1, panels: [Pn('a', 100, 'נמל חיפה: האונייה, הסירות והבדיקה.', 'Haifa port in the morning, 1946: the liner moored at the pier, small rowing boats and launches around it, white buildings climbing the slope behind, health officials in white coats and caps boarding by a gangway.', [], 'haifa', [X('cap', 'ts', 'באו אנשים ממשרד הבריאות ובדקו אותנו.', 'People from the Health Department came and examined us.', 42)], { fade: 't' })] },
+      { h: 30, lean: -1, panels: [
+        Pn('b', 6, 'יורדים במדרגות אל הסירה.', 'Emmanuel, his mother and Shimon climbing down the ship\'s side stairway toward a small boat, suitcases in hand, a sailor steadying them; sea sparkling below.', ['emmanuel', 'mother', 'shimon'], 'haifa', [X('cap', 'bs', 'ירדנו במדרגות האונייה ועלינו על סירה קטנה.', 'We went down the ship\'s stairs and boarded a small boat.', 94)]),
+        Pn('c', 4, 'המזח מלא אנשים מנופפים.', 'The pier crowded with waiting people, waving hands and hats, children on shoulders, bright sun.', [], 'haifa', [])] },
+      { h: 26, lean: 0, panels: [Pn('d', 100, 'הסירה בדרך אל המזח.', 'From the small boat, the pier ahead about 200 meters away: the oarsman\'s back in the foreground, three passengers seated, the crowd on the pier tiny but waving; calm water, a huge sky.', ['emmanuel', 'mother', 'shimon'], 'haifa', [X('cap', 'bs', 'הסירה נסעה בערך מאתיים מטר לכיוון המזח.', 'The boat went about two hundred meters toward the pier.', 60)], { fade: 'b' })] }
+    ], layers: [{ id: 'n1', d: 'שרשרת דגלונים חגיגית שחוצה פאנלים.', shot: 'A festive string of plain triangular pennant flags in muted red, white, blue and yellow on a sagging rope, no symbols and no text, painterly graphic-novel style with soft ink outlines. Wide horizontal composition.', tier: 0, dy: -3, x: 4, w: 92, h: 12 }] },
+    18: { tiers: [
+      { h: 38, lean: 1, panels: [Pn('a', 100, 'המזח מלא זרועות מנופפות.', 'Close wide view of the pier crowd from the boat: dozens of arms waving, hats in the air, faces slightly blurred, joy and noise; sun glare on the water.', [], 'haifa', [], { fade: 't' })] },
+      { h: 30, lean: 1, panels: [
+        Pn('b', 1, 'אמא קוראת בשמחה.', 'Close-up of the mother\'s face lit with joy, mouth open calling out, tears, waving a hand high.', ['mother'], 'haifa', [X('bub', 'ts', 'שם! הנה הוא!', 'There! There he is!', 60)]),
+        Pn('c', 1, 'עמנואל מחפש בין האנשים.', 'Emmanuel scanning the crowd with a worried searching look, standing on the boat\'s seat to see better.', ['emmanuel'], 'haifa', [X('tho', 'ts', 'איפה הגיבור שלי?', 'Where is my hero?', 64)])] },
+      { h: 36, lean: 0, panels: [Pn('d', 100, 'אדם נמוך מנפנף בין האנשים.', 'Across the water, in the crowd on the pier, a short man waves both hands energetically: a small figure in a worn flat cap and pale shirt, with a warm hopeful face; the composition makes him tiny against the crowd and the sky.', ['father'], 'haifa', [X('cap', 'bs', 'וראיתי אדם נמוך מנפנף בידיו. לא היה לי מושג מי זה.', 'And I saw a short man waving his hands. I had no idea who he was.', 70)], { fade: 'b' })] }
+    ] },
+    19: { tiers: [
+      { h: 40, lean: 1, panels: [Pn('a', 100, 'אמא מחבקת את האדם הנמוך.', 'On the pier: Emmanuel\'s mother hugging the short man (Emmanuel\'s father) with tears of joy, Shimon beside them; seen from Emmanuel\'s position, slightly behind and below, so the embrace is framed over the boy\'s shoulder; the father is clearly shorter than the mother.', ['mother', 'father', 'shimon', 'emmanuel'], 'haifa', [X('tho', 'ts', 'למה אמא מחבקת אדם זר?', 'Why is Mother hugging a stranger?', 36)], { fade: 't' })] },
+      { h: 24, lean: 0, panels: [Pn('b', 100, 'עמנואל בהלם.', 'Close-up strip of Emmanuel\'s face: shock, eyes wide, jaw slack, the noise of the crowd fading; a desaturated cold tone against the warm scene.', ['emmanuel'], 'cold', [])] },
+      { h: 34, lean: 0, panels: [
+        Pn('c', 5, 'הדמיון: גיבור גבוה בצללית.', 'A dream-like faded vision: a huge heroic tall man in silhouette, broad shoulders, standing against a stormy sky; the imagined father, soft hazy edges, sepia-blue.', [], 'cold', [X('cap', 'bs', 'את אבי דמיינתי תמיד גבוה, חזק וגיבור.', 'I had always imagined my father tall, strong and heroic.', 92)], { memory: true }),
+        Pn('d', 5, 'המציאות: אבא נמוך עם פנים חזקות.', 'Reality: the actual father, a short man with a strong weathered face, deep gentle eyes and a hopeful tentative smile, looking at his son; warm sunlight, simple work clothes; shown with dignity.', ['father'], 'haifa', [X('cap', 'bs', 'בשבילי זו הייתה אכזבה גדולה.', 'For me it was a great disappointment.', 92)])] }
+    ] },
+    20: { tiers: [
+      { h: 40, lean: 1, panels: [Pn('a', 100, 'חצר בית אבן בארץ, עמנואל מתרחק.', 'Wide view of a modest stone house with a small courtyard in Palestine, 1946: ochre dust, a fig tree, a laundry line, bright harsh afternoon light, a dirt street beyond; Emmanuel sits on the doorstep far from the house door, back turned; at the far side of the courtyard his father quietly works, glancing over.', ['emmanuel', 'father'], 'land', [X('cap', 'ts', 'בימים הראשונים בארץ לא רציתי שום דבר עם האדם המוזר הזה.', 'In my first days in the country I wanted nothing to do with this strange man.', 46)], { fade: 't' })] },
+      { pre: 8, h: 34, lean: 0, panels: [
+        Pn('b', 5, 'עמנואל כועס, ידיים שלובות.', 'Emmanuel sitting with arms crossed, chin on knees, scowling and refusing to look, sunlit courtyard stones.', ['emmanuel'], 'land', [X('cap', 'bs', 'התנהגתי בצורה מבישה ביותר.', 'I behaved shamefully.', 70)]),
+        Pn('c', 5, 'אבא מניח צלחת ונסוג בשקט.', 'The father gently placing a plate with sliced orange and bread on the step near his son, then retreating quietly; strong hands, kind eyes, patience.', ['father', 'emmanuel'], 'land', [X('cap', 'bs', 'אבי לא כעס. הוא רק ניסה להתקרב בשקט.', 'Father did not get angry. He just tried to come closer quietly.', 92)])] }
+    ] },
+    21: { g: 3, gh: 3, tiers: [
+      { h: 34, lean: 0, panels: [
+        Pn('a', 1, 'עמנואל דוחף את הצלחת.', 'Emmanuel shoves the plate away with a sulky face, orange slices spilling, in the sunlit courtyard.', ['emmanuel'], 'hard', []),
+        Pn('b', 1, 'פני האב מתקשחות, שקט עוצמתי.', 'The father\'s face in profile, calm but his jaw tightening, patient eyes now serious.', ['father'], 'hard', [])] },
+      { h: 34, lean: 0, panels: [
+        Pn('c', 1, 'צללית בחלון: האב מושך את הבן אל ברכיו.', 'Deep-shadow silhouette against a bright window: the father seated, lifting the boy across his knees; only dark shapes, no faces visible, no violence shown, a firm decisive moment.', ['father', 'emmanuel'], 'hard', [X('cap', 'ts', 'אחרי שלושה ימים אבי איבד את קור רוחו, לקח אותי על הברכיים והכניס לי שלוש חבטות על הישבן.', 'After three days Father lost his composure, took me on his knees and gave me three swats on the bottom.', 92)]),
+        Pn('d', 1, 'יד חזקה נחה בשקט על הברך.', 'Close-up of the father\'s strong forearm and hand resting steadily on his knee, light from the window, calm strength.', ['father'], 'hard', [])] },
+      { h: 34, lean: 0, panels: [
+        Pn('e', 1, 'עיני עמנואל פעורות, דמעות.', 'Emmanuel\'s wide shocked eyes, tears welling, mouth open, then a slow dawning look.', ['emmanuel'], 'hard', []),
+        Pn('f', 1, 'האב מביט באהבה ובתקיפות.', 'The father looking at his son with a firm and loving gaze, eyes shining, standing tall in spirit though short in height.', ['father'], 'warm', [X('cap', 'bs', 'זו הייתה התרופה הטובה ביותר: הבנתי שהוא באמת אבא חזק.', 'It was the best medicine: I understood he was truly a strong father.', 92)])] }
+    ] },
+    22: { tiers: [
+      { h: 56, lean: 1, panels: [Pn('a', 100, 'אבא ובן הולכים כתף אל כתף בדרך.', 'A long sunlit dirt road lined with eucalyptus trees in the late-afternoon golden hour: father and son walk away from the camera side by side, shoulder to shoulder, the boy\'s hand in his father\'s, long warm shadows.', ['father', 'emmanuel'], 'land', [X('cap', 'ts', 'אבי לא הרים עליי יד אי פעם אחר כך.', 'Father never raised a hand to me again.', 44)], { fade: 'tb' })] },
+      { h: 34, lean: 0, panels: [
+        Pn('b', 4, 'יד גדולה אוחזת יד קטנה.', 'Close-up of the father\'s strong hand holding the boy\'s small hand, golden light.', ['father', 'emmanuel'], 'land', [X('cap', 'bs', 'ובינינו הייתה, עד סוף חייו, אהבת נפש שאין כמותה.', 'And between us there was, to the end of his life, a bond of love like no other.', 92)], { fade: 't' }),
+        Pn('c', 6, 'הבן מביט באבא בחיוך חדש.', 'From the front: the boy looks up at his father with a shy new smile, the father looking down with warm pride, shoulder to shoulder, sunset behind.', ['father', 'emmanuel'], 'land', [X('bub', 'ts', 'אבא?', 'Father?', 24), X('bub', 'be', 'כן, בני.', 'Yes, my son.', 30)], { fade: 't' })] }
+    ], layers: [{ id: 'n1', d: 'ענף איקליפטוס בחזית.', shot: 'A foreground eucalyptus branch with long narrow silver-green leaves, slightly curved, hanging from the top-right, painterly graphic-novel style with soft ink outlines.', tier: 0, dy: -52, x: 60, w: 38, h: 22 }] },
+    23: { tiers: [
+      { h: 56, lean: 0, panels: [Pn('a', 100, 'שקט בבית הכנסת: הבאבא והילדים.', 'Back in the synagogue, quiet golden light: Baba sitting with a gentle wise smile, the children listening in silence around him, a closed notebook in front of him; warm and restful composition.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [], { fade: 'tb' })] },
+      { pre: 6, h: 26, lean: 0, panels: [Pn('b', 100, 'עיני הבאבא, חכמה ורכות.', 'Extreme close-up of Baba\'s eyes: tender, wise, slightly moist, soft golden light.', ['baba'], 'warm', [X('bub', 'ts', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 56)], { fade: 'tb' })] }
+    ] },
+    24: { tiers: [
+      { h: 74, lean: 0, panels: [Pn('a', 100, 'כל המשפחה סביב הבאבא.', 'Final warm family scene in the synagogue: Baba at the center surrounded by grandchildren of all ages hugging and laughing, parents behind, golden light, a notebook open with a pen on the table; joyful, loving, a family complete.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [X('bub', 'ts', 'ועל מה אספר לכם בשבוע הבא?', 'And what shall I tell you about next week?', 40), X('cap', 'bs', 'המשך יבוא – הספר הבא', 'To be continued – the next book', 50)], { fade: 'tb' })] }
+    ], floats: [{ id: 'z', circle: true, x: 66, y: 5, w: 22, h: 22, z: 6, sp: 18, d: 'המחברת הפתוחה, ורמז לזיכרון הבא.', shot: 'Circular close-up of an old worn notebook open on a wooden table, a pen resting across pages of illegible handwriting squiggles (no readable text), warm glow, with a faint blue-gray hint at the page edge as if a new memory is waking.', chars: [], pal: 'warm', text: [] }] }
+  };
+
+  /* tiers to boxes: boundary lines share one slope, so neighbouring panels keep a constant gap */
+  function layoutTiers(spec) {
+    var G = spec.g || 2, GH = spec.gh || 2.4, tiers = spec.tiers, n = tiers.length, Y = [], acc = 0, panels = [];
+    tiers.forEach(function (t) { acc += (t.pre || 0) + t.h; Y.push(acc); });
+    tiers.forEach(function (tier, k) {
+      var lt = k ? (tiers[k - 1].lean || 0) : 0, lb = k < n - 1 ? (tier.lean || 0) : 0;
+      var topBase = k ? Y[k - 1] + G / 2 + (tier.pre || 0) : 0;
+      var botBase = k < n - 1 ? Y[k] - G / 2 : Y[k];
+      var sum = 0; tier.panels.forEach(function (p) { sum += p.w; });
+      var avail = 100 - GH * (tier.panels.length - 1), x = 0;
+      tier.panels.forEach(function (p) {
+        var w = avail * p.w / sum, a = x, b = x + w; x += w + GH;
+        var top = function (xx) { return topBase + lt * SLOPE * (xx - 50); };
+        var bot = function (xx) { return botBase + lb * SLOPE * (xx - 50); };
+        var y0 = Math.min(top(a), top(b)), y1 = Math.max(bot(a), bot(b));
+        var o = {}; Object.keys(p).forEach(function (key) { o[key] = p[key]; });
+        o.x = +a.toFixed(2); o.y = +y0.toFixed(2); o.w = +w.toFixed(2); o.h = +(y1 - y0).toFixed(2); o.cut = C(lt, lb); o.z = 2;
+        panels.push(o);
+      });
+    });
+    var H = Y[n - 1];
+    (spec.layers || []).forEach(function (l) {
+      panels.push({ id: l.id, layer: true, src: '', d: l.d, shot: l.shot, x: l.x, y: +(Y[l.tier] + l.dy).toFixed(2), w: l.w, h: l.h, z: 9, sp: 14, text: [], pal: 'warm', chars: [] });
+    });
+    (spec.floats || []).forEach(function (f) { var o = {}; Object.keys(f).forEach(function (key) { o[key] = f[key]; }); o.text = o.text || []; panels.push(o); });
+    return { H: +H.toFixed(2), panels: panels };
+  }
+  PAGES.forEach(function (pg, i) {
+    var spec = STORY[i + 1];
+    if (!spec) return;
+    var lay = layoutTiers(spec);
+    pg.H = lay.H; pg.panels = lay.panels; pg.stub = false;
+  });
+  /* page 1 is handcrafted above; give every panel its lettering ids, strings and short briefs */
+  PAGES.forEach(function (pg, i) {
+    pg.panels.forEach(function (p) {
+      if (p.layer) p.src = 'art/p' + pad2(i + 1) + '-' + p.id + '.png';
+      (p.text || []).forEach(function (tx, k) {
+        if (tx.he !== undefined) {
+          tx.id = 'p' + (i + 1) + '.' + p.id + '.' + (k + 1);
+          STR.he[tx.id] = tx.he; STR.en[tx.id] = tx.en;
+        }
+      });
+      if (p.d) {
+        STR.he['p' + (i + 1) + '.brief.' + p.id] = p.d;
+        STR.en['p' + (i + 1) + '.brief.' + p.id] = (p.shot || '').split(/[.:]/)[0];
+      }
+    });
+  });
+  var N = PAGES.length;
+  var dirty = {};
+  var origStr = JSON.parse(JSON.stringify(STR));
+  /* edits made in the studio are kept in this browser and merged over the built-in layout */
+  function applyData(data) {
+    Object.keys(data.strings || {}).forEach(function (l) { STR[l] = STR[l] || {}; Object.keys(data.strings[l]).forEach(function (k) { STR[l][k] = data.strings[l][k]; }); });
+    Object.keys(data.pages || {}).forEach(function (k) {
+      var pg = PAGES[+k - 1]; if (!pg) return;
+      var d = data.pages[k]; if (d.H) pg.H = d.H;
+      var byId = {}; pg.panels.forEach(function (p) { if (p.id) byId[p.id] = p; });
+      pg.panels = (d.panels || []).map(function (ov) {
+        var base = byId[ov.id] || { id: ov.id, shot: '', chars: [], pal: 'warm' };
+        Object.keys(ov).forEach(function (key) { base[key] = ov[key]; });
+        return base;
+      });
+      dirty[+k - 1] = true;
+    });
+  }
+  try { var savedLayout = localStorage.getItem('journey-layout-v1'); if (savedLayout) applyData(JSON.parse(savedLayout)); } catch (e) {}
+
+  /* ===================== build the DOM ===================== */
+  var host = document.getElementById('pages');
+  var railEl = document.getElementById('rail');
+  var ART_EXT = ['webp', 'jpg', 'png'];
+  var mq = window.matchMedia('(max-width: 700px)');
+
+  function el(tag, cls, parent) { var e = document.createElement(tag); if (cls) e.className = cls; if (parent) parent.appendChild(e); return e; }
+  function pad2(n) { return n < 10 ? '0' + n : '' + n; }
+
+  function promptFor(p) {
+    var chars = (p.chars || []).map(function (c) { return BIBLE[c]; }).join(' ');
+    return [p.shot, chars, PAL[p.pal || 'warm'], STYLE].filter(Boolean).join('\n');
+  }
+
+  var KCLS = { bub: 'bub', tho: 'tho', cap: 'cap', tag: 'tag-box', shout: 'shout', whisper: 'whisper', sfx: 'sfx' };
+  var TAILED = { bub: 1, tho: 1, whisper: 1 };
+  var ROTS = ['-1.3deg', '.9deg', '-.6deg', '1.2deg', '-.9deg', '.5deg'];
+  var SHAPES = ['52% 48% 50% 50% / 46% 50% 50% 54%', '48% 52% 46% 54% / 52% 46% 54% 48%', '55% 45% 52% 48% / 50% 54% 46% 50%', '47% 53% 55% 45% / 47% 52% 48% 53%'];
+  function textEl(parent, tx, i) {
+    var d = el('div', 'txt', parent);
+    d.dataset.k = tx.id;
+    d.style.setProperty('--d', i);
+    d.style.setProperty('--rot', tx.k === 'cap' || tx.k === 'tag' ? ROTS[(i + 2) % ROTS.length] : (tx.k === 'sfx' ? '-6deg' : ROTS[i % ROTS.length]));
+    d.style.setProperty('--shape', SHAPES[i % SHAPES.length]);
+    d.__tx = tx;
+    applyTextPos(d, tx);
+    return d;
+  }
+  function applyTextPos(d, tx) {
+    d.style.insetInlineStart = ''; d.style.insetInlineEnd = ''; d.style.top = ''; d.style.bottom = '';
+    d.style[tx.from === 'end' ? 'insetInlineEnd' : 'insetInlineStart'] = tx.x + '%';
+    d.style[tx.v === 'bottom' ? 'bottom' : 'top'] = tx.y + '%';
+    d.style.width = tx.w ? tx.w + '%' : '';
+    d.style.setProperty('--fs', tx.fs || 1);
+    var sel = d.classList.contains('sel');
+    d.className = 'txt ' + (KCLS[tx.k] || 'cap') + ((tx.tail && TAILED[tx.k]) ? ' t-' + tx.tail : '') + (sel ? ' sel' : '');
+  }
+
+  function artImg(art, base) {
+    var img = el('img', '', art);
+    img.alt = '';
+    img.decoding = 'async';
+    var n = 0;
+    img.onload = function () { img.classList.add('ok'); };
+    img.onerror = function () { n++; if (n < ART_EXT.length) img.src = base + '.' + ART_EXT[n]; else { img.removeAttribute('src'); } };
+    img.src = base + '.' + ART_EXT[0];
+    return img;
+  }
+  function selectText(node) { try { var r = document.createRange(); r.selectNodeContents(node); var s = getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {} }
+
+  function buildPanel(parent, p, pageIdx, th) {
+    var pw = el('div', 'pw', parent);
+    pw.__p = p; p.pw = pw; p.pg = pageIdx;
+    pw.style.zIndex = p.z || 1;
+    var pg = pageIdx + 1;
+    if (p.bridge) {
+      pw.classList.add('bridge', 'b-' + p.bridge);
+      for (var b = 0; b < 4; b++) el('i', '', pw);
+      return pw;
+    }
+    if (p.layer) {
+      pw.classList.add('layer');
+      el('span', 'lyr-ph', pw).textContent = p.src || '';
+      var li = el('img', 'lyr', pw); li.alt = ''; p.img = li;
+      li.onload = function () { li.style.display = ''; pw.classList.add('has'); };
+      li.onerror = function () { li.style.display = 'none'; pw.classList.remove('has'); };
+      if (p.src) li.src = p.src;
+      return pw;
+    }
+    var frame = el('div', 'frame', pw);
+    var pn = el('div', 'panel' + (p.memory ? ' memory' : '') + (p.circle ? ' circle' : ''), frame);
+    p.pn = pn;
+    var art = el('div', 'art', pn);
+    var ph = el('div', 'ph', art);
+    ph.style.setProperty('--pa', th.a); ph.style.setProperty('--pb', th.b);
+    if (p.stub) {
+      el('div', 'num', ph).textContent = String(pg);
+      el('p', 'brief', ph).dataset.k = 'scene.' + pg;
+      el('p', 'tag', ph).dataset.k = 'ui.waiting';
+    } else {
+      var bk = 'p' + pg + '.brief.' + p.id;
+      var bp = el('p', 'brief', ph); if (STR.he[bk]) bp.dataset.k = bk;
+      var pr = el('p', 'prompt', ph); pr.textContent = promptFor(p);
+      var cb = el('button', 'copy', ph); cb.type = 'button'; cb.dataset.k = 'ui.copy';
+      cb.addEventListener('click', function () {
+        var done = function () { cb.textContent = t('ui.copied'); setTimeout(function () { cb.textContent = t('ui.copy'); }, 1400); };
+        try { navigator.clipboard.writeText(pr.textContent).then(done, function () { selectText(pr); }); } catch (e) { selectText(pr); }
+      });
+      p.img = artImg(art, 'art/p' + pad2(pg) + '-' + p.id);
+    }
+    (p.text || []).forEach(function (tx, i) { tx.el = textEl(pw, tx, i); });
+    return pw;
+  }
+
+  var secs = [], dots = [];
+  PAGES.forEach(function (pg, i) {
+    var th = T[pg.theme];
+    var sec = el('section', 'page', host);
+    sec.dataset.i = i;
+    sec.setAttribute('aria-label', 'דף ' + (i + 1));
+    pg.el = el('div', 'canvas', sec);
+    pg.panels.forEach(function (p) { buildPanel(pg.el, p, i, th); });
+    secs.push(sec);
+    var dot = el('button', '', railEl);
+    dot.type = 'button';
+    dot.setAttribute('aria-label', 'דף ' + (i + 1));
+    dot.addEventListener('click', function () { sec.scrollIntoView({ behavior: RM ? 'auto' : 'smooth', block: 'start' }); });
+    dots.push(dot);
+  });
+
+  /* ===================== layout: desktop collage or phone column ===================== */
+  function corners(w, h, c) {
+    var rT = SLOPE * w / h * 100, rL = SLOPE * h / w * 100;
+    var TL = [0, 0], TR = [100, 0], BR = [100, 100], BL = [0, 100];
+    if (c.t > 0) TR[1] += rT; else if (c.t < 0) TL[1] += rT;
+    if (c.b > 0) BL[1] -= rT; else if (c.b < 0) BR[1] -= rT;
+    if (c.l > 0) TL[0] += rL; else if (c.l < 0) BL[0] += rL;
+    if (c.r > 0) BR[0] -= rL; else if (c.r < 0) TR[0] -= rL;
+    return [TL, TR, BR, BL];
+  }
+  function fadeMask(f, rtl) {
+    var v = 'linear-gradient(to bottom,', st = rtl ? 'to left' : 'to right';
+    switch (f) {
+      case 'b': return v + '#000 0,#000 68%,transparent 100%)';
+      case 't': return v + 'transparent 0,#000 32%,#000 100%)';
+      case 'tb': return v + 'transparent 0,#000 26%,#000 68%,transparent 100%)';
+      case 's': return 'linear-gradient(' + st + ',transparent 0,#000 32%,#000 100%)';
+      case 'e': return 'linear-gradient(' + st + ',#000 0,#000 68%,transparent 100%)';
+    }
+    return 'none';
+  }
+  function layoutPage(pg) {
+    var rtl = document.documentElement.dir === 'rtl', mob = mq.matches;
+    var boxes = [], H = pg.H;
+    if (!mob) {
+      pg.panels.forEach(function (p) { boxes.push({ p: p, x: p.x, y: p.y, w: p.w, h: p.h, cut: p.cut || C(), fade: p.fade }); });
+    } else {
+      var list = pg.panels.filter(function (p) { return !p.bridge && !p.layer; }), y = 0, g = 1.5;
+      list.forEach(function (p, k) {
+        var h = p.mh || Math.min(82, Math.max(46, 100 * p.h / p.w));
+        if (p.circle && !p.mh) h = 60;
+        var last = k === list.length - 1;
+        boxes.push({ p: p, x: 0, y: y, w: 100, h: h, cut: C(k ? 1 : 0, last ? 0 : 1), fade: p.fade });
+        y += h - SLOPE * 100 + g;
+        if (last) H = y - g + SLOPE * 100;
+      });
+      pg.panels.forEach(function (p) { if (p.bridge || p.layer) p.pw.style.display = 'none'; });
+    }
+    pg.el.style.aspectRatio = '100 / ' + H.toFixed(2);
+    boxes.forEach(function (b) {
+      var p = b.p, pw = p.pw;
+      pw.style.display = '';
+      pw.style.zIndex = p.z || 1;
+      pw.style.left = (rtl ? 100 - b.x - b.w : b.x).toFixed(3) + '%';
+      pw.style.width = b.w.toFixed(3) + '%';
+      pw.style.top = (b.y / H * 100).toFixed(3) + '%';
+      pw.style.height = (b.h / H * 100).toFixed(3) + '%';
+      if (p.bridge || p.layer) return;
+      p.pn.classList.toggle('circle', !!p.circle && !mob);
+      p.pn.classList.toggle('memory', !!p.memory);
+      if (p.circle && !mob) {
+        p.pn.style.clipPath = 'none';
+      } else {
+        p.pn.style.clipPath = 'polygon(' + corners(b.w, b.h, b.cut).map(function (q) { return (rtl ? 100 - q[0] : q[0]).toFixed(2) + '% ' + q[1].toFixed(2) + '%'; }).join(',') + ')';
+      }
+      var m = b.fade ? fadeMask(b.fade, rtl) : 'none';
+      p.pn.style.maskImage = m; p.pn.style.webkitMaskImage = m;
+      if (p.img) {
+        p.img.style.objectPosition = (p.fx == null ? 50 : p.fx) + '% ' + (p.fy == null ? 50 : p.fy) + '%';
+        p.img.style.setProperty('--zm', p.zoom || 1);
+      }
+    });
+  }
+  function layoutAll() { PAGES.forEach(layoutPage); }
+  if (mq.addEventListener) mq.addEventListener('change', layoutAll);
+
+  /* ===================== language ===================== */
+  function applyLang(l) {
+    lang = l;
+    var root = document.documentElement;
+    root.lang = l; root.dir = LANG_DIR[l] || 'ltr';
+    document.title = t('cover.title');
+    Array.prototype.forEach.call(document.querySelectorAll('[data-k]'), function (n) { n.textContent = t(n.dataset.k); });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-lang]'), function (b) { b.setAttribute('aria-pressed', b.dataset.lang === l ? 'true' : 'false'); });
+    layoutAll();
+    updateLabel();
+    schedule();
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('[data-lang]'), function (b) {
+    b.addEventListener('click', function () { applyLang(b.dataset.lang); });
+  });
+  var dirBtn = document.getElementById('director');
+  dirBtn.addEventListener('click', function () {
+    var on = !document.body.classList.contains('director');
+    document.body.classList.toggle('director', on);
+    dirBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+  document.getElementById('restart').addEventListener('click', function () { window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' }); });
+
+  /* ===================== scene: palette, glow, particles ===================== */
+  var atmos = document.getElementById('atmos'), glow = document.getElementById('glow');
+  function applyScene(theme, pulse, parts) {
+    var th = T[theme];
+    atmos.style.setProperty('--ca', th.a); atmos.style.setProperty('--cb', th.b); atmos.style.setProperty('--cc', th.c);
+    atmos.style.setProperty('--ce', th.e); atmos.style.setProperty('--cg', th.g);
+    glow.className = pulse ? 'p-' + pulse : '';
+    setParts(parts);
+  }
+
+  /* ===================== scroll director ===================== */
+  var hud = document.getElementById('hud'), hudLabel = document.getElementById('hudLabel'), hudFill = document.getElementById('hudFill'), hudTrack = document.getElementById('hudTrack');
+  hudTrack.setAttribute('aria-valuemax', String(N));
+  var coverInner = document.getElementById('coverInner'), outroInner = document.getElementById('outroInner');
+  var cover = document.getElementById('cover'), outro = document.getElementById('outro');
+  var active = -9, ticking = false, visible = [];
+
+  function updateLabel() {
+    if (active < 0 || active >= N) return;
+    hudLabel.textContent = t('ui.page').replace('{n}', active + 1).replace('{total}', N);
+    hudTrack.setAttribute('aria-valuenow', String(active + 1));
+  }
+  function setActive(i) {
+    if (i === active) return;
+    active = i;
+    var inBook = i >= 0 && i < N;
+    hud.classList.toggle('off', !inBook);
+    railEl.classList.toggle('off', !inBook);
+    dots.forEach(function (d, k) { d.classList.toggle('on', k === i); });
+    if (inBook) {
+      var pg = PAGES[i];
+      applyScene(pg.theme, pg.pulse, pg.parts);
+      hudFill.style.width = ((i + 1) / N * 100) + '%';
+      updateLabel();
+    } else if (i < 0) {
+      applyScene('gold', 'breath', [P('dust', 26)]);
+    } else {
+      applyScene('goldEnd', 'breath', [P('paper', 8, '240,225,190'), P('dust', 30)]);
+    }
+  }
+
+  function update() {
+    ticking = false;
+    var vh = window.innerHeight, mid = vh * 0.5, idx = -1;
+    for (var i = 0; i < secs.length; i++) {
+      if (secs[i].getBoundingClientRect().top <= mid) idx = i; else break;
+    }
+    if (idx === secs.length - 1 && secs[idx].getBoundingClientRect().bottom < mid) idx = N;
+    setActive(idx);
+
+    var cr = cover.getBoundingClientRect();
+    var p = Math.min(1, Math.max(0, -cr.top / (vh * 0.8)));
+    coverInner.style.opacity = String(1 - p);
+    coverInner.style.transform = RM ? '' : 'translateY(' + (p * -50) + 'px) scale(' + (1 - p * 0.06) + ')';
+    var or = outro.getBoundingClientRect();
+    var q = Math.min(1, Math.max(0, 1 - or.top / vh));
+    outroInner.style.opacity = String(Math.min(1, q * 1.6));
+
+    if (!RM && !document.body.classList.contains('edit')) {
+      for (var k = 0; k < visible.length; k++) {
+        var pw = visible[k], pp = pw.__p;
+        var base = PAGES[pp.pg].el.getBoundingClientRect().top + pw.offsetTop + pw.offsetHeight / 2;
+        var off = (base - mid) / vh;
+        if (pp.sp) pw.style.transform = 'translateY(' + (off * pp.sp).toFixed(1) + 'px)';
+        if (pp.img) {
+          pp.img.style.setProperty('--py', (off * -34).toFixed(1) + 'px');
+          pp.img.style.setProperty('--sc', (1.04 + Math.min(1, Math.abs(off)) * 0.09).toFixed(3));
+        }
+      }
+    }
+  }
+  function schedule() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', function () { resize(); schedule(); });
+
+  /* reveal panels when they come into view and track the ones on screen for the parallax */
+  var pws = Array.prototype.slice.call(document.querySelectorAll('.pw'));
+  if ('IntersectionObserver' in window) {
+    var revealIO = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); revealIO.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    var visIO = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        var at = visible.indexOf(e.target);
+        if (e.isIntersecting && at < 0) visible.push(e.target);
+        else if (!e.isIntersecting && at >= 0) visible.splice(at, 1);
+      });
+      schedule();
+    }, { rootMargin: '15% 0px' });
+    pws.forEach(function (pw) { if (!pw.classList.contains('bridge')) revealIO.observe(pw); visIO.observe(pw); });
+  } else {
+    pws.forEach(function (pw) { pw.classList.add('in'); });
+  }
+
+  /* ===================== particles (drawn behind the book) ===================== */
+  var cv = document.getElementById('fx'), ctx = cv.getContext('2d');
+  var W = 0, H = 0, DPR = 1, groups = [], sprites = {}, last = 0, rnd = Math.random;
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+  function sprite(rgb) {
+    if (sprites[rgb]) return sprites[rgb];
+    var c = document.createElement('canvas'); c.width = c.height = 128;
+    var g = c.getContext('2d'), gr = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+    gr.addColorStop(0, 'rgba(' + rgb + ',1)'); gr.addColorStop(.45, 'rgba(' + rgb + ',.4)'); gr.addColorStop(1, 'rgba(' + rgb + ',0)');
+    g.fillStyle = gr; g.fillRect(0, 0, 128, 128);
+    return (sprites[rgb] = c);
+  }
+  function make(cfg) {
+    var p = { k: cfg.k, c: cfg.c, sp: cfg.s, env: 0, ph: rnd() * 6.28, x: rnd() * W, y: rnd() * H, vx: 0, vy: 0, r: 1, a: .4, rot: rnd() * 6.28, vr: 0 };
+    switch (cfg.k) {
+      case 'dust': p.r = .6 + rnd() * 1.7; p.vx = (rnd() - .5) * 8; p.vy = -2 - rnd() * 6; p.a = .3 + rnd() * .5; break;
+      case 'spark': p.r = .8 + rnd() * 1.6; p.vx = (rnd() - .5) * 12; p.vy = -(10 + rnd() * 26); p.a = .5 + rnd() * .5; p.y = H * (.3 + rnd() * .7); break;
+      case 'shimmer': p.r = 1 + rnd() * 1.6; p.a = .4 + rnd() * .6; p.vr = .8 + rnd() * 2; break;
+      case 'smoke': p.r = 90 + rnd() * 160; p.x = rnd() < .5 ? rnd() * W * .28 : W * (.72 + rnd() * .28); p.vx = -(4 + rnd() * 10); p.vy = -(6 + rnd() * 14); p.a = .06 + rnd() * .08; break;
+      case 'fog': p.r = 200 + rnd() * 280; p.vx = -(5 + rnd() * 10); p.a = .05 + rnd() * .06; p.y = H * (.35 + rnd() * .65); break;
+      case 'cloud': p.r = 120 + rnd() * 170; p.vx = -(3 + rnd() * 7); p.y = H * rnd() * .6; p.a = .06 + rnd() * .08; break;
+      case 'rain': p.r = 12 + rnd() * 16; p.vx = -90; p.vy = 520 + rnd() * 220; p.a = .22 + rnd() * .2; break;
+      case 'streak': p.r = 80 + rnd() * 190; p.vx = -(700 + rnd() * 900); p.a = .07 + rnd() * .14; p.vr = 1 + rnd() * 1.4; break;
+      case 'paper': p.r = 9 + rnd() * 8; p.vx = (rnd() - .5) * 8; p.vy = 4 + rnd() * 7; p.a = .35 + rnd() * .3; p.vr = (rnd() - .5) * .7; break;
+    }
+    return p;
+  }
+  function setParts(parts) {
+    if (RM) return;
+    groups.forEach(function (g) { g.target = 0; });
+    var area = Math.min(1.5, Math.max(.5, W * H / (1280 * 720)));
+    var g = { target: 1, ps: [] };
+    parts.forEach(function (cfg) { var n = Math.round(cfg.n * area); for (var i = 0; i < n; i++) g.ps.push(make(cfg)); });
+    groups.push(g);
+  }
+  function draw(p, dt, t) {
+    var al = p.a * p.env, s = p.sp;
+    p.x += p.vx * dt * s; p.y += p.vy * dt * s;
+    switch (p.k) {
+      case 'dust':
+        p.x += Math.sin(t * .5 + p.ph) * .15;
+        if (p.y < -10) { p.y = H + 10; p.x = rnd() * W; } if (p.x < -10) p.x = W + 10; if (p.x > W + 10) p.x = -10;
+        ctx.globalAlpha = al * (.7 + .3 * Math.sin(t * 1.3 + p.ph));
+        ctx.drawImage(sprite(p.c), p.x - p.r * 2.5, p.y - p.r * 2.5, p.r * 5, p.r * 5); break;
+      case 'spark':
+        if (p.y < -10) { p.y = H + 10; p.x = rnd() * W; }
+        ctx.globalAlpha = al * (.55 + .45 * Math.sin(t * 7 + p.ph));
+        ctx.drawImage(sprite(p.c), p.x - p.r * 4, p.y - p.r * 4, p.r * 8, p.r * 8); break;
+      case 'shimmer':
+        ctx.globalAlpha = al * Math.max(0, Math.sin(t * p.vr + p.ph));
+        ctx.drawImage(sprite(p.c), p.x - p.r * 3, p.y - p.r * 3, p.r * 6, p.r * 6); break;
+      case 'smoke': case 'fog': case 'cloud':
+        if (p.x < -p.r) p.x = W + p.r; if (p.y < -p.r) { p.y = H + p.r; p.x = rnd() * W; }
+        ctx.globalAlpha = al;
+        ctx.drawImage(sprite(p.c), p.x - p.r, p.y - p.r, p.r * 2, p.r * 2); break;
+      case 'rain':
+        if (p.y > H + 20) { p.y = -20; p.x = rnd() * (W + 200); } if (p.x < -20) p.x = W + 20;
+        ctx.globalAlpha = al; ctx.strokeStyle = 'rgb(' + p.c + ')'; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * .02 * p.r / 12, p.y - p.vy * .02 * p.r / 12); ctx.stroke(); break;
+      case 'streak':
+        if (p.x < -p.r) { p.x = W + rnd() * 200; p.y = rnd() * H; }
+        ctx.globalAlpha = al; ctx.strokeStyle = 'rgb(' + p.c + ')'; ctx.lineWidth = p.vr; ctx.lineCap = 'round';
+        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x + p.r, p.y); ctx.stroke(); break;
+      case 'paper':
+        p.rot += p.vr * dt; p.x += Math.sin(t * .6 + p.ph) * .3;
+        if (p.y > H + 30) { p.y = -30; p.x = rnd() * W; }
+        ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot); ctx.globalAlpha = al;
+        ctx.fillStyle = 'rgba(' + p.c + ',.9)'; ctx.fillRect(-p.r / 2, -p.r * .68, p.r, p.r * 1.35); ctx.restore(); break;
+    }
+  }
+  function frame(ts) {
+    var tt = ts / 1000, dt = Math.min(.05, last ? tt - last : .016);
+    last = tt;
+    ctx.clearRect(0, 0, W, H);
+    for (var gi = groups.length - 1; gi >= 0; gi--) {
+      var g = groups[gi], top = 0, k = Math.min(1, dt * 1.4);
+      for (var i = 0; i < g.ps.length; i++) {
+        var p = g.ps[i];
+        p.env += (g.target - p.env) * k;
+        if (p.env > top) top = p.env;
+        if (p.env > .01) draw(p, dt, tt);
+      }
+      if (g.target === 0 && top < .01) groups.splice(gi, 1);
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(frame);
+  }
+
+  /* ===================== studio: edit the layout in the page itself ===================== */
+  var edit = { on: false, sel: null, drag: null };
+  var binds = [], saveTimer = 0, counter = 1;
+  var insp = null, status = null;
+
+  function pageOf(p) { return PAGES[p.pg]; }
+  function snap(v, free) { return free ? Math.round(v * 10) / 10 : Math.round(v * 2) / 2; }
+  function isRtl() { return document.documentElement.dir === 'rtl'; }
+
+  /* serialising: only what a page needs to be rebuilt */
+  var KEEP = ['id', 'x', 'y', 'w', 'h', 'z', 'sp', 'memory', 'circle', 'layer', 'src', 'bridge', 'fade', 'fx', 'fy', 'zoom', 'mh', 'stub', 'shot', 'chars', 'pal'];
+  function serialize(p) {
+    var o = {};
+    KEEP.forEach(function (k) { if (p[k] !== undefined && p[k] !== null) o[k] = p[k]; });
+    o.cut = p.cut || C();
+    o.text = (p.text || []).map(function (tx) { return { k: tx.k, id: tx.id, from: tx.from, x: tx.x, v: tx.v, y: tx.y, w: tx.w || 0, tail: tx.tail || '', fs: tx.fs || 1 }; });
+    return o;
+  }
+  function exportData() {
+    var out = { v: 1, pages: {}, strings: {} };
+    PAGES.forEach(function (pg, i) { if (dirty[i]) out.pages[i + 1] = { H: pg.H, panels: pg.panels.map(serialize) }; });
+    Object.keys(STR).forEach(function (l) {
+      Object.keys(STR[l]).forEach(function (k) {
+        if (origStr[l][k] !== STR[l][k]) { out.strings[l] = out.strings[l] || {}; out.strings[l][k] = STR[l][k]; }
+      });
+    });
+    return out;
+  }
+  function save() {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      var ok = true;
+      try { localStorage.setItem('journey-layout-v1', JSON.stringify(exportData())); } catch (e) { ok = false; }
+      if (status) status.textContent = ok ? 'נשמר בדפדפן הזה' : 'שמירה בדפדפן לא זמינה. העתק JSON כדי לשמור';
+    }, 300);
+  }
+  function changed(pg) { dirty[PAGES.indexOf(pg)] = true; layoutPage(pg); updateHandles(); syncBinds(); save(); }
+
+  /* ----- selection and handles ----- */
+  function clearSel() {
+    if (edit.sel) {
+      if (edit.sel.tx) edit.sel.tx.el.classList.remove('sel'); else edit.sel.p.pw.classList.remove('sel');
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('.hdl'), function (h) { h.remove(); });
+    edit.sel = null;
+  }
+  function select(p, tx) {
+    clearSel();
+    edit.sel = { p: p, tx: tx || null };
+    if (tx) tx.el.classList.add('sel'); else p.pw.classList.add('sel');
+    updateHandles();
+    buildInspector();
+  }
+  var HANDLES = ['nw', 'n', 'ne', 'e', 'se', 's', 'sw', 'w'];
+  function updateHandles() {
+    Array.prototype.forEach.call(document.querySelectorAll('.hdl'), function (h) { h.remove(); });
+    var s = edit.sel;
+    if (!edit.on || !s || s.tx) return;
+    HANDLES.forEach(function (h) {
+      var d = el('i', 'hdl', s.p.pw);
+      d.dataset.h = h;
+    });
+  }
+
+  /* ----- pointer: move, resize, drag lettering ----- */
+  function pageCanvasWidth(p) { return pageOf(p).el.getBoundingClientRect().width; }
+  document.addEventListener('pointerdown', function (e) {
+    if (!edit.on || e.button > 0) return;
+    if (e.target.closest && e.target.closest('#studio')) return;
+    var hdl = e.target.closest && e.target.closest('.hdl');
+    var txEl = e.target.closest && e.target.closest('.txt');
+    var pwEl = e.target.closest && e.target.closest('.pw');
+    if (!pwEl && !hdl) return;
+    var p = pwEl.__p;
+    e.preventDefault();
+    if (hdl) {
+      var rtl = isRtl();
+      edit.drag = { type: 'resize', h: hdl.dataset.h, p: p, sx: e.clientX, sy: e.clientY, cw: pageCanvasWidth(p), l: rtl ? 100 - p.x - p.w : p.x, t: p.y, w: p.w, hh: p.h };
+    } else if (txEl) {
+      var tx = txEl.__tx;
+      select(p, tx);
+      var r = pwEl.getBoundingClientRect();
+      edit.drag = { type: 'text', tx: tx, p: p, sx: e.clientX, sy: e.clientY, pw: r.width, ph: r.height, x: tx.x, y: tx.y };
+    } else {
+      select(p);
+      edit.drag = { type: 'move', p: p, sx: e.clientX, sy: e.clientY, cw: pageCanvasWidth(p), x: p.x, y: p.y };
+    }
+    try { document.setPointerCapture && document.body.setPointerCapture(e.pointerId); } catch (er) {}
+  }, true);
+  document.addEventListener('pointermove', function (e) {
+    var d = edit.drag; if (!d) return;
+    var free = e.shiftKey, rtl = isRtl();
+    var dx = e.clientX - d.sx, dy = e.clientY - d.sy, p = d.p;
+    if (d.type === 'move') {
+      var du = dx / d.cw * 100, dv = dy / d.cw * 100;
+      p.x = snap(d.x + (rtl ? -du : du), free); p.y = snap(d.y + dv, free);
+    } else if (d.type === 'resize') {
+      var ux = dx / d.cw * 100, uy = dy / d.cw * 100, l = d.l, t = d.t, w = d.w, h = d.hh, k = d.h;
+      if (k.indexOf('e') >= 0) w = Math.max(6, d.w + ux);
+      if (k.indexOf('w') >= 0) { var nw = Math.max(6, d.w - ux); l = d.l + (d.w - nw); w = nw; }
+      if (k.indexOf('s') >= 0) h = Math.max(6, d.hh + uy);
+      if (k.indexOf('n') >= 0) { var nh = Math.max(6, d.hh - uy); t = d.t + (d.hh - nh); h = nh; }
+      p.w = snap(w, free); p.h = snap(h, free); p.y = snap(t, free);
+      var pl = snap(l, free);
+      p.x = rtl ? snap(100 - pl - p.w, free) : pl;
+    } else if (d.type === 'text') {
+      var tx = d.tx, dxp = dx / d.pw * 100, dyp = dy / d.ph * 100;
+      var sx = tx.from === 'start' ? (rtl ? -1 : 1) : (rtl ? 1 : -1);
+      tx.x = Math.round((d.x + sx * dxp) * 2) / 2;
+      tx.y = Math.round((d.y + (tx.v === 'bottom' ? -dyp : dyp)) * 2) / 2;
+      applyTextPos(tx.el, tx);
+      dirty[p.pg] = true; syncBinds(); save();
+      return;
+    }
+    changed(pageOf(p));
+  }, true);
+  function endDrag() { edit.drag = null; }
+  document.addEventListener('pointerup', endDrag, true);
+  document.addEventListener('pointercancel', endDrag, true);
+  document.addEventListener('keydown', function (e) {
+    if (!edit.on || !edit.sel) return;
+    var tag = e.target && e.target.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    var s = edit.sel, step = e.shiftKey ? 2 : .5, rtl = isRtl();
+    if (e.key === 'Escape') { clearSel(); buildInspector(); return; }
+    if (e.key === 'Delete' || e.key === 'Backspace') { e.preventDefault(); removeSel(); return; }
+    var mv = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] }[e.key];
+    if (!mv || s.tx) return;
+    e.preventDefault();
+    s.p.x = snap(s.p.x + (rtl ? -mv[0] : mv[0]) * step, true); s.p.y = snap(s.p.y + mv[1] * step, true);
+    changed(pageOf(s.p));
+  }, true);
+  document.addEventListener('dragover', function (e) { if (edit.on && e.target.closest && e.target.closest('.pw')) e.preventDefault(); });
+  document.addEventListener('drop', function (e) {
+    if (!edit.on) return;
+    var pwEl = e.target.closest && e.target.closest('.pw');
+    if (!pwEl || !e.dataTransfer || !e.dataTransfer.files.length) return;
+    e.preventDefault();
+    var f = e.dataTransfer.files[0];
+    if (f && /^image\//.test(f.type)) { select(pwEl.__p); setLocalImage(pwEl.__p, f); }
+  });
+
+  /* ----- images: local preview of a file, until it is published under art/ ----- */
+  function ensureImg(p) {
+    if (p.img) return p.img;
+    var art = p.pw.querySelector('.art');
+    p.img = el('img', '', art); p.img.alt = '';
+    return p.img;
+  }
+  function setLocalImage(p, file) {
+    var im = ensureImg(p), url = URL.createObjectURL(file);
+    im.onload = function () { im.style.display = ''; im.classList.add('ok'); if (p.pw.classList.contains('layer')) p.pw.classList.add('has'); };
+    im.onerror = null;
+    im.src = url;
+    layoutPage(pageOf(p));
+  }
+
+  /* ----- adding and removing ----- */
+  function newId(pg) { var id; do { id = 'n' + (counter++); } while (pg.panels.some(function (q) { return q.id === id; })); return id; }
+  function viewCenterUnit(pg) {
+    var r = pg.el.getBoundingClientRect();
+    return Math.max(0, Math.min(pg.H - 24, (window.innerHeight / 2 - r.top) / r.width * 100 - 12));
+  }
+  function currentPage() {
+    if (edit.sel) return pageOf(edit.sel.p);
+    return PAGES[Math.max(0, Math.min(N - 1, active))];
+  }
+  function addPanel(layer, file) {
+    var pg = currentPage(), i = PAGES.indexOf(pg), id = newId(pg);
+    var p = layer
+      ? { id: id, layer: true, src: 'art/p' + pad2(i + 1) + '-' + id + '.png', x: 30, y: viewCenterUnit(pg), w: 30, h: 24, z: 9, sp: 14 }
+      : { id: id, x: 30, y: viewCenterUnit(pg), w: 40, h: 28, cut: C(), z: 3, shot: '', chars: [], pal: 'warm', text: [] };
+    pg.panels.push(p);
+    buildPanel(pg.el, p, i, T[pg.theme]);
+    p.pw.classList.add('in');
+    if (file) setLocalImage(p, file);
+    dirty[i] = true; layoutPage(pg); select(p); save();
+  }
+  function duplicate() {
+    var s = edit.sel; if (!s || s.tx || s.p.bridge) return;
+    var pg = pageOf(s.p), i = PAGES.indexOf(pg), src = serialize(s.p);
+    var p = JSON.parse(JSON.stringify(src));
+    p.id = newId(pg); p.x += 3; p.y += 3; p.text = [];
+    if (p.layer) p.src = 'art/p' + pad2(i + 1) + '-' + p.id + '.png';
+    pg.panels.push(p);
+    buildPanel(pg.el, p, i, T[pg.theme]);
+    p.pw.classList.add('in');
+    dirty[i] = true; layoutPage(pg); select(p); save();
+  }
+  function removeSel() {
+    var s = edit.sel; if (!s) return;
+    var pg = pageOf(s.p), i = PAGES.indexOf(pg);
+    if (s.tx) {
+      s.tx.el.remove(); s.p.text.splice(s.p.text.indexOf(s.tx), 1);
+      dirty[i] = true; clearSel(); select(s.p); save(); return;
+    }
+    s.p.pw.remove(); pg.panels.splice(pg.panels.indexOf(s.p), 1);
+    dirty[i] = true; clearSel(); buildInspector(); layoutPage(pg); save();
+  }
+  function addText(kind) {
+    var s = edit.sel; if (!s) return;
+    var p = s.p; if (p.bridge || p.layer) return;
+    var id = 'u' + Date.now().toString(36);
+    STR.he[id] = { cap: 'כיתוב חדש', sfx: 'בום!', shout: 'היי!' }[kind] || 'טקסט חדש'; STR.en[id] = { cap: 'New caption', sfx: 'BOOM!', shout: 'Hey!' }[kind] || 'New text';
+    var tx = { k: kind, id: id, from: 'start', x: 8, v: 'top', y: 8, w: 44, tail: TAILED[kind] ? 'bs' : '' };
+    if (kind === 'tag' || kind === 'sfx') tx.w = 0;
+    if (kind === 'shout') tx.w = 34;
+    p.text = p.text || [];
+    p.text.push(tx);
+    tx.el = textEl(p.pw, tx, p.text.length - 1);
+    tx.el.textContent = t(id);
+    dirty[p.pg] = true; select(p, tx); save();
+  }
+
+  /* ----- the inspector ----- */
+  function syncBinds() { binds.forEach(function (b) { if (document.activeElement !== b.input) b.input.value = b.get(); if (b.input.type === 'checkbox') b.input.checked = !!b.get(); }); }
+  function buildInspector() {
+    if (!insp) return;
+    var body = insp.querySelector('.st-body');
+    body.replaceChildren(); binds = [];
+    var s = edit.sel;
+    function row(label, node) { var r = el('label', 'st-row', body); el('span', '', r).textContent = label; r.appendChild(node); return r; }
+    function num(label, get, set, step, min, max) {
+      var i = el('input'); i.type = 'number'; i.step = step || .5; if (min != null) i.min = min; if (max != null) i.max = max;
+      i.value = get();
+      i.addEventListener('input', function () { var v = parseFloat(i.value); if (isNaN(v)) return; set(v); });
+      binds.push({ input: i, get: get }); row(label, i); return i;
+    }
+    function sel(label, opts, get, set) {
+      var i = el('select');
+      opts.forEach(function (o) { var op = el('option', '', i); op.value = String(o[0]); op.textContent = o[1]; });
+      i.value = String(get());
+      i.addEventListener('change', function () { set(i.value); });
+      binds.push({ input: i, get: function () { return String(get()); } }); row(label, i); return i;
+    }
+    function chk(label, get, set) {
+      var i = el('input'); i.type = 'checkbox'; i.checked = !!get();
+      i.addEventListener('change', function () { set(i.checked); });
+      binds.push({ input: i, get: get }); row(label, i); return i;
+    }
+    function rng(label, get, set, min, max, step) {
+      var i = el('input'); i.type = 'range'; i.min = min; i.max = max; i.step = step; i.value = get();
+      i.addEventListener('input', function () { set(parseFloat(i.value)); });
+      binds.push({ input: i, get: get }); row(label, i); return i;
+    }
+    function btn(label, fn, cls) { var b = el('button', 'st-btn' + (cls ? ' ' + cls : ''), body); b.type = 'button'; b.textContent = label; b.addEventListener('click', fn); return b; }
+    function fileBtn(label, fn) {
+      var l = el('label', 'st-btn', body); l.textContent = label;
+      var f = el('input', '', l); f.type = 'file'; f.accept = 'image/*'; f.hidden = true;
+      f.addEventListener('change', function () { if (f.files[0]) fn(f.files[0]); f.value = ''; });
+    }
+    var cutOpts = [[0, 'ישר'], [1, 'נמוך בסוף'], [-1, 'נמוך בהתחלה']];
+    var sideOpts = function (a, b) { return [[0, 'ישר'], [1, a], [-1, b]]; };
+
+    if (!s) {
+      el('p', 'st-hint', body).textContent = 'בחר פאנל בדף כדי לערוך אותו. גרירה מזיזה, הידיות משנות גודל, Shift גורר בלי הצמדה, וחצים מזיזים בעדינות.';
+      var pg = currentPage();
+      num('גובה העמוד (יחידות)', function () { return pg.H; }, function (v) { pg.H = Math.max(40, v); changed(pg); }, 1, 40, 600);
+      btn('+ פאנל', function () { addPanel(false); });
+      fileBtn('+ שכבה (תמונה שקופה)', function (f) { addPanel(true, f); });
+    } else if (s.tx) {
+      var tx = s.tx, p = s.p;
+      el('h4', 'st-h', body).textContent = 'טקסט';
+      sel('סוג', [['bub', 'בועת דיבור'], ['tho', 'בועת מחשבה'], ['whisper', 'לחישה'], ['shout', 'צעקה'], ['cap', 'כיתוב'], ['tag', 'תווית'], ['sfx', 'אפקט קול']], function () { return tx.k; }, function (v) { tx.k = v; if (!TAILED[v]) tx.tail = ''; else if (!tx.tail) tx.tail = 'bs'; applyTextPos(tx.el, tx); dirty[p.pg] = true; save(); });
+      num('גודל טקסט (×)', function () { return tx.fs || 1; }, function (v) { tx.fs = Math.max(.5, Math.min(3, v)); applyTextPos(tx.el, tx); dirty[p.pg] = true; save(); }, .1, .5, 3);
+      num('רוחב (%)', function () { return tx.w || 0; }, function (v) { tx.w = v; applyTextPos(tx.el, tx); dirty[p.pg] = true; save(); }, 1, 0, 100);
+      sel('זנב', [['', 'ללא'], ['bs', 'למטה, התחלה'], ['be', 'למטה, סוף'], ['ts', 'למעלה, התחלה'], ['te', 'למעלה, סוף']], function () { return tx.tail || ''; }, function (v) { tx.tail = v; applyTextPos(tx.el, tx); dirty[p.pg] = true; save(); });
+      sel('עוגן אופקי', [['start', 'התחלה'], ['end', 'סוף']], function () { return tx.from; }, function (v) { tx.from = v; applyTextPos(tx.el, tx); dirty[p.pg] = true; save(); });
+      sel('עוגן אנכי', [['top', 'למעלה'], ['bottom', 'למטה']], function () { return tx.v; }, function (v) { tx.v = v; applyTextPos(tx.el, tx); dirty[p.pg] = true; save(); });
+      ['he', 'en'].forEach(function (l) {
+        var ta = el('textarea', 'st-ta'); ta.rows = 3; ta.value = STR[l][tx.id] != null ? STR[l][tx.id] : '';
+        ta.dir = l === 'he' ? 'rtl' : 'ltr';
+        ta.addEventListener('input', function () { STR[l][tx.id] = ta.value; if (l === lang) tx.el.textContent = ta.value; dirty[p.pg] = true; save(); });
+        row(l === 'he' ? 'עברית' : 'English', ta);
+      });
+      btn('מחק טקסט', removeSel, 'danger');
+      btn('חזרה לפאנל', function () { select(p); });
+    } else {
+      var q = s.p;
+      el('h4', 'st-h', body).textContent = q.bridge ? 'אפקט גשר' : q.layer ? 'שכבה' : 'פאנל ' + q.id;
+      var pgq = pageOf(q);
+      num('מיקום X', function () { return q.x; }, function (v) { q.x = v; changed(pgq); });
+      num('מיקום Y', function () { return q.y; }, function (v) { q.y = v; changed(pgq); });
+      num('רוחב', function () { return q.w; }, function (v) { q.w = Math.max(4, v); changed(pgq); });
+      num('גובה', function () { return q.h; }, function (v) { q.h = Math.max(4, v); changed(pgq); });
+      num('שכבה (z)', function () { return q.z || 1; }, function (v) { q.z = v; changed(pgq); }, 1);
+      num('תזוזה בגלילה (px)', function () { return q.sp || 0; }, function (v) { q.sp = v; changed(pgq); }, 1);
+      if (!q.bridge && !q.layer) {
+        q.cut = q.cut || C();
+        sel('קצה עליון', cutOpts, function () { return q.cut.t; }, function (v) { q.cut.t = +v; changed(pgq); });
+        sel('קצה תחתון', cutOpts, function () { return q.cut.b; }, function (v) { q.cut.b = +v; changed(pgq); });
+        sel('קצה בהתחלה', sideOpts('פנימה למעלה', 'פנימה למטה'), function () { return q.cut.l; }, function (v) { q.cut.l = +v; changed(pgq); });
+        sel('קצה בסוף', sideOpts('פנימה למטה', 'פנימה למעלה'), function () { return q.cut.r; }, function (v) { q.cut.r = +v; changed(pgq); });
+        sel('המסה', [['', 'ללא'], ['t', 'למעלה'], ['b', 'למטה'], ['tb', 'למעלה ולמטה'], ['s', 'בהתחלה'], ['e', 'בסוף']], function () { return q.fade || ''; }, function (v) { q.fade = v; changed(pgq); });
+        chk('אפקט זיכרון', function () { return q.memory; }, function (v) { q.memory = v; changed(pgq); });
+        chk('עיגול', function () { return q.circle; }, function (v) { q.circle = v; changed(pgq); });
+        num('גובה במובייל (0 = אוטומטי)', function () { return q.mh || 0; }, function (v) { q.mh = v || undefined; changed(pgq); }, 1, 0, 140);
+        fileBtn('טעינת תמונה לתצוגה', function (f) { setLocalImage(q, f); });
+        rng('נקודת מיקוד X', function () { return q.fx == null ? 50 : q.fx; }, function (v) { q.fx = v; changed(pgq); }, 0, 100, 1);
+        rng('נקודת מיקוד Y', function () { return q.fy == null ? 50 : q.fy; }, function (v) { q.fy = v; changed(pgq); }, 0, 100, 1);
+        rng('זום', function () { return q.zoom || 1; }, function (v) { q.zoom = v; changed(pgq); }, 1, 2.2, .01);
+        var tk = el('div', 'st-add', body);
+        [['bub', '+ בועה'], ['tho', '+ מחשבה'], ['whisper', '+ לחישה'], ['shout', '+ צעקה'], ['cap', '+ כיתוב'], ['tag', '+ תווית'], ['sfx', '+ אפקט קול']].forEach(function (a) {
+          var b = el('button', 'st-btn', tk); b.type = 'button'; b.textContent = a[1]; b.addEventListener('click', function () { addText(a[0]); });
+        });
+        if (q.text && q.text.length) {
+          var lst = el('div', 'st-add', body);
+          q.text.forEach(function (tx2, k) {
+            var b = el('button', 'st-btn', lst); b.type = 'button'; b.textContent = 'טקסט ' + (k + 1); b.addEventListener('click', function () { select(q, tx2); });
+          });
+        }
+      }
+      if (q.layer) fileBtn('טעינת תמונה שקופה', function (f) { setLocalImage(q, f); });
+      if (q.layer) el('p', 'st-hint', body).textContent = 'ייעוד הקובץ: ' + q.src;
+      if (!q.bridge) btn('שכפל', duplicate);
+      btn('מחק', removeSel, 'danger');
+    }
+    var sep = el('hr', 'st-sep', body); sep.setAttribute('aria-hidden', 'true');
+    btn('העתק את כל העריכות כ־JSON', copyJson);
+    var imp = el('div', 'st-add', body);
+    var ta2 = el('textarea', 'st-ta'); ta2.rows = 2; ta2.placeholder = 'הדבק JSON לשחזור'; ta2.dir = 'ltr'; imp.appendChild(ta2);
+    btn('טען JSON ורענן', function () {
+      try { var d = JSON.parse(ta2.value); localStorage.setItem('journey-layout-v1', JSON.stringify(d)); location.reload(); } catch (e) { status.textContent = 'ה־JSON לא תקין או שהשמירה לא זמינה'; }
+    });
+    btn('אפס את העמוד הזה', function () {
+      var d = exportData(), pg = currentPage(), k = String(PAGES.indexOf(pg) + 1);
+      delete d.pages[k];
+      try { localStorage.setItem('journey-layout-v1', JSON.stringify(d)); location.reload(); } catch (e) { status.textContent = 'השמירה לא זמינה'; }
+    }, 'danger');
+  }
+  function copyJson() {
+    var txt = JSON.stringify(exportData(), null, 1);
+    var done = function () { status.textContent = 'הועתק. אפשר להדביק לי בצ׳אט'; };
+    var fallback = function () {
+      var ta = el('textarea', 'st-ta', insp.querySelector('.st-body')); ta.value = txt; ta.rows = 6; ta.dir = 'ltr'; ta.select();
+      status.textContent = 'סמן והעתק ידנית';
+    };
+    try { navigator.clipboard.writeText(txt).then(done, fallback); } catch (e) { fallback(); }
+  }
+
+  function buildStudio() {
+    insp = el('aside', '', document.body);
+    insp.id = 'studio'; insp.hidden = true;
+    var head = el('div', 'st-head', insp);
+    el('strong', '', head).textContent = 'עריכת פריסה';
+    var close = el('button', 'st-x', head); close.type = 'button'; close.textContent = '×'; close.setAttribute('aria-label', 'סגור'); close.addEventListener('click', function () { setEdit(false); });
+    el('div', 'st-body', insp);
+    status = el('div', 'st-status', insp); status.setAttribute('aria-live', 'polite');
+  }
+  function setEdit(on) {
+    if (on && mq.matches) return;
+    edit.on = on;
+    document.body.classList.toggle('edit', on);
+    var b = document.getElementById('editBtn'); b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    insp.hidden = !on;
+    pws.forEach(function (pw) { pw.classList.add('in'); pw.style.transform = ''; });
+    if (!on) { clearSel(); } else { buildInspector(); }
+    schedule();
+  }
+  buildStudio();
+  document.getElementById('editBtn').addEventListener('click', function () { setEdit(!edit.on); });
+  mq.addEventListener && mq.addEventListener('change', function () { if (mq.matches && edit.on) setEdit(false); });
+
+
+  /* ===================== production manifest: everything an illustrator needs, computed from the layout ===================== */
+  window.__manifest = function () {
+    var SIZES = { land: { w: 1536, h: 1024, r: 1.5 }, port: { w: 1024, h: 1536, r: 2 / 3 }, sq: { w: 1024, h: 1024, r: 1 } };
+    var out = { project: 'The Journey to Father (המסע אל אבא)', orientation: 'Hebrew right-to-left is the canonical orientation of every image; the English edition mirrors the art horizontally.', style: STYLE, bible: BIBLE, palettes: PAL, pages: [] };
+    var f = function (v) { return Math.round(v * 100) / 100; };
+    PAGES.forEach(function (pg, i) {
+      var page = { page: i + 1, theme: pg.theme, beat: i === 0 ? 'Frame story. In a synagogue in Israel, Baba, surrounded by loving listeners, is asked why he did not write a story this week. He smiles and says that today he will tell a true story. The scene dissolves into his memory: a railway station in Europe, 1946, the day his journey began.' : (STR.en['scene.' + (i + 1)] || ''), canvas_units: { width: 100, height: pg.H }, panels: [] };
+      pg.panels.forEach(function (p) {
+        if (p.bridge) return;
+        var kind = p.layer ? 'layer' : (p.circle ? 'circle' : 'panel');
+        var r1 = p.circle ? 1 : p.w / p.h;
+        var mh = p.mh || Math.min(82, Math.max(46, 100 * p.h / p.w)); if (p.circle && !p.mh) mh = 60;
+        var r2 = 100 / mh;
+        var sz = r1 >= 1.25 ? SIZES.land : (r1 <= 0.8 ? SIZES.port : SIZES.sq), g = sz.r;
+        var wFrac = 1, hFrac = 1;
+        [r1, r2].forEach(function (r) { if (r < g) wFrac = Math.min(wFrac, r / g); else hFrac = Math.min(hFrac, g / r); });
+        var safe = { width_pct: Math.floor(wFrac * 88), height_pct: Math.floor(hFrac * 88) };
+        var calm = [], ctx = [];
+        (p.text || []).forEach(function (tx) {
+          var he = STR.he[tx.id] || '', en = STR.en[tx.id] || '';
+          ctx.push({ type: { bub: 'speech bubble', tho: 'thought bubble', cap: 'caption box', tag: 'small label' }[tx.k], hebrew: he, english: en });
+          var wUnits = p.w * (tx.w || 40) / 100, cpl = Math.max(4, (wUnits - 2) / 1.15), lines = Math.ceil(Math.max(he.length, en.length * 0.9) / cpl);
+          var hPct = Math.min(60, (lines * 2.9 + 2) / p.h * 100);
+          calm.push({ side: tx.from === 'start' ? 'right' : 'left', vertical: tx.v, width_pct: Math.round(tx.w || (tx.k === 'tag' ? 30 : 40)), height_pct: Math.round(hPct) });
+        });
+        var item = {
+          file: 'p' + pad2(i + 1) + '-' + p.id + (p.layer ? '.png' : ''), kind: kind, page: i + 1, id: p.id,
+          brief_he: p.d || (STR.he['p' + (i + 1) + '.brief.' + p.id] || ''),
+          visible_aspect_desktop: f(r1), visible_aspect_phone: f(r2),
+          generate_size: sz.w + 'x' + sz.h,
+          safe_area_center: kind === 'layer' ? null : safe,
+          characters: p.chars || [], palette: p.pal || 'warm',
+          calm_areas: calm, lettering_context: ctx, memory_scene: !!p.memory
+        };
+        var lines = [];
+        if (kind === 'layer') {
+          lines.push('Create a transparent-compositing cut-out element: ' + item.shot);
+          lines.push('Render the object on a perfectly flat solid pure green (#00FF00) background: no shadow on the background, no floor, no gradient, no green anywhere on the object. Keep a 10% empty margin on all sides. The element will be keyed out afterwards and layered over comic panels.');
+          lines.push('Canvas size ' + item.generate_size + '. No text.');
+        } else {
+          lines.push(item.shot);
+          if ((p.chars || []).length) lines.push('CHARACTERS (identical to the attached character sheets): ' + p.chars.map(function (c) { return BIBLE[c]; }).join(' '));
+          lines.push(PAL[p.pal || 'warm']);
+          lines.push('Canvas ' + item.generate_size + (kind === 'circle' ? ', the image will be cropped to a circle, so keep the subject centered' : '') + '. It will be cropped, scaled slightly and shifted for parallax: keep every important element (faces, hands, key props) inside the central ' + safe.width_pct + '% width by ' + safe.height_pct + '% height. The outer area is bleed: continue the scene naturally there.');
+          if (calm.length) {
+            lines.push('ROOM FOR LETTERING (the user adds all lettering later in the viewer; you add none): leave generous quiet space in these areas, using sky, wall, floor or soft out-of-focus background, with no faces, hands or key props:');
+            calm.forEach(function (c) { lines.push('  - ' + c.vertical + '-' + c.side + ', at least ' + Math.min(70, Math.round(c.width_pct * 1.15)) + '% of the width by ' + Math.min(60, Math.round(c.height_pct * 1.3)) + '% of the height (already 30% larger than the estimate). If you are unsure how much room is needed, leave MORE empty space; never fill it with bubbles, boxes or fake text.'); });
+          }
+          lines.push('This is ONE standalone scene, loosely framed with generous margin around the main subject, because the panel shape and crop may change later. Keep both upper corners reasonably quiet. Do not draw a comic page, several panels, bubbles, captions, sound-effect lettering or any text.');
+          lines.push('Full-bleed artwork with no frame, no border, no halftone dots, no vignette.');
+          lines.push(STYLE);
+        }
+        item.prompt = lines.join('\n');
+        page.panels.push(item);
+      });
+      out.pages.push(page);
+    });
+    return out;
+  };
+
+  /* ===================== go ===================== */
+  resize();
+  applyLang('he');
+  update();
+  if (!RM) requestAnimationFrame(frame);
+})();
+</script>
+
+</body></html>
