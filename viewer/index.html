@@ -1,4 +1,4 @@
-<title>הגיבור הנמוך</title>
+<title>הגיבור שלי</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -251,7 +251,7 @@ html.js .pw.in .txt { opacity: 1; transform: rotate(var(--rot, 0deg)); }
   .page { padding-block: 1vh; overflow-x: clip; }
   .page + .page { margin-top: calc(100vw * -.07); }
   .txt { font-size: clamp(.82rem, 3.7cqw, 1.05rem); }
-  .cap.big, .cap.c-open.big { font-size: 1.22em; }
+  .cap.big, .cap.c-open.big { font-size: 1.1em; }
   .rail { display: none; }
 }
 
@@ -304,7 +304,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
 
 /* ---------- lettering system: Baba speaking now (the synagogue) gets the one caption box; his memories are open narration on a soft shadow ---------- */
 /* a caption that sits in its own big beat */
-.cap.c-open { background: radial-gradient(closest-side, rgba(8, 5, 3, .34), rgba(8, 5, 3, .18) 70%, transparent 100%); border: 0; box-shadow: none; padding: 1em 1.6em; color: #fff6e4; font-weight: 700; font-size: calc(var(--fs, 1) * 1.08em); text-shadow: 0 0 2px #000, 0 0 6px rgba(0, 0, 0, .9), 0 1px 14px rgba(0, 0, 0, .7); }
+.cap.c-open { background: rgba(10, 7, 4, .6); border: 0; border-radius: 1em; box-shadow: 0 0 1.1em .7em rgba(10, 7, 4, .6); padding: .45em .8em; color: #fff6e4; font-weight: 700; font-size: calc(var(--fs, 1) * 1.08em); text-shadow: 0 0 2px #000, 0 0 6px rgba(0, 0, 0, .9), 0 1px 14px rgba(0, 0, 0, .7); }
 .cap.big { font-size: calc(var(--fs, 1) * 1.55em); line-height: 1.25; }
 .cap.c-open.big { font-size: calc(var(--fs, 1) * 1.6em); }
 
@@ -397,7 +397,7 @@ html.js .pw[data-en="iris"].in .art { animation: enIris 1.2s cubic-bezier(.4, 0,
 .cover.cine .subtitle { color: rgba(255, 236, 200, .9); opacity: 0; transition: opacity 1.6s ease 2.4s; }
 .cover.cine .rule { background: linear-gradient(90deg, transparent, #e0a84f, transparent); width: 0; transition: width 1.8s ease 2s; }
 .cover.cine .cue { color: #fff1d2; text-shadow: 0 1px 8px #000, 0 0 2px #000; opacity: 0; transition: opacity 1.2s ease 3.4s; }
-.cover.cine .cta { opacity: 0; transition: opacity 1.2s ease 3s, transform .2s ease, background .2s ease; background: linear-gradient(#f2c97a, #c98a3a); color: #2a170a; box-shadow: 0 0 30px rgba(255, 190, 100, .45); }
+.cover.cine .cta { opacity: 0; transition: opacity 1.2s ease 3s, transform .2s ease, background .2s ease; background: rgba(18, 11, 5, .88); color: #f8dc9c; border: 1.5px solid #e0a84f; box-shadow: 0 0 26px rgba(255, 190, 100, .35), 0 6px 18px rgba(0, 0, 0, .55); }
 .cover.cine.go .cv-rays { opacity: 1; }
 .cover.cine.go .cv-sun { opacity: 1; transform: translate(-50%, -50%) scale(1); }
 .cover.cine.go .cv-fig { opacity: 1; }
@@ -486,8 +486,8 @@ html.loading, html.loading body { overflow: hidden; }
     <div class="cv-rays"></div>
     <div class="cv-sun"></div>
     <svg class="cv-fig" viewBox="0 0 100 200" aria-hidden="true">
-      <defs><g id="cvMan"><circle cx="50" cy="163" r="5"/><path d="M43.5 162 Q50 153 57.5 161 L60 162.5 L43.5 162.5 Z"/><path d="M45 168 L55 168 L57 186 L53.4 186 L52.6 200 L47.4 200 L46.6 186 L43 186 Z"/><path d="M45.5 170 L36.5 155.5 L39.2 154 L47.6 168 Z"/><path d="M54.5 170 L63.5 155.5 L60.8 154 L52.4 168 Z"/></g></defs>
-      <g transform="translate(50 200) scale(1.6 4.4) translate(-50 -200)"><use href="#cvMan" class="shadow"/></g>
+      <defs><g id="cvMan"><circle cx="50" cy="168" r="4"/><path d="M44.6 167 Q50 159.6 55.6 166 L57.6 167.3 L44.6 167.3 Z"/><path d="M45.6 172.5 L54.4 172.5 L55.6 186 L52.6 186 L52 200 L48 200 L47.4 186 L44.4 186 Z"/><path d="M45.8 174 L43.6 185 L45.4 185.4 L47.4 175 Z"/><path d="M54.2 174 L57.2 184.5 L55.6 185 L52.8 175 Z"/><rect x="55.4" y="184" width="8.2" height="6.4" rx="1"/><path d="M57.6 184 L57.6 182.6 L61.4 182.6 L61.4 184" fill="none" stroke="#070403" stroke-width=".9"/></g></defs>
+      <g transform="translate(50 200) scale(1.4 3.4) translate(-50 -200)"><use href="#cvMan" class="shadow"/></g>
       <use href="#cvMan" class="man"/>
     </svg>
     <div class="cv-ground"></div>
@@ -526,7 +526,7 @@ html.loading, html.loading body { overflow: hidden; }
   var STR = {
     he: {
       'ui.director': 'מצב במאי', 'ui.page': 'דף {n} מתוך {total}', 'ui.copy': 'העתק הנחיה', 'ui.copied': 'הועתק', 'ui.waiting': 'האיור ממתין',
-      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'הגיבור הנמוך', 'cover.sub': 'המסע אל אבא · סיפור אמיתי בקומיקס', 'card.t': 'מה לקחתי מהמסע', 'card.1': 'גדול באמת — מודדים בלב, לא בסנטימטרים.', 'card.2': 'חסד אמיתי לא צריך מילים.', 'card.3': 'אכזבה שפוגשת סבלנות יכולה להפוך לאהבה לכל החיים.', 'cover.cue': 'או גוללים למטה', 'cover.start': 'התחל לקרוא', 'ld.year': 'מרץ 1946', 'ld.l2': 'ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה.', 'ld.lbl': 'המרחק אל אבא', 'ld.km': 'קילומטר', 'ld.m': 'מטר', 'ld.l3': 'איך הוא נראה? גבוה? חזק? גיבור?', 'ld.skip': 'דלג',
+      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'הגיבור שלי', 'cover.sub': 'המסע אל אבא · סיפור אמיתי בקומיקס', 'card.t': 'מה לקחתי מהמסע', 'card.1': 'גדול באמת — מודדים בלב, לא בסנטימטרים.', 'card.2': 'חסד אמיתי נעשה בשקט, בלי לשאול ובלי לספר.', 'card.3': 'לפעמים הגיבור שחיפשנו כבר עומד מולנו. צריך רק ללמוד לראות אותו.', 'cover.cue': 'או גוללים למטה', 'cover.start': 'התחל לקרוא', 'ld.year': 'מרץ 1946', 'ld.l2': 'ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה.', 'ld.lbl': 'המרחק אל אבא', 'ld.km': 'קילומטר', 'ld.m': 'מטר', 'ld.l3': 'מה מחכה בסוף הדרך?', 'ld.skip': 'דלג',
       'outro.text': 'המשך יבוא...', 'outro.restart': 'חזרה להתחלה',
       'p1.cap0': 'לפני שהיה ‘באבא’... הוא היה ילד קטן בשם עמנואל.',
       'p1.cap1': 'ערב שבת. בית הכנסת.',
@@ -571,7 +571,7 @@ html.loading, html.loading body { overflow: hidden; }
     },
     en: {
       'ui.director': 'Director mode', 'ui.page': 'Page {n} of {total}', 'ui.copy': 'Copy prompt', 'ui.copied': 'Copied', 'ui.waiting': 'Artwork pending',
-      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'The Short Hero', 'cover.sub': 'The Journey to Father · a true story in comics', 'card.t': 'What I took from the journey', 'card.1': 'True greatness is measured in heart, not in inches.', 'card.2': 'Real kindness needs no words.', 'card.3': 'Disappointment that meets patience can become a lifelong love.', 'cover.cue': 'or scroll down', 'cover.start': 'Start reading', 'ld.year': 'MARCH 1946', 'ld.l2': 'An eight-and-a-half-year-old boy sets out to meet the father he has never seen.', 'ld.lbl': 'THE DISTANCE TO FATHER', 'ld.km': 'kilometers', 'ld.m': 'meters', 'ld.l3': 'What does he look like? Tall? Strong? A hero?', 'ld.skip': 'Skip',
+      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'My Hero', 'cover.sub': 'The Journey to Father · a true story in comics', 'card.t': 'What I took from the journey', 'card.1': 'True greatness is measured in heart, not in inches.', 'card.2': 'Real kindness is done quietly, without asking and without telling.', 'card.3': 'Sometimes the hero we are looking for is already standing in front of us. We only have to learn to see him.', 'cover.cue': 'or scroll down', 'cover.start': 'Start reading', 'ld.year': 'MARCH 1946', 'ld.l2': 'An eight-and-a-half-year-old boy sets out to meet the father he has never seen.', 'ld.lbl': 'THE DISTANCE TO FATHER', 'ld.km': 'kilometers', 'ld.m': 'meters', 'ld.l3': 'What is waiting at the end of the road?', 'ld.skip': 'Skip',
       'outro.text': 'To be continued...', 'outro.restart': 'Back to the beginning',
       'p1.cap0': 'Before he was ‘Baba’... he was a little boy named Emmanuel.',
       'p1.cap1': 'Friday evening. The synagogue.',
@@ -1133,8 +1133,8 @@ html.loading, html.loading body { overflow: hidden; }
     free: [{ id: 'b', x: 4, y: 54, w: 34, h: 34, circle: true }],
     L: { n1: { x: 56, y: -2, w: 40, h: 30 } },
     P: { a: { en: 'zoom', fade: null }, b: { z: 7, en: 'iris' }, c: { en: 'rise' } } };
-  GEO[23] = { H: 128,
-    free: [{ id: 'a', poly: [[0, 0], [100, 0], [100, 72], [0, 78]] }, { id: 'b', x: 16, y: 80, w: 68, h: 44, circle: true }],
+  GEO[23] = { H: 150,
+    free: [{ id: 'a', poly: [[0, 0], [100, 0], [100, 72], [0, 78]] }, { id: 'b', x: 8, y: 82, w: 84, h: 64, circle: true }],
     P: { a: { en: 'creep' }, b: { en: 'iris' } } };
   GEO[24] = { H: 160,
     free: [{ id: 'a', poly: [[0, 0], [100, 0], [100, 94], [0, 100]] }, { id: 'z', x: 66, y: 82, w: 30, h: 30, circle: true },
@@ -1163,7 +1163,7 @@ html.loading, html.loading body { overflow: hidden; }
       X('cap', 'bs', 'שלוש מזוודות. שלושה נוסעים. ושאלה אחת גדולה בלב.', 'Three suitcases. Three travelers. And one big question in my heart.', 42, { y: 5 })],
     b: [X('tho', 'ts', 'איך נראה אבא?', 'What does Father look like?', 52, { m: [41, 53] })],
     c: [X('cap', 'bs', 'שמעון, אחי הגדול, החזיק שתי מזוודות ולא אמר מילה.', 'Shimon, my big brother, held two suitcases and said nothing.', 90)],
-    d: [X('cap', 'ts', 'בראש שלי הוא היה גבוה וחזק. גיבור שהצליח לברוח מהנאצים.', 'In my mind he was tall and strong. A hero who had escaped the Nazis.', 62, { y: 12 })]
+    d: [X('cap', 'ts', 'בראש שלי כבר ציירתי אותו: גיבור שהצליח לברוח מהנאצים.', 'In my mind I had already drawn him: a hero who had escaped the Nazis.', 62, { y: 12 })]
   };
   TX[3] = {
     a: [X('cap', 'bs', 'בסוף מרץ 1946 יצאנו מלונדון ברכבת, דרך כל צרפת, אל נמל מרסיי.', 'At the end of March 1946 we left London by train, across all of France, to the port of Marseille.', 52, { y: 8 })],
@@ -1171,13 +1171,12 @@ html.loading, html.loading body { overflow: hidden; }
     c: [X('tag', 'bs', 'צרפת', 'France')],
     d: [X('tag', 'bs', 'אירופה אחרי המלחמה', 'Europe after the war')],
     e: [X('bub', 'te', 'אמא, ואיך הוא נראה?', 'Mother, what does he look like?', 34, { m: [23, 53], x: 4, y: 4 }),
-      X('bub', 'ts', 'הוא אדם טוב מאוד, חמוד שלי.', 'He is a very good man, sweetheart.', 36, { m: [47, 47], x: 8, y: 16 }),
-      X('cap', 'bs', 'אמא חייכה ולא ענתה על מה ששאלתי באמת. אני החלטתי שזה אומר: גבוה.', 'Mother smiled and never answered what I was really asking. I decided that meant: tall.', 54)]
+      X('bub', 'ts', 'עוד מעט תראה בעצמך, חמוד שלי.', 'Soon you will see for yourself, sweetheart.', 36, { m: [47, 47], x: 8, y: 16 })]
   };
   TX[4] = {
     a: [X('cap', 'bs', 'בנמל מרסיי היו המון אנשים, מזוודות וספינות.', 'Marseille harbor was full of people, suitcases and ships.', 42)],
     b: [X('bub', 'te', 'אני לא מאמין... כמה היא גדולה!', 'I can\'t believe it... how huge she is!', 50, { m: [22, 57], y: 24 }),
-      X('cap', 'te', 'טרנסילבניה. גדולה כמו עיר שלמה. ולידה הרגשתי קטן כמו נמלה.', 'The Transylvania. Big as a whole city. Next to her I felt small as an ant.', 62, { y: 6 })],
+      X('cap', 'te', 'טרנסילבניה. גדולה כמו עיר שלמה.', 'The Transylvania. As big as a whole city.', 50, { y: 6 })],
     c: [X('cap', 'bs', 'בפעם הראשונה בחיי ראיתי אונייה ענקית.', 'For the first time in my life I saw a huge ship.', 92)]
   };
   TX[5] = {
@@ -1189,14 +1188,13 @@ html.loading, html.loading body { overflow: hidden; }
     a: [X('cap', 'ts', 'בחדר האוכל היה חלק לאוכלי כשר, ושם אכלנו.', 'The dining hall had a kosher section, and that is where we ate.', 44)],
     b: [X('cap', 'bs', 'גיליתי מאכלים שלא הכרתי, כי באנגליה בזמן המלחמה לא ראיתי אותם.', 'I discovered foods I had never known, because in wartime England I had not seen them.', 92)],
     c: [X('bub', 'ts', 'איכס... רגע. זה דווקא טעים!', 'Yuck... wait. It\'s actually good!', 56, { m: [36, 50] })],
-    d: [X('cap', 'ts', 'במיוחד אהבתי את הזיתים.', 'I especially loved the olives.', 36),
-      X('cap', 'be', 'שמתי לב שאמא תמיד שומרת משהו מהארוחה במפית. לא שאלתי למה.', 'I noticed Mother always saved a little of the meal in her napkin. I never asked why.', 50, {})]
+    d: [X('cap', 'ts', 'במיוחד אהבתי את הזיתים.', 'I especially loved the olives.', 36)]
   };
   TX[7] = {
     a: [X('cap', 'ts', 'בחדר האוכל התחברתי עם ילד בגילי, מלבנון. שיחקנו יחד כל היום.', 'At the dining hall I made friends with a boy my age, from Lebanon. We played together all day.', 44)],
     b: [X('bub', 'ts', 'בוא נראה מי מנצח!', 'Let\'s see who wins!', 44, { m: [49, 45] })],
     c: [X('bub', 'ts', 'אני לא אפסיד!', 'I won\'t lose!', 56, { m: [36, 56] }),
-      X('cap', 'bs', 'שני ימים של חברות אמיתית. תזכרו את המספר הזה: שני ימים.', 'Two days of true friendship. Remember that number: two days.', 92, { big: true })]
+      X('cap', 'bs', 'שיחקנו מהבוקר עד הלילה. חשבתי שמצאתי חבר לכל הדרך.', 'We played from morning till night. I thought I had found a friend for the whole voyage.', 80)]
   };
   TX[8] = {
     a: [X('tho', 'ts', 'למה הוא לא בא?', 'Why isn\'t he coming?', 36, { m: [46, 24] }),
@@ -1209,11 +1207,11 @@ html.loading, html.loading body { overflow: hidden; }
     b: [X('bub', 'ts', 'אוי, איזה גלים!', 'Oh, what waves!', 56, { m: [23, 49] })],
     c: [X('bub', 'ts', 'תחזיקו חזק!', 'Hold on tight!', 60, { m: [50, 32] })],
     d: [X('shout', 'ts', 'וואו! כמו נדנדה ענקית!', 'Wow! Like a giant swing!', 56)],
-    e: [X('sfx', 'bs', 'שפלאש!', 'SPLASH!'), X('cap', 'te', 'כולם צרחו. רק אני צחקתי. עוד לא ידעתי שהפחד האמיתי מחכה לי בלילה, בשקט.', 'Everyone screamed. Only I laughed. I didn\'t know yet that the real fear was waiting for me at night, in the quiet.', 46, { y: 10 })]
+    e: [X('sfx', 'bs', 'שפלאש!', 'SPLASH!'), X('cap', 'te', 'כולם צרחו. רק אני צחקתי.', 'Everyone screamed. Only I laughed.', 40, { y: 10 })]
   };
   TX[10] = {
     a: [X('cap', 'ts', 'בנאפולי ירדנו לטייל קצת בעיר.', 'In Naples we went ashore to see a little of the city.', 40)],
-    c: [X('cap', 'bs', 'ליצני רחוב עשו הצגה, וכולם צחקו. כולם הסתכלו על הליצנים. כמעט כולם.', 'Street clowns put on a show and everyone laughed. Everyone watched the clowns. Almost everyone.', 92)],
+    c: [X('cap', 'bs', 'ליצני רחוב עשו הצגה, וכולם צחקו ומחאו כפיים.', 'Street clowns put on a show, and everyone laughed and clapped.', 92)],
     d: [X('bub', 'te', 'עוד! עוד!', 'More! More!', 30, { m: [59, 46] })]
   };
   TX[11] = {
@@ -1238,8 +1236,8 @@ html.loading, html.loading body { overflow: hidden; }
   };
   TX[14] = {
     a: [X('cap', 'ts', 'אחרי שגמרנו לאכול, אמא עטפה אוכל במפית, בלי שיראו.', 'After we finished eating, Mother wrapped some food in a napkin when no one was looking.', 46)],
-    c: [X('cap', 'bs', 'עכשיו הבנתי למי נועד הלחם שבמפית.', 'Now I understood who the napkin bread was for.', 80)],
-    d: [X('cap', 'bs', 'לא נאמרה מילה. ככה למדתי חסד בלי מילים.', 'Not a word was said. That is how I learned kindness without words.', 92)]
+    c: [X('cap', 'bs', 'לא נאמרה מילה.', 'Not a word was said.', 80)],
+    d: [X('cap', 'bs', 'אמא לא שאלה מי היא ולמה היא שם. היא פשוט נתנה. ככה למדתי חסד בלי מילים.', 'Mother never asked who she was or why she was there. She simply gave. That is how I learned kindness without words.', 96)]
   };
   TX[15] = {
     a: [X('bub', 'ts', 'עוצרים לרגע! למה האישה התחבאה מתחת למיטה, לדעתכם?', 'Let\'s pause! Why was the woman hiding under the bed, do you think?', 52, { m: [46, 37] })],
@@ -1263,7 +1261,7 @@ html.loading, html.loading body { overflow: hidden; }
   TX[18] = {
     a: [X('cap', 'ts', 'ים של ידיים מנופפות.', 'A sea of waving hands.', 36)],
     b: [X('bub', 'ts', 'שם! הנה הוא!', 'There! There he is!', 60, { m: [27, 40] })],
-    c: [X('tho', 'ts', 'איפה הגבוה? איפה הגיבור שלי?', 'Where is the tall one? Where is my hero?', 64, { m: [46, 24] })],
+    c: [X('tho', 'ts', 'איזה מהם? איפה הגיבור שלי?', 'Which one is he? Where is my hero?', 64, { m: [46, 24] })],
     d: [X('cap', 'bs', 'וראיתי אדם נמוך מנפנף בשתי ידיים. לא היה לי מושג מי זה.', 'And I saw a short man waving with both hands. I had no idea who he was.', 60)]
   };
   TX[19] = {
@@ -1281,23 +1279,25 @@ html.loading, html.loading body { overflow: hidden; }
   TX[21] = {
     c: [X('cap', 'ts', 'אחרי שלושה ימים אבי איבד את קור רוחו, לקח אותי על הברכיים והכניס לי שלוש חבטות על הישבן.', 'After three days Father lost his composure, took me on his knees and gave me three swats on the bottom.', 70)],
     d: [X('cap', 'bs', 'הידיים האלה עברו כל כך הרבה במלחמה, ובכל זאת לא רעדו.', 'Those hands had been through so much in the war, and still they did not tremble.', 98, { fs: .78 })],
-    f: [X('cap', 'bs', 'התרופה הטובה ביותר: הבנתי שהוא באמת אבא חזק. קטן בגובה, אבל חזק מכולם.', 'The best medicine: I understood he was truly a strong father. Small in height, but stronger than anyone.', 98, { fs: .78 })]
+    f: [X('cap', 'bs', 'זו הייתה התרופה הטובה ביותר. הבנתי שהוא אבא חזק באמת: חזק באופי, וחזק בגוף, על אף כל מה שעבר.', 'It was the best medicine. I understood he was a truly strong father: strong in character, and strong in body, despite all he had been through.', 98, { fs: .78 })]
   };
   TX[22] = {
     a: [X('cap', 'ts', 'ומאותו יום אבי לא הרים עליי יד.', 'And from that day Father never raised a hand to me.', 44)],
     b: [X('cap', 'bs', 'ובינינו הייתה, עד סוף חייו, אהבת נפש שאין כמותה.', 'And between us there was, to the end of his life, a bond of love like no other.', 130, { x: -14, y: -16 })],
-    c: [X('bub', 'te', 'אבא?', 'Father?', 20, { m: [29, 38], x: 8, y: 10 }), X('bub', 'ts', 'כן, בני.', 'Yes, my son.', 26, { m: [51, 17], x: 8, y: 6 })]
+    c: [X('bub', 'te', 'אבא?', 'Father?', 20, { m: [29, 38], x: 8, y: 10 }), X('bub', 'ts', 'כן, בני.', 'Yes, my son.', 26, { m: [51, 17], x: 8, y: 6 }),
+      X('cap', 'bs', 'לקח לי שלושה ימים לראות את אבא שלי באמת. יש אנשים שזה לוקח להם חיים שלמים.', 'It took me three days to truly see my father. For some people it takes a lifetime.', 70, { big: true })]
   };
   TX[23] = {
     a: [X('cap', 'ts', 'הבאבא שתק רגע. הילדים חיכו.', 'Baba was quiet for a moment. The children waited.', 30),
       X('bub', 'te', 'ועכשיו — החידה! היא הייתה עולה בלתי חוקית, בלי אישור להיכנס לארץ.', 'And now — the riddle! She was an illegal immigrant, with no permit to enter the country.', 40, { m: [48, 44], x: 3, y: 4 }),
-      X('cap', 'bs', 'אחרי שנים אמא סיפרה לי איך היא ירדה מהאונייה: היא קיבלה תלבושת של אחות, וירדה יחד עם הרופאים — בלי שאף אחד ידע מי היא.', 'Years later Mother told me how she got off the ship: she was given a nurse\'s uniform and walked off with the doctors — and nobody knew who she was.', 56, { y: 4 })],
-    b: [X('cap', 'bs', 'רק שרה וינברג פתרה את החידה!', 'Only Sarah Weinberg solved the riddle!', 60, { x: 20, y: 3, big: true }),
-      X('bub', 'ts', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 56, { m: [54, 66] })]
+      X('cap', 'bs', 'אחרי שנים אמא סיפרה לי איך היא ירדה מהאונייה: היא קיבלה תלבושת של אחות, וירדה יחד עם הרופאים — בלי שאף אחד ידע מי היא.', 'Years later Mother told me how she got off the ship: she was given a nurse\'s uniform and walked off with the doctors — and nobody knew who she was.', 56, { y: 4 }),
+      X('tag', 'be', 'רק שרה וינברג פתרה את החידה!', 'Only Sarah Weinberg solved the riddle!', 0, { x: 3, y: 5 })],
+    b: [X('bub', 'ts', 'אישה שהסתתרה מתחת למיטה. אמא עם המפית. ואבא שחיכה על המזח. אף אחד מהם לא נראה כמו גיבור.', 'A woman hiding under a bed. Mother with her napkin. And Father waiting on the pier. None of them looked like a hero.', 54, { m: [54, 66], x: 4, y: 4 }),
+      X('bub', 'be', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 50, { m: [54, 66], x: 4, y: 6 })]
   };
   TX[24] = {
     a: [X('bub', 'ts', 'ועל מה אספר לכם בשבוע הבא?', 'And what shall I tell you about next week?', 40, { m: [49, 36] }),
-      X('cap', 'bs', 'המשך יבוא – הספר הבא', 'To be continued – the next book', 50)]
+      X('cap', 'bs', 'ובעיני הנכדים שלו, באבא היה תמיד הגיבור הכי גדול.', 'And in the eyes of his grandchildren, Baba was always the biggest hero of all.', 56)]
   };
 
   var AUTO_EN = ['zoom', 's', 'e', 'wipe', 'rise', 'iris', 's', 'e'];
@@ -1385,7 +1385,7 @@ html.loading, html.loading body { overflow: hidden; }
     return d;
   }
   function applyTextPos(d, tx) {
-    d.style.insetInlineStart = ''; d.style.insetInlineEnd = ''; d.style.top = ''; d.style.bottom = '';
+    d.style.insetInlineStart = ''; d.style.insetInlineEnd = ''; d.style.top = ''; d.style.bottom = ''; d.style.left = '';
     var small = mq.matches, tw = small && tx.w ? Math.min(Math.max(tx.w, tx.k === 'cap' ? 72 : 46), 94) : tx.w;
     d.style[tx.from === 'end' ? 'insetInlineEnd' : 'insetInlineStart'] = (small ? Math.max(3, Math.min(tx.x, 97 - (tw || 30))) : tx.x) + '%';
     d.style[tx.v === 'bottom' ? 'bottom' : 'top'] = (small ? Math.max(2, tx.y) : tx.y) + '%';
@@ -1582,7 +1582,7 @@ html.loading, html.loading body { overflow: hidden; }
     }
     return 'none';
   }
-  function layoutPage(pg) {
+  function layoutPage(pg, again) {
     var rtl = document.documentElement.dir === 'rtl', mob = mq.matches;
     var boxes = [], H = pg.H;
     if (!mob) {
@@ -1594,6 +1594,7 @@ html.loading, html.loading body { overflow: hidden; }
         var h = p.mh || Math.min(82, Math.max(46, 100 * p.h / p.w));
         if (p.circle && !p.mh) h = 60;
         if (p.card && !p.mh) h = 78;
+        if (again && p._mh) h = Math.max(h, p._mh);
         var last = k === list.length - 1, sgn = function (j) { return j % 2 ? -1 : 1; };
         boxes.push({ p: p, x: 0, y: y, w: 100, h: h, cut: C(k ? sgn(k - 1) : 0, last ? 0 : sgn(k)), fade: p.fade });
         y += h - SLOPE * 100 + g;
@@ -1638,9 +1639,59 @@ html.loading, html.loading body { overflow: hidden; }
         p.img.style.height = p.ty ? (100 - p.ty) + '%' : '';
       }
     });
+    /* phone: a panel grows until its lettering fits comfortably, then the page is laid out once more */
+    if (mob && !again) {
+      var grow = false, CW = pg.el.offsetWidth;
+      pg.panels.forEach(function (p) {
+        p._mh = 0;
+        if (!p.pw || p.layer || p.bridge) return;
+        var need = 0, n = 0;
+        (p.text || []).forEach(function (tx) { if (tx.el) { need += tx.el.offsetHeight; n++; } });
+        if (n && need + 16 * (n + 1) > .78 * p.pw.offsetHeight) { p._mh = (need + 16 * (n + 1)) / .78 / CW * 100; grow = true; }
+      });
+      if (grow) { layoutPage(pg, true); return; }
+    }
+    declutter(pg);
     placeTails(pg);
   }
-  function layoutAll() { PAGES.forEach(layoutPage); }
+  /* keep lettering readable on every screen: texts that would land on each other are pushed apart, and every text stays on the page */
+  function declutter(pg) {
+    var CW = pg.el.offsetWidth, CH = pg.el.offsetHeight, gap = Math.max(6, CW * .008), R = [];
+    if (!CW) return;
+    pg.panels.forEach(function (p) {
+      if (!p.pw || p.pw.style.display === 'none') return;
+      (p.text || []).forEach(function (tx) {
+        var d = tx.el; if (!d) return;
+        R.push({ tx: tx, d: d, pw: p.pw, x: p.pw.offsetLeft + d.offsetLeft, y: p.pw.offsetTop + d.offsetTop, w: d.offsetWidth, h: d.offsetHeight, moved: false });
+      });
+    });
+    var hit = function (a, b) { return a.x < b.x + b.w + gap && b.x < a.x + a.w + gap && a.y < b.y + b.h + gap && b.y < a.y + a.h + gap; };
+    var keep = function (r) {
+      var x = Math.max(4, Math.min(CW - r.w - 4, r.x)), y = Math.max(4, Math.min(CH - r.h - 4, r.y));
+      if (x !== r.x || y !== r.y) { r.x = x; r.y = y; r.moved = true; }
+    };
+    R.forEach(keep);
+    /* in reading order, each text takes the nearest free spot above or below where it was placed */
+    R.sort(function (a, b) { return (a.y - b.y) || (a.x - b.x); });
+    var placed = [];
+    R.forEach(function (r) {
+      var y0 = r.y, best = null, up = r.tx.v === 'bottom';
+      var fits = function (y) { if (y < 4 || y + r.h > CH - 4) return false; var t = { x: r.x, y: y, w: r.w, h: r.h }; return !placed.some(function (q) { return hit(t, q); }); };
+      for (var dy = 0; dy <= CH && best === null; dy += 3) {
+        var first = up ? y0 - dy : y0 + dy, second = up ? y0 + dy : y0 - dy;
+        if (fits(first)) best = first; else if (dy && fits(second)) best = second;
+      }
+      if (best !== null && best !== y0) { r.y = best; r.moved = true; }
+      placed.push(r);
+    });
+    R.forEach(function (r) {
+      if (!r.moved) return;
+      var st = r.d.style;
+      st.insetInlineStart = ''; st.insetInlineEnd = ''; st.bottom = '';
+      st.left = (r.x - r.pw.offsetLeft) + 'px'; st.top = (r.y - r.pw.offsetTop) + 'px';
+    });
+  }
+  function layoutAll() { PAGES.forEach(function (pg) { layoutPage(pg); }); }
   if (mq.addEventListener) mq.addEventListener('change', layoutAll);
 
   /* ===================== language ===================== */
@@ -1740,7 +1791,9 @@ html.loading, html.loading body { overflow: hidden; }
   }
   function schedule() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
   window.addEventListener('scroll', schedule, { passive: true });
-  window.addEventListener('resize', function () { resize(); schedule(); });
+  var relayT = 0;
+  window.addEventListener('resize', function () { resize(); schedule(); clearTimeout(relayT); relayT = setTimeout(layoutAll, 180); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { layoutAll(); });
 
   /* reveal panels when they come into view and track the ones on screen for the parallax */
   var pws = Array.prototype.slice.call(document.querySelectorAll('.pw'));

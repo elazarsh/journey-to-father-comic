@@ -17,8 +17,8 @@ head = f'''<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#070403">
-<meta name="description" content="הגיבור הנמוך · המסע אל אבא. סיפור אמיתי בקומיקס מתוך סיפורי סבא עמנואל.">
-<meta property="og:title" content="הגיבור הנמוך · המסע אל אבא">
+<meta name="description" content="הגיבור שלי · המסע אל אבא. סיפור אמיתי בקומיקס מתוך סיפורי סבא עמנואל.">
+<meta property="og:title" content="הגיבור שלי · המסע אל אבא">
 <meta property="og:description" content="מרץ 1946. ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה. סיפור אמיתי בקומיקס.">
 <meta property="og:image" content="{BASE}art/p16-a.webp">
 <meta property="og:type" content="website">
