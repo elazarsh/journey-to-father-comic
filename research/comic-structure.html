@@ -1,0 +1,448 @@
+<title>מבנה קומיקס חי</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700;900&family=Heebo:wght@400;500;700;800&display=swap">
+<style>
+/* Layout concept: a printed-comic research file. One reading column with wide figure breaks; magenta and cyan work as proofing inks, a yellow highlighter marks what to act on. */
+:root {
+  --bg: #f2f2ee;
+  --card: #fbfbf8;
+  --ink: #16171b;
+  --dim: #54565e;
+  --line: #d6d6cd;
+  --magenta: #c2304c;
+  --cyan: #17657f;
+  --mark: #f6d65c;
+  --mark-ink: #2a2305;
+  --font-display: 'Frank Ruhl Libre', 'David Libre', 'Times New Roman', serif;
+  --font-ui: 'Heebo', 'Assistant', 'Arial Hebrew', Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121316; --card: #1a1b20; --ink: #ecebe6; --dim: #a5a7af; --line: #2d2f36;
+    --magenta: #ff7c93; --cyan: #66c4df; --mark: #6e5a0b; --mark-ink: #fff3c4;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121316; --card: #1a1b20; --ink: #ecebe6; --dim: #a5a7af; --line: #2d2f36;
+  --magenta: #ff7c93; --cyan: #66c4df; --mark: #6e5a0b; --mark-ink: #fff3c4;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--font-ui); font-size: 1.05rem; line-height: 1.75; direction: rtl;
+  padding-block: 0 80px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { width: min(100%, 1040px); margin-inline: auto; }
+.col { width: min(100%, 720px); margin-inline: auto; }
+:focus-visible { outline: 2px solid var(--magenta); outline-offset: 3px; }
+
+header.hero { padding-block: 64px 36px; position: relative; }
+header.hero::before {
+  content: ""; position: absolute; inset-inline-end: 0; top: 24px; width: 220px; height: 220px; z-index: 0;
+  background: radial-gradient(circle, var(--magenta) 0 2px, transparent 2.6px) 0 0 / 14px 14px;
+  opacity: .22; -webkit-mask-image: radial-gradient(circle at 70% 30%, #000, transparent 70%); mask-image: radial-gradient(circle at 70% 30%, #000, transparent 70%);
+}
+.eyebrow { position: relative; margin: 0 0 14px; font-size: .85rem; letter-spacing: .16em; font-weight: 700; color: var(--cyan); }
+h1 { position: relative; margin: 0; font-family: var(--font-display); font-weight: 900; font-size: clamp(2.6rem, 8.5vw, 5.4rem); line-height: 1.04; text-wrap: balance; max-width: 14ch; }
+.lede { position: relative; margin: 22px 0 0; max-width: 54ch; font-size: 1.2rem; color: var(--dim); text-wrap: pretty; }
+.meta { position: relative; margin-top: 22px; display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: .9rem; color: var(--dim); }
+
+h2 { font-family: var(--font-display); font-weight: 900; font-size: clamp(1.7rem, 4.6vw, 2.4rem); line-height: 1.2; margin: 72px 0 8px; text-wrap: balance; }
+h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; line-height: 1.3; margin: 40px 0 6px; text-wrap: balance; }
+p { margin: 0 0 1em; text-wrap: pretty; }
+.sub { margin: 0 0 18px; color: var(--dim); }
+a { color: var(--cyan); text-underline-offset: 3px; }
+ul, ol { margin: 0 0 1.1em; padding-inline-start: 1.3em; }
+li { margin-bottom: .4em; }
+hr { border: 0; height: 1px; background: var(--line); margin: 56px 0 0; }
+mark { background: var(--mark); color: var(--mark-ink); padding: 0 .25em; border-radius: 2px; }
+
+/* provenance chips */
+.chip { display: inline-block; font-size: .72rem; font-weight: 800; letter-spacing: .06em; padding: 1px 8px; border-radius: 999px; border: 1.5px solid currentColor; vertical-align: .12em; margin-inline-end: .35em; white-space: nowrap; }
+.chip.src { color: var(--cyan); }
+.chip.rec { color: var(--magenta); }
+.chip.gen { color: var(--dim); }
+
+/* the seven findings */
+.finds { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 14px; counter-reset: f; }
+.finds li { position: relative; margin: 0; padding: 18px 20px 18px 20px; padding-inline-start: 74px; background: var(--card); border: 1px solid var(--line); border-radius: 4px; counter-increment: f; }
+.finds li::before { content: counter(f); position: absolute; inset-inline-start: 18px; top: 12px; font-family: var(--font-display); font-weight: 900; font-size: 2.6rem; line-height: 1; color: var(--magenta); }
+.finds b { display: block; font-family: var(--font-display); font-size: 1.15rem; margin-bottom: 2px; }
+
+/* figures and diagrams */
+figure { margin: 30px 0; }
+figcaption { margin-top: 10px; font-size: .92rem; color: var(--dim); }
+.fig { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 20px; }
+svg { display: block; max-width: 100%; height: auto; }
+svg .p { fill: var(--card); stroke: var(--ink); stroke-width: 1.6; }
+svg .pf { fill: var(--cyan); fill-opacity: .16; stroke: var(--ink); stroke-width: 1.6; }
+svg .pm { fill: var(--magenta); fill-opacity: .16; stroke: var(--ink); stroke-width: 1.6; }
+svg .ln { stroke: var(--magenta); stroke-width: 2; fill: none; }
+svg .dim { stroke: var(--dim); stroke-width: 1; fill: none; stroke-dasharray: 3 3; }
+svg text { font-family: var(--font-ui); fill: var(--ink); font-size: 11px; }
+svg text.d { fill: var(--dim); }
+svg text.m { fill: var(--magenta); font-weight: 800; }
+
+.tbl { overflow-x: auto; margin: 22px 0 28px; border: 1px solid var(--line); border-radius: 4px; background: var(--card); }
+table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: .96rem; line-height: 1.55; }
+th, td { text-align: start; vertical-align: top; padding: 11px 14px; border-bottom: 1px solid var(--line); }
+th { font-size: .78rem; letter-spacing: .08em; color: var(--dim); font-weight: 800; background: color-mix(in srgb, var(--ink) 4%, transparent); }
+tr:last-child td { border-bottom: 0; }
+td.k { font-weight: 700; white-space: nowrap; }
+code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .86em; direction: ltr; unicode-bidi: isolate; background: color-mix(in srgb, var(--ink) 7%, transparent); padding: 1px 6px; border-radius: 3px; }
+
+/* page recipes */
+.recipes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 26px 0; }
+.recipe { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 14px; display: grid; gap: 10px; align-content: start; }
+.recipe svg { width: 100%; max-height: 260px; }
+.recipe h4 { margin: 0; font-family: var(--font-display); font-size: 1.1rem; }
+.recipe p { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--dim); }
+.recipe .use { color: var(--ink); }
+@media (max-width: 820px) { .recipes { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .recipes { grid-template-columns: minmax(0, 1fr); } }
+
+details { background: var(--card); border: 1px solid var(--line); border-radius: 4px; margin: 18px 0; }
+summary { cursor: pointer; padding: 14px 18px; font-weight: 700; }
+details .tbl { margin: 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; }
+
+.callout { margin: 26px 0; padding: 16px 20px; border-inline-start: 5px solid var(--magenta); background: var(--card); border-radius: 0 4px 4px 0; }
+.callout p:last-child { margin-bottom: 0; }
+.steps { list-style: none; padding: 0; display: grid; gap: 12px; counter-reset: s; }
+.steps li { counter-increment: s; position: relative; padding-inline-start: 46px; margin: 0; }
+.steps li::before { content: counter(s); position: absolute; inset-inline-start: 0; top: 2px; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; background: var(--ink); color: var(--bg); font-weight: 800; font-size: .95rem; }
+.src-list li { font-size: .95rem; }
+.src-list .why { display: block; color: var(--dim); font-size: .88rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">מחקר · המסע אל אבא</p>
+    <h1>איך בונים קומיקס שחי בדפדפן</h1>
+    <p class="lede">עקרונות מעולם הקומיקס, מה משתנה כשקוראים בגלילה, ארגז הכלים ב־HTML ו־CSS, וספריית פריסות עמוד לספר. נועד לשמש בסיס לעבודה על המבנה אחרי שיהיו תמונות אמיתיות.</p>
+    <div class="meta">
+      <span>26.10.2026</span>
+      <span>6 חיפושי רשת ו־3 קריאות מלאות של מקורות</span>
+      <span><span class="chip src">מקור</span>נמצא במחקר · <span class="chip rec">המלצה</span>שלי · <span class="chip gen">ידע כללי</span>לא נבדק כאן</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="col">
+      <h2>שבע מסקנות</h2>
+      <p class="sub">מה שחשוב לדעת לפני שמתחילים לחתוך את הדפים.</p>
+      <ol class="finds">
+        <li><b>הפאנל הוא יחידת זמן, והמרווח ביניהם הוא הפסקה.</b> גודל הפאנל, מספר הפאנלים והרווחים קובעים כמה זמן הקורא שוהה בכל רגע. פאנל גדול מאט, פאנלים צרים מלחיצים.</li>
+        <li><b>בגלילה אנכית המרווח הופך למרחק שגוללים.</b> אותו כלל כמו בפורמט וובטון: ככל שהרווח גדול יותר, ההפסקה ארוכה יותר, ואפשר לדחות חשיפה בכוונה.</li>
+        <li><b>רשת קבועה היא נקודת מוצא, והפרה מכוונת שלה היא הסגנון.</b> גם בספרים שנבנו על רשת של תשעה פאנלים כמעט חצי מהעמודים מאחדים או משנים פאנלים.</li>
+        <li><b>כל מה שנשאר בתוך מלבנים נראה כמו אלבום תמונות.</b> התחושה של קומיקס נוצרת מגבולות אלכסוניים, חפיפות, פאנלים שנמסים ואלמנטים שיוצאים מהמסגרת.</li>
+        <li><b>ב־HTML אפשר לעשות את כל זה בלי ספריות.</b> CSS Grid או מיקום מוחלט לשלד, <code>clip-path</code> לצורות, <code>mask-image</code> להמסות, ואנימציות מונעות־גלילה או IntersectionObserver לתנועה.</li>
+        <li><b>הפריסה והאיור תלויים זה בזה.</b> כדי שהחיתוך יהיה חופשי, צריך לייצר כל תמונה עם שוליים נוספים, נקודת מיקוד ברורה ושכבות חזית נפרדות כשצריך.</li>
+        <li><b>צריך כלי עריכה לפריסה.</b> אחרי שיגיעו התמונות נצטרך להזיז פאנלים, למתוח פינות ולראות את התוצאה בו־זמנית בגלילה ובמובייל. עדיף לבנות לזה מצב עריכה בתוך ה־Viewer.</li>
+      </ol>
+
+      <h2>איך קומיקס מקצועי בנוי</h2>
+      <h3>סגירה: הקורא משלים את מה שבין הפאנלים</h3>
+      <p><span class="chip src">מקור</span>סקוט מקלוד מתאר את הרווח בין פאנלים כמקום שבו הקורא מחבר שני רגעים לרצף אחד. מבקרים שמלמדים את המסגרת שלו מעירים שהקטגוריות שלו מטושטשות בפועל, ושסגירה יכולה לקרות גם בלי רווח ממשי, למשל כשפאנל נכנס לתוך פאנל.</p>
+      <p><span class="chip gen">ידע כללי</span>שש סוגי המעברים של מקלוד הם רגע לרגע, פעולה לפעולה, נושא לנושא, סצנה לסצנה, היבט להיבט, וללא קשר. כל אחד מהם קורא לקורא עבודה אחרת, ולכן שווה לסמן בתסריט איזה מעבר נמצא בין כל שני פאנלים.</p>
+
+      <h3>קצב: גודל, מספר ומרווח</h3>
+      <p><span class="chip src">מקור</span>פאנל גדול מאט את הקורא, פאנלים צרים בונים מתח, ופאנלים בלי מסגרת (bleed) משנים את הקצב של העמוד. ברשת הקלאסית של Watchmen כל עמוד מורכב מתשעה תאים, ובפועל חלק גדול מהעמודים מאחד תאים או שובר אותם כדי לא ליצור מונוטוניות.</p>
+      <p><span class="chip rec">המלצה</span>לכל עמוד בספר שלנו נגדיר מראש מה הקצב שלו (מהיר, רגיל, אטי) ורק אחר כך נבחר פריסה. אותה סצנה בקצב אחר נראית אחרת לגמרי.</p>
+
+      <h3>זרימת קריאה מימין לשמאל</h3>
+      <p><span class="chip src">מקור</span>במנגה ובכל קומיקס RTL הקריאה מתחילה בפינה הימנית העליונה, נעה שמאלה לאורך השורה ואז יורדת לשורה הבאה. התיאור הנפוץ הוא "Z הפוך". כשפריסה שוברת את הזרימה הזו הקורא מתבלבל ונוטש.</p>
+      <figure>
+        <div class="fig">
+          <svg viewBox="0 0 520 250" role="img" aria-label="תרשים זרימת קריאה מימין לשמאל על עמוד עם שלוש שורות">
+            <rect class="p" x="268" y="10" width="242" height="70"/><rect class="p" x="10" y="10" width="248" height="70"/>
+            <rect class="p" x="10" y="90" width="500" height="70"/>
+            <rect class="p" x="358" y="170" width="152" height="70"/><rect class="p" x="184" y="170" width="164" height="70"/><rect class="p" x="10" y="170" width="164" height="70"/>
+            <g class="m" font-size="26"><text class="m" x="480" y="56" font-size="22">1</text><text class="m" x="228" y="56" font-size="22">2</text><text class="m" x="480" y="136" font-size="22">3</text><text class="m" x="480" y="216" font-size="22">4</text><text class="m" x="318" y="216" font-size="22">5</text><text class="m" x="144" y="216" font-size="22">6</text></g>
+            <path class="ln" d="M440 45 C400 45 330 45 300 45 M245 45 C210 45 120 45 60 45 M60 52 C20 70 20 95 60 112 M60 112 C180 125 300 125 460 118 M470 128 C490 140 490 160 470 190 M340 205 L330 205 M170 205 L160 205"/>
+            <text class="d" x="14" y="248" font-size="11">הסדר הטבעי לקורא עברי: ימין לשמאל, שורה אחרי שורה</text>
+          </svg>
+        </div>
+        <figcaption>בתוך כל פאנל הסדר זהה: הדובר הראשון בצד ימין למעלה, והתגובה אליו משמאל ולמטה. כך אנחנו כבר מסדרים בועות בספר.</figcaption>
+      </figure>
+
+      <h3>רשת וההפרה שלה</h3>
+      <p><span class="chip src">מקור</span>הרשת נותנת לקורא ודאות וליוצר שליטה בקצב, ולכן הפרה שלה נקראת. פאנל גדול או עמוד פתוח מקבלים כוח דווקא כי הם חריגים. סקירות על Watchmen מציינות שבגיליון הראשון אין עמוד פתוח אחד, ושרוב העמודים הם וריאציות של הרשת.</p>
+      <p><span class="chip gen">ידע כללי</span>הכלים הקלאסיים להפרה הם פאנל פתוח לכל העמוד (splash), פאנל בלי מסגרת שנמסך אל הרקע, פאנל קטן בתוך פאנל גדול (inset), ופאנלים חופפים. כל אחד מהם משרת הרגע שבו הסיפור משנה גודל.</p>
+    </div>
+
+    <h2 class="col" style="margin-inline:auto">מה משתנה כשקוראים בגלילה</h2>
+    <div class="col">
+      <p class="sub">וובטון ופורמטים אנכיים אחרים פתרו את בעיית הפאנל בעולם שבו אין עמוד.</p>
+      <ul>
+        <li><span class="chip src">מקור</span><b>המרווח קובע את הקצב.</b> רווח גדול בין פאנלים יוצר הפסקה ארוכה, וריבוי פאנלים בין שני רגעים מאט אותם. מדריכי וובטון ממליצים על מרווחים גדולים יותר מאלה של מנגה מודפסת.</li>
+        <li><span class="chip src">מקור</span><b>חושפים בעזרת גלילה.</b> דוגמה נפוצה: פנים מבוהלות, רווח ריק, כוס באוויר, ואז הנפילה. המרחק האנכי נותן שליטה בזמן החשיפה, וזה כלי שבעמוד מודפס אין.</li>
+        <li><span class="chip src">מקור</span><b>רקע משותף ואלמנטים יוצאי מסגרת.</b> רקע שממשיך על פני כמה פאנלים, עצים, עננים ובניינים שבורחים מהפאנל, ושינוי בשמיים שמסמן מעבר זמן, יוצרים תחושת רצף בלי להסביר אותה.</li>
+        <li><span class="chip src">מקור</span><b>פורמט אנכי.</b> מומלץ להימנע מפאנלים רחבים מאוד שמכריחים לסובב מכשיר. טקסט גדול וקריא, ולא יותר מארבעה משפטים בבועה, עם בועות מפוזרות.</li>
+        <li><span class="chip rec">המלצה</span><b>המרווח יכול לשאת רגש.</b> בדף 8 של הספר, כשהילד הלבנוני מתרחק, אפשר להגדיל את הרווח בין שני הילדים בכל פאנל. המרחק שהקורא גולל הוא המרחק ביניהם.</li>
+      </ul>
+      <figure>
+        <div class="fig">
+          <svg viewBox="0 0 520 190" role="img" aria-label="ארבע רמות של מרווח בין פאנלים">
+            <g>
+              <rect class="pf" x="14" y="10" width="110" height="34"/><rect class="pf" x="14" y="52" width="110" height="34"/><rect class="pf" x="14" y="94" width="110" height="34"/>
+              <text x="14" y="150" font-weight="700">צפוף</text><text class="d" x="14" y="166">8 יחידות · פעולה מהירה</text>
+            </g>
+            <g>
+              <rect class="pf" x="146" y="10" width="110" height="34"/><rect class="pf" x="146" y="64" width="110" height="34"/><rect class="pf" x="146" y="118" width="110" height="34"/>
+              <text x="146" y="172" font-weight="700">רגיל</text><text class="d" x="146" y="186">14 · שיחה, סיפור</text>
+            </g>
+            <g>
+              <rect class="pm" x="278" y="10" width="110" height="34"/><rect class="pm" x="278" y="98" width="110" height="34"/>
+              <path class="dim" d="M333 48 V94"/><text class="m" x="342" y="76">הפסקה</text>
+              <text x="278" y="152" font-weight="700">הפסקה</text><text class="d" x="278" y="168">44 · רגע שמחכה לו</text>
+            </g>
+            <g>
+              <rect class="pm" x="410" y="10" width="96" height="30"/><rect class="pm" x="410" y="138" width="96" height="30"/>
+              <path class="dim" d="M458 44 V134"/>
+              <text x="410" y="184" font-weight="700">שתיקה</text><text class="d" x="456" y="92" text-anchor="middle">רק רקע</text>
+            </g>
+          </svg>
+        </div>
+        <figcaption><span class="chip rec">המלצה</span>ארבע רמות מרווח כקבועים בקוד, כדי שבדפים שונים אותה רמה תיראה אותו דבר. המספרים הם יחידות דף (מאה יחידות לרוחב).</figcaption>
+      </figure>
+    </div>
+
+    <h2 class="col" style="margin-inline:auto">ארגז הכלים ב־HTML ו־CSS</h2>
+    <div class="col"><p class="sub">מה שכבר בשימוש בגרסת ה־Viewer הנוכחית ומה שכדאי להוסיף.</p></div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>צורך</th><th>טכניקה</th><th>הערות</th></tr></thead>
+        <tbody>
+          <tr><td class="k">שלד פריסה</td><td>מיקום מוחלט בקנה מידה של עמוד, או CSS Grid עם אזורים חופפים</td><td><span class="chip src">מקור</span>תאי Grid תמיד מלבניים, ולכן צורות לא מלבניות נוצרות בחיתוך והחפיפה נדרשת. <span class="chip rec">המלצה</span>אנחנו משתמשים במיקום מוחלט ביחידות עמוד כי הוא שומר פרופורציות בכל רוחב.</td></tr>
+          <tr><td class="k">גבולות אלכסוניים</td><td><code>clip-path: polygon()</code> עם משתנה לשיפוע</td><td><span class="chip src">מקור</span>הזזת שני קודקודים הופכת מלבן למקבילית, ומשתנה אחד לשיפוע שומר על צלעות מקבילות. שיפוע זהה בשני פאנלים סמוכים נותן מרווח אחיד.</td></tr>
+          <tr><td class="k">מסגרת שעוקבת אחרי הצורה</td><td>מעטפת עם <code>filter: drop-shadow()</code> מסביב לפאנל החתוך</td><td><span class="chip src">מקור</span>חיתוך ישיר של אלמנט חושף את הרקע שמאחוריו. <span class="chip rec">המלצה</span>פתרון נוסף הוא שכבה עם <code>::before</code> או SVG. ב־drop-shadow צריך לבדוק ביצועים במכשירים חלשים.</td></tr>
+          <tr><td class="k">המסה בין פאנלים</td><td><code>mask-image: linear-gradient()</code></td><td><span class="chip gen">ידע כללי</span>גם המסגרת נמסה יחד עם התמונה, ולכן כל הקצה נעלם בצורה טבעית.</td></tr>
+          <tr><td class="k">יציאה מהמסגרת</td><td>טקסט ואלמנטים כאחים של הפאנל, לא בתוכו</td><td><span class="chip rec">המלצה</span>כך בועות וכיתובים יכולים לחצות גבול, ועשן או ענף יכולים לשמש גשר בין פאנלים.</td></tr>
+          <tr><td class="k">עטיפת טקסט סביב צורה</td><td><code>shape-outside</code></td><td><span class="chip gen">ידע כללי</span>מתאים לכיתוב שעוטף עיגול או חלק מאיור. דורש אלמנט צף.</td></tr>
+          <tr><td class="k">תנועה מונעת גלילה</td><td><code>animation-timeline: view()</code> ו־<code>scroll()</code> עם <code>animation-range</code></td><td><span class="chip src">מקור</span>נתמך ב־Chromium 115+ ובספארי 26. מקורות לא מאשרים תמיכה ב־Firefox. <span class="chip rec">המלצה</span>לעטוף ב־<code>@supports</code> ולהשאיר את IntersectionObserver כגיבוי.</td></tr>
+          <tr><td class="k">סצנה נעוצה</td><td><code>position: sticky</code> בתוך קטע גבוה</td><td><span class="chip gen">ידע כללי</span>המצלמה נשארת במקום והתוכן מתחלף בגלילה, כמו חלון רכבת או סערה. מתאים לרגעים שבהם הסיפור עוצר.</td></tr>
+          <tr><td class="k">חיתוכים שונים לטלפון</td><td><code>object-position</code> עם נקודת מיקוד לכל תמונה, ו־<code>&lt;picture&gt;</code> לחיתוך אחר</td><td><span class="chip rec">המלצה</span>מאפשר לשמור על הפנים בפריים בכל יחס מסך.</td></tr>
+          <tr><td class="k">הפיכה בין עברית לאנגלית</td><td>מאפיינים לוגיים (<code>inset-inline-start</code>) והיפוך קואורדינטות</td><td><span class="chip rec">המלצה</span>כבר ממומש: הפריסה והבועות מתהפכות עם <code>dir</code>.</td></tr>
+          <tr><td class="k">נגישות</td><td>סדר DOM כסדר הקריאה, <code>alt</code> לכל פאנל, כיבוד <code>prefers-reduced-motion</code></td><td><span class="chip src">מקור</span>בדיקה עם קורא מסך הראתה שתיאור חזותי ולצדו הטקסט מהקומיקס הם מה שעובד, ושתמלול בלי ציון הדובר מבלבל.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <figure>
+        <div class="fig">
+          <svg viewBox="0 0 520 210" role="img" aria-label="שני פאנלים עם גבולות אלכסוניים מקבילים ומרווח אחיד">
+            <polygon class="pf" points="10,10 510,10 510,92 10,52"/>
+            <polygon class="pf" points="10,66 510,106 510,200 10,200"/>
+            <path class="dim" d="M10 52 L510 92 M10 66 L510 106"/>
+            <path class="ln" d="M470 90 V104 M30 53 V66"/>
+            <text class="m" x="438" y="124">g</text><text class="m" x="36" y="84">g</text>
+            <text class="d" x="260" y="126" text-anchor="middle">שיפוע אחד לכל הצלעות הפונות זו לזו</text>
+          </svg>
+        </div>
+        <figcaption>כלל הזהב של הגבול האלכסוני: אותו שיפוע ואותו מרווח g לאורך כל הקצה. כשמתכננים פריסה מחשבים את מיקום הפאנל הבא מתוך קו התחתית של הקודם.</figcaption>
+      </figure>
+
+      <h2>ספריית מתכוני עמוד</h2>
+      <p class="sub"><span class="chip rec">המלצה</span>תשע פריסות שמכסות את הרגעים בסיפור, ואיפה כל אחת מתאימה בספר. אלה נקודות מוצא לעבודה על תמונות אמיתיות, לא פתרון סופי.</p>
+    </div>
+    <div class="recipes" id="recipes" role="list"></div>
+
+    <div class="col">
+      <details>
+        <summary>הצעה ראשונית לפריסה לכל אחד מ־24 הדפים</summary>
+        <div class="tbl">
+          <table>
+            <thead><tr><th>דף</th><th>מתכון</th><th>מרווח ותנועה</th></tr></thead>
+            <tbody id="plan"></tbody>
+          </table>
+        </div>
+      </details>
+
+      <h2>מה זה אומר על האיורים</h2>
+      <p class="sub"><span class="chip rec">המלצה</span>כמעט כל מה שנחתוך בפריסה נקבע כבר ביצירת התמונה.</p>
+      <ul>
+        <li><b>שוליים נוספים.</b> לייצר כל פאנל בשטח גדול ב־12–15% מהחלון, כדי שתהיה תנועת עומק ללא חשיפת קצה ושתהיה אפשרות לחתוך אחרת בטלפון.</li>
+        <li><b>נקודת מיקוד.</b> לתעד לכל תמונה היכן הפנים, ולהחזיק אותן רחוק מהקצה, כדי ש־<code>object-position</code> יוכל להזיז את החיתוך.</li>
+        <li><b>סט יחסי תמונה קבוע.</b> להסכים על כמה יחסים (למשל 2.35:1, 3:2, 1:1, 2:3) ולהשתמש רק בהם, כדי שפריסות יתחלפו בלי לייצר מחדש.</li>
+        <li><b>שכבות חזית.</b> עשן, ענפים, ידית מזוודה ושאר אלמנטים שחוצים גבול יוצרים נפרדים ברקע שקוף, כדי שיוכלו לצוף מעל הפאנלים.</li>
+        <li><b>גם הצורות של הבועות.</b> הטקסט נשאר ב־HTML, לכן כל פאנל צריך חלל שקט (שמיים, קיר, רקע מטושטש) במקום שבו תיפול הבועה, גם בשפות ארוכות יותר.</li>
+        <li><b>אור ופלטה לפי הסצנה.</b> האווירה סביב הדף משתנה לפי צבעי הפאנלים. לכן כדאי לקבוע לכל דף שתיים־שלוש גוני בסיס ולשמור עליהם בכל הפאנלים.</li>
+      </ul>
+
+      <h2>תוכנית עבודה</h2>
+      <ol class="steps">
+        <li><b>דף אחד כמודל.</b> ליצור את כל פאנלי דף 1, להניח אותם בפריסה הקיימת ולראות מה לא עובד.</li>
+        <li><b>מצב עריכה בתוך ה־Viewer.</b> גרירה של פאנלים, משיכת קודקודים, בחירת מתכון, בחירת רמת מרווח, ויצוא של ה־JSON ששומר את הפריסה. כדאי להקדים אותו לייצור המוני.</li>
+        <li><b>מעבר פריסה לכל הדפים.</b> אחרי שיש תמונות לדף, לבחור לו מתכון, לכוון מרווחים וסדר קריאה, ולבדוק במובייל.</li>
+        <li><b>מעבר תנועה.</b> רק בסוף: עומק, גשרים, סצנות נעוצות והמסות בין דפים.</li>
+        <li><b>בדיקות.</b> עברית ואנגלית, סדר טאב וסדר קריאה, תיאור חלופי לכל פאנל, <code>prefers-reduced-motion</code>, ביצועים במכשיר חלש, ושלושה רוחבי מסך.</li>
+      </ol>
+
+      <h2>מגבלות וסיכונים</h2>
+      <ul>
+        <li><b>ביצועים.</b> מסגרת עם כמה <code>drop-shadow</code>, מסכות וחיתוכים על תמונות גדולות יכולה להכביד בגלילה. צריך למדוד במכשיר אמיתי ולהחליף במסגרת SVG אם צריך.</li>
+        <li><b>הדפסה.</b> חוויית גלילה לא מתורגמת ישירות להדפסה. אם תרצה ספר מודפס, נבנה מצב נפרד שמסדר את אותם פאנלים כעמודים.</li>
+        <li><b>תמיכת דפדפנים.</b> אנימציות מונעות־גלילה לא מאושרות ב־Firefox לפי המקורות שמצאתי. צריך לבדוק ב־MDN וב־caniuse לפני שמסתמכים עליהן.</li>
+        <li><b>מקורות.</b> רוב מה שנמצא הוא מדריכי יוצרים ופוסטים, לא מחקר אקדמי. לא מצאתי חומר על וויל אייזנר, על תצוגת Guided View של קומיקסולוג'י, או על תיעוד מקצועי של "The Boat" מעבר לתיאורים משניים. את הנקודות האלה סימנתי כידע כללי.</li>
+      </ul>
+
+      <div class="callout">
+        <p><b>שלוש החלטות שאני צריך ממך לפני שממשיכים</b></p>
+        <ol>
+          <li>האם לבנות מצב עריכה לפריסה עכשיו, או להתחיל קודם בהפקת תמונות דף 1?</li>
+          <li>האם ליצור גם גרסה מודפסת בהמשך, כדי שנתכנן עמודים ולא רק גלילה?</li>
+          <li>האם לשמור על אלמנטי אפקט (עשן, ענפים) כשכבות נפרדות, גם אם זה מוסיף עבודה בייצור התמונות?</li>
+        </ol>
+      </div>
+
+      <hr>
+      <h2>מקורות</h2>
+      <p class="sub">הקישורים שנסרקו. ליד כל אחד מה שלקחתי ממנו ועד כמה אפשר לסמוך עליו.</p>
+      <ul class="src-list">
+        <li><a href="https://hoodedutilitarian.com/?p=67985" target="_blank" rel="noopener">What It Really Takes to Get from Here to There (Analyzing Comics 101: Closure)</a><span class="why">סגירה ומעברים אצל מקלוד, כולל ביקורת על הקטגוריות. פוסט של מבקר.</span></li>
+        <li><a href="https://cmerritthoughton.substack.com/p/gutters-the-invisible-heartbeat-of" target="_blank" rel="noopener">Gutters: The Invisible Heartbeat of Comics</a><span class="why">תפקיד המרווח בקצב. פוסט של יוצר.</span></li>
+        <li><a href="https://openlab.citytech.cuny.edu/comd3513-sp22/files/2022/03/Page-and-Panel-Composition-part-1.pdf" target="_blank" rel="noopener">Page and Panel Composition (חומר קורס, CUNY)</a><span class="why">גודל פאנל וקצב, פאנלים ללא מסגרת, זרימת קריאה. חומר הוראה.</span></li>
+        <li><a href="https://tips.clip-studio.com/en-us/articles/4143" target="_blank" rel="noopener">Webtoon 101 (Clip Studio Tips)</a><span class="why">מרווח כקצב, פורמט אנכי, אלמנטים יוצאי מסגרת, הנחיות לבועות. נקרא במלואו. מקור של יוצר וובטון.</span></li>
+        <li><a href="https://contentcurve.substack.com/p/introduction-to-webtoon-paneling" target="_blank" rel="noopener">Introduction to Webtoon Paneling</a><span class="why">דוגמת הכוס והחשיפה בגלילה. פוסט של יוצר.</span></li>
+        <li><a href="https://comicbook.com/comics/news/on-watchmen-and-shakespeare-the-9-panel-grid-and-iambic-pentameter/" target="_blank" rel="noopener">On Watchmen and Shakespeare: The 9-Panel Grid</a><span class="why">הרשת של תשעה פאנלים ושליטה בקצב. כתבה.</span></li>
+        <li><a href="https://globalcomix.com/news/details/243/creator-tips-and-tricks-7-paneling-and-flow-in-comics" target="_blank" rel="noopener">Creator Tips and Tricks 7: Paneling and Flow in Comics</a><span class="why">זרימת קריאה והפרת רשת. מדריך של פלטפורמה.</span></li>
+        <li><a href="https://globalcomix.com/news/details/254/creator-tips-and-tricks-9-basics-of-komawari" target="_blank" rel="noopener">Basics of Komawari (GlobalComix)</a><span class="why">חלוקת עמוד במנגה וקריאה מימין לשמאל. מדריך של פלטפורמה. חלק מהתוצאות בחיפוש היו באיכות נמוכה ולא נעשה בהן שימוש.</span></li>
+        <li><a href="https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/" target="_blank" rel="noopener">A guide to Scroll-driven Animations with just CSS (WebKit)</a><span class="why">scroll() ו־view(), animation-range וכיבוד reduced-motion. נקרא במלואו. מקור ראשוני.</span></li>
+        <li><a href="https://ics.media/en/entry/230718/" target="_blank" rel="noopener">CSS Scroll-driven Animations without JavaScript (ics.media)</a><span class="why">תמיכת דפדפנים. נמצא בתוצאות חיפוש, לא נקרא במלואו.</span></li>
+        <li><a href="https://levelup.gitconnected.com/super-hero-layout-combining-css-grid-and-css-shapes-26a60acef643" target="_blank" rel="noopener">Super hero layout: combining CSS Grid and CSS shapes</a><span class="why">שילוב Grid ו־clip-path לפאנלים אלכסוניים. הדף עצמו לא נפתח (403), הסיכום מתוצאות החיפוש.</span></li>
+        <li><a href="https://codyhouse.co/blog/post/css-diagonal-containers" target="_blank" rel="noopener">CSS Diagonal Containers (CodyHouse)</a><span class="why">מקביליות באמצעות משתנה לשיפוע. נמצא בתוצאות חיפוש, לא נקרא במלואו.</span></li>
+        <li><a href="https://axesslab.com/accessible-comics/" target="_blank" rel="noopener">Accessible Comics (Axess Lab)</a><span class="why">בדיקת קומיקס עם קורא מסך. נקרא במלואו: הדף קצר ולא נותן הנחיות מבניות.</span></li>
+        <li><a href="https://lastcallmedia.com/blog/accessible-comics" target="_blank" rel="noopener">Accessible Comics (Last Call Media)</a><span class="why">תמלול בלי ציון הדובר מבלבל. נמצא בתוצאות חיפוש.</span></li>
+        <li><a href="https://greenlitcontent.com/website/20-mesmerizing-parallax-website-examples-pushing-the-boundaries-of-web-design-in-2024" target="_blank" rel="noopener">20 Mesmerizing Parallax Website Examples</a><span class="why">תיאור משני של "The Boat" כרומן גרפי אינטראקטיבי עם שכבות בקצבים שונים. לא אומת מול היצירה.</span></li>
+      </ul>
+    </div>
+  </main>
+</div>
+
+<script>
+(function () {
+  var S = 0.08, G = 3;
+  /* the same geometry the Viewer uses: top and bottom edges lean by +1 or -1 at one shared slope */
+  function lineAt(p, x) {
+    var yb = p.y + p.h;
+    if (p.b > 0) return yb - S * p.w + S * (x - p.x);
+    if (p.b < 0) return yb - S * (x - p.x);
+    return yb;
+  }
+  function below(prev, x, w, h, t, b) { return { x: x, y: lineAt(prev, x) + G, w: w, h: h, t: t, b: b }; }
+  function R(x, y, w, h, t, b) { return { x: x, y: y, w: w, h: h, t: t || 0, b: b || 0 }; }
+  function pts(p) {
+    var TL = [p.x, p.y], TR = [p.x + p.w, p.y], BR = [p.x + p.w, p.y + p.h], BL = [p.x, p.y + p.h], r = S * p.w;
+    if (p.t > 0) TR[1] += r; else if (p.t < 0) TL[1] += r;
+    if (p.b > 0) BL[1] -= r; else if (p.b < 0) BR[1] -= r;
+    return [TL, TR, BR, BL].map(function (q) { return q[0].toFixed(1) + ',' + q[1].toFixed(1); }).join(' ');
+  }
+  function poly(p, cls) { return '<polygon class="' + cls + '" points="' + pts(p) + '"/>'; }
+
+  /* each recipe: panels (physical coordinates drawn for a right-to-left reader: first panel sits at the right) */
+  var recipes = [];
+
+  var a1 = R(4, 4, 92, 62, 0, 1);
+  recipes.push({ name: 'פנורמה ושורה', use: 'פותחת סצנה ומראה מקום. פאנל רחב אחד ומתחתיו שני פאנלים צרים.', pages: 'דפים 4, 17',
+    svg: [poly(a1, 'pf'), poly((function () { var p = below(a1, 52, 44, 0, 1, 0); p.h = 136 - p.y; return p; })(), 'p'), poly((function () { var p = below(a1, 4, 44, 0, 1, 0); p.h = 136 - p.y; return p; })(), 'p')] });
+
+  recipes.push({ name: 'שורות רגילות', use: 'שיחה וסיפור שוטף. קצב שווה ונוח, מתאים לסצנות בית.', pages: 'דפים 5, 6, 15',
+    svg: [R(60, 4, 36, 36), R(4, 4, 53, 36), R(4, 44, 92, 42), R(67, 90, 29, 46), R(35.5, 90, 29, 46), R(4, 90, 29, 46)].map(function (p) { return poly(p, 'p'); }) });
+
+  (function () {
+    var A = R(4, 4, 92, 40, 0, 1);
+    var B = below(A, 40, 56, 40, 1, 1);
+    var C = below(A, 4, 33, 14, 1, 1);
+    var D = below(C, 4, 33, 0, 1, 1);
+    D.h = (B.y + B.h - S * B.w + S * (D.x - B.x)) - D.y + S * D.w;
+    var Gp = below(B, 4, 92, 0, 1, 0); Gp.h = 136 - Gp.y;
+    recipes.push({ name: 'קולאז׳ אלכסוני', use: 'פתיחה עשירה עם כמה פאנלים בגדלים שונים וגבולות מקבילים. זה הדף הראשון שבנינו.', pages: 'דפים 1, 10, 15',
+      svg: [poly(A, 'pf'), poly(B, 'p'), poly(C, 'p'), poly(D, 'p'), poly(Gp, 'pf')] });
+  })();
+
+  recipes.push({ name: 'התכווצות', use: 'פאנלים שהולכים וקטנים כמו זום פנימה. מתאים להלם וללחץ.', pages: 'דפים 18, 19',
+    svg: [R(4, 4, 92, 46), R(18, 54, 64, 38), R(33, 96, 34, 40)].map(function (p, i) { return poly(p, i === 2 ? 'pm' : 'p'); }) });
+
+  (function () {
+    var big = R(4, 4, 92, 78);
+    var l = R(4, 86, 44, 50), r = R(52, 86, 44, 50);
+    recipes.push({ name: 'עיגול שבולט', use: 'פרט זעיר או זיכרון שיוצא מתוך סצנה גדולה.', pages: 'דפים 1, 13, 14',
+      svg: [poly(big, 'p'), poly(l, 'p'), poly(r, 'p'), '<circle class="pm" cx="72" cy="62" r="22"/>'] });
+  })();
+
+  (function () {
+    var a = R(4, 4, 92, 70, 0, 1), b = below(a, 4, 92, 0, 1, 0); b.y -= 18; b.h = 136 - b.y;
+    recipes.push({ name: 'חפיפה והמסה', use: 'שני רגעים שנמסים זה בזה. מתאים למעבר זמן או מקום ולחיבור רגשי.', pages: 'דפים 1→2, 22',
+      svg: ['<defs><linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="var(--cyan)" stop-opacity=".22"/><stop offset="1" stop-color="var(--cyan)" stop-opacity="0"/></linearGradient><linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--magenta)" stop-opacity="0"/><stop offset=".4" stop-color="var(--magenta)" stop-opacity=".22"/></linearGradient></defs>',
+        '<polygon points="' + pts(a) + '" fill="url(#gA)" stroke="var(--ink)" stroke-width="1.2" stroke-opacity=".5"/>',
+        '<polygon points="' + pts(b) + '" fill="url(#gB)" stroke="var(--ink)" stroke-width="1.2" stroke-opacity=".5"/>'] });
+  })();
+
+  (function () {
+    var out = [];
+    for (var j = 0; j < 3; j++) for (var i = 0; i < 3; i++) out.push(poly(R(66 - i * 31 + 0, 4 + j * 44, 29, 41), 'p'));
+    recipes.push({ name: 'רשת קשיחה', use: 'תשעה פאנלים שווים בגבולות חדים. מתח, שגרה או גבול שנחצה.', pages: 'דפים 12, 21',
+      svg: out });
+  })();
+
+  recipes.push({ name: 'סצנה נעוצה', use: 'מסגרת אחת נשארת במקום והתוכן שבתוכה מתחלף בגלילה. חלון רכבת, סערה.', pages: 'דפים 3, 9',
+    svg: ['<rect x="22" y="6" width="56" height="128" fill="none" stroke="var(--ink)" stroke-width="1.4" stroke-dasharray="4 3"/>',
+      '<rect class="pf" x="30" y="40" width="40" height="56"/>',
+      '<path class="ln" d="M12 30 V110 M8 100 L12 110 L16 100 M88 30 V110 M84 100 L88 110 L92 100"/>',
+      '<circle class="pm" cx="56" cy="56" r="7"/><circle class="pm" cx="44" cy="74" r="5"/><circle class="pm" cx="62" cy="84" r="4"/>'] });
+
+  recipes.push({ name: 'פתוח, בלי מסגרות', use: 'סוף שקט. תמונות נמסות אל הרקע ללא קווי מסגרת, עם טקסט צף.', pages: 'דפים 16, 23, 24',
+    svg: ['<defs><radialGradient id="gO"><stop offset="0" stop-color="var(--magenta)" stop-opacity=".30"/><stop offset="1" stop-color="var(--magenta)" stop-opacity="0"/></radialGradient><radialGradient id="gO2"><stop offset="0" stop-color="var(--cyan)" stop-opacity=".30"/><stop offset="1" stop-color="var(--cyan)" stop-opacity="0"/></radialGradient></defs>',
+      '<ellipse cx="50" cy="40" rx="50" ry="36" fill="url(#gO)"/>', '<ellipse cx="38" cy="96" rx="36" ry="34" fill="url(#gO2)"/>', '<ellipse cx="72" cy="112" rx="28" ry="24" fill="url(#gO)"/>',
+      '<rect x="48" y="62" width="40" height="12" fill="var(--card)" stroke="var(--ink)" stroke-width="1.2"/>'] });
+
+  var host = document.getElementById('recipes');
+  recipes.forEach(function (r) {
+    var d = document.createElement('div');
+    d.className = 'recipe'; d.setAttribute('role', 'listitem');
+    d.innerHTML = '<svg viewBox="0 0 100 140" role="img" aria-label="' + r.name + '">' + r.svg.join('') + '</svg><h4>' + r.name + '</h4><p class="use">' + r.use + '</p><p>' + r.pages + '</p>';
+    host.appendChild(d);
+  });
+
+  var plan = [
+    ['1', 'קולאז׳ אלכסוני', 'רגיל, המסה מטה אל הדף הבא'],
+    ['2', 'התכווצות', 'עשן שחוצה מרווח, זום פנימה אל הילד'],
+    ['3', 'סצנה נעוצה', 'חלון רכבת, רקע זז בקצב אחר'],
+    ['4', 'פנורמה ושורה', 'מרווח רגיל, הפאנל הראשון נגלה לאט'],
+    ['5', 'שורות רגילות', 'צפוף ומחבק, אור חם'],
+    ['6', 'שורות רגילות', 'הפאנל של הזיתים בולט ונפתח'],
+    ['7', 'קולאז׳ אלכסוני', 'מרווחים קטנים, פאנלים קלילים'],
+    ['8', 'פתוח, בלי מסגרות', 'המרווח בין הילדים גדל מפאנל לפאנל'],
+    ['9', 'סצנה נעוצה', 'רעד קל בגלילה, פאנלים נטויים'],
+    ['10', 'קולאז׳ אלכסוני', 'הרבה פאנלים קטנים, צפוף ושמח'],
+    ['11', 'רשת קשיחה', 'מרווח צפוף, אחר כך הפסקה ארוכה'],
+    ['12', 'רשת קשיחה', 'פאנל צר ואנכי, מעט אור'],
+    ['13', 'עיגול שבולט', 'זום איטי אל העיניים'],
+    ['14', 'עיגול שבולט', 'ידיים ולחם, שתיקה ובלי מסגרות'],
+    ['15', 'שורות רגילות', 'חזרה למסגרת הפתיחה בתאורה זהה לדף 1'],
+    ['16', 'פתוח, בלי מסגרות', 'פאנל מלא, זריחה שחושפת מימין לשמאל'],
+    ['17', 'פנורמה ושורה', 'הרבה פרטים קטנים, סירות ודגלים'],
+    ['18', 'התכווצות', 'מתכווץ עד האיש הקטן שמנופף'],
+    ['19', 'התכווצות', 'צבע שנוטש את הפאנל'],
+    ['20', 'שורות רגילות', 'מרווחים גדולים, חלל ריק'],
+    ['21', 'רשת קשיחה', 'חיתוך חד, בלי המסות'],
+    ['22', 'חפיפה והמסה', 'שני הפאנלים מתמזגים לאחד'],
+    ['23', 'פתוח, בלי מסגרות', 'פאנל אחד ושקט'],
+    ['24', 'פתוח, בלי מסגרות', 'כל המשפחה, עם עיגול של המחברת']
+  ];
+  var tb = document.getElementById('plan');
+  plan.forEach(function (r) {
+    var tr = document.createElement('tr');
+    tr.innerHTML = '<td class="k">' + r[0] + '</td><td>' + r[1] + '</td><td>' + r[2] + '</td>';
+    tb.appendChild(tr);
+  });
+})();
+</script>

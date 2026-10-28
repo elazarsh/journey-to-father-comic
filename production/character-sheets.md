@@ -1,0 +1,39 @@
+# Character model sheets
+
+Generate these first, one at a time. Save each approved sheet as art/chars/<name>.png and attach it to every later generation that contains the character.
+
+## Baba (הבאבא) -> art/chars/char-baba.png
+
+Comic-book character model sheet: Attach ref/baba-photo.jpg. Turn the man in this photo into a comic character. Keep his real likeness. BABA (the elderly narrator, 75+, based on the real grandfather): receding hairline with short gray-white hair at the sides, thin rectangular glasses, small knitted kippah, kind laugh lines, warm wise smile, white collared shirt and simple dark jacket. He is a warm storyteller grandfather. Layout: top row three head-and-shoulders views (front, three-quarter, profile); bottom row one full-body standing figure with hands clasped. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Emmanuel (עמנואל) -> art/chars/char-emmanuel.png
+
+Comic-book character model sheet: EMMANUEL as a boy (8.5, England 1946): slim, big curious intelligent dark-brown eyes, short dark hair, flat wool newsboy cap, brown wool jacket with white collar, knee-length shorts, long socks, old brown suitcase. Innocent, clever, slightly serious face. Layout: top row three head views (front, three-quarter, profile); bottom row full-body standing figure holding the suitcase. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Mother (האם) -> art/chars/char-mother.png
+
+Comic-book character model sheet: MOTHER (late 30s): strong and gentle Jewish woman, kind protective face, dark hair under a simple blue headscarf, modest dark-blue wool coat, long skirt, worn leather handbag. Layout: top row three head views; bottom row full-body standing figure. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Shimon (שמעון) -> art/chars/char-shimon.png
+
+Comic-book character model sheet: SHIMON (14.5): quiet, responsible teenage brother, short dark hair, flat grey cap, grey wool jacket, trousers with suspenders, carries a suitcase. Layout: top row three head views; bottom row full-body standing figure. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Father (האב) -> art/chars/char-father.png
+
+Comic-book character model sheet: FATHER (Emmanuel's father, about 45-50 in 1946): short in stature, clearly shorter than his wife; strong weathered face, deep calm eyes, a quiet inner dignity, short dark hair graying at the temples; simple work clothes: khaki trousers, a pale shirt with rolled sleeves, a worn flat cap; strong hands. Layout: top row three head views; bottom row full-body standing figure next to the mother's silhouette for scale, showing he is clearly shorter than an average adult woman. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Listeners (הילדים בבית הכנסת) -> art/chars/char-kids.png
+
+Comic-book character model sheet: three modern Israeli children, drawn together. A modern Israeli grandchild (about 10): short brown hair, small kippah, light shirt and olive knit vest. A modern Israeli granddaughter (about 8): brown bob haircut, bright eyes, pink cardigan over a white blouse. The youngest listener (about 5): round face, messy light-brown hair, small kippah, big wide eyes, striped sweater. Layout: three full-body figures side by side, each with a head close-up above. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Lebanese family (הילד והוריו) -> art/chars/char-lebanon.png
+
+Comic-book character model sheet: LEBANESE BOY (about 8.5): dark curly hair, bright friendly eyes, white short-sleeved shirt and short trousers, well-kept. LEBANESE PARENTS 1946: the father in a dark suit and a red tarboosh, the mother in a pale elegant dress, a small hat and gloves; formal, reserved posture. Layout: three full-body figures side by side, each with a head close-up above. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## The hidden woman (האישה) -> art/chars/char-stowaway.png
+
+Comic-book character model sheet: THE HIDDEN WOMAN (about 40): thin, pale, frightened dark eyes, dark hair pinned back, plain gray dress, worn cardigan; fragile but dignified. Layout: three head views and a full-body standing figure; one extra small drawing of her crouched in a hiding posture. Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
+
+## Expressions: Emmanuel and Baba -> art/chars/char-expressions.png
+
+Comic-book character model sheet: an expression sheet of Emmanuel (8.5) and, below him, Baba (75+): EMMANUEL as a boy (8.5, England 1946): slim, big curious intelligent dark-brown eyes, short dark hair, flat wool newsboy cap, brown wool jacket with white collar, knee-length shorts, long socks, old brown suitcase. BABA (the elderly narrator, 75+, based on the real grandfather): receding hairline with short gray-white hair at the sides, thin rectangular glasses, small knitted kippah, kind laugh lines, warm wise smile, white collared shirt and simple dark jacket. Attach their approved character sheets. Layout: six head drawings per character in a grid: neutral, wonder, joy, hurt, shock, determination (Baba: neutral, tender smile, playful, moved, wise, laughing). Plain cream background, even soft lighting, no text, no letters, no labels. Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces. No text, no letters, no speech bubbles, no captions, no signage text, no watermark.
