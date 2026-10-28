@@ -2,7 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700;900&family=Heebo:wght@400;500;700;800&family=Rubik:wght@500;600;700&family=Karantina:wght@700&family=Gveret+Levin&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700;900&family=Heebo:wght@400;500;700;800&family=Rubik:wght@500;600;700&family=Karantina:wght@700&display=swap">
 <style>
 /* Layout concept: one long vertical read. The comic is a column of panel rows floating in a dark room; as each page crosses the middle of the screen the room's colour, light and drifting particles change to match it. All lettering is live HTML (bubbles, captions, labels) so any language can replace it. */
 @property --ca { syntax: '<color>'; inherits: true; initial-value: #3a2510; }
@@ -169,6 +169,7 @@ main { position: relative; z-index: 5; }
 .art img { position: absolute; inset: -6% 0; width: 100%; height: 112%; object-fit: cover; transform: scaleX(var(--flip, 1)) translateY(var(--py, 0px)) scale(calc(var(--sc, 1.05) * var(--zm, 1))); opacity: 0; transition: opacity .6s ease; will-change: transform; }
 .art img.ok { opacity: 1; }
 .flat .art img { inset: 0; height: 100%; }
+.art .bk { position: absolute; inset: -8%; background: center / cover no-repeat; filter: blur(16px) brightness(.55) saturate(.85); transform: scaleX(var(--flip, 1)); }
 .ph {
   position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 1.2cqw; text-align: center; padding: 8%;
   background: var(--grain-dark), linear-gradient(155deg, var(--pa), var(--pb));
@@ -235,7 +236,6 @@ body.director .copy { display: inline-block; }
   padding: .6em 1em; background: var(--caption); color: #2d2014; border: 2.5px solid var(--comic-ink);
   font-family: var(--font-display); font-weight: 700; text-wrap: balance; line-height: 1.45; box-shadow: 4px 4px 0 var(--comic-ink);
 }
-.cap::before { content: ""; position: absolute; top: -.5em; inset-inline-start: .9em; width: 2.4em; height: .78em; background: rgba(224, 188, 98, .88); border: 1.5px solid rgba(27, 20, 16, .35); transform: rotate(-4deg); }
 /* labels are small black stamps */
 .tag-box { padding: .35em .85em; background: var(--comic-ink); color: var(--caption); font-family: var(--font-ui); font-weight: 800; font-size: calc(var(--fs, 1) * .86em); letter-spacing: .06em; box-shadow: 3px 3px 0 var(--rim); }
 /* sound effects */
@@ -251,8 +251,7 @@ html.js .pw.in .txt { opacity: 1; transform: rotate(var(--rot, 0deg)); }
   .page { padding-block: 1vh; overflow-x: clip; }
   .page + .page { margin-top: calc(100vw * -.07); }
   .txt { font-size: clamp(.82rem, 3.7cqw, 1.05rem); }
-  .cap.c-note, .cap.c-chalk, .cap.c-sticky { font-size: 1.02em; }
-  .cap.c-stamp { font-size: 1.15em; }
+  .cap.big, .cap.c-open.big { font-size: 1.22em; }
   .rail { display: none; }
 }
 
@@ -303,21 +302,11 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
   #bg { transition-duration: .01s; }
 }
 
-/* ---------- caption boxes: each one a different object, so the narration never reads as one repeated rectangle ---------- */
-.cap.c-note { background: #fbf6e4 linear-gradient(transparent calc(1.58em - 1px), rgba(70, 110, 170, .38) 1.58em) 0 .5em / 100% 1.58em repeat-y; border: 0; border-inline-start: 3px solid #d46a6a; font-family: 'Gveret Levin', 'Frank Ruhl Libre', cursive; font-weight: 400; line-height: 1.58; font-size: calc(var(--fs, 1) * 1.16em); padding: .5em 1em .5em 1.1em; box-shadow: 3px 5px 0 rgba(0, 0, 0, .45); }
-.cap.c-note::before, .cap.c-film::before, .cap.c-tele::before, .cap.c-torn::before, .cap.c-stamp::before, .cap.c-chalk::before, .cap.c-rib::before, .cap.c-plain::before, .cap.c-sticky::before, .cap.c-dark::before, .cap.c-sun::before { display: none; }
-.cap.c-film { background: #0b0907; color: #f3e3b8; border: 0; border-block: 2px solid #e0a84f; font-style: italic; font-weight: 500; text-align: center; letter-spacing: .02em; box-shadow: 0 0 0 4px rgba(11, 9, 7, .55); }
-.cap.c-tele { background: #efe2b0; color: #3a2d17; border: 0; border-block: 2px dashed #6a5a3a; letter-spacing: .05em; font-weight: 500; box-shadow: 3px 4px 0 rgba(0, 0, 0, .4); }
-.cap.c-torn { background: #dcc79c; color: #34230f; border: 0; padding: .85em 1.3em; font-weight: 500; clip-path: polygon(0 5%, 5% 0, 13% 5%, 24% 1%, 37% 5%, 52% 0, 66% 4%, 80% 0, 92% 5%, 100% 1%, 99% 95%, 91% 100%, 79% 95%, 65% 100%, 50% 96%, 36% 100%, 22% 95%, 9% 100%, 0 96%); }
-.cap.c-stamp { background: rgba(255, 244, 218, .6); color: #7d211b; border: 3px double #7d211b; font-family: var(--font-shout); font-size: calc(var(--fs, 1) * 1.45em); line-height: 1.12; letter-spacing: .05em; text-align: center; box-shadow: none; mix-blend-mode: normal; }
-.cap.c-chalk { background: #223029; color: #f1efe3; border: 3px solid #cbb78a; border-radius: 7px; font-family: 'Gveret Levin', 'Frank Ruhl Libre', cursive; font-weight: 400; font-size: calc(var(--fs, 1) * 1.14em); box-shadow: 0 0 0 3px #3b2a17, 4px 6px 0 3px rgba(0, 0, 0, .35); }
-.cap.c-rib { background: #b3402f; color: #fff3d6; border: 0; font-weight: 800; text-align: center; padding: .55em 2.1em; clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%); box-shadow: none; }
-.cap.c-plain { background: none; border: 0; box-shadow: none; color: #fff6dd; font-weight: 700; font-size: calc(var(--fs, 1) * 1.12em); text-shadow: 0 0 7px #000, 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
-.cap.c-sticky { background: #ffe56a; color: #3b2a0e; border: 0; font-family: 'Gveret Levin', 'Frank Ruhl Libre', cursive; font-weight: 400; font-size: calc(var(--fs, 1) * 1.18em); box-shadow: 3px 6px 0 rgba(0, 0, 0, .38); }
-.cap.c-dark { background: rgba(8, 12, 26, .8); color: #dfe9ff; border: 1.5px solid rgba(160, 190, 255, .5); box-shadow: 0 0 20px rgba(90, 130, 200, .35); font-weight: 500; }
-.cap.c-sun { background: linear-gradient(#ffeab5, #f6cf80); color: #4a2d10; border-color: #7a4a15; }
+/* ---------- lettering system: Baba speaking now (the synagogue) gets the one caption box; his memories are open narration on a soft shadow ---------- */
 /* a caption that sits in its own big beat */
-.cap.big { font-size: calc(var(--fs, 1) * 1.45em); line-height: 1.3; }
+.cap.c-open { background: radial-gradient(closest-side, rgba(8, 5, 3, .34), rgba(8, 5, 3, .18) 70%, transparent 100%); border: 0; box-shadow: none; padding: 1em 1.6em; color: #fff6e4; font-weight: 700; font-size: calc(var(--fs, 1) * 1.08em); text-shadow: 0 0 2px #000, 0 0 6px rgba(0, 0, 0, .9), 0 1px 14px rgba(0, 0, 0, .7); }
+.cap.big { font-size: calc(var(--fs, 1) * 1.55em); line-height: 1.25; }
+.cap.c-open.big { font-size: calc(var(--fs, 1) * 1.6em); }
 
 /* speech tails are drawn by script so that they point at the speaker's mouth */
 .tl { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: -1; }
@@ -329,6 +318,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
 .has-tl::after { display: none !important; }
 
 /* photographs on a table: a thicker white rim and a harder shadow */
+.soft .frame { filter: none; }
 .snap .frame { filter: drop-shadow(6px 0 0 #fbf5e6) drop-shadow(-6px 0 0 #fbf5e6) drop-shadow(0 6px 0 #fbf5e6) drop-shadow(0 -6px 0 #fbf5e6) drop-shadow(0 22px 20px rgba(0, 0, 0, .6)); }
 
 /* ---------- how panels arrive ---------- */
@@ -382,7 +372,7 @@ html.js .pw[data-en="iris"].in .art { animation: enIris 1.2s cubic-bezier(.4, 0,
 @media (prefers-reduced-motion: reduce) { .pw .frame, .pw .art, .pw .art img, .fl, .rays { animation: none !important; } .pw[data-en] .frame { opacity: 1; } }
 
 /* the closing card: three things Baba took from the journey */
-.card { position: absolute; inset: 0; display: grid; align-content: center; gap: .9em; padding: 7% 8%; background: #fbf6e4 linear-gradient(transparent calc(2.1em - 1px), rgba(70, 110, 170, .28) 2.1em) 0 .6em / 100% 2.1em repeat-y; color: #2d2014; font-family: 'Gveret Levin', 'Frank Ruhl Libre', cursive; line-height: 2.1; text-align: start; border-inline-start: 4px solid #d46a6a; }
+.card { position: absolute; inset: 0; display: grid; align-content: center; gap: .9em; padding: 7% 8%; background: #fbf6e4 linear-gradient(transparent calc(2.1em - 1px), rgba(70, 110, 170, .28) 2.1em) 0 .6em / 100% 2.1em repeat-y; color: #2d2014; font-family: var(--font-display); line-height: 2.1; text-align: start; border-inline-start: 4px solid #d46a6a; }
 .card h3 { margin: 0; font-family: var(--font-display); font-weight: 900; font-size: clamp(1.4rem, 5.4cqw, 2.7rem); line-height: 1.3; color: #3a2310; }
 .card ol { margin: 0; padding: 0; list-style: none; display: grid; gap: .55em; counter-reset: li; }
 .card li { counter-increment: li; position: relative; padding-inline-start: 1.9em; font-family: var(--font-display); font-weight: 700; font-size: clamp(1.05rem, 3.6cqw, 1.75rem); line-height: 1.5; }
@@ -707,13 +697,13 @@ html.loading, html.loading body { overflow: hidden; }
           shot: 'Tight close-up portrait of Baba, a tender knowing smile, a twinkle in his eyes, soft window light, blurred congregation behind him. About 3:2.', chars: ['baba'], pal: 'warm', text: [] },
         { id: 'c', x: 60, y: 42.7, w: 40, h: 19, cut: C(1, 1), z: 2, sp: -10,
           shot: 'Medium side shot of a curious boy of about 10 in a synagogue looking up at someone off-frame as he asks a question, warm light, blurred background. About 2:1.', chars: ['kid'], pal: 'warm',
-          text: [{ k: 'bub', id: 'p1.q1', from: 'start', x: 3, v: 'top', y: 7, w: 50, fs: .88, tail: 'be', m: [38, 46] }], fy: 22 },
+          text: [{ k: 'bub', id: 'p1.q1', from: 'start', x: 3, v: 'top', y: 7, w: 50, fs: .88, tail: 'be', m: [38, 52] }], fy: 22 },
         { id: 'd', x: 60, y: 60.4, w: 40, h: 18.1, cut: C(1, 1), z: 2,
           shot: 'A very small child of about 5 peeking wide-eyed over the top of a wooden synagogue bench: only eyes, nose and little fingers visible, innocent surprise, warm light. About 2:1.', chars: [], pal: 'warm',
-          text: [{ k: 'bub', id: 'p1.q2', from: 'end', x: 6, v: 'top', y: 12, w: 42, tail: 'bs', m: [60, 52] }] },
+          text: [{ k: 'bub', id: 'p1.q2', from: 'end', x: 6, v: 'top', y: 12, w: 42, tail: 'bs', m: [47, 50] }] },
         { id: 'e', x: 0, y: 75.9, w: 62, h: 34.04, cut: C(1, 1), z: 3, sp: 8,
           shot: 'Baba in the synagogue leaning slightly toward a small group of attentive children and young parents who gather around him with delighted anticipation; he gives a conspiratorial smile. Warm gold light. Wide, about 2:1.', chars: ['baba', 'kid'], pal: 'warm',
-          text: [{ k: 'bub', id: 'p1.b1', from: 'start', x: 5, v: 'top', y: 8, w: 46, tail: 'be', m: [48, 38] }] },
+          text: [{ k: 'bub', id: 'p1.b1', from: 'start', x: 5, v: 'top', y: 8, w: 46, tail: 'be', m: [42, 41] }] },
         { id: 'f', x: 64, y: 77.5, w: 36, h: 35.1, cut: C(1, 1), z: 3, memory: true,
           shot: 'Memory vignette: a misty empty European railway platform in 1946, a black steam locomotive releasing white steam, old brown suitcases stacked on the platform, cold blue-gray palette, dreamlike faded edges. About 1:1.', chars: [], pal: 'cold',
           text: [{ k: 'cap', id: 'p1.cap2', from: 'start', x: 4, v: 'bottom', y: 5, w: 92 }] },
@@ -721,7 +711,7 @@ html.loading, html.loading body { overflow: hidden; }
           shot: 'Cold, foggy European railway station in March 1946: iron arched roof, a steam train at the left. At the right on the platform stand Emmanuel (boy, flat cap), his mother (blue headscarf, coat) and his brother Shimon, holding suitcases; the boy gazes forward thoughtfully, hopeful and uneasy. Blue-gray and brown palette. Wide, about 2:1, the lower edge fading into fog.', chars: ['emmanuel', 'mother', 'shimon'], pal: 'cold',
           text: [
             { k: 'tag', id: 'p1.tag1', from: 'start', x: 3, v: 'top', y: 7, w: 0 },
-            { k: 'tho', id: 'p1.th1', from: 'start', x: 6, v: 'top', y: 20, w: 38, tail: 'be', m: [46, 50] },
+            { k: 'tho', id: 'p1.th1', from: 'start', x: 6, v: 'top', y: 20, w: 38, tail: 'be', m: [44, 24] },
             { k: 'cap', id: 'p1.cap3', from: 'start', x: 3, v: 'bottom', y: 5, w: 94 }
           ] },
         { id: 'br', bridge: 'smoke', x: 50, y: 98, w: 50, h: 26, z: 7 },
@@ -1004,17 +994,25 @@ html.loading, html.loading body { overflow: hidden; }
       }
       return [clipConvex(A, poly), clipConvex(B, poly)];
     }
+    /* mo = morph: instead of a gutter the two sides overlap by mo units and the first one dissolves into the second */
+    var d = node.mo ? -node.mo / 2 : g / 2;
     if (node.h != null) {
       var c0 = node.h - 50 * s;
-      return [halfPlane(poly, -s, 1, c0 - g / 2), halfPlane(poly, s, -1, -c0 - g / 2)];
+      return [halfPlane(poly, -s, 1, c0 - d), halfPlane(poly, s, -1, -c0 - d)];
     }
     var ref = node.ref != null ? node.ref : bb.y + bb.h / 2, c1 = node.v - s * ref;
-    return [halfPlane(poly, 1, -s, c1 - g / 2), halfPlane(poly, -1, s, -c1 - g / 2)];
+    return [halfPlane(poly, 1, -s, c1 - d), halfPlane(poly, -1, s, -c1 - d)];
   }
-  function bspLeaves(node, poly, out) {
+  function leavesOf(node) { return typeof node === 'string' ? [node] : leavesOf(node.a).concat(leavesOf(node.b)); }
+  function bspLeaves(node, poly, out, meta) {
     if (typeof node === 'string') { out[node] = poly; return; }
     var ab = cutPoly(poly, node);
-    bspLeaves(node.a, ab[0], out); bspLeaves(node.b, ab[1], out);
+    if (node.mo && meta) {
+      var get = function (id) { return (meta[id] = meta[id] || {}); };
+      leavesOf(node.a).concat(leavesOf(node.b)).forEach(function (id) { get(id).soft = true; });
+      leavesOf(node.a).forEach(function (id) { var m = get(id); m.mf = m.mf || {}; m.mf[node.h != null ? 'b' : 'e'] = node.mo; m.z = 3; });
+    }
+    bspLeaves(node.a, ab[0], out, meta); bspLeaves(node.b, ab[1], out, meta);
   }
   function rotRect(cx, cy, w, h, deg) {
     var r = deg * Math.PI / 180, c = Math.cos(r), s = Math.sin(r);
@@ -1024,8 +1022,8 @@ html.loading, html.loading body { overflow: hidden; }
 
   /* apply a GEO entry: polygons from the tree and the free shapes replace the box layout of the old tiers */
   function applyGeo(n, lay, geo) {
-    var polys = {};
-    if (geo.tree) bspLeaves(geo.tree, rectPoly(0, 0, 100, geo.H), polys);
+    var polys = {}, meta = {};
+    if (geo.tree) bspLeaves(geo.tree, rectPoly(0, 0, 100, geo.H), polys, meta);
     var byId = {}; lay.panels.forEach(function (p) { if (p.id) byId[p.id] = p; });
     var list = [];
     Object.keys(polys).forEach(function (id) {
@@ -1035,6 +1033,7 @@ html.loading, html.loading body { overflow: hidden; }
       p.x = +bb.x.toFixed(2); p.y = +bb.y.toFixed(2); p.w = +bb.w.toFixed(2); p.h = +bb.h.toFixed(2);
       p.pr = pl.map(function (q) { return [+((q[0] - bb.x) / bb.w * 100).toFixed(2), +((q[1] - bb.y) / bb.h * 100).toFixed(2)]; });
       delete p.cut; delete p.fade; list.push(p);
+      if (meta[id]) Object.keys(meta[id]).forEach(function (k) { p[k] = meta[id][k]; });
     });
     (geo.free || []).forEach(function (f) {
       var p = byId[f.id]; if (!p && f.extra) { p = f.extra; lay.panels.push(p); byId[f.id] = p; }
@@ -1064,7 +1063,7 @@ html.loading, html.loading body { overflow: hidden; }
   var GEO = {}, TX = {};
   var Q = function (a, b, c, d) { return [a, b, c, d]; };
   GEO[2] = { H: 176,
-    tree: { h: 80, s: .08, g: 2.6, a: 'a', b: { h: 136, s: -.06, a: { v: 60, s: .16, a: 'b', b: 'c' }, b: 'd' } },
+    tree: { h: 80, mo: 14, a: 'a', b: { h: 136, s: -.06, a: { v: 60, s: .16, a: 'b', b: 'c' }, b: 'd' } },
     P: { a: { en: 'zoom', kb: 'in' }, b: { en: 's' }, c: { en: 'e' }, d: { en: 'creep' } } };
   GEO[3] = { H: 190,
     tree: { h: 35, s: -.07, a: 'a', b: { h: 100, s: .05, a: { v: 34, s: .15, a: 'b', b: { v: 68, s: .15, a: 'c', b: 'd' } }, b: 'e' } },
@@ -1090,27 +1089,27 @@ html.loading, html.loading body { overflow: hidden; }
     tree: { h: [[0, 64], [22, 58], [40, 68], [62, 56], [84, 66], [100, 60]], g: 3, a: 'a', b: { h: 141, s: -.04, a: { v: 33, s: .22, a: 'b', b: { v: 68, s: -.22, a: 'c', b: 'd' } }, b: 'e' } },
     P: { a: { en: 'zoom' }, b: { en: 'pop' }, c: { en: 'pop' }, d: { en: 'pop' }, e: { en: 'shake', efx: 'flash' } } };
   GEO[10] = { H: 170,
-    tree: { h: 54, s: .08, a: 'a', b: { h: 118, s: -.06, a: { v: 36, s: -.2, a: 'b', b: 'c' }, b: 'd' } },
+    tree: { h: 54, mo: 12, a: 'a', b: { h: 118, s: -.06, a: { v: 36, s: -.2, a: 'b', b: 'c' }, b: 'd' } },
     L: { n1: { x: 24, y: 52, w: 40, h: 20 } },
     P: { a: { en: 'zoom' }, b: { en: 's' }, c: { en: 'e' }, d: { en: 'pop' } } };
   GEO[11] = { H: 194,
     tree: { h: 44, s: .06, a: 'a', b: { h: 122, s: -.04, a: { v: 25, s: .25, a: 'b', b: { v: 50, s: -.25, a: 'c', b: { v: 75, s: .25, a: 'd', b: 'e' } } }, b: { v: 62, s: -.1, a: 'f', b: 'g' } } },
     P: { a: { en: 'rise' }, b: { en: 'drop' }, c: { en: 'drop' }, d: { en: 'drop' }, e: { en: 'drop' }, f: { en: 's' }, g: { en: 'pop' } } };
   GEO[12] = { H: 205,
-    free: [{ id: 'a', poly: [[0, 0], [58, 0], [58, 30], [0, 34]] }, { id: 'b', poly: [[20, 42], [74, 38], [74, 86], [20, 90]] }, { id: 'c', poly: [[40, 98], [100, 94], [100, 150], [40, 154]] }, { id: 'd', poly: [[0, 160], [100, 156], [100, 205], [0, 205]] }],
-    P: { a: { en: 's' }, b: { en: 'creep' }, c: { en: 'creep' }, d: { en: 'zoom', kb: 'in' } } };
+    free: [{ id: 'a', poly: [[0, 0], [58, 0], [58, 30], [0, 34]] }, { id: 'b', poly: [[20, 42], [74, 38], [74, 86], [20, 90]] }, { id: 'c', poly: [[40, 98], [100, 94], [100, 162], [40, 166]] }, { id: 'd', poly: [[0, 160], [100, 156], [100, 205], [0, 205]] }],
+    P: { a: { en: 's' }, b: { en: 'creep' }, c: { en: 'creep', mf: { b: 12 }, soft: true, z: 3 }, d: { en: 'zoom', kb: 'in', soft: true } } };
   GEO[13] = { H: 172,
-    tree: { h: 78, s: .06, a: 'a', b: { h: 124, s: -.05, a: 'c', b: 'd' } },
+    tree: { h: 78, s: .06, a: 'a', b: { h: 124, mo: 12, a: 'c', b: 'd' } },
     free: [{ id: 'b', x: 64, y: 58, w: 30, h: 30, circle: true }],
-    P: { a: { en: 'creep', efx: 'rays' }, b: { z: 7, en: 'iris' }, c: { en: 's' }, d: { en: 'rise' } } };
+    P: { a: { en: 'creep', efx: 'rays' }, b: { z: 7, en: 'iris' }, c: { en: 's' }, d: { en: 'rise', mh: 72 } } };
   GEO[14] = { H: 156,
-    free: [{ id: 'a', poly: [[0, 0], [64, 0], [64, 42], [0, 46]] }, { id: 'b', poly: [[0, 50], [100, 44], [100, 102], [0, 108]] }, { id: 'c', x: 2, y: 112, w: 48, h: 40, circle: true }, { id: 'd', x: 52, y: 108, w: 48, h: 42, circle: true }],
-    P: { a: { en: 's' }, b: { en: 'zoom', kb: 'in' }, c: { en: 'iris' }, d: { en: 'iris' } } };
+    free: [{ id: 'a', poly: [[0, 0], [64, 0], [64, 54], [0, 58]] }, { id: 'b', poly: [[0, 50], [100, 44], [100, 102], [0, 108]] }, { id: 'c', x: 2, y: 112, w: 48, h: 40, circle: true }, { id: 'd', x: 52, y: 108, w: 48, h: 42, circle: true }],
+    P: { a: { en: 's', mf: { b: 12 }, soft: true, z: 3 }, b: { en: 'zoom', kb: 'in', soft: true }, c: { en: 'iris' }, d: { en: 'iris' } } };
   GEO[15] = { H: 190,
     tree: { h: 68, s: .06, a: 'a', b: { h: 122, s: -.05, a: { v: 34, s: .2, a: 'b', b: { v: 67, s: .2, a: 'c', b: 'd' } }, b: { v: 64, s: -.1, a: 'e', b: 'f' } } },
     P: { a: { en: 'zoom' }, b: { en: 's' }, c: { en: 'rise' }, d: { en: 'e' }, e: { en: 'wipe' }, f: { en: 'rise' } } };
   GEO[16] = { H: 150,
-    tree: { h: 64, s: .05, a: 'a', b: 'c' },
+    tree: { h: 66, mo: 16, a: 'a', b: 'c' },
     free: [{ id: 'b', x: 8, y: 50, w: 34, h: 34, circle: true }],
     P: { a: { en: 'zoom', kb: 'out', efx: 'rays' }, b: { z: 7, en: 'iris' }, c: { en: 'rise' } } };
   GEO[17] = { H: 226,
@@ -1120,8 +1119,8 @@ html.loading, html.loading body { overflow: hidden; }
   GEO[18] = { H: 166,
     tree: { h: 60, s: .07, a: 'a', b: { h: 112, s: -.05, a: { v: 46, s: .2, a: 'b', b: 'c' }, b: 'd' } },
     P: { a: { en: 'zoom' }, b: { en: 's' }, c: { en: 'e' }, d: { en: 'creep', fy: 40 } } };
-  GEO[19] = { H: 230,
-    tree: { h: 58, s: .06, a: 'a', b: { h: 122, s: -.05, a: 'b', b: { v: 50, s: -.5, ref: 177, a: 'c', b: 'd' } } },
+  GEO[19] = { H: 204,
+    tree: { h: 58, s: .06, a: 'a', b: { h: 122, s: -.05, a: 'b', b: { v: 50, s: .6, ref: 164, a: 'c', b: 'd' } } },
     P: { a: { en: 'rise' }, b: { en: 'shake', efx: 'flash rays' }, c: { en: 'wipe' }, d: { en: 'zoom' } } };
   GEO[20] = { H: 140,
     free: [{ id: 'a', poly: [[0, 0], [100, 0], [100, 60], [0, 66]] }, { id: 'b', poly: [[6, 76], [52, 74], [52, 108], [6, 111]] }, { id: 'c', poly: [[58, 96], [100, 94], [100, 128], [58, 131]] }],
@@ -1130,7 +1129,7 @@ html.loading, html.loading body { overflow: hidden; }
     tree: { h: 44, g: 3, a: { v: 50, g: 3, a: 'a', b: 'b' }, b: { h: 120, g: 3, a: 'c', b: { v: 33, g: 3, a: 'd', b: { v: 67, g: 3, a: 'e', b: 'f' } } } },
     P: { a: { en: 'rise', kb: 'none' }, b: { en: 'rise', kb: 'none' }, c: { en: 'zoom', kb: 'in' }, d: { en: 'rise', kb: 'none' }, e: { en: 'rise', kb: 'none' }, f: { en: 'rise', kb: 'none' } } };
   GEO[22] = { H: 172,
-    tree: { h: 94, s: .05, a: 'a', b: 'c' },
+    tree: { h: 94, mo: 16, a: 'a', b: 'c' },
     free: [{ id: 'b', x: 4, y: 54, w: 34, h: 34, circle: true }],
     L: { n1: { x: 56, y: -2, w: 40, h: 30 } },
     P: { a: { en: 'zoom', fade: null }, b: { z: 7, en: 'iris' }, c: { en: 'rise' } } };
@@ -1141,6 +1140,22 @@ html.loading, html.loading body { overflow: hidden; }
     free: [{ id: 'a', poly: [[0, 0], [100, 0], [100, 94], [0, 100]] }, { id: 'z', x: 66, y: 82, w: 30, h: 30, circle: true },
       { id: 'L', cx: 50, cy: 132, w: 84, h: 46, rot: -1.2, extra: { id: 'L', card: true, shot: '', chars: [], pal: 'warm', text: [] } }],
     P: { a: { en: 'zoom', kb: 'in' }, z: { z: 7, en: 'iris' }, L: { z: 5, en: 'drop' } } };
+
+  /* framing per picture: fx / fy move the focus, zoom pushes in, fit pulls out (0 = whole picture) so the important part survives the shape */
+  var ADJ = {
+    2: { a: { ty: null }, b: { fx: 35 }, c: { fy: 0, fit: .8 } },
+    3: { e: { fit: .8 } },
+    4: { c: { fx: 20 } },
+    6: { a: { ty: null }, b: { fx: 25 } },
+    9: { b: { fx: 15 }, d: { fx: 5 } },
+    11: { b: { fx: 85 }, g: { fx: 25 } },
+    15: { b: { fx: 35 }, c: { fx: 35 }, d: { fx: 30 } },
+    19: { a: { ty: null }, c: { mirror: true, fx: 20 }, d: { fx: 20 } }
+  };
+  Object.keys(ADJ).forEach(function (n) {
+    var P = GEO[n].P = GEO[n].P || {};
+    Object.keys(ADJ[n]).forEach(function (id) { P[id] = P[id] || {}; Object.keys(ADJ[n][id]).forEach(function (k) { P[id][k] = ADJ[n][id][k]; }); });
+  });
 
   /* ---- lettering ---- */
   TX[2] = {
@@ -1175,13 +1190,13 @@ html.loading, html.loading body { overflow: hidden; }
     b: [X('cap', 'bs', 'גיליתי מאכלים שלא הכרתי, כי באנגליה בזמן המלחמה לא ראיתי אותם.', 'I discovered foods I had never known, because in wartime England I had not seen them.', 92)],
     c: [X('bub', 'ts', 'איכס... רגע. זה דווקא טעים!', 'Yuck... wait. It\'s actually good!', 56, { m: [36, 50] })],
     d: [X('cap', 'ts', 'במיוחד אהבתי את הזיתים.', 'I especially loved the olives.', 36),
-      X('cap', 'be', 'שמתי לב שאמא תמיד שומרת משהו מהארוחה במפית. לא שאלתי למה.', 'I noticed Mother always saved a little of the meal in her napkin. I never asked why.', 50, { st: 'note' })]
+      X('cap', 'be', 'שמתי לב שאמא תמיד שומרת משהו מהארוחה במפית. לא שאלתי למה.', 'I noticed Mother always saved a little of the meal in her napkin. I never asked why.', 50, {})]
   };
   TX[7] = {
     a: [X('cap', 'ts', 'בחדר האוכל התחברתי עם ילד בגילי, מלבנון. שיחקנו יחד כל היום.', 'At the dining hall I made friends with a boy my age, from Lebanon. We played together all day.', 44)],
-    b: [X('bub', 'ts', 'בוא נראה מי מנצח!', 'Let\'s see who wins!', 44, { m: [63, 37] })],
-    c: [X('bub', 'ts', 'אני לא אפסיד!', 'I won\'t lose!', 56, { m: [24, 50] }),
-      X('cap', 'bs', 'שני ימים של חברות אמיתית. תזכרו את המספר הזה: שני ימים.', 'Two days of true friendship. Remember that number: two days.', 92, { st: 'stamp' })]
+    b: [X('bub', 'ts', 'בוא נראה מי מנצח!', 'Let\'s see who wins!', 44, { m: [49, 45] })],
+    c: [X('bub', 'ts', 'אני לא אפסיד!', 'I won\'t lose!', 56, { m: [36, 56] }),
+      X('cap', 'bs', 'שני ימים של חברות אמיתית. תזכרו את המספר הזה: שני ימים.', 'Two days of true friendship. Remember that number: two days.', 92, { big: true })]
   };
   TX[8] = {
     a: [X('tho', 'ts', 'למה הוא לא בא?', 'Why isn\'t he coming?', 36, { m: [46, 24] }),
@@ -1194,18 +1209,18 @@ html.loading, html.loading body { overflow: hidden; }
     b: [X('bub', 'ts', 'אוי, איזה גלים!', 'Oh, what waves!', 56, { m: [23, 49] })],
     c: [X('bub', 'ts', 'תחזיקו חזק!', 'Hold on tight!', 60, { m: [50, 32] })],
     d: [X('shout', 'ts', 'וואו! כמו נדנדה ענקית!', 'Wow! Like a giant swing!', 56)],
-    e: [X('sfx', 'bs', 'שפלאש!', 'SPLASH!'), X('cap', 'te', 'כולם צרחו. רק אני צחקתי. עוד לא ידעתי שהפחד האמיתי מחכה לי בלילה, בשקט.', 'Everyone screamed. Only I laughed. I didn\'t know yet that the real fear was waiting for me at night, in the quiet.', 46, { y: 10, st: 'dark' })]
+    e: [X('sfx', 'bs', 'שפלאש!', 'SPLASH!'), X('cap', 'te', 'כולם צרחו. רק אני צחקתי. עוד לא ידעתי שהפחד האמיתי מחכה לי בלילה, בשקט.', 'Everyone screamed. Only I laughed. I didn\'t know yet that the real fear was waiting for me at night, in the quiet.', 46, { y: 10 })]
   };
   TX[10] = {
     a: [X('cap', 'ts', 'בנאפולי ירדנו לטייל קצת בעיר.', 'In Naples we went ashore to see a little of the city.', 40)],
     c: [X('cap', 'bs', 'ליצני רחוב עשו הצגה, וכולם צחקו. כולם הסתכלו על הליצנים. כמעט כולם.', 'Street clowns put on a show and everyone laughed. Everyone watched the clowns. Almost everyone.', 92)],
-    d: [X('bub', 'te', 'עוד! עוד!', 'More! More!', 30, { m: [54, 43] })]
+    d: [X('bub', 'te', 'עוד! עוד!', 'More! More!', 30, { m: [59, 46] })]
   };
   TX[11] = {
     a: [X('cap', 'bs', 'כשחזרנו לאונייה התחילו הצעקות.', 'When we got back to the ship, the shouting began.', 42)],
-    b: [X('bub', 'ts', 'הארנק שלי!', 'My wallet!', 66, { m: [83, 37] })],
+    b: [X('bub', 'ts', 'הארנק שלי!', 'My wallet!', 66, { m: [68, 19] })],
     c: [X('shout', 'bs', 'גנבו לי הכול!', 'They stole everything!', 70, { y: 8 })],
-    e: [X('bub', 'ts', 'אצלי כמעט לא נגנב דבר.', 'Almost nothing was taken from me.', 74, { m: [37, 31] })],
+    e: [X('bub', 'ts', 'אצלי כמעט לא נגנב דבר.', 'Almost nothing was taken from me.', 74, { m: [46, 26] })],
     f: [X('cap', 'bs', 'אפילו אותי כייסו! אבל היו לי רק כמה מטבעות קטנות בכיס.', 'They even pickpocketed me! But I only had a few small coins in my pocket.', 92)],
     g: [X('tho', 'ts', 'איך היא לא נבהלה?', 'How come she isn\'t panicking?', 70, { m: [34, 56] })]
   };
@@ -1216,10 +1231,10 @@ html.loading, html.loading body { overflow: hidden; }
     d: [X('cap', 'ts', 'הלב שלי דפק חזק יותר ממנוע האונייה.', 'My heart pounded louder than the ship\'s engine.', 50)]
   };
   TX[13] = {
-    a: [X('cap', 'ts', 'ואז ראיתי אותה.', 'And then I saw her.', 40, { big: true, st: 'plain' }), X('tho', 'ts', 'אישה?', 'A woman?', 22, { m: [79, 46], x: 6, y: 22 })],
+    a: [X('cap', 'ts', 'ואז ראיתי אותה.', 'And then I saw her.', 40, { big: true }), X('tho', 'ts', 'אישה?', 'A woman?', 22, { m: [79, 46], x: 6, y: 22 })],
     c: [X('bub', 'ts', 'אל תפחדי. כאן את בטוחה.', 'Don\'t be afraid. You\'re safe here.', 56, { m: [27, 35] })],
     d: [X('cap', 'bs', 'היא ישנה מתחת למיטה, והזהירו אותי שלא לדבר על הנוסעת הזאת.', 'She slept under the bed, and I was warned not to talk about this passenger.', 56),
-      X('cap', 'te', 'לאף אחד לא סיפרתי. עד היום.', 'I never told a soul. Until today.', 34, { st: 'stamp' })]
+      X('cap', 'te', 'לאף אחד לא סיפרתי. עד היום.', 'I never told a soul. Until today.', 40, { big: true })]
   };
   TX[14] = {
     a: [X('cap', 'ts', 'אחרי שגמרנו לאכול, אמא עטפה אוכל במפית, בלי שיראו.', 'After we finished eating, Mother wrapped some food in a napkin when no one was looking.', 46)],
@@ -1229,9 +1244,9 @@ html.loading, html.loading body { overflow: hidden; }
   TX[15] = {
     a: [X('bub', 'ts', 'עוצרים לרגע! למה האישה התחבאה מתחת למיטה, לדעתכם?', 'Let\'s pause! Why was the woman hiding under the bed, do you think?', 52, { m: [46, 37] })],
     b: [X('bub', 'ts', 'אולי היא פחדה מהקפטן?', 'Maybe she was afraid of the captain?', 70, { m: [34, 47] })],
-    c: [X('bub', 'ts', 'אני יודע! היא גנבה משהו!', 'I know! She stole something!', 72, { m: [68, 50] })],
-    d: [X('bub', 'ts', 'היא ברחה מהמפלצת?', 'Did she run away from the monster?', 74, { m: [62, 50] })],
-    e: [X('bub', 'ts', 'פרס יקר ערך למי שיפתור!', 'A valuable prize for whoever solves it!', 60, { m: [42, 64] })],
+    c: [X('bub', 'ts', 'אני יודע! היא גנבה משהו!', 'I know! She stole something!', 72, { m: [42, 40] })],
+    d: [X('bub', 'ts', 'היא ברחה מהמפלצת?', 'Did she run away from the monster?', 74, { m: [36, 33] })],
+    e: [X('bub', 'ts', 'פרס יקר ערך למי שיפתור!', 'A valuable prize for whoever solves it!', 60, { m: [41, 42] })],
     f: [X('cap', 'bs', 'נחזור לחידה בסוף. עכשיו — חיפה!', 'We\'ll come back to the riddle at the end. Now — Haifa!', 90)]
   };
   TX[16] = {
@@ -1248,15 +1263,15 @@ html.loading, html.loading body { overflow: hidden; }
   TX[18] = {
     a: [X('cap', 'ts', 'ים של ידיים מנופפות.', 'A sea of waving hands.', 36)],
     b: [X('bub', 'ts', 'שם! הנה הוא!', 'There! There he is!', 60, { m: [27, 40] })],
-    c: [X('tho', 'ts', 'איפה הגבוה? איפה הגיבור שלי?', 'Where is the tall one? Where is my hero?', 64, { m: [48, 32] })],
+    c: [X('tho', 'ts', 'איפה הגבוה? איפה הגיבור שלי?', 'Where is the tall one? Where is my hero?', 64, { m: [46, 24] })],
     d: [X('cap', 'bs', 'וראיתי אדם נמוך מנפנף בשתי ידיים. לא היה לי מושג מי זה.', 'And I saw a short man waving with both hands. I had no idea who he was.', 60)]
   };
   TX[19] = {
     a: [X('tho', 'ts', 'למה אמא מחבקת אדם זר?', 'Why is Mother hugging a stranger?', 36, { m: [20, 52] }),
       X('cap', 'be', 'אמא חיבקה אותו חזק. והוא היה נמוך ממנה.', 'Mother hugged him tightly. And he was shorter than she was.', 36)],
     b: [X('shout', 'ts', 'זה... אבא?!', 'That... is Father?!', 40, { fs: 1.5 })],
-    c: [X('cap', 'ts', 'את אבי דמיינתי תמיד גבוה, חזק וגיבור.', 'I had always imagined my father tall, strong and heroic.', 70)],
-    d: [X('cap', 'bs', 'בשבילי זו הייתה אכזבה גדולה.', 'For me it was a great disappointment.', 70)]
+    c: [X('cap', 'bs', 'את אבי דמיינתי תמיד גבוה, חזק וגיבור.', 'I had always imagined my father tall, strong and heroic.', 62, { fs: 1.1 })],
+    d: [X('cap', 'be', 'בשבילי זו הייתה אכזבה גדולה.', 'For me it was a great disappointment.', 40, { x: 2, y: 6, big: true })]
   };
   TX[20] = {
     a: [X('tag', 'ts', 'יום ראשון', 'Day one'), X('cap', 'bs', 'בימים הראשונים בארץ לא רציתי שום קשר עם האדם המוזר הזה.', 'In my first days in the country I wanted nothing to do with this strange man.', 46)],
@@ -1264,21 +1279,21 @@ html.loading, html.loading body { overflow: hidden; }
     c: [X('tag', 'ts', 'יום שלישי', 'Day three'), X('cap', 'bs', 'אבי לא כעס. הוא רק ניסה להתקרב בשקט.', 'Father did not get angry. He just tried to come closer quietly.', 92)]
   };
   TX[21] = {
-    c: [X('cap', 'ts', 'אחרי שלושה ימים אבי איבד את קור רוחו, לקח אותי על הברכיים והכניס לי שלוש חבטות על הישבן.', 'After three days Father lost his composure, took me on his knees and gave me three swats on the bottom.', 70, { st: 'film' })],
+    c: [X('cap', 'ts', 'אחרי שלושה ימים אבי איבד את קור רוחו, לקח אותי על הברכיים והכניס לי שלוש חבטות על הישבן.', 'After three days Father lost his composure, took me on his knees and gave me three swats on the bottom.', 70)],
     d: [X('cap', 'bs', 'הידיים האלה עברו כל כך הרבה במלחמה, ובכל זאת לא רעדו.', 'Those hands had been through so much in the war, and still they did not tremble.', 98, { fs: .78 })],
     f: [X('cap', 'bs', 'התרופה הטובה ביותר: הבנתי שהוא באמת אבא חזק. קטן בגובה, אבל חזק מכולם.', 'The best medicine: I understood he was truly a strong father. Small in height, but stronger than anyone.', 98, { fs: .78 })]
   };
   TX[22] = {
     a: [X('cap', 'ts', 'ומאותו יום אבי לא הרים עליי יד.', 'And from that day Father never raised a hand to me.', 44)],
     b: [X('cap', 'bs', 'ובינינו הייתה, עד סוף חייו, אהבת נפש שאין כמותה.', 'And between us there was, to the end of his life, a bond of love like no other.', 130, { x: -14, y: -16 })],
-    c: [X('bub', 'te', 'אבא?', 'Father?', 20, { m: [29, 38], x: 8, y: 10 }), X('bub', 'ts', 'כן, בני.', 'Yes, my son.', 26, { m: [62, 29], x: 8, y: 6 })]
+    c: [X('bub', 'te', 'אבא?', 'Father?', 20, { m: [29, 38], x: 8, y: 10 }), X('bub', 'ts', 'כן, בני.', 'Yes, my son.', 26, { m: [51, 17], x: 8, y: 6 })]
   };
   TX[23] = {
     a: [X('cap', 'ts', 'הבאבא שתק רגע. הילדים חיכו.', 'Baba was quiet for a moment. The children waited.', 30),
       X('bub', 'te', 'ועכשיו — החידה! היא הייתה עולה בלתי חוקית, בלי אישור להיכנס לארץ.', 'And now — the riddle! She was an illegal immigrant, with no permit to enter the country.', 40, { m: [48, 44], x: 3, y: 4 }),
-      X('cap', 'bs', 'אחרי שנים אמא סיפרה לי איך היא ירדה מהאונייה: היא קיבלה תלבושת של אחות, וירדה יחד עם הרופאים — בלי שאף אחד ידע מי היא.', 'Years later Mother told me how she got off the ship: she was given a nurse\'s uniform and walked off with the doctors — and nobody knew who she was.', 62, { st: 'note', y: 4 })],
-    b: [X('cap', 'te', 'רק שרה וינברג פתרה את החידה!', 'Only Sarah Weinberg solved the riddle!', 46, { st: 'stamp', x: -18, y: -14 }),
-      X('bub', 'ts', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 56, { m: [55, 72] })]
+      X('cap', 'bs', 'אחרי שנים אמא סיפרה לי איך היא ירדה מהאונייה: היא קיבלה תלבושת של אחות, וירדה יחד עם הרופאים — בלי שאף אחד ידע מי היא.', 'Years later Mother told me how she got off the ship: she was given a nurse\'s uniform and walked off with the doctors — and nobody knew who she was.', 56, { y: 4 })],
+    b: [X('cap', 'bs', 'רק שרה וינברג פתרה את החידה!', 'Only Sarah Weinberg solved the riddle!', 60, { x: 20, y: 3, big: true }),
+      X('bub', 'ts', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 56, { m: [54, 66] })]
   };
   TX[24] = {
     a: [X('bub', 'ts', 'ועל מה אספר לכם בשבוע הבא?', 'And what shall I tell you about next week?', 40, { m: [49, 36] }),
@@ -1354,22 +1369,16 @@ html.loading, html.loading body { overflow: hidden; }
   var TAILED = { bub: 1, tho: 1, whisper: 1 };
   var ROTS = ['-1.3deg', '.9deg', '-.6deg', '1.2deg', '-.9deg', '.5deg'];
   var SHAPES = ['52% 48% 50% 50% / 46% 50% 50% 54%', '48% 52% 46% 54% / 52% 46% 54% 48%', '55% 45% 52% 48% / 50% 54% 46% 50%', '47% 53% 55% 45% / 47% 52% 48% 53%'];
-  var CAPSTY = {
-    station: ['film', 'tele'], train: ['tele', 'tape', 'film'], port: ['rib', 'tape'], cabin: ['tape', 'sticky'], dining: ['tape', 'note'], seaDay: ['rib', 'tape', 'sticky'],
-    sadSea: ['plain', 'film'], storm: ['dark', 'plain'], naples: ['rib', 'torn', 'sticky'], panic: ['stamp', 'torn'], night: ['dark', 'plain'], lamp: ['note', 'tape'],
-    candle: ['note', 'tape'], gold: ['note', 'tape', 'sticky'], dawn: ['sun', 'plain'], haifa: ['sun', 'torn', 'rib'], joy: ['sun', 'tape'], letdown: ['film', 'plain'],
-    earth: ['torn', 'tele'], hard: ['stamp', 'dark'], together: ['sun', 'note'], goldEnd: ['note', 'chalk']
-  };
+  var PRESENT = { 0: 1, 14: 1, 22: 1, 23: 1 };
   function capStyle(tx) {
-    if (tx.st) return tx.st === 'tape' ? '' : tx.st;
-    var list = CAPSTY[(PAGES[tx.pg] || {}).theme] || ['tape'], pick = list[(tx.ci || 0) % list.length];
-    return pick === 'tape' ? '' : pick;
+    var st = tx.st || (PRESENT[tx.pg] ? 'box' : 'open');
+    return st === 'box' ? '' : st;
   }
   function textEl(parent, tx, i) {
     var d = el('div', 'txt', parent);
     d.dataset.k = tx.id;
     d.style.setProperty('--d', i);
-    d.style.setProperty('--rot', tx.k === 'cap' || tx.k === 'tag' ? ROTS[(i + 2) % ROTS.length] : (tx.k === 'sfx' ? '-6deg' : ROTS[i % ROTS.length]));
+    d.style.setProperty('--rot', tx.k === 'sfx' ? '-6deg' : (tx.k === 'shout' ? ROTS[i % ROTS.length] : '0deg'));
     d.style.setProperty('--shape', SHAPES[i % SHAPES.length]);
     d.__tx = tx;
     applyTextPos(d, tx);
@@ -1377,7 +1386,7 @@ html.loading, html.loading body { overflow: hidden; }
   }
   function applyTextPos(d, tx) {
     d.style.insetInlineStart = ''; d.style.insetInlineEnd = ''; d.style.top = ''; d.style.bottom = '';
-    var small = mq.matches, tw = small && tx.w ? Math.min(tx.w, 94) : tx.w;
+    var small = mq.matches, tw = small && tx.w ? Math.min(Math.max(tx.w, tx.k === 'cap' ? 72 : 46), 94) : tx.w;
     d.style[tx.from === 'end' ? 'insetInlineEnd' : 'insetInlineStart'] = (small ? Math.max(3, Math.min(tx.x, 97 - (tw || 30))) : tx.x) + '%';
     d.style[tx.v === 'bottom' ? 'bottom' : 'top'] = (small ? Math.max(2, tx.y) : tx.y) + '%';
     d.style.width = tw ? tw + '%' : '';
@@ -1402,16 +1411,32 @@ html.loading, html.loading body { overflow: hidden; }
   /* ===================== speech tails that point at the speaker's mouth ===================== */
   var SVGNS = 'http://www.w3.org/2000/svg';
   function svgEl(tag, attrs, parent) { var e = document.createElementNS(SVGNS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (parent) parent.appendChild(e); return e; }
+  /* zoom above 1 pushes in; fit below 1 pulls out past the cover crop (0 = the whole picture) and a blurred copy fills the rest of the shape */
+  function fitImg(p) {
+    var img = p.img; if (!img) return;
+    var f = mq.matches ? (p.mfit == null ? 1 : p.mfit) : (p.fit == null ? 1 : p.fit), out = f < 1, k = 1;
+    if (out && img.naturalWidth && img.offsetWidth) {
+      var iw = img.offsetWidth, ih = img.offsetHeight, nw = img.naturalWidth, nh = img.naturalHeight;
+      k = Math.pow(Math.max(iw / nw, ih / nh) / Math.min(iw / nw, ih / nh), Math.max(0, f));
+    }
+    img.style.objectFit = out ? 'contain' : '';
+    var fl = (document.documentElement.dir === 'ltr' ? -1 : 1) * (p.mirror ? -1 : 1);
+    img.style.setProperty('--flip', fl);
+    p.k = out ? k : 1;
+    img.style.setProperty('--zm', ((p.zoom || 1) * p.k).toFixed(4));
+    if (out && !p.bk) { p.bk = document.createElement('i'); p.bk.className = 'bk'; img.parentNode.insertBefore(p.bk, img); }
+    if (p.bk) { p.bk.style.display = out ? '' : 'none'; if (out && img.currentSrc) p.bk.style.backgroundImage = 'url("' + img.currentSrc + '")'; p.bk.style.setProperty('--flip', fl); }
+  }
   /* where a point of the picture (in % of the image, hebrew orientation) lands inside the panel */
   function mouthPoint(p, m) {
     var img = p.img; if (!img || !img.naturalWidth || !p.pw.offsetWidth) return null;
     var iw = img.offsetWidth, ih = img.offsetHeight, it = img.offsetTop, il = img.offsetLeft, nw = img.naturalWidth, nh = img.naturalHeight;
-    var sc = Math.max(iw / nw, ih / nh), dw = nw * sc, dh = nh * sc;
+    var sc = (img.style.objectFit === 'contain' ? Math.min : Math.max)(iw / nw, ih / nh), dw = nw * sc, dh = nh * sc;
     var fx = (p.fx == null ? 50 : p.fx) / 100, fy = (p.fy == null ? 50 : p.fy) / 100;
     var x = il + (iw - dw) * fx + m[0] / 100 * dw, y = it + (ih - dh) * fy + m[1] / 100 * dh;
-    var cx = il + iw / 2, cy = it + ih / 2, S = 1.05 * (p.zoom || 1);
+    var cx = il + iw / 2, cy = it + ih / 2, S = 1.05 * (p.zoom || 1) * (p.k || 1);
     x = cx + (x - cx) * S; y = cy + (y - cy) * S;
-    if (document.documentElement.dir === 'ltr') x = 2 * cx - x;
+    if ((document.documentElement.dir === 'ltr') !== !!p.mirror) x = 2 * cx - x;
     return [x, y];
   }
   function placeTail(tx) {
@@ -1516,7 +1541,7 @@ html.loading, html.loading body { overflow: hidden; }
       tx.el = textEl(pw, tx, i);
       if (tx.m && tailRO) tailRO.observe(tx.el);
     });
-    if (p.img) p.img.addEventListener('load', function () { placeTails(p); });
+    if (p.img) p.img.addEventListener('load', function () { fitImg(p); placeTails(p); });
     return pw;
   }
 
@@ -1595,11 +1620,20 @@ html.loading, html.loading body { overflow: hidden; }
         var pts = (b.pr && !mob) ? b.pr : corners(b.w, b.h, b.cut);
         p.pn.style.clipPath = 'polygon(' + pts.map(function (q) { return (rtl ? 100 - q[0] : q[0]).toFixed(2) + '% ' + q[1].toFixed(2) + '%'; }).join(',') + ')';
       }
-      var m = b.fade ? fadeMask(b.fade, rtl) : 'none';
+      var masks = [];
+      if (b.fade) masks.push(fadeMask(b.fade, rtl));
+      if (p.mf && !mob) Object.keys(p.mf).forEach(function (e) {
+        var vert = e === 'b' || e === 't', pct = Math.min(60, p.mf[e] / (vert ? b.h : b.w) * 100);
+        var toward = vert ? (e === 'b' ? 'bottom' : 'top') : ((e === 'e') === rtl ? 'left' : 'right');
+        masks.push('linear-gradient(to ' + toward + ', #000 ' + (100 - pct).toFixed(1) + '%, rgba(0,0,0,.45) ' + (100 - pct * .45).toFixed(1) + '%, transparent 100%)');
+      });
+      var m = masks.length ? masks.join(',') : 'none';
       p.pn.style.maskImage = m; p.pn.style.webkitMaskImage = m;
+      p.pn.style.maskComposite = 'intersect'; p.pn.style.webkitMaskComposite = 'source-in';
+      pw.classList.toggle('soft', !!p.soft);
       if (p.img) {
         p.img.style.objectPosition = (p.fx == null ? 50 : p.fx) + '% ' + (p.fy == null ? 50 : p.fy) + '%';
-        p.img.style.setProperty('--zm', p.zoom || 1);
+        fitImg(p);
         p.img.style.top = p.ty ? p.ty + '%' : '';
         p.img.style.height = p.ty ? (100 - p.ty) + '%' : '';
       }
@@ -1886,7 +1920,7 @@ html.loading, html.loading body { overflow: hidden; }
   function isRtl() { return document.documentElement.dir === 'rtl'; }
 
   /* serialising: only what a page needs to be rebuilt */
-  var KEEP = ['id', 'x', 'y', 'w', 'h', 'z', 'sp', 'memory', 'flat', 'ty', 'circle', 'layer', 'src', 'bridge', 'fade', 'fx', 'fy', 'zoom', 'mh', 'stub', 'shot', 'chars', 'pal', 'pr', 'en', 'kb', 'snap', 'card', 'efx'];
+  var KEEP = ['id', 'x', 'y', 'w', 'h', 'z', 'sp', 'memory', 'flat', 'ty', 'circle', 'layer', 'src', 'bridge', 'fade', 'fx', 'fy', 'zoom', 'fit', 'mfit', 'mirror', 'mf', 'soft', 'mh', 'stub', 'shot', 'chars', 'pal', 'pr', 'en', 'kb', 'snap', 'card', 'efx'];
   function serialize(p) {
     var o = {};
     KEEP.forEach(function (k) { if (p[k] !== undefined && p[k] !== null) o[k] = p[k]; });

@@ -38,5 +38,7 @@ For a site that stays public while this repo stays private, copy `site/` into a 
 ### Layout engine (viewer v2)
 Pages 2 to 24 are described in `GEO` (shapes cut by slanted or zig-zag lines, free polygons, rotated snapshots, circles) and `TX` (lettering).
 A speech text with `m: [x, y]` (percent of the picture, Hebrew orientation) gets a tail drawn toward that point, the speaker's mouth.
-Caption boxes take a style from the page theme (film, telegram, torn paper, stamp, notebook, ribbon...) or from `st`.
+Lettering is one system: Baba speaking in the present (pages 1, 15, 23, 24) gets the single caption box; his memories are open narration with no box (`st: 'open' | 'box'` overrides, `big: true` for a beat).
+A cut with `mo: <units>` instead of a gutter is a morph: the two pictures overlap and the first dissolves into the second, with no frame.
+Per picture framing: `fx`/`fy` move the focus, `zoom` pushes in, `fit` (0 to 1) pulls out past the cover crop and fills the rest with a blurred copy, `mirror` flips one picture.
 Panels arrive with `en` (zoom, s, e, wipe, iris, drop, pop, creep, shake) and can add `efx: 'flash rays'`.
