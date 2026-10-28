@@ -29,3 +29,14 @@ A family comic book (book 1 of "Grandpa Emmanuel's stories"), 24 pages, true sto
 ## Codex artwork handoff
 
 חומרי ההפקה וההנחיות לשיתוף בין Codex לקלוד נמצאים ב־[CODEX-CLAUDE-HANDOFF.md](CODEX-CLAUDE-HANDOFF.md) ובתיקיית `handoffs/codex/`. התמונות בתיקיית המסירה הן טיוטות, והצופה המקורי והתשתית הקיימת נשמרו.
+
+## The public book (website)
+`python tools/build_site.py` builds `site/`: the reader page plus `art/*.webp` only (nothing from `ref/`, `production/` or `handoffs/`).
+`.github/workflows/pages.yml` publishes it with GitHub Pages on every push to `main` that touches the viewer or the art.
+For a site that stays public while this repo stays private, copy `site/` into a separate public repository and turn on Pages there.
+
+### Layout engine (viewer v2)
+Pages 2 to 24 are described in `GEO` (shapes cut by slanted or zig-zag lines, free polygons, rotated snapshots, circles) and `TX` (lettering).
+A speech text with `m: [x, y]` (percent of the picture, Hebrew orientation) gets a tail drawn toward that point, the speaker's mouth.
+Caption boxes take a style from the page theme (film, telegram, torn paper, stamp, notebook, ribbon...) or from `st`.
+Panels arrive with `en` (zoom, s, e, wipe, iris, drop, pop, creep, shake) and can add `efx: 'flash rays'`.
