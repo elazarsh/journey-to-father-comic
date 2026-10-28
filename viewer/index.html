@@ -168,6 +168,7 @@ main { position: relative; z-index: 5; }
 .art { position: absolute; inset: 0; overflow: hidden; }
 .art img { position: absolute; inset: -6% 0; width: 100%; height: 112%; object-fit: cover; transform: scaleX(var(--flip, 1)) translateY(var(--py, 0px)) scale(calc(var(--sc, 1.05) * var(--zm, 1))); opacity: 0; transition: opacity .6s ease; will-change: transform; }
 .art img.ok { opacity: 1; }
+.flat .art img { inset: 0; height: 100%; }
 .ph {
   position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 1.2cqw; text-align: center; padding: 8%;
   background: var(--grain-dark), linear-gradient(155deg, var(--pa), var(--pb));
@@ -522,15 +523,15 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
       panels: [
         { id: 'a', x: 0, y: 0, w: 100, h: 44, cut: C(0, 1), z: 1,
           shot: 'Wide cinematic interior of a small warm Israeli neighborhood synagogue on a Friday afternoon: golden light from arched windows, wooden benches, a Torah ark with a blue curtain. At the center Baba sits smiling kindly behind a wooden table with an open notebook, surrounded by worshippers in prayer shawls and children leaning in affectionately. Ultra-wide establishing shot, about 2.3:1.', chars: ['baba'], pal: 'warm',
-          text: [{ k: 'cap', id: 'p1.cap1', from: 'start', x: 3, v: 'top', y: 8, w: 30 }] },
-        { id: 'h', circle: true, x: 72, y: 3, w: 24, h: 24, z: 6, sp: 22,
+          text: [{ k: 'cap', id: 'p1.cap1', from: 'end', x: 3, v: 'top', y: 8, w: 30 }] },
+        { id: 'h', circle: true, x: 4, y: 3, w: 24, h: 24, z: 6, sp: 22,
           shot: 'Circular close-up: an elderly hand holding a pen and writing in an old worn notebook on a wooden desk, warm side light, shallow depth of field. 1:1.', chars: [], pal: 'warm',
-          text: [{ k: 'cap', id: 'p1.cap0', from: 'end', x: 2, v: 'bottom', y: -40, w: 118 }] },
+          text: [{ k: 'cap', id: 'p1.cap0', from: 'start', x: -2, v: 'bottom', y: -46, w: 112, fs: .9 }] },
         { id: 'b', x: 0, y: 38.5, w: 58, h: 40, cut: C(1, 1), z: 2,
           shot: 'Tight close-up portrait of Baba, a tender knowing smile, a twinkle in his eyes, soft window light, blurred congregation behind him. About 3:2.', chars: ['baba'], pal: 'warm', text: [] },
         { id: 'c', x: 60, y: 42.7, w: 40, h: 19, cut: C(1, 1), z: 2, sp: -10,
           shot: 'Medium side shot of a curious boy of about 10 in a synagogue looking up at someone off-frame as he asks a question, warm light, blurred background. About 2:1.', chars: ['kid'], pal: 'warm',
-          text: [{ k: 'bub', id: 'p1.q1', from: 'start', x: 6, v: 'top', y: 10, w: 68, tail: 'be' }] },
+          text: [{ k: 'bub', id: 'p1.q1', from: 'start', x: 3, v: 'top', y: 7, w: 50, fs: .88, tail: 'be' }], fy: 22 },
         { id: 'd', x: 60, y: 60.4, w: 40, h: 18.1, cut: C(1, 1), z: 2,
           shot: 'A very small child of about 5 peeking wide-eyed over the top of a wooden synagogue bench: only eyes, nose and little fingers visible, innocent surprise, warm light. About 2:1.', chars: [], pal: 'warm',
           text: [{ k: 'bub', id: 'p1.q2', from: 'end', x: 6, v: 'top', y: 12, w: 42, tail: 'bs' }] },
@@ -540,7 +541,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
         { id: 'f', x: 64, y: 77.5, w: 36, h: 35.1, cut: C(1, 1), z: 3, memory: true,
           shot: 'Memory vignette: a misty empty European railway platform in 1946, a black steam locomotive releasing white steam, old brown suitcases stacked on the platform, cold blue-gray palette, dreamlike faded edges. About 1:1.', chars: [], pal: 'cold',
           text: [{ k: 'cap', id: 'p1.cap2', from: 'start', x: 4, v: 'bottom', y: 5, w: 92 }] },
-        { id: 'g', x: 0, y: 107.1, w: 100, h: 52, cut: C(1, 0), fade: 'b', z: 4, memory: true,
+        { id: 'g', x: 0, y: 107.1, w: 100, h: 52, cut: C(1, 0), fade: 'b', z: 4, memory: true, fy: 0, flat: true, ty: 12,
           shot: 'Cold, foggy European railway station in March 1946: iron arched roof, a steam train at the left. At the right on the platform stand Emmanuel (boy, flat cap), his mother (blue headscarf, coat) and his brother Shimon, holding suitcases; the boy gazes forward thoughtfully, hopeful and uneasy. Blue-gray and brown palette. Wide, about 2:1, the lower edge fading into fog.', chars: ['emmanuel', 'mother', 'shimon'], pal: 'cold',
           text: [
             { k: 'tag', id: 'p1.tag1', from: 'start', x: 3, v: 'top', y: 7, w: 0 },
@@ -548,7 +549,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
             { k: 'cap', id: 'p1.cap3', from: 'start', x: 3, v: 'bottom', y: 5, w: 94 }
           ] },
         { id: 'br', bridge: 'smoke', x: 50, y: 98, w: 50, h: 26, z: 7 },
-        { id: 'n1', layer: true, x: 70, y: 103, w: 15, h: 15, z: 9, sp: 14, d: 'מזוודה ישנה שחוצה את הגבול בין הזיכרון לתחנה.', shot: 'An old brown leather suitcase with brass corners and a worn handle, three-quarter view, painterly graphic-novel style with soft ink outlines, soft light from the upper left.', text: [], chars: [], pal: 'cold' }
+        { id: 'n1', layer: true, x: 2, y: 132, w: 12, h: 12, z: 9, sp: 14, d: 'מזוודה ישנה שחוצה את הגבול בין הזיכרון לתחנה.', shot: 'An old brown leather suitcase with brass corners and a worn handle, three-quarter view, painterly graphic-novel style with soft ink outlines, soft light from the upper left.', text: [], chars: [], pal: 'cold' }
       ] },
     S('station', [P('smoke', 9, '210,215,222'), P('fog', 4, COOL), P('dust', 18, COOL)], ''),
     S('train', [P('streak', 9, '170,200,235'), P('dust', 18, COOL), P('smoke', 4, COOL)], ''),
@@ -588,7 +589,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
   }
   var STORY = {
     2: { tiers: [
-      { h: 44, lean: 1, panels: [Pn('a', 100, 'רציף התחנה בערפל. עמנואל, אמא ושמעון עם מזוודות.', 'Wide establishing shot of a cold, foggy European railway platform in March 1946: iron arched roof, steam drifting, a black steam locomotive at the left receding into the mist, scattered luggage and a few distant travelers. In the right foreground the three travelers stand close together: Emmanuel (small, flat cap, holding an old suitcase), his mother (blue headscarf, dark-blue coat) and Shimon (grey cap, suitcase). They look toward the incoming train. Blue-gray and brown tones.', ['emmanuel', 'mother', 'shimon'], 'cold', [X('tag', 'ts', 'תחנת רכבת, אירופה · מרץ 1946', 'Railway station, Europe · March 1946')], { fade: 't', memory: true })] },
+      { h: 44, lean: 1, panels: [Pn('a', 100, 'רציף התחנה בערפל. עמנואל, אמא ושמעון עם מזוודות.', 'Wide establishing shot of a cold, foggy European railway platform in March 1946: iron arched roof, steam drifting, a black steam locomotive at the left receding into the mist, scattered luggage and a few distant travelers. In the right foreground the three travelers stand close together: Emmanuel (small, flat cap, holding an old suitcase), his mother (blue headscarf, dark-blue coat) and Shimon (grey cap, suitcase). They look toward the incoming train. Blue-gray and brown tones.', ['emmanuel', 'mother', 'shimon'], 'cold', [X('tag', 'ts', 'תחנת רכבת, אירופה · מרץ 1946', 'Railway station, Europe · March 1946')], { fade: 't', memory: true, flat: true, fy: 0, ty: 10 })] },
       { h: 32, lean: 1, panels: [
         Pn('b', 6, 'פניו של עמנואל: מבט קדימה, מלא תקווה.', 'Close-up of Emmanuel\'s face (8.5 years old, flat cap), looking ahead down the platform with big curious eyes, hope and a trace of worry, steam softly blurred behind him, cold blue-gray light with a faint warm glint in his eyes.', ['emmanuel'], 'cold', [X('tho', 'ts', 'איך נראה אבא?', 'What does Father look like?', 46)], { memory: true }),
         Pn('c', 4, 'שמעון שותק ואחראי ומחזיק את המזוודה.', 'Medium shot of Shimon (14.5) standing quietly with a suitcase in each hand, protective big-brother posture, glancing at his younger brother, foggy platform behind.', ['shimon'], 'cold', [], { memory: true })] },
@@ -615,7 +616,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
         Pn('c', 4, 'עמנואל פורש ידיים: זה ארמון!', 'Emmanuel standing on the lower bunk with arms spread wide and a delighted face, as if in a palace; warm glow, porthole light behind him.', ['emmanuel'], 'warm', [X('bub', 'ts', 'זה ארמון!', 'It\'s a palace!', 60), X('cap', 'bs', 'הרגשתי כאילו הגעתי לגן עדן.', 'I felt as if I had reached paradise.', 92)])] }
     ] },
     6: { tiers: [
-      { h: 38, lean: 1, panels: [Pn('a', 100, 'חדר האוכל הכשר באונייה.', 'Warm wood-paneled ship dining hall with a section for kosher eaters, white tablecloths; Emmanuel, his mother and Shimon seated at a round table, stewards carrying trays, amber light from brass lamps, portholes with sea light. Wide and welcoming.', ['emmanuel', 'mother', 'shimon'], 'warm', [X('cap', 'ts', 'בחדר האוכל היה חלק לאוכלי כשר, ושם אכלנו.', 'The dining hall had a kosher section, and that is where we ate.', 44)], { fade: 't' })] },
+      { h: 38, lean: 1, panels: [Pn('a', 100, 'חדר האוכל הכשר באונייה.', 'Warm wood-paneled ship dining hall with a section for kosher eaters, white tablecloths; Emmanuel, his mother and Shimon seated at a round table, stewards carrying trays, amber light from brass lamps, portholes with sea light. Wide and welcoming.', ['emmanuel', 'mother', 'shimon'], 'warm', [X('cap', 'ts', 'בחדר האוכל היה חלק לאוכלי כשר, ושם אכלנו.', 'The dining hall had a kosher section, and that is where we ate.', 44)], { fade: 't', flat: true, fy: 0, ty: 8 })] },
       { h: 34, lean: 1, panels: [
         Pn('b', 1, 'זית על מזלג: הטעימה הראשונה.', 'Extreme close-up of a small boy\'s hand lifting a green olive on a fork toward his mouth, curious eyes just visible behind it, warm table light.', ['emmanuel'], 'warm', [X('cap', 'bs', 'גיליתי מאכלים שלא הכרתי, כי באנגליה בזמן המלחמה לא ראיתי אותם.', 'I discovered foods I had never known, because in wartime England I had not seen them.', 92)]),
         Pn('c', 1, 'הפרצוף המצחיק של עמנואל.', 'Comic reaction close-up: Emmanuel\'s face scrunching hilariously at the sharp salty taste of an olive, eyes squeezed, nose wrinkled, tongue slightly out, a hint of a smile; warm light.', ['emmanuel'], 'warm', [X('bub', 'ts', 'איכס... רגע, זה דווקא טעים!', 'Yuck... wait, it\'s actually good!', 56)])] },
@@ -712,7 +713,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
       { h: 36, lean: 0, panels: [Pn('d', 100, 'אדם נמוך מנפנף בין האנשים.', 'Across the water, in the crowd on the pier, a short man waves both hands energetically: a small figure in a worn flat cap and pale shirt, with a warm hopeful face; the composition makes him tiny against the crowd and the sky.', ['father'], 'haifa', [X('cap', 'bs', 'וראיתי אדם נמוך מנפנף בידיו. לא היה לי מושג מי זה.', 'And I saw a short man waving his hands. I had no idea who he was.', 70)], { fade: 'b' })] }
     ] },
     19: { tiers: [
-      { h: 40, lean: 1, panels: [Pn('a', 100, 'אמא מחבקת את האדם הנמוך.', 'On the pier: Emmanuel\'s mother hugging the short man (Emmanuel\'s father) with tears of joy, Shimon beside them; seen from Emmanuel\'s position, slightly behind and below, so the embrace is framed over the boy\'s shoulder; the father is clearly shorter than the mother.', ['mother', 'father', 'shimon', 'emmanuel'], 'haifa', [X('tho', 'ts', 'למה אמא מחבקת אדם זר?', 'Why is Mother hugging a stranger?', 36)], { fade: 't' })] },
+      { h: 40, lean: 1, panels: [Pn('a', 100, 'אמא מחבקת את האדם הנמוך.', 'On the pier: Emmanuel\'s mother hugging the short man (Emmanuel\'s father) with tears of joy, Shimon beside them; seen from Emmanuel\'s position, slightly behind and below, so the embrace is framed over the boy\'s shoulder; the father is clearly shorter than the mother.', ['mother', 'father', 'shimon', 'emmanuel'], 'haifa', [X('tho', 'ts', 'למה אמא מחבקת אדם זר?', 'Why is Mother hugging a stranger?', 36)], { fade: 't', flat: true, fy: 0, ty: 8 })] },
       { h: 24, lean: 0, panels: [Pn('b', 100, 'עמנואל בהלם.', 'Close-up strip of Emmanuel\'s face: shock, eyes wide, jaw slack, the noise of the crowd fading; a desaturated cold tone against the warm scene.', ['emmanuel'], 'cold', [])] },
       { h: 34, lean: 0, panels: [
         Pn('c', 5, 'הדמיון: גיבור גבוה בצללית.', 'A dream-like faded vision: a huge heroic tall man in silhouette, broad shoulders, standing against a stormy sky; the imagined father, soft hazy edges, sepia-blue.', [], 'cold', [X('cap', 'bs', 'את אבי דמיינתי תמיד גבוה, חזק וגיבור.', 'I had always imagined my father tall, strong and heroic.', 92)], { memory: true }),
@@ -747,7 +748,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
     ] },
     24: { tiers: [
       { h: 74, lean: 0, panels: [Pn('a', 100, 'כל המשפחה סביב הבאבא.', 'Final warm family scene in the synagogue: Baba at the center surrounded by grandchildren of all ages hugging and laughing, parents behind, golden light, a notebook open with a pen on the table; joyful, loving, a family complete.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [X('bub', 'ts', 'ועל מה אספר לכם בשבוע הבא?', 'And what shall I tell you about next week?', 40), X('cap', 'bs', 'המשך יבוא – הספר הבא', 'To be continued – the next book', 50)], { fade: 'tb' })] }
-    ], floats: [{ id: 'z', circle: true, x: 66, y: 5, w: 22, h: 22, z: 6, sp: 18, d: 'המחברת הפתוחה, ורמז לזיכרון הבא.', shot: 'Circular close-up of an old worn notebook open on a wooden table, a pen resting across pages of illegible handwriting squiggles (no readable text), warm glow, with a faint blue-gray hint at the page edge as if a new memory is waking.', chars: [], pal: 'warm', text: [] }] }
+    ], floats: [{ id: 'z', circle: true, x: 80, y: 3, w: 16, h: 16, z: 6, sp: 18, d: 'המחברת הפתוחה, ורמז לזיכרון הבא.', shot: 'Circular close-up of an old worn notebook open on a wooden table, a pen resting across pages of illegible handwriting squiggles (no readable text), warm glow, with a faint blue-gray hint at the page edge as if a new memory is waking.', chars: [], pal: 'warm', text: [] }] }
   };
 
   /* tiers to boxes: boundary lines share one slope, so neighbouring panels keep a constant gap */
@@ -861,6 +862,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
     var img = el('img', '', art);
     img.alt = '';
     img.decoding = 'async';
+    img.loading = 'lazy';
     var n = 0;
     img.onload = function () { img.classList.add('ok'); };
     img.onerror = function () { n++; if (n < ART_EXT.length) img.src = base + '.' + ART_EXT[n]; else { img.removeAttribute('src'); } };
@@ -883,12 +885,14 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
       pw.classList.add('layer');
       el('span', 'lyr-ph', pw).textContent = p.src || '';
       var li = el('img', 'lyr', pw); li.alt = ''; p.img = li;
+      var lbase = (p.src || '').replace(/\.(png|webp)$/, ''), lext = ['webp', 'png'], ln = 0;
       li.onload = function () { li.style.display = ''; pw.classList.add('has'); };
-      li.onerror = function () { li.style.display = 'none'; pw.classList.remove('has'); };
-      if (p.src) li.src = p.src;
+      li.onerror = function () { ln++; if (ln < lext.length) { li.src = lbase + '.' + lext[ln]; } else { li.style.display = 'none'; pw.classList.remove('has'); } };
+      if (lbase) li.src = lbase + '.' + lext[0];
       return pw;
     }
     var frame = el('div', 'frame', pw);
+    if (p.flat) pw.classList.add('flat');
     var pn = el('div', 'panel' + (p.memory ? ' memory' : '') + (p.circle ? ' circle' : ''), frame);
     p.pn = pn;
     var art = el('div', 'art', pn);
@@ -943,8 +947,8 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
     var v = 'linear-gradient(to bottom,', st = rtl ? 'to left' : 'to right';
     switch (f) {
       case 'b': return v + '#000 0,#000 68%,transparent 100%)';
-      case 't': return v + 'transparent 0,#000 32%,#000 100%)';
-      case 'tb': return v + 'transparent 0,#000 26%,#000 68%,transparent 100%)';
+      case 't': return v + 'transparent 0,#000 18%,#000 100%)';
+      case 'tb': return v + 'transparent 0,#000 17%,#000 70%,transparent 100%)';
       case 's': return 'linear-gradient(' + st + ',transparent 0,#000 32%,#000 100%)';
       case 'e': return 'linear-gradient(' + st + ',#000 0,#000 68%,transparent 100%)';
     }
@@ -989,6 +993,8 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
       if (p.img) {
         p.img.style.objectPosition = (p.fx == null ? 50 : p.fx) + '% ' + (p.fy == null ? 50 : p.fy) + '%';
         p.img.style.setProperty('--zm', p.zoom || 1);
+        p.img.style.top = p.ty ? p.ty + '%' : '';
+        p.img.style.height = p.ty ? (100 - p.ty) + '%' : '';
       }
     });
   }
@@ -1215,7 +1221,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
   function isRtl() { return document.documentElement.dir === 'rtl'; }
 
   /* serialising: only what a page needs to be rebuilt */
-  var KEEP = ['id', 'x', 'y', 'w', 'h', 'z', 'sp', 'memory', 'circle', 'layer', 'src', 'bridge', 'fade', 'fx', 'fy', 'zoom', 'mh', 'stub', 'shot', 'chars', 'pal'];
+  var KEEP = ['id', 'x', 'y', 'w', 'h', 'z', 'sp', 'memory', 'flat', 'ty', 'circle', 'layer', 'src', 'bridge', 'fade', 'fx', 'fy', 'zoom', 'mh', 'stub', 'shot', 'chars', 'pal'];
   function serialize(p) {
     var o = {};
     KEEP.forEach(function (k) { if (p[k] !== undefined && p[k] !== null) o[k] = p[k]; });
@@ -1501,6 +1507,7 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
         sel('המסה', [['', 'ללא'], ['t', 'למעלה'], ['b', 'למטה'], ['tb', 'למעלה ולמטה'], ['s', 'בהתחלה'], ['e', 'בסוף']], function () { return q.fade || ''; }, function (v) { q.fade = v; changed(pgq); });
         chk('אפקט זיכרון', function () { return q.memory; }, function (v) { q.memory = v; changed(pgq); });
         chk('עיגול', function () { return q.circle; }, function (v) { q.circle = v; changed(pgq); });
+        num('הורדת התמונה מהקצה העליון (%)', function () { return q.ty || 0; }, function (v) { q.ty = v || undefined; changed(pgq); }, 1, 0, 40);
         num('גובה במובייל (0 = אוטומטי)', function () { return q.mh || 0; }, function (v) { q.mh = v || undefined; changed(pgq); }, 1, 0, 140);
         fileBtn('טעינת תמונה לתצוגה', function (f) { setLocalImage(q, f); });
         rng('נקודת מיקוד X', function () { return q.fx == null ? 50 : q.fx; }, function (v) { q.fx = v; changed(pgq); }, 0, 100, 1);
