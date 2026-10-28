@@ -245,7 +245,9 @@ body.director .copy { display: inline-block; }
 html.js .frame { opacity: 0; transform: translateY(40px) scale(.97); transition: opacity .9s ease, transform .9s cubic-bezier(.2, .8, .2, 1); }
 html.js .pw.in .frame { opacity: 1; transform: none; }
 html.js .txt { opacity: 0; transform: scale(.7) rotate(var(--rot, 0deg)); transform-origin: 50% 90%; transition: opacity .35s ease, transform .55s cubic-bezier(.3, 1.6, .5, 1); transition-delay: calc(.55s + var(--d, 0) * .32s); }
-html.js .pw.in .txt { opacity: 1; transform: rotate(var(--rot, 0deg)); }
+html.js .pw.in .txt, html.js .txt.in { opacity: 1; transform: rotate(var(--rot, 0deg)); }
+.txtlayer { position: absolute; inset: 0; z-index: 500; pointer-events: none; }
+.txtlayer .txt { pointer-events: auto; }
 
 @media (max-width: 700px) {
   .page { padding-block: 1vh; overflow-x: clip; }
@@ -317,6 +319,9 @@ body.edit .hud, body.edit .rail { opacity: 0; pointer-events: none; }
 .tl .strk { fill: none; }
 .whisper .tl .strk { stroke-dasharray: 5 4; }
 .has-tl::after { display: none !important; }
+/* a balloon that had to change its proportions to keep off a face becomes a rounded box, still with its tail */
+.bub.sq::before, .whisper.sq::before { border-radius: 1em; }
+.tho.sq::before { border-radius: 1.4em; }
 
 /* photographs on a table: a thicker white rim and a harder shadow */
 .soft .frame { filter: none; }
@@ -382,7 +387,7 @@ html.js .pw[data-en="iris"].in .art { animation: enIris 1.2s cubic-bezier(.4, 0,
 
 
 /* ---------- interlude: from the synagogue back into 1946, one line at a time while the picture drains of colour ---------- */
-.interlude { position: relative; z-index: 5; height: 460vh; }
+.interlude { position: relative; z-index: 5; height: 380vh; }
 .il-stage { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: #050403; }
 .il-img { position: absolute; inset: -4%; background: center / cover no-repeat; opacity: 0; transform: scale(var(--s, 1.1)); will-change: opacity, transform, filter; }
 .il-dark { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 45%, rgba(0, 0, 0, .25), rgba(0, 0, 0, .86) 88%); }
@@ -560,7 +565,7 @@ html.loading, html.loading body { overflow: hidden; }
   var STR = {
     he: {
       'ui.director': 'מצב במאי', 'ui.page': 'דף {n} מתוך {total}', 'ui.copy': 'העתק הנחיה', 'ui.copied': 'הועתק', 'ui.waiting': 'האיור ממתין',
-      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'הגיבור שלי', 'cover.sub': 'המסע אל אבא · סיפור אמיתי בקומיקס', 'card.t': 'מה לקחתי מהמסע', 'card.1': 'גדול באמת — מודדים בלב, לא בסנטימטרים.', 'card.2': 'חסד אמיתי נעשה בשקט, בלי לשאול ובלי לספר.', 'card.3': 'לפעמים הגיבור שחיפשנו כבר עומד מולנו. צריך רק ללמוד לראות אותו.', 'cover.cue': 'או גוללים למטה', 'cover.tag': 'מרץ 1946. ילד אחד, מזוודה אחת, ואבא שמעולם לא ראה.', 'cover.by': 'על פי סיפורו האמיתי של סבא עמנואל', 'il.1': 'אבל כדי להבין את הסיפור הזה...', 'il.2': 'צריך לחזור אחורה. הרבה אחורה.', 'il.3': 'אירופה, 1946. המלחמה הנוראה ביותר שידע העולם נגמרה רק לפני שנה.', 'il.4': 'ערים שלמות הפכו לאבק. מיליוני משפחות נקרעו.', 'il.5': 'בתחנות הרכבת חיכו אנשים עם מזוודה אחת — כל מה שנשאר להם.', 'il.6': 'ובתוך כל זה... ילד אחד, בן שמונה וחצי,', 'il.7': 'יוצא למסע לפגוש את אבא שמעולם לא ראה.', 'cover.start': 'התחל לקרוא', 'ld.year': 'מרץ 1946', 'ld.l2': 'ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה.', 'ld.lbl': 'המרחק אל אבא', 'ld.km': 'קילומטר', 'ld.m': 'מטר', 'ld.l3': 'מה מחכה בסוף הדרך?', 'ld.skip': 'דלג',
+      'cover.kicker': 'סיפורי סבא עמנואל · ספר 1', 'cover.title': 'הגיבור שלי', 'cover.sub': 'המסע אל אבא · סיפור אמיתי בקומיקס', 'card.t': 'מה לקחתי מהמסע', 'card.1': 'גדול באמת מודדים בלב, לא בסנטימטרים.', 'card.2': 'חסד אמיתי נעשה בשקט, בלי לשאול ובלי לספר.', 'card.3': 'לפעמים הגיבור שחיפשנו כבר עומד מולנו. צריך רק ללמוד לראות אותו.', 'cover.cue': 'או גוללים למטה', 'cover.tag': 'מרץ 1946. ילד אחד, מזוודה אחת, ואבא שמעולם לא ראה.', 'cover.by': 'על פי סיפורו האמיתי של סבא עמנואל', 'il.1': 'צריך לחזור אחורה.', 'il.2': 'אירופה, 1946.', 'il.3': 'המלחמה נגמרה. העולם חרב.', 'il.4': 'ילד אחד. מזוודה אחת.', 'il.5': 'ואבא שמעולם לא ראה.', 'cover.start': 'התחל לקרוא', 'ld.year': 'מרץ 1946', 'ld.l2': 'ילד בן שמונה וחצי יוצא לפגוש את אבא שמעולם לא ראה.', 'ld.lbl': 'המרחק אל אבא', 'ld.km': 'קילומטר', 'ld.m': 'מטר', 'ld.l3': 'מה מחכה בסוף הדרך?', 'ld.skip': 'דלג',
       'outro.text': 'המשך יבוא...', 'outro.restart': 'חזרה להתחלה',
       'p1.cap0': 'לפני שהיה ‘באבא’... הוא היה ילד קטן בשם עמנואל.',
       'p1.cap1': 'ערב שבת. בית הכנסת.',
@@ -601,11 +606,11 @@ html.loading, html.loading body { overflow: hidden; }
       'scene.21': 'רגע גבול חד מצד האב. לא כעסני, עוצמתי. עמנואל מגלה כוח אמיתי.',
       'scene.22': 'חיבור ראשון. הם הולכים יחד, כתף אל כתף.',
       'scene.23': 'הבאבא מסיים: “יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.”',
-      'scene.24': 'עמוד הסיום. הבאבא מוקף נכדים וחיוך. “המשך יבוא – הספר הבא.”'
+      'scene.24': 'עמוד הסיום. הבאבא מוקף נכדים וחיוך. “המשך יבוא בספר הבא.”'
     },
     en: {
       'ui.director': 'Director mode', 'ui.page': 'Page {n} of {total}', 'ui.copy': 'Copy prompt', 'ui.copied': 'Copied', 'ui.waiting': 'Artwork pending',
-      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'My Hero', 'cover.sub': 'The Journey to Father · a true story in comics', 'card.t': 'What I took from the journey', 'card.1': 'True greatness is measured in heart, not in inches.', 'card.2': 'Real kindness is done quietly, without asking and without telling.', 'card.3': 'Sometimes the hero we are looking for is already standing in front of us. We only have to learn to see him.', 'cover.cue': 'or scroll down', 'cover.tag': 'March 1946. One boy, one suitcase, and a father he had never seen.', 'cover.by': 'Based on the true story of Grandpa Emmanuel', 'il.1': 'But to understand this story...', 'il.2': 'we have to go back. A long way back.', 'il.3': 'Europe, 1946. The most terrible war the world had ever known had ended only a year before.', 'il.4': 'Whole cities had turned to dust. Millions of families had been torn apart.', 'il.5': 'At the railway stations people waited with one suitcase — all they had left.', 'il.6': 'And in the middle of it all... one boy, eight and a half years old,', 'il.7': 'setting out to meet the father he had never seen.', 'cover.start': 'Start reading', 'ld.year': 'MARCH 1946', 'ld.l2': 'An eight-and-a-half-year-old boy sets out to meet the father he has never seen.', 'ld.lbl': 'THE DISTANCE TO FATHER', 'ld.km': 'kilometers', 'ld.m': 'meters', 'ld.l3': 'What is waiting at the end of the road?', 'ld.skip': 'Skip',
+      'cover.kicker': 'GRANDPA EMMANUEL’S STORIES · BOOK 1', 'cover.title': 'My Hero', 'cover.sub': 'The Journey to Father · a true story in comics', 'card.t': 'What I took from the journey', 'card.1': 'True greatness is measured in heart, not in inches.', 'card.2': 'Real kindness is done quietly, without asking and without telling.', 'card.3': 'Sometimes the hero we are looking for is already standing in front of us. We only have to learn to see him.', 'cover.cue': 'or scroll down', 'cover.tag': 'March 1946. One boy, one suitcase, and a father he had never seen.', 'cover.by': 'Based on the true story of Grandpa Emmanuel', 'il.1': 'We have to go back.', 'il.2': 'Europe, 1946.', 'il.3': 'The war is over. The world lies in ruins.', 'il.4': 'One boy. One suitcase.', 'il.5': 'And a father he has never seen.', 'cover.start': 'Start reading', 'ld.year': 'MARCH 1946', 'ld.l2': 'An eight-and-a-half-year-old boy sets out to meet the father he has never seen.', 'ld.lbl': 'THE DISTANCE TO FATHER', 'ld.km': 'kilometers', 'ld.m': 'meters', 'ld.l3': 'What is waiting at the end of the road?', 'ld.skip': 'Skip',
       'outro.text': 'To be continued...', 'outro.restart': 'Back to the beginning',
       'p1.cap0': 'Before he was ‘Baba’... he was a little boy named Emmanuel.',
       'p1.cap1': 'Friday evening. The synagogue.',
@@ -937,7 +942,7 @@ html.loading, html.loading body { overflow: hidden; }
       { pre: 6, h: 26, lean: 0, panels: [Pn('b', 100, 'עיני הבאבא, חכמה ורכות.', 'Extreme close-up of Baba\'s eyes: tender, wise, slightly moist, soft golden light.', ['baba'], 'warm', [X('bub', 'ts', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 56)], { fade: 'tb' })] }
     ] },
     24: { tiers: [
-      { h: 74, lean: 0, panels: [Pn('a', 100, 'כל המשפחה סביב הבאבא.', 'Final warm family scene in the synagogue: Baba at the center surrounded by grandchildren of all ages hugging and laughing, parents behind, golden light, a notebook open with a pen on the table; joyful, loving, a family complete.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [X('bub', 'ts', 'ועל מה אספר לכם בשבוע הבא?', 'And what shall I tell you about next week?', 40), X('cap', 'bs', 'המשך יבוא – הספר הבא', 'To be continued – the next book', 50)], { fade: 'tb' })] }
+      { h: 74, lean: 0, panels: [Pn('a', 100, 'כל המשפחה סביב הבאבא.', 'Final warm family scene in the synagogue: Baba at the center surrounded by grandchildren of all ages hugging and laughing, parents behind, golden light, a notebook open with a pen on the table; joyful, loving, a family complete.', ['baba', 'kid', 'girl', 'kidSmall'], 'warm', [X('bub', 'ts', 'ועל מה אספר לכם בשבוע הבא?', 'And what shall I tell you about next week?', 40), X('cap', 'bs', 'המשך יבוא בספר הבא', 'To be continued in the next book', 50)], { fade: 'tb' })] }
     ], floats: [{ id: 'z', circle: true, x: 80, y: 3, w: 16, h: 16, z: 6, sp: 18, d: 'המחברת הפתוחה, ורמז לזיכרון הבא.', shot: 'Circular close-up of an old worn notebook open on a wooden table, a pen resting across pages of illegible handwriting squiggles (no readable text), warm glow, with a faint blue-gray hint at the page edge as if a new memory is waking.', chars: [], pal: 'warm', text: [] }] }
   };
 
@@ -1115,7 +1120,7 @@ html.loading, html.loading body { overflow: hidden; }
     L: { n1: { x: 24, y: 52, w: 40, h: 20 } },
     P: { a: { en: 'zoom' }, b: { en: 's' }, c: { en: 'e' }, d: { en: 'pop' } } };
   GEO[11] = { H: 194,
-    tree: { h: 44, s: .06, a: 'a', b: { h: 122, s: -.04, a: { v: 25, s: .25, a: 'b', b: { v: 50, s: -.25, a: 'c', b: { v: 75, s: .25, a: 'd', b: 'e' } } }, b: { v: 62, s: -.1, a: 'f', b: 'g' } } },
+    tree: { h: 44, s: .06, a: 'a', b: { h: 122, s: -.04, a: { v: 25, s: .25, a: 'b', b: { v: 50, s: -.25, a: 'c', b: { v: 75, s: .25, a: 'd', b: 'e' } } }, b: { v: 52, s: -.1, a: 'f', b: 'g' } } },
     P: { a: { en: 'rise' }, b: { en: 'drop' }, c: { en: 'drop' }, d: { en: 'drop' }, e: { en: 'drop' }, f: { en: 's' }, g: { en: 'pop' } } };
   GEO[12] = { H: 205,
     free: [{ id: 'a', poly: [[0, 0], [58, 0], [58, 30], [0, 34]] }, { id: 'b', poly: [[20, 42], [74, 38], [74, 86], [20, 90]] }, { id: 'c', poly: [[40, 98], [100, 94], [100, 162], [40, 166]] }, { id: 'd', poly: [[0, 160], [100, 156], [100, 205], [0, 205]] }],
@@ -1267,7 +1272,7 @@ html.loading, html.loading body { overflow: hidden; }
     c: [X('bub', 'ts', 'אני יודע! היא גנבה משהו!', 'I know! She stole something!', 72, { m: [42, 40] })],
     d: [X('bub', 'ts', 'היא ברחה מהמפלצת?', 'Did she run away from the monster?', 74, { m: [36, 33] })],
     e: [X('bub', 'ts', 'פרס יקר ערך למי שיפתור!', 'A valuable prize for whoever solves it!', 60, { m: [41, 42] })],
-    f: [X('cap', 'bs', 'נחזור לחידה בסוף. עכשיו — חיפה!', 'We\'ll come back to the riddle at the end. Now — Haifa!', 90)]
+    f: [X('cap', 'bs', 'נחזור לחידה בסוף. ועכשיו, לחיפה!', 'We\'ll come back to the riddle at the end. Now, on to Haifa!', 90)]
   };
   TX[16] = {
     a: [X('cap', 'ts', 'בביירות לא נתנו לנו לרדת מהאונייה, וחיכינו כמה שעות. ואז הופיע הכרמל.', 'In Beirut they did not let us leave the ship, and we waited for hours. Then the Carmel appeared.', 46)],
@@ -1311,8 +1316,8 @@ html.loading, html.loading body { overflow: hidden; }
   };
   TX[23] = {
     a: [X('cap', 'ts', 'הבאבא שתק רגע. הילדים חיכו.', 'Baba was quiet for a moment. The children waited.', 30),
-      X('bub', 'te', 'ועכשיו — החידה! היא הייתה עולה בלתי חוקית, בלי אישור להיכנס לארץ.', 'And now — the riddle! She was an illegal immigrant, with no permit to enter the country.', 40, { m: [48, 44], x: 3, y: 4 }),
-      X('cap', 'bs', 'אחרי שנים אמא סיפרה לי איך היא ירדה מהאונייה: היא קיבלה תלבושת של אחות, וירדה יחד עם הרופאים — בלי שאף אחד ידע מי היא.', 'Years later Mother told me how she got off the ship: she was given a nurse\'s uniform and walked off with the doctors — and nobody knew who she was.', 56, { y: 4 }),
+      X('bub', 'te', 'ועכשיו, החידה! היא הייתה עולה בלתי חוקית, בלי אישור להיכנס לארץ.', 'And now, the riddle! She was an illegal immigrant, with no permit to enter the country.', 40, { m: [48, 44], x: 3, y: 4 }),
+      X('cap', 'bs', 'אחרי שנים אמא סיפרה לי איך היא ירדה מהאונייה: היא קיבלה תלבושת של אחות, וירדה יחד עם הרופאים, בלי שאף אחד ידע מי היא.', 'Years later Mother told me how she got off the ship: she was given a nurse\'s uniform and walked off with the doctors, and nobody knew who she was.', 56, { y: 4 }),
       X('tag', 'be', 'רק שרה וינברג פתרה את החידה!', 'Only Sarah Weinberg solved the riddle!', 0, { x: 3, y: 5 })],
     b: [X('bub', 'ts', 'אישה שהסתתרה מתחת למיטה. אמא עם המפית. ואבא שחיכה על המזח. אף אחד מהם לא נראה כמו גיבור.', 'A woman hiding under a bed. Mother with her napkin. And Father waiting on the pier. None of them looked like a hero.', 54, { m: [54, 66], x: 4, y: 4 }),
       X('bub', 'be', 'יש אנשים שלא נראים גדולים... עד שמגלים כמה לב יש בהם.', 'Some people don\'t look big... until you discover how much heart they have.', 50, { m: [54, 66], x: 4, y: 6 })]
@@ -1468,9 +1473,9 @@ html.loading, html.loading body { overflow: hidden; }
     d.style[tx.v === 'bottom' ? 'bottom' : 'top'] = (small ? Math.max(2, tx.y) : tx.y) + '%';
     d.style.width = tw ? tw + '%' : '';
     d.style.setProperty('--fs', tx.fs || 1);
-    var sel = d.classList.contains('sel');
+    var sel = d.classList.contains('sel'), shown = d.classList.contains('in');
     var cs = tx.k === 'cap' ? capStyle(tx) : '';
-    d.className = 'txt ' + (KCLS[tx.k] || 'cap') + (cs ? ' c-' + cs : '') + (tx.big ? ' big' : '') + ((tx.tail && TAILED[tx.k] && !tx.m) ? ' t-' + tx.tail : '') + (sel ? ' sel' : '') + (tx.tl ? ' has-tl' : '');
+    d.className = 'txt ' + (KCLS[tx.k] || 'cap') + (cs ? ' c-' + cs : '') + (tx.big ? ' big' : '') + ((tx.tail && TAILED[tx.k] && !tx.m) ? ' t-' + tx.tail : '') + (sel ? ' sel' : '') + (shown ? ' in' : '') + (tx.tl ? ' has-tl' : '');
   }
 
   function artImg(art, base) {
@@ -1488,6 +1493,105 @@ html.loading, html.loading body { overflow: hidden; }
   /* ===================== speech tails that point at the speaker's mouth ===================== */
   var SVGNS = 'http://www.w3.org/2000/svg';
   function svgEl(tag, attrs, parent) { var e = document.createElementNS(SVGNS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (parent) parent.appendChild(e); return e; }
+  /* ===================== faces: heads stay inside their frame, and lettering keeps off faces ===================== */
+  /* face boxes found in every picture (x, y, w, h in % of the image, hebrew orientation) */
+  var FACES = {"p01-a":[[36.7,33.9,6.6,18.3],[26.3,28.7,5.0,11.2],[24.9,43.3,4.3,12.9],[52.3,45.2,4.4,13.1],[62.7,52.0,4.2,12.3],[93.9,35.3,3.3,9.7],[57.5,29.3,1.4,4.9],[83.1,40.5,2.9,7.3],[69.0,38.8,1.8,5.0]],"p01-b":[[32.6,12.1,23.5,44.3],[72.3,34.4,9.0,16.4],[5.6,25.6,11.1,19.6],[90.5,27.3,9.3,18.9]],"p01-c":[[28.6,36.5,12.1,27.5]],"p01-d":[[39.7,43.8,22.0,39.8]],"p01-e":[[17.2,25.6,6.7,16.8],[56.7,51.1,6.6,16.3],[37.3,34.8,9.2,22.2],[3.0,28.7,6.8,18.7],[17.6,47.9,5.3,14.5],[88.4,37.1,4.6,16.9],[83.4,49.1,2.3,5.7]],"p01-g":[[44.5,34.9,4.3,10.9],[17.2,11.9,4.6,12.0],[32.6,7.9,4.6,12.2]],"p02-a":[[63.6,24.9,4.6,9.0],[40.6,37.9,4.6,8.1],[51.4,21.8,4.9,9.3],[97.2,36.3,2.0,3.7],[84.5,41.1,1.2,2.3]],"p02-b":[[26.8,23.7,18.9,34.8],[21.0,57.4,1.2,2.3],[9.9,53.4,1.6,3.5]],"p02-c":[[45.0,7.0,9.0,11.8]],"p02-d":[[5.7,57.4,4.5,16.2]],"p03-e":[[41.0,24.9,7.9,14.2],[24.9,37.0,7.7,14.2],[80.8,36.2,7.4,11.8],[15.6,40.8,6.7,11.4]],"p04-a":[[14.0,54.0,2.1,4.1],[8.1,52.9,2.6,4.2],[25.1,56.8,3.0,6.2],[33.0,52.1,3.1,6.2],[2.5,54.1,1.2,2.6],[11.5,65.4,2.0,3.9]],"p04-b":[[24.0,53.1,3.0,5.4]],"p04-c":[[26.0,10.4,16.2,32.2]],"p05-a":[[38.4,11.8,5.0,10.2],[18.6,31.4,4.2,7.5]],"p05-b":[[69.5,21.5,6.0,7.1],[28.6,8.6,7.8,10.1]],"p05-c":[[34.7,19.3,11.1,8.9]],"p06-a":[[41.9,29.9,8.0,14.1],[69.7,34.4,7.6,13.8],[18.0,42.5,6.8,14.2],[27.5,32.8,2.3,4.0],[34.3,17.9,2.1,5.0],[2.0,32.5,2.3,5.6],[11.8,32.3,2.1,4.5],[1.8,18.8,1.9,4.2]],"p06-b":[[25.8,17.4,18.6,34.0],[54.0,25.4,3.9,9.1],[49.9,31.3,2.5,4.5],[4.3,14.8,2.2,5.1],[66.1,32.9,1.8,3.5]],"p06-c":[[28.6,25.6,13.8,24.1],[43.9,36.8,2.6,4.6],[1.1,14.8,2.4,5.4],[15.3,33.0,1.8,3.2],[53.5,34.5,2.5,5.7],[0.6,31.0,3.5,7.3],[8.2,30.7,2.4,5.4]],"p06-d":[[36.5,29.4,6.9,11.8],[52.9,32.9,6.0,10.9],[15.6,40.3,6.2,11.1],[27.5,30.5,1.8,3.3],[33.3,18.1,1.7,4.1],[2.1,19.5,1.9,3.4],[13.4,30.6,1.5,3.2],[2.6,29.3,2.1,4.9],[21.1,28.8,1.7,4.4]],"p07-a":[[44.4,21.3,7.3,13.1],[19.7,20.8,6.7,12.9]],"p07-b":[[42.7,26.3,9.2,16.6],[28.4,24.7,9.9,17.2]],"p07-c":[[22.3,19.0,19.2,37.9],[16.1,38.5,7.4,13.8],[2.2,84.9,5.2,9.3]],"p08-a":[[44.2,18.7,4.8,9.3]],"p08-b":[[27.8,32.9,3.8,6.5],[16.4,14.1,2.6,6.6]],"p08-c":[[44.0,21.5,18.4,33.7]],"p09-b":[[15.1,36.1,9.0,11.7],[44.4,46.8,3.2,4.5],[54.6,48.9,2.0,2.5],[65.0,51.8,6.2,9.6],[32.2,40.2,4.2,5.6],[31.4,45.8,2.7,3.7]],"p09-c":[[28.3,23.6,10.4,13.2],[47.7,12.0,10.3,14.3]],"p09-d":[[21.5,27.9,14.4,17.5]],"p10-a":[[50.6,62.9,2.6,4.7],[42.5,44.3,2.3,4.2],[56.9,47.9,2.2,3.8],[7.5,37.4,2.8,5.1],[78.5,48.1,1.9,3.5],[12.0,34.2,2.4,4.5],[30.5,26.5,3.5,6.8],[78.1,59.7,1.8,3.2],[20.3,28.3,3.8,7.0],[46.6,46.1,2.2,3.9],[73.8,60.6,2.6,4.5],[95.2,53.4,1.5,2.9],[78.2,43.5,1.8,3.1],[38.0,41.6,3.6,6.5],[52.0,45.9,2.3,3.9],[10.0,43.1,1.9,3.7],[55.0,65.9,2.6,4.8]],"p10-b":[[70.8,45.6,1.6,2.0],[19.0,26.0,4.3,5.2],[79.9,44.5,4.1,5.1],[68.7,55.5,1.4,1.7],[0.6,66.8,2.8,3.6],[51.4,19.1,7.3,9.7],[62.3,49.3,1.8,2.4],[29.8,24.6,1.6,2.1]],"p10-c":[[34.7,41.2,2.2,4.3],[35.0,50.2,4.3,7.5],[29.3,44.1,2.7,5.4],[33.4,45.6,2.1,4.1],[9.6,35.3,2.8,5.5],[45.4,47.5,2.5,4.7],[49.3,41.4,2.2,4.2],[52.1,48.2,2.0,3.9],[56.6,41.5,2.1,3.7],[22.9,33.1,4.8,8.8],[12.8,40.7,2.7,5.8],[29.5,40.4,1.9,3.5],[7.1,42.9,4.8,8.6],[19.7,20.3,4.0,7.6]],"p10-d":[[56.9,33.8,8.2,14.8],[73.2,23.2,7.9,14.2],[42.4,26.0,8.2,16.6]],"p11-a":[[76.4,39.9,4.8,8.5],[22.9,13.7,3.4,6.5],[47.8,24.7,7.1,13.6],[11.4,11.0,3.5,6.3],[21.4,9.4,2.1,3.9],[28.8,34.8,8.4,13.3],[63.2,45.2,3.8,6.2],[8.7,7.3,2.0,3.5]],"p11-b":[[57.6,4.7,28.1,25.1],[84.0,15.1,8.0,8.3]],"p11-c":[[27.3,14.2,25.8,23.2]],"p11-d":[[39.3,10.2,19.0,15.8]],"p11-e":[[39.3,15.9,23.3,17.0]],"p11-f":[[33.0,4.6,24.1,42.3]],"p11-g":[[53.3,14.6,18.8,20.4],[26.2,42.5,15.4,20.5]],"p12-b":[[15.8,20.1,15.5,19.0]],"p12-d":[[40.0,29.7,12.4,37.0]],"p13-a":[[14.2,24.5,14.0,25.8],[74.5,32.1,9.4,14.0],[66.2,23.6,3.3,6.2]],"p13-b":[[44.1,14.0,23.6,32.0]],"p13-c":[[73.2,55.1,7.1,12.9],[29.2,18.8,7.6,14.4],[57.0,33.6,2.3,3.7]],"p13-d":[[16.5,10.6,5.5,11.0],[41.6,23.8,6.3,12.3],[54.3,4.7,5.5,12.6],[57.9,42.7,6.3,11.5]],"p14-a":[[32.2,16.8,9.8,19.0],[53.1,36.2,3.7,6.9],[0.1,24.4,5.5,15.0],[89.6,37.0,2.4,4.9],[20.8,35.4,2.1,5.2],[96.8,34.9,2.5,6.7],[92.7,35.8,2.5,4.9],[79.6,38.7,2.3,4.4],[-0.1,37.5,2.0,6.6]],"p14-c":[[15.0,21.2,16.5,18.1]],"p14-d":[[20.7,10.7,27.9,38.2]],"p15-a":[[35.5,23.1,10.6,20.3],[82.1,56.7,7.9,14.2],[62.7,46.2,8.1,14.9],[12.1,42.7,8.0,14.4]],"p15-b":[[33.6,27.1,15.5,26.9]],"p15-c":[[30.7,29.8,14.8,27.0]],"p15-d":[[22.4,14.4,15.4,30.4]],"p15-e":[[27.5,13.1,24.1,45.3]],"p15-f":[[83.3,50.7,9.3,10.9],[36.4,28.2,12.7,15.2],[65.0,43.1,9.0,11.0],[14.9,42.3,9.1,11.7],[53.8,6.5,1.5,1.7]],"p16-b":[[46.2,31.5,5.5,7.2],[25.1,39.5,10.1,11.8],[8.1,31.5,13.0,17.3],[25.5,28.1,3.2,3.9],[11.0,13.1,9.8,12.3],[0.2,20.2,3.1,4.5],[33.4,18.7,8.4,10.5]],"p16-c":[[27.2,10.6,12.7,24.8],[49.0,35.9,11.6,22.3],[62.8,34.4,1.6,2.9]],"p17-a":[[10.7,1.9,1.6,2.9],[17.2,14.6,1.2,2.2],[8.2,31.9,1.3,2.3],[12.1,5.8,1.5,2.7],[7.0,28.4,1.6,2.9],[21.0,19.2,1.2,2.1],[32.6,45.3,1.3,3.3],[42.7,51.5,1.3,3.1],[21.5,35.6,1.2,2.9],[15.7,10.6,1.2,2.0]],"p17-b":[[45.3,47.5,4.6,8.0],[38.0,10.5,5.0,8.4],[18.6,5.3,4.8,7.7],[26.7,0.2,1.4,2.3]],"p17-c":[[1.0,37.6,2.9,5.2],[56.7,56.5,3.5,6.3],[53.3,42.5,2.4,4.6],[46.4,39.1,2.0,4.1],[56.8,39.8,1.8,3.5],[5.0,34.2,2.5,4.7],[67.5,52.4,3.3,5.7],[47.6,47.7,3.7,6.7],[28.3,36.6,1.9,3.5],[9.9,36.8,2.0,3.8],[35.3,34.6,4.4,7.7],[21.8,17.7,3.7,6.3],[12.1,50.3,5.5,9.3],[60.5,41.8,3.5,6.2],[73.8,46.4,1.6,3.0]],"p17-d":[[25.9,26.4,5.7,11.3],[41.6,30.0,5.1,10.2],[11.8,40.1,6.1,11.0]],"p18-a":[[36.4,34.6,1.7,3.3],[23.2,31.9,2.8,5.6],[30.7,39.5,2.8,4.9],[49.2,29.4,2.3,4.2],[38.6,39.4,2.4,4.5],[43.3,29.1,2.4,4.7],[32.8,31.8,2.2,4.1],[7.0,29.5,1.9,3.5],[56.1,40.4,2.0,3.6],[15.5,24.6,3.1,5.8],[54.7,35.0,1.8,3.2],[19.0,29.0,2.3,4.1],[71.1,40.3,1.5,2.9],[25.4,29.3,2.1,3.8],[66.4,38.4,1.3,2.5],[39.1,33.5,1.5,2.9],[46.8,32.5,1.8,3.5],[63.9,37.5,1.4,2.6]],"p18-b":[[26.7,19.8,11.9,23.9]],"p18-c":[[32.5,12.9,7.1,12.5]],"p18-d":[[40.9,40.2,1.3,2.2],[19.0,36.1,1.3,2.3],[29.9,36.7,1.2,2.2],[9.0,37.6,1.2,2.2],[3.3,38.3,1.2,2.2]],"p19-a":[[26.1,13.5,6.3,11.8],[46.6,8.5,8.0,12.9],[48.5,17.5,6.9,12.4]],"p19-b":[[39.6,19.0,15.1,43.8],[28.3,60.3,1.7,5.0],[83.3,66.5,1.2,3.5],[62.5,65.1,1.5,4.4],[34.3,66.7,1.2,3.6]],"p19-c":[[33.2,5.8,3.8,9.0]],"p19-d":[[23.2,11.8,26.3,47.9]],"p20-a":[[60.9,41.1,3.3,5.2],[22.0,37.9,4.7,9.0]],"p20-b":[[29.0,20.0,10.2,15.1],[94.5,13.6,1.4,2.7]],"p20-c":[[56.3,13.3,8.2,14.7],[25.8,28.5,8.0,12.2]],"p21-a":[[33.5,15.6,9.9,15.4],[17.3,55.3,2.8,5.6]],"p21-b":[[39.4,6.7,9.0,19.7],[6.3,33.0,5.5,9.1],[1.8,66.8,2.6,5.6]],"p21-e":[[30.1,16.8,26.5,47.1]],"p21-f":[[30.5,14.2,25.6,50.1],[23.2,37.6,10.7,17.8]],"p22-a":[[42.7,26.6,3.5,6.8],[52.0,39.8,2.7,5.4]],"p22-c":[[42.5,9.2,6.6,12.0],[34.7,21.2,4.9,10.0],[97.3,55.9,1.3,2.4]],"p23-a":[[38.5,16.7,10.9,20.9],[65.2,38.2,8.7,14.7],[16.6,33.6,7.4,16.0],[81.7,46.9,8.1,14.8]],"p23-b":[[31.8,12.8,45.5,85.2]],"p24-a":[[44.8,12.9,11.2,22.6],[63.1,28.4,9.0,15.9],[31.0,12.3,9.9,16.6],[24.8,34.7,6.9,14.7]]};
+  function artName(p) { return p.art || ('p' + pad2(p.pg + 1) + '-' + p.id); }
+  function focusX(p) { return p._fx != null ? p._fx : (p.fx == null ? 50 : p.fx); }
+  function focusY(p) { return p._fy != null ? p._fy : (p.fy == null ? 50 : p.fy); }
+  /* where a point of the picture (in % of the image) lands inside the panel, for a given focus */
+  function imgToPanel(p, u, v, fx, fy) {
+    var img = p.img, iw = img.offsetWidth, ih = img.offsetHeight, it = img.offsetTop, il = img.offsetLeft, nw = img.naturalWidth, nh = img.naturalHeight;
+    var sc = (img.style.objectFit === 'contain' ? Math.min : Math.max)(iw / nw, ih / nh), dw = nw * sc, dh = nh * sc;
+    var x = il + (iw - dw) * fx / 100 + u / 100 * dw, y = it + (ih - dh) * fy / 100 + v / 100 * dh;
+    var cx = il + iw / 2, cy = it + ih / 2, S = 1.05 * (p.zoom || 1) * (p.k || 1);
+    x = cx + (x - cx) * S; y = cy + (y - cy) * S;
+    if ((document.documentElement.dir === 'ltr') !== !!p.mirror) x = 2 * cx - x;
+    return [x, y];
+  }
+  function inPoly(pts, x, y) {
+    var inside = false;
+    for (var i = 0, j = pts.length - 1; i < pts.length; j = i++) {
+      var a = pts[i], b = pts[j];
+      if ((a[1] > y) !== (b[1] > y) && x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) inside = !inside;
+    }
+    return inside;
+  }
+  /* is a panel point (px) inside the visible shape of the panel, with a small safety margin */
+  function inShape(p, x, y, W, H) {
+    var mob = mq.matches, px = x / W * 100, py = y / H * 100;
+    if (px < 2.5 || px > 97.5 || py < 2.5 || py > 97.5) return false;
+    if (p.circle && !mob) { var dx = (px - 50) / 47, dy = (py - 50) / 47; return dx * dx + dy * dy < 1; }
+    if (p.pr && !mob) {
+      var rtl = document.documentElement.dir === 'rtl';
+      return inPoly(p.pr.map(function (q) { return [rtl ? 100 - q[0] : q[0], q[1]]; }), px, py);
+    }
+    return true;
+  }
+  function mainFaces(p) { return (FACES[artName(p)] || []).filter(function (f) { return f[2] >= 2.5; }); }
+  /* a head reaches above the detected face (hair, cap) and a little below it */
+  function headBox(f) { var big = f[2] >= 16; return big ? [f[0], f[1] - f[3] * .15, f[2], f[3] * 1.2] : [f[0] - f[2] * .2, f[1] - f[3] * .55, f[2] * 1.4, f[3] * 1.8]; }
+  function cutCost(p, fx, fy, W, H, faces) {
+    var cost = 0;
+    faces.forEach(function (f) {
+      var hb = headBox(f), inside = 0, n = 0;
+      for (var i = 0; i < 4; i++) for (var j = 0; j < 4; j++) {
+        var pt = imgToPanel(p, hb[0] + hb[2] * (i + .5) / 4, hb[1] + hb[3] * (j + .5) / 4, fx, fy);
+        n++; if (inShape(p, pt[0], pt[1], W, H)) inside++;
+      }
+      var frac = inside / n, w = Math.min(1.5, f[2] / 6);
+      cost += w * (frac === 1 ? 0 : frac === 0 ? 1 : 1 + (1 - frac) * 2);
+    });
+    return cost;
+  }
+  /* choose the focus (and, if that is not enough, a slight pull-back) that keeps the most heads whole,
+     staying as close as possible to the framing chosen by hand */
+  function applyFit(p, f) {
+    var img = p.img, out = f < 1, k = 1;
+    if (out) { var iw = img.offsetWidth, ih = img.offsetHeight, nw = img.naturalWidth, nh = img.naturalHeight; k = Math.pow(Math.max(iw / nw, ih / nh) / Math.min(iw / nw, ih / nh), f); }
+    img.style.objectFit = out ? 'contain' : '';
+    p.k = out ? k : 1;
+    img.style.setProperty('--zm', ((p.zoom || 1) * p.k).toFixed(4));
+  }
+  function autoFrame(p) {
+    var img = p.img; p._fx = p._fy = null;
+    if (!img || !img.naturalWidth || !p.pw || !p.pw.offsetWidth || p.noAuto) return;
+    var faces = mainFaces(p); if (!faces.length) return;
+    var W = p.pw.offsetWidth, H = p.pw.offsetHeight, fx0 = p.fx == null ? 50 : p.fx, fy0 = p.fy == null ? 50 : p.fy;
+    var f0 = mq.matches ? (p.mfit == null ? 1 : p.mfit) : (p.fit == null ? 1 : p.fit);
+    if (cutCost(p, fx0, fy0, W, H, faces) < .01) return;
+    var best = null;
+    [f0, Math.min(f0, .86)].filter(function (v, i, a) { return a.indexOf(v) === i; }).forEach(function (fit, step) {
+      applyFit(p, fit);
+      for (var fx = 0; fx <= 100; fx += 5) for (var fy = 0; fy <= 100; fy += 5) {
+        var c = cutCost(p, fx, fy, W, H, faces) + .0035 * (Math.abs(fx - fx0) + Math.abs(fy - fy0)) + step * .6;
+        if (!best || c < best.c - .02) best = { c: c, fx: fx, fy: fy, fit: fit };
+      }
+    });
+    applyFit(p, best.fit);
+    if (best.fit < 1 && !p.bk) { p.bk = document.createElement('i'); p.bk.className = 'bk'; img.parentNode.insertBefore(p.bk, img); }
+    if (p.bk) { p.bk.style.display = best.fit < 1 ? '' : 'none'; if (best.fit < 1 && img.currentSrc) p.bk.style.backgroundImage = 'url("' + img.currentSrc + '")'; }
+    p._fx = best.fx; p._fy = best.fy;
+    img.style.objectPosition = focusX(p) + '% ' + focusY(p) + '%';
+  }
+  /* faces as boxes in page pixels, so lettering can keep off them */
+  function faceRects(p) {
+    var out = [];
+    if (!p.img || !p.img.naturalWidth || !p.pw || p.pw.style.display === 'none') return out;
+    var W = p.pw.offsetWidth, H = p.pw.offsetHeight;
+    (FACES[artName(p)] || []).forEach(function (f) {
+      if (f[2] < 2) return;
+      /* a big close-up only keeps its eyes-to-mouth core clear; smaller faces keep the whole face clear */
+      var big = f[2] >= 16, l = big ? f[0] + f[2] * .2 : f[0] - f[2] * .08, r = big ? f[0] + f[2] * .8 : f[0] + f[2] * 1.08, t = big ? f[1] + f[3] * .2 : f[1] - f[3] * .2, bt = big ? f[1] + f[3] * .9 : f[1] + f[3] * 1.1;
+      var a = imgToPanel(p, l, t, focusX(p), focusY(p)), b = imgToPanel(p, r, bt, focusX(p), focusY(p));
+      var x0 = Math.min(a[0], b[0]), x1 = Math.max(a[0], b[0]), y0 = Math.min(a[1], b[1]), y1 = Math.max(a[1], b[1]);
+      if (!inShape(p, (x0 + x1) / 2, (y0 + y1) / 2, W, H)) return;
+      x0 = Math.max(0, x0); y0 = Math.max(0, y0); x1 = Math.min(W, x1); y1 = Math.min(H, y1);
+      if (x1 - x0 < 4 || y1 - y0 < 4) return;
+      out.push({ x: p.pw.offsetLeft + x0, y: p.pw.offsetTop + y0, w: x1 - x0, h: y1 - y0, face: true });
+    });
+    return out;
+  }
   /* zoom above 1 pushes in; fit below 1 pulls out past the cover crop (0 = the whole picture) and a blurred copy fills the rest of the shape */
   function fitImg(p) {
     var img = p.img; if (!img) return;
@@ -1503,18 +1607,31 @@ html.loading, html.loading body { overflow: hidden; }
     img.style.setProperty('--zm', ((p.zoom || 1) * p.k).toFixed(4));
     if (out && !p.bk) { p.bk = document.createElement('i'); p.bk.className = 'bk'; img.parentNode.insertBefore(p.bk, img); }
     if (p.bk) { p.bk.style.display = out ? '' : 'none'; if (out && img.currentSrc) p.bk.style.backgroundImage = 'url("' + img.currentSrc + '")'; p.bk.style.setProperty('--flip', fl); }
+    autoFrame(p);
   }
   /* where a point of the picture (in % of the image, hebrew orientation) lands inside the panel */
+  /* quality check used by the build tools: lettering on faces and heads cut by a frame */
+  window.__qa = function () {
+    var out = [];
+    PAGES.forEach(function (pg, i) {
+      var faces = []; pg.panels.forEach(function (p) { faceRects(p).forEach(function (f) { f.id = p.id; faces.push(f); }); });
+      var texts = []; pg.panels.forEach(function (p) { (p.text || []).forEach(function (tx) { var d = tx.el; if (!d || !d.offsetWidth) return; var par = d.parentNode, ox = par === pg.tl ? 0 : par.offsetLeft, oy = par === pg.tl ? 0 : par.offsetTop; texts.push({ k: tx.id, x: ox + d.offsetLeft, y: oy + d.offsetTop, w: d.offsetWidth, h: d.offsetHeight }); }); });
+      texts.forEach(function (t) { faces.forEach(function (f) { var ix = Math.min(t.x + t.w, f.x + f.w) - Math.max(t.x, f.x), iy = Math.min(t.y + t.h, f.y + f.h) - Math.max(t.y, f.y); if (ix > 0 && iy > 0 && ix * iy > .15 * f.w * f.h) out.push('p' + (i + 1) + ' text-on-face ' + t.k + ' / ' + f.id); }); });
+      pg.panels.forEach(function (p) {
+        if (!p.img || !p.img.naturalWidth || !p.pw || p.pw.style.display === 'none') return;
+        var W = p.pw.offsetWidth, H = p.pw.offsetHeight;
+        mainFaces(p).forEach(function (f) {
+          var hb = headBox(f), inside = 0;
+          for (var a = 0; a < 4; a++) for (var b = 0; b < 4; b++) { var pt = imgToPanel(p, hb[0] + hb[2] * (a + .5) / 4, hb[1] + hb[3] * (b + .5) / 4, focusX(p), focusY(p)); if (inShape(p, pt[0], pt[1], W, H)) inside++; }
+          if (inside > 0 && inside < 16 && f[2] >= 4) out.push('p' + (i + 1) + ' head-cut ' + p.id + ' ' + Math.round(inside / 16 * 100) + '%');
+        });
+      });
+    });
+    return out;
+  };
   function mouthPoint(p, m) {
-    var img = p.img; if (!img || !img.naturalWidth || !p.pw.offsetWidth) return null;
-    var iw = img.offsetWidth, ih = img.offsetHeight, it = img.offsetTop, il = img.offsetLeft, nw = img.naturalWidth, nh = img.naturalHeight;
-    var sc = (img.style.objectFit === 'contain' ? Math.min : Math.max)(iw / nw, ih / nh), dw = nw * sc, dh = nh * sc;
-    var fx = (p.fx == null ? 50 : p.fx) / 100, fy = (p.fy == null ? 50 : p.fy) / 100;
-    var x = il + (iw - dw) * fx + m[0] / 100 * dw, y = it + (ih - dh) * fy + m[1] / 100 * dh;
-    var cx = il + iw / 2, cy = it + ih / 2, S = 1.05 * (p.zoom || 1) * (p.k || 1);
-    x = cx + (x - cx) * S; y = cy + (y - cy) * S;
-    if ((document.documentElement.dir === 'ltr') !== !!p.mirror) x = 2 * cx - x;
-    return [x, y];
+    if (!p.img || !p.img.naturalWidth || !p.pw.offsetWidth) return null;
+    return imgToPanel(p, m[0], m[1], focusX(p), focusY(p));
   }
   function placeTail(tx) {
     var d = tx.el, p = tx.p;
@@ -1555,7 +1672,8 @@ html.loading, html.loading body { overflow: hidden; }
     var panels = x.panels || [x];
     panels.forEach(function (p) { (p.text || []).forEach(function (tx) { if (tx.m) placeTail(tx); }); });
   }
-  var tailRO = window.ResizeObserver ? new ResizeObserver(function (es) { es.forEach(function (e) { var tx = e.target.__tx; if (tx && tx.p) placeTail(tx); }); }) : null;
+  var relayQ = [];
+  function relayPage(pg) { if (relayQ.indexOf(pg) < 0) relayQ.push(pg); if (relayQ.length === 1) requestAnimationFrame(function () { var q = relayQ; relayQ = []; q.forEach(function (g) { layoutPage(g); }); }); }
   function selectText(node) { try { var r = document.createRange(); r.selectNodeContents(node); var s = getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {} }
 
   var pageCaps = {};
@@ -1611,15 +1729,14 @@ html.loading, html.loading body { overflow: hidden; }
         var done = function () { cb.textContent = t('ui.copied'); setTimeout(function () { cb.textContent = t('ui.copy'); }, 1400); };
         try { navigator.clipboard.writeText(pr.textContent).then(done, function () { selectText(pr); }); } catch (e) { selectText(pr); }
       });
-      p.img = artImg(art, 'art/p' + pad2(pg) + '-' + p.id);
+      p.img = artImg(art, 'art/' + (p.art || ('p' + pad2(pg) + '-' + p.id)));
     }
     (p.text || []).forEach(function (tx, i) {
       tx.pg = pageIdx; tx.p = p;
       tx.ci = tx.k === 'cap' ? (pageCaps[pageIdx] = (pageCaps[pageIdx] || 0) + 1) - 1 : 0;
       tx.el = textEl(pw, tx, i);
-      if (tx.m && tailRO) tailRO.observe(tx.el);
     });
-    if (p.img) p.img.addEventListener('load', function () { fitImg(p); placeTails(p); });
+    if (p.img) p.img.addEventListener('load', function () { relayPage(PAGES[pageIdx]); });
     return pw;
   }
 
@@ -1646,7 +1763,7 @@ html.loading, html.loading body { overflow: hidden; }
   var ilImgs = ['p01-a', 'p03-d', 'p01-f'].map(function (n) { var d = el('div', 'il-img', ilStage); d.style.backgroundImage = 'url("art/' + n + '.webp")'; return d; });
   el('div', 'il-dark', ilStage); el('div', 'il-grain', ilStage);
   var ilBox = el('div', 'il-lines', ilStage), ilLines = [];
-  for (var il = 1; il <= 7; il++) { var lp = el('p', il === 7 ? 'il-last' : '', ilBox); lp.dataset.k = 'il.' + il; ilLines.push(lp); }
+  for (var il = 1; il <= 5; il++) { var lp = el('p', il === 5 ? 'il-last' : '', ilBox); lp.dataset.k = 'il.' + il; ilLines.push(lp); }
   secs[0].after(interlude);
   var ilOn = -1;
   function interludeFrame(vh) {
@@ -1687,6 +1804,7 @@ html.loading, html.loading body { overflow: hidden; }
   }
   function layoutPage(pg, again) {
     var rtl = document.documentElement.dir === 'rtl', mob = mq.matches;
+    homeTexts(pg);
     var boxes = [], H = pg.H;
     if (!mob) {
       pg.panels.forEach(function (p) { boxes.push({ p: p, x: p.x, y: p.y, w: p.w, h: p.h, cut: p.cut || C(), fade: p.fade, pr: p.pr }); });
@@ -1736,7 +1854,7 @@ html.loading, html.loading body { overflow: hidden; }
       p.pn.style.maskComposite = 'intersect'; p.pn.style.webkitMaskComposite = 'source-in';
       pw.classList.toggle('soft', !!p.soft);
       if (p.img) {
-        p.img.style.objectPosition = (p.fx == null ? 50 : p.fx) + '% ' + (p.fy == null ? 50 : p.fy) + '%';
+        p.img.style.objectPosition = focusX(p) + '% ' + focusY(p) + '%';
         fitImg(p);
         p.img.style.top = p.ty ? p.ty + '%' : '';
         p.img.style.height = p.ty ? (100 - p.ty) + '%' : '';
@@ -1756,6 +1874,26 @@ html.loading, html.loading body { overflow: hidden; }
     }
     declutter(pg);
     placeTails(pg);
+    liftTexts(pg);
+  }
+  /* lettering lives on its own layer above every panel of the page, so no picture can hide part of it */
+  function homeTexts(pg) {
+    pg.panels.forEach(function (p) { (p.text || []).forEach(function (tx) { if (tx.el && p.pw && tx.el.parentNode !== p.pw) { p.pw.appendChild(tx.el); applyTextPos(tx.el, tx); } }); });
+  }
+  function liftTexts(pg) {
+    if (typeof edit !== 'undefined' && edit.on) return;
+    if (!pg.tl) { pg.tl = el('div', 'txtlayer', pg.el); }
+    var moves = [];
+    pg.panels.forEach(function (p) {
+      if (!p.pw || p.pw.style.display === 'none') return;
+      (p.text || []).forEach(function (tx) { var d = tx.el; if (d) moves.push([d, p.pw.offsetLeft + d.offsetLeft, p.pw.offsetTop + d.offsetTop, d.offsetWidth]); });
+    });
+    moves.forEach(function (m) {
+      var d = m[0], st = d.style;
+      pg.tl.appendChild(d);
+      st.insetInlineStart = ''; st.insetInlineEnd = ''; st.bottom = '';
+      st.left = m[1] + 'px'; st.top = m[2] + 'px'; st.width = m[3] + 'px';
+    });
   }
   /* keep lettering readable on every screen: texts that would land on each other are pushed apart, and every text stays on the page */
   function declutter(pg) {
@@ -1774,17 +1912,64 @@ html.loading, html.loading body { overflow: hidden; }
       if (x !== r.x || y !== r.y) { r.x = x; r.y = y; r.moved = true; }
     };
     R.forEach(keep);
-    /* in reading order, each text takes the nearest free spot above or below where it was placed */
+    /* in reading order, each text takes the nearest free spot that covers no other text and no face; if none is near, faces are given up before text */
+    var faces = [];
+    pg.panels.forEach(function (p) { faceRects(p).forEach(function (f) { faces.push(f); }); });
     R.sort(function (a, b) { return (a.y - b.y) || (a.x - b.x); });
-    var placed = [];
+    var placed = [], rtlNow = document.documentElement.dir === 'rtl';
     R.forEach(function (r) {
-      var y0 = r.y, best = null, up = r.tx.v === 'bottom';
-      var fits = function (y) { if (y < 4 || y + r.h > CH - 4) return false; var t = { x: r.x, y: y, w: r.w, h: r.h }; return !placed.some(function (q) { return hit(t, q); }); };
-      for (var dy = 0; dy <= CH && best === null; dy += 3) {
-        var first = up ? y0 - dy : y0 + dy, second = up ? y0 + dy : y0 - dy;
-        if (fits(first)) best = first; else if (dy && fits(second)) best = second;
+      var x0 = r.x, y0 = r.y, up = r.tx.v === 'bottom', pwW = r.pw.offsetWidth, pwH = r.pw.offsetHeight, found = null;
+      /* the speaker's mouth in page pixels: a bubble may move only a little, and must stay on the speaker's side */
+      var spk = null;
+      if (r.tx.m && TAILED[r.tx.k]) { var mp = mouthPoint(r.tx.p, r.tx.m); if (mp) spk = [r.pw.offsetLeft + mp[0], r.pw.offsetTop + mp[1]]; }
+      var d0 = spk ? Math.hypot(x0 + r.w / 2 - spk[0], y0 + r.h / 2 - spk[1]) : 0, a0 = spk ? Math.atan2(y0 + r.h / 2 - spk[1], x0 + r.w / 2 - spk[0]) : 0;
+      var near = function (x, y, w, h) {
+        if (!spk) return true;
+        var cx = x + w / 2, cy = y + h / 2, dd = Math.hypot(cx - spk[0], cy - spk[1]);
+        if (dd > Math.max(d0 * 1.35, d0 + 50)) return false;
+        var da = Math.atan2(cy - spk[1], cx - spk[0]) - a0;
+        return Math.abs(Math.atan2(Math.sin(da), Math.cos(da))) < 1;
+      };
+      var free = function (x, y, w, h, withFaces) {
+        if (y < 4 || y + h > CH - 4 || x < 4 || x + w > CW - 4) return false;
+        var cx = x + w / 2, cy = y + h / 2, px = r.pw.offsetLeft, py = r.pw.offsetTop;
+        if (cx < px - pwW * .05 || cx > px + pwW * 1.05 || cy < py - pwH * .05 || cy > py + pwH * 1.05) return false;
+        var t = { x: x, y: y, w: w, h: h };
+        if (placed.some(function (q) { return hit(t, q); })) return false;
+        if (!near(x, y, w, h)) return false;
+        return !withFaces || !faces.some(function (q) { return t.x < q.x + q.w && q.x < t.x + t.w && t.y < q.y + q.h && q.y < t.y + t.h; });
+      };
+      var search = function (xa, w, h, reach, dxs, withFaces) {
+        for (var dy = 0; dy <= reach; dy += 4) for (var s2 = 0; s2 < 2; s2++) {
+          if (dy === 0 && s2) continue;
+          var y = (s2 === 0) === up ? y0 - dy : y0 + dy;
+          for (var k = 0; k < dxs.length; k++) if (free(xa + dxs[k], y, w, h, withFaces)) return [xa + dxs[k], y];
+        }
+        return null;
+      };
+      var small = Math.min(pwH * .35, 150), dxs = [0, -.1, .1, -.2, .2].map(function (k) { return k * pwW; });
+      /* 1. a short move that clears faces and other lettering */
+      found = search(x0, r.w, r.h, small, dxs, true);
+      /* 2. still no room: change the balloon's proportions (narrower and taller, or wider and flatter) instead of moving it away */
+      if (!found && r.tx.k !== 'sfx' && r.tx.k !== 'tag') {
+        var w0 = r.d.style.width;
+        [.72, 1.32].some(function (f) {
+          var w = Math.round(r.w * f); if (w < 60 || w > pwW * 1.05) return false;
+          r.d.style.width = w + 'px';
+          var h = r.d.offsetHeight, xa = rtlNow ? x0 + r.w - w : x0;
+          var got = search(xa, w, h, small, dxs, true);
+          if (got) { found = got; r.w = w; r.h = h; r.shape = true; return true; }
+          r.d.style.width = w0; return false;
+        });
       }
-      if (best !== null && best !== y0) { r.y = best; r.moved = true; }
+      /* 3. nothing near is free of faces: stay close to the speaker, only keep clear of other lettering */
+      if (!found) found = search(x0, r.w, r.h, pwH * .6, [0, -.1, .1], false);
+      if (!found) for (var dy2 = 0; dy2 <= CH && !found; dy2 += 3) {
+        var a1 = up ? y0 - dy2 : y0 + dy2, a2 = up ? y0 + dy2 : y0 - dy2;
+        spk = null;
+        if (free(x0, a1, r.w, r.h, false)) found = [x0, a1]; else if (dy2 && free(x0, a2, r.w, r.h, false)) found = [x0, a2];
+      }
+      if (found && (found[0] !== x0 || found[1] !== y0 || r.shape)) { r.x = found[0]; r.y = found[1]; r.moved = true; }
       placed.push(r);
     });
     R.forEach(function (r) {
@@ -1792,6 +1977,7 @@ html.loading, html.loading body { overflow: hidden; }
       var st = r.d.style;
       st.insetInlineStart = ''; st.insetInlineEnd = ''; st.bottom = '';
       st.left = (r.x - r.pw.offsetLeft) + 'px'; st.top = (r.y - r.pw.offsetTop) + 'px';
+      if (r.shape) { st.width = r.w + 'px'; r.d.classList.add('sq'); }
     });
   }
   function layoutAll() { PAGES.forEach(function (pg) { layoutPage(pg); }); }
@@ -1904,7 +2090,7 @@ html.loading, html.loading body { overflow: hidden; }
   var pws = Array.prototype.slice.call(document.querySelectorAll('.pw'));
   if ('IntersectionObserver' in window) {
     var revealIO = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); revealIO.unobserve(e.target); } });
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); ((e.target.__p || {}).text || []).forEach(function (tx) { if (tx.el) tx.el.classList.add('in'); }); revealIO.unobserve(e.target); } });
     }, { threshold: 0.12 });
     var visIO = new IntersectionObserver(function (es) {
       es.forEach(function (e) {
@@ -1916,7 +2102,7 @@ html.loading, html.loading body { overflow: hidden; }
     }, { rootMargin: '15% 0px' });
     pws.forEach(function (pw) { if (!pw.classList.contains('bridge')) revealIO.observe(pw); visIO.observe(pw); });
   } else {
-    pws.forEach(function (pw) { pw.classList.add('in'); });
+    pws.forEach(function (pw) { pw.classList.add('in'); ((pw.__p || {}).text || []).forEach(function (tx) { if (tx.el) tx.el.classList.add('in'); }); });
   }
 
   /* ===================== the opening: count down the distance to Father while the first pages load ===================== */
@@ -2422,6 +2608,7 @@ html.loading, html.loading body { overflow: hidden; }
     if (on && mq.matches) return;
     edit.on = on;
     document.body.classList.toggle('edit', on);
+    layoutAll();
     var b = document.getElementById('editBtn'); b.setAttribute('aria-pressed', on ? 'true' : 'false');
     insp.hidden = !on;
     pws.forEach(function (pw) { pw.classList.add('in'); pw.style.transform = ''; });
