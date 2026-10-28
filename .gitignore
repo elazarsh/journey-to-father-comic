@@ -4,3 +4,4 @@ __pycache__/
 art/raw/
 tmp/
 site/
+print/sheets-*/

@@ -1200,7 +1200,7 @@ html.loading, html.loading body { overflow: hidden; }
     a: [X('tho', 'ts', 'למה הוא לא בא?', 'Why isn\'t he coming?', 36, { m: [46, 24] }),
       X('cap', 'bs', 'ביום השלישי חיכיתי לו על הסיפון. והוא לא בא.', 'On the third day I waited for him on the deck. And he never came.', 40)],
     b: [X('cap', 'bs', 'הוריו ראו שאנחנו אוכלים במחלקה הכשרה, ואסרו עליו לשחק איתי.', 'His parents saw that we ate in the kosher section, and forbade him to play with me.', 66)],
-    d: [X('cap', 'bs', 'זו הייתה הפעם הראשונה שהרגשתי את הכאב הזה.', 'It was the first time I felt that kind of pain.', 92)]
+    d: [X('cap', 'bs', 'זו הייתה הפעם הראשונה שהרגשתי את הכאב הזה.', 'It was the first time I felt that kind of pain.', 82, { x: 10 })]
   };
   TX[9] = {
     a: [X('cap', 'ts', 'יום אחד הים התחיל להתנדנד. סערה קלה.', 'One day the sea began to rock. A light storm.', 38)],
@@ -1300,13 +1300,62 @@ html.loading, html.loading body { overflow: hidden; }
       X('cap', 'bs', 'ובעיני הנכדים שלו, באבא היה תמיד הגיבור הכי גדול.', 'And in the eyes of his grandchildren, Baba was always the biggest hero of all.', 56)]
   };
 
+
+  /* ===================== print edition: every page fills a whole A4 sheet (opened with ?print) ===================== */
+  var PRINT = /[?&]print\b/.test(location.search), PH = 143.5;
+  function scaleTree(n, f) {
+    if (typeof n === 'string') return n;
+    var o = {}; Object.keys(n).forEach(function (k) { o[k] = n[k]; });
+    if (Array.isArray(n.h)) o.h = n.h.map(function (q) { return [q[0], q[1] * f]; });
+    else if (n.h != null) { o.h = n.h * f; o.s = (n.s || 0) * f; }
+    if (Array.isArray(n.v)) o.v = n.v.map(function (q) { return [q[0], q[1] * f]; });
+    else if (n.v != null) { o.s = (n.s || 0) / f; if (n.ref != null) o.ref = n.ref * f; }
+    if (n.mo) o.mo = n.mo * f;
+    o.a = scaleTree(n.a, f); o.b = scaleTree(n.b, f);
+    return o;
+  }
+  /* pages built from floating pieces get a layout that covers the sheet */
+  var PTREE = {
+    7: { h: 82, s: .06, a: 'a', b: { v: 52, s: .15, a: 'b', b: 'c' } },
+    8: { h: 54, s: .04, a: 'a', b: { h: 98, s: -.05, a: 'b', b: { v: 46, s: .12, a: 'c', b: 'd' } } },
+    12: { h: 26, s: .04, a: 'a', b: { h: 62, s: .05, a: 'b', b: { h: 98, s: -.05, a: 'c', b: 'd' } } },
+    14: { h: 44, mo: 12, a: 'a', b: { h: 100, s: .05, a: 'b', b: { v: 50, s: -.12, a: 'c', b: 'd' } } },
+    17: { h: 24, s: .04, a: 'a', b: { h: 54, s: .05, a: 'b', b: { h: 90, s: -.05, a: 'c', b: 'd' } } },
+    20: { h: 74, s: .06, a: 'a', b: { v: 50, s: .2, a: 'b', b: 'c' } },
+    23: { h: 86, s: .05, a: 'a', b: 'b' }
+  };
+  /* framing that only the print layout needs */
+  var PP = { 12: { b: { fy: 12 } } };
+  function printGeo(n, g) {
+    var o = {}; Object.keys(g).forEach(function (k) { o[k] = g[k]; });
+    if (PP[n]) { o.P = {}; Object.keys(g.P || {}).forEach(function (id) { o.P[id] = g.P[id]; }); Object.keys(PP[n]).forEach(function (id) { var q = {}; Object.keys(o.P[id] || {}).forEach(function (k) { q[k] = o.P[id][k]; }); Object.keys(PP[n][id]).forEach(function (k) { q[k] = PP[n][id][k]; }); o.P[id] = q; }); }
+    var f = PH / g.H;
+    o.H = PH;
+    if (PTREE[n]) { o.tree = PTREE[n]; o.free = []; }
+    else if (n === 24) {
+      o.tree = null;
+      o.free = [{ id: 'a', poly: [[0, 0], [100, 0], [100, 84], [0, 88]] }, { id: 'z', x: 66, y: 70, w: 30, h: 30, circle: true },
+        { id: 'L', poly: [[0, 90.4], [100, 86.4], [100, PH], [0, PH]], extra: { id: 'L', card: true, shot: '', chars: [], pal: 'warm', text: [] } }];
+    } else {
+      o.tree = g.tree ? scaleTree(g.tree, f) : null;
+      o.free = (g.free || []).map(function (fr) {
+        var q = {}; Object.keys(fr).forEach(function (k) { q[k] = fr[k]; });
+        if (fr.poly) q.poly = fr.poly.map(function (pt) { return [pt[0], pt[1] * f]; });
+        else if (fr.rot != null) q.cy = fr.cy * f;
+        else q.y = fr.y * f;
+        return q;
+      });
+    }
+    o.L = {}; Object.keys(g.L || {}).forEach(function (id) { var l = g.L[id]; o.L[id] = { x: l.x, y: l.y * f, w: l.w, h: l.h }; });
+    return o;
+  }
   var AUTO_EN = ['zoom', 's', 'e', 'wipe', 'rise', 'iris', 's', 'e'];
   PAGES.forEach(function (pg, i) {
     var spec = STORY[i + 1];
     if (!spec) return;
     var lay = layoutTiers(spec), n = i + 1;
     if (GEO[n]) {
-      applyGeo(n, lay, GEO[n]);
+      applyGeo(n, lay, PRINT ? printGeo(n, GEO[n]) : GEO[n]);
       var rows = TX[n] || {};
       lay.panels.forEach(function (p, k) {
         if (rows[p.id]) p.text = rows[p.id];
@@ -1331,6 +1380,11 @@ html.loading, html.loading body { overflow: hidden; }
       }
     });
   });
+  if (PRINT) {
+    var f1 = PH / PAGES[0].H;
+    PAGES[0].panels.forEach(function (p) { p.y = +(p.y * f1).toFixed(2); if (!p.circle) p.h = +(p.h * f1).toFixed(2); });
+    PAGES[0].H = PH;
+  }
   var N = PAGES.length;
   var dirty = {};
   var origStr = JSON.parse(JSON.stringify(STR));
