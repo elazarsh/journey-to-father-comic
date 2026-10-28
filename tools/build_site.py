@@ -32,6 +32,11 @@ page = page.replace('\n</head>\n<body>\n', '\n', 1)
 style_end = page.index('</style>') + len('</style>')
 page = page[:style_end] + '\n</head>\n<body>' + page[style_end:]
 
+# the public book is for reading only: the layout studio and director mode stay in the private viewer
+tools = '<div class="tools">'
+assert page.count(tools) == 1
+page = page.replace(tools, '<div class="tools" style="display:none" aria-hidden="true">')
+
 if SITE.exists():
     shutil.rmtree(SITE)
 (SITE / 'art').mkdir(parents=True)
