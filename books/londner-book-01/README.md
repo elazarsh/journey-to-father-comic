@@ -16,4 +16,4 @@
 
 לרענון ה־HTML לאחר עדכון איורים: `python tools/render.py`. נדרשת ספריית Pillow. לבדיקה: `python tools/verify.py`.
 
-יעד המסירה הוא המאגר הפרטי elazarsh/journey-to-father-comic, בענף codex/londner-book-01-production ובתיקייה books/londner-book-01. תיעוד אימות ההעלאה נשמר בקובץ production/github-receipt.json כשאימות מרחוק הושלם. אין לפרסם חומר משפחתי או תצלומי מקור באתר ציבורי.
+יעד המסירה הוא המאגר הפרטי elazarsh/journey-to-father-comic, בענף codex/londner-book-01-ready ובתיקייה books/londner-book-01. תיעוד אימות ההעלאה נשמר בקובץ production/github-receipt.json כשאימות מרחוק הושלם. אין לפרסם חומר משפחתי או תצלומי מקור באתר ציבורי.
