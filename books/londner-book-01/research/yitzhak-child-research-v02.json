@@ -1,0 +1,237 @@
+{
+  "person": "יצחק מאיר לונדנר",
+  "version": "0.2",
+  "checked_on": "2026-10-29",
+  "scope": "מחקר מקומי בלבד. לא נערך חיפוש רשת, לא נוצרו איורים ולא שונו קובצי קטלוג, אמנות או דוח0.1.",
+  "new_findings": [
+    {
+      "kind": "new_identification_of_existing_asset",
+      "asset_id": "S08-img009",
+      "file": "working/images/S08-img009.jpg",
+      "caption": "הילד הגדול הוא סבא יצחק השאר כנראה האחים שלו",
+      "source": "sources/raw/S08.docx",
+      "xml_image_paragraph": 116,
+      "xml_caption_paragraph": 117,
+      "source_context": "תחילת זיכרונות דף1",
+      "visual_evidence": "working/photo-identification/child-v02-source-page-013.png",
+      "identity_confidence": "explicit_family_caption",
+      "position_interpretation": "הנער הגבוה בצד ימין מאחור, בכובע כהה גבוה ובז׳קט",
+      "position_confidence": "visual_interpretation_of_oldest_child_not_explicit_position_caption",
+      "age": null,
+      "photo_year": null,
+      "other_children": "כנראה האחים, לפי ספק מפורש בכיתוב; אין שמות מאומתים.",
+      "not_family_firstborn": true
+    }
+  ],
+  "correction_to_v01": "הדוח הקודם החמיץ את הכיתוב ליד009. המסקנה הגורפת שלא נמצא תצלום ילדות מזוהה אינה מדויקת. עדיין אין תצלום בעל גיל מאומת דווקא בגיל8עד11.",
+  "age_guards": [
+    "אין להסיק גיל או שנה מתוך גודל הגוף בתמונה009.",
+    "הילד הגדול בתמונה אינו הבכור במשפחה; חיים, ראובן וחוה מבוגרים מיצחק.",
+    "גיל17 מתייחס לכיתוב החייל007/013, לא ל001.",
+    "תאריך התעודהS22 אינו תאריך צילום הדיוקן."
+  ],
+  "appearance_quotes": [
+    {
+      "page": 29,
+      "text": "הייתי ילד בן שלוש עשרה, ארבע עשרה.",
+      "category": "age_context",
+      "interpretation": "גיל ההקשר בלודז׳; אינו גיל מאומת של תצלום.",
+      "source": "S08-memoir-29",
+      "exact_match_checked": true
+    },
+    {
+      "page": 30,
+      "text": "כאן קרוב יש ספר והוא יספר אותך על חשבוני, הוא יוריד לך קצת מהפאות",
+      "category": "hair",
+      "interpretation": "עדות לפאות בנעוריו. הצעת תספורת, ללא אישור שבוצעה.",
+      "source": "S08-memoir-30",
+      "exact_match_checked": true
+    },
+    {
+      "page": 33,
+      "text": "מלבושים לא היה חסר לי לשנים. בלודז' הייתי לבוש כהוגן, בגלל שבאנו בין אנשים גדולים וחשובים.",
+      "category": "clothing",
+      "interpretation": "לבוש מסודר בתקופת לודז׳.",
+      "source": "S08-memoir-33",
+      "exact_match_checked": true
+    },
+    {
+      "page": 7,
+      "text": "אוכל לא היה חוסר ב\"ה. לא היינו עשירים, רק בעלי פרנסה.",
+      "category": "household_context",
+      "interpretation": "אין להסיק רעב קבוע בילדות.",
+      "source": "S08-memoir-7",
+      "exact_match_checked": true
+    },
+    {
+      "page": 7,
+      "text": "אמי ע\"ה הייתה עוברת על הבגדים של הילדים, לזה כפתור ולזה הכיס",
+      "category": "clothing",
+      "interpretation": "טיפול ותיקון בגדים בבית.",
+      "source": "S08-memoir-7",
+      "exact_match_checked": true
+    },
+    {
+      "page": 21,
+      "text": "כותונת ארבע כנפות, מפה, סדין וגם חולצה חמה על הכותונת",
+      "category": "laundry_clothing",
+      "interpretation": "פריטים בחבילות כביסה למשפחה, לא מערכת לבוש יומיומית מדויקת ליצחק.",
+      "source": "S08-memoir-21",
+      "exact_match_checked": true
+    },
+    {
+      "page": 10,
+      "text": "לא לבשתי נעליים רק עם תחבושת וכך הלכתי לחיידר.",
+      "category": "illness_scene",
+      "interpretation": "מצב הרגליים בתקופת טיפול, ללא מידע על פניו.",
+      "source": "S08-memoir-10",
+      "exact_match_checked": true
+    },
+    {
+      "page": 11,
+      "text": "קשרו לי את הרגליים עם תחבושות הרבה, ולבשתי הנעליים של אמי.",
+      "category": "illness_scene",
+      "interpretation": "פרט לסצנה מסוימת, לא מאפיין קבוע לכל הילדות.",
+      "source": "S08-memoir-11",
+      "exact_match_checked": true
+    },
+    {
+      "page": 51,
+      "text": "לחוה הייתה יד רזה, גבוהה הייתה מכל הבנות",
+      "category": "exclude_other_person",
+      "interpretation": "מתייחס לחוה, לא ליצחק.",
+      "source": "S08-memoir-51",
+      "exact_match_checked": true
+    },
+    {
+      "page": 148,
+      "text": "הכלה הייתה מאוד רזה",
+      "category": "exclude_other_person",
+      "interpretation": "מתייחס לכלה אחרת, לא ליצחק.",
+      "source": "S08-memoir-148",
+      "exact_match_checked": true
+    }
+  ],
+  "negative_findings": [
+    "לא נמצא תיאור עצמי מילולי של צורת האף, האוזניים, המצח או הפנים בילדות.",
+    "לא נמצא תיאור עצמי מילולי של רזון או צבע עיניים בילדות.",
+    "תיאור רזון חוה בדפים51–52 אינו תיאור יצחק.",
+    "המחלה והחבישות אינן עדות לפנים כחושות או למראה חולה בכל השנים."
+  ],
+  "visual_observations": [
+    {
+      "assets": [
+        "S08-img001",
+        "S08-img009"
+      ],
+      "observation": "פנים צרות ומאורכות יחסית, לסת לא רחבה ולחיים שאינן מלאות מאוד.",
+      "status": "editorial_visual_observation_not_measurement"
+    },
+    {
+      "assets": [
+        "S08-img001"
+      ],
+      "observation": "אוזניים נראות משני צדי הראש; עיניים מאופקות יותר מעיני דמות מצוירת מוגדלות; האף אינו קטן ומורם מאוד.",
+      "status": "editorial_visual_observation_not_measurement"
+    }
+  ],
+  "quality_checks": {
+    "embedded_media": [
+      {
+        "asset_ids": [
+          "S08-img001",
+          "S08-img012"
+        ],
+        "source_media": "word/media/image1.jpeg",
+        "width": 313,
+        "height": 371,
+        "bytes": 43402,
+        "sha256": "bd2cd1805added703c7c72125e12c36017744010c4ff2d469ba9c3d02f06e017",
+        "exif": {},
+        "descriptive_metadata_found": false
+      },
+      {
+        "asset_ids": [
+          "S08-img007"
+        ],
+        "source_media": "word/media/image6.jpeg",
+        "width": 508,
+        "height": 812,
+        "bytes": 106404,
+        "sha256": "b936bb757f74acc055366572782f701fc2378fcc3110501af31149397b99b34b",
+        "exif": {},
+        "descriptive_metadata_found": false
+      },
+      {
+        "asset_ids": [
+          "S08-img013"
+        ],
+        "source_media": "word/media/image11.jpeg",
+        "width": 1080,
+        "height": 1566,
+        "bytes": 56597,
+        "sha256": "4a071e7772aa1e54914cd8adddb4add5226135ff7b302f34aa93e9d481fa1d05",
+        "exif": {},
+        "descriptive_metadata_found": false
+      },
+      {
+        "asset_ids": [
+          "S08-img009"
+        ],
+        "source_media": "word/media/image8.jpeg",
+        "width": 614,
+        "height": 975,
+        "bytes": 142228,
+        "sha256": "d97fa45edfcc4097c0ace7981b9571f52a2e3f1d4bd253ce3be6fbaa4a8ec213",
+        "exif": {},
+        "descriptive_metadata_found": false
+      }
+    ],
+    "portrait001_larger_copy_found": false,
+    "portrait001_012": "שתי ההופעות משתמשות באותו קובץ מקור. אין שיפור איכות ביניהן.",
+    "soldier007_013": "אותו דיוקן בשני עיבודים שונים.013 גדול יותר בפיקסלים; אין הוכחה לסריקה חדשה או לפרטים עצמאיים מעבר לעיבוד.",
+    "S22": {
+      "native_pixels": [
+        3507,
+        2480
+      ],
+      "native_file": "working/photo-identification/S22-native.jpg",
+      "finding": "מקור הסריקה פגוע. מספר הפיקסלים בדף אינו חדות הפנים. אין יתרון ברור על001 לציור פרטים."
+    },
+    "metadata": {
+      "checked": [
+        "wp:docPr",
+        "a:cNvPr",
+        "descr",
+        "title",
+        "textboxes",
+        "media filenames",
+        "JPEG EXIF"
+      ],
+      "young_photo_identity_or_date_in_alt": false,
+      "young_photo_filenames_descriptive": false,
+      "child_photo_identity_in_textbox": true,
+      "other_image_original_paths_found": true,
+      "other_paths_note": "נמצאו נתיבי קובץ תיאוריים לתמונות אחרות, לא עותק צעיר נוסף."
+    }
+  },
+  "known_findings_not_new": [
+    "001 הוא דיוקן צעיר בכובע ללא גיל צילום מאומת.",
+    "007/013 הוא דיוקן במדים עם כיתוב גיל17.",
+    "S07 מתעד עיניים חומות ושיער חום כהה בשנות הארבעים."
+  ],
+  "recommended_reference_order": [
+    "S08-img001",
+    "S08-img009",
+    "S08-img013"
+  ],
+  "remaining_unknowns": [
+    "הגיל והשנה בתצלום009",
+    "אישור משפחתי למיקום יצחק בתצלום009",
+    "הגיל בתצלום001",
+    "מראה מדויק בגיל8עד11",
+    "פרופיל וזוויות שלא צולמו",
+    "שיער המוסתר בכובעים"
+  ],
+  "report_path": "research/yitzhak-child-research-v02.md"
+}

@@ -1,0 +1,20 @@
+{
+  "story_pages": 32,
+  "panels": 89,
+  "image_panels": 81,
+  "graphic_panels": 8,
+  "text_blocks": 112,
+  "unchanged_story_text": true,
+  "preserved_quotes": 14,
+  "new_opening_and_backcover_lines": 4,
+  "generated_current_batch": [
+    "p02-1",
+    "p03-2",
+    "p04-2"
+  ],
+  "javascript_syntax": "passed",
+  "geometry_bounds": "passed",
+  "local_asset_links": "passed",
+  "browser_visual_qa": "not run: Chromium blocked by environment setsockopt restriction",
+  "github_upload": "See production/github-receipt.json for verified remote upload status"
+}

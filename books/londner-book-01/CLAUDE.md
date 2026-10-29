@@ -1,0 +1,1 @@
+Read AGENTS.md and HANDOFF.md. This scoped book uses production/structure.html for geometry and viewer/index.html for reading. Keep lettering live and original art uncropped. A generated candidate is not family-approved art. Do not import the host repository's Emmanuel story, characters or chronology into this book.

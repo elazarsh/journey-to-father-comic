@@ -1,0 +1,1156 @@
+{
+  "languages": [
+    "he",
+    "en"
+  ],
+  "text": {
+    "p01-1-t1": {
+      "he": "לזיכרון הבנים והבת והנכדים",
+      "en": "For my sons, my daughter, and my grandchildren.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-1",
+      "id": "p01-1-t1",
+      "review_required": false
+    },
+    "p01-2-t1": {
+      "he": "מה שאני אזכור, אכתוב.",
+      "en": "I will write down what I remember.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-1",
+      "id": "p01-2-t1",
+      "review_required": false
+    },
+    "p01-2-t2": {
+      "he": "הדרך של איטשע",
+      "en": "Itshe’s Journey",
+      "status": "editorial",
+      "role": "title",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p01-2-t2",
+      "review_required": true
+    },
+    "p01-2-t3": {
+      "he": "ספר 1",
+      "en": "Book 1",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p01-2-t3",
+      "review_required": true
+    },
+    "p02-1-t1": {
+      "he": "נחזור אל ההתחלה.",
+      "en": "Let’s go back to the beginning.",
+      "status": "editorial",
+      "role": "frame",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p02-1-t1",
+      "review_required": true
+    },
+    "p02-1-t2": {
+      "he": "פולין. ראשית המאה העשרים.",
+      "en": "Poland. The early twentieth century.",
+      "status": "editorial",
+      "role": "frame",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p02-1-t2",
+      "review_required": true
+    },
+    "p02-1-t3": {
+      "he": "יונדזיוב, ליד קילצה.",
+      "en": "Jędrzejów, near Kielce.",
+      "status": "editorial",
+      "role": "frame",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p02-1-t3",
+      "review_required": true
+    },
+    "p02-1-t4": {
+      "he": "בית קטן. משפחה גדולה.",
+      "en": "A small home. A large family.",
+      "status": "editorial",
+      "role": "frame",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p02-1-t4",
+      "review_required": true
+    },
+    "p02-1-t5": {
+      "he": "שמי יצחק מאיר לונדנר. קראו לי איטשע.",
+      "en": "My name is Yitzhak Meir Londner. They called me Itshe.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p02-1-t5",
+      "review_required": true
+    },
+    "p03-1-t1": {
+      "he": "הייתה לנו חנות עורות וצרכי סנדלרות, ולצדה חדר קטן.",
+      "en": "We had a shop selling leather and shoemaking supplies, with a small room beside it.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p03-1-t1",
+      "review_required": true
+    },
+    "p03-2-t1": {
+      "he": "בערב הכינו לנו מקום לישון גם בחנות.",
+      "en": "In the evening, sleeping places were made for us in the shop.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p03-2-t1",
+      "review_required": true
+    },
+    "p03-3-t1": {
+      "he": "אחרי שנרדמנו, אמא עוד תיקנה את הבגדים שלנו.",
+      "en": "After we fell asleep, Mother was still mending our clothes.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p03-3-t1",
+      "review_required": true
+    },
+    "p04-1-t1": {
+      "he": "הרגליים שלי לא החלימו. הייתי צריך לשכב במיטה.",
+      "en": "My feet were not healing. I had to stay in bed.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p04-1-t1",
+      "review_required": true
+    },
+    "p04-2-t1": {
+      "he": "כתב לי עם עיפרון, ואני עברתי על זה עם דיו",
+      "en": "He wrote for me in pencil, and I traced over it in ink.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-10",
+      "id": "p04-2-t1",
+      "review_required": false
+    },
+    "p04-3-t1": {
+      "he": "הביאו לי לקרוא עיתונים ששימשו לעטיפת סחורה.",
+      "en": "They brought me newspapers that had been used to wrap goods.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p04-3-t1",
+      "review_required": true
+    },
+    "p05-1-t1": {
+      "he": "אבא נסע איתי לטיפול בוורשה, ואחר כך גם בווינה.",
+      "en": "Father took me for treatment in Warsaw, and later in Vienna.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p05-1-t1",
+      "review_required": true
+    },
+    "p05-2-t1": {
+      "he": "אבא חזר הביתה. אני נשארתי בבית החולים.",
+      "en": "Father went home. I stayed in the hospital.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p05-2-t1",
+      "review_required": true
+    },
+    "p05-3-t1": {
+      "he": "אישה יהודייה לקחה אותי לבית הכנסת של בית החולים.",
+      "en": "A Jewish woman took me to the hospital’s synagogue.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p05-3-t1",
+      "review_required": true
+    },
+    "p05-4-t1": {
+      "he": "אחרי שהרגל התרפאה,  אבא חזר, ולקח אותי הביתה.",
+      "en": "After my foot healed, Father came back and took me home.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-19",
+      "id": "p05-4-t1",
+      "review_required": false
+    },
+    "p06-1-t1": {
+      "he": "כשהייתי צעיר נפטרו אמא ואבא.",
+      "en": "Mother and Father died while I was still young.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p06-1-t1",
+      "review_required": true
+    },
+    "p06-2-t1": {
+      "he": "האחים והאחיות התפזרו בין קרובים ומקומות שונים.",
+      "en": "My brothers and sisters were scattered among relatives in different places.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p06-2-t1",
+      "review_required": true
+    },
+    "p06-3-t1": {
+      "he": "1914. מלחמת העולם הראשונה פורצת.",
+      "en": "1914. The First World War begins.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p06-3-t1",
+      "review_required": true
+    },
+    "p07-1-t1": {
+      "he": "חזרתי לעירנו בדרכים קשות. היינו צריכים למצוא ממה לחיות.",
+      "en": "I returned to our town along difficult roads. We had to find a way to live.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p07-1-t1",
+      "review_required": true
+    },
+    "p07-2-t1": {
+      "he": "נלקחנו גם לעבודות דרך. בהמשך עבדתי עם מודדים.",
+      "en": "We were also taken for road work. Later, I worked with surveyors.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p07-2-t1",
+      "review_required": true
+    },
+    "p07-3-t1": {
+      "he": "ידעתי גרמנית, ועזרתי בתרגום בין המהנדס לחקלאים.",
+      "en": "I knew German and helped translate between the engineer and the farmers.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p07-3-t1",
+      "review_required": true
+    },
+    "p08-1-t1": {
+      "he": "התאהבתי מאוד בחקלאות",
+      "en": "I fell in love with farming.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-35",
+      "id": "p08-1-t1",
+      "review_required": false
+    },
+    "p08-2-t1": {
+      "he": "רציתי לנסוע לארץ ישראל ולהיות חקלאי.",
+      "en": "I wanted to go to the Land of Israel and become a farmer.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p08-2-t1",
+      "review_required": true
+    },
+    "p08-2-t2": {
+      "he": "אבל עדיין לא היה לי דרכון.",
+      "en": "But I still had no passport.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p08-2-t2",
+      "review_required": true
+    },
+    "p09-1-t1": {
+      "he": "1920. שחרור מן השירות הראשון בצבא הפולני.",
+      "en": "1920. Release from my first service in the Polish army.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p09-1-t1",
+      "review_required": true
+    },
+    "p09-1-t2": {
+      "he": "הדרך לארץ עוד לא נפתחה.",
+      "en": "The way to the Land of Israel was still not open.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p09-1-t2",
+      "review_required": true
+    },
+    "p09-2-t1": {
+      "he": "1922. חוה ואני מתחתנים.",
+      "en": "1922. Chava and I marry.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p09-2-t1",
+      "review_required": true
+    },
+    "p09-3-t1": {
+      "he": "בנינו משפחה ועבדנו. נקראתי שוב לצבא, ואחר כך השתחררתי.",
+      "en": "We built a family and worked. I was called into the army again, and later released.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p09-3-t1",
+      "review_required": true
+    },
+    "p10-1-t1": {
+      "he": "שנים שמרתי המלצות וביקשתי אישור לעלות לארץ.",
+      "en": "For years I kept recommendations and sought permission to immigrate.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p10-1-t1",
+      "review_required": true
+    },
+    "p10-2-t1": {
+      "he": "בוורשה בדקו את הבקשות ואת ההמלצות שלי.",
+      "en": "In Warsaw, they examined my applications and recommendations.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p10-2-t1",
+      "review_required": true
+    },
+    "p10-3-t1": {
+      "he": "1925. קיבלתי אישור עלייה.",
+      "en": "1925. My immigration permit was approved.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p10-3-t1",
+      "review_required": true
+    },
+    "p11-1-t1": {
+      "he": "ארזתי פרימוס, אוכל יבש, שמיכות וכרים.",
+      "en": "I packed a Primus stove, dry food, blankets, and pillows.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p11-1-t1",
+      "review_required": true
+    },
+    "p11-2-t1": {
+      "he": "נסענו עם בתנו חנה רוזא. קראנו לה חנהצ׳ילה.",
+      "en": "Our daughter Chana Roza came with us. We called her Chanele.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p11-2-t1",
+      "review_required": true
+    },
+    "p11-3-t1": {
+      "he": "מוורשה נסענו ברכבת לקונסטנצה, אל האונייה.",
+      "en": "From Warsaw, we took a train to Constanța, to reach the ship.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p11-3-t1",
+      "review_required": true
+    },
+    "p12-1-t1": {
+      "he": "הפלגנו באונייה אסיה, בערב סוכות.",
+      "en": "We sailed on the Asia on the eve of Sukkot.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p12-1-t1",
+      "review_required": true
+    },
+    "p12-2-t1": {
+      "he": "אין לשער את שמחתנו.",
+      "en": "Our joy was beyond words.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-61",
+      "id": "p12-2-t1",
+      "review_required": false
+    },
+    "p12-2-t2": {
+      "he": "הגענו לארץ בחול המועד סוכות.",
+      "en": "We reached the country during Sukkot.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p12-2-t2",
+      "review_required": true
+    },
+    "p13-1-t1": {
+      "he": "בארץ שלטו אז הבריטים. מדינת ישראל עוד לא קמה.",
+      "en": "Britain governed the country then. The State of Israel did not yet exist.",
+      "status": "editorial",
+      "role": "context",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p13-1-t1",
+      "review_required": true
+    },
+    "p13-1-t2": {
+      "he": "קיבלנו מקום לינה זמני וארוחה.",
+      "en": "We were given a temporary place to sleep and a meal.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p13-1-t2",
+      "review_required": true
+    },
+    "p13-2-t1": {
+      "he": "חשבתי שהדבר הלבן בצלחת הוא אטריות. זו הייתה חלבה.",
+      "en": "I thought the white food on the plate was noodles. It was halva.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p13-2-t1",
+      "review_required": true
+    },
+    "p13-3-t1": {
+      "he": "עכשיו היינו צריכים למצוא בית ועבודה.",
+      "en": "Now we had to find a home and work.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p13-3-t1",
+      "review_required": true
+    },
+    "p14-1-t1": {
+      "he": "קרוב משפחה עזר לי לחפש מקום לגור.",
+      "en": "A relative helped me find a place to live.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p14-1-t1",
+      "review_required": true
+    },
+    "p14-2-t1": {
+      "he": "איטשע איטשע",
+      "en": "Itshe! Itshe!",
+      "status": "quote",
+      "role": "speech",
+      "speaker": "אליהו",
+      "source": "S08-memoir-62",
+      "id": "p14-2-t1",
+      "review_required": false
+    },
+    "p14-3-t1": {
+      "he": "אליהו עזר לי לקבל עבודה. אחר כך היו גם ימים בלי עבודה קבועה.",
+      "en": "Eliyahu helped me get work. Later, there were also days without steady work.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p14-3-t1",
+      "review_required": true
+    },
+    "p15-1-t1": {
+      "he": "גם בלטשע, אחותה של חוה, ובעלה שמעון הגיעו לארץ.",
+      "en": "Bletshe, Chava’s sister, and her husband Shimon also came to the country.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p15-1-t1",
+      "review_required": true
+    },
+    "p15-2-t1": {
+      "he": "כאן נולדה בתם אסתר.",
+      "en": "Their daughter Esther was born here.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p15-2-t1",
+      "review_required": true
+    },
+    "p15-3-t1": {
+      "he": "אסתר היא בת אחותה של חוה.",
+      "en": "Esther is Chava’s niece.",
+      "status": "editorial",
+      "role": "relationship",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p15-3-t1",
+      "review_required": true
+    },
+    "p16-1-t1": {
+      "he": "1928. חנה רוזא נפטרה אחרי מחלה.",
+      "en": "1928. Chana Roza died after an illness.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p16-1-t1",
+      "review_required": true
+    },
+    "p16-1-t2": {
+      "he": "לא הצלחנו להציל אותה.",
+      "en": "We could not save her.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p16-1-t2",
+      "review_required": true
+    },
+    "p16-2-t1": {
+      "he": "ב־1929 נולדה חיה. ב־1930 נולד מנחם.",
+      "en": "Chaya was born in 1929. Menachem was born in 1930.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p16-2-t1",
+      "review_required": true
+    },
+    "p16-3-t1": {
+      "he": "בנינו חדר משלנו, והוספתי מרפסת ומטבח.",
+      "en": "We built a room of our own, and I added a porch and a kitchen.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p16-3-t1",
+      "review_required": true
+    },
+    "p16-3-t2": {
+      "he": "עדיין רציתי לעבוד את האדמה.",
+      "en": "I still wanted to work the land.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p16-3-t2",
+      "review_required": true
+    },
+    "p17-1-t1": {
+      "he": "עזרתי לאחי ראובן להגיע ולהתבסס בארץ.",
+      "en": "I helped my brother Reuven come and establish himself here.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p17-1-t1",
+      "review_required": true
+    },
+    "p17-2-t1": {
+      "he": "פעלתי גם כדי שמשפחתו תוכל להצטרף אליו.",
+      "en": "I also worked so that his family could join him.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p17-2-t1",
+      "review_required": true
+    },
+    "p17-3-t1": {
+      "he": "משפחתה של אסתר חזרה לאירופה. היא הייתה איתם.",
+      "en": "Esther’s family returned to Europe. She was with them.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p17-3-t1",
+      "review_required": true
+    },
+    "p18-1-t1": {
+      "he": "הרשל, בנו של אחי חיים, רצה לבוא לארץ.",
+      "en": "Hershel, my brother Chaim’s son, wanted to come to the country.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p18-1-t1",
+      "review_required": true
+    },
+    "p18-2-t1": {
+      "he": "ניסינו לאסוף כסף ולעזור לו להגיע.",
+      "en": "We tried to raise money and help him come.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p18-2-t1",
+      "review_required": true
+    },
+    "p18-3-t1": {
+      "he": "1939. מלחמת העולם השנייה פורצת.",
+      "en": "1939. The Second World War begins.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p18-3-t1",
+      "review_required": true
+    },
+    "p18-4-t1": {
+      "he": "ומלחמה פרצה!! יותר לא ידענו",
+      "en": "And war broke out. We no longer knew.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-91",
+      "id": "p18-4-t1",
+      "review_required": false
+    },
+    "p18-4-t2": {
+      "he": "לא ידעתי אם הכסף הגיע.",
+      "en": "I did not know whether the money had arrived.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p18-4-t2",
+      "review_required": true
+    },
+    "p19-1-t1": {
+      "he": "1943. המלחמה עדיין נמשכת.",
+      "en": "1943. The war is still going on.",
+      "status": "editorial",
+      "role": "tag",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p19-1-t1",
+      "review_required": true
+    },
+    "p19-2-t1": {
+      "he": "אחרי שנים במחסן, הודיעו לי שאני מפוטר.",
+      "en": "After years at the warehouse, I was told I was being dismissed.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p19-2-t1",
+      "review_required": true
+    },
+    "p19-3-t1": {
+      "he": "חשבתי שהגיע הזמן לנסות לעבור לחקלאות.",
+      "en": "I thought it was time to try moving into farming.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p19-3-t1",
+      "review_required": true
+    },
+    "p20-1-t1": {
+      "he": "אחרי מאבק הגענו לפשרה על הפיצויים.",
+      "en": "After a struggle, we reached a compromise over compensation.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p20-1-t1",
+      "review_required": true
+    },
+    "p20-2-t1": {
+      "he": "נסעתי עם חיה לעמק לחפש משק.",
+      "en": "I traveled with Chaya to the valley to look for a farm.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p20-2-t1",
+      "review_required": true
+    },
+    "p20-3-t1": {
+      "he": "בעזרת חסכונות, רכוש והלוואה קנינו משק בכפר ברוך.",
+      "en": "Using savings, property, and a loan, we bought a farm in Kfar Baruch.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p20-3-t1",
+      "review_required": true
+    },
+    "p21-1-t1": {
+      "he": "לא ידעתי איך פותחים מחרשה.",
+      "en": "I did not know how to open a plow.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-105",
+      "id": "p21-1-t1",
+      "review_required": false
+    },
+    "p21-2-t1": {
+      "he": "מנחם שיחק במחרשה. הידית קפצה למעלה.",
+      "en": "Menachem played with the plow. The handle sprang up.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p21-2-t1",
+      "review_required": true
+    },
+    "p21-3-t1": {
+      "he": "וכך ידענו איך לפתוח.",
+      "en": "And that was how we learned to open it.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-106",
+      "id": "p21-3-t1",
+      "review_required": false
+    },
+    "p21-4-t1": {
+      "he": "גם חיה למדה אצל אחרים ועזרה לנו ללמוד.",
+      "en": "Chaya also learned from others and helped us learn.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p21-4-t1",
+      "review_required": true
+    },
+    "p22-1-t1": {
+      "he": "אפינו לחם מחיטה שלא הייתה טובה. הלחם יצא מר.",
+      "en": "We baked bread from poor wheat. The bread tasted bitter.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p22-1-t1",
+      "review_required": true
+    },
+    "p22-2-t1": {
+      "he": "אספנו אבנים וסידרנו דרך בחצר, כדי לא לשקוע בבוץ.",
+      "en": "We gathered stones and made a path across the yard so we would not sink into the mud.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p22-2-t1",
+      "review_required": true
+    },
+    "p22-3-t1": {
+      "he": "עבדנו גם אצל אחרים, ועזרנו זה לזה.",
+      "en": "We also worked for others and helped one another.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p22-3-t1",
+      "review_required": true
+    },
+    "p23-1-t1": {
+      "he": "גנבו לנו את הסוסים.",
+      "en": "Our horses were stolen.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p23-1-t1",
+      "review_required": true
+    },
+    "p23-2-t1": {
+      "he": "בלי סוסים, זה היה לנו כמו בלי ידיים.",
+      "en": "Without horses, it was as if we had no hands.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-108",
+      "id": "p23-2-t1",
+      "review_required": false
+    },
+    "p23-3-t1": {
+      "he": "כתבתי לקרובים בחוץ לארץ וביקשתי עזרה.",
+      "en": "I wrote to relatives abroad and asked for help.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p23-3-t1",
+      "review_required": true
+    },
+    "p24-1-t1": {
+      "he": "מלחמת העולם השנייה הסתיימה באירופה ב־1945.",
+      "en": "The Second World War ended in Europe in 1945.",
+      "status": "editorial",
+      "role": "context",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p24-1-t1",
+      "review_required": true
+    },
+    "p24-1-t2": {
+      "he": "בשואה איבדנו בני משפחה.",
+      "en": "We lost family members in the Holocaust.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p24-1-t2",
+      "review_required": true
+    },
+    "p24-2-t1": {
+      "he": "נודע לנו שאסתר נשארה בחיים. הגיע ממנה מכתב מגרמניה.",
+      "en": "We learned that Esther had survived. A letter from her arrived from Germany.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p24-2-t1",
+      "review_required": true
+    },
+    "p24-3-t1": {
+      "he": "התחלתי לפעול כדי להביא אותה לארץ.",
+      "en": "I began working to bring her to the country.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p24-3-t1",
+      "review_required": true
+    },
+    "p25-1-t1": {
+      "he": "אסתר נולדה בארץ. הבאתי תעודת לידה.",
+      "en": "Esther had been born here. I obtained a birth certificate.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p25-1-t1",
+      "review_required": true
+    },
+    "p25-2-t1": {
+      "he": "ביקשו אישורים. שאלו אם אוכל לדאוג לפרנסתה.",
+      "en": "Documents were required. I was asked whether I could provide for her.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p25-2-t1",
+      "review_required": true
+    },
+    "p25-3-t1": {
+      "he": "אספתי את המסמכים שהיו דרושים.",
+      "en": "I gathered the documents that were needed.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p25-3-t1",
+      "review_required": true
+    },
+    "p26-1-t1": {
+      "he": "קיבלתי עזרה ושאלתי איך לחלק אותה: למשק או לקרובים בגרמניה.",
+      "en": "I received help and asked how to divide it: between the farm and relatives in Germany.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p26-1-t1",
+      "review_required": true
+    },
+    "p26-2-t1": {
+      "he": "רגע למחשבה",
+      "en": "A moment to think",
+      "status": "editorial",
+      "role": "question-title",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p26-2-t1",
+      "review_required": true
+    },
+    "p26-2-t2": {
+      "he": "איך יוכלו סוסים בכפר ברוך לעזור לאסתר שבגרמניה?",
+      "en": "How could horses in Kfar Baruch help Esther in Germany?",
+      "status": "editorial",
+      "role": "question",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p26-2-t2",
+      "review_required": true
+    },
+    "p26-2-t3": {
+      "he": "נמשיך ונגלה.",
+      "en": "Let’s read on and find out.",
+      "status": "editorial",
+      "role": "frame",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p26-2-t3",
+      "review_required": true
+    },
+    "p27-1-t1": {
+      "he": "קודם תקנה לך סוסים ואחרי זה תרוויח",
+      "en": "First buy yourself horses, and then you will earn.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק מצטט את יעקיל מן הזיכרון",
+      "source": "S08-memoir-111",
+      "id": "p27-1-t1",
+      "review_required": false
+    },
+    "p27-2-t1": {
+      "he": "בעזרת הקרובים יכולתי לקנות סוסים ולחזור לעבוד איתם.",
+      "en": "With my relatives’ help, I could buy horses and work with them again.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p27-2-t1",
+      "review_required": true
+    },
+    "p27-3-t1": {
+      "he": "קיבלתי אישור ושלחתי לאסתר את הניירות.",
+      "en": "I received permission and sent Esther the papers.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p27-3-t1",
+      "review_required": true
+    },
+    "p28-1-t1": {
+      "he": "הגיע מברק: אסתר באה באונייה.",
+      "en": "A telegram arrived: Esther was coming by ship.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p28-1-t1",
+      "review_required": true
+    },
+    "p28-2-t1": {
+      "he": "נסעתי לחיפה לחכות לה.",
+      "en": "I traveled to Haifa to wait for her.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p28-2-t1",
+      "review_required": true
+    },
+    "p28-3-t1": {
+      "he": "מן הנמל יצאתי בסירה אל האונייה.",
+      "en": "From the port, I went out by boat to the ship.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p28-3-t1",
+      "review_required": true
+    },
+    "p28-3-t2": {
+      "he": "וינגרטן!",
+      "en": "Weingarten!",
+      "status": "adapted",
+      "role": "speech",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p28-3-t2",
+      "review_required": true
+    },
+    "p29-1-t1": {
+      "he": "אסתר ניגשה. היא הכירה אותי לפי התמונה.",
+      "en": "Esther came forward. She recognized me from the photograph.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p29-1-t1",
+      "review_required": true
+    },
+    "p29-2-t1": {
+      "he": "השמחה הייתה  כל כך גדולה, אי אפשר לכתוב על הנייר.",
+      "en": "The joy was so great, it could not be put on paper.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-112",
+      "id": "p29-2-t1",
+      "review_required": false
+    },
+    "p30-1-t1": {
+      "he": "הבאתי אותה לכפר. השמחה הייתה גדולה.",
+      "en": "I brought her to the village. There was great joy.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p30-1-t1",
+      "review_required": true
+    },
+    "p30-2-t1": {
+      "he": "בהמשך אסתר הכירה את יחזקאל, והם התחתנו.",
+      "en": "Later, Esther met Yehezkel, and they married.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p30-2-t1",
+      "review_required": true
+    },
+    "p30-3-t1": {
+      "he": "לחתונה הבאתי יין מהענבים שלנו, מלפפונים ועגבניות מהמשק.",
+      "en": "For the wedding, I brought wine from our grapes, and cucumbers and tomatoes from the farm.",
+      "status": "adapted",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": null,
+      "id": "p30-3-t1",
+      "review_required": true
+    },
+    "p31-1-t1": {
+      "he": "אבל בלב אהבתי את כולם.",
+      "en": "But in my heart, I loved them all.",
+      "status": "quote",
+      "role": "caption",
+      "speaker": "יצחק",
+      "source": "S08-memoir-139",
+      "id": "p31-1-t1",
+      "review_required": false
+    },
+    "p31-2-t1": {
+      "he": "מה לקחתי מהמסע",
+      "en": "What I Take from the Journey",
+      "status": "editorial",
+      "role": "insights-title",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p31-2-t1",
+      "review_required": true
+    },
+    "p31-2-t2": {
+      "he": "ללמוד, גם כשעדיין איננו יודעים איך.",
+      "en": "Keep learning, even when we do not yet know how.",
+      "status": "editorial",
+      "role": "insight",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p31-2-t2",
+      "review_required": true
+    },
+    "p31-2-t3": {
+      "he": "להפוך דאגה למעשה שאפשר לעשות.",
+      "en": "Turn care into something we can do.",
+      "status": "editorial",
+      "role": "insight",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p31-2-t3",
+      "review_required": true
+    },
+    "p31-2-t4": {
+      "he": "לקבל עזרה, ולהמשיך לעזור לאחרים.",
+      "en": "Accept help, and keep helping others.",
+      "status": "editorial",
+      "role": "insight",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p31-2-t4",
+      "review_required": true
+    },
+    "p32-1-t1": {
+      "he": "בספר הבא: הבית במבחן",
+      "en": "In the Next Book: A Home Put to the Test",
+      "status": "editorial",
+      "role": "title",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p32-1-t1",
+      "review_required": true
+    },
+    "p32-1-t2": {
+      "he": "בכפר מתחילים לעבוד בטרקטורים. הילדים גדלים ויוצאים לדרכם.",
+      "en": "Tractors are coming into use in the village. The children are growing up and finding their own paths.",
+      "status": "editorial",
+      "role": "frame",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p32-1-t2",
+      "review_required": true
+    },
+    "p32-1-t3": {
+      "he": "איך ימשיך יצחק לפרנס את משפחתו כשהחיים במשק משתנים?",
+      "en": "How will Yitzhak keep supporting his family as life on the farm changes?",
+      "status": "editorial",
+      "role": "question",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p32-1-t3",
+      "review_required": true
+    },
+    "p32-1-t4": {
+      "he": "המשך יבוא.",
+      "en": "To be continued.",
+      "status": "editorial",
+      "role": "ending",
+      "speaker": "מסגרת לקוראים",
+      "source": null,
+      "id": "p32-1-t4",
+      "review_required": true
+    },
+    "front-hook-1": {
+      "id": "front-hook-1",
+      "he": "מי היה סבא, לפני שהיה סבא?",
+      "en": "Who was Grandpa before he was Grandpa?",
+      "status": "editorial",
+      "review_required": true
+    },
+    "front-hook-2": {
+      "id": "front-hook-2",
+      "he": "המחברת שלו פותחת לנו דלת.",
+      "en": "His notebook opens a door for us.",
+      "status": "editorial",
+      "review_required": true
+    },
+    "back-hook-1": {
+      "id": "back-hook-1",
+      "he": "מי היה סבא יצחק כשהיה ילד?",
+      "en": "Who was Grandpa Yitzhak as a boy?",
+      "status": "editorial",
+      "review_required": true
+    },
+    "back-hook-2": {
+      "id": "back-hook-2",
+      "he": "הזיכרונות שהשאיר לוקחים אותנו אל העולם שבו גדל.",
+      "en": "The memories he left take us into the world where he grew up.",
+      "status": "editorial",
+      "review_required": true
+    }
+  }
+}

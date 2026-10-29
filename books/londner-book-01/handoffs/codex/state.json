@@ -1,0 +1,42 @@
+{
+  "stage": "layout-led production",
+  "book": "Yitzhak Meir Londner, Book 1",
+  "layout": "production/structure.html",
+  "reader": "viewer/index.html",
+  "manifest": "production/manifest.json",
+  "generated_current_batch": [
+    "p02-1",
+    "p03-2",
+    "p04-2"
+  ],
+  "current_batch_target": [
+    "p02-1",
+    "p03-1",
+    "p03-2",
+    "p03-3",
+    "p04-1",
+    "p04-2",
+    "p04-3"
+  ],
+  "status": "production candidates, not final approved art",
+  "unresolved": "Historical review and identity details remain marked per panel; do not treat existence of an image as factual/family approval.",
+  "github_upload": "See production/github-receipt.json for verified remote upload status",
+  "selected_candidates": [
+    "p02-1",
+    "p03-2",
+    "p04-2"
+  ],
+  "rejected_attempts": [
+    "p03-1",
+    "p03-3"
+  ],
+  "next_actions": [
+    "Browser crop and bilingual lettering review",
+    "Regenerate p03-1 without cobbler",
+    "Regenerate p03-3 without waking child",
+    "Generate p04-1 and p04-3"
+  ],
+  "github_repository": "elazarsh/journey-to-father-comic",
+  "github_branch": "codex/londner-book-01-production",
+  "github_directory": "books/londner-book-01"
+}
