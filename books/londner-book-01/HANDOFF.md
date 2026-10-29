@@ -20,7 +20,7 @@
 
 ## ניהול קבצים וגיטהאב
 
-היעד הוא התיקייה books/londner-book-01 בענף codex/londner-book-01-production במאגר הפרטי elazarsh/journey-to-father-comic. ההעלאה כוללת תמונות מקור, עותקי תצוגה, מחקר, מפות HTML והנחיות. קובץ production/github-receipt.json מתעד את ה־commit ואת אימות הקבצים מרחוק לאחר השלמת המסירה.
+היעד הוא התיקייה books/londner-book-01 בענף codex/londner-book-01-ready במאגר הפרטי elazarsh/journey-to-father-comic. ההעלאה כוללת תמונות מקור, עותקי תצוגה, מחקר, מפות HTML והנחיות. קובץ production/github-receipt.json מתעד את ה־commit ואת אימות הקבצים מרחוק לאחר השלמת המסירה.
 
 אין לעדכן את main או את קובצי הספר האחר בשורש המאגר. התיקייה הזו מכילה את כל נקודות הכניסה לכלי הבא; אין צורך בסביבת העבודה המקורית כדי להמשיך בהפקה.
 
