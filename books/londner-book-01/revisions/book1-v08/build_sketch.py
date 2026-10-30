@@ -105,7 +105,11 @@ for pg in plan['pages']:
 
 ready = sum(1 for p in pages for q in p['panels'] if q['art'])
 total = sum(len(p['panels']) for p in pages)
-data = dict(pages=pages, ready=ready, total=total, title=script['title_he'], title_en=script['title_en'],
+sp = json.loads((V / 'special-pages.json').read_text(encoding='utf-8')) if (V / 'special-pages.json').exists() else None
+if sp and sp.get('coverArtId'):
+    ca = art_for(sp['coverArtId'])
+    sp['coverArt'] = ca['src'] if ca else ''
+data = dict(special=sp, pages=pages, ready=ready, total=total, title=script['title_he'], title_en=script['title_en'],
             live=not embed)
 html = (V / 'sketch-template.html').read_text(encoding='utf-8').replace(
     '/*DATA*/null', json.dumps(data, ensure_ascii=False))
@@ -136,6 +140,9 @@ if not embed:
             tag += ' · ✔ יש תמונה' if q['art'] else ''
             tag += ' · 🔁 לצייר אחרת' if q.get('verdict') == 'redirect' else ''
             L += [f"**{i}. {q['id'].replace('B01V07-', '')}**{tag}", '', f"רואים: {q['shows']}", '']
+            sh = next((x.get('shots', {}).get(q['id']) for x in plan['pages'] if x['page'] == p['n']), None)
+            if sh:
+                L += [f"צילום: {sh.get('shot')} · {sh.get('angle')} · {sh.get('subject')} · {sh.get('light')}", '']
             if q.get('purpose'):
                 L += [f"למה התמונה כאן: {q['purpose']}", '']
             for t in q['texts']:

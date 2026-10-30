@@ -1,0 +1,29 @@
+{
+ "coverArtId": "B01V07-P02-02",
+ "he": {
+  "series": "סיפורי סבא יצחק · ספר 1",
+  "title": "הדרך של איטשע",
+  "subtitle": "סיפור אמיתי בקומיקס",
+  "credit": "על פי הזיכרונות שכתב יצחק מאיר לונדנר לילדיו ולנכדיו, 1971",
+  "dedication": "לזיכרון הבנים והבת והנכדים.",
+  "dedicationNote": "כך פתח סבא יצחק את המחברת שבה כתב את זיכרונותיו, בשנת 1971.",
+  "cardTitle": "מה לקחתי מהדרך",
+  "takeaways": ["לשאול, ללמוד ולנסות.", "לשמור על יושר גם כשאיש לא בודק.", "לקבל עזרה, ולקחת אחריות."],
+  "continued": "המשך יבוא...",
+  "blurb": ["יונדזיוב, פולין, שנת 1900. ילד קטן גדל בחנות עורות שבלילה הופכת לחדר שינה.", "הוא ממשיך ללמוד גם מתוך המיטה, נוסע עם אבא אל רופאים בערים רחוקות, עובד לבד בעיר הגדולה ושומר לילה שלם על גשר.", "ולאורך כל הדרך הוא נושא איתו חלום אחד גדול.", "סיפור אמיתי, מתוך הזיכרונות שכתב סבא יצחק לילדיו ולנכדיו."],
+  "forWho": "לכל המשפחה: לילדים, להורים ולסבים"
+ },
+ "en": {
+  "series": "GRANDPA YITZHAK’S STORIES · BOOK 1",
+  "title": "Itshe’s Journey",
+  "subtitle": "A true story in comics",
+  "credit": "Based on the memoir Yitzhak Meir Londner wrote for his children and grandchildren, 1971",
+  "dedication": "In memory, for my sons, my daughter and my grandchildren.",
+  "dedicationNote": "This is how Grandpa Yitzhak opened the notebook of his memories, in 1971.",
+  "cardTitle": "What I took from the journey",
+  "takeaways": ["Ask, learn and try.", "Be honest even when no one is checking.", "Accept help, and take responsibility."],
+  "continued": "To be continued...",
+  "blurb": ["Jędrzejów, Poland, 1900. A little boy grows up in a leather shop that turns into a bedroom at night.", "He keeps learning even from his bed, travels with his father to doctors in faraway cities, works alone in the big city and keeps watch all night on a bridge.", "And all along the way he carries one big dream.", "A true story, from the memoir Grandpa Yitzhak wrote for his children and grandchildren."],
+  "forWho": "For the whole family: children, parents and grandparents"
+ }
+}
