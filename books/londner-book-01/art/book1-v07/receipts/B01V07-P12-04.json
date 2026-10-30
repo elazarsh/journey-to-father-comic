@@ -1,0 +1,13 @@
+{
+  "id": "B01V07-P12-04",
+  "file": "art/book1-v07/B01V07-P12-04.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: An illustrative family picture in the enlarged home, around 1912, golden afternoon. The father, bearded, stands near the mother, who holds the baby girl Raizel in her arms. Around them exactly eight children in total: five boys and three daughters (one of the daughters is baby Raizel). The older children are clearly distinguishable from the younger ones; the eldest son Chaim looks noticeably older. The boy Yitzhak sits to the side, his bandaged foot resting on a low stool. Camera: Wide shot from a high angle. Light and colour: Golden afternoon light. Lettering space: Leave a calm, low-detail area in the upper right of the frame, tall enough for two stacked captions, such as the plain wall above the family. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. This is the only full family picture: exactly five sons and three daughters plus father and mother, ten people in all; relative ages only. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "sha256": "ff1083e336bb1f907c4b97e115f05c91dfb4901b1c990b5574e072207aa109f7",
+  "bytes": 2263202,
+  "created_at": "2026-10-30T17:54:09.614284+00:00"
+}
