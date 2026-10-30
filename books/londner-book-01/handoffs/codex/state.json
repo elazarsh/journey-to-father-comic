@@ -18,9 +18,9 @@
     "p04-2",
     "p04-3"
   ],
-  "status": "production candidates, not final approved art",
+  "status": "Prepared approved story, bubble lettering and layout contracts; verify pre-art upload before generation",
   "unresolved": "Historical review and identity details remain marked per panel; do not treat existence of an image as factual/family approval.",
-  "github_upload": "See production/github-receipt.json for verified remote upload status",
+  "github_upload": "verified",
   "selected_candidates": [
     "p02-1",
     "p03-2",
@@ -37,6 +37,79 @@
     "Generate p04-1 and p04-3"
   ],
   "github_repository": "elazarsh/journey-to-father-comic",
-  "github_branch": "codex/londner-book-01-ready",
-  "github_directory": "books/londner-book-01"
+  "github_branch": "codex/londner-book-01-v07-art",
+  "github_directory": "books/londner-book-01",
+  "github_receipt": {
+    "status": "verified",
+    "repository": "elazarsh/journey-to-father-comic",
+    "branch": "codex/londner-book-01-ready",
+    "directory": "books/londner-book-01",
+    "url": "https://github.com/elazarsh/journey-to-father-comic/tree/codex/londner-book-01-ready/books/londner-book-01",
+    "production_commit": "c3c7397b502b5003ab290064d342d736258e7c47",
+    "parent_commit": "4a40183b1670b19f3f26eddfec1c529d95d8a14d",
+    "initial_file_count": 116,
+    "original_binary_file_count": 44,
+    "unique_binary_blobs_verified_on_upload": 42,
+    "scope_check": "All 116 initial changes were additions under books/londner-book-01; no changes elsewhere.",
+    "remote_file_sha_checks_at_production_commit": [
+      {
+        "path": "README.md",
+        "sha": "24dd1c099fe813cc435124f3efdbf94fa946fea0"
+      },
+      {
+        "path": "HANDOFF.md",
+        "sha": "2cd4d19a0aee10ff591246cfb84dc04fe0fa70b5"
+      },
+      {
+        "path": "handoffs/codex/state.json",
+        "sha": "452492fa65944b98767248436d34b199903048be"
+      },
+      {
+        "path": "production/manifest.json",
+        "sha": "191adaab2a9321542d4eb8e58e82a4bc45bc0ad1"
+      },
+      {
+        "path": "production/structure.html",
+        "sha": "441c97e12d0cdbabef845981a0b7f7ce1e7f3f1b"
+      },
+      {
+        "path": "viewer/index.html",
+        "sha": "4345ad97ee343dc0f8c7fcb939a86685bed75cd2"
+      },
+      {
+        "path": "art/p02-1.png",
+        "sha": "e3b281b7af9ff1706e45ab4de7b4cfc81097e96e"
+      },
+      {
+        "path": "art/p03-2.png",
+        "sha": "bae0b6ea7ece2cd1e92bdf9a493cc0836d6358ef"
+      },
+      {
+        "path": "art/p04-2.png",
+        "sha": "af0b7d392364ce417eada9766524ebfa70738f65"
+      }
+    ],
+    "selected_new_images": [
+      "art/p02-1.png",
+      "art/p03-2.png",
+      "art/p04-2.png"
+    ],
+    "followup": "README, HANDOFF and state updated with the final branch name after verification.",
+    "art_approval": "Production candidates; not final family-approved art.",
+    "browser_visual_qa": "Still pending; upload does not imply visual approval."
+  },
+  "previous_verified_v02_commit": "509c4b7590dec79923a386b7a8b65d8106ba34d0",
+  "active_revision": "revisions/book1-v07",
+  "active_manifest": "revisions/book1-v07/production/manifest.json",
+  "plot_approved": true,
+  "yitzhak_age_designs_approved": true,
+  "story_pages": 48,
+  "panels_planned": 187,
+  "github_pre_art_branch": "codex/londner-book-01-v07-ready",
+  "next_steps": [
+    "Verify pre-art GitHub handoff",
+    "Generate opening batch: daytime shop, nighttime sleeping shop, elder writing",
+    "Review source images, family count, quiet areas and masked crops",
+    "Upload the generated batch with receipts and update the active handoff"
+  ]
 }

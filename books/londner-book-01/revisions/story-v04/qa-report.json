@@ -1,0 +1,244 @@
+{
+  "version": "0.4-editorial-draft",
+  "pages": 32,
+  "panels": 89,
+  "previous_he_words": 666,
+  "revised_he_words": 916,
+  "text_blocks": 109,
+  "silent_panels": [
+    "p10-2",
+    "p11-1",
+    "p25-3",
+    "p28-2"
+  ],
+  "preserved_quotes": 15,
+  "verified_quotes_in_this_version": 16,
+  "new_nonquote_text_blocks": 93,
+  "reading_context_review": "All 32 pages reviewed for first introduction, cause before result, and warmth supported by primary sources",
+  "max_he_words_per_page": 45,
+  "max_he_words_per_text_block": 14,
+  "planned_dense_exposition_pages": 0,
+  "page_word_counts": [
+    {
+      "page": 1,
+      "he_words": 36,
+      "en_words": 53,
+      "silent_panels": []
+    },
+    {
+      "page": 2,
+      "he_words": 16,
+      "en_words": 28,
+      "silent_panels": []
+    },
+    {
+      "page": 3,
+      "he_words": 41,
+      "en_words": 63,
+      "silent_panels": []
+    },
+    {
+      "page": 4,
+      "he_words": 41,
+      "en_words": 56,
+      "silent_panels": []
+    },
+    {
+      "page": 5,
+      "he_words": 45,
+      "en_words": 62,
+      "silent_panels": []
+    },
+    {
+      "page": 6,
+      "he_words": 30,
+      "en_words": 41,
+      "silent_panels": []
+    },
+    {
+      "page": 7,
+      "he_words": 35,
+      "en_words": 54,
+      "silent_panels": []
+    },
+    {
+      "page": 8,
+      "he_words": 25,
+      "en_words": 40,
+      "silent_panels": []
+    },
+    {
+      "page": 9,
+      "he_words": 25,
+      "en_words": 50,
+      "silent_panels": []
+    },
+    {
+      "page": 10,
+      "he_words": 23,
+      "en_words": 34,
+      "silent_panels": [
+        "p10-2"
+      ]
+    },
+    {
+      "page": 11,
+      "he_words": 19,
+      "en_words": 32,
+      "silent_panels": [
+        "p11-1"
+      ]
+    },
+    {
+      "page": 12,
+      "he_words": 16,
+      "en_words": 25,
+      "silent_panels": []
+    },
+    {
+      "page": 13,
+      "he_words": 33,
+      "en_words": 53,
+      "silent_panels": []
+    },
+    {
+      "page": 14,
+      "he_words": 23,
+      "en_words": 30,
+      "silent_panels": []
+    },
+    {
+      "page": 15,
+      "he_words": 26,
+      "en_words": 31,
+      "silent_panels": []
+    },
+    {
+      "page": 16,
+      "he_words": 35,
+      "en_words": 61,
+      "silent_panels": []
+    },
+    {
+      "page": 17,
+      "he_words": 24,
+      "en_words": 37,
+      "silent_panels": []
+    },
+    {
+      "page": 18,
+      "he_words": 37,
+      "en_words": 50,
+      "silent_panels": []
+    },
+    {
+      "page": 19,
+      "he_words": 30,
+      "en_words": 53,
+      "silent_panels": []
+    },
+    {
+      "page": 20,
+      "he_words": 32,
+      "en_words": 53,
+      "silent_panels": []
+    },
+    {
+      "page": 21,
+      "he_words": 31,
+      "en_words": 49,
+      "silent_panels": []
+    },
+    {
+      "page": 22,
+      "he_words": 32,
+      "en_words": 46,
+      "silent_panels": []
+    },
+    {
+      "page": 23,
+      "he_words": 31,
+      "en_words": 43,
+      "silent_panels": []
+    },
+    {
+      "page": 24,
+      "he_words": 39,
+      "en_words": 54,
+      "silent_panels": []
+    },
+    {
+      "page": 25,
+      "he_words": 20,
+      "en_words": 34,
+      "silent_panels": [
+        "p25-3"
+      ]
+    },
+    {
+      "page": 26,
+      "he_words": 21,
+      "en_words": 28,
+      "silent_panels": []
+    },
+    {
+      "page": 27,
+      "he_words": 31,
+      "en_words": 45,
+      "silent_panels": []
+    },
+    {
+      "page": 28,
+      "he_words": 18,
+      "en_words": 29,
+      "silent_panels": [
+        "p28-2"
+      ]
+    },
+    {
+      "page": 29,
+      "he_words": 18,
+      "en_words": 26,
+      "silent_panels": []
+    },
+    {
+      "page": 30,
+      "he_words": 31,
+      "en_words": 48,
+      "silent_panels": []
+    },
+    {
+      "page": 31,
+      "he_words": 39,
+      "en_words": 57,
+      "silent_panels": []
+    },
+    {
+      "page": 32,
+      "he_words": 13,
+      "en_words": 24,
+      "silent_panels": []
+    }
+  ],
+  "checks": {
+    "quote_text_matches_primary_transcript": true,
+    "all_previous_literal_quotes_preserved": true,
+    "no_long_dashes_in_hebrew": true,
+    "all_89_panel_ids_preserved": true,
+    "visual_changes_documented": true,
+    "javascript_syntax": true,
+    "relative_image_links": true,
+    "opening_identity_and_family_purpose_explicit": true,
+    "foot_problem_before_bed_rest": true,
+    "warsaw_trip_before_return": true,
+    "esther_family_name_explained": true,
+    "source_supported_happiness_present": true
+  },
+  "limitations": [
+    "New adapted narration and all new translations require editorial/family review.",
+    "No visual browser approval is claimed.",
+    "Some historical dates and supporting faces remain unresolved.",
+    "This review draft does not overwrite or approve the production branch.",
+    "Editorial clarity review, not a comprehension test with children."
+  ]
+}

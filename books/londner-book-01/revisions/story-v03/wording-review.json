@@ -1,0 +1,1295 @@
+[
+  {
+    "panel": "p01-1",
+    "id": "p01-1-v03-t1",
+    "he": "1971.",
+    "en": "1971.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p02-1",
+    "id": "p02-1-v03-t1",
+    "he": "נולדתי ביונדזיוב שבפולין בשנת 1900.",
+    "en": "I was born in Jędrzejów, Poland, in 1900.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-3"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p02-1",
+    "id": "p02-1-v03-t2",
+    "he": "שמי יצחק מאיר לונדנר. בבית קראו לי איטשע.",
+    "en": "My name is Yitzhak Meir Londner. At home, they called me Itshe.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-3"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p03-1",
+    "id": "p03-1-v03-t1",
+    "he": "בבית שלנו הייתה חנות עורות, ושמונה ילדים.",
+    "en": "Our home had a leather shop, and eight children.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-3",
+    "sources": [
+      "S08-memoir-3",
+      "S08-memoir-4",
+      "S08-memoir-7",
+      "S08-memoir-8"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p03-3",
+    "id": "p03-3-v03-t1",
+    "he": "כשנרדמנו, אמא עוד תיקנה את הבגדים שלנו למחר.",
+    "en": "Once we were asleep, Mother still mended our clothes for the next day.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-3",
+    "sources": [
+      "S08-memoir-3",
+      "S08-memoir-4",
+      "S08-memoir-7",
+      "S08-memoir-8"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p04-1",
+    "id": "p04-1-v03-t1",
+    "he": "שכבתי במיטה בגלל הרגליים. אחי חיים עזר לי ללמוד לכתוב.",
+    "en": "I was in bed because of my feet. My brother Chaim helped me learn to write.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-10",
+    "sources": [
+      "S08-memoir-10",
+      "S08-memoir-11"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p04-3",
+    "id": "p04-3-v03-t1",
+    "he": "אפילו נייר שעטף סחורה הפך אצלי לחומר קריאה.",
+    "en": "Even newspapers used to wrap goods became something I could read.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-10",
+    "sources": [
+      "S08-memoir-10",
+      "S08-memoir-11"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p05-1",
+    "id": "p05-1-v03-t1",
+    "he": "מוורשה חזרתי בלי להחלים לגמרי. אז אבא לקח אותי לטיפול בווינה.",
+    "en": "I came home from Warsaw before I had fully healed. Then Father took me to Vienna for treatment.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-18",
+    "sources": [
+      "S08-memoir-18",
+      "S08-memoir-19"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p05-2",
+    "id": "p05-2-v03-t1",
+    "he": "כשאבא חזר הביתה, נשארתי בבית החולים לבדי.",
+    "en": "When Father went home, I stayed in the hospital on my own.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-18",
+    "sources": [
+      "S08-memoir-18",
+      "S08-memoir-19"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p06-1",
+    "id": "p06-1-v03-t1",
+    "he": "כעבור שנים איבדתי את אמא, ואחר כך את אבא.",
+    "en": "Years later, I lost Mother, and then Father.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-20",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26",
+      "S08-memoir-150"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p06-2",
+    "id": "p06-2-v03-t1",
+    "he": "לא יכולנו להישאר כולנו יחד. חלקנו עברו לגור אצל קרובים.",
+    "en": "We could not all stay together. Some of us went to live with relatives.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-20",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26",
+      "S08-memoir-150"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p06-3",
+    "id": "p06-3-v03-t1",
+    "he": "1914. באירופה פרצה מלחמת העולם הראשונה.",
+    "en": "1914. The First World War broke out in Europe.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-20",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26",
+      "S08-memoir-150"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p07-1",
+    "id": "p07-1-v03-t1",
+    "he": "חזרתי לעיר שלנו. ניסינו להרוויח מספיק לאוכל.",
+    "en": "I returned to our town. We tried to earn enough for food.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-33",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p07-2",
+    "id": "p07-2-v03-t1",
+    "he": "חיילים לקחו אותנו לתקן דרכים. לא נתנו לנו ללכת.",
+    "en": "Soldiers took us to repair roads. We were not free to leave.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-33",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p07-3",
+    "id": "p07-3-v03-t1",
+    "he": "אחר כך חיפשו דוברי גרמנית. ידעתי את השפה, והתחלתי לעבוד עם מודדי דרכים.",
+    "en": "Later, they needed German speakers. I knew the language and began working with road surveyors.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-33",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p08-1",
+    "id": "p08-1-v03-t1",
+    "he": "בכפרים ראיתי אנשים מגדלים את האוכל שלהם.",
+    "en": "In the villages, I saw people growing their own food.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-35",
+    "sources": [
+      "S08-memoir-35"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p08-2",
+    "id": "p08-2-v03-t1",
+    "he": "רציתי להיות חקלאי בארץ ישראל. אבל לא קיבלתי דרכון.",
+    "en": "I wanted to be a farmer in the Land of Israel. But I could not get a passport.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-35",
+    "sources": [
+      "S08-memoir-35"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p09-1",
+    "id": "p09-1-v03-t1",
+    "he": "במקום לעלות לארץ, נקראתי לצבא הפולני. ב־1920 השתחררתי.",
+    "en": "Instead of moving to the Land of Israel, I was called into the Polish army. I was released in 1920.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-47",
+    "sources": [
+      "S08-memoir-47",
+      "S08-memoir-54",
+      "S08-memoir-57"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p09-2",
+    "id": "p09-2-v03-t1",
+    "he": "ב־1922 התחתנתי עם חוה. עכשיו היינו משפחה.",
+    "en": "In 1922, I married Chava. Now we were a family.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-47",
+    "sources": [
+      "S08-memoir-47",
+      "S08-memoir-54",
+      "S08-memoir-57"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p09-3",
+    "id": "p09-3-v03-t1",
+    "he": "עבדנו בחנות. שוב נקראתי לצבא, ושוב חזרתי. החלום נשאר.",
+    "en": "We worked in a shop. I was called into the army again, and came home again. The dream stayed with me.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-47",
+    "sources": [
+      "S08-memoir-47",
+      "S08-memoir-54",
+      "S08-memoir-57"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p10-1",
+    "id": "p10-1-v03-t1",
+    "he": "ביקשתי אישור לעלות. אנשים שהכירו אותי כתבו מכתבים כדי לעזור.",
+    "en": "I applied for permission to immigrate. People who knew me wrote letters to help.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-58",
+    "sources": [
+      "S08-memoir-58",
+      "S24"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p10-3",
+    "id": "p10-3-v03-t1",
+    "he": "1925. אחרי כל ההמתנה, הגיע האישור.",
+    "en": "1925. After all that waiting, permission finally came.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-58",
+    "sources": [
+      "S08-memoir-58",
+      "S24"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p11-2",
+    "id": "p11-2-v03-t1",
+    "he": "חוה, בתנו הקטנה חנהצ׳ילה ואני יצאנו לדרך.",
+    "en": "Chava, our little daughter Chanatshile, and I set off.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-60",
+    "sources": [
+      "S08-memoir-60",
+      "S08-img017",
+      "S24"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p11-3",
+    "id": "p11-3-v03-t1",
+    "he": "ברכבת לקונסטנצה שברומניה. משם נפליג לארץ ישראל.",
+    "en": "By train to Constanța, in Romania. From there, we would sail to the Land of Israel.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-60",
+    "sources": [
+      "S08-memoir-60",
+      "S08-img017",
+      "S24"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p12-1",
+    "id": "p12-1-v03-t1",
+    "he": "בערב סוכות עלינו על האונייה ״אסיה״.",
+    "en": "On the eve of Sukkot, we boarded the Asia.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-61",
+    "sources": [
+      "S08-memoir-61"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p12-2",
+    "id": "p12-2-v03-t2",
+    "he": "בחול המועד סוכות הגענו לארץ ישראל.",
+    "en": "During the festival of Sukkot, we reached the Land of Israel.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-61",
+    "sources": [
+      "S08-memoir-61"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p13-1",
+    "id": "p13-1-v03-t1",
+    "he": "עוד לא הייתה מדינת ישראל. בארץ שאליה הגענו שלטו הבריטים.",
+    "en": "There was no State of Israel yet. The country we had reached was under British rule.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-61",
+    "sources": [
+      "S08-memoir-61",
+      "S08-memoir-62"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p13-2",
+    "id": "p13-2-v03-t1",
+    "he": "חשבתי שנותנים לנו אטריות...",
+    "en": "I thought they were serving us noodles...",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-61",
+    "sources": [
+      "S08-memoir-61",
+      "S08-memoir-62"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p13-3",
+    "id": "p13-3-v03-t1",
+    "he": "זו הייתה חלבה! בארץ החדשה היו לי עוד הרבה דברים ללמוד.",
+    "en": "It was halva! I still had plenty to learn in this new country.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-61",
+    "sources": [
+      "S08-memoir-61",
+      "S08-memoir-62"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p14-1",
+    "id": "p14-1-v03-t1",
+    "he": "אבל קודם היינו צריכים חדר ועבודה. קרוב משפחה עזר לנו לחפש.",
+    "en": "But first, we needed a room and work. A relative helped us look.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-62",
+    "sources": [
+      "S08-memoir-62",
+      "S08-memoir-63"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p14-3",
+    "id": "p14-3-v03-t1",
+    "he": "זה היה אליהו, בן משפחה שלי. הוא עזר לי למצוא עבודה במחסן עצים.",
+    "en": "It was Eliyahu, a relative of mine. He helped me find work at a timber yard.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-62",
+    "sources": [
+      "S08-memoir-62",
+      "S08-memoir-63"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p15-1",
+    "id": "p15-1-v03-t1",
+    "he": "אחרינו הגיעו גם אחותה של חוה ובעלה שמעון.",
+    "en": "Chava’s sister and her husband Shimon arrived after us.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-54",
+    "sources": [
+      "S08-memoir-54",
+      "S08-memoir-60",
+      "S08-memoir-64",
+      "S08-memoir-67"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p15-2",
+    "id": "p15-2-v03-t1",
+    "he": "לקחתי את שמעון למחסן. עכשיו חיפשנו עבודה יחד.",
+    "en": "I took Shimon to the yard. Now we looked for work together.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-54",
+    "sources": [
+      "S08-memoir-54",
+      "S08-memoir-60",
+      "S08-memoir-64",
+      "S08-memoir-67"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p15-3",
+    "id": "p15-3-v03-t1",
+    "he": "כאן נולדה בתם אסתר, האחיינית של חוה.",
+    "en": "Their daughter Esther was born here. She was Chava’s niece.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-54",
+    "sources": [
+      "S08-memoir-54",
+      "S08-memoir-60",
+      "S08-memoir-64",
+      "S08-memoir-67"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p16-1",
+    "id": "p16-1-v03-t1",
+    "he": "1928. חנהצ׳ילה שלנו חלתה ונפטרה. לא הצלחנו להציל אותה.",
+    "en": "1928. Our Chanatshile became ill and died. We could not save her.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-67",
+    "sources": [
+      "S08-memoir-67",
+      "S08-memoir-69"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p16-2",
+    "id": "p16-2-v03-t1",
+    "he": "בשנים שאחר כך נולדו חיה ומנחם.",
+    "en": "In the years that followed, Chaya and Menachem were born.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-67",
+    "sources": [
+      "S08-memoir-67",
+      "S08-memoir-69"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p16-3",
+    "id": "p16-3-v03-t1",
+    "he": "בנינו חדר משלנו. ועדיין רציתי לעבוד באדמה.",
+    "en": "We built a room of our own. And I still wanted to work the land.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-67",
+    "sources": [
+      "S08-memoir-67",
+      "S08-memoir-69"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p17-1",
+    "id": "p17-1-v03-t1",
+    "he": "עזרתי לאחי ראובן להגיע. אחר כך פעלתי להביא גם את משפחתו.",
+    "en": "I helped my brother Reuven come here. Then I worked to bring his family too.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-78",
+    "sources": [
+      "S08-memoir-78",
+      "S08-memoir-84",
+      "S08-memoir-87",
+      "S08-memoir-88",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p17-3",
+    "id": "p17-3-v03-t1",
+    "he": "אבל לא כולם נשארו. אסתר והוריה חזרו לאירופה.",
+    "en": "But not everyone stayed. Esther and her parents returned to Europe.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-78",
+    "sources": [
+      "S08-memoir-78",
+      "S08-memoir-84",
+      "S08-memoir-87",
+      "S08-memoir-88",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p18-1",
+    "id": "p18-1-v03-t1",
+    "he": "גם הרשל, הבן של אחי חיים, רצה לבוא לארץ.",
+    "en": "Hershel, my brother Chaim’s son, wanted to come here too.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-89",
+    "sources": [
+      "S08-memoir-89",
+      "S08-memoir-90",
+      "S08-memoir-91"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p18-2",
+    "id": "p18-2-v03-t1",
+    "he": "אספנו כסף כדי לעזור לו להגיע.",
+    "en": "We raised money to help him come.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-89",
+    "sources": [
+      "S08-memoir-89",
+      "S08-memoir-90",
+      "S08-memoir-91"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p18-3",
+    "id": "p18-3-v03-t1",
+    "he": "1939. מלחמת העולם השנייה פרצה.",
+    "en": "1939. The Second World War broke out.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-89",
+    "sources": [
+      "S08-memoir-89",
+      "S08-memoir-90",
+      "S08-memoir-91"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p18-4",
+    "id": "p18-4-v03-t2",
+    "he": "לא ידעתי אם הכסף הגיע אליו.",
+    "en": "I did not know whether the money had reached him.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-89",
+    "sources": [
+      "S08-memoir-89",
+      "S08-memoir-90",
+      "S08-memoir-91"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p19-1",
+    "id": "p19-1-v03-t1",
+    "he": "1943. המלחמה נמשכה. אני עבדתי במחסן.",
+    "en": "1943. The war continued. I was working in a warehouse.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-101",
+    "sources": [
+      "S08-memoir-101",
+      "S08-memoir-102",
+      "S15"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p19-2",
+    "id": "p19-2-v03-t1",
+    "he": "ואז הודיעו לי שאני מפוטר.",
+    "en": "Then I was told I had lost my job.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-101",
+    "sources": [
+      "S08-memoir-101",
+      "S08-memoir-102",
+      "S15"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p19-3",
+    "id": "p19-3-v03-t1",
+    "he": "חשבתי שהגיע הזמן לנסות את מה שחלמתי עליו כנער.",
+    "en": "I thought it was time to try what I had dreamed of as a boy.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-101",
+    "sources": [
+      "S08-memoir-101",
+      "S08-memoir-102",
+      "S15"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p20-1",
+    "id": "p20-1-v03-t1",
+    "he": "דרשתי פיצויים על שנות העבודה. אחרי מאבק, הגענו להסכמה.",
+    "en": "I asked to be paid for my years of work. After a struggle, we reached an agreement.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-104",
+    "sources": [
+      "S08-memoir-104",
+      "S08-memoir-105"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p20-2",
+    "id": "p20-2-v03-t1",
+    "he": "חיה ואני חיפשנו משק בעמק יזרעאל.",
+    "en": "Chaya and I looked for a farm in the Jezreel Valley.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-104",
+    "sources": [
+      "S08-memoir-104",
+      "S08-memoir-105"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p20-3",
+    "id": "p20-3-v03-t1",
+    "he": "מכרתי רכוש ולוויתי כסף. סוף סוף קנינו משק בכפר ברוך.",
+    "en": "I sold property and borrowed money. At last, we bought a farm in Kfar Baruch.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-104",
+    "sources": [
+      "S08-memoir-104",
+      "S08-memoir-105"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p21-4",
+    "id": "p21-4-v03-t1",
+    "he": "חיה למדה אצל השכנים, ולימדה אותנו לקטוף תירס.",
+    "en": "Chaya learned from the neighbors and taught us how to harvest corn.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-105",
+    "sources": [
+      "S08-memoir-105",
+      "S08-memoir-106"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p22-1",
+    "id": "p22-1-v03-t1",
+    "he": "מהחיטה שהשגנו יצא לחם מר. זה היה הלחם שהיה לנו.",
+    "en": "The wheat we got made bitter bread. It was the bread we had.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-107",
+    "sources": [
+      "S08-memoir-107",
+      "S08-memoir-108"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p22-3",
+    "id": "p22-3-v03-t1",
+    "he": "עבדנו גם אצל השכנים. הם עזרו לנו, ואנחנו עזרנו להם.",
+    "en": "We worked for our neighbors too. They helped us, and we helped them.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-107",
+    "sources": [
+      "S08-memoir-107",
+      "S08-memoir-108"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p23-1",
+    "id": "p23-1-v03-t1",
+    "he": "עד שגנבו לנו את הסוסים.",
+    "en": "Then our horses were stolen.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-108",
+    "sources": [
+      "S08-memoir-108",
+      "S08-memoir-109"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p23-3",
+    "id": "p23-3-v03-t1",
+    "he": "עכשיו אנחנו היינו צריכים עזרה. כתבתי לקרובים בחוץ לארץ.",
+    "en": "Now we needed help. I wrote to relatives overseas.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-108",
+    "sources": [
+      "S08-memoir-108",
+      "S08-memoir-109"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p24-1",
+    "id": "p24-1-v03-t1",
+    "he": "אחרי מלחמת העולם השנייה, שהסתיימה באירופה ב־1945.",
+    "en": "After the Second World War, which ended in Europe in 1945.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-genealogy-1",
+    "sources": [
+      "S08-genealogy-1",
+      "S08-memoir-109",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p24-1",
+    "id": "p24-1-v03-t2",
+    "he": "בשואה איבדנו בני משפחה.",
+    "en": "We lost family members in the Holocaust.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-genealogy-1",
+    "sources": [
+      "S08-genealogy-1",
+      "S08-memoir-109",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p24-2",
+    "id": "p24-2-v03-t1",
+    "he": "אסתר נשארה בחיים. הגיע ממנה מכתב מגרמניה.",
+    "en": "Esther had survived. A letter from her arrived from Germany.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-genealogy-1",
+    "sources": [
+      "S08-genealogy-1",
+      "S08-memoir-109",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p24-3",
+    "id": "p24-3-v03-t1",
+    "he": "היא ביקשה עזרה לצאת משם. התחלתי לפעול כדי להביא אותה אלינו.",
+    "en": "She asked for help to leave. I began working to bring her here.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-genealogy-1",
+    "sources": [
+      "S08-genealogy-1",
+      "S08-memoir-109",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p25-1",
+    "id": "p25-1-v03-t1",
+    "he": "הבאתי מתל אביב את תעודת הלידה שלה. אסתר הרי נולדה כאן!",
+    "en": "I brought her birth certificate from Tel Aviv. Esther had been born here!",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-109",
+    "sources": [
+      "S08-memoir-109",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p25-2",
+    "id": "p25-2-v03-t1",
+    "he": "אבל תעודה אחת לא הספיקה. שאלו אם אוכל לדאוג לה.",
+    "en": "But one document was not enough. They asked whether I could provide for her.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-109",
+    "sources": [
+      "S08-memoir-109",
+      "S08-memoir-110"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p26-1",
+    "id": "p26-1-v03-t1",
+    "he": "הקרובים שלחו עזרה. איך אחלק את הכסף, למשק או למשפחה בגרמניה?",
+    "en": "Our relatives sent help. How should I divide the money, between the farm and the family in Germany?",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-111",
+    "sources": [
+      "S08-memoir-111"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p26-2",
+    "id": "p26-2-v03-t1",
+    "he": "לקנות סוסים או לעזור לאסתר?",
+    "en": "Buy horses, or help Esther?",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-111",
+    "sources": [
+      "S08-memoir-111"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p27-1",
+    "id": "p27-1-v03-t1",
+    "he": "הדוד כתב לי:",
+    "en": "My uncle wrote to me:",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-109",
+    "sources": [
+      "S08-memoir-109",
+      "S08-memoir-111"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p27-2",
+    "id": "p27-2-v03-t1",
+    "he": "חזרנו לעבוד עם סוסים. כך יכולתי להמשיך לעזור.",
+    "en": "We worked with horses again. That meant I could keep helping.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-109",
+    "sources": [
+      "S08-memoir-109",
+      "S08-memoir-111"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p27-3",
+    "id": "p27-3-v03-t1",
+    "he": "גם הניירות לאסתר היו מוכנים. שלחתי אותם לגרמניה.",
+    "en": "Esther’s papers were ready too. I sent them to Germany.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-109",
+    "sources": [
+      "S08-memoir-109",
+      "S08-memoir-111"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p28-1",
+    "id": "p28-1-v03-t1",
+    "he": "ואז הגיע מברק. אסתר בדרך!",
+    "en": "Then a telegram arrived. Esther was on her way!",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-112",
+    "sources": [
+      "S08-memoir-112"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p28-3",
+    "id": "p28-3-v03-t1",
+    "he": "בנמל חיפה יצאתי בסירה אל האונייה.",
+    "en": "At Haifa harbor, I went out to the ship in a boat.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-112",
+    "sources": [
+      "S08-memoir-112"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p29-1",
+    "id": "p29-1-v03-t1",
+    "he": "היא הכירה אותי מהתמונה.",
+    "en": "She recognized me from the photograph.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-112",
+    "sources": [
+      "S08-memoir-112"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p30-1",
+    "id": "p30-1-v03-t1",
+    "he": "הבאתי אותה לכפר. גם שם הייתה שמחה גדולה.",
+    "en": "I brought her to the village. There was great joy there too.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-112",
+    "sources": [
+      "S08-memoir-112"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p30-2",
+    "id": "p30-2-v03-t1",
+    "he": "המשפחה עזרה לה להתחיל מחדש. בהמשך אסתר ויחזקאל התחתנו.",
+    "en": "The family helped her start again. Later, Esther and Yehezkel married.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-112",
+    "sources": [
+      "S08-memoir-112"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p30-3",
+    "id": "p30-3-v03-t1",
+    "he": "לחגיגה הבאתי מהמשק שלנו יין וירקות.",
+    "en": "I brought wine and vegetables from our farm for the celebration.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-112",
+    "sources": [
+      "S08-memoir-112"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p31-1",
+    "id": "p31-1-v03-t1",
+    "he": "לא תמיד היה לי זמן להיות עם הנכדים.",
+    "en": "I did not always have time to be with my grandchildren.",
+    "status": "adapted",
+    "role": "caption",
+    "speaker": "יצחק",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p31-2",
+    "id": "p31-2-v03-t1",
+    "he": "מה אקח איתי?",
+    "en": "What will I take with me?",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p31-2",
+    "id": "p31-2-v03-t2",
+    "he": "ללמוד, גם ממי שקטן ממני.",
+    "en": "Learn, even from someone younger than me.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p31-2",
+    "id": "p31-2-v03-t3",
+    "he": "לבקש עזרה כשאני צריך.",
+    "en": "Ask for help when I need it.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p31-2",
+    "id": "p31-2-v03-t4",
+    "he": "ולעזור כשאני יכול.",
+    "en": "And help when I can.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p32-1",
+    "id": "p32-1-v03-t1",
+    "he": "בספר הבא",
+    "en": "In the next book",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-119",
+    "sources": [
+      "S08-memoir-119",
+      "S08-memoir-120",
+      "S08-memoir-128"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p32-1",
+    "id": "p32-1-v03-t2",
+    "he": "הילדים גדלים. טרקטורים מגיעים לשדות. ומה יהיה על המשק?",
+    "en": "The children are growing up. Tractors are coming to the fields. What will happen to the farm?",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-119",
+    "sources": [
+      "S08-memoir-119",
+      "S08-memoir-120",
+      "S08-memoir-128"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  },
+  {
+    "panel": "p32-1",
+    "id": "p32-1-v03-t3",
+    "he": "המשך יבוא.",
+    "en": "To be continued.",
+    "status": "editorial",
+    "role": "caption",
+    "speaker": "מסגרת עריכתית",
+    "source": "S08-memoir-119",
+    "sources": [
+      "S08-memoir-119",
+      "S08-memoir-120",
+      "S08-memoir-128"
+    ],
+    "review_required": true,
+    "wording_origin": "new editorial draft 0.3, not a verbatim historical statement"
+  }
+]

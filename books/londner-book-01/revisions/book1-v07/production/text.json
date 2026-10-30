@@ -1,0 +1,2790 @@
+[
+  {
+    "panel": "B01V07-P01-01",
+    "page": 1,
+    "he": "ילדים, נכדים ונינים אהובים שלי, את הזיכרונות האלה אני כותב בשבילכם.",
+    "en": "My dear children, grandchildren and great-grandchildren, I am writing these memories for you.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "family_requested_literary_frame",
+    "presentation": "caption",
+    "id": "B01V07-P01-01-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P01-02",
+    "page": 1,
+    "he": "כדי שתכירו גם את הילד שהייתי, הרבה לפני שקראו לי סבא.",
+    "en": "So you can know the boy I was, long before anyone called me Grandpa.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "family_requested_literary_frame",
+    "presentation": "caption",
+    "id": "B01V07-P01-02-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P01-03",
+    "page": 1,
+    "he": "1971. אני בן שבעים ואחת.",
+    "en": "1971. I am seventy-one years old.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P01-03-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-139"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P02-01",
+    "page": 2,
+    "he": "מה שאני אזכור, אכתוב.",
+    "en": "Whatever I remember, I will write.",
+    "source": "S08-memoir-1",
+    "kind": "quote",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P02-01-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-3"
+    ],
+    "review_required": false
+  },
+  {
+    "panel": "B01V07-P02-02",
+    "page": 2,
+    "he": "נולדתי בשנת 1900, ביונדזיוב שבפולין, באירופה. שמי יצחק מאיר לונדנר.",
+    "en": "I was born in 1900 in Jędrzejów, Poland, in Europe. My name is Yitzhak Meir Londner.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P02-02-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-3"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P02-03",
+    "page": 2,
+    "he": "בבית קראו לי איטשע.",
+    "en": "At home, they called me Itshe.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P02-03-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-3"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P03-01",
+    "page": 3,
+    "he": "ביום הייתה כאן החנות של אבא ואמא: עורות וחומרים להכנת נעליים.",
+    "en": "By day, this was Mother and Father’s shop: leather and supplies for making shoes.",
+    "source": "S08-memoir-3",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P03-01-T1",
+    "sources": [
+      "S08-memoir-3",
+      "S08-memoir-4",
+      "S08-memoir-7"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P03-02",
+    "page": 3,
+    "he": "לידה היה חדר המגורים הקטן שלנו. במשפחה גדלו חמישה בנים ושלוש בנות.",
+    "en": "Beside it was our small living room. Our family grew to five boys and three girls.",
+    "source": "S08-memoir-3",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P03-02-T1",
+    "sources": [
+      "S08-memoir-3",
+      "S08-memoir-4",
+      "S08-memoir-7"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P03-03",
+    "page": 3,
+    "he": "לא היינו עשירים, אבל אוכל לא חסר לנו.",
+    "en": "We were not rich, but we had enough to eat.",
+    "source": "S08-memoir-3",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P03-03-T1",
+    "sources": [
+      "S08-memoir-3",
+      "S08-memoir-4",
+      "S08-memoir-7"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P03-04",
+    "page": 3,
+    "he": "כשנזכרתי בבית, זכרתי כמה אמא דאגה לנו.",
+    "en": "When I remembered home, I remembered how Mother cared for us.",
+    "source": "S08-memoir-7",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_retrospective_appreciation",
+    "presentation": "caption",
+    "id": "B01V07-P03-04-T1",
+    "sources": [
+      "S08-memoir-3",
+      "S08-memoir-4",
+      "S08-memoir-7"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P04-01",
+    "page": 4,
+    "he": "בלילה סגרו את החנות ופינו בה מקום למיטות שלנו.",
+    "en": "At night, the shop closed and room was made inside for our beds.",
+    "source": "S08-memoir-4",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P04-01-T1",
+    "sources": [
+      "S08-memoir-4",
+      "S08-memoir-7",
+      "S08-memoir-8"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P04-02",
+    "page": 4,
+    "he": "אותם מדפים, אותו חדר. עכשיו היה כאן מקום לישון.",
+    "en": "The same shelves, the same room. Now there was room to sleep.",
+    "source": "S08-memoir-4",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P04-02-T1",
+    "sources": [
+      "S08-memoir-4",
+      "S08-memoir-7",
+      "S08-memoir-8"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P04-03",
+    "page": 4,
+    "he": "אחרי שנרדמנו, אמא תיקנה את הבגדים שלנו. כפתור לזה, כיס לזה.",
+    "en": "After we fell asleep, Mother mended our clothes. A button for one, a pocket for another.",
+    "source": "S08-memoir-4",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P04-03-T1",
+    "sources": [
+      "S08-memoir-4",
+      "S08-memoir-7",
+      "S08-memoir-8"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P04-04",
+    "page": 4,
+    "he": "ובשבת, עד שאמא ישבה לאכול, גם אנחנו חיכינו.",
+    "en": "And on Shabbat, we waited until Mother sat down to eat.",
+    "source": "S08-memoir-4",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P04-04-T1",
+    "sources": [
+      "S08-memoir-4",
+      "S08-memoir-7",
+      "S08-memoir-8"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P05-01",
+    "page": 5,
+    "he": "בשנת 1904 התחלתי ללמוד בחדר. אמא באה איתי.",
+    "en": "In 1904, I began studying at the cheder. Mother came with me.",
+    "source": "S08-memoir-8",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P05-01-T1",
+    "sources": [
+      "S08-memoir-8",
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P05-02",
+    "page": 5,
+    "he": "בחדר למדו אצל רבי.",
+    "en": "At the cheder, children learned with a teacher called a rebbe.",
+    "source": "S08-memoir-8",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P05-02-T1",
+    "sources": [
+      "S08-memoir-8",
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P05-03",
+    "page": 5,
+    "he": "אמא שמה סוכרייה על האות א.",
+    "en": "Mother put a sweet on the letter aleph.",
+    "source": "S08-memoir-8",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P05-03-T1",
+    "sources": [
+      "S08-memoir-8",
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P05-04",
+    "page": 5,
+    "he": "ואני לקחתי אותה עם הפה.",
+    "en": "And I picked it up with my mouth.",
+    "source": "S08-memoir-8",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P05-04-T1",
+    "sources": [
+      "S08-memoir-8",
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P06-01",
+    "page": 6,
+    "he": "לפעמים בא מבקר לחדר. הוא שאל שאלות ונתן לילדים גרוש.",
+    "en": "Sometimes a visitor came to the cheder. He asked questions and gave children a coin.",
+    "source": "S08-memoir-9",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P06-01-T1",
+    "sources": [
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P06-03",
+    "page": 6,
+    "he": "ידעתי את התשובות. אבל לי הוא לא נתן.",
+    "en": "I knew the answers. But he gave me nothing.",
+    "source": "S08-memoir-9",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P06-03-T1",
+    "sources": [
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P06-04",
+    "page": 6,
+    "he": "אמא, למה הם קיבלו ואני לא?",
+    "en": "Mother, why did they get one and I did not?",
+    "source": "S08-memoir-9",
+    "kind": "adapted_speech",
+    "speaker": "איטשע",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P06-04-T1",
+    "sources": [
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P07-01",
+    "page": 7,
+    "he": "הכסף היה צדקה לילדים ממשפחות שאין להן הרבה.",
+    "en": "The money was charity for children whose families had little.",
+    "source": "S08-memoir-9",
+    "kind": "adapted_speech",
+    "speaker": "אמא",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P07-01-T1",
+    "sources": [
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P07-02",
+    "page": 7,
+    "he": "אתה מקבל ממני. אני משלמת לרבי בשביל הלימודים שלך.",
+    "en": "You receive from me. I pay the rebbe for your lessons.",
+    "source": "S08-memoir-9",
+    "kind": "adapted_speech",
+    "speaker": "אמא",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P07-02-T1",
+    "sources": [
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P07-03",
+    "page": 7,
+    "he": "לא כל מה שנראה כמו פרס, היה באמת פרס.",
+    "en": "Not everything that looked like a prize really was one.",
+    "source": "S08-memoir-9",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "editorial_interpretation_of_documented_exchange",
+    "presentation": "caption",
+    "id": "B01V07-P07-03-T1",
+    "sources": [
+      "S08-memoir-9"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P08-01",
+    "page": 8,
+    "he": "כשהייתי גדול יותר, חזרתי פעם מהחדר עם רגל נפוחה.",
+    "en": "When I was older, I once came home from the cheder with a swollen foot.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P08-01-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P08-02",
+    "page": 8,
+    "he": "הרופא אמר שלא אנעל נעליים. אבל הפצע לא התרפא.",
+    "en": "The doctor told me not to put on shoes. But the sore did not heal.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P08-02-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P08-03",
+    "page": 8,
+    "he": "אחר כך נפצעתי ממסמר ברגל השנייה. עכשיו שתיהן היו חבושות.",
+    "en": "Later, a nail injured my other foot. Now both were bandaged.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P08-03-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P08-04",
+    "page": 8,
+    "he": "הרופא אמר להישאר במיטה. לא יכולתי ללכת ללמוד.",
+    "en": "The doctor told me to stay in bed. I could not go to school.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P08-04-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P09-01",
+    "page": 9,
+    "he": "אחי הגדול חיים עזר לי ללמוד לכתוב.",
+    "en": "My older brother Chaim helped me learn to write.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P09-01-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P09-02",
+    "page": 9,
+    "he": "הוא כתב בעיפרון.",
+    "en": "He wrote in pencil.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P09-02-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P09-03",
+    "page": 9,
+    "he": "כתב לי עם עיפרון, ואני עברתי על זה עם דיו",
+    "en": "He wrote for me in pencil, and I went over it in ink.",
+    "source": "S08-memoir-10",
+    "kind": "quote",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P09-03-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": false
+  },
+  {
+    "panel": "B01V07-P09-04",
+    "page": 9,
+    "he": "התאמנתי כך הרבה זמן, גם כשעוד שכבתי במיטה.",
+    "en": "I practiced that way for a long time, even while I was still in bed.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P09-04-T1",
+    "sources": [
+      "S08-memoir-10"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P10-01",
+    "page": 10,
+    "he": "בחנות של קרובי משפחה הגיעו חבילות עטופות בעיתונים.",
+    "en": "At our relatives’ shop, parcels arrived wrapped in newspapers.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P10-01-T1",
+    "sources": [
+      "S08-memoir-10",
+      "S08-memoir-11"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P10-03",
+    "page": 10,
+    "he": "את העיתונים הביאו אליי.",
+    "en": "The newspapers were brought to me.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P10-03-T1",
+    "sources": [
+      "S08-memoir-10",
+      "S08-memoir-11"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P10-04",
+    "page": 10,
+    "he": "קראתי בהם על מקומות רחוקים, ועל דברים שעוד לא הבנתי.",
+    "en": "I read about faraway places and things I did not yet understand.",
+    "source": "S08-memoir-10",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P10-04-T1",
+    "sources": [
+      "S08-memoir-10",
+      "S08-memoir-11"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P11-01",
+    "page": 11,
+    "he": "פעם קראתי על מלחמה בבלקנים. אבל חשבתי על בלקונים, מרפסות.",
+    "en": "Once I read about a war in the Balkans. But I thought of “balkonim,” balconies.",
+    "source": "S08-memoir-11",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P11-01-T1",
+    "sources": [
+      "S08-memoir-11"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P11-04",
+    "page": 11,
+    "he": "אבא, אפשר לעשות מלחמה על בלקונים?",
+    "en": "Father, can people fight a war on balconies?",
+    "source": "S08-memoir-11",
+    "kind": "adapted_speech",
+    "speaker": "איטשע",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P11-04-T1",
+    "sources": [
+      "S08-memoir-11"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P12-01",
+    "page": 12,
+    "he": "לא בלקונים. בלקנים, זה שם של אזור.",
+    "en": "Not balconies. The Balkans, that is the name of a region.",
+    "source": "S08-memoir-11",
+    "kind": "adapted_speech",
+    "speaker": "אבא",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P12-01-T1",
+    "sources": [
+      "S08-memoir-11",
+      "S08-memoir-18",
+      "S08-memoir-21"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P12-02",
+    "page": 12,
+    "he": "אמא אהבה לשמוע אותי קורא.",
+    "en": "Mother loved hearing me read.",
+    "source": "S08-memoir-11",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P12-02-T1",
+    "sources": [
+      "S08-memoir-11",
+      "S08-memoir-18",
+      "S08-memoir-21"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P12-03",
+    "page": 12,
+    "he": "באותן שנות ילדות עברנו לדירה גדולה יותר. נולדה גם אחותי הקטנה רייזל.",
+    "en": "In those childhood years, we moved to a bigger home. My youngest sister, Raisel, was born too.",
+    "source": "S08-memoir-11",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P12-03-T1",
+    "sources": [
+      "S08-memoir-11",
+      "S08-memoir-18",
+      "S08-memoir-21"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P12-04",
+    "page": 12,
+    "he": "הבית גדל, אבל הרגל שלי עדיין הייתה חולה.",
+    "en": "Our home had grown, but my foot was still unwell.",
+    "source": "S08-memoir-11",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P12-04-T1",
+    "sources": [
+      "S08-memoir-11",
+      "S08-memoir-18",
+      "S08-memoir-21"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P13-01",
+    "page": 13,
+    "he": "הרופא המליץ לנסוע לוורשה. אבא נסע איתי.",
+    "en": "The doctor recommended Warsaw. Father went with me.",
+    "source": "S08-memoir-18",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P13-01-T1",
+    "sources": [
+      "S08-memoir-18"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P13-03",
+    "page": 13,
+    "he": "שם החליטו שצריך לנתח את שתי הרגליים.",
+    "en": "There, they decided that both feet needed surgery.",
+    "source": "S08-memoir-18",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P13-03-T1",
+    "sources": [
+      "S08-memoir-18"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P13-04",
+    "page": 13,
+    "he": "אחר כך נשארתי בבית החולים. רגל אחת החלימה מהר יותר. השנייה עדיין לא.",
+    "en": "Afterwards, I stayed in hospital. One foot healed faster. The other still had not.",
+    "source": "S08-memoir-18",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P13-04-T1",
+    "sources": [
+      "S08-memoir-18"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P14-01",
+    "page": 14,
+    "he": "אבא חזר הביתה לפניי. איש מעירנו בא לקחת את בתו, ולקח גם אותי.",
+    "en": "Father went home before me. A man from our town collected his daughter and took me too.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P14-01-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P14-03",
+    "page": 14,
+    "he": "חזרתי הביתה, אבל הפצע נשאר.",
+    "en": "I came home, but the sore remained.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P14-03-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P14-04",
+    "page": 14,
+    "he": "הרופא המליץ על בית חולים בווינה, באוסטריה. שוב נסעתי עם אבא.",
+    "en": "The doctor recommended a hospital in Vienna, Austria. Again, Father traveled with me.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P14-04-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P15-01",
+    "page": 15,
+    "he": "בווינה פתחו את התפרים וטיפלו בי שוב.",
+    "en": "In Vienna, they opened the stitches and treated me again.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P15-01-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P15-02",
+    "page": 15,
+    "he": "אבא חזר הביתה. אני נשארתי בבית החולים.",
+    "en": "Father went home. I stayed in the hospital.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P15-02-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P15-03",
+    "page": 15,
+    "he": "טיפלו בי היטב. אבל הייתי בין ילדים שלא הכרתי.",
+    "en": "I was well cared for. But I was among children I did not know.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P15-03-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P15-04",
+    "page": 15,
+    "he": "היה לי סידור, ספר התפילות שלי.",
+    "en": "I had a siddur, my prayer book.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P15-04-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P16-01",
+    "page": 16,
+    "he": "ילדים אחרים לקחו את הסידור שלי.",
+    "en": "Other children took my siddur.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P16-01-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P16-02",
+    "page": 16,
+    "he": "הם זרקו אותו על התנור הגבוה.",
+    "en": "They threw it onto the tall stove.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P16-02-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P16-03",
+    "page": 16,
+    "he": "לא יכולתי להגיע אליו.",
+    "en": "I could not reach it.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P16-03-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P16-04",
+    "page": 16,
+    "he": "גם להתפלל כמו שהכרתי, כבר לא יכולתי.",
+    "en": "Now I could not even pray in the way I knew.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P16-04-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P17-01",
+    "page": 17,
+    "he": "בבית החולים הייתה גם אישה יהודייה.",
+    "en": "There was also a Jewish woman at the hospital.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P17-01-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P17-02",
+    "page": 17,
+    "he": "היא לקחה אותי בעגלת חולים לבית הכנסת של בית החולים.",
+    "en": "She took me in a hospital chair to the hospital synagogue.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P17-02-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P17-04",
+    "page": 17,
+    "he": "הגענו לתפילה.",
+    "en": "We reached the prayer service.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P17-04-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P18-01",
+    "page": 18,
+    "he": "אבל התפללו בגרמנית. לא הבנתי את המילים.",
+    "en": "But the prayers were in German. I did not understand the words.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P18-01-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P18-03",
+    "page": 18,
+    "he": "המשכתי לקבל טיפול. לבסוף הרגל התרפאה.",
+    "en": "My treatment continued. At last, my foot healed.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P18-03-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P18-04",
+    "page": 18,
+    "he": "ואבא חזר לקחת אותי.",
+    "en": "And Father came back to collect me.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P18-04-T1",
+    "sources": [
+      "S08-memoir-19"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P19-01",
+    "page": 19,
+    "he": "הפעם חזרנו הביתה כשהרגל כבר החלימה.",
+    "en": "This time, we came home after my foot had healed.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P19-01-T1",
+    "sources": [
+      "S08-memoir-19",
+      "S08-memoir-20"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P19-03",
+    "page": 19,
+    "he": "אחרי הרופאים והחדרים הזרים, הייתי שוב בבית.",
+    "en": "After the doctors and unfamiliar rooms, I was home again.",
+    "source": "S08-memoir-19",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P19-03-T1",
+    "sources": [
+      "S08-memoir-19",
+      "S08-memoir-20"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P20-01",
+    "page": 20,
+    "he": "בבית הייתה עבודה לכולם. אחותי חוה בישלה, ואני רחצתי כלים.",
+    "en": "There was work for everyone at home. My sister Chava cooked, and I washed dishes.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P20-01-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-21",
+      "S08-memoir-22"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P20-02",
+    "page": 20,
+    "he": "גם סידרתי את הכביסה. ידעתי איזו מידה מתאימה לכל אחד.",
+    "en": "I sorted the laundry too. I knew which size fitted each person.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P20-02-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-21",
+      "S08-memoir-22"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P20-04",
+    "page": 20,
+    "he": "כשחיים התחתן, התחלתי לעזור לאבא בחנות במקומו.",
+    "en": "When Chaim married, I began helping Father in the shop in his place.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P20-04-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-21",
+      "S08-memoir-22"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P21-01",
+    "page": 21,
+    "he": "פעם אבא פתח ארגז סחורה וגילה שהכמות לא מתאימה לחשבון.",
+    "en": "Once, Father opened a crate and found that the amount did not match the bill.",
+    "source": "S08-memoir-22",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P21-01-T1",
+    "sources": [
+      "S08-memoir-22",
+      "S08-memoir-23"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P21-03",
+    "page": 21,
+    "he": "הוא כתב לספק. הספק היה בטוח שארז בדיוק את מה שהזמנו.",
+    "en": "He wrote to the supplier. The supplier was certain he had packed exactly what we ordered.",
+    "source": "S08-memoir-22",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P21-03-T1",
+    "sources": [
+      "S08-memoir-22",
+      "S08-memoir-23"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P21-04",
+    "page": 21,
+    "he": "המכתבים נמשכו. עד שאבא הסביר מה באמת קרה.",
+    "en": "The letters continued. Until Father explained what had really happened.",
+    "source": "S08-memoir-22",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P21-04-T1",
+    "sources": [
+      "S08-memoir-22",
+      "S08-memoir-23"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P22-01",
+    "page": 22,
+    "he": "בארגז היו שש יחידות יותר ממה ששילמנו עליהן. אבא לא רצה לשמור אותן בסוד.",
+    "en": "The crate held six more pieces than we had paid for. Father did not want to keep them secret.",
+    "source": "S08-memoir-22",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P22-01-T1",
+    "sources": [
+      "S08-memoir-22",
+      "S08-memoir-23"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P22-03",
+    "page": 22,
+    "he": "מאז סמכו עליו עוד יותר. שלחו לו סחורה גם לפני ששילם.",
+    "en": "After that, they trusted him even more. They sent goods even before he paid.",
+    "source": "S08-memoir-22",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P22-03-T1",
+    "sources": [
+      "S08-memoir-22",
+      "S08-memoir-23"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P22-04",
+    "page": 22,
+    "he": "את היושר של אבא זכרתי עוד שנים רבות.",
+    "en": "I remembered Father’s honesty for many years.",
+    "source": "S08-memoir-22",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P22-04-T1",
+    "sources": [
+      "S08-memoir-22",
+      "S08-memoir-23"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P23-01",
+    "page": 23,
+    "he": "כשהייתי ילד, לפני שנים רבות, אמא חלתה במחלה קשה ונפטרה.",
+    "en": "When I was a child, many years ago, Mother became seriously ill and died.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P23-01-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P23-02",
+    "page": 23,
+    "he": "כעבור זמן נפטר גם אבא.",
+    "en": "Some time later, Father died too.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P23-02-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P23-03",
+    "page": 23,
+    "he": "אלה זיכרונות עצובים. אבל לא נשארנו בלי מי שידאג לנו.",
+    "en": "These are sad memories. But we were not left without someone to care for us.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_family_care_with_editorial_emotional_frame",
+    "presentation": "caption",
+    "id": "B01V07-P23-03-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P23-04",
+    "page": 23,
+    "he": "חיים, אחי הבכור, והדודים עזרו לדאוג לנו ולמצוא לנו מקום לגור.",
+    "en": "My eldest brother Chaim and our relatives helped care for us and find places for us to live.",
+    "source": "S08-memoir-20",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P23-04-T1",
+    "sources": [
+      "S08-memoir-20",
+      "S08-memoir-25",
+      "S08-memoir-26"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P24-01",
+    "page": 24,
+    "he": "נשארנו במשפחה, אבל לא כולנו גרנו עוד באותו בית.",
+    "en": "We stayed within our family, but we no longer all lived in the same home.",
+    "source": "S08-memoir-26",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P24-01-T1",
+    "sources": [
+      "S08-memoir-26",
+      "S08-memoir-27"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P24-02",
+    "page": 24,
+    "he": "חוה נשארה עם רייזל הקטנה.",
+    "en": "Chava stayed with little Raisel.",
+    "source": "S08-memoir-26",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P24-02-T1",
+    "sources": [
+      "S08-memoir-26",
+      "S08-memoir-27"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P24-03",
+    "page": 24,
+    "he": "את שרהלה הבאתי לדודים בקילץ. משם המשכתי לדוד מאיר בלודז׳.",
+    "en": "I took Sarale to our relatives in Kielce. Then I continued to Uncle Meir in Łódź.",
+    "source": "S08-memoir-26",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P24-03-T1",
+    "sources": [
+      "S08-memoir-26",
+      "S08-memoir-27"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P25-01",
+    "page": 25,
+    "he": "אחר כך סיפרו לי על הבית החדש של שרהלה.",
+    "en": "Later, I was told about Sarale’s new home.",
+    "source": "S08-memoir-26",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P25-01-T1",
+    "sources": [
+      "S08-memoir-26",
+      "S08-memoir-27"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P25-03",
+    "page": 25,
+    "he": "הדודים קיבלו אותה בשמחה. היו להם שלושה בנים, והיא התקבלה כמו בת.",
+    "en": "Our relatives welcomed her warmly. They had three sons, and she was welcomed like a daughter.",
+    "source": "S08-memoir-26",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P25-03-T1",
+    "sources": [
+      "S08-memoir-26",
+      "S08-memoir-27"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P25-04",
+    "page": 25,
+    "he": "היא התיישבה ללמוד איתם. סיפרו שהיא ידעה אפילו יותר מהבנים.",
+    "en": "She sat down to learn with them. I was told she knew even more than the boys.",
+    "source": "S08-memoir-26",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P25-04-T1",
+    "sources": [
+      "S08-memoir-26",
+      "S08-memoir-27"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P26-01",
+    "page": 26,
+    "he": "בלודז׳ דאגו לי דוד מאיר ודודה נחלה.",
+    "en": "In Łódź, Uncle Meir and Aunt Nachale cared for me.",
+    "source": "S08-memoir-29",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P26-01-T1",
+    "sources": [
+      "S08-memoir-29"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P26-02",
+    "page": 26,
+    "he": "סידרו לי עבודה במסחר בבדים. לא אותו המסחר שהכרתי בחנות של אבא.",
+    "en": "They arranged work for me in the fabric trade. It was different from the trade in Father’s shop.",
+    "source": "S08-memoir-29",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P26-02-T1",
+    "sources": [
+      "S08-memoir-29"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P26-04",
+    "page": 26,
+    "he": "הייתי צריך ללמוד דברים חדשים.",
+    "en": "I had new things to learn.",
+    "source": "S08-memoir-29",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P26-04-T1",
+    "sources": [
+      "S08-memoir-29"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P27-01",
+    "page": 27,
+    "he": "הייתי בן שלוש עשרה או ארבע עשרה.",
+    "en": "I was thirteen or fourteen.",
+    "source": "S08-memoir-29",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P27-01-T1",
+    "sources": [
+      "S08-memoir-29",
+      "S08-memoir-30"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P27-02",
+    "page": 27,
+    "he": "כבר נסעתי לבתי החרושת לבד. בחרתי דוגמאות והזמנתי סחורה לפי המספר.",
+    "en": "I was already traveling to the factories alone. I chose samples and ordered goods by number.",
+    "source": "S08-memoir-29",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P27-02-T1",
+    "sources": [
+      "S08-memoir-29",
+      "S08-memoir-30"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P27-04",
+    "page": 27,
+    "he": "לא הייתי עוד רק הילד שעוזר בחנות. עכשיו סמכו גם על הבחירה שלי.",
+    "en": "I was no longer only the boy helping in the shop. Now they trusted my choices too.",
+    "source": "S08-memoir-29",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "editorial_synthesis_of_documented_work",
+    "presentation": "caption",
+    "id": "B01V07-P27-04-T1",
+    "sources": [
+      "S08-memoir-29",
+      "S08-memoir-30"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P28-01",
+    "page": 28,
+    "he": "בשנת 1914 פרצה מלחמת העולם הראשונה. גם החיים בלודז׳ השתנו.",
+    "en": "In 1914, the First World War broke out. Life in Łódź changed too.",
+    "source": "S08-memoir-30",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P28-01-T1",
+    "sources": [
+      "S08-memoir-30",
+      "S08-memoir-31",
+      "S08-memoir-32"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P28-02",
+    "page": 28,
+    "he": "המסחר נפגע והפרנסה הצטמצמה.",
+    "en": "Trade suffered, and income shrank.",
+    "source": "S08-memoir-30",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P28-02-T1",
+    "sources": [
+      "S08-memoir-30",
+      "S08-memoir-31",
+      "S08-memoir-32"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P28-03",
+    "page": 28,
+    "he": "עם חברים המשכתי ללמוד. הצטרפנו גם לפעילות ציונית, למען ארץ ישראל.",
+    "en": "With friends, I kept learning. We also joined Zionist activities for the Land of Israel.",
+    "source": "S08-memoir-30",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P28-03-T1",
+    "sources": [
+      "S08-memoir-30",
+      "S08-memoir-31",
+      "S08-memoir-32"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P28-04",
+    "page": 28,
+    "he": "אספנו כסף וקיבלנו משימות.",
+    "en": "We collected money and were given tasks.",
+    "source": "S08-memoir-30",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P28-04-T1",
+    "sources": [
+      "S08-memoir-30",
+      "S08-memoir-31",
+      "S08-memoir-32"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P29-01",
+    "page": 29,
+    "he": "יום אחד בחרו שישה בחורים שיתכוננו לעלות לארץ. הייתי אחד מהם.",
+    "en": "One day, six young men were chosen to prepare to move to the Land of Israel. I was one.",
+    "source": "S08-memoir-31",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P29-01-T1",
+    "sources": [
+      "S08-memoir-31",
+      "S08-memoir-32",
+      "S08-memoir-33"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P29-02",
+    "page": 29,
+    "he": "אבל היו עוד אישורים להשיג ותפקידים להעביר לאחרים.",
+    "en": "But further permissions were needed, and our duties had to be passed on.",
+    "source": "S08-memoir-31",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P29-02-T1",
+    "sources": [
+      "S08-memoir-31",
+      "S08-memoir-32",
+      "S08-memoir-33"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P29-03",
+    "page": 29,
+    "he": "בינתיים החיים בלודז׳ נעשו קשים יותר.",
+    "en": "Meanwhile, life in Łódź grew harder.",
+    "source": "S08-memoir-31",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P29-03-T1",
+    "sources": [
+      "S08-memoir-31",
+      "S08-memoir-32",
+      "S08-memoir-33"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P29-04",
+    "page": 29,
+    "he": "החלטתי לחזור לאחים שלי ביונדזיוב. הדרך ארכה ימים ולילות.",
+    "en": "I decided to return to my siblings in Jędrzejów. The journey took days and nights.",
+    "source": "S08-memoir-31",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P29-04-T1",
+    "sources": [
+      "S08-memoir-31",
+      "S08-memoir-32",
+      "S08-memoir-33"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P30-01",
+    "page": 30,
+    "he": "בבית היו חוה, רייזל ושמעון. היינו צריכים למצוא ממה לחיות.",
+    "en": "At home were Chava, Raisel and Shimon. We needed to find a way to make a living.",
+    "source": "S08-memoir-33",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P30-01-T1",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P30-02",
+    "page": 30,
+    "he": "לקחו אנשים לעבודות כבישים. גם אותי לקחו. בהתחלה לא שאלו אם אנחנו רוצים.",
+    "en": "People were taken to work on roads. I was taken too. At first, we were not asked.",
+    "source": "S08-memoir-33",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P30-02-T1",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P30-03",
+    "page": 30,
+    "he": "עבדנו תחת שמירה.",
+    "en": "We worked under guard.",
+    "source": "S08-memoir-33",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P30-03-T1",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P30-04",
+    "page": 30,
+    "he": "אחרי זמן הסדירו תשלום לעובדים. המשכתי לעבוד ולהרוויח.",
+    "en": "After a time, payment was arranged. I kept working and earning money.",
+    "source": "S08-memoir-33",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P30-04-T1",
+    "sources": [
+      "S08-memoir-33",
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P31-01",
+    "page": 31,
+    "he": "ביקשו עובדים שיודעים לדבר ולכתוב בגרמנית. ידעתי, והצטרפתי למודדים.",
+    "en": "They needed workers who could speak and write German. I could, and I joined the surveyors.",
+    "source": "S08-memoir-34",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P31-01-T1",
+    "sources": [
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P31-03",
+    "page": 31,
+    "he": "עזרתי למדוד דרכים וגשרים.",
+    "en": "I helped measure roads and bridges.",
+    "source": "S08-memoir-34",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P31-03-T1",
+    "sources": [
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P31-04",
+    "page": 31,
+    "he": "תרגמתי בין המהנדס לבין החקלאים. מה שידעתי נעשה שימושי מאוד.",
+    "en": "I translated between the engineer and the farmers. What I knew became very useful.",
+    "source": "S08-memoir-34",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P31-04-T1",
+    "sources": [
+      "S08-memoir-34"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P32-01",
+    "page": 32,
+    "he": "בכפרים ראיתי אנשים חורשים ומגדלים את האוכל שלהם.",
+    "en": "In the villages, I saw people plowing and growing their own food.",
+    "source": "S08-memoir-34",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P32-01-T1",
+    "sources": [
+      "S08-memoir-34",
+      "S08-memoir-35"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P32-03",
+    "page": 32,
+    "he": "שמרו מן היבול גם לחורף.",
+    "en": "They saved some of their harvest for winter too.",
+    "source": "S08-memoir-34",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P32-03-T1",
+    "sources": [
+      "S08-memoir-34",
+      "S08-memoir-35"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P32-04",
+    "page": 32,
+    "he": "התאהבתי מאוד בחקלאות",
+    "en": "I fell deeply in love with farming.",
+    "source": "S08-memoir-35",
+    "kind": "quote",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P32-04-T1",
+    "sources": [
+      "S08-memoir-34",
+      "S08-memoir-35"
+    ],
+    "review_required": false
+  },
+  {
+    "panel": "B01V07-P33-01",
+    "page": 33,
+    "he": "הייתי בערך בן שש עשרה או שבע עשרה.",
+    "en": "I was about sixteen or seventeen.",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P33-01-T1",
+    "sources": [
+      "S08-memoir-35"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P33-02",
+    "page": 33,
+    "he": "אני רוצה להיות חקלאי בארץ ישראל.",
+    "en": "I want to become a farmer in the Land of Israel.",
+    "source": "S08-memoir-35",
+    "kind": "adapted_thought",
+    "speaker": "איטשע",
+    "basis": "documented_desire_as_interior_voice",
+    "presentation": "thought",
+    "id": "B01V07-P33-02-T1",
+    "sources": [
+      "S08-memoir-35"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P33-03",
+    "page": 33,
+    "he": "מהתנועה כבר היו לי המלצות ואישור עקרוני.",
+    "en": "I already had recommendations and approval in principle from the movement.",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P33-03-T1",
+    "sources": [
+      "S08-memoir-35"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P33-04",
+    "page": 33,
+    "he": "אבל האם זה מספיק כדי לנסוע?",
+    "en": "But was that enough to travel?",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "editorial_reader_question",
+    "presentation": "caption",
+    "id": "B01V07-P33-04-T1",
+    "sources": [
+      "S08-memoir-35"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P34-01",
+    "page": 34,
+    "he": "הייתי צריך גם דרכון ואישורים נוספים. לא הצלחתי לקבל אותם.",
+    "en": "I also needed a passport and further permissions. I could not obtain them.",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P34-01-T1",
+    "sources": [
+      "S08-memoir-35",
+      "S08-memoir-37",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P34-02",
+    "page": 34,
+    "he": "המלצה לא פתחה את הגבול. בינתיים נשארתי בפולין.",
+    "en": "A recommendation did not open the border. For now, I remained in Poland.",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P34-02-T1",
+    "sources": [
+      "S08-memoir-35",
+      "S08-memoir-37",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P34-03",
+    "page": 34,
+    "he": "ב־1918 הסתיימה המלחמה. פולין נעשתה שוב עצמאית.",
+    "en": "In 1918, the war ended. Poland became independent again.",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P34-03-T1",
+    "sources": [
+      "S08-memoir-35",
+      "S08-memoir-37",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P34-04",
+    "page": 34,
+    "he": "אבל השקט לא נמשך. פרצה מלחמה בין פולין לבולשביקים, השלטון החדש ברוסיה.",
+    "en": "But peace did not last. Poland went to war against the Bolsheviks, Russia’s new rulers.",
+    "source": "S08-memoir-35",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P34-04-T1",
+    "sources": [
+      "S08-memoir-35",
+      "S08-memoir-37",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P35-01",
+    "page": 35,
+    "he": "גייסו אותי לצבא הפולני. במקום לצאת לארץ, נעשיתי חייל.",
+    "en": "I was drafted into the Polish army. Instead of leaving for the Land of Israel, I became a soldier.",
+    "source": "S08-memoir-37",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P35-01-T1",
+    "sources": [
+      "S08-memoir-37",
+      "S08-memoir-38",
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P35-02",
+    "page": 35,
+    "he": "היו אימונים ושמירות. היינו רחוקים מהבית.",
+    "en": "There were drills and guard duties. We were far from home.",
+    "source": "S08-memoir-37",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P35-02-T1",
+    "sources": [
+      "S08-memoir-37",
+      "S08-memoir-38",
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P35-03",
+    "page": 35,
+    "he": "לילה אחד, ליד גשר, המפקד הטיל עליי להשגיח.",
+    "en": "One night, near a bridge, the officer put me on watch.",
+    "source": "S08-memoir-37",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P35-03-T1",
+    "sources": [
+      "S08-memoir-37",
+      "S08-memoir-38",
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P35-04",
+    "page": 35,
+    "he": "אם האויב יתקרב, תעיר את כולם. צריך לעבור לצד השני של הגשר.",
+    "en": "If the enemy approaches, wake everyone. We need to cross to the other side of the bridge.",
+    "source": "S08-memoir-40",
+    "kind": "adapted_speech",
+    "speaker": "המפקד",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P35-04-T1",
+    "sources": [
+      "S08-memoir-37",
+      "S08-memoir-38",
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P36-01",
+    "page": 36,
+    "he": "נשארתי ער עד לפנות בוקר.",
+    "en": "I stayed awake until dawn.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P36-01-T1",
+    "sources": [
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P36-02",
+    "page": 36,
+    "he": "אז שמעתי רשרוש מרחוק.",
+    "en": "Then I heard a rustling in the distance.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P36-02-T1",
+    "sources": [
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P36-03",
+    "page": 36,
+    "he": "עשיתי רעש והערתי את החיילים.",
+    "en": "I made a noise and woke the soldiers.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P36-03-T1",
+    "sources": [
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P36-04",
+    "page": 36,
+    "he": "הם עברו במהירות לצד השני של הגשר.",
+    "en": "They quickly crossed to the other side of the bridge.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P36-04-T1",
+    "sources": [
+      "S08-memoir-40"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P37-01",
+    "page": 37,
+    "he": "המפקד חזר לקחת גם אותי. עזבנו את הגשר.",
+    "en": "The officer came back to take me too. We left the bridge.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P37-01-T1",
+    "sources": [
+      "S08-memoir-40",
+      "S08-memoir-47",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P37-03",
+    "page": 37,
+    "he": "השירות נמשך עוד זמן. בשנת 1920 השתחררתי וחזרתי לחיים האזרחיים.",
+    "en": "My service continued. In 1920, I was released and returned to civilian life.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P37-03-T1",
+    "sources": [
+      "S08-memoir-40",
+      "S08-memoir-47",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P37-04",
+    "page": 37,
+    "he": "הרצון לעלות לארץ נשאר. אבל דרכון עוד לא היה לי.",
+    "en": "I still wanted to move to the Land of Israel. But I still had no passport.",
+    "source": "S08-memoir-40",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P37-04-T1",
+    "sources": [
+      "S08-memoir-40",
+      "S08-memoir-47",
+      "S08-memoir-48"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P38-01",
+    "page": 38,
+    "he": "קיבלתי הזמנה לבקר משפחה בדומברובה. חשבו שאולי אתאים לאחת הבנות.",
+    "en": "I was invited to visit relatives in Dąbrowa. They thought I might be a match for one daughter.",
+    "source": "S08-memoir-49",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P38-01-T1",
+    "sources": [
+      "S08-memoir-49",
+      "S08-memoir-50",
+      "S08-memoir-51",
+      "S08-memoir-52"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P38-03",
+    "page": 38,
+    "he": "לאיזו מהבנות הוא מתכוון?",
+    "en": "Which daughter does he mean?",
+    "source": "S08-memoir-52",
+    "kind": "adapted_thought",
+    "speaker": "יצחק",
+    "basis": "documented_uncertainty_as_interior_voice",
+    "presentation": "thought",
+    "id": "B01V07-P38-03-T1",
+    "sources": [
+      "S08-memoir-49",
+      "S08-memoir-50",
+      "S08-memoir-51",
+      "S08-memoir-52"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P38-04",
+    "page": 38,
+    "he": "זו הייתה חוה. לא אחותי חוה, אלא מי שתהיה אשתי, וסבתא שלכם.",
+    "en": "It was Chava. Not my sister Chava, but the woman who would become my wife, and your grandmother.",
+    "source": "S08-memoir-49",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P38-04-T1",
+    "sources": [
+      "S08-memoir-49",
+      "S08-memoir-50",
+      "S08-memoir-51",
+      "S08-memoir-52"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P39-01",
+    "page": 39,
+    "he": "בשנת 1922 התחתנו. פתחנו פרק חדש יחד.",
+    "en": "In 1922, we married. We began a new chapter together.",
+    "source": "S08-memoir-53",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P39-01-T1",
+    "sources": [
+      "S08-memoir-53",
+      "S08-memoir-54",
+      "S08-memoir-55"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P39-02",
+    "page": 39,
+    "he": "חוה עבדה קשה בחנות. הקונים אהבו לקנות אצלה.",
+    "en": "Chava worked hard in the shop. Customers liked buying from her.",
+    "source": "S08-memoir-53",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P39-02-T1",
+    "sources": [
+      "S08-memoir-53",
+      "S08-memoir-54",
+      "S08-memoir-55"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P39-03",
+    "page": 39,
+    "he": "נולדה לנו בת, חנה רוזא. קראנו לה חנהצ׳ילה.",
+    "en": "We had a daughter, Hanna Roza. We called her Hanatchile.",
+    "source": "S08-memoir-53",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P39-03-T1",
+    "sources": [
+      "S08-memoir-53",
+      "S08-memoir-54",
+      "S08-memoir-55"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P39-04",
+    "page": 39,
+    "he": "ואז שוב קראו לי להתייצב לצבא.",
+    "en": "Then I was called up to the army again.",
+    "source": "S08-memoir-53",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P39-04-T1",
+    "sources": [
+      "S08-memoir-53",
+      "S08-memoir-54",
+      "S08-memoir-55"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P40-01",
+    "page": 40,
+    "he": "למרות שכבר השתחררתי פעם, גייסו אותי שוב.",
+    "en": "Although I had already been released once, I was drafted again.",
+    "source": "S08-memoir-55",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P40-01-T1",
+    "sources": [
+      "S08-memoir-55",
+      "S08-memoir-56",
+      "S08-memoir-57"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P40-02",
+    "page": 40,
+    "he": "חוה נשארה עם הילדה. אחי לייבל עזר לה בחנות.",
+    "en": "Chava stayed with our daughter. My brother Leibl helped her in the shop.",
+    "source": "S08-memoir-55",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P40-02-T1",
+    "sources": [
+      "S08-memoir-55",
+      "S08-memoir-56",
+      "S08-memoir-57"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P40-03",
+    "page": 40,
+    "he": "אני רוצה לחזור לחוה ולילדה.",
+    "en": "I want to go home to Chava and our daughter.",
+    "source": "S08-memoir-56",
+    "kind": "adapted_thought",
+    "speaker": "יצחק",
+    "basis": "documented_longing_as_interior_voice",
+    "presentation": "thought",
+    "id": "B01V07-P40-03-T1",
+    "sources": [
+      "S08-memoir-55",
+      "S08-memoir-56",
+      "S08-memoir-57"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P40-04",
+    "page": 40,
+    "he": "בסוף, אחרי בדיקות וסידורים, קיבלתי שחרור.",
+    "en": "Finally, after examinations and arrangements, I was released.",
+    "source": "S08-memoir-55",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P40-04-T1",
+    "sources": [
+      "S08-memoir-55",
+      "S08-memoir-56",
+      "S08-memoir-57"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P41-01",
+    "page": 41,
+    "he": "בפורים 1923 חזרתי הביתה.",
+    "en": "At Purim in 1923, I returned home.",
+    "source": "S08-memoir-57",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P41-01-T1",
+    "sources": [
+      "S08-memoir-57",
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P41-02",
+    "page": 41,
+    "he": "עכשיו כבר היינו משפחה. רציתי לבנות את העתיד שלנו בארץ ישראל.",
+    "en": "Now we were a family. I wanted to build our future in the Land of Israel.",
+    "source": "S08-memoir-57",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P41-02-T1",
+    "sources": [
+      "S08-memoir-57",
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P41-03",
+    "page": 41,
+    "he": "סיפרתי לאבא של חוה על ההמלצות ששמרתי ועל הרצון לנסוע.",
+    "en": "I told Chava’s father about the recommendations I had kept and my wish to go.",
+    "source": "S08-memoir-57",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P41-03-T1",
+    "sources": [
+      "S08-memoir-57",
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P41-04",
+    "page": 41,
+    "he": "התחלתי שוב לברר מה צריך לעשות.",
+    "en": "I began finding out again what needed to be done.",
+    "source": "S08-memoir-57",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P41-04-T1",
+    "sources": [
+      "S08-memoir-57",
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P42-01",
+    "page": 42,
+    "he": "התייעצתי עם אנשים שהכירו את הדרך. ביקשו שאגיש בקשת עלייה מסודרת.",
+    "en": "I consulted people who knew the process. They asked me to submit a proper immigration application.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P42-01-T1",
+    "sources": [
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P42-02",
+    "page": 42,
+    "he": "ב־1925 הזמינו אותי למשרד ארץ ישראל בוורשה.",
+    "en": "In 1925, I was called to the Palestine Office in Warsaw.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P42-02-T1",
+    "sources": [
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P42-03",
+    "page": 42,
+    "he": "שם עוד שמרו את ההמלצות שלי, משנת 1916 והלאה.",
+    "en": "They still had my recommendations there, from 1916 onward.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P42-03-T1",
+    "sources": [
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P42-04",
+    "page": 42,
+    "he": "בדקו את התיק ושלחו אותי הביתה לחכות.",
+    "en": "They checked the file and sent me home to wait.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P42-04-T1",
+    "sources": [
+      "S08-memoir-58"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P43-01",
+    "page": 43,
+    "he": "הגיעה תשובה: אישרו לנו לעלות.",
+    "en": "The answer came: our immigration had been approved.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P43-01-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-59",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P43-02",
+    "page": 43,
+    "he": "אבל כדי לצאת מפולין היינו צריכים גם דרכון.",
+    "en": "But to leave Poland, we also needed a passport.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P43-02-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-59",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P43-03",
+    "page": 43,
+    "he": "היו ענייני מס וניירת שצריך היה להסדיר. לבסוף קיבלתי את הדרכון.",
+    "en": "There were tax matters and papers to sort out. At last, I received the passport.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P43-03-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-59",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P43-04",
+    "page": 43,
+    "he": "אם לא תצא בזמן, האישור יעבור למישהו אחר.",
+    "en": "If you do not leave in time, the permit will go to someone else.",
+    "source": "S08-memoir-60",
+    "kind": "adapted_speech",
+    "speaker": "במשרד העלייה",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P43-04-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-59",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P44-01",
+    "page": 44,
+    "he": "מכרנו, סידרנו וארזנו. לקחתי סל גדול לחפצים שלנו.",
+    "en": "We sold things, made arrangements and packed. I took a large basket for our belongings.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P44-01-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P44-02",
+    "page": 44,
+    "he": "שמיכות וכרים, פרימוס לבישול, וגם אוכל שלא יתקלקל בדרך.",
+    "en": "Blankets and pillows, a primus stove for cooking, and food that would keep during the journey.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P44-02-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P44-04",
+    "page": 44,
+    "he": "לא חיכיתי שהכול יהיה קל. הגיע הזמן לצאת.",
+    "en": "I did not wait for everything to become easy. It was time to leave.",
+    "source": "S08-memoir-58",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "editorial_synthesis_of_documented_departure",
+    "presentation": "caption",
+    "id": "B01V07-P44-04-T1",
+    "sources": [
+      "S08-memoir-58",
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P45-01",
+    "page": 45,
+    "he": "במוצאי יום כיפור יצאנו לוורשה. משם נסענו ברכבת לקונסטנצה שברומניה.",
+    "en": "After Yom Kippur, we set out for Warsaw. From there, we took a train to Constanța in Romania.",
+    "source": "S08-memoir-60",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P45-01-T1",
+    "sources": [
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P45-03",
+    "page": 45,
+    "he": "בדרך פגשנו אנשים שחזרו מארץ ישראל. הם שאלו איפה נגור.",
+    "en": "On the way, we met people returning from the Land of Israel. They asked where we would live.",
+    "source": "S08-memoir-60",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P45-03-T1",
+    "sources": [
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P45-04",
+    "page": 45,
+    "he": "יש לך קרובים? איפה תישן?",
+    "en": "Do you have relatives there? Where will you sleep?",
+    "source": "S08-memoir-60",
+    "kind": "adapted_speech",
+    "speaker": "נוסעים בדרך",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P45-04-T1",
+    "sources": [
+      "S08-memoir-60"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P46-01",
+    "page": 46,
+    "he": "יש לנו שמיכות וכרים. נסתדר.",
+    "en": "We have blankets and pillows. We will manage.",
+    "source": "S08-memoir-60",
+    "kind": "adapted_speech",
+    "speaker": "יצחק",
+    "basis": "documented_reported_exchange",
+    "presentation": "speech",
+    "id": "B01V07-P46-01-T1",
+    "sources": [
+      "S08-memoir-60",
+      "S08-memoir-61"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P46-02",
+    "page": 46,
+    "he": "בערב סוכות עלינו לאונייה אסיה.",
+    "en": "On the eve of Sukkot, we boarded the ship Asia.",
+    "source": "S08-memoir-60",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P46-02-T1",
+    "sources": [
+      "S08-memoir-60",
+      "S08-memoir-61"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P46-04",
+    "page": 46,
+    "he": "אין לשער את שמחתנו",
+    "en": "Our joy was beyond measure.",
+    "source": "S08-memoir-61",
+    "kind": "quote",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P46-04-T1",
+    "sources": [
+      "S08-memoir-60",
+      "S08-memoir-61"
+    ],
+    "review_required": false
+  },
+  {
+    "panel": "B01V07-P47-01",
+    "page": 47,
+    "he": "כשהייתי ילד, היו מי שעזרו לי. כשגדלתי, למדתי לקחת אחריות בעצמי.",
+    "en": "When I was a boy, people helped me. As I grew, I learned to take responsibility myself.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "editorial_synthesis_of_documented_events",
+    "presentation": "caption",
+    "id": "B01V07-P47-01-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-10",
+      "S08-memoir-11",
+      "S08-memoir-22",
+      "S08-memoir-23",
+      "S08-memoir-35",
+      "S08-memoir-61",
+      "S08-memoir-139"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P47-02",
+    "page": 47,
+    "he": "היו גם ימים קשים. ולצדם אנשים טובים, סקרנות, וחלומות שלא עזבתי.",
+    "en": "There were hard days too. Alongside them were good people, curiosity and dreams I held on to.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "editorial_synthesis_of_documented_events",
+    "presentation": "caption",
+    "id": "B01V07-P47-02-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-10",
+      "S08-memoir-11",
+      "S08-memoir-22",
+      "S08-memoir-23",
+      "S08-memoir-35",
+      "S08-memoir-61",
+      "S08-memoir-139"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P47-03",
+    "page": 47,
+    "he": "את הסיפור הזה אני משאיר לכם באהבה.",
+    "en": "I leave this story to you with love.",
+    "source": "S08-memoir-1",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "family_requested_literary_frame",
+    "presentation": "caption",
+    "id": "B01V07-P47-03-T1",
+    "sources": [
+      "S08-memoir-1",
+      "S08-memoir-10",
+      "S08-memoir-11",
+      "S08-memoir-22",
+      "S08-memoir-23",
+      "S08-memoir-35",
+      "S08-memoir-61",
+      "S08-memoir-139"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P48-01",
+    "page": 48,
+    "he": "היינו בדרך. אנחנו, הילדה, והשמיכות והכרים שלקחנו איתנו.",
+    "en": "We were on our way. The two of us, our little girl, and the blankets and pillows we had brought.",
+    "source": "S08-memoir-60",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P48-01-T1",
+    "sources": [
+      "S08-memoir-60",
+      "S08-memoir-61"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P48-02",
+    "page": 48,
+    "he": "בארץ עוד לא היה לנו בית משלנו, ולא עבודה קבועה.",
+    "en": "We still had no home of our own there, and no steady work.",
+    "source": "S08-memoir-60",
+    "kind": "adapted",
+    "speaker": "יצחק המבוגר",
+    "basis": "documented_event",
+    "presentation": "caption",
+    "id": "B01V07-P48-02-T1",
+    "sources": [
+      "S08-memoir-60",
+      "S08-memoir-61"
+    ],
+    "review_required": true
+  },
+  {
+    "panel": "B01V07-P48-03",
+    "page": 48,
+    "he": "איך מתחילים מחדש כשעוד לא יודעים איפה נגור?",
+    "en": "How do you begin again when you do not yet know where you will live?",
+    "source": "S08-memoir-60",
+    "kind": "editorial",
+    "speaker": "לקורא",
+    "basis": "unresolved_volume_boundary",
+    "presentation": "caption",
+    "id": "B01V07-P48-03-T1",
+    "sources": [
+      "S08-memoir-60",
+      "S08-memoir-61"
+    ],
+    "review_required": true
+  }
+]

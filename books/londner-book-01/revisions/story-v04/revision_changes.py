@@ -1,0 +1,142 @@
+def apply_revision(COPY,VISUALS,BRIDGES,T,Q,book):
+    changes={
+    'p01-1':[
+        T('1971. אני כבר סבא, בן שבעים ואחת.','1971. I am a grandfather now, seventy-one years old.'),
+        T('לילדים, לנכדים ולנינים האהובים שלי: אני כותב את הזיכרונות האלה בשבילכם.','To my dear children, grandchildren and great-grandchildren: I am writing these memories for you.'),
+        Q('p01-1-t1')],
+    'p01-2':[
+        T('אני רוצה שתכירו אותי גם כשהייתי ילד, לפני שהייתי סבא.','I want you to know the boy I was, long before I became a grandfather.'),
+        Q('p01-2-t1')],
+    'p02-1':[
+        T('שמי יצחק מאיר לונדנר. כשהייתי ילד, קראו לי איטשע.','My name is Yitzhak Meir Londner. When I was a boy, they called me Itshe.'),
+        T('נולדתי בשנת 1900 בעיר יונדזיוב שבפולין, באירופה.','I was born in 1900 in Jędrzejów, a town in Poland, in Europe.')],
+    'p03-1':[
+        T('היינו שמונה ילדים. גרנו בחדר קטן ליד החנות של אבא ואמא.','There were eight of us children. We lived in a small room beside Mother and Father’s shop.'),
+        T('לא היינו עשירים, אבל אוכל לא חסר לנו.','We were not rich, but we had enough to eat.')],
+    'p03-2':[T('שם מכרו עורות וחומרים להכנת נעליים. בערב הכינו בחנות גם מקומות שינה לילדים.','They sold leather and supplies for making shoes. In the evenings, they made sleeping places for the children in the shop too.')],
+    'p03-3':[T('אחרי שנרדמנו, אמא עוד תיקנה את הבגדים שלנו למחר.','After we fell asleep, Mother was still mending our clothes for the next day.')],
+    'p04-1':[T('היו לי פצעים ברגליים, והם לא החלימו. הרופא אמר שעליי לשכב במיטה.','I had sores on my feet that would not heal. The doctor told me to stay in bed.')],
+    'p04-2':[T('אחי חיים עזר לי ללמוד לכתוב.','My brother Chaim helped me learn to write.'),Q('p04-2-t1')],
+    'p04-3':[T('הביאו לי לקרוא עיתונים שעטפו בהם סחורה. היה לי מה לקרוא גם במיטה!','They brought me newspapers that had been used to wrap goods. I could read in bed too!')],
+    'p05-1':[T('הטיפול בעיר שלנו לא הספיק. אבא לקח אותי לבית חולים בוורשה.','Treatment in our town was not enough. Father took me to a hospital in Warsaw.')],
+    'p05-2':[T('חזרנו הביתה, אבל הרגל לא החלימה לגמרי. אז נסענו לבית חולים אחר, בווינה.','We came home, but my foot had not fully healed. Then we went to another hospital, in Vienna.')],
+    'p05-3':[T('אבא חזר הביתה, ואני נשארתי לטיפול. אישה יהודייה לקחה אותי לתפילה בבית החולים.','Father went home, and I stayed for treatment. A Jewish woman took me to prayers in the hospital.')],
+    'p06-1':[T('כשהייתי עוד ילד, אמא נפטרה. בהמשך נפטר גם אבא.','While I was still a child, Mother died. Later, Father died too.')],
+    'p06-2':[T('לא יכולנו להישאר כולנו יחד. קרובים לקחו חלק מאיתנו לגור בבתיהם.','We could not all stay together. Relatives took some of us into their homes.')],
+    'p06-3':[T('אני גרתי אצל דוד בלודז׳. ב־1914 פרצה מלחמת העולם הראשונה.','I lived with an uncle in Łódź. In 1914, the First World War broke out.')],
+    'p07-1':[T('חזרתי לעיר שלנו, אל האחים שלי. חיפשנו ממה לחיות.','I returned to our town, to my brothers and sisters. We looked for ways to earn a living.')],
+    'p07-2':[T('חיילים לקחו אותנו לתקן דרכים. בהתחלה עבדנו תחת שמירה, ולא היינו חופשיים ללכת.','Soldiers took us to repair roads. At first, we worked under guard and were not free to leave.')],
+    'p07-3':[T('בהמשך חיפשו דוברי גרמנית. ידעתי את השפה, וצירפו אותי לאנשים שמדדו דרכים וגשרים.','Later, they needed German speakers. I knew the language, so I joined the men measuring roads and bridges.')],
+    'p08-1':[T('בעבודה הזאת הגעתי לכפרים, וראיתי אנשים מגדלים את האוכל שלהם.','That work took me to villages, where I saw people growing their own food.'),Q('p08-1-t1')],
+    'p08-2':[T('חלמתי להיות חקלאי בארץ ישראל. אבל בלי דרכון, לא יכולתי לצאת מפולין.','I dreamed of being a farmer in the Land of Israel. But without a passport, I could not leave Poland.')],
+    'p09-1':[T('השנים עברו. שירתי בצבא הפולני, וב־1920 השתחררתי.','The years passed. I served in the Polish army and was released in 1920.')],
+    'p09-2':[T('ב־1922 חוה ואני התחתנו.','In 1922, Chava and I married.')],
+    'p09-3':[T('עבדנו יחד בחנות. נקראתי לצבא פעם נוספת, אבל גם כשחזרתי, החלום לעלות נשאר איתי.','We worked together in a shop. I was called into the army again, but when I returned, my dream of moving to the Land of Israel was still with me.')],
+    'p10-1':[T('הגשתי בקשה לעלות לארץ. אנשים שהכירו אותי כתבו מכתבים כדי לעזור לי לקבל אישור.','I applied to move to the Land of Israel. People who knew me wrote letters to help me get permission.')],
+    'p10-3':[T('1925. סוף סוף אושרה העלייה שלנו, וסידרתי גם דרכון.','1925. At last, we were allowed to immigrate, and I arranged a passport too.')],
+    'p11-2':[T('חוה ואני יצאנו עם הבת שלנו, חנה רוזא. קראנו לה חנהצ׳ילה.','Chava and I set off with our daughter, Chana Roza. We called her Chanatshile.')],
+    'p11-3':[T('נסענו ברכבת לקונסטנצה שברומניה. משם נפליג לארץ ישראל.','We traveled by train to Constanța, in Romania. From there, we would sail to the Land of Israel.')],
+    'p12-2':[T('בחול המועד סוכות הגענו לארץ ישראל.','During the festival of Sukkot, we reached the Land of Israel.'),Q('p12-2-t1')],
+    'p13-1':[
+        T('מדינת ישראל עוד לא קמה. בארץ שלטו הבריטים.','There was no State of Israel yet. The country was under British rule.',status='editorial'),
+        T('לעולים החדשים נתנו מקום לישון וארוחה.','The new arrivals were given a place to sleep and a meal.')],
+    'p13-2':[T('בצלחת היה משהו לבן. חשבתי שנותנים לנו אטריות...','There was something white on the plate. I thought they were serving us noodles...')],
+    'p13-3':[T('זו הייתה חלבה! נתנו לנו כל כך הרבה, שלא יכולתי לגמור.','It was halva! They gave us so much that I could not finish it.')],
+    'p14-1':[T('קרוב משפחה עזר לנו למצוא חדר. עכשיו הייתי צריך עבודה.','A relative helped us find a room. Now I needed work.')],
+    'p14-3':[T('אליהו, קרוב משפחה שלי, הכיר אותי. בזכותו קיבלתי עבודה במחסן עצים.','Eliyahu, a relative of mine, recognized me. With his help, I got work at a timber yard.')],
+    'p15-1':[T('אחרינו הגיעה גם אחותה של חוה, עם בעלה שמעון.','Chava’s sister arrived after us, with her husband Shimon.')],
+    'p15-3':[T('כאן נולדה להם בת, אסתר. חוה הייתה הדודה שלה.','Their daughter Esther was born here. Chava was her aunt.')],
+    'p16-1':[T('ב־1928 חנהצ׳ילה שלנו חלתה. לא הצלחנו להציל אותה, והיא נפטרה.','In 1928, our Chanatshile became ill. We could not save her, and she died.')],
+    'p16-2':[T('ב־1929 נולדה חיה, וב־1930 מנחם. המשפחה גדלה, והצריף שלנו היה קטן.','Chaya was born in 1929, and Menachem in 1930. Our family grew, and our hut was small.')],
+    'p16-3':[
+        T('בנינו חדר, מרפסת ומטבח. איזו שמחה, בית משלנו בארץ ישראל!','We built a room, a porch and a kitchen. What a joy, a home of our own in the Land of Israel!'),
+        T('ועדיין חלמתי להיות חקלאי.','And I still dreamed of becoming a farmer.')],
+    'p17-1':[T('עזרתי גם לאחי ראובן להגיע לארץ, ולמצוא עבודה.','I also helped my brother Reuven come here and find work.')],
+    'p17-2':[T('אחר כך הצטרפו אליו אשתו והילדים.','Later, his wife and children joined him.')],
+    'p17-3':[T('אבל לא כולם נשארו בארץ. אסתר והוריה חזרו לגור באירופה.','But not everyone stayed in the Land of Israel. Esther and her parents went back to live in Europe.')],
+    'p18-1':[T('הרשל, בנו של אחי חיים, נשאר בפולין. גם הוא רצה לבוא לארץ.','Hershel, my brother Chaim’s son, was still in Poland. He wanted to come here too.')],
+    'p18-2':[T('אספנו כסף כדי לעזור לו לצאת משם ולהגיע אלינו.','We raised money to help him leave and join us.')],
+    'p19-1':[T('1943. מלחמת העולם השנייה עוד נמשכה. בארץ עבדתי במחסן לפרנסת המשפחה.','1943. The Second World War was still going on. I was working in a warehouse to support our family.')],
+    'p19-2':[T('אחרי ארבע־עשרה שנות עבודה, הודיעו לי שאני מפוטר.','After fourteen years of work, I was told I had lost my job.')],
+    'p19-3':[T('חשבתי שהגיע הזמן לנסות את החלום מהשדות בפולין: להיות חקלאי בעצמי.','I thought it was time to try the dream I had carried from the fields in Poland: becoming a farmer myself.')],
+    'p20-1':[T('ביקשתי פיצויים על שנות העבודה. אחרי מאבק, קיבלתי כסף שיעזור לקנות משק.','I asked for compensation for my years of work. After a struggle, I received money that would help us buy a farm.')],
+    'p20-2':[T('נסעתי עם חיה, הבת שלי, לחפש משק בעמק יזרעאל.','I went with my daughter Chaya to look for a farm in the Jezreel Valley.')],
+    'p20-3':[T('מכרתי רכוש ולוויתי עוד כסף. סוף סוף קנינו משק בכפר ברוך!','I sold property and borrowed more money. At last, we bought a farm in Kfar Baruch!')],
+    'p21-1':[T('עכשיו המשק היה שלנו. אבל היה עוד הרבה ללמוד.','Now the farm was ours. But there was still so much to learn.'),Q('p21-1-t1')],
+    'p21-2':[T('מנחם, הבן שלי.','My son Menachem.',role='label')],
+    'p21-4':[T('חיה עבדה אצל השכנים, למדה מהם ולימדה אותנו לקטוף תירס.','Chaya worked for the neighbors, learned from them, and taught us how to harvest corn.')],
+    'p22-1':[T('הרפת שלנו גדלה. היו לנו פרות ועגלות, והתחלנו לקבל חלב.','Our cowshed grew. We had cows and calves, and we began to get milk.')],
+    'p22-2':[T('בחורף היה בוץ בחצר. אספנו אבנים ובנינו לנו דרך.','In winter, our yard was muddy. We gathered stones and made a path.')],
+    'p22-3':[T('עבדנו גם אצל השכנים, ועזרנו זה לזה.','We worked for our neighbors too, and helped one another.'),T('מי היה כל כך מאושר כמונו','Who could have been as happy as we were?',status='quote',source='S08-memoir-109')],
+    'p23-1':[T('ואז גנבו לנו את שני הסוסים.','Then both our horses were stolen.')],
+    'p23-2':[T('הם משכו את העגלה והמחרשה. בלעדיהם היה קשה לעבוד.','They pulled the cart and the plow. Without them, it was hard to work.'),Q('p23-2-t1')],
+    'p23-3':[T('כתבתי לדוד יעקיל שבקנדה, וביקשתי עזרה לקנות סוסים.','I wrote to Uncle Yankel in Canada, asking for help to buy horses.')],
+    'p24-1':[
+        T('1945. מלחמת העולם השנייה הסתיימה באירופה.','1945. The Second World War ended in Europe.',status='editorial'),
+        T('הנאצים רצחו מיליוני יהודים בשואה, ובהם גם בני משפחה שלנו.','The Nazis murdered millions of Jews in the Holocaust, including members of our family.')],
+    'p24-2':[T('אסתר, הבת של אחות חוה, נשארה בחיים. היא כתבה לנו מגרמניה.','Esther, Chava’s sister’s daughter, had survived. She wrote to us from Germany.')],
+    'p24-3':[T('היא ביקשה שנעזור לה לצאת משם. התחלתי לפעול כדי שתוכל לחזור לארץ.','She asked us to help her leave. I began working so that she could return to the Land of Israel.')],
+    'p25-1':[T('אסתר נולדה כאן. נסעתי לתל אביב להביא תעודה שמוכיחה זאת.','Esther had been born here. I went to Tel Aviv to get a document proving it.')],
+    'p25-2':[T('במשרד הבריטי שאלו אם אוכל לדאוג לה לאוכל ולמקום לגור.','At the British office, they asked whether I could provide her with food and a place to live.')],
+    'p26-1':[T('הקרובים שלחו לנו כסף. הסוסים היו נחוצים כדי שנוכל לעבוד ולהתפרנס.','Our relatives sent us money. We needed horses so that we could work and earn a living.')],
+    'p26-2':[T('אבל גם אסתר הייתה זקוקה לעזרה. איך אחלק את הכסף?','But Esther needed help too. How should I divide the money?')],
+    'p27-1':[T('הדוד יעקיל כתב לי:','Uncle Yankel wrote to me:'),Q('p27-1-t1')],
+    'p27-2':[T('בעזרת הקרובים קנינו סוסים. יכולנו שוב לעבוד ולהרוויח, ולהמשיך לעזור.','With our relatives’ help, we bought horses. We could work and earn again, and keep helping.')],
+    'p27-3':[T('קיבלתי גם אישור להביא את אסתר. שלחתי לה אותו לגרמניה.','I also received permission to bring Esther here. I sent it to her in Germany.')],
+    'p28-1':[T('הגיעה הודעה דחופה, מברק: אסתר בדרך לארץ!','An urgent message arrived, a telegram: Esther was on her way!')],
+    'p28-3':[T('בנמל חיפה יצאתי בסירה אל האונייה, וקראתי בשם המשפחה שלה:','At Haifa harbor, I went out to the ship in a boat and called her family name:'),Q('p28-3-v03-t2')],
+    'p29-1':[T('אסתר ניגשה אליי. היא הכירה אותי מתמונה שראתה.','Esther came over to me. She recognized me from a photograph she had seen.')],
+    'p30-1':[T('הבאתי את אסתר לכפר ברוך. גם שם שמחו לקבל אותה.','I brought Esther to Kfar Baruch. There was joy at welcoming her there too.')],
+    'p30-2':[T('המשפחה עזרה לה להתחיל מחדש. כעבור זמן הכירה את יחזקאל, והם התחתנו.','The family helped her start again. In time, she met Yehezkel, and they married.')],
+    'p30-3':[T('לחגיגה הבאתי יין שהכנתי מהענבים שלנו, וירקות שגידלנו במשק.','For the celebration, I brought wine I had made from our grapes, and vegetables we had grown on the farm.')],
+    'p31-1':[
+        T('העבודה מילאה את הימים שלי. לא תמיד הספקתי להיות עם הנכדים.','Work filled my days. I did not always have time to be with my grandchildren.'),
+        Q('p31-1-t1'),
+        T('עכשיו אני משאיר לכם את הזיכרונות, ואת האהבה.','Now I leave you my memories, and my love.')],
+    }
+    COPY.update(changes)
+    for p in book['pages']:
+        if p['number']==22:
+            p['title']='המשק שלנו'
+            if 'S08-memoir-109' not in p['sources']:p['sources'].append('S08-memoir-109')
+    book['editorial_frame_note']='Direct address to children, grandchildren and great-grandchildren is a new literary frame requested by the family. The original 1971 dedication explicitly names children and grandchildren. No historical meeting with great-grandchildren or original mention of them is claimed.'
+    book['tone_policy']='An affectionate grandfather remembers a full life: hardship, care, ordinary satisfaction, joy and gratitude. Warmth rests on memoir evidence, never invented incidents or compulsory smiles during grief.'
+    VISUALS.update({
+    'p01-1':'יצחק המבוגר בן כשבעים כותב במחברת בשנת 1971. מבט רך וחיוך קטן טבעי, אור חם. ברגע הזה הוא חושב על המשפחה שלמענה הוא כותב. אין ילדים ונינים נוכחים בחדר ואין מפגש שלא תועד. הפנייה לקוראים היא מסגרת ספרותית חדשה.',
+    'p01-2':'ידו המבוגרת והמחברת. ההקדשה המקורית מוצגת ככיתוב חי נפרד מן הקריינות החדשה, לא בתוך תמונת AI ולא כמכתב חדש מזויף. מעבר הילד מתחיל רק בעמוד הבא.',
+    'p03-1':'חנות עורות לצד חדר מגורים קטן: גבול החללים ברור. הורים מנהלים מסחר, לא מייצרים נעליים. שמונה ילדים אינם ישנים כולם באותה מיטה. אמצעים צנועים ומשפחה מטופלת, בלי סטריאוטיפ של רעב או עליבות.',
+    'p03-2':'בערב מכינים מקומות שינה ליד מלאי החנות. הכיתוב מסביר את שימוש החלל, והציור מוסר איך הדבר נראה. הילדים הקטנים אינם מוכרחים כולם להיראות כאן; לפי המקור חלקם ישנו עם ההורים.',
+    'p03-3':'האם מתקנת בגד לאור מנורת נפט. ריכוז ואכפתיות, לא בכי או ייאוש. אין להמציא צחוק או משחק משפחתי מסוים כדי לחמם את הסצנה.',
+    'p04-1':'רגלי הילד חבושות. הכיתוב מציג במפורש פצעים שאינם מחלימים ואת הוראת הרופא. אין להניח שהקורא מבין מכך שהוא במיטה מהי הבעיה. ללא פצע גלוי, דם או סיבת פציעה חדשה.',
+    'p04-2':'חיים עוזר לכתיבה, ובכיתוב מזוהה כאח. שתי הידיים מראות עיפרון ודיו. אין טקסט בתוך האיור; הציטוט המקורי אינו בא במקום הסבר מי עוזר למי.',
+    'p05-1':'בית החולים בוורשה מופיע לראשונה אחרי שהכיתוב אומר שאבא נסע איתו לשם. במפה חיצונית מסמנים בית, ורשה, חזרה, וינה; אין לקפוץ ישר לחזרה מוורשה.',
+    'p05-2':'בית החולים בווינה מזוהה. הילד נשאר לטיפול; אין להמחיש שהאב נטש אותו בגלל עוני. אין להמציא את הסיבה שבגללה האב חזר הביתה.',
+    'p05-3':'האישה מסיעה את הילד לתפילה בבית החולים. יש מקום לעזרה ולרוגע בתוך סצנת אשפוז, בלי לחייב את הילד לחייך ובלי להציג אותה כאחות מקצועית.',
+    'p06-1':'מרחב שקט למות ההורים. הבעה מכבדת ועצב מותרים כאן; אין להוסיף חיוך או הבטחה שהכול לטובה. הכיתוב אומר במפורש שנפטרו.',
+    'p06-2':'מעבר לבית קרובים מוצג כטיפול בילדים, לא כהפקרתם. אין להמציא קבלת פנים או חיבוק היסטורי מסוים.',
+    'p10-2':'פאנל ללא קריינות: תיק הבקשות אצל הפקיד. אחרי שהצורך באישור ובדרכון הוסבר, הציור יכול לשאת את ההמתנה. אין לדמות סירוב או חותמת שלא תועדו.',
+    'p12-2':'שמחת ההגעה נראית בפנים ובקרבה בין בני המשפחה. אפשר חום והתרגשות לפי הזיכרון, בלי להמציא קריאה או מחווה היסטורית מסוימת.',
+    'p13-1':'עולים חדשים מקבלים ארוחה ומקום לינה זמני. האיור והכיתוב מציגים את המסגרת לפני תקריב האוכל, כדי שהצלחת לא תופיע בלי הקשר.',
+    'p13-3':'חלבה בצלחת באותה ארוחה. הכמות נדיבה לפי הזיכרון, ללא הר של מזון קריקטורי. הומור עדין של היכרות עם מאכל, לא לעג לעולה.',
+    'p16-1':'מתאבלים על חנהצ׳ילה בנפרד מן הלידות הבאות. אין חיוך בסצנת האובדן ואין דימוי של ילדה חדשה המחליפה את הילדה שנפטרה.',
+    'p16-3':'החדר, המרפסת והמטבח שבנו. שביעות רצון וגאווה שקטה לבית ממשי שיצרו, בלי להפוך אותו לבית עשיר ובלי לקבוע שהאושר מוחק את האבל.',
+    'p17-2':'תיקון אחרי בדיקת המקור: אשת ראובן והילדים אכן הגיעו, לפי S08-memoir-87,88. מראים התבססות משותפת, ללא תאריך או דיוקנאות מזוהים שלא נמצאו. אין להישאר כאן רק עם ניירות.',
+    'p18-4':'הקשר שנקטע במלחמה. עצב ואי־ידיעה, ללא חיוך כפוי וללא קביעה על גורלו המדויק של הרשל מעבר למקור.',
+    'p21-2':'פעולה בלי קריינות: מנחם משחק בידית והיא קופצת. תווית חיה קצרה מזהה אותו כבנו של יצחק. כך ברור מי הילד, והציור עדיין מגלה מה קרה.',
+    'p22-1':'תיקון שוט: מחליפים את הלחם המר ברפת שגדלה, בפרות ובעגלות ובחלב, לפי S08-memoir-108. האיור מראה התקדמות ממשית במשק, לא סצנת הצלחה מומצאת. לא לקבוע שם של פרה אם הזיהוי אינו ברור.',
+    'p22-2':'דרך אבנים בתוך החצר הבוצית. זהו פתרון שעובדים עליו, לא עוד תמונה של סבל. אין נפילה או תאונה שלא תועדו.',
+    'p22-3':'עזרה הדדית בדיש. סיפוק וחיוניות לפי דבריו על האושר בעבודת האדמה. הציטוט אינו דיאלוג שנאמר לשכן, אלא קול המספר מן היומן.',
+    'p23-2':'המחרשה והעגלה מוכרות מהעמודים הקודמים. הכיתוב אומר שהסוסים משכו אותן, כדי שהילד יבין את הפגיעה בפרנסה לפני משל הידיים.',
+    'p24-1':'מידע היסטורי מכבד, לא גרפי. 1945 היא שנת סיום המלחמה באירופה, לא תאריך מכתב אסתר. אין חיוך בסצנת האבל.',
+    'p25-1':'תעודה חיה/גרפית שמטרתה להוכיח לידה בארץ. אין להציג רק מסמך מסתורי שהקורא אמור לדעת מדוע הוא חשוב.',
+    'p28-3':'הקריאה בשם וינגרטן מופיעה ליד יצחק, ורק אחרי שהכיתוב מסביר שזה שם המשפחה של אסתר. אין להוסיף דמות בשם וינגרטן או תשובה מומצאת שלה.',
+    'p29-1':'אסתר ניגשת ומזהה את יצחק. הכיתוב מסביר שראתה תמונה; אין לקבוע איזה תצלום זה היה או להמציא שליחת צילום מסוים.',
+    'p30-3':'שמחה משפחתית ותוצרת המשק שבנה: יין מענביו וירקות שלו. הפרטים קושרים את חלום החקלאות למשפחה, בלי לכתוב דרשה מעליהם.',
+    'p31-1':'אותו יצחק מן הפתיחה, עם מבט רך ומחברת. המסגרת חוזרת אל משפחתו הקוראת. אין התנצלות ארוכה, סוף חיים מומצא או כינוס צאצאים שלא תועד.'})
+    BRIDGES[0]=('סבא כותב את סיפור חייו באהבה למשפחתו','הוא מזמין את קוראיו להכיר את הילד שהיה')
+    BRIDGES[2]=('מבינים איך בית קטן וחנות שימשו שמונה ילדים; יש טיפול ופרנסה','פציעת הרגליים משנה את שגרת הלימודים')
+    BRIDGES[3]=('הילד מרותק למיטה בהוראת רופא, ואחיו עוזר לו ללמוד','כשהטיפול בבית אינו מספיק, מתחילות נסיעות לבתי חולים')
+    BRIDGES[4]=('ורשה ואחריה וינה מוסברות, ויש מי שעוזר בתוך האשפוז','החזרה הביתה קודמת לאובדן ההורים כעבור שנים')
+    BRIDGES[16]=('ראובן ומשפחתו מצליחים להגיע; במקביל משפחת אסתר חוזרת לאירופה','לא כל ניסיון להביא קרוב יצליח לפני המלחמה')
+    BRIDGES[21]=('גם הקושי וגם הסיפוק נראים: המשק גדל ונעזרים בשכנים','גניבת הסוסים פוגעת בעבודה שכבר למדנו להכיר')
+    BRIDGES[30]=('זיכרונותיו של אדם אוהב, עסוק ושמח במה שזכה לבנות מגיעים למשפחה','הכתיבה סוגרת את כרך 1 ומפנה מקום לפרק הבא')

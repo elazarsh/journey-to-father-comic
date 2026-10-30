@@ -1,0 +1,53 @@
+{
+  "story_pages": 48,
+  "physical_pages_provisional": 52,
+  "scene_sequences": 8,
+  "panels": 187,
+  "text_blocks": 167,
+  "words_he": 1316,
+  "max_page_words_he": 38,
+  "max_text_block_words_he": 14,
+  "silent_action_panels": 24,
+  "literal_quotes_verified": 4,
+  "adapted_documented_thought": 3,
+  "adapted_reported_speech": 9,
+  "designed_page_turn_pairs": 7,
+  "checks": {
+    "exactly_three_volumes": true,
+    "original_family_five_sons_three_daughters": true,
+    "all_eight_cast_ids_unique": true,
+    "raisel_absent_before_birth_in_old_house_contract": true,
+    "scene_family_contracts": 20,
+    "shoe_verb_corrected": true,
+    "stop_before_arrival": true,
+    "all_48_pages_have_need_change_emotion": true,
+    "all_sources_resolve": true,
+    "quotes_match_primary_transcript": true,
+    "all_text_has_hebrew_and_english": true,
+    "page_turn_pairs_not_on_same_provisional_spread": true,
+    "no_long_dashes_in_hebrew": true,
+    "all_panel_ids_unique_and_separate_from_old_manifest": true,
+    "planned_frames_inside_canvas": true,
+    "planned_frames_do_not_overlap": true,
+    "javascript_navigation": "passed using DOM stub"
+  },
+  "not_claimed": [
+    "No child-reader comprehension study.",
+    "No browser visual, face-crop or final lettering approval.",
+    "Plot and existing Yitzhak designs are family approved; exact unresolved chronology and new supporting faces remain unverified.",
+    "No new illustrations in this revision.",
+    "No GitHub publication of this revision."
+  ],
+  "production_contracts": {
+    "panels": 187,
+    "layout_families": 7,
+    "shapes": [
+      "oval",
+      "slant-bottom",
+      "slant-top",
+      "soft"
+    ],
+    "all_have_crop_and_quiet_zone": true,
+    "actual_image_crop_review": "pending generation"
+  }
+}

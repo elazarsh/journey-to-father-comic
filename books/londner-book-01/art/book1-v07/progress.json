@@ -1,0 +1,10 @@
+{
+  "version": "0.7",
+  "requested_batch": [
+    "B01V07-P03-01",
+    "B01V07-P04-02",
+    "B01V07-P01-01"
+  ],
+  "assets": [],
+  "status": "Awaiting verified GitHub pre-art handoff"
+}

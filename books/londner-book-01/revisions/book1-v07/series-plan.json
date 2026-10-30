@@ -1,0 +1,47 @@
+{
+  "version": "0.7",
+  "volume_count": 3,
+  "requested_volumes": [
+    {
+      "number": 1,
+      "title": "הדרך של איטשע",
+      "story_pages_min": 48,
+      "story_pages_max": 48,
+      "period": "ילדות בפולין, נעורים במלחמה, נישואים ויציאה באונייה ב־1925",
+      "central_question": "איך הילד שלומד מן המיטה נעשה אדם שיוצא לבנות חיים חדשים?",
+      "objective": "להכיר את הילד, את ערכיו ואת הצעיר שפועל להגשמת חלום",
+      "emotional_arc": "בית ועזרה, סקרנות ויושר, אחריות אחרי אובדן, חלום חקלאי, עיכובים ויציאה משותפת",
+      "ending": "על סיפון אסיה, לפני ההגעה. אין עדיין בית ועבודה בארץ. השאלה פתוחה.",
+      "sources": "S08-memoir-1..61; ההגעה מסוף 61 נשמרת לספר 2."
+    },
+    {
+      "number": 2,
+      "title": "מקום משלנו",
+      "story_pages_min": 48,
+      "story_pages_max": 64,
+      "period": "ההגעה ב־1925, בניית בית ומשפחה, עבודה ומשק; בהמשך אובדן הסוסים",
+      "central_question": "איך בונים בית ופרנסה בארץ חדשה, כשלא יודעים עדיין איך?",
+      "objective": "להתחיל בתשובה מיידית למתח מהספר הראשון: ההגעה, הקליטה והצעדים לפרנסה",
+      "emotional_arc": "מפגש חדש והומור החלבה, עבודה, אובדן ושמחות משפחה, עזרה לקרובים, משק וילדים המלמדים גם את אביהם",
+      "ending": "אחרי שהקורא מבין שהעבודה תלויה בסוסים, הם נגנבים. איך ממשיכים להחזיק במשק בלעדיהם?",
+      "sources": "S08-memoir-61..109 ופתיחת 110. סיום מדויק ייקבע אחרי בדיקת הרצף."
+    },
+    {
+      "number": 3,
+      "title": "מעבר לים",
+      "story_pages_min": 36,
+      "story_pages_max": 48,
+      "period": "המאמץ לשקם את הפרנסה והמאמץ להביא את אסתר אחרי מלחמת העולם השנייה",
+      "central_question": "איך מוצאים עזרה מרחוק, ואיך נעשים בעצמנו כתובת לעזרה?",
+      "objective": "לפתור תחילה את משבר הפרנסה, ולהוביל את מסע אסתר עד הבית החדש והחתונה",
+      "emotional_arc": "בקשת סיוע, מכתב שחזר, איתור כתובת ועזרה; אחר כך מכתב אסתר, הוכחת לידה, אישורים, המתנה ומפגש",
+      "ending": "אסתר בארץ ובונה חיים חדשים. ההמשך המשפחתי נשאר פתוח, אבל קשת שלושת הספרים מסתיימת בתקווה.",
+      "sources": "S08-memoir-109..112; סדר סיוע הסוסים/כסף/מכתבי אסתר אינו מתוארך היטב. אין להציגם כאירועים מקבילים בלי עיגון."
+    }
+  ],
+  "total_story_pages_min": 132,
+  "total_story_pages_max": 160,
+  "status": "Three-volume structure requested by family; only book 1 has a complete panel script. Later lengths remain provisional.",
+  "boundary_policy": "Stop inside an unresolved source-based process between books. No invented cliff danger and no spoiler synopsis in reader opening.",
+  "later_life": "Memoir sections after 112 remain future material."
+}
