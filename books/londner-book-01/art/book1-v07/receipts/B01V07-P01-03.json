@@ -1,0 +1,25 @@
+{
+  "id": "B01V07-P01-03",
+  "source_path": "/workspace/generated_images/exec-bee90fb7-cec9-42f9-929c-45a62bf9b7dc.png",
+  "prompt": "Create a new intimate head-and-shoulders portrait of the SAME approved elderly Yitzhak in reference, about 71 in 1971. Preserve narrow oval face, pronounced natural ears, restrained nose and small gentle smile, brown-rimmed glasses and brown felt hat, cream open-collar shirt and brown jacket. Warm affectionate gaze slightly toward reader, eyes natural size, no generic broad-faced grandpa and no toothy exaggerated grin. Dramatic pastoral literary watercolor and gouache matching the reference's texture and cinematic amber/cool-blue light. Background is a subdued blue-green wall with no objects or words. Portrait 1024x1536 with complete hat/head/shoulders well inside central 60% width and middle 55% height, generous space for an oval comic mask. Face centered x65% y48%, upper-left 40% width by 28% height quiet for live caption; preserve eyes and mouth away from overlay. No hands needed. No lettering, bubbles, border, collage or watermark. ONE scene.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P01-01.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "scene_fidelity": "Affectionate elderly portrait, approved face, hat and glasses, same style.",
+    "quiet_lettering": "Clear upper-left wall field; eyes/mouth below it.",
+    "crop_notes": "Face identity is strong. Oval mask may trim outer hat/shoulders at zoom 1.15: use fit-contain or reduced zoom if needed. Final parent crop review pending.",
+    "no_text_or_bubbles": true
+  },
+  "file": "art/book1-v07/B01V07-P01-03.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "70e15637034e8d75e869d80e0c8d0ef6324d4abf0e16e3ef6cf1ed1f73d51679",
+  "file_bytes": 2975825,
+  "recorded_at_utc": "2026-10-30T12:17:07.384087+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P01-03.webp",
+  "web_sha256": "1102a444fe178f245efd5f760bc1618ccf12895f9e17ed485e2df160c7b3412d"
+}

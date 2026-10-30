@@ -7,7 +7,7 @@ def quote(he,en,source): return text(he,en,source,'quote')
 def speech(he,en,source,speaker): return text(he,en,source,'adapted_speech',speaker,'documented_reported_exchange')
 def page(number,title,sources,actions,copy,need,change,emotion,hook,hold,shape='four-beat'):
     return dict(number=number,title=title,sources=['S08-memoir-'+str(n) for n in sources],actions=actions,copy=copy,scene_need=need,change=change,emotion=emotion,turn_hook=hook,withhold=hold,layout=shape)
-# Family-approved plot; targeted opening, bereavement and comic-voice refinements.
+# Family-approved plot; source-grounded bubble speakers kept visible.
 PAGES = [{'number': 1,
   'title': 'בשבילכם',
   'sources': ['S08-memoir-1', 'S08-memoir-139'],
@@ -239,7 +239,8 @@ PAGES = [{'number': 1,
   'title': 'מה שלא רואים',
   'sources': ['S08-memoir-9'],
   'actions': ['אם ובנה בשיחה רגועה, בלי המחשת בתים עניים מומצאים.',
-              'תקריב מטבע ביד אותו ילד אחר, כהמחשה חוזרת.',
+              'האם ממשיכה להסביר לבנה. שניהם בפריים, האם מדברת והילד מקשיב. אין מטבע שאמא נותנת לו כאילו ניתן ברגע הזה. פני '
+              'האם מימין, אזור הבועה משמאל.',
               'איטשע בחדר אחרי שהבין; אין מסירת מטבע מצדו שלא תועדה.'],
   'copy': {0: {'he': 'הכסף היה צדקה לילדים ממשפחות שאין להן הרבה.',
                'en': 'The money was charity for children whose families had little.',
@@ -1174,7 +1175,8 @@ PAGES = [{'number': 1,
   'title': 'החלום קיבל צורה',
   'sources': ['S08-memoir-35'],
   'actions': ['יצחק בן כשש עשרה עד שבע עשרה ליד השדות.',
-              'פרט מעבודת חקלאות שהוא רואה, לא חלום חזותי שהתגשם כבר.',
+              'יצחק הנער נראה מימין במבט אל השדות והחקלאים. רואים את פניו והבעתו כדי לחבר אליו בועת מחשבה. החקלאי והאדמה '
+              'במרחב, לא מראים את המשק העתידי. שמיים שקטים משמאל לבועה.',
               'מסמכי המלצה מן התנועה, בלי כתב מובנה בתמונה.',
               'הוא מתעניין בדרך לנסיעה; מבט במסמכים בלי פקיד מסרב שהומצא.'],
   'copy': {0: {'he': 'הייתי בערך בן שש עשרה או שבע עשרה.',
@@ -1373,7 +1375,9 @@ PAGES = [{'number': 1,
   'sources': ['S08-memoir-49', 'S08-memoir-50', 'S08-memoir-51', 'S08-memoir-52'],
   'actions': ['מגיע מכתב ממשפחת הניך בדומברובה.',
               'יצחק מוזמן למשפחה ופוגש את הניך ואת איידל.',
-              'ארבע בנות המשפחה נכנסות בזו אחר זו, דמויות צעירות לא מזוהות עד בירור; אין לטעון סדר גיל.',
+              'ארבע בנות המשפחה נכנסות בזו אחר זו. יצחק הצעיר נוכח מימין ומביט בהן, כדי שהמחשבה תהיה מחוברת לדמות חושבת. '
+              'בדיוק ארבע בנות ועוד יצחק; אין גילאים מדויקים או סדר גיל מוסק. מקום שקט לבועה למעלה משמאל, הפנים מתחת '
+              'ומימין.',
               'חוה לעתיד עם יצחק במרחב משפחתי, לא שיחת אהבה מומצאת.'],
   'copy': {0: {'he': 'קיבלתי הזמנה לבקר משפחה בדומברובה. חשבו שאולי אתאים לאחת הבנות.',
                'en': 'I was invited to visit relatives in Dąbrowa. They thought I might be a match for one daughter.',
@@ -1572,7 +1576,8 @@ PAGES = [{'number': 1,
   'actions': ['מגיע מכתב אישור עלייה.',
               'נייר עלייה מול מקום נפרד לדרכון, כרכיב גרפי בלבד.',
               'טיפול בניירות ובמיסוי; אין המחשה חיובית של דיווח כתובת כוזבת.',
-              'דרכון מתקבל; חלון הנסיעה מוגבל בזמן, בלי שעון או תאריך שהומצא.'],
+              'לאחר קבלת הדרכון, יצחק במשרד העלייה בוורשה מקבל את התנאי לצאת בזמן. נציג המשרד נראה מדבר, יצחק מקשיב. אזור '
+              'שקט לבועה משמאל, פני הדובר במרכז־ימין; אין תאריך או שעון שהומצאו.'],
   'copy': {0: {'he': 'הגיעה תשובה: אישרו לנו לעלות.',
                'en': 'The answer came: our immigration had been approved.',
                'source': None,
@@ -1647,7 +1652,8 @@ PAGES = [{'number': 1,
   'actions': ['מוצאי יום כיפור 1925, יציאה לוורשה.',
               'רכבת מוורשה לקונסטנצה ברומניה; מסלול בשכבה חיה.',
               'נוסעים חוזרים מארץ ישראל משוחחים עם יצחק.',
-              'המשפחה עם חפציה, המבט אל הדרך נותר פתוח.'],
+              'נוסע מבוגר בדרך שואל את יצחק; שני הדוברים נראים לצד חפצי המשפחה. פני השואל מימין ושטח שקט לבועה משמאל. חוה '
+              'ובתם אם נראות הן משפחתו, אין ילדים נוספים שמוצגים כילדיו.'],
   'copy': {0: {'he': 'במוצאי יום כיפור יצאנו לוורשה. משם נסענו ברכבת לקונסטנצה שברומניה.',
                'en': 'After Yom Kippur, we set out for Warsaw. From there, we took a train to Constanța in Romania.',
                'source': None,

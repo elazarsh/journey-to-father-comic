@@ -1,0 +1,19 @@
+{
+  "id": "B01V07-P09-01",
+  "source_path": "/workspace/generated_images/exec-9a52d107-0323-4b7f-aa84-65f655c0d308.png",
+  "prompt": "ONE portrait 2:3 illustration, early-1900s Jewish Polish home, warm dramatic pastoral watercolor/gouache with selective fine ink. Use the two references for exact approved narrow boy face, charcoal shirt, dark cap, clean cream bed linen, both feet bandaged and modest tidy room. The boy sits awake in bed at center-right. His eldest brother Chaim, clearly a late-teen/young-adult and much older than the boy, stands or sits beside the bed presenting a sheet of paper and graphite pencil. Chaim is in side/back view; no claimed verified portrait, simple dark waistcoat over cream shirt, dark kippah. Warm practical attention rather than sentimental hug. Keep both heads entirely in middle 35–60% canvas height and all important hands/paper in center. Plain pale upper-left wall and generous top third reserved for future narration; no faces there. At least 18% extra margin around every essential head and hand. No religious icons or crosses on walls. No readable handwriting, text, captions, bubbles, borders, collage or watermark.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P08-04.png"
+  ],
+  "source_visual_review": "Two figures only, Chaim clearly older than Yitzhak and seen from side/back, child face follows approved reference. Both feet bandaged; bed and domestic setting match P08-04. Strong upper-left quiet wall and headroom. Paper blank for separate live marks.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P09-01.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
+  "browser_qa": "not performed"
+}

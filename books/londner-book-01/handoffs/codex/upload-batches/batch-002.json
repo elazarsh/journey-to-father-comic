@@ -1,0 +1,281 @@
+{
+  "parent": "422684cc1f1b4b9d2494ede5904e3444e7104d58",
+  "commit": "d6445f5110d8a9f937964e4028513202ed5fe9c8",
+  "branch": "codex/londner-book-01-v07-progress-002",
+  "files": [
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P01-01.png",
+      "sha": "75929d76bae02d26af5d39b0b20d7c64c88c3343"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P03-01.png",
+      "sha": "e7b8694097185bfc43a8d3782c4688e420b389ff"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P08-03.png",
+      "sha": "62db47c5bd75db61eab0b9c42df466f2b841025f"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P08-04.png",
+      "sha": "a9d1c1542b22d0472972277b8872ff71981ed8a8"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P17-03.png",
+      "sha": "2ab3de018fa012fca32722337aab4814c6f09cb2"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P26-01.png",
+      "sha": "2441142d67f7d8ecb5fb396ac014603725f14bbd"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P26-04.png",
+      "sha": "6d8a631e4c92c7341f061bb3005c9ce59250c173"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P36-02.png",
+      "sha": "61d6e7cbf95f58656c6adf79e7ee5f7a1049491c"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P36-03.png",
+      "sha": "6dafdfc88c9ca648cc3888f0e10bc2e491ebbca3"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/B01V07-P36-03.webp",
+      "sha": "c4b634f7b643c53730a092c717ca80ce4545362f"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/generation-receipts.json",
+      "sha": "06835972d7b8e319b5db63c090b759c210617bf5"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/progress.json",
+      "sha": "4d0f52ffd7c971add769c39993afa5a633424bea"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P01-01.json",
+      "sha": "bf7b85b8a3b5ccfbb55fc9c6482dca2a4f1f0fe2"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P03-01.json",
+      "sha": "ac1c9a2385ff38b0fc7c7ac44c2d18059dbef9e0"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P08-03.json",
+      "sha": "712a3c0e622ffd7039f6e71c882e5fdca023e373"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P08-04-rejected-01.json",
+      "sha": "118cf508fc0690e375e626d5d35de579957db8f2"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P08-04.json",
+      "sha": "05a0aaeb2fe850f70fd0c7dcf686d6b579eca8eb"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P17-03.json",
+      "sha": "8f150decaa82ddee92db6e3f3a0a7e8ace5a31eb"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P26-01.json",
+      "sha": "fae5618195c53cb17f164ea4e57e6dadfac9bd67"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P26-02.json",
+      "sha": "27c72f6e7533da732bddf8292a61b85e44d41be6"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P26-03.json",
+      "sha": "ce75b7504e6d1175d8e61b8967149554f87c991d"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P26-04.json",
+      "sha": "c712ad02a1594a6fff87edb927ca92acc2f09f39"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/receipts/B01V07-P36-03.json",
+      "sha": "4c2f39dff773dd9e1a835606d12be345e341340f"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/rejected/B01V07-P08-04-attempt-01.png",
+      "sha": "7a411a7d9bffd85668f23df0d385cd8cbaec99da"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/requests/B01V07-P26-01.txt",
+      "sha": "69c667a49e56ce7edd28003f95f187f87b3f2f03"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/requests/B01V07-P26-04.txt",
+      "sha": "db4ee9de4d36d29fb34e9f4d85e9c7fab7aeb36c"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/requests/B01V07-P27-01.txt",
+      "sha": "74be5c13d1f2d6a4b4147e44a18b816afdd1796a"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/requests/B01V07-P27-02.txt",
+      "sha": "f5e14ac58e37e3e64105d9c25bba5bda46ea0c76"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/requests/B01V07-P27-03.txt",
+      "sha": "686fc0d4e3b79aaa3280108b33f332c9dcba502f"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/requests/B01V07-P27-04.txt",
+      "sha": "bb44d4c3edf5b71d649abcee02f211b0c73da8a2"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.json",
+      "sha": "a44d0ad928f8cfb008275fbf50a9fb5ae8aeeace"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P01-01.source-sha256.txt",
+      "sha": "65efb8eb314ce765a50956ebfe9a9205ef1707a2"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P01-01.webp",
+      "sha": "230cbfbf600f3bd12124e8463c96c678d79edebc"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P03-01.source-sha256.txt",
+      "sha": "ad52100a07cb8ec972ff2e702e0e2f575be32e48"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P03-01.webp",
+      "sha": "36c00ed482a9708842cc55677da2ca4ca0944376"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P08-03.source-sha256.txt",
+      "sha": "0c6a4a83b709a2c029474c96303bcd46ba7871ce"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P08-03.webp",
+      "sha": "10a2bcc028f2d7e313c54af600b8084c308402c5"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P08-04.source-sha256.txt",
+      "sha": "b8ae77dca6709b092cde82346ec83126d374537f"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P08-04.webp",
+      "sha": "ff02f03efc1f6d33e1772cf088333c9053ab0413"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P17-03.source-sha256.txt",
+      "sha": "ec0a484541ba5aa537e1ce4c8e72d8fb68831e3d"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P17-03.webp",
+      "sha": "ee7e97dd8d8c7b42c3dffe60d987a2eaa640494a"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P26-01.source-sha256.txt",
+      "sha": "18d5b8b504ed2a34e584118fc1358fcab15bd8b5"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P26-01.webp",
+      "sha": "3f1c7c021c2855d05bfcf1f8e931650993c20eb7"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P26-04.source-sha256.txt",
+      "sha": "ce37d26224aad44f6867b1637f07dad672bdc86a"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P26-04.webp",
+      "sha": "9ffc59b56eec6665c1e2f9b6325e0ffa4ed51c0d"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P36-02.source-sha256.txt",
+      "sha": "f21f93973e0144f5c6c4a03a88d973336ba77073"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P36-02.webp",
+      "sha": "704840f4df974757537c9119a8a75c41c00874ba"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P36-03.source-sha256.txt",
+      "sha": "1ecf166461b715faf22843ba612d7247fd464fec"
+    },
+    {
+      "path": "books/londner-book-01/art/book1-v07/web/B01V07-P36-03.webp",
+      "sha": "edc1fd6d68447d47cff598b624e4b892d1c23e83"
+    },
+    {
+      "path": "books/londner-book-01/handoffs/codex/github-pre-art-verification.json",
+      "sha": "6d9134a7eb40c773b2e90dad139497b25740b9cf"
+    },
+    {
+      "path": "books/londner-book-01/handoffs/codex/state.json",
+      "sha": "ea8879f6ee8bad9cbba3d5167d7ea1dbb23d9dc4"
+    },
+    {
+      "path": "books/londner-book-01/handoffs/codex/upload-batches/batch-001.json",
+      "sha": "3c385703fb6d0b27c9c410cf8452d4cc759f74dd"
+    },
+    {
+      "path": "books/londner-book-01/revisions/book1-v07/book1-reader.html",
+      "sha": "7187fe5e2ff9199eda4284b90ef2fe882e188f86"
+    },
+    {
+      "path": "books/londner-book-01/revisions/book1-v07/book1-script.json",
+      "sha": "8e85a4e2a2eeb90e6f401ab876156f7d6ee5016b"
+    },
+    {
+      "path": "books/londner-book-01/revisions/book1-v07/index.html",
+      "sha": "942a1be16acc15ec2d2f58d53267026196ec7d8e"
+    },
+    {
+      "path": "books/londner-book-01/revisions/book1-v07/production/manifest.json",
+      "sha": "16e81151e901655ae3df21c154bca9b802182318"
+    },
+    {
+      "path": "books/londner-book-01/revisions/book1-v07/qa-report.json",
+      "sha": "6ab699f55b38ff849f51b4d448d6501a02f438b0"
+    }
+  ],
+  "blob_shas": {
+    "73eadcc9a8984bd2bdb75cf1c2948fe33fe19db1": "73eadcc9a8984bd2bdb75cf1c2948fe33fe19db1",
+    "79cf9e24cd043677cb55f901572942637939eef6": "79cf9e24cd043677cb55f901572942637939eef6",
+    "9408934496e8540039cb2972efb43c94e5edd0a1": "9408934496e8540039cb2972efb43c94e5edd0a1",
+    "56900a0fcf3c8c3f5112a868213bedc201fe3b57": "56900a0fcf3c8c3f5112a868213bedc201fe3b57",
+    "b11b6f037456cb60568f990f5872f22cb58f0e46": "b11b6f037456cb60568f990f5872f22cb58f0e46",
+    "8e25c17e1e4b0f710dce6615400b467d05ae25b7": "8e25c17e1e4b0f710dce6615400b467d05ae25b7",
+    "8ab44940d3351fd03c3d0243025cf1814ce2eed8": "8ab44940d3351fd03c3d0243025cf1814ce2eed8",
+    "b3fca4b222b4ed81ec4549bca97b29e2b9b0d2c6": "b3fca4b222b4ed81ec4549bca97b29e2b9b0d2c6",
+    "ad349376f835cf0b48bdd6a335fce6ef0edaf180": "ad349376f835cf0b48bdd6a335fce6ef0edaf180",
+    "99cac3b0ce59325ebe560b77582c88c885e1a34d": "99cac3b0ce59325ebe560b77582c88c885e1a34d",
+    "11a7b897fd305b3c9bc84905029e36b650b2f4b3": "11a7b897fd305b3c9bc84905029e36b650b2f4b3",
+    "0895aede5023d4c601a39581bcbd621f6e484a86": "0895aede5023d4c601a39581bcbd621f6e484a86",
+    "c2b35b892a0c8f6b8e5803c611e8970f1730634b": "c2b35b892a0c8f6b8e5803c611e8970f1730634b",
+    "0e7bdf307af2db071628d397976c8a90151b5098": "0e7bdf307af2db071628d397976c8a90151b5098",
+    "fbf5f92b3fa916627593a0b0cc1c3bfa59b6126d": "fbf5f92b3fa916627593a0b0cc1c3bfa59b6126d",
+    "7797d4b14db74a09ca3c92dd72b22c7ac967c44f": "7797d4b14db74a09ca3c92dd72b22c7ac967c44f",
+    "d9a705c10ed5bc9c31ddc9c4726175f37336c9a0": "d9a705c10ed5bc9c31ddc9c4726175f37336c9a0",
+    "d1fffcaa86697b751d4a96ebd39dd8d9581cae5f": "d1fffcaa86697b751d4a96ebd39dd8d9581cae5f",
+    "34b72a764e6dabd478327a6dfbf9b6daf7931771": "34b72a764e6dabd478327a6dfbf9b6daf7931771",
+    "7872bf99df60dfe814b292facdf080af7e901f9b": "7872bf99df60dfe814b292facdf080af7e901f9b",
+    "0e62c737c1873938ef6ed9008d72331731fb0a57": "0e62c737c1873938ef6ed9008d72331731fb0a57",
+    "9fed20e3b5f1cbec0cc6a0ea19b75adeb595c5f4": "9fed20e3b5f1cbec0cc6a0ea19b75adeb595c5f4",
+    "e7b8694097185bfc43a8d3782c4688e420b389ff": "e7b8694097185bfc43a8d3782c4688e420b389ff",
+    "75929d76bae02d26af5d39b0b20d7c64c88c3343": "75929d76bae02d26af5d39b0b20d7c64c88c3343",
+    "62db47c5bd75db61eab0b9c42df466f2b841025f": "62db47c5bd75db61eab0b9c42df466f2b841025f",
+    "a9d1c1542b22d0472972277b8872ff71981ed8a8": "a9d1c1542b22d0472972277b8872ff71981ed8a8",
+    "2ab3de018fa012fca32722337aab4814c6f09cb2": "2ab3de018fa012fca32722337aab4814c6f09cb2",
+    "2441142d67f7d8ecb5fb396ac014603725f14bbd": "2441142d67f7d8ecb5fb396ac014603725f14bbd",
+    "6d8a631e4c92c7341f061bb3005c9ce59250c173": "6d8a631e4c92c7341f061bb3005c9ce59250c173",
+    "61d6e7cbf95f58656c6adf79e7ee5f7a1049491c": "61d6e7cbf95f58656c6adf79e7ee5f7a1049491c",
+    "6dafdfc88c9ca648cc3888f0e10bc2e491ebbca3": "6dafdfc88c9ca648cc3888f0e10bc2e491ebbca3",
+    "c4b634f7b643c53730a092c717ca80ce4545362f": "c4b634f7b643c53730a092c717ca80ce4545362f",
+    "7a411a7d9bffd85668f23df0d385cd8cbaec99da": "7a411a7d9bffd85668f23df0d385cd8cbaec99da",
+    "230cbfbf600f3bd12124e8463c96c678d79edebc": "230cbfbf600f3bd12124e8463c96c678d79edebc",
+    "36c00ed482a9708842cc55677da2ca4ca0944376": "36c00ed482a9708842cc55677da2ca4ca0944376",
+    "ff02f03efc1f6d33e1772cf088333c9053ab0413": "ff02f03efc1f6d33e1772cf088333c9053ab0413",
+    "ee7e97dd8d8c7b42c3dffe60d987a2eaa640494a": "ee7e97dd8d8c7b42c3dffe60d987a2eaa640494a",
+    "10a2bcc028f2d7e313c54af600b8084c308402c5": "10a2bcc028f2d7e313c54af600b8084c308402c5",
+    "3f1c7c021c2855d05bfcf1f8e931650993c20eb7": "3f1c7c021c2855d05bfcf1f8e931650993c20eb7",
+    "704840f4df974757537c9119a8a75c41c00874ba": "704840f4df974757537c9119a8a75c41c00874ba",
+    "9ffc59b56eec6665c1e2f9b6325e0ffa4ed51c0d": "9ffc59b56eec6665c1e2f9b6325e0ffa4ed51c0d",
+    "edc1fd6d68447d47cff598b624e4b892d1c23e83": "edc1fd6d68447d47cff598b624e4b892d1c23e83"
+  },
+  "verified_progress_sha": "4d0f52ffd7c971add769c39993afa5a633424bea",
+  "uploaded_utc": "2026-10-30T12:17:08.906924+00:00"
+}

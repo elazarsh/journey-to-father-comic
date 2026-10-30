@@ -122,7 +122,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-1",
@@ -169,6 +169,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P01-02.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         },
         {
@@ -193,7 +198,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-1",
@@ -223,6 +228,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P01-03.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         }
       ],
@@ -338,7 +348,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-1",
@@ -385,6 +395,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P02-02.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         },
         {
@@ -409,7 +424,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-1",
@@ -456,6 +471,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P02-03.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         }
       ],
@@ -1772,7 +1792,7 @@
         {
           "id": "B01V07-P07-02",
           "reading_order": 2,
-          "action": "תקריב מטבע ביד אותו ילד אחר, כהמחשה חוזרת.",
+          "action": "האם ממשיכה להסביר לבנה. שניהם בפריים, האם מדברת והילד מקשיב. אין מטבע שאמא נותנת לו כאילו ניתן ברגע הזה. פני האם מימין, אזור הבועה משמאל.",
           "texts": [
             {
               "he": "אתה מקבל ממני. אני משלמת לרבי בשביל הלימודים שלך.",
@@ -2252,7 +2272,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10"
@@ -2298,6 +2318,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P09-01.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -2321,7 +2346,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10"
@@ -2367,6 +2392,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P09-02.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -2390,7 +2420,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10"
@@ -2436,6 +2466,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P09-03.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -2459,7 +2494,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10"
@@ -2505,6 +2540,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P09-04.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         }
       ],
@@ -2549,7 +2589,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10",
@@ -2596,6 +2636,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P10-01.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -2604,7 +2649,7 @@
           "action": "העטיפה נפתחת ונשמרת; אין בועת בקשה שלא תועדה.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10",
@@ -2651,6 +2696,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P10-02.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -4749,7 +4799,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-19"
@@ -4795,6 +4845,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P17-04.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         }
       ],
@@ -4837,7 +4892,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-19"
@@ -4883,6 +4938,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P18-01.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         },
         {
@@ -4891,7 +4951,7 @@
           "action": "השפה אינה מובנת לו; ללא מחשבות שהומצאו.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-19"
@@ -4937,6 +4997,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P18-02.webp",
+            "fit": "contain",
+            "status": "generated-reviewed"
           }
         },
         {
@@ -7206,9 +7271,9 @@
           "lettering": {
             "zone": [
               5,
-              6,
-              66,
-              25
+              73,
+              88,
+              22
             ],
             "type": "caption",
             "tail_toward": [
@@ -7216,7 +7281,8 @@
               48
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
-            "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+            "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility.",
+            "placement_note": "Caption moved below the faces after reviewing the actual source composition."
           },
           "art": {
             "src": "../../art/book1-v07/web/B01V07-P26-02.webp",
@@ -7405,7 +7471,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-29",
@@ -7452,6 +7518,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P27-01.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -7476,7 +7547,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-awaiting-source-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-29",
@@ -7523,6 +7594,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P27-02.webp",
+            "fit": "contain",
+            "status": "generated-awaiting-source-review"
           }
         },
         {
@@ -7531,7 +7607,7 @@
           "action": "משווה דוגמאות ומספרי הזמנה, בלי מכשירי משרד מודרניים.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-awaiting-source-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-29",
@@ -7578,6 +7654,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P27-03.webp",
+            "fit": "contain",
+            "status": "generated-awaiting-source-review"
           }
         },
         {
@@ -7602,7 +7683,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-29",
@@ -7649,6 +7730,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P27-04.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         }
       ],
@@ -9310,7 +9396,7 @@
         {
           "id": "B01V07-P33-02",
           "reading_order": 2,
-          "action": "פרט מעבודת חקלאות שהוא רואה, לא חלום חזותי שהתגשם כבר.",
+          "action": "יצחק הנער נראה מימין במבט אל השדות והחקלאים. רואים את פניו והבעתו כדי לחבר אליו בועת מחשבה. החקלאי והאדמה במרחב, לא מראים את המשק העתידי. שמיים שקטים משמאל לבועה.",
           "texts": [
             {
               "he": "אני רוצה להיות חקלאי בארץ ישראל.",
@@ -10402,7 +10488,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-40"
@@ -10448,6 +10534,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P36-04.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         }
       ],
@@ -10494,7 +10585,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-40",
@@ -10542,6 +10633,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P37-01.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -10550,7 +10646,7 @@
           "action": "שניהם עוזבים; הצבא הלוחם מקבל אחריות על הגשר.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-source-reviewed",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-40",
@@ -10598,6 +10694,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P37-02.webp",
+            "fit": "contain",
+            "status": "generated-source-reviewed"
           }
         },
         {
@@ -10909,7 +11010,7 @@
         {
           "id": "B01V07-P38-03",
           "reading_order": 3,
-          "action": "ארבע בנות המשפחה נכנסות בזו אחר זו, דמויות צעירות לא מזוהות עד בירור; אין לטעון סדר גיל.",
+          "action": "ארבע בנות המשפחה נכנסות בזו אחר זו. יצחק הצעיר נוכח מימין ומביט בהן, כדי שהמחשבה תהיה מחוברת לדמות חושבת. בדיוק ארבע בנות ועוד יצחק; אין גילאים מדויקים או סדר גיל מוסק. מקום שקט לבועה למעלה משמאל, הפנים מתחת ומימין.",
           "texts": [
             {
               "he": "לאיזו מהבנות הוא מתכוון?",
@@ -12520,7 +12621,7 @@
         {
           "id": "B01V07-P43-04",
           "reading_order": 4,
-          "action": "דרכון מתקבל; חלון הנסיעה מוגבל בזמן, בלי שעון או תאריך שהומצא.",
+          "action": "לאחר קבלת הדרכון, יצחק במשרד העלייה בוורשה מקבל את התנאי לצאת בזמן. נציג המשרד נראה מדבר, יצחק מקשיב. אזור שקט לבועה משמאל, פני הדובר במרכז־ימין; אין תאריך או שעון שהומצאו.",
           "texts": [
             {
               "he": "אם לא תצא בזמן, האישור יעבור למישהו אחר.",
@@ -13104,7 +13205,7 @@
         {
           "id": "B01V07-P45-04",
           "reading_order": 4,
-          "action": "המשפחה עם חפציה, המבט אל הדרך נותר פתוח.",
+          "action": "נוסע מבוגר בדרך שואל את יצחק; שני הדוברים נראים לצד חפצי המשפחה. פני השואל מימין ושטח שקט לבועה משמאל. חוה ובתם אם נראות הן משפחתו, אין ילדים נוספים שמוצגים כילדיו.",
           "texts": [
             {
               "he": "יש לך קרובים? איפה תישן?",

@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P02-02",
+  "source_path": "/workspace/generated_images/exec-40b02952-2dad-4c0a-a3bf-e6eeebe69146.png",
+  "prompt": "A new single illustration for a historical family graphic novel: Yitzhak as a SMALL boy about FOUR YEARS OLD in a Polish town around 1904. Use the FIRST reference solely for approved facial identity, age him down naturally: same narrow oval facial family, noticeable ears, natural brown eyes, longish natural nose and restrained mouth, but clearly a preschool child rather than the 9–11-year-old model. Small child proportions, not huge cartoon eyes. Dark flat cap on head, simple clean charcoal button shirt, dark shorts/trousers and modest period shoes, neat cared-for clothes not rags. He stands in a quiet cobbled small-town street, looking curiously toward a shop just out of frame. No companion or other identifiable children. Warm autumn daylight and muted blue shadows, old plaster-and-timber shop buildings softly blurred behind; no recognizable real address claimed. Use the SECOND reference only for painterly style/material palette. Portrait 1024x1536: entire small boy including cap and shoes within central 60% width and middle 55% height, face around x65% y42%, body compact with ample environment/overscan. Upper-left 45% width by 25% height is quiet pale plaster/sky for later caption. Dramatic pastoral watercolor/gouache, selective ink, cinematic gentle light. NO readable signs, text, letters, bubbles, borders, collage, watermark, no flags or modern cars. ONE continuous scene.",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P03-01.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "scene_fidelity": "One small boy, no siblings; reconstructed early-1900s Polish street. Clean clothes, curious gaze.",
+    "likeness": "Age-down adaptation of approved narrow-faced child; face/ears/nose retained without enlarged cartoon eyes. Apparent age is approximate.",
+    "quiet_lettering": "Clear sky upper-left, face below/right of it.",
+    "crop_notes": "Full cap and shoes visible. Tall source matches narrow panel well; verify feet at highest zoom.",
+    "no_text_or_bubbles": true
+  },
+  "file": "art/book1-v07/B01V07-P02-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+  "file_bytes": 2981826,
+  "recorded_at_utc": "2026-10-30T12:20:21.918124+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P02-02.webp",
+  "web_sha256": "7bb174f1a8f699d8831820f53a8028136942c04b06c0732adee2c006e05f94c2"
+}

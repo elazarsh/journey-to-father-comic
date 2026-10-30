@@ -1,0 +1,19 @@
+{
+  "id": "B01V07-P09-03",
+  "source_path": "/workspace/generated_images/exec-18984dbd-ecd4-41b0-b868-6ac3e96904bd.png",
+  "prompt": "ONE landscape 3:2 continuous literary graphic-novel illustration. Watercolor and gouache with selective fine ink, dramatic pastoral warm light. Close view in early-1900s Polish Jewish home: the approved boy's small RIGHT hand holds a wooden dip-pen with a metal nib and carefully goes over faint graphite guiding curves on cream paper laid across a bedside board. A small plain dark ink pot beside the paper. Only child hands and sleeve edges visible, no faces. Correct natural five-finger anatomy. The marks are abstract, non-readable and NOT text; do not write any alphabet or words. Upper-left quarter has quiet soft cream bed linen, no hands or face there, reserved for live narration. Keep nib, ink pot and fingers within center 60% width and middle 56% height with 18% overscan. No mess, no spill, no invented failure or prize. No lettering, captions, balloons, borders, collage, Christian wall icon or watermark.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P08-04.png"
+  ],
+  "source_visual_review": "Close-up child hands with dip-pen, ink pot, faint graphite guide curves and darker ink tracing; no readable words. Natural fingers, one nib. Upper-left linen quiet. Source does not invent a spill or failure.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P09-03.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "3c146c65a520473053a1dfe9310c6158e1bde227b7c9001f58dce1c2220b5f61",
+  "browser_qa": "not performed"
+}
