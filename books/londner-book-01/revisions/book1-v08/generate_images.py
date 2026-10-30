@@ -24,10 +24,13 @@ workers = int(args[args.index('--workers') + 1]) if '--workers' in args else 4
 quality = args[args.index('--quality') + 1] if '--quality' in args else 'high'
 force = '--force' in args
 client = OpenAI()
+STOP = []  # set when the account has no credits: no point trying the rest
 
 
 def one(it):
     pid = it['id']
+    if STOP:
+        return pid, 'skipped (no credits)'
     existing = (A / 'receipts' / f'{pid}.json').exists()
     stem = f'{pid}.v2' if existing else pid
     out = A / f'{stem}.png'
@@ -48,6 +51,9 @@ def one(it):
             break
         except Exception as e:  # rate limits or transient errors: retry, then report
             err = str(e)
+            if 'no credits' in err or 'insufficient_quota' in err or 'billing' in err:
+                STOP.append(1)
+                return pid, 'error: no credits'
             if attempt == 2:
                 return pid, 'error: ' + err[:300]
     raw = base64.b64decode(res.data[0].b64_json)
