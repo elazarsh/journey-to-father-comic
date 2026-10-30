@@ -1,0 +1,194 @@
+[
+ {
+  "id": "NEW-P02-b",
+  "verdict": "pass",
+  "issue": "High-angle medium shot, mother with swaddled baby and smiling midwife in stove glow, blurred neighbours in snow through frosted window; calm upper-right wall. Matches plan.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P03-02",
+  "verdict": "pass",
+  "issue": "Doorway POV into small dim room with beds, table, one window, no people; reads a bit cosier than 'cramped' but acceptable.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P03-03",
+  "verdict": "pass",
+  "issue": "Bird's-eye table, bread and bowls, four children's hands, patched sleeve visible, empty tabletop upper right.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P03-04",
+  "verdict": "pass",
+  "issue": "Mother's reddened hands wringing laundry over washtub, steam, calm upper right.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P04-01",
+  "verdict": "pass",
+  "issue": "High-angle detail of hands laying straw mattress and blankets by tiled stove, oil lamp glow; differs from wide P04-02.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P04-03",
+  "verdict": "pass",
+  "issue": "Mother mending by kerosene lamp, sleeping children as dim shapes, dark upper right. Angle closer to eye level than low, acceptable.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P04-04",
+  "verdict": "pass",
+  "issue": "Seated POV along table to empty chair, a few siblings' hands, no faces, amber side light.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P05-01",
+  "verdict": "pass",
+  "issue": "Lane with wooden houses, small mother and boy hand in hand, clear sky upper right. More wide than extreme-wide and only slightly high, acceptable.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P05-02",
+  "verdict": "pass",
+  "issue": "Rabbi teaching boys on a bench, plain wall upper right. Camera is near adult eye level rather than low, and boys look 6-8 rather than 4-6; minor.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P05-03",
+  "verdict": "fix",
+  "issue": "Candy is a modern cellophane-wrapped striped peppermint (anachronistic) and sits directly on the letter marks instead of a plain spot; view is oblique rather than bird's-eye.",
+  "instruction": "Keep everything, change only: replace the wrapped striped peppermint with a small plain unwrapped boiled sweet (amber or honey coloured, no wrapper), and place it on a small clean blank patch of paper with no marks under or around it; keep the other letter marks as faint blurred unreadable smudges."
+ },
+ {
+  "id": "B01V07-P05-04",
+  "verdict": "fix",
+  "issue": "No candy visible and cheeks not full (plain closed-mouth smile); boy reads about 6-7 rather than about four.",
+  "instruction": "Keep everything (cap, shirt, window light, face features, ears), change only: make him look about four years old (rounder, softer, smaller face) with one cheek visibly bulging from a candy in his mouth and eyes shining with delight."
+ },
+ {
+  "id": "B01V07-P06-01",
+  "verdict": "pass",
+  "issue": "Examiner in long coat and hat before a row of boys at a table, plain wall upper right, Yitzhak not singled out.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P06-02",
+  "verdict": "fix",
+  "issue": "Receiving palm looks like a large adult hand, not a young boy's; coin shows an embossed eagle with tiny rim lettering.",
+  "instruction": "Keep everything (dark background, light shaft, giving hand), change only: make the receiving hand clearly a small child's hand (small, smooth, short fingers, child's sleeve cuff), and make the coin a plain worn copper disc with no inscription or lettering."
+ },
+ {
+  "id": "B01V07-P06-03",
+  "verdict": "fix",
+  "issue": "Yitzhak looks about 9-10, not about five; otherwise expression, open mouth, hands on table and shade are right.",
+  "instruction": "Keep everything (composition, cap, shirt, hands on table, half-shadow, hurt puzzled expression), change only: make Yitzhak about five years old: smaller, rounder child's face and hands, same narrow oval face shape, brown eyes and pronounced ears."
+ },
+ {
+  "id": "B01V07-P06-04",
+  "verdict": "pass",
+  "issue": "High wide shot, boy by tiled stove looking up at mother seen half from behind, calm wall above his head for balloon.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P07-01",
+  "verdict": "fix",
+  "issue": "Yitzhak looks about 10, not about five (inconsistent with P06-04).",
+  "instruction": "Keep everything (over-shoulder framing, mother's headscarf, lamp, pose), change only: make Yitzhak about five years old: smaller, rounder child's face, same narrow oval face shape, brown eyes, pronounced ears and cap."
+ },
+ {
+  "id": "B01V07-P07-02",
+  "verdict": "fix",
+  "issue": "Two blank speech balloons are drawn in the image (forbidden); Yitzhak looks about eight rather than five.",
+  "instruction": "Keep everything (mother on the right speaking gently, boy listening, window light), change only: remove both drawn speech balloons and fill that upper-left area with the plain softly lit wall; make the boy look about five years old (smaller, rounder face, same features and cap)."
+ },
+ {
+  "id": "B01V07-P07-03",
+  "verdict": "pass",
+  "issue": "Extreme-wide high view of empty cheder benches, tiny Yitzhak in background, cool grey light.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P08-04",
+  "verdict": "pass",
+  "issue": "Bird's-eye bed, boy about seven with both feet bandaged, shoes on floor, bag by door, open floor upper right.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P09-04",
+  "verdict": "pass",
+  "issue": "Blue dusk town, one yellow window with small silhouette of the boy, lots of sky upper right. Silhouette reads as at a table more than on a bed; minor.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P10-03",
+  "verdict": "pass",
+  "issue": "POV from bed with bandaged feet, hand in doorway holding crumpled newspapers, plain wall upper right.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P10-04",
+  "verdict": "pass",
+  "issue": "Boy reading in bed lit by the page, dark upper area. Looks closer to 10 than 8 and angle is near eye level; acceptable.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P11-01",
+  "verdict": "pass",
+  "issue": "Child's finger under a blank line in a column of illegible grey print, lamp, calm upper area.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P11-03",
+  "verdict": "pass",
+  "issue": "Empty carved wooden balcony with misty vignette, no border, no people.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P11-04",
+  "verdict": "pass",
+  "issue": "Over father's shoulder on Yitzhak about 11 in bed, calm wall above his head.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P12-01",
+  "verdict": "pass",
+  "issue": "Father with raised finger and newspaper by lamp, space above head. Angle near eye level rather than low; minor.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P12-02",
+  "verdict": "pass",
+  "issue": "Over Yitzhak's shoulder onto mother listening softly; he is not very blurred but reads as foreground.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P12-03",
+  "verdict": "pass",
+  "issue": "Rough opening in wall joining a bright second room, no people, bright upper wall.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P12-04",
+  "verdict": "pass",
+  "issue": "Count is correct: father, mother holding baby girl, five boys and three girls total (10 people); Yitzhak seated with bandaged foot on stool; plain wall upper right. Eldest son not clearly older than the others and angle is eye level; minor.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P13-01",
+  "verdict": "pass",
+  "issue": "Doctor on right facing seated parents across desk, grey window light, wall space above doctor.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P13-02",
+  "verdict": "pass",
+  "issue": "Muddy road out of town at grey dawn, two tiny figures, open sky upper right.",
+  "instruction": ""
+ },
+ {
+  "id": "B01V07-P13-03",
+  "verdict": "pass",
+  "issue": "Tall exam room, doctor in white coat examining boy's foot, bearded father pointing, high plain wall for balloons. Camera near eye level rather than low; acceptable.",
+  "instruction": ""
+ }
+]
