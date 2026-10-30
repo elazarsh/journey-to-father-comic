@@ -1,3 +1,5 @@
+> **גרסה 0.8 (עימוד קומיקס, Claude):** [הסקיצה](revisions/book1-v08/sketch.html), [התסריט 0.8](revisions/book1-v08/script-v08-he.md), [בקשות תמונה](handoffs/claude/v08-image-requests.md). בתסריט 0.7 הוחלפו שורות שהומצאו במילים מהיומן ([מה שונה](revisions/book1-v07/claude-review/changes-applied-he.md)).
+
 > העלילה ודמות יצחק אושרו. גרסה 0.7 מוסיפה פתיחה ברורה, דיבור ומחשבה ופריסות מגוונות. [תור התמונות הפעיל](revisions/book1-v07/production/manifest.json). הסגנון: דרמטי ופסטורלי.
 
 > גרסה פעילה לעיון: [ספר 1, גרסה 0.7](revisions/book1-v07/README.md), [קריאת הסקיצה](revisions/book1-v07/book1-reader.html). לפי הבהרת המשפחה: שלושה ספרים, ו־48 עמודי ספר 1 עד היציאה באונייה, לפני ההגעה. הנחיות המשפחה והגילים: [רציפות הדמויות](revisions/book1-v07/family-continuity.md). תיאור ההפקה בן 32 העמודים להלן נשמר לארכיון ואינו רשימת האיורים הפעילה.

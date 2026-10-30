@@ -1,0 +1,3037 @@
+{
+ "version": "0.8",
+ "pages": [
+  {
+   "page": 1,
+   "pace": "slow",
+   "recipe": "tall-2",
+   "order": [
+    "B01V07-P01-01",
+    "B01V07-P01-02",
+    "B01V07-P01-03"
+   ],
+   "hero": "B01V07-P01-01",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P01-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לזיכרון הבנים והבת והנכדים.",
+      "en": "In memory, for my sons, my daughter and my grandchildren.",
+      "kind": "quote",
+      "memoir": "לזיכרון הבנים והבת והנכדים"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק המבוגר",
+      "he": "",
+      "en": "",
+      "kind": "staging",
+      "memoir": "לזיכרון הבנים והבת והנכדים",
+      "picture": "grandchildren",
+      "mouth": "Yitzhak's head is upper-center (about 30% down); cloud floats in the empty wall at upper-left, trail of small circles down to his hat"
+     }
+    ],
+    "B01V07-P01-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "זיכרונות מיום הולדתי ועד... אולי לא יהיה בסדר הכתוב.",
+      "en": "Memories from the day I was born until... maybe not in the right order.",
+      "kind": "quote",
+      "memoir": "זיכרונות מיום הולדתי ועד... אולי לא יהיה בסדר הכתוב"
+     }
+    ],
+    "B01V07-P01-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "1971. אני בן שבעים ואחת.",
+      "en": "1971. I am seventy-one years old.",
+      "kind": "adapted",
+      "memoir": "היום יום ד' בסיון תשל\"א 26/5/71"
+     }
+    ]
+   },
+   "note_he": "נוסף ענן מחשבה ריק מעל יצחק הכותב, ובו ציור קטן של הנכדים; הכיתובים נשמרו.",
+   "title": "בשבילכם",
+   "shows_override": {}
+  },
+  {
+   "page": 2,
+   "pace": "normal",
+   "recipe": "wide-2",
+   "order": [
+    "B01V07-P02-01",
+    "B01V07-P02-02",
+    "NEW-P02-a",
+    "B01V07-P02-03"
+   ],
+   "hero": "B01V07-P02-02",
+   "morph": [],
+   "inset": "NEW-P02-a",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P02-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מה שאני אזכור, אכתוב.",
+      "en": "Whatever I remember, I will write.",
+      "kind": "quote",
+      "memoir": "מה שאני אזכור, אכתוב"
+     }
+    ],
+    "B01V07-P02-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נולדתי בט״ו בשבט 1900, בעיר יונדזיוב ליד קיעלץ, בפולין.",
+      "en": "I was born on Tu BiShvat, 1900, in the town of Jedrzejow near Kielce, in Poland.",
+      "kind": "adapted",
+      "memoir": "נולדתי בעיר יונדזיוב ע\"י קיעלץ בשנת תר\"ס, יום ט\"ו בשבט"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "המיילדת לא חזרה לברית של השכנים, עד שיצאתי במזל לעולם.",
+      "en": "The midwife did not go back to the neighbors' bris until I was safely born.",
+      "kind": "adapted",
+      "memoir": "המיילדת לא הלכה בחזרה לברית, עד שאני יצאתי במזל לעולם"
+     }
+    ],
+    "B01V07-P02-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שמי יצחק מאיר לונדנר. בבית קראו לי איטשע.",
+      "en": "My name is Yitzhak Meir Londner. At home they called me Itche.",
+      "kind": "adapted",
+      "memoir": "איטשע, ז\"א אני"
+     }
+    ],
+    "NEW-P02-a": []
+   },
+   "note_he": "הכיתוב הארוך בפאנל 2 פוצל לשני כיתובים קצרים באותה לשון; אין מקור לדיבור בעמוד. עורך: נוספה תמונה קטנה בעיגול: המיילדת שלא חזרה לברית.",
+   "title": "כשקראו לי איטשע",
+   "shows_override": {}
+  },
+  {
+   "page": 3,
+   "pace": "slow",
+   "recipe": "wide-3",
+   "order": [
+    "B01V07-P03-01",
+    "B01V07-P03-02",
+    "B01V07-P03-03",
+    "B01V07-P03-04"
+   ],
+   "hero": "B01V07-P03-01",
+   "morph": [
+    [
+     "B01V07-P03-01",
+     "B01V07-P03-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P03-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ביום הייתה כאן החנות של אבא ואמא: עורות וחומרים להכנת נעליים.",
+      "en": "By day this was Father and Mother's shop: leather and supplies for making shoes.",
+      "kind": "adapted",
+      "memoir": "המסחר שאנו עסקנו, היה עורות וצרכי סנדלרות"
+     }
+    ],
+    "B01V07-P03-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לידה היה חדר המגורים הקטן שלנו. במשפחה גדלו חמישה בנים ושלוש בנות.",
+      "en": "Next to it was our small living room. Five boys and three girls grew up in our family.",
+      "kind": "adapted",
+      "memoir": "היינו בבית 5 אחים ו3 אחיות"
+     }
+    ],
+    "B01V07-P03-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לא היינו עשירים, אבל אוכל לא חסר לנו.",
+      "en": "We were not rich, but we never lacked food.",
+      "kind": "adapted",
+      "memoir": "אוכל לא היה חוסר ב\"ה. לא היינו עשירים, רק בעלי פרנסה."
+     }
+    ],
+    "B01V07-P03-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אני זוכר כמו היום, ומעריך את העבודה של אמא: לבשל, לרחוץ את הרצפה, לכבס.",
+      "en": "I remember it like today, and I value Mother's work: cooking, washing the floor, doing the laundry.",
+      "kind": "adapted",
+      "memoir": "זוכר כמו היום ומעריך עבודתה של אמא ע\"ה לבשל, לרחוץ הרצפה, כביסה"
+     }
+    ]
+   },
+   "note_he": "ללא שינוי טקסט; אין דיבור מתועד. החנות והחדר מתמזגים כי זה אותו מקום רציף.",
+   "title": "חנות שהיא גם בית",
+   "shows_override": {}
+  },
+  {
+   "page": 4,
+   "pace": "slow",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P04-01",
+    "B01V07-P04-02",
+    "B01V07-P04-03",
+    "B01V07-P04-04"
+   ],
+   "hero": "B01V07-P04-03",
+   "morph": [
+    [
+     "B01V07-P04-02",
+     "B01V07-P04-03"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P04-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כל ערב סידרו מקום בחנות, ליד התנור. שם ישנו הילדים.",
+      "en": "Every evening they made room in the shop, by the stove. That is where we children slept.",
+      "kind": "adapted",
+      "memoir": "הילדים היו ישנים בחנות. המקום היו מסדרים כל ערב, על יד התנור."
+     }
+    ],
+    "B01V07-P04-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ארון הבגדים שלנו עמד בחנות.",
+      "en": "Our clothes cupboard stood in the shop.",
+      "kind": "adapted",
+      "memoir": "ארון בגדים היה לנו בחנות"
+     }
+    ],
+    "B01V07-P04-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחרי שנרדמנו, אמא תיקנה את הבגדים שלנו. כפתור לזה, כיס לזה.",
+      "en": "After we fell asleep, Mother mended our clothes. A button for one, a pocket for another.",
+      "kind": "adapted",
+      "memoir": "אמי ע\"ה הייתה עוברת על הבגדים של הילדים, לזה כפתור ולזה הכיס"
+     }
+    ],
+    "B01V07-P04-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "עד שאמא לא ישבה ליד השולחן, אף אחד לא קיבל צלחת.",
+      "en": "Until Mother sat down at the table, nobody got a plate.",
+      "kind": "adapted",
+      "memoir": "עד שאמא לא ישבה על יד השולחן, אף אחד לא היה מקבל כלי ביד"
+     }
+    ]
+   },
+   "note_he": "פריסה חדשה: הציור הקיים לאורך באמצע, ואמא המתקנת בגדים בלילה מקבלת את המקום הגדול; אין דיבור מתועד.",
+   "title": "אחרי שנרדמנו",
+   "shows_override": {}
+  },
+  {
+   "page": 5,
+   "pace": "normal",
+   "recipe": "wide-2",
+   "order": [
+    "B01V07-P05-01",
+    "B01V07-P05-02",
+    "B01V07-P05-03",
+    "B01V07-P05-04"
+   ],
+   "hero": "B01V07-P05-04",
+   "morph": [],
+   "inset": "B01V07-P05-03",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P05-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בשנת 1904 התחלתי ללמוד בחדר. אמא באה איתי.",
+      "en": "In 1904 I started learning in cheder. Mother came with me.",
+      "kind": "adapted",
+      "memoir": "שהתחלתי ללכת  לחיידר, לרבי ללמוד, אמי הייתה הולכת איתי"
+     }
+    ],
+    "B01V07-P05-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בחדר למדו אצל רבי.",
+      "en": "In cheder we learned from a rebbe.",
+      "kind": "adapted",
+      "memoir": "לחיידר, לרבי ללמוד"
+     }
+    ],
+    "B01V07-P05-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אמא שמה סוכרייה על האות א.",
+      "en": "Mother put a candy on the letter Aleph.",
+      "kind": "adapted",
+      "memoir": "על האות \"א\" סוכריה"
+     }
+    ],
+    "B01V07-P05-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ואני לקחתי אותה עם הפה.",
+      "en": "And I took it with my mouth.",
+      "kind": "adapted",
+      "memoir": "ואני לקחתי עם הפה את הסוכרייה"
+     }
+    ]
+   },
+   "note_he": "הסוכרייה בפה מקבלת את הפאנל הגדול בתחתית, כפואנטה; הטקסט לא השתנה. עורך: הסוכרייה על האות א הפכה לעיגול תקריב מעל החיבור, כדי שהרגע המתוק יבלוט.",
+   "title": "האות המתוקה",
+   "shows_override": {}
+  },
+  {
+   "page": 6,
+   "pace": "normal",
+   "recipe": "zig-4",
+   "order": [
+    "B01V07-P06-01",
+    "B01V07-P06-02",
+    "B01V07-P06-03",
+    "B01V07-P06-04"
+   ],
+   "hero": "B01V07-P06-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P06-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לפעמים בא מבקר לחדר. הוא שאל שאלות ונתן לילדים גרוש.",
+      "en": "Sometimes an inspector came to cheder. He asked questions and gave children a penny.",
+      "kind": "adapted",
+      "memoir": "כשבא המפקח, שמו ר' משה ורגון, יהודי עשיר בן תורה, כל ילד שידע מה הוא שואל, קיבל ממנו גרוש"
+     }
+    ],
+    "B01V07-P06-02": [],
+    "B01V07-P06-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ידעתי את התשובות. אבל לי הוא לא נתן.",
+      "en": "I knew the answers. But he gave me nothing.",
+      "kind": "adapted",
+      "memoir": "אני ילד שיודע אבל לי הוא לא נתן"
+     }
+    ],
+    "B01V07-P06-04": [
+     {
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "למה ילדים אחרים הוא נתן גרוש, ולי לא?",
+      "en": "Why did he give other children a penny, and not me?",
+      "kind": "quote",
+      "memoir": "למה ילדים אחרים הוא נתן גרוש, ולי לא?",
+      "mouth": "left of center, Itche facing his mother"
+     }
+    ]
+   },
+   "note_he": "שאלת איטשע הוחלפה במילים המדויקות של הזיכרונות; פאנל 2 נשאר שקט. עורך: פריסה זיגזג במקום שלוש למעלה ואחת למטה, לגיוון.",
+   "title": "למה הוא קיבל?",
+   "shows_override": {}
+  },
+  {
+   "page": 7,
+   "pace": "slow",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P07-01",
+    "B01V07-P07-02",
+    "B01V07-P07-03"
+   ],
+   "hero": "B01V07-P07-03",
+   "morph": [
+    [
+     "B01V07-P07-01",
+     "B01V07-P07-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P07-01": [
+     {
+      "type": "speech",
+      "speaker": "אמא",
+      "he": "הם מבתים עניים, והם מקבלים ממנו כל יום גרוש",
+      "en": "They come from poor homes, and they get a penny from him every day.",
+      "kind": "quote",
+      "memoir": "הם מבתים עניים, והם מקבלים ממנו כל יום גרוש",
+      "mouth": "right side, mother's face"
+     }
+    ],
+    "B01V07-P07-02": [
+     {
+      "type": "speech",
+      "speaker": "אמא",
+      "he": "ואתה לא צריך ממנו, אתה מקבל ממני",
+      "en": "And you don't need it from him. You get from me.",
+      "kind": "quote",
+      "memoir": "ואתה לא צריך ממנו, אתה מקבל ממני",
+      "mouth": "right side, mother's face; balloon in left area"
+     },
+     {
+      "type": "speech",
+      "speaker": "אמא",
+      "he": "ואני משלמת לרבי כל חודש, שכר לימוד.",
+      "en": "And I pay the rebbe every month, for your lessons.",
+      "kind": "quote",
+      "memoir": "ואני משלמת לרבי כל חודש, שכר לימוד.",
+      "mouth": "right side, mother's face; second balloon linked below the first"
+     }
+    ],
+    "B01V07-P07-03": []
+   },
+   "note_he": "דברי אמא הוחזרו למילים המדויקות של הזיכרונות ופוצלו לבועות קצרות; הפאנל השקט בסוף מקבל את המקום הגדול.",
+   "title": "מה שלא רואים",
+   "shows_override": {}
+  },
+  {
+   "page": 8,
+   "pace": "normal",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P08-01",
+    "B01V07-P08-02",
+    "B01V07-P08-03",
+    "B01V07-P08-04"
+   ],
+   "hero": "B01V07-P08-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P08-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אני זוכר, פעם באתי מהחדר עם רגל נפוחה.",
+      "en": "I remember, once I came home from cheder with a swollen foot.",
+      "kind": "adapted",
+      "memoir": "זוכר אני פעם באתי מהחיידר עם רגל נפוחה"
+     }
+    ],
+    "B01V07-P08-02": [
+     {
+      "type": "speech",
+      "speaker": "הרופא",
+      "he": "לא ללבוש נעליים. בעוד כמה ימים לבוא עוד פעם.",
+      "en": "No shoes. Come back again in a few days.",
+      "kind": "adapted_speech",
+      "memoir": "הוא אומר שלא ללבוש נעליים, בעוד כמה ימים לבוא עוד פעם",
+      "mouth": "lower-left: the doctor, seen from behind, head at left about 40% down; balloon top-left"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבל הפצע לא התרפא.",
+      "en": "But the wound did not heal.",
+      "kind": "adapted",
+      "memoir": "ולא התרפא הרבה זמן"
+     }
+    ],
+    "B01V07-P08-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחר כך נפצעתי ממסמר ברגל השנייה. עכשיו שתיהן היו חבושות.",
+      "en": "Later a nail hurt my other foot. Now both were bandaged.",
+      "kind": "adapted",
+      "memoir": "נכנס לי מסמר חלוד לאצבע רגל שמאל, היה לי כבר שתי רגליים לרפא הלכתי עם תחבושות על שתי הרגליים"
+     }
+    ],
+    "B01V07-P08-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הרופא אמר להישאר במיטה. לא יכולתי ללכת ללמוד.",
+      "en": "The doctor said to stay in bed. I could not go to cheder.",
+      "kind": "adapted",
+      "memoir": "הרופא ציווה לא ללכת לחיידר רק לשכב במיטה"
+     }
+    ]
+   },
+   "note_he": "דברי הרופא הפכו מכיתוב לבועת דיבור; המיטה, תוצאת הפציעות, מקבלת את הפאנל הגדול בתחתית.",
+   "title": "כבר לא יכולתי ללכת ללמוד",
+   "shows_override": {}
+  },
+  {
+   "page": 9,
+   "pace": "slow",
+   "recipe": "tall-3",
+   "order": [
+    "B01V07-P09-01",
+    "B01V07-P09-02",
+    "B01V07-P09-03",
+    "B01V07-P09-04"
+   ],
+   "hero": "B01V07-P09-01",
+   "morph": [
+    [
+     "B01V07-P09-02",
+     "B01V07-P09-03"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P09-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחי הגדול חיים עזר לי ללמוד לכתוב.",
+      "en": "My big brother Chaim helped me learn to write.",
+      "kind": "adapted",
+      "memoir": "התחלתי לכתוב עם אחי חיים ז\"ל"
+     }
+    ],
+    "B01V07-P09-02": [],
+    "B01V07-P09-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כתב לי עם עיפרון, ואני עברתי על זה עם דיו",
+      "en": "He wrote for me in pencil, and I went over it in ink.",
+      "kind": "quote",
+      "memoir": "כתב לי עם עיפרון, ואני עברתי על זה עם דיו"
+     }
+    ],
+    "B01V07-P09-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "התאמנתי כך הרבה זמן, גם כשעוד שכבתי במיטה.",
+      "en": "I practiced like this for a long time, while I was still in bed.",
+      "kind": "adapted",
+      "memoir": "שכבתי הרבה זמן ולמדתי בעצמי במיטה"
+     }
+    ]
+   },
+   "note_he": "הכיתוב 'הוא כתב בעיפרון' הוסר כי הוא חוזר על הציטוט שאחריו; תקריב העיפרון נשאר שקט.",
+   "title": "הלימודים מגיעים אליי",
+   "shows_override": {}
+  },
+  {
+   "page": 10,
+   "pace": "normal",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P10-01",
+    "B01V07-P10-02",
+    "B01V07-P10-03",
+    "B01V07-P10-04"
+   ],
+   "hero": "B01V07-P10-04",
+   "morph": [
+    [
+     "B01V07-P10-02",
+     "B01V07-P10-03"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P10-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בחנות של קרובי משפחה הגיעו חבילות עטופות בעיתונים.",
+      "en": "At our relatives' shop, parcels arrived wrapped in newspapers.",
+      "kind": "adapted",
+      "memoir": "היו שולחים להם סחורה מורשא, ארוז בעיתונים"
+     }
+    ],
+    "B01V07-P10-02": [],
+    "B01V07-P10-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "את העיתונים הביאו אליי.",
+      "en": "The newspapers were brought to me.",
+      "kind": "adapted",
+      "memoir": "הוא הביא לי לקרוא"
+     }
+    ],
+    "B01V07-P10-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "קראתי. כל פעם התחלתי להבין יותר ויותר.",
+      "en": "I read. Each time I began to understand more and more.",
+      "kind": "adapted",
+      "memoir": "כל פעם התחלתי להבין יותר ויותר"
+     }
+    ]
+   },
+   "note_he": "העיתון עובר מהחנות אל המיטה בלי גבול בין הפאנלים; הקריאה מקבלת את המקום הגדול. הטקסט לא השתנה.",
+   "title": "חדשות בתוך האריזה",
+   "shows_override": {}
+  },
+  {
+   "page": 11,
+   "pace": "normal",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P11-01",
+    "B01V07-P11-02",
+    "B01V07-P11-03",
+    "B01V07-P11-04"
+   ],
+   "hero": "B01V07-P11-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P11-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "פעם קראתי על מלחמה בבלקנים.",
+      "en": "Once I read about a war in the Balkans.",
+      "kind": "adapted",
+      "memoir": "ואני קראתי אז הייתה מלחמה בבלקנים"
+     }
+    ],
+    "B01V07-P11-02": [],
+    "B01V07-P11-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבל חשבתי על בלקונים, מרפסות.",
+      "en": "But I thought of balconies.",
+      "kind": "adapted",
+      "memoir": "אם אפשר לעשות מלחמה על הבלקונים?"
+     }
+    ],
+    "B01V07-P11-04": [
+     {
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "אבא, אפשר לעשות מלחמה על הבלקונים?",
+      "en": "Father, can you fight a war over balconies?",
+      "kind": "adapted_speech",
+      "memoir": "שאלתי את אבי ז\"ל, אם אפשר לעשות מלחמה על הבלקונים?",
+      "mouth": "from the bed toward the father, Itche's face center-right"
+     }
+    ]
+   },
+   "note_he": "הכיתוב פוצל כך שהמרפסת מופיעה רק בפאנל 3, והשאלה מגיעה בסוף בפאנל הגדול.",
+   "title": "מלחמה על מרפסת?",
+   "shows_override": {}
+  },
+  {
+   "page": 12,
+   "pace": "normal",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P12-01",
+    "B01V07-P12-02",
+    "B01V07-P12-03",
+    "B01V07-P12-04"
+   ],
+   "hero": "B01V07-P12-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P12-01": [
+     {
+      "type": "speech",
+      "speaker": "אבא",
+      "he": "לא הבלקונים, אלא הבלקנים. זה אזור שקוראים לו בלקאן.",
+      "en": "Not balconies, the Balkans. It is a region called the Balkan.",
+      "kind": "adapted_speech",
+      "memoir": "הוא הסביר לי, לא הבלקונים, אלא, הבלקנים",
+      "mouth": "father's face, balloon above"
+     }
+    ],
+    "B01V07-P12-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אמא אהבה לשמוע אותי קורא.",
+      "en": "Mother loved to hear me read.",
+      "kind": "adapted",
+      "memoir": "אמי ע\"ה היה לה תענוג לשמוע ממני קריאת עיתון"
+     }
+    ],
+    "B01V07-P12-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לבסוף קיבלנו עוד דירה. הרסנו קיר, ונהייתה לנו דירה מרווחת.",
+      "en": "In the end we got another flat. We knocked down a wall, and our home became roomy.",
+      "kind": "adapted",
+      "memoir": "לבסוף קיבלנו את הדירה והחנויות. ... הרסנו קיר ורצפות קרשים חדשים. נהייתה לנו  דירה מרווחת"
+     }
+    ],
+    "B01V07-P12-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נולדה לנו אחות, רייזל.",
+      "en": "A sister was born to us: Raisel.",
+      "kind": "adapted",
+      "memoir": "ונולדה לנו אחות  רייזל"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הבית גדל, אבל הרגל שלי עדיין הייתה חולה.",
+      "en": "Our home grew, but my foot was still sick.",
+      "kind": "adapted",
+      "memoir": "אמא ע\"ה לא יכלה לסבול ממני, ז\"א מחלת רגליים"
+     }
+    ]
+   },
+   "note_he": "תשובת אבא קרובה יותר ללשון הזיכרונות; לידת רייזל עברה לפאנל המשפחה המלאה, שמקבל את המקום הגדול.",
+   "title": "עוד קצת עולם",
+   "shows_override": {}
+  },
+  {
+   "page": 13,
+   "pace": "normal",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P13-01",
+    "B01V07-P13-02",
+    "B01V07-P13-03",
+    "B01V07-P13-04"
+   ],
+   "hero": "B01V07-P13-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P13-01": [
+     {
+      "type": "speech",
+      "speaker": "הרופא",
+      "he": "תיסעו איתו לוורשה.",
+      "en": "Take him to Warsaw.",
+      "kind": "quote",
+      "memoir": "תיסעו איתו לוורשה",
+      "mouth": "doctor, right side of panel, facing the parents"
+     }
+    ],
+    "B01V07-P13-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נסעתי עם אבי לוורשה, לרופא הכי גדול.",
+      "en": "I traveled with my father to Warsaw, to the greatest doctor.",
+      "kind": "adapted",
+      "memoir": "נסעתי עם אבי לוורשה, נכנסנו לרופא הכי גדול"
+     }
+    ],
+    "B01V07-P13-03": [
+     {
+      "type": "speech",
+      "speaker": "הרופא",
+      "he": "צריך לנתח את רגל ימין.",
+      "en": "The right foot needs an operation.",
+      "kind": "adapted_speech",
+      "memoir": "הרופא החליט להוריד לי אצבע מרגל ימין",
+      "mouth": "doctor, upper right, bent over the boy's feet"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבא הראה לו גם את רגל שמאל.",
+      "en": "Father showed him the left foot too.",
+      "kind": "adapted",
+      "memoir": "אבא הראה לו את רגל שמאל"
+     },
+     {
+      "type": "speech",
+      "speaker": "הרופא",
+      "he": "אז ננתח גם את רגל שמאל.",
+      "en": "Then we will operate on the left foot as well.",
+      "kind": "adapted_speech",
+      "memoir": "ואז הוא הציע להוריד אצבע גם מרגל שמאל",
+      "mouth": "doctor, upper right, turned toward the father"
+     }
+    ],
+    "B01V07-P13-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחר כך נשארתי בבית החולים. רגל אחת החלימה מהר יותר. השנייה עדיין לא.",
+      "en": "Afterwards I stayed in the hospital. One foot healed faster. The other did not yet.",
+      "kind": "adapted",
+      "memoir": "ברגל שמאל התרפא יותר מהר, כיוון שהרגל לא הייתה כל כך חולה. ברגל ימין  היה צורך להישאר עוד כמה ימים בבית החולים"
+     }
+    ]
+   },
+   "note_he": "הכיתובים על הרופא הפכו לבועות דיבור מתוך דבריו ביומן, והתוצאה בבית החולים קיבלה את הפאנל הגדול.",
+   "title": "הדרך לוורשה",
+   "shows_override": {}
+  },
+  {
+   "page": 14,
+   "pace": "normal",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P14-01",
+    "B01V07-P14-02",
+    "B01V07-P14-03",
+    "B01V07-P14-04"
+   ],
+   "hero": "B01V07-P14-04",
+   "morph": [
+    [
+     "B01V07-P14-01",
+     "B01V07-P14-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P14-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבא חזר הביתה לפניי. איש מעירנו בא לקחת את בתו, ולקח גם אותי.",
+      "en": "Father went home before me. A man from our town came to fetch his daughter, and took me too.",
+      "kind": "adapted",
+      "memoir": "אבי הבחורה בא לקחת מבית החולים את ביתו. אז אמרה דודה רבקהלה, שהוא ייקח אותי גם"
+     }
+    ],
+    "B01V07-P14-02": [],
+    "B01V07-P14-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "באתי הביתה ולא התרפא. הרופאים טיפלו ולא עזר.",
+      "en": "I came home and it did not heal. The doctors treated it, and it did not help.",
+      "kind": "adapted",
+      "memoir": "באתי הביתה ולא התרפא, הרופאים טיפלו ולא עזר"
+     },
+     {
+      "type": "speech",
+      "speaker": "הרופא",
+      "he": "תסעו איתו לווינה אוסטריה.",
+      "en": "Take him to Vienna, Austria.",
+      "kind": "quote",
+      "memoir": "תסעו איתו לווינה אוסטריה",
+      "mouth": "off-panel at the right edge, tail pointing in from outside the frame"
+     }
+    ],
+    "B01V07-P14-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שוב נסעתי עם אבא.",
+      "en": "Once again I traveled with Father.",
+      "kind": "adapted",
+      "memoir": "נסענו לווינה ונכנסנו לבית החולים"
+     }
+    ]
+   },
+   "note_he": "המלצת הרופא על וינה הפכה לבועת דיבור מילולית מהיומן, והיציאה לדרך החדשה קיבלה את הפאנל הרחב בתחתית.",
+   "title": "הביתה, ושוב לדרך",
+   "shows_override": {}
+  },
+  {
+   "page": 15,
+   "pace": "slow",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P15-01",
+    "B01V07-P15-02",
+    "B01V07-P15-03",
+    "B01V07-P15-04"
+   ],
+   "hero": "B01V07-P15-03",
+   "morph": [],
+   "inset": "B01V07-P15-04",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P15-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בבית החולים בווינה.",
+      "en": "At the hospital in Vienna.",
+      "kind": "adapted",
+      "memoir": "נסענו לווינה ונכנסנו לבית החולים"
+     },
+     {
+      "type": "speech",
+      "speaker": "הרופא",
+      "he": "צריך לפתוח את התפרים.",
+      "en": "The stitches have to be opened.",
+      "kind": "quote",
+      "memoir": "צריך לפתוח את התפרים",
+      "mouth": "doctor, left side of panel, beside the bed"
+     }
+    ],
+    "B01V07-P15-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבא חזר הביתה. אני נשארתי בבית החולים.",
+      "en": "Father went home. I stayed in the hospital.",
+      "kind": "adapted",
+      "memoir": "אבי ז\"ל נסע הביתה ואני נשארתי בבית החולים"
+     }
+    ],
+    "B01V07-P15-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אוכל טוב, שירות טוב. אבל הייתי לבד בין זרים, והיו שם ילדים שובבים.",
+      "en": "Good food, good care. But I was alone among strangers, and there were naughty children there.",
+      "kind": "adapted",
+      "memoir": "נשארתי בבית החולים לבד בין הגויים, אכלתי מה שנתנו לי טרף, אוכל טוב, שירות טוב. הייתי ילד שקט, אך  היו שם ילדים גויים שובבים"
+     }
+    ],
+    "B01V07-P15-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "היה לי סידור, ספר התפילות שלי.",
+      "en": "I had a siddur, my prayer book.",
+      "kind": "adapted",
+      "memoir": "היה לי סידור להתפלל"
+     }
+    ]
+   },
+   "note_he": "דברי הרופא הפכו לבועה, הבדידות בין זרים קיבלה את הפאנל הגדול, והסידור הפך לעיגול פרט שמוביל לעמוד הבא.",
+   "title": "בלי אבא בחדר",
+   "shows_override": {}
+  },
+  {
+   "page": 16,
+   "pace": "slow",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P16-01",
+    "B01V07-P16-02",
+    "B01V07-P16-03",
+    "B01V07-P16-04"
+   ],
+   "hero": "B01V07-P16-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P16-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ילדים אחרים לקחו את הסידור שלי.",
+      "en": "Other children took my siddur.",
+      "kind": "adapted",
+      "memoir": "הילדים השובבים לקחו אותו ממני"
+     }
+    ],
+    "B01V07-P16-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הם זרקו אותו על התנור הגבוה.",
+      "en": "They threw it on top of the tall stove.",
+      "kind": "adapted",
+      "memoir": "וזרקו על התנור"
+     }
+    ],
+    "B01V07-P16-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "התנור היה גבוה, כמעט שלושה מטרים.",
+      "en": "The stove was tall, almost three meters.",
+      "kind": "adapted",
+      "memoir": "גובה התנור איזה שלושה מטרים גובה"
+     }
+    ],
+    "B01V07-P16-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לא יכולתי להתפלל.",
+      "en": "I could not pray.",
+      "kind": "quote",
+      "memoir": "לא יכולתי להתפלל"
+     }
+    ]
+   },
+   "note_he": "שלושה פאנלים צרים בונים את הגובה (פאנל צר וגבוה מתאים לתנור), והפאנל הגדול בתחתית שמור לשקט של לא יכולתי להתפלל.",
+   "title": "למעלה",
+   "shows_override": {}
+  },
+  {
+   "page": 17,
+   "pace": "slow",
+   "recipe": "tall-3",
+   "order": [
+    "B01V07-P17-01",
+    "B01V07-P17-02",
+    "B01V07-P17-03",
+    "B01V07-P17-04"
+   ],
+   "hero": "B01V07-P17-01",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P17-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בבית החולים הייתה גם אישה יהודייה.",
+      "en": "There was also a Jewish woman in the hospital.",
+      "kind": "adapted",
+      "memoir": "הייתה שם אישה יהודייה"
+     }
+    ],
+    "B01V07-P17-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "היא לקחה אותי בעגלת חולים לבית הכנסת של בית החולים.",
+      "en": "She took me in a wheelchair to the hospital synagogue.",
+      "kind": "adapted",
+      "memoir": "לקחה אותי על עגלה ונסעה איתי לבית כנסת של הבית חולים"
+     }
+    ],
+    "B01V07-P17-03": [],
+    "B01V07-P17-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הגענו לתפילה.",
+      "en": "We arrived at the prayers.",
+      "kind": "adapted",
+      "memoir": "נסעה איתי לבית כנסת של הבית חולים"
+     }
+    ]
+   },
+   "note_he": "בלי שינוי טקסט: אין דיבור מתועד של האישה, לכן אין בועה. האישה (תמונה לאורך) מקבלת את הפאנל הגבוה בצד ימין.",
+   "title": "מישהו לצדי",
+   "shows_override": {}
+  },
+  {
+   "page": 18,
+   "pace": "slow",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P18-01",
+    "B01V07-P18-02",
+    "B01V07-P18-03",
+    "B01V07-P18-04"
+   ],
+   "hero": "B01V07-P18-04",
+   "morph": [
+    [
+     "B01V07-P18-01",
+     "B01V07-P18-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P18-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבל התפללו בגרמנית. לא הבנתי את המילים.",
+      "en": "But they prayed in German. I did not understand the words.",
+      "kind": "adapted",
+      "memoir": "אבל לא הבנתי שום דבר, בגלל שהתפללו שם בשפה הגרמנית"
+     }
+    ],
+    "B01V07-P18-02": [],
+    "B01V07-P18-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "המשכתי לקבל טיפול. לבסוף הרגל התרפאה.",
+      "en": "I went on being treated. In the end the foot healed.",
+      "kind": "adapted",
+      "memoir": "אחרי שהרגל התרפאה"
+     }
+    ],
+    "B01V07-P18-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ואבא חזר לקחת אותי.",
+      "en": "And Father came back to take me.",
+      "kind": "adapted",
+      "memoir": "אבא חזר, ולקח אותי הביתה"
+     }
+    ]
+   },
+   "note_he": "שתי תמונות התפילה (לאורך) נמזגות זו בזו בשורה העליונה, וחזרת אבא מקבלת את הפאנל הגדול.",
+   "title": "מילים אחרות",
+   "shows_override": {}
+  },
+  {
+   "page": 19,
+   "pace": "slow",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P19-01",
+    "B01V07-P19-03",
+    "B01V07-P19-04"
+   ],
+   "hero": "B01V07-P19-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [
+    {
+     "id": "B01V07-P19-02",
+     "why": "פאנל דרך שקט בלי טקסט ובלי אמנות; ה־need מבקש בלי עוד עמודי המתנה, וההסרה נותנת לתמונת הבית מקום גדול."
+    }
+   ],
+   "texts": {
+    "B01V07-P19-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הפעם חזרנו הביתה כשהרגל כבר החלימה.",
+      "en": "This time we came home with the foot already healed.",
+      "kind": "adapted",
+      "memoir": "אחרי שהרגל התרפאה,  אבא חזר, ולקח אותי הביתה"
+     }
+    ],
+    "B01V07-P19-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "באנו הביתה, והייתי בריא. עד היום, ברוך השם.",
+      "en": "We came home, and I was healthy. To this day, thank God.",
+      "kind": "adapted",
+      "memoir": "באנו הביתה בריא עד היום ב\"ה"
+     }
+    ],
+    "B01V07-P19-04": []
+   },
+   "note_he": "הוסר פאנל הדרך השקט כדי לא למשוך המתנה, ותמונת האב והבן בבית קיבלה את המקום הגדול בלי טקסט.",
+   "title": "שוב בבית",
+   "shows_override": {}
+  },
+  {
+   "page": 20,
+   "pace": "normal",
+   "recipe": "zig-4",
+   "order": [
+    "B01V07-P20-01",
+    "B01V07-P20-02",
+    "B01V07-P20-03",
+    "B01V07-P20-04"
+   ],
+   "hero": "B01V07-P20-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P20-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחותי חוה בישלה. התפקיד שלי היה לרחוץ את הכלים, בשר לחוד וחלב לחוד.",
+      "en": "My sister Chava cooked. My job was to wash the dishes, meat apart and dairy apart.",
+      "kind": "adapted",
+      "memoir": "אחותי ע\"ה חוה הייתה המבשלת, אני, תפקידי היה לרחוץ הכלים, בשר לחוד וגם חלב לחוד"
+     }
+    ],
+    "B01V07-P20-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "גם סידרתי את הכביסה. ידעתי איזו מידה מתאימה לכל אחד.",
+      "en": "I also sorted the laundry. I knew which size fit each person.",
+      "kind": "adapted",
+      "memoir": "אני סידרתי חבילות לכולם... ידעתי הגודל של כולם"
+     }
+    ],
+    "B01V07-P20-03": [],
+    "B01V07-P20-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כשחיים התחתן, התחלתי לעזור לאבא בחנות במקומו.",
+      "en": "When Chaim got married, I began helping Father in the shop in his place.",
+      "kind": "adapted",
+      "memoir": "אבי לקח אותי לעזור בחנות במקום חיים ז\"ל"
+     }
+    ]
+   },
+   "note_he": "בלי בועות: היומן לא מוסר כאן דיבור. העזרה בחנות, שיא המסוגלות, מקבלת את הפאנל הגדול בתחתית.",
+   "title": "עכשיו גם אני עוזר",
+   "shows_override": {}
+  },
+  {
+   "page": 21,
+   "pace": "normal",
+   "recipe": "grow-4",
+   "order": [
+    "B01V07-P21-01",
+    "B01V07-P21-02",
+    "B01V07-P21-03",
+    "B01V07-P21-04"
+   ],
+   "hero": "B01V07-P21-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P21-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "פעם אבא פתח ארגז סחורה וגילה שהכמות לא מתאימה לחשבון.",
+      "en": "Once Father opened a crate of goods and found the amount did not match the bill.",
+      "kind": "adapted",
+      "memoir": "אבא פתח את הארגז עם החשבון וראה שלפי החשבון יש יותר סחורה"
+     }
+    ],
+    "B01V07-P21-02": [],
+    "B01V07-P21-03": [
+     {
+      "type": "speech",
+      "speaker": "אבא",
+      "he": "תדע לך כי חסר חצי תריסר עליונות.",
+      "en": "Know that half a dozen shoe uppers are missing.",
+      "kind": "quote",
+      "memoir": "תדע לך כי חסר חצי תריסר עליונות",
+      "mouth": "Father, right side, at the desk with pen and letter"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הספק ענה שהוא בעצמו ארז את הסחורה, ולא ייתכן שחסר.",
+      "en": "The supplier answered that he had packed the goods himself, and nothing could be missing.",
+      "kind": "adapted",
+      "memoir": "קיבלנו תשובה כי בעל בית החרושת בעצמו ארז את הסחורה ולא יכול להיות שחסר"
+     }
+    ],
+    "B01V07-P21-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבא כתב עוד מכתב. הספק ענה שהוא מוכן להישבע בטלית ותפילין.",
+      "en": "Father wrote another letter. The supplier answered he was ready to swear on tallit and tefillin.",
+      "kind": "adapted",
+      "memoir": "קיבלנו תשובה כי אם אבי רוצה הוא יכול להישבע בטלית ותפילין"
+     }
+    ]
+   },
+   "note_he": "המשפט שאבא כתב לספק הפך לבועה מילולית מהיומן; הסוד שיש עודף נשמר לעמוד הבא, ותשובת השבועה מקבלת את הפאנל הגדול. עורך: המכתבים הולכים ובאים: הפאנלים גדלים עד מכתב השבועה.",
+   "title": "הארגז שלא התאים",
+   "shows_override": {}
+  },
+  {
+   "page": 22,
+   "pace": "normal",
+   "recipe": "wide-3",
+   "order": [
+    "B01V07-P22-01",
+    "B01V07-P22-02",
+    "B01V07-P22-03",
+    "B01V07-P22-04"
+   ],
+   "hero": "B01V07-P22-01",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P22-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כשאבא שמע שהספק מוכן להישבע, הוא כתב לו: היו חצי תריסר יותר.",
+      "en": "When Father heard the supplier was ready to swear, he wrote to him: there were half a dozen more.",
+      "kind": "adapted",
+      "memoir": "אבי שמע שהוא רוצה לתת שבועה, כתב לו אבי כי היה חצי תריסר יותר"
+     }
+    ],
+    "B01V07-P22-02": [],
+    "B01V07-P22-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מאז סמכו עליו עוד יותר. בית החרושת כתב:",
+      "en": "From then on they trusted him even more. The factory wrote:",
+      "kind": "adapted",
+      "memoir": "מאז היה לנו אמון, לאיזה בית חרושת... קיבלנו תשובה"
+     },
+     {
+      "type": "caption",
+      "speaker": "מכתב מבית החרושת",
+      "he": "אם לא תשלם, גם נשלח לך את הסחורה.",
+      "en": "Even if you do not pay, we will send you the goods.",
+      "kind": "quote",
+      "memoir": "אם לא תשלם, גם נשלח לך את הסחורה"
+     }
+    ],
+    "B01V07-P22-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבא היה סוחר נאמן. זה נכנס לנו לראש ונשאר איתנו.",
+      "en": "Father was an honest merchant. It got into our heads and stayed with us.",
+      "kind": "adapted",
+      "memoir": "ואבי ז\"ל היה סוחר נאמן... וזה נכנס לנו בדמיון ונשאר אתנו"
+     }
+    ]
+   },
+   "note_he": "גילוי העודף הוא הפאנל הרחב בראש העמוד; את תשובת בית החרושת מוסרים במילים המקוריות שלו, כמכתב ולא כבועה.",
+   "title": "יותר, לא פחות",
+   "shows_override": {}
+  },
+  {
+   "page": 23,
+   "pace": "slow",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P23-01",
+    "B01V07-P23-02",
+    "B01V07-P23-03",
+    "B01V07-P23-04"
+   ],
+   "hero": "B01V07-P23-04",
+   "morph": [
+    [
+     "B01V07-P23-01",
+     "B01V07-P23-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P23-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כשהייתי ילד, לפני שנים רבות, אמא חלתה במחלה קשה ונפטרה.",
+      "en": "When I was a child, many years ago, Mother fell gravely ill and passed away.",
+      "kind": "adapted",
+      "memoir": "נכנסה למחלה ולא יצאה מזה ובשנת תרצ\"א נפטרה"
+     }
+    ],
+    "B01V07-P23-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כעבור זמן נפטר גם אבא.",
+      "en": "Some time later, Father passed away too.",
+      "kind": "adapted",
+      "memoir": "אבי ז\"ל קיבל התקף לב ולא הרבה זמן נפטר"
+     }
+    ],
+    "B01V07-P23-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אלה זיכרונות עצובים. אבל לא נשארנו בלי מי שידאג לנו.",
+      "en": "These are sad memories. But we were not left without someone to care for us.",
+      "kind": "editorial",
+      "memoir": "הדוד שמעון לא רצה שישאירו חובות אחרי אבא ז\"ל"
+     }
+    ],
+    "B01V07-P23-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הדוד שמעון לא רצה שיישארו חובות.",
+      "en": "Uncle Shimon did not want any debts left behind.",
+      "kind": "adapted",
+      "memoir": "הדוד שמעון לא רצה שישאירו חובות אחרי אבא ז\"ל"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "חיים אחי לקח עליו את החובות ובא לגור ביונדזיוב.",
+      "en": "My brother Chaim took on the debts and came to live in Jedrzejow.",
+      "kind": "adapted",
+      "memoir": "חיימלה אחי ייקח עליו את החובות וישלם ויבוא לגור לינדזיוב"
+     }
+    ]
+   },
+   "note_he": "שני זיכרונות ההורים נמזגים ברכות זה בזה, הכיתוב של פאנל 3 נשאר בדיוק כפי שהתבקש, והדאגה המוחשית של המשפחה מקבלת את הפאנל הגדול; המשפט על החלטת הילדים עבר לעמוד 24.",
+   "title": "כשהבית השתנה",
+   "shows_override": {}
+  },
+  {
+   "page": 24,
+   "pace": "slow",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P24-01",
+    "B01V07-P24-02",
+    "B01V07-P24-03"
+   ],
+   "hero": "B01V07-P24-03",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P24-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אנחנו, הילדים, החלטנו איפה כל אחד יגור.",
+      "en": "We, the children, decided where each of us would live.",
+      "kind": "adapted",
+      "memoir": "החלטנו שחוה תישאר עם רייזל"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נשארנו במשפחה, אבל לא כולנו גרנו עוד באותו בית.",
+      "en": "We stayed a family, but we no longer all lived in the same house.",
+      "kind": "adapted",
+      "memoir": "החלטנו שחוה תישאר עם רייזל... שרהלה תיסע לקילץ... שמעון ייסע לוורשה... לייבל ייסע למיעכוב"
+     }
+    ],
+    "B01V07-P24-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "חוה נשארה עם רייזל הקטנה.",
+      "en": "Chava stayed with little Raisel.",
+      "kind": "adapted",
+      "memoir": "החלטנו שחוה תישאר עם רייזל - הכי קטנטונת בבית"
+     }
+    ],
+    "B01V07-P24-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "את שרהלה הבאתי לדודים בקילץ. משם המשכתי לדוד מאיר בלודז׳.",
+      "en": "I brought Sarale to our aunt and uncle in Kielce. From there I went on to Uncle Meir in Lodz.",
+      "kind": "adapted",
+      "memoir": "את שרהלה אני אקח עד קילץ, מתי אני אסע ללודז'"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחרי זמן מה שמעתי כי קיבלו אותה בשמחה.",
+      "en": "After a while I heard they had welcomed her gladly.",
+      "kind": "quote",
+      "memoir": "אחרי זמן מה שמעתי כי קיבלו אותה בשמחה"
+     }
+    ]
+   },
+   "note_he": "משפט ההחלטה עבר לכאן מעמוד 23 כדי לקצר שם כיתוב ארוך, ונוסף כיתוב מילולי מהיומן על קבלת שרהלה בשמחה, כהקלה חלקית בלי מתח נטישה.",
+   "title": "כל אחד בדרך אחרת",
+   "shows_override": {}
+  },
+  {
+   "page": 25,
+   "pace": "slow",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P25-01",
+    "B01V07-P25-03",
+    "B01V07-P25-04"
+   ],
+   "hero": "B01V07-P25-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [
+    {
+     "id": "B01V07-P25-02",
+     "why": "No art and no text; repeats panel 01 (Yitzhak learning later about the welcome). Removing it gives the welcome and the studying more room."
+    }
+   ],
+   "texts": {
+    "B01V07-P25-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחר כך סיפרו לי על הבית החדש של שרהלה.",
+      "en": "Later I was told about Sarale's new home.",
+      "kind": "adapted",
+      "memoir": "אחרי זמן מה שמעתי כי קיבלו אותה בשמחה"
+     }
+    ],
+    "B01V07-P25-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הדודים קיבלו אותה בשמחה. היו להם שלושה בנים, והיא התקבלה כמו בת.",
+      "en": "My aunt and uncle welcomed her with joy. They had three sons, and she was taken in like a daughter.",
+      "kind": "adapted",
+      "memoir": "היו לו רק שלושה ילדים זכרים, בגלל זה קיבלו את אחותי שרהלה כבת"
+     }
+    ],
+    "B01V07-P25-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "היא התיישבה ללמוד איתם. סיפרו שהיא ידעה אפילו יותר מהבנים.",
+      "en": "She sat down to learn with them. They said she knew even more than the boys.",
+      "kind": "adapted",
+      "memoir": "סיפרו לי, כי היא הייתה יודעת יותר מהבנים שלו"
+     }
+    ]
+   },
+   "note_he": "הוסר פאנל 02 הכפול; הדגש עבר לשרהלה שלומדת עם הבנים, רגע ההקלה של העמוד. אין כאן שום רמז להמשך גורלה.",
+   "title": "מה קרה אחרי הדלת",
+   "shows_override": {}
+  },
+  {
+   "page": 26,
+   "pace": "normal",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P26-01",
+    "B01V07-P26-02",
+    "B01V07-P26-03",
+    "B01V07-P26-04"
+   ],
+   "hero": "B01V07-P26-04",
+   "morph": [],
+   "inset": "B01V07-P26-03",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P26-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בלודז׳ דאגו לי דוד מאיר ודודה נחלה.",
+      "en": "In Lodz, Uncle Meir and Aunt Nachale looked after me.",
+      "kind": "adapted",
+      "memoir": "התחילו לדאוג עבורי"
+     }
+    ],
+    "B01V07-P26-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מה עושים ממני? המקצוע שלי לא התאים למשפחה שלהם.",
+      "en": "What could they do with me? My trade did not suit their family.",
+      "kind": "adapted",
+      "memoir": "מה עושים ממני, המקצוע שלי לא היה מתאים להם למשפחה"
+     }
+    ],
+    "B01V07-P26-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "סידרו לי עבודה במסחר בבדים.",
+      "en": "They found me work in the cloth trade.",
+      "kind": "adapted",
+      "memoir": "לדודה נחהלה, היה קרוב שהיה לו בית מסחר למנופקטורה"
+     }
+    ],
+    "B01V07-P26-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הייתי צריך ללמוד דברים חדשים.",
+      "en": "I had to learn new things.",
+      "kind": "adapted",
+      "memoir": "וקיבלתי את המקצוע"
+     }
+    ]
+   },
+   "note_he": "חצי מהכיתוב של פאנל 02 הפך לבועת מחשבה של הדודים (\"התחילו לדאוג\"), והחצי השני עבר לפאנל 03. שני הפאנלים לאורך בראש, 03 כעיגול פרט בצומת, ו־04 הרחב למטה. עורך: מחשבה משותפת לדוד ולדודה הוחזרה לקריינות: לא ברור מהיומן מי אמר.",
+   "title": "אצל הדודים בלודז׳",
+   "shows_override": {}
+  },
+  {
+   "page": 27,
+   "pace": "normal",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P27-01",
+    "B01V07-P27-02",
+    "B01V07-P27-03",
+    "B01V07-P27-04"
+   ],
+   "hero": "B01V07-P27-04",
+   "morph": [],
+   "inset": "B01V07-P27-03",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P27-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הייתי בן שלוש עשרה או ארבע עשרה.",
+      "en": "I was thirteen or fourteen.",
+      "kind": "adapted",
+      "memoir": "הייתי ילד בן שלוש עשרה, ארבע עשרה"
+     }
+    ],
+    "B01V07-P27-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "כבר נסעתי לבתי החרושת לבד. בחרתי דוגמאות והזמנתי סחורה לפי המספר.",
+      "en": "I already traveled to the factories alone. I chose samples and ordered goods by number.",
+      "kind": "adapted",
+      "memoir": "באתי למנהלי בית החרושת והזמנתי את הסחורה לפי המספר"
+     }
+    ],
+    "B01V07-P27-03": [],
+    "B01V07-P27-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הייתי ילד פיקח.",
+      "en": "I was a clever boy.",
+      "kind": "quote",
+      "memoir": "הייתי ילד פיקח"
+     },
+     {
+      "type": "speech",
+      "speaker": "המנהל",
+      "he": "אתה תהיה סוחר גדול.",
+      "en": "You will be a great merchant.",
+      "kind": "quote",
+      "memoir": "אתה תהיה סוחר גדול",
+      "mouth": "the older manager (check the art; likely the adult figure facing the boy), tail to his mouth"
+     }
+    ]
+   },
+   "note_he": "דברי המנהל הפכו מכיתוב לבועת דיבור מילה במילה מהיומן. פאנל 03 השקט הוא עיגול פרט של הדוגמאות, כדי שהפאנל של המנהל יקבל את רוחב העמוד.",
+   "title": "אני בוחר את הסחורה",
+   "shows_override": {}
+  },
+  {
+   "page": 28,
+   "pace": "fast",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P28-01",
+    "B01V07-P28-02",
+    "B01V07-P28-03",
+    "B01V07-P28-04"
+   ],
+   "hero": "B01V07-P28-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P28-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בשנת 1914 פרצה מלחמת העולם הראשונה. גם החיים בלודז׳ השתנו.",
+      "en": "In 1914 the First World War broke out. Life in Lodz changed too.",
+      "kind": "adapted",
+      "memoir": "עד שפרצה המלחמה ב-1914"
+     }
+    ],
+    "B01V07-P28-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "המסחר נפגע והפרנסה הצטמצמה.",
+      "en": "Trade suffered and our living shrank.",
+      "kind": "adapted",
+      "memoir": "מצב הפרנסה יורד, בגלל המלחמה"
+     }
+    ],
+    "B01V07-P28-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הדוד מאיר נפטר.",
+      "en": "Uncle Meir passed away.",
+      "kind": "adapted",
+      "memoir": "בערב ליל שישי הוא נפטר"
+     },
+     {
+      "type": "speech",
+      "speaker": "החבר",
+      "he": "אין מי שילמד אותך, בוא נלך ללמוד בבית הכנסת.",
+      "en": "There is no one to teach you. Come, let's go learn at the synagogue.",
+      "kind": "quote",
+      "memoir": "אין מי שילמד אותך, בוא נלך ללמוד בבית הכנסת",
+      "mouth": "the friend, beside Yitzhak (no art yet: draw the friend facing him, tail to the friend)"
+     }
+    ],
+    "B01V07-P28-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הצטרפנו גם להנהלה הציונית בלודז׳. אספנו כסף וקיבלנו משימות.",
+      "en": "We also joined the Zionist leadership in Lodz. We collected money and were given tasks.",
+      "kind": "adapted",
+      "memoir": "החלטנו ללכת להנהלה הציונית בלודז', ראש ההנהלה היה ד\"ר רוזנבלט, קיבלו אותנו, נתנו לנו תפקידים לאסוף כסף לקרן הקיימת"
+     },
+     {
+      "type": "speech",
+      "speaker": "ד״ר רוזנבלט",
+      "he": "תורה בלי עבודה אין קיום.",
+      "en": "Torah without work cannot last.",
+      "kind": "quote",
+      "memoir": "תורה בלי עבודה אין קיום",
+      "mouth": "Dr. Rosenblatt, head of the leadership (no art yet: an older man addressing the young men), tail to him"
+     }
+    ]
+   },
+   "note_he": "דברי החבר הפכו מכיתוב לבועה מדויקת מהיומן, ונוספה בועה קצרה של ד״ר רוזנבלט במילותיו. מות הדוד נאמר במילה אחת, בלי תמונה.",
+   "title": "המלחמה מגיעה ללודז׳",
+   "shows_override": {}
+  },
+  {
+   "page": 29,
+   "pace": "normal",
+   "recipe": "zig-4",
+   "order": [
+    "B01V07-P29-01",
+    "B01V07-P29-02",
+    "B01V07-P29-03",
+    "B01V07-P29-04"
+   ],
+   "hero": "B01V07-P29-02",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P29-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "יום אחד בחרו שישה בחורים שיתכוננו לעלות לארץ. הייתי אחד מהם.",
+      "en": "One day they chose six young men to prepare to go to the Land of Israel. I was one of them.",
+      "kind": "adapted",
+      "memoir": "הם בחרו מאיתנו, מתוך 17 בחורים 6 חבר'ה. אני הייתי מספר 4"
+     }
+    ],
+    "B01V07-P29-02": [
+     {
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "אין לנו הורים.",
+      "en": "We have no parents.",
+      "kind": "quote",
+      "memoir": "אני ועוד חבר אחד יצאנו מהשורה ואמרנו כי אין לנו הורים",
+      "mouth": "Itsche, stepping out of the line with one friend (no art yet), tail to Itsche; place this bubble first, on the right"
+     },
+     {
+      "type": "speech",
+      "speaker": "אחד ממנהיגי התנועה",
+      "he": "אישור יש לך כבר. צריך עוד אישור אחד מוורשה.",
+      "en": "You already have one approval. You need one more, from Warsaw.",
+      "kind": "adapted_speech",
+      "memoir": "אישור יש לך כבר רק צריך עוד אישור אחד מורשה",
+      "mouth": "a movement leader facing Itsche, on the left, tail to him"
+     }
+    ],
+    "B01V07-P29-03": [
+     {
+      "type": "speech",
+      "speaker": "דודה נחלה",
+      "he": "אינני יכולה להשגיח עליך. הפרנסה מתמעטת.",
+      "en": "I cannot watch over you. Our living is shrinking.",
+      "kind": "adapted_speech",
+      "memoir": "כל זמן שהדוד היה חי, הוא השגיח עליך, אינני יכולה להשגיח. הפרנסה מתמעטת",
+      "mouth": "Aunt Nachale, speaking gently to Yitzhak at home (no art yet: draw her in the panel), tail to her"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "קיבלתי את זה ללב.",
+      "en": "I took it to heart.",
+      "kind": "quote",
+      "memoir": "קיבלתי את זה ללב"
+     }
+    ],
+    "B01V07-P29-04": [
+     {
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "החלטתי לנסוע הביתה.",
+      "en": "I have decided to go home.",
+      "kind": "quote",
+      "memoir": "אמרתי לדודה שהחלטתי לנסוע הביתה",
+      "mouth": "Yitzhak, packing, turned toward the aunt (no art yet), tail to him"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הדרך ארכה ימים ולילות.",
+      "en": "The journey took days and nights.",
+      "kind": "adapted",
+      "memoir": "אחרי ימים ולילות טלטולים בדרכים"
+     }
+    ]
+   },
+   "note_he": "שלושה כיתובים הפכו לדיבור מהיומן: המנהיג על האישור החסר, הדודה, והחלטת יצחק. נוסף המשפט החזק \"אין לנו הורים\" כבועה, בלי פאנל חדש.",
+   "title": "נבחרתי, אבל עוד לא יצאתי",
+   "shows_override": {
+    "B01V07-P29-02": "מנהיג התנועה (לא מזוהה) מדבר עם יצחק ועוד צעירים.",
+    "B01V07-P29-03": "הדודה נחלה מדברת עם יצחק במטבח בלודז׳, בלי כעס."
+   }
+  },
+  {
+   "page": 30,
+   "pace": "normal",
+   "recipe": "zig-4",
+   "order": [
+    "B01V07-P30-01",
+    "B01V07-P30-02",
+    "B01V07-P30-03",
+    "B01V07-P30-04"
+   ],
+   "hero": "B01V07-P30-02",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [
+    {
+     "id": "B01V07-P30-05",
+     "why": "No art and no text; it shows the same moment as panel 04 (working, now paid). Four panels give the forced work more weight."
+    }
+   ],
+   "texts": {
+    "B01V07-P30-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בבית היו חוה, רייזל ושמעון.",
+      "en": "At home were Chava, Raisel and Shimon.",
+      "kind": "adapted",
+      "memoir": "חוה, רייזיל ושמעון היו בבית"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "מה לעשות? לאכול נחוץ.",
+      "en": "What to do? We need to eat.",
+      "kind": "adapted_thought",
+      "memoir": "מה עושים, חוה, רייזיל ושמעון היו בבית. מה לעשות? לאכול נחוץ",
+      "mouth": "Itsche, standing with his siblings (no art yet), thought bubble above his head"
+     }
+    ],
+    "B01V07-P30-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לקחו אנשים לעבודות כבישים. גם אותי לקחו. בהתחלה לא שאלו אם אנחנו רוצים.",
+      "en": "They took people for road work. They took me too. At first no one asked if we wanted to.",
+      "kind": "adapted",
+      "memoir": "פעם באמצע היום התחילו לתפוס אנשים לעבודה לתיקון כבישים"
+     }
+    ],
+    "B01V07-P30-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "עבדנו תחת שמירה.",
+      "en": "We worked under guard.",
+      "kind": "adapted",
+      "memoir": "בפועל עבדנו בכוח, שמרו עלינו"
+     }
+    ],
+    "B01V07-P30-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחרי זמן הסדירו תשלום לעובדים. המשכתי לעבוד ולהרוויח.",
+      "en": "After a while they arranged pay for the workers. I kept working and earning.",
+      "kind": "adapted",
+      "memoir": "אחרי חודשיים עבודה החליטו פרנסים מהעיר, שהם ישלמו לנו חלק כסף"
+     }
+    ]
+   },
+   "note_he": "חצי הכיתוב הראשון הפך למחשבה של איטשע מהיומן (\"מה לעשות? לאכול נחוץ\"). פאנל 05 הריק הוסר כי הוא חוזר על 04.",
+   "title": "לא בחרתי את העבודה הזאת",
+   "shows_override": {}
+  },
+  {
+   "page": 31,
+   "pace": "normal",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P31-01",
+    "B01V07-P31-02",
+    "B01V07-P31-03",
+    "B01V07-P31-04"
+   ],
+   "hero": "B01V07-P31-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P31-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ביקשו עובדים שיודעים לדבר ולכתוב בגרמנית. ידעתי, והצטרפתי למודדים.",
+      "en": "They wanted workers who could speak and write German. I could, and I joined the surveyors.",
+      "kind": "adapted",
+      "memoir": "פעם שאלו מי יודע לכתוב ולדבר גרמנית"
+     }
+    ],
+    "B01V07-P31-02": [],
+    "B01V07-P31-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "עזרתי למדוד דרכים וגשרים. העבודה הייתה קלה, וכסף לא היה חסר.",
+      "en": "I helped measure roads and bridges. The work was easy, and there was no shortage of money.",
+      "kind": "adapted",
+      "memoir": "מדדנו גשרים ודרכים"
+     }
+    ],
+    "B01V07-P31-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "תרגמתי בין החקלאים לבין המהנדס, על האדמה שקלקלו להם.",
+      "en": "I translated between the farmers and the engineer, about the land that had been damaged.",
+      "kind": "adapted",
+      "memoir": "אני הייתי המתורגמן בין החקלאים הפולניים, לאינג'ינר האוסטרי בנושא האדמה שקלקלו להם"
+     }
+    ]
+   },
+   "note_he": "הכיתוב הארוך של 04 פוצל: המשפט על העבודה הקלה עבר ל־03, כדי שפאנל התרגום, הגדול בעמוד, יישאר נקי. 02 נשאר שקט כפי שנקבע.",
+   "title": "כשצריך מישהו שיבין",
+   "shows_override": {}
+  },
+  {
+   "page": 32,
+   "pace": "slow",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P32-01",
+    "B01V07-P32-02",
+    "B01V07-P32-03",
+    "B01V07-P32-04"
+   ],
+   "hero": "B01V07-P32-04",
+   "morph": [
+    [
+     "B01V07-P32-01",
+     "B01V07-P32-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P32-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בכפרים ראיתי אנשים חורשים ומגדלים את האוכל שלהם.",
+      "en": "In the villages I saw people plowing and growing their own food.",
+      "kind": "adapted",
+      "memoir": "וראינו איך שחקלאים חורשים אדמה"
+     }
+    ],
+    "B01V07-P32-02": [],
+    "B01V07-P32-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שמרו מן היבול גם לחורף.",
+      "en": "They kept some of the harvest for winter too.",
+      "kind": "adapted",
+      "memoir": "רק ישבו בבית ואכלו מה שאספו בקיץ"
+     }
+    ],
+    "B01V07-P32-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "התאהבתי מאוד בחקלאות",
+      "en": "I fell deeply in love with farming",
+      "kind": "quote",
+      "memoir": "התאהבתי מאוד בחקלאות"
+     }
+    ]
+   },
+   "note_he": "בלי טקסט חדש: 01 ו־02 נמסים זה בזה כמו מבט אחד ארוך על החריש, והפאנל האחרון מקבל את רוב הדף. עורך: רצועות רחבות ושקטות לשדות.",
+   "title": "משהו בשדות",
+   "shows_override": {}
+  },
+  {
+   "page": 33,
+   "pace": "slow",
+   "recipe": "wide-2",
+   "order": [
+    "B01V07-P33-02",
+    "B01V07-P33-03",
+    "B01V07-P33-04"
+   ],
+   "hero": "B01V07-P33-02",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [
+    {
+     "id": "B01V07-P33-01",
+     "why": "No art yet and the same moment and place as panel 02 (Yitzhak at the fields). Its caption moves onto 02, so the dream gets the full-width top panel."
+    }
+   ],
+   "texts": {
+    "B01V07-P33-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הייתי בערך בן שש עשרה או שבע עשרה.",
+      "en": "I was about sixteen or seventeen.",
+      "kind": "adapted",
+      "memoir": "הייתי בערך בן 16-17 שנים"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "אני רוצה להיות חקלאי בארץ ישראל.",
+      "en": "I want to be a farmer in the Land of Israel.",
+      "kind": "adapted_thought",
+      "memoir": "וחשבתי בנוגע לנסוע לארץ - ישראל להיות חקלאי",
+      "mouth": "Itsche on the right, face visible; thought bubble in the quiet sky on the left"
+     }
+    ],
+    "B01V07-P33-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מהתנועה כבר היו לי המלצות ואישור עקרוני.",
+      "en": "From the movement I already had recommendations and approval in principle.",
+      "kind": "adapted",
+      "memoir": "הסרפטיקטים מההנהלה הציונית היה אישור"
+     }
+    ],
+    "B01V07-P33-04": [
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "איך נוסעים?",
+      "en": "How does one get there?",
+      "kind": "adapted_thought",
+      "memoir": "ותמיד חלמתי איך נוסעים",
+      "mouth": "Itsche looking at the papers (no art yet), small thought bubble above him"
+     }
+    ]
+   },
+   "note_he": "01 ו־02 אוחדו לפאנל רחב אחד של החלום. בפאנל 04 השקט נוספה מחשבה קצרה מהיומן (\"תמיד חלמתי איך נוסעים\").",
+   "title": "החלום קיבל צורה",
+   "shows_override": {}
+  },
+  {
+   "page": 34,
+   "pace": "fast",
+   "recipe": "strips-3",
+   "order": [
+    "B01V07-P34-01",
+    "B01V07-P34-02",
+    "B01V07-P34-03",
+    "B01V07-P34-04"
+   ],
+   "hero": "B01V07-P34-04",
+   "morph": [],
+   "inset": "B01V07-P34-02",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P34-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הייתי צריך גם דרכון ואישורים נוספים. לא הצלחתי לקבל אותם.",
+      "en": "I also needed a passport and more permits. I could not get them.",
+      "kind": "adapted",
+      "memoir": "צריך היה פספורט וחתימה של ורשה מיצחק גרינבוים"
+     }
+    ],
+    "B01V07-P34-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בלי פספורט פחדתי לנסוע. פחדתי שיתפסו אותי בגבול.",
+      "en": "Without a passport I was afraid to travel. I was afraid they would catch me at the border.",
+      "kind": "adapted",
+      "memoir": "אני בלי פספורט פחדתי לנסוע, לבזבז כסף, ויתפסו אותי בדרך, בגבול"
+     }
+    ],
+    "B01V07-P34-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בגמר המלחמה, פולין נעשתה שוב עצמאית.",
+      "en": "When the war ended, Poland became independent again.",
+      "kind": "adapted",
+      "memoir": "בגמר המלחמה, פולניה קיבלה מידי האוסטרים את פולניה, אחרי שנים שלא הייתה עצמאית"
+     }
+    ],
+    "B01V07-P34-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אחר כך פרצה המלחמה בין פולין לבולשביקים. את ראובן אחי לקחו לצבא.",
+      "en": "Then war broke out between Poland and the Bolsheviks. My brother Reuven was taken into the army.",
+      "kind": "adapted",
+      "memoir": "אחרי שפרצה המלחמה בין פולניה לבולשביקים, את ראובן לקחו לצבא"
+     }
+    ]
+   },
+   "note_he": "רצועות משופעות למעבר זמן; הדרכון החסר (02) הופך לעיגול פרט בין הרצועות. הכיתובים נשארו, כי אין בפאנלים דמות שמדברת.",
+   "title": "הדרך עוד סגורה",
+   "shows_override": {}
+  },
+  {
+   "page": 35,
+   "pace": "normal",
+   "recipe": "grow-4",
+   "order": [
+    "B01V07-P35-01",
+    "B01V07-P35-02",
+    "B01V07-P35-03",
+    "B01V07-P35-04"
+   ],
+   "hero": "B01V07-P35-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P35-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לקחתי את תעודת הלידה של לייבל אחי. כשלקחו את ילידי 1902 לצבא, הלכתי לצבא.",
+      "en": "I took my brother Leibel's birth certificate. When they called up those born in 1902, I went to the army.",
+      "kind": "adapted",
+      "memoir": "לקחתי את התעודה שלו ונסעתי ללודז' בתור שנה יותר צעיר, ע\"ש לייבל אחי. עד שלקחו את 1902 לצבא חזרתי לינדזיב והלכתי לצבא"
+     }
+    ],
+    "B01V07-P35-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שלחו אותנו לברסט ליטובסק. היו אימונים, ושמרנו על מחסנים וגשרים.",
+      "en": "They sent us to Brest Litovsk. There was training, and we guarded storehouses and bridges.",
+      "kind": "adapted",
+      "memoir": "לקחו אותי ועוד הרבה חיילים לברסט- ליטובסקי"
+     }
+    ],
+    "B01V07-P35-03": [
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "למה לא נתנו לי תפקיד?",
+      "en": "Why didn't they give me a post?",
+      "kind": "adapted_thought",
+      "memoir": "חשבתי שיתנו לי עונש, ולא ידעתי למה לא נתנו לי תפקיד",
+      "mouth": "Itsche in the unit by the river at dusk (no art yet), thought bubble above him; read before the caption"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לילה אחד, ליד גשר, המפקד הטיל עליי להשגיח.",
+      "en": "One night, by a bridge, the commander gave me the watch.",
+      "kind": "adapted",
+      "memoir": "נתנה פקודה בלילה להביא את יצחק לונדנר, שישגיח"
+     }
+    ],
+    "B01V07-P35-04": [
+     {
+      "type": "speech",
+      "speaker": "המפקד",
+      "he": "אם האויב יתקרב, תעיר את כולם. צריך לעבור לצד השני של הגשר.",
+      "en": "If the enemy comes close, wake everyone. We must cross to the other side of the bridge.",
+      "kind": "adapted_speech",
+      "memoir": "שישגיח במקרה שיראה כי הבולשביקים מתקרבים. לעשות רעש להעיר את כולם ולעבור את הגשר לצד השני",
+      "mouth": "the commander facing Yitzhak (no art yet), tail to the commander"
+     }
+    ]
+   },
+   "note_he": "נוספה ב־03 מחשבה קצרה מהיומן (\"לא ידעתי למה לא נתנו לי תפקיד\") שבונה מתח לפני הפקודה, בלי להזכיר עונש. הפקודה ב־04 מקבלת את הפאנל הגדול.",
+   "title": "במקום לצאת לארץ",
+   "shows_override": {}
+  },
+  {
+   "page": 36,
+   "pace": "slow",
+   "recipe": "grow-4",
+   "order": [
+    "B01V07-P36-01",
+    "B01V07-P36-02",
+    "NEW-P36-a",
+    "B01V07-P36-03",
+    "B01V07-P36-04"
+   ],
+   "hero": "B01V07-P36-03",
+   "morph": [
+    [
+     "B01V07-P36-01",
+     "B01V07-P36-02"
+    ]
+   ],
+   "inset": "NEW-P36-a",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P36-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נשארתי ער עד לפנות בוקר.",
+      "en": "I stayed awake until dawn.",
+      "kind": "adapted",
+      "memoir": "הייתי ער עד לפנות בוקר"
+     }
+    ],
+    "B01V07-P36-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אז שמעתי רשרוש מרחוק.",
+      "en": "Then I heard a rustling in the distance.",
+      "kind": "adapted",
+      "memoir": "לפנות בוקר הרגשתי איזה רשרוש מרחוק"
+     }
+    ],
+    "B01V07-P36-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "עשיתי רעש והערתי את החיילים.",
+      "en": "I made noise and woke the soldiers.",
+      "kind": "adapted",
+      "memoir": "עשיתי רעש כזה"
+     }
+    ],
+    "B01V07-P36-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הם עברו במהירות לצד השני של הגשר.",
+      "en": "They crossed quickly to the other side of the bridge.",
+      "kind": "adapted",
+      "memoir": "כל הפלוגה הייתה בצד השני של הגשר במשך חמישה רגעים"
+     }
+    ],
+    "NEW-P36-a": []
+   },
+   "note_he": "בלי טקסט חדש (היומן לא מוסר מה צעק). 01 ו־02 נמסים מלילה לשחר באותה משמרת; הפאנל של ההתרעה (03) מקבל את החיתוך הגדול. עורך: הפאנלים גדלים לקראת הרגע שהוא מעיר את כולם, ונוסף עיגול קטן של עיניים מקשיבות בחושך.",
+   "title": "עד הבוקר",
+   "shows_override": {}
+  },
+  {
+   "page": 37,
+   "pace": "normal",
+   "recipe": "zig-4",
+   "order": [
+    "B01V07-P37-01",
+    "B01V07-P37-02",
+    "B01V07-P37-03",
+    "B01V07-P37-04"
+   ],
+   "hero": "B01V07-P37-01",
+   "morph": [
+    [
+     "B01V07-P37-01",
+     "B01V07-P37-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P37-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "המפקד חזר לקחת גם אותי. עזבנו את הגשר.",
+      "en": "My commander came back for me too. We left the bridge.",
+      "kind": "adapted",
+      "memoir": "ואז בא הקצין שלי ולקח גם אותי וברחנו"
+     }
+    ],
+    "B01V07-P37-02": [],
+    "B01V07-P37-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "השירות נמשך עוד זמן. בשנת 1920 השתחררתי וחזרתי לחיים האזרחיים.",
+      "en": "The service went on a while longer. In 1920 I was discharged and went back to civilian life.",
+      "kind": "adapted",
+      "memoir": "יום אחד בשנת 1920 הגיע פקודה שמי שנולד עד 1901, הולכים חופשי הביתה"
+     }
+    ],
+    "B01V07-P37-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הרצון לעלות לארץ נשאר.",
+      "en": "The wish to go to the Land of Israel stayed with me.",
+      "kind": "adapted",
+      "memoir": "רק אצלי היה עוד על הפרק, לנסוע לארץ ישראל"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "בלי פספורט אני מפחד לנסוע. יתפסו אותי בגבול.",
+      "en": "Without a passport I'm afraid to travel. They'll catch me at the border.",
+      "kind": "adapted_thought",
+      "memoir": "אני בלי פספורט פחדתי לנסוע, לבזבז כסף, ויתפסו אותי בדרך, בגבול",
+      "mouth": "center, above Yitzhak"
+     }
+    ]
+   },
+   "note_he": "שני הפאנלים הקיימים מתמזגים לרגע אחד של יציאה מהגשר, והחצי השני של הכיתוב האחרון הפך לבועת מחשבה על הפחד לנסוע בלי פספורט, כפי שכתוב ביומן.",
+   "title": "גם אני עברתי",
+   "shows_override": {}
+  },
+  {
+   "page": 38,
+   "pace": "normal",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P38-01",
+    "B01V07-P38-02",
+    "B01V07-P38-03",
+    "B01V07-P38-04"
+   ],
+   "hero": "B01V07-P38-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P38-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "קיבלתי מכתב מהניך, בן דוד שלנו. הוא כתב שיש לו בת, ושאבוא לדומברובה לראות אותה.",
+      "en": "I got a letter from Henich, our cousin. He wrote that he had a daughter, and that I should come to Dąbrowa to see her.",
+      "kind": "adapted",
+      "memoir": "קיבלתי מכתב מהניך, כי יש לו בת,  והוא רוצה שאני אבוא לדומברובה לראות את הבת"
+     }
+    ],
+    "B01V07-P38-02": [],
+    "B01V07-P38-03": [
+     {
+      "type": "speech",
+      "speaker": "הניך",
+      "he": "נו איטשע, איך מוצא חן הבת שלי?",
+      "en": "Well, Itche, how do you like my daughter?",
+      "kind": "adapted_speech",
+      "memoir": "שאל אותי, נו איטשע / איך מוצא חן הבת שלי",
+      "mouth": "left, facing Yitzhak (Henich should stand on the left; his bubble sits top-right so it is read first)"
+     },
+     {
+      "type": "speech",
+      "speaker": "יצחק",
+      "he": "ראיתי ארבע בנות. אני לא יודע לאיזו בת אתה מתכוון.",
+      "en": "I saw four daughters. I don't know which one you mean.",
+      "kind": "adapted_speech",
+      "memoir": "אמרתי כי ראיתי 4 בנות, ואינני יודע, איזה בת, הוא חושב עבורי",
+      "mouth": "right, face on the right, bubble upper left"
+     }
+    ],
+    "B01V07-P38-04": [
+     {
+      "type": "speech",
+      "speaker": "הניך",
+      "he": "לא פרידה. האחרונה שבאה, הכי גבוהה, הרזה.",
+      "en": "Not Frida. The last one who came in, the tallest, the slim one.",
+      "kind": "adapted_speech",
+      "memoir": "הוא אמר שלא היפה יפה, הוא חושב על פרידה הכי יפה, רק אחרונה אחרונה שבאה, הכי גבוהה הרזה",
+      "mouth": "off-panel right or at the edge; Chava is the focus"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "זו הייתה חוה. לא אחותי חוה, אלא מי שתהיה אשתי, וסבתא שלכם.",
+      "en": "That was Chava. Not my sister Chava, but the woman who would be my wife, and your grandmother.",
+      "kind": "adapted",
+      "memoir": "אגיד לך אני רוצה אותך בתור חתן לבתי חוה"
+     }
+    ]
+   },
+   "note_he": "השאלה של הניך והתשובה המצחיקה שלו ('האחרונה שבאה, הכי גבוהה') נלקחו מהיומן לבועות, והגילוי של חוה קיבל את הפאנל הגדול בתחתית. עורך: בדברי הניך: \"לא פרידה\" במקום \"לא היפה\", כדי שלא יישמע כאילו חוה לא יפה.",
+   "title": "חוה",
+   "shows_override": {}
+  },
+  {
+   "page": 39,
+   "pace": "normal",
+   "recipe": "wide-3",
+   "order": [
+    "B01V07-P39-01",
+    "B01V07-P39-02",
+    "B01V07-P39-03",
+    "B01V07-P39-04"
+   ],
+   "hero": "B01V07-P39-01",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P39-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בשנת 1922 התחתנו. גרנו כמו שסיכמנו לפני החתונה.",
+      "en": "In 1922 we were married. We lived as we had agreed before the wedding.",
+      "kind": "adapted",
+      "memoir": "התחתנו ב-1922 / והיינו גרים כפי שדובר לפני החתונה"
+     }
+    ],
+    "B01V07-P39-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "חוה עבדה קשה בחנות. הקונים אהבו לקנות אצלה.",
+      "en": "Chava worked hard in the shop. Customers loved to buy from her.",
+      "kind": "adapted",
+      "memoir": "כשחוה לא הייתה בחנות לא קנו. היו רק אצל חוהלה"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "ארץ ישראל... לא אספר לאף אחד.",
+      "en": "The Land of Israel... I won't tell anyone.",
+      "kind": "adapted_thought",
+      "memoir": "אבל אצלי היה רעיון ארץ-ישראל, ולא סיפרתי לאף אחד",
+      "mouth": "above Yitzhak, wherever he stands in the shop"
+     }
+    ],
+    "B01V07-P39-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נולדה לנו בת, חנה רוזא. קראנו לה חנהצ׳ילה.",
+      "en": "A daughter was born to us, Chana Roza. We called her Chanatchile.",
+      "kind": "adapted",
+      "memoir": "נולדה לנו בת, שמה היה \"חנה רוזא\" אחרי אמי ע\"ה. קראנו לה חנהצ'ילה"
+     }
+    ],
+    "B01V07-P39-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ואז שוב קראו לי להתייצב לצבא.",
+      "en": "Then I was called up to the army again.",
+      "kind": "adapted",
+      "memoir": "פתאום באה אלי מהצבא להתייצב"
+     }
+    ]
+   },
+   "note_he": "החתונה מקבלת את הפאנל הרחב, ונוספה בועת מחשבה קצרה על רעיון ארץ ישראל שיצחק שמר בסוד, כפי שכתוב ביומן.",
+   "title": "הבית שלנו",
+   "shows_override": {}
+  },
+  {
+   "page": 40,
+   "pace": "slow",
+   "recipe": "zig-4",
+   "order": [
+    "B01V07-P40-01",
+    "B01V07-P40-02",
+    "B01V07-P40-03",
+    "B01V07-P40-04"
+   ],
+   "hero": "B01V07-P40-03",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P40-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "למרות שכבר השתחררתי פעם, גייסו אותי שוב.",
+      "en": "Even though I had been discharged once, they drafted me again.",
+      "kind": "adapted",
+      "memoir": "אחרי זה קיבלתי להתייצב לצבא, לא הייתה לי ברירה"
+     }
+    ],
+    "B01V07-P40-02": [
+     {
+      "type": "speech",
+      "speaker": "יצחק",
+      "he": "אני הולך לצבא ואינני יודע מתי אני אחזור.",
+      "en": "I'm going to the army and I don't know when I'll be back.",
+      "kind": "quote",
+      "memoir": "אני הולך לצבא ואינני יודע מתי אני אחזור",
+      "mouth": "Yitzhak at the door, ready to leave (art note: add him to this panel), bubble upper area"
+     },
+     {
+      "type": "speech",
+      "speaker": "יצחק",
+      "he": "אתה תהיה עם חוה",
+      "en": "You'll stay with Chava",
+      "kind": "quote",
+      "memoir": "אתה תהיה עם חוה ותסחור עם עורות",
+      "mouth": "same speaker, second balloon toward Leibl"
+     }
+    ],
+    "B01V07-P40-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מאוד התגעגעתי הביתה. דאגתי איך לצאת מהצבא.",
+      "en": "I missed home terribly. I worried about how to get out of the army.",
+      "kind": "adapted",
+      "memoir": "מאד התגעגעתי מהבית / ואני דאגתי איך לצאת מהצבא"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "לא שבת, לא חג. בשביל מה לי כל זה?",
+      "en": "No Shabbat, no holiday. What do I need all this for?",
+      "kind": "adapted_thought",
+      "memoir": "ואני צריך כאן לשכב, לא שבת, לא חג, ולא אוכל, לא אכלתי טרף, בשביל מה לי כל זה",
+      "mouth": "above Yitzhak standing guard in the snow (no shooting shown)"
+     }
+    ],
+    "B01V07-P40-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בסוף, אחרי בדיקות וסידורים, קיבלתי שחרור.",
+      "en": "In the end, after examinations and arrangements, I was released.",
+      "kind": "adapted",
+      "memoir": "שכבתי שבוע ימים, כל פעם לבדיקה לרופאים ... אחרי 3 ימים נסעתי הביתה חופשי"
+     }
+    ]
+   },
+   "note_he": "הכיתוב על לייבל וחוה הפך לדברי הפרידה של יצחק ללייבל מתוך היומן, והגעגוע קיבל בועת מחשבה אמיתית מהשמירה בשלג. עורך: בועת הרופאים הוסרה: הקריינות כבר מספרת, והפרטים ביומן רגישים.",
+   "title": "רחוק מחוה ומהילדה",
+   "shows_override": {
+    "B01V07-P40-02": "יצחק במדים בפתח הבית נפרד מלייבל אחיו; חוה והילדה לידם. בלי דמעות מוגזמות.",
+    "B01V07-P40-03": "יצחק החייל בשמירה בשלג, לבד, מתגעגע. בלי ירייה ובלי דרמה."
+   }
+  },
+  {
+   "page": 41,
+   "pace": "normal",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P41-01",
+    "B01V07-P41-02",
+    "B01V07-P41-03"
+   ],
+   "hero": "B01V07-P41-03",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [
+    {
+     "id": "B01V07-P41-04",
+     "why": "פאנל בלי אמנות שחוזר על 03 (עיון במסמכים). הכיתוב שלו עובר לפינת 03, וכך רגע גילוי הסוד לחותן מקבל את הפאנל הגדול."
+    }
+   ],
+   "texts": {
+    "B01V07-P41-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בפורים 1923 חזרתי הביתה.",
+      "en": "On Purim 1923 I came home.",
+      "kind": "adapted",
+      "memoir": "אחרי 3 ימים נסעתי הביתה חופשי, זה היה ב-1923 בפורים"
+     }
+    ],
+    "B01V07-P41-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "חזרתי הביתה בלי סחורה, בלי כסף, והילדה חולה. אבל רעיון ארץ ישראל נשאר אצלי.",
+      "en": "I came home with no goods, no money, and the child was sick. But the idea of the Land of Israel stayed with me.",
+      "kind": "adapted",
+      "memoir": "באתי הביתה ללא סחורה, לא כסף, ילדה חולה"
+     }
+    ],
+    "B01V07-P41-03": [
+     {
+      "type": "speech",
+      "speaker": "יצחק",
+      "he": "אגלה לך סוד: יש לי סרטיפיקט והמלצות טובות לנסוע לארץ ישראל.",
+      "en": "I'll tell you a secret: I have a certificate and good recommendations to go to the Land of Israel.",
+      "kind": "adapted_speech",
+      "memoir": "אמרתי לחותני שאגלה לו סוד, יש לי סרטיפיקט והמלצות טובות לנסוע לארץ",
+      "mouth": "Yitzhak right, holding the papers; father-in-law left"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "התחלתי שוב לברר מה צריך לעשות.",
+      "en": "I started again to find out what had to be done.",
+      "kind": "adapted",
+      "memoir": "הלכתי להתייעץ איתה והראתי לה את ההמלצות שלי"
+     }
+    ]
+   },
+   "note_he": "הכיתוב 'סיפרתי לאבא של חוה' הפך לבועה עם המילים מהיומן ('אגלה לו סוד'), ופאנל 04 החוזר אוחד לתוך 03 שהפך לגיבור הדף.",
+   "title": "חזרתי, והחלום איתי",
+   "shows_override": {}
+  },
+  {
+   "page": 42,
+   "pace": "slow",
+   "recipe": "grow-4",
+   "order": [
+    "B01V07-P42-01",
+    "B01V07-P42-02",
+    "B01V07-P42-03",
+    "B01V07-P42-04"
+   ],
+   "hero": "B01V07-P42-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P42-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "התייעצתי עם אנשים שהכירו את הדרך. ביקשו שאגיש בקשת עלייה מסודרת.",
+      "en": "I consulted people who knew the way. They asked me to submit a proper request to immigrate.",
+      "kind": "adapted",
+      "memoir": "רק לפנות בדומברובה עם בקשה לעלייה  וזה יגיע אלינו ואנחנו נאשר מיד"
+     },
+     {
+      "type": "speech",
+      "speaker": "מי שחזרה מהארץ",
+      "he": "לא להזניח את הזמן",
+      "en": "Don't let the time slip away",
+      "kind": "quote",
+      "memoir": "הייתה איתי בדעה, לא להזניח את הזמן וגם הסרטיפיקט",
+      "mouth": "left, facing Yitzhak (unnamed, no identified portrait)"
+     }
+    ],
+    "B01V07-P42-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "ב־1925 הזמינו אותי למשרד ארץ ישראל בוורשה.",
+      "en": "In 1925 I was invited to the Palestine Office in Warsaw.",
+      "kind": "adapted",
+      "memoir": "קיבלתי מכתב ממשרד ארץ ישראלי לבוא לוורשה"
+     }
+    ],
+    "B01V07-P42-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שם עוד שמרו את ההמלצות שלי, משנת 1916 והלאה.",
+      "en": "There they still kept my recommendations, from 1916 on.",
+      "kind": "adapted",
+      "memoir": "הוציאו כל התיק שלי, עם כל המלצות משנת 1916 עד שנת 1925"
+     },
+     {
+      "type": "speech",
+      "speaker": "במשרד",
+      "he": "תיסע הביתה.",
+      "en": "Go home.",
+      "kind": "quote",
+      "memoir": "ואמרו תיסע הביתה",
+      "mouth": "clerk behind the file, left"
+     }
+    ],
+    "B01V07-P42-04": []
+   },
+   "note_he": "הכיתוב 'שלחו אותי הביתה לחכות' הפך לבועה הקצרה מהיומן 'תיסע הביתה', ופאנל 04 נשאר שקט וגדול כדי שהקורא ירגיש את ההמתנה.",
+   "title": "הניירות נשמרו",
+   "shows_override": {}
+  },
+  {
+   "page": 43,
+   "pace": "normal",
+   "recipe": "wide-3",
+   "order": [
+    "B01V07-P43-01",
+    "B01V07-P43-02",
+    "B01V07-P43-03",
+    "B01V07-P43-04"
+   ],
+   "hero": "B01V07-P43-04",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P43-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "הגיעה תשובה: אישרו לנו לעלות.",
+      "en": "An answer came: we were approved to immigrate.",
+      "kind": "adapted",
+      "memoir": "אחרי זמן קצר קיבלתי מכתב, שאושרתי לעלייה"
+     }
+    ],
+    "B01V07-P43-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבל כדי לצאת מפולין היינו צריכים גם דרכון.",
+      "en": "But to leave Poland we also needed a passport.",
+      "kind": "adapted",
+      "memoir": "רק שלא יכולתי לקבל פספורט"
+     }
+    ],
+    "B01V07-P43-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "היו ענייני מס וניירת שצריך היה להסדיר. לבסוף קיבלתי את הדרכון.",
+      "en": "There were taxes and paperwork to settle. In the end I got the passport.",
+      "kind": "adapted",
+      "memoir": "הייתי חייב מיסים על שמי ומיסים של חוה ... במשך שעתיים קיבלתי את הפספורט"
+     }
+    ],
+    "B01V07-P43-04": [
+     {
+      "type": "speech",
+      "speaker": "במשרד העלייה",
+      "he": "אם לא תצא בזמן, האישור יעבור למישהו אחר.",
+      "en": "If you don't leave on time, the permit goes to someone else.",
+      "kind": "adapted_speech",
+      "memoir": "במקרה ולא אבוא בזמן, ימסרו את הסרטפיקט למישהו אחר",
+      "mouth": "speaker center-right, bubble in the quiet area on the left"
+     }
+    ]
+   },
+   "note_he": "בלי שינוי בטקסט; שלושה פאנלים צרים בונים לחץ אל הפאנל הגדול של התנאי 'לצאת בזמן'.",
+   "title": "עוד אישור אחד",
+   "shows_override": {}
+  },
+  {
+   "page": 44,
+   "pace": "normal",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P44-01",
+    "B01V07-P44-02",
+    "B01V07-P44-03",
+    "B01V07-P44-04"
+   ],
+   "hero": "B01V07-P44-04",
+   "morph": [],
+   "inset": "B01V07-P44-03",
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P44-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מכרנו, סידרנו וארזנו. לקחתי סל גדול לחפצים שלנו.",
+      "en": "We sold, arranged and packed. I took a big basket for our things.",
+      "kind": "adapted",
+      "memoir": "מכרתי הכל ... גם קניתי וסידרתי מין סל גדול גדול"
+     }
+    ],
+    "B01V07-P44-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שמיכות וכרים, פרימוס, וקצת אוכל יבש שיהיה לנו כשנגיע: שומן, גריסים ואטריות.",
+      "en": "Blankets and pillows, a Primus stove, and a little dry food for when we arrived: fat, groats and noodles.",
+      "kind": "adapted",
+      "memoir": "לקחתי איתי מכונת פרימוס, וגם קצת אוכל, שיהיה לנו מה לאכול כי נבוא ארצה - שומן בשר, גריסים ואטריות"
+     }
+    ],
+    "B01V07-P44-03": [],
+    "B01V07-P44-04": [
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "חשבתי שניסע יחד עם הקרובים... אבל אני מפחד לחכות.",
+      "en": "I thought we'd travel together with our relatives... but I'm afraid to wait.",
+      "kind": "adapted_thought",
+      "memoir": "חשבתי  כי אני ושמעונלה ובלצ'י ז\"ל  ניסע יחד. אבל פחדתי לחכות",
+      "mouth": "above Yitzhak, family ready by the door"
+     }
+    ]
+   },
+   "note_he": "הפרימוס והאוכל היבש הפכו לעיגול פרט מעל החיבור, והכיתוב 'פחדתי לחכות' הפך לבועת מחשבה מעל המשפחה המוכנה לצאת.",
+   "title": "מה לוקחים לדרך",
+   "shows_override": {}
+  },
+  {
+   "page": 45,
+   "pace": "fast",
+   "recipe": "3-wide",
+   "order": [
+    "B01V07-P45-01",
+    "B01V07-P45-02",
+    "B01V07-P45-03",
+    "B01V07-P45-04"
+   ],
+   "hero": "B01V07-P45-04",
+   "morph": [
+    [
+     "B01V07-P45-01",
+     "B01V07-P45-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P45-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "במוצאי יום כיפור יצאנו לוורשה. משם נסענו ברכבת לקונסטנצה שברומניה.",
+      "en": "At the end of Yom Kippur we left for Warsaw. From there we took the train to Constanța in Romania.",
+      "kind": "adapted",
+      "memoir": "נסעתי לוורשה במוצאי יום כיפור, נסענו עם רכבת מוורשה עד קונסטנצה"
+     }
+    ],
+    "B01V07-P45-02": [],
+    "B01V07-P45-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בדרך פגשנו אנשים שחזרו מארץ ישראל.",
+      "en": "On the way we met people coming back from the Land of Israel.",
+      "kind": "adapted",
+      "memoir": "בדרך פגשנו אנשים שחזרו בחזרה מארץ ישראל"
+     }
+    ],
+    "B01V07-P45-04": [
+     {
+      "type": "speech",
+      "speaker": "נוסעים בדרך",
+      "he": "יש לך קרובים? איפה תישן?",
+      "en": "Do you have relatives? Where will you sleep?",
+      "kind": "adapted_speech",
+      "memoir": "שאלו אותי יש לך קרובים, איפה תישן",
+      "mouth": "right, quiet space for the bubble on the left"
+     }
+    ]
+   },
+   "note_he": "היציאה והרכבת מתמזגות לנסיעה אחת, והמשפט 'הם שאלו איפה נגור' הוסר מהכיתוב כי השאלה עצמה כבר נשמעת בבועה.",
+   "title": "יש לכם איפה לישון?",
+   "shows_override": {}
+  },
+  {
+   "page": 46,
+   "pace": "normal",
+   "recipe": "wide-2-wide",
+   "order": [
+    "B01V07-P46-01",
+    "B01V07-P46-02",
+    "B01V07-P46-03",
+    "B01V07-P46-04"
+   ],
+   "hero": "B01V07-P46-01",
+   "morph": [
+    [
+     "B01V07-P46-02",
+     "B01V07-P46-03"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P46-01": [
+     {
+      "type": "speech",
+      "speaker": "יצחק",
+      "he": "יש לנו שמיכות וכרים. ניכנס לאיזה שער. בארץ חם, ונסתדר.",
+      "en": "We have blankets and pillows. We'll find some gateway. It's warm there, we'll manage.",
+      "kind": "adapted_speech",
+      "memoir": "אמרתי כי יש לנו שמיכות וכרים, ניכנס לאיזה שער, / בארץ חם ונסתדר",
+      "mouth": "Yitzhak center-right, hand on the bedding"
+     }
+    ],
+    "B01V07-P46-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בערב סוכות עלינו לאונייה אסיה.",
+      "en": "On the eve of Sukkot we boarded the ship Asia.",
+      "kind": "adapted",
+      "memoir": "עלינו לאונייה ערב סוכות, אחר הצהריים, נסענו עם אנייה \"אסיה\""
+     }
+    ],
+    "B01V07-P46-03": [],
+    "B01V07-P46-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אין לשער את שמחתנו",
+      "en": "Our joy was beyond imagining",
+      "kind": "quote",
+      "memoir": "אין לשער את שמחתנו"
+     }
+    ]
+   },
+   "note_he": "התשובה של יצחק הורחבה למילים המלאות מהיומן ('ניכנס לאיזה שער, בארץ חם') וקיבלה את הפאנל הרחב העליון; הנמל והעלייה לאונייה מתמזגים לרגע אחד.",
+   "title": "נמצא דרך",
+   "shows_override": {}
+  },
+  {
+   "page": 47,
+   "pace": "slow",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P47-01",
+    "B01V07-P47-02",
+    "B01V07-P47-03"
+   ],
+   "hero": "B01V07-P47-03",
+   "morph": [
+    [
+     "B01V07-P47-01",
+     "B01V07-P47-02"
+    ]
+   ],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P47-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "תמיד הייתי עסוק בעבודה. לא יכולתי להתעסק הרבה עם הנכדים.",
+      "en": "I was always busy with work. I couldn't spend much time with the grandchildren.",
+      "kind": "adapted",
+      "memoir": "תמיד הייתי עסוק מהקונים ... ולא יכולתי להתעסק עם הנכדים"
+     }
+    ],
+    "B01V07-P47-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אבל בלב אהבתי את כולם.",
+      "en": "But in my heart I loved them all.",
+      "kind": "quote",
+      "memoir": "אבל בלב אהבתי את כולם."
+     }
+    ],
+    "B01V07-P47-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "את הזיכרונות האלה כתבתי לזיכרון הבנים והבת והנכדים.",
+      "en": "I wrote these memories in memory for my sons, my daughter and my grandchildren.",
+      "kind": "adapted",
+      "memoir": "לזיכרון הבנים והבת והנכדים"
+     }
+    ]
+   },
+   "note_he": "בלי בועות חדשות, כי כאן מדבר הסבא הכותב; הכותב והמחברת מתמזגים, והפנים החמות בתחתית מקבלות את המקום הגדול.",
+   "title": "מה אני משאיר לכם",
+   "shows_override": {}
+  },
+  {
+   "page": 48,
+   "pace": "silence",
+   "recipe": "2-wide",
+   "order": [
+    "B01V07-P48-01",
+    "B01V07-P48-02",
+    "B01V07-P48-03"
+   ],
+   "hero": "B01V07-P48-03",
+   "morph": [],
+   "inset": null,
+   "new_panels": [],
+   "removed": [],
+   "texts": {
+    "B01V07-P48-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "היינו בדרך. אנחנו, הילדה, והשמיכות והכרים שלקחנו איתנו.",
+      "en": "We were on our way. Us, the child, and the blankets and pillows we had brought.",
+      "kind": "adapted",
+      "memoir": "יש לנו שמיכות וכרים"
+     }
+    ],
+    "B01V07-P48-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אמרו לנו שקשה להשיג דירה בארץ.",
+      "en": "We had been told it was hard to find a place to live there.",
+      "kind": "adapted",
+      "memoir": "כי קשה להשיג דירה בארץ"
+     }
+    ],
+    "B01V07-P48-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לא פחדתי משום איומים.",
+      "en": "I was not afraid of any threats.",
+      "kind": "quote",
+      "memoir": "לא פחדתי משום איומים."
+     }
+    ]
+   },
+   "note_he": "בלי שינוי בטקסט; הים הפתוח מקבל את הפאנל הגדול בתחתית, והדף נגמר במשפט 'לא פחדתי משום איומים.'",
+   "title": "עד כאן הדרך, ומה עכשיו?",
+   "shows_override": {}
+  }
+ ]
+}

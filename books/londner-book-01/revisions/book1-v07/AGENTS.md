@@ -25,3 +25,10 @@ production/manifest.json שבתיקייה זו הוא תור האיורים הח
 העלו תחילה את כל חומרי העבודה החדשים למאגר הפרטי, אמתו מרחוק, ורק אז התחילו בקבוצת הפתיחה המתועדת. הסקיצה אינה פרסום ציבורי. אין לטעון שבדיקת דפדפן/חיתוך בוצעה אם טרם בוצעה.
 
 בעקבות בקשת המשפחה על מות ההורים: קראו bereavement-edit.md. עמוד 23 כולל במפורש גם את המוות וגם את הדאגה של חיים והקרובים. אין להשאיר cliffhanger על נטישה, לקשור את המוות לילדים/מאמץ עבורם, להציג ילדה בודדה מול דלת או להבטיח שלא יקרה אובדן. הסיפור נשאר עצוב במקום הזה, עם אנשים שפועלים לדאוג לילדים. הידיעה על קבלת שרהלה מסומנת כמשהו שנודע ליצחק אחר כך.
+
+## Version 0.8: comic layout and memoir-fidelity edits (Claude, after user approval)
+
+- The user approved replacing invented lines in the 0.7 script with the memoir's own words (see revisions/book1-v07/claude-review/). The user is the family member who approved the plot; he asked for MINIMUM invention. Do not add morals, reasons, questions to the reader or summaries that the memoir does not state. The reassuring line on page 23 stays by explicit request. Book-frame lines (the three takeaways, "המשך יבוא") are marked as frame, not Yitzhak's voice.
+- revisions/book1-v08/layout-plan.json is now the source of truth for page layout and lettering. The story, the 48 pages and the B01V07 image IDs are unchanged. Five panels were removed and two circle insets added (NEW-P02-a, NEW-P36-a).
+- New image work: read handoffs/claude/v08-image-requests.md. Keep registering images in art/book1-v07/progress.json as before; the sketch at revisions/book1-v08/sketch.html picks them up automatically when served over http. After adding images, run revisions/book1-v08/detect_faces.py and build_sketch.py.
+- Speech bubbles only where the memoir reports speech; thought bubbles only where it states a wish, worry or plan. Leave a calm area above each speaker listed in the requests file.
