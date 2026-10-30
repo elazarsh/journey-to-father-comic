@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P36-01",
+  "page": 36,
+  "file": "art/book1-v07/B01V07-P36-01.png",
+  "source_path": "/workspace/generated_images/exec-d7075bb9-6e4b-441c-a93d-0d48f153c60f.png",
+  "tool": "image_gen__imagegen",
+  "actual_size": [
+    923,
+    1705
+  ],
+  "sha256": "5e259796198d641ee89b9eb2fd4737a663f03036b7d6fb7dadaf6d9b6e84e4b6",
+  "status": "generated-source-reviewed",
+  "references": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "visual_review": {
+    "source_reviewed": true,
+    "young_adult_likeness": "Narrow young face, natural eyes and pronounced ears follow supplied youth photo; not age-43 face.",
+    "scene": "One young Polish soldier by river and bridge, no enemy/combat.",
+    "lettering": "Upper-left sky is calm; face centered right, mouth below upper-left lettering zone.",
+    "limits": "Hands at lower edge; exact 1.00–1.15 masked crop and final lettering need renderer review. Uniform insignia is a stylized reconstruction, not verified detail.",
+    "browser_visual_qa": false
+  },
+  "web_file": "art/book1-v07/B01V07-P36-01.webp"
+}

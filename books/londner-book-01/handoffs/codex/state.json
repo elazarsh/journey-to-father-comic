@@ -18,7 +18,7 @@
     "p04-2",
     "p04-3"
   ],
-  "status": "Prepared approved story, bubble lettering and layout contracts; verify pre-art upload before generation",
+  "status": "Parallel image generation and book-2 script writing in progress",
   "unresolved": "Historical review and identity details remain marked per panel; do not treat existence of an image as factual/family approval.",
   "github_upload": "verified",
   "selected_candidates": [
@@ -111,5 +111,8 @@
     "Generate opening batch: daytime shop, nighttime sleeping shop, elder writing",
     "Review source images, family count, quiet areas and masked crops",
     "Upload the generated batch with receipts and update the active handoff"
-  ]
+  ],
+  "generated_images": 10,
+  "remaining_images": 177,
+  "art_progress": "art/book1-v07/progress.json"
 }

@@ -1,10 +1,133 @@
 {
   "version": "0.7",
-  "requested_batch": [
-    "B01V07-P03-01",
-    "B01V07-P04-02",
-    "B01V07-P01-01"
+  "assets": [
+    {
+      "id": "B01V07-P03-01",
+      "file": "art/book1-v07/B01V07-P03-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "4970fd77aeceb9694936ee62f49a51162347e24f43755a9d6e8894f7787a9a4b",
+      "status": "generated-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-01.json"
+    },
+    {
+      "id": "B01V07-P04-02",
+      "file": "art/book1-v07/B01V07-P04-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P04-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
+      "status": "generated-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-02.json"
+    },
+    {
+      "id": "B01V07-P08-01",
+      "file": "art/book1-v07/B01V07-P08-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P08-01.webp",
+      "actual_size": [
+        1484,
+        1060
+      ],
+      "sha256": "4a020099815c73f596f0c411b52e1cb83351cd4f45cb138e1dda91a6c46b642d",
+      "status": "generated-source-reviewed-crop-adjustment-needed",
+      "receipt": "art/book1-v07/receipts/B01V07-P08-01.json"
+    },
+    {
+      "id": "B01V07-P08-02",
+      "file": "art/book1-v07/B01V07-P08-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P08-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P08-02.json"
+    },
+    {
+      "id": "B01V07-P17-01",
+      "file": "art/book1-v07/B01V07-P17-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P17-01.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "c2f7043544c885ef3998616bde51e5ada084231e7517138e76daee7d0b5e5588",
+      "status": "generated-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P17-01.json"
+    },
+    {
+      "id": "B01V07-P17-02",
+      "file": "art/book1-v07/B01V07-P17-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P17-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "a167e7eb43095f8a0c9da30498c92a548cf76926d43afbecbe1834294725561c",
+      "status": "generated-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P17-02.json"
+    },
+    {
+      "id": "B01V07-P26-01",
+      "file": "art/book1-v07/B01V07-P26-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P26-01.webp",
+      "actual_size": [
+        1484,
+        1060
+      ],
+      "sha256": "168a563c47836ff9e0a107d42f1e44bcd4a0ea13c75ca871c76a3e1c8c5a29e1",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P26-01.json"
+    },
+    {
+      "id": "B01V07-P26-02",
+      "file": "art/book1-v07/B01V07-P26-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P26-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+      "status": "generated-awaiting-source-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P26-02.json"
+    },
+    {
+      "id": "B01V07-P26-03",
+      "file": "art/book1-v07/B01V07-P26-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P26-03.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "status": "generated-awaiting-source-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P26-03.json"
+    },
+    {
+      "id": "B01V07-P36-01",
+      "file": "art/book1-v07/B01V07-P36-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P36-01.webp",
+      "actual_size": [
+        923,
+        1705
+      ],
+      "sha256": "5e259796198d641ee89b9eb2fd4737a663f03036b7d6fb7dadaf6d9b6e84e4b6",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P36-01.json"
+    }
   ],
-  "assets": [],
-  "status": "Awaiting verified GitHub pre-art handoff"
+  "generated": 10,
+  "planned": 187,
+  "remaining": 177,
+  "crop_adjustment_flags": [
+    "B01V07-P08-01"
+  ],
+  "status": "Source images in production. Fit contain previews; final crop and bubble overlap review pending.",
+  "last_refreshed_utc": "2026-10-30T12:12:05.190665+00:00"
 }

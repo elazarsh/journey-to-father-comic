@@ -35,8 +35,7 @@
     "No child-reader comprehension study.",
     "No browser visual, face-crop or final lettering approval.",
     "Plot and existing Yitzhak designs are family approved; exact unresolved chronology and new supporting faces remain unverified.",
-    "No new illustrations in this revision.",
-    "No GitHub publication of this revision."
+    "Source artwork is not final face-crop, balloon-overlap or browser visual approval."
   ],
   "production_contracts": {
     "panels": 187,
@@ -49,5 +48,6 @@
     ],
     "all_have_crop_and_quiet_zone": true,
     "actual_image_crop_review": "pending generation"
-  }
+  },
+  "generated_assets": 10
 }

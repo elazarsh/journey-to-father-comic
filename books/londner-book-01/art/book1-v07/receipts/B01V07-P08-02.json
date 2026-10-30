@@ -1,0 +1,18 @@
+{
+  "id": "B01V07-P08-02",
+  "source_path": "/workspace/generated_images/exec-1f3ff15d-440e-4301-bacb-31c54eb61eaa.png",
+  "prompt": "Dramatic pastoral literary graphic novel. Painterly watercolor and gouache, selective fine ink, cinematic amber and soft blue light, tactile early-1900s Polish home. Faithfully keep the attached approved boy’s narrow oval face, natural brown eyes, ears, nose and dark-brown hair. Later-childhood boy, about primary-school age but no exact historical date. ONE scene, portrait orientation 2:3 canvas, not landscape. A kindly anonymous period doctor in ordinary suit gently examines the boy's RIGHT foot; boy sits on a simple low wooden stool at center-right in charcoal shirt and brown trousers. Right foot lifted onto a small footstool, no blood or visible wound, only mild swelling. Doctor's face in three-quarter back view on center-left, keep all faces and hands below 35% of canvas height and above 76%, within middle 60% width. Very generous top third of plain plaster wall and low-detail side margins for captions and crop. Full heads and feet must be safely far from canvas edges, no cropped figures. Warm care, restrained concerned expression, no fear. NO text, letters, speech bubbles, thought bubbles, borders, collage or watermarks. One continuous illustration only.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_visual_review": "Portrait orientation correct. Approved narrow child face, natural eyes, right foot examined by anonymous doctor, no blood/open wound. Quiet upper-left/top wall clear of faces. Warm humane setting; no invented dialogue or diagnosis.",
+  "crop_status": "source framing reviewed; actual mask and 1.15 zoom remain for renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P08-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
+  "browser_qa": "not performed"
+}

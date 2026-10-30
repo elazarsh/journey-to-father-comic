@@ -1,0 +1,31 @@
+{
+  "id": "B01V07-P17-01",
+  "page": 17,
+  "status": "generated-reviewed",
+  "file": "art/book1-v07/B01V07-P17-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P17-01.webp",
+  "original_tool_file": "/workspace/generated_images/exec-ee8ba53c-5c27-41eb-ba29-bd95ed36c59f.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "c2f7043544c885ef3998616bde51e5ada084231e7517138e76daee7d0b5e5588",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_ids": [
+    "S08-memoir-19"
+  ],
+  "generator": "image_gen__imagegen",
+  "visual_review": {
+    "source_seen": true,
+    "count": "one boy and one anonymous adult woman",
+    "likeness": "narrow face, small natural brown eyes and ears retained",
+    "safety": "no injuries visible or medical distress",
+    "quiet_area": "upper-left blue-green wall clear for caption",
+    "crop_note": "both faces near mid-height; keep woman left and boy right in crop; bed edge can crop",
+    "pending": "actual browser masks and live lettering review not performed"
+  },
+  "generated_on": "2026-10-30",
+  "prompt_file": "art/book1-v07/receipts/B01V07-P17-01-prompt.txt"
+}
