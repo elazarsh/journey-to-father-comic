@@ -88,6 +88,16 @@ for pg in plan['pages']:
         pur = pg.get('purpose', {}).get(pid, {})
         out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=pur.get('verdict', ''),
                         hero=(i == hero), **shapes[i]))
+    # shot variety: adjacent panels must differ in at least two of distance, angle, subject, light
+    sp = pg.get('shots', {})
+    seq = [sp.get(pid) for pid in order if pid != (order[inset] if inset is not None else None)]
+    if all(seq) and seq:
+        for x, y in zip(seq, seq[1:]):
+            diff = sum(x.get(k) != y.get(k) for k in ('shot', 'angle', 'subject', 'light'))
+            if diff < 2:
+                problems.append(f"page {pg['page']}: adjacent panels too alike ({x.get('shot')}/{x.get('subject')})")
+        if len(seq) >= 3 and all(s.get('subject') == 'yitzhak' for s in seq):
+            problems.append(f"page {pg['page']}: Yitzhak in every panel")
     if words > 60:
         problems.append(f"page {pg['page']}: {words} words")
     pages.append(dict(n=pg['page'], title=pg.get('title', ''), pace=pg.get('pace', ''), recipe=pg['recipe'],

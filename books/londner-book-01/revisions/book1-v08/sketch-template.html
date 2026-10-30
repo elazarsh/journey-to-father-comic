@@ -138,9 +138,9 @@ body.work .legend{display:block}
       if (q.soft) pw.classList.add('soft');
       if (q.fade) pw.classList.add('morphtop');
       var art = q.art;
-      if (art && q.verdict === 'redirect') { var rd = el('div', 'redo', pw); el('b', '', rd).textContent = lang === 'he' ? 'תצויר מחדש' : 'to be redrawn'; el('span', '', rd).textContent = q.shows; }
+      if (art && q.verdict === 'redirect') art = null;
       if (art) { var img = el('img', '', shape); img.src = art.src; var fc = art.faces || []; if (fc.length) { var fy = fc.reduce(function (s, f) { return s + f[1] + f[3] / 2; }, 0) / fc.length, fx = fc.reduce(function (s, f) { return s + f[0] + f[2] / 2; }, 0) / fc.length; img.style.objectPosition = fx.toFixed(1) + '% ' + Math.max(0, Math.min(100, fy - 6)).toFixed(1) + '%'; q._fx = fx; q._fy = fy - 6; } img.alt = q.shows; img.loading = 'lazy'; img.decoding = 'async'; }
-      else { var ph = el('div', 'ph' + (q.new ? ' new' : ''), shape); el('em', '', ph).textContent = q.new ? UI[lang].newp : UI[lang].wait; el('span', '', ph).textContent = q.shows; if (q.purpose) { var pu = el('small', 'pur', ph); pu.textContent = q.purpose; } }
+      else { var ph = el('div', 'ph' + (q.new ? ' new' : ''), shape); el('em', '', ph).textContent = q.new ? UI[lang].newp : (q.art && q.verdict === 'redirect' ? (lang === 'he' ? 'תצויר מחדש' : 'to be redrawn') : UI[lang].wait); el('span', '', ph).textContent = q.shows; if (q.purpose) { var pu = el('small', 'pur', ph); pu.textContent = q.purpose; } }
       el('span', 'pid', pw).textContent = q.id.replace('B01V07-', '');
     });
     var note = el('div', 'note', wrap); note.textContent = pg.note || '';
@@ -191,7 +191,7 @@ body.work .legend{display:block}
   }
   /* where each face lands inside the panel element (object-fit: cover, scale 1.03, mirrored in English) */
   function facesPx(q, W, Hh) {
-    var a = q.art; if (!a || !a.faces || !a.faces.length) return [];
+    var a = q.art; if (!a || q.verdict === 'redirect' || !a.faces || !a.faces.length) return [];
     var s = Math.max(W / a.w, Hh / a.h) * 1.03, dw = a.w * s, dh = a.h * s;
     var px = q._fx == null ? 50 : q._fx, py = q._fy == null ? 32 : q._fy;
     var ox = (W - dw) * px / 100, oy = (Hh - dh) * Math.max(0, Math.min(100, py)) / 100;
