@@ -85,7 +85,8 @@ for pg in plan['pages']:
                 needle = ' '.join(t['he'].strip(' .!?,:;').split())
                 if needle not in hay:
                     problems.append(f"{pid}: quote not verbatim: {t['he']}")
-        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07,
+        pur = pg.get('purpose', {}).get(pid, {})
+        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=pur.get('verdict', ''),
                         hero=(i == hero), **shapes[i]))
     if words > 60:
         problems.append(f"page {pg['page']}: {words} words")
@@ -123,7 +124,10 @@ if not embed:
             tag += ' · הפאנל הגדול' if q['hero'] else ''
             tag += ' · 🆕 משבצת חדשה' if q['new'] else ''
             tag += ' · ✔ יש תמונה' if q['art'] else ''
+            tag += ' · 🔁 לצייר אחרת' if q.get('verdict') == 'redirect' else ''
             L += [f"**{i}. {q['id'].replace('B01V07-', '')}**{tag}", '', f"רואים: {q['shows']}", '']
+            if q.get('purpose'):
+                L += [f"למה התמונה כאן: {q['purpose']}", '']
             for t in q['texts']:
                 mark = ' ⚠️' if t.get('kind') in ('staging', 'editorial') else ''
                 mark += ' 🆕' if t.get('isnew') else ''

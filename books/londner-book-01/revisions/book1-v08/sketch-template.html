@@ -37,6 +37,8 @@ html[dir=ltr] .shape img{transform:scale(1.03) scaleX(-1)}
 .ph{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.5em;padding:12% 10%;text-align:center;background:repeating-linear-gradient(135deg,#3b3026 0 8px,#362b22 8px 16px);color:#d8c7aa;font-size:1.55cqw;line-height:1.35}
 .ph em{font-style:normal;font:700 .85em Heebo;letter-spacing:.12em;color:var(--gold);border:1px solid #6a4f2c;border-radius:999px;padding:.15em .7em}
 .ph.new em{background:#5b3a12}
+.ph .pur{display:none;color:#ffd27a;font-size:.9em}
+body.work .ph .pur{display:block}
 .pid{display:none;position:absolute;bottom:3px;inset-inline-start:4px;font:700 9px Heebo;color:#ffe9b8;background:rgba(0,0,0,.6);padding:1px 4px;border-radius:3px;z-index:4;direction:ltr}
 body.work .pid{display:block}
 /* lettering */
@@ -134,7 +136,7 @@ body.work .legend{display:block}
       if (q.fade) pw.classList.add('morphtop');
       var art = q.art;
       if (art) { var img = el('img', '', shape); img.src = art.src; var fc = art.faces || []; if (fc.length) { var fy = fc.reduce(function (s, f) { return s + f[1] + f[3] / 2; }, 0) / fc.length, fx = fc.reduce(function (s, f) { return s + f[0] + f[2] / 2; }, 0) / fc.length; img.style.objectPosition = fx.toFixed(1) + '% ' + Math.max(0, Math.min(100, fy - 6)).toFixed(1) + '%'; q._fx = fx; q._fy = fy - 6; } img.alt = q.shows; img.loading = 'lazy'; img.decoding = 'async'; }
-      else { var ph = el('div', 'ph' + (q.new ? ' new' : ''), shape); el('em', '', ph).textContent = q.new ? UI[lang].newp : UI[lang].wait; el('span', '', ph).textContent = q.shows; }
+      else { var ph = el('div', 'ph' + (q.new ? ' new' : ''), shape); el('em', '', ph).textContent = q.new ? UI[lang].newp : UI[lang].wait; el('span', '', ph).textContent = q.shows; if (q.purpose) { var pu = el('small', 'pur', ph); pu.textContent = q.purpose; } }
       el('span', 'pid', pw).textContent = q.id.replace('B01V07-', '');
     });
     var note = el('div', 'note', wrap); note.textContent = pg.note || '';
