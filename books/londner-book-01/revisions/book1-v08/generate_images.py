@@ -33,8 +33,9 @@ def one(it):
     pid = it['id']
     if STOP:
         return pid, 'skipped (no credits)'
-    existing = (A / 'receipts' / f'{pid}.json').exists()
-    stem = f'{pid}.v2' if existing else pid
+    rec = A / 'receipts' / f'{pid}.json'
+    ours = rec.exists() and str(json.loads(rec.read_text(encoding='utf-8')).get('tool', '')).startswith('openai')
+    stem = f'{pid}.v2' if rec.exists() and not ours else pid   # keep Codex's original, add ours beside it
     out = A / f'{stem}.png'
     if out.exists() and not force:
         return pid, 'skip (exists)'
