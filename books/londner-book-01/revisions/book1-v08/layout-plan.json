@@ -4,25 +4,29 @@
   {
    "page": 1,
    "pace": "slow",
-   "recipe": "tall-2",
+   "recipe": "side-2",
    "order": [
     "B01V07-P01-01",
-    "B01V07-P01-02",
-    "B01V07-P01-03"
+    "B01V07-P01-02"
    ],
    "hero": "B01V07-P01-01",
    "morph": [],
    "inset": null,
    "new_panels": [],
-   "removed": [],
+   "removed": [
+    {
+     "id": "B01V07-P01-03",
+     "why": "אותה דמות באותה זווית פעמיים בעמוד; בקשת המשתמש."
+    }
+   ],
    "texts": {
     "B01V07-P01-01": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לזיכרון הבנים והבת והנכדים.",
-      "en": "In memory, for my sons, my daughter and my grandchildren.",
-      "kind": "quote",
+      "he": "את המחברת הזאת אני כותב בשבילכם: הילדים שלי, והנכדים שלי.",
+      "en": "I am writing this notebook for you: my children and my grandchildren.",
+      "kind": "adapted",
       "memoir": "לזיכרון הבנים והבת והנכדים"
      },
      {
@@ -40,66 +44,61 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "זיכרונות מיום הולדתי ועד... אולי לא יהיה בסדר הכתוב.",
-      "en": "Memories from the day I was born until... maybe not in the right order.",
-      "kind": "quote",
-      "memoir": "זיכרונות מיום הולדתי ועד... אולי לא יהיה בסדר הכתוב"
-     }
-    ],
-    "B01V07-P01-03": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "1971. אני בן שבעים ואחת.",
-      "en": "1971. I am seventy-one years old.",
+      "he": "אכתוב לכם כל מה שאני זוכר: על הבית, על הדרכים, ועל החלום הגדול שלי.",
+      "en": "I will write down everything I remember: about home, about the roads, and about my big dream.",
       "kind": "adapted",
-      "memoir": "היום יום ד' בסיון תשל\"א 26/5/71"
+      "memoir": "מה שאני אזכור, אכתוב"
      }
     ]
    },
-   "note_he": "נוסף ענן מחשבה ריק מעל יצחק הכותב, ובו ציור קטן של הנכדים; הכיתובים נשמרו.",
+   "note_he": "שפה פשוטה שמזמינה ילד להמשיך לקרוא; שתי תמונות במקום שלוש (השלישית חזרה על אותו מבט).",
    "title": "בשבילכם",
    "shows_override": {}
   },
   {
    "page": 2,
    "pace": "normal",
-   "recipe": "wide-2",
+   "recipe": "tall-2",
    "order": [
-    "B01V07-P02-01",
     "B01V07-P02-02",
+    "NEW-P02-b",
     "B01V07-P02-03"
    ],
    "hero": "B01V07-P02-02",
    "morph": [],
    "inset": null,
    "new_panels": [],
-   "removed": [],
+   "removed": [
+    {
+     "id": "B01V07-P02-01",
+     "why": "מעבר העט לרחוב מיותר אחרי עמוד 1; הסדר החדש: שם, לידה, בית."
+    }
+   ],
    "texts": {
-    "B01V07-P02-01": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "מה שאני אזכור, אכתוב.",
-      "en": "Whatever I remember, I will write.",
-      "kind": "quote",
-      "memoir": "מה שאני אזכור, אכתוב"
-     }
-    ],
     "B01V07-P02-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "נולדתי בט״ו בשבט 1900, בעיר יונדזיוב ליד קיעלץ, בפולין.",
-      "en": "I was born on Tu BiShvat, 1900, in the town of Jedrzejow near Kielce, in Poland.",
+      "he": "קוראים לי יצחק מאיר לונדנר. אבל בבית, כולם קראו לי איטשע.",
+      "en": "My name is Yitzhak Meir Londner. But at home, everyone called me Itshe.",
+      "kind": "adapted",
+      "memoir": "שמי יצחק מאיר / איטשע"
+     }
+    ],
+    "NEW-P02-b": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "נולדתי בט״ו בשבט 1900, בעיירה יונדזיוב שבפולין.",
+      "en": "I was born on Tu BiShvat, 1900, in the small town of Jędrzejów in Poland.",
       "kind": "adapted",
       "memoir": "נולדתי בעיר יונדזיוב ע\"י קיעלץ בשנת תר\"ס, יום ט\"ו בשבט"
      },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "המיילדת לא חזרה לברית של השכנים, עד שיצאתי במזל לעולם.",
-      "en": "The midwife did not go back to the neighbors' bris until I was safely born.",
+      "he": "באותו יום הייתה ברית אצל השכנים, וכולם רצו לשם. אבל המיילדת נשארה עם אמא, עד שיצאתי לעולם.",
+      "en": "That day the neighbours had a circumcision party, and everyone ran there. But the midwife stayed with my mother until I came into the world.",
       "kind": "adapted",
       "memoir": "המיילדת לא הלכה בחזרה לברית, עד שאני יצאתי במזל לעולם"
      }
@@ -108,14 +107,14 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שמי יצחק מאיר לונדנר. בבית קראו לי איטשע.",
-      "en": "My name is Yitzhak Meir Londner. At home they called me Itche.",
+      "he": "גדלתי בבית קטן, צמוד לחנות של אבא ואמא.",
+      "en": "I grew up in a small home, right next to my parents’ shop.",
       "kind": "adapted",
-      "memoir": "איטשע, ז\"א אני"
+      "memoir": "זוכר אני הדירה ז\"א החדר שלנו"
      }
     ]
    },
-   "note_he": "הכיתוב הארוך בפאנל 2 פוצל לשני כיתובים קצרים באותה לשון; אין מקור לדיבור בעמוד.",
+   "note_he": "קודם השם, אחר כך הלידה עם תמונה של התינוק והמיילדת (תמונה חדשה), ואז הבית. שפה פשוטה.",
    "title": "כשקראו לי איטשע",
    "shows_override": {}
   },
@@ -144,44 +143,44 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "ביום הייתה כאן החנות של אבא ואמא: עורות וחומרים להכנת נעליים.",
-      "en": "By day this was Father and Mother's shop: leather and supplies for making shoes.",
+      "he": "ביום, זאת הייתה החנות של אבא ואמא. מכרו בה עורות וכל מה שצריך כדי לתפור נעליים.",
+      "en": "By day, this was Mother and Father’s shop. They sold leather and everything needed to make shoes.",
       "kind": "adapted",
-      "memoir": "המסחר שאנו עסקנו, היה עורות וצרכי סנדלרות"
+      "memoir": ""
      }
     ],
     "B01V07-P03-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לידה היה חדר המגורים הקטן שלנו. במשפחה גדלו חמישה בנים ושלוש בנות.",
-      "en": "Next to it was our small living room. Five boys and three girls grew up in our family.",
+      "he": "ממש צמוד לחנות היה החדר הקטן שלנו. בסוף היינו שמונה ילדים: חמישה בנים ושלוש בנות.",
+      "en": "Right next to the shop was our small room. In the end we were eight children: five boys and three girls.",
       "kind": "adapted",
-      "memoir": "היינו בבית 5 אחים ו3 אחיות"
+      "memoir": ""
      }
     ],
     "B01V07-P03-03": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לא היינו עשירים, אבל אוכל לא חסר לנו.",
-      "en": "We were not rich, but we never lacked food.",
+      "he": "לא היינו עשירים, אבל אף פעם לא היינו רעבים.",
+      "en": "We were not rich, but we were never hungry.",
       "kind": "adapted",
-      "memoir": "אוכל לא היה חוסר ב\"ה. לא היינו עשירים, רק בעלי פרנסה."
+      "memoir": "אוכל לא חסר"
      }
     ],
     "B01V07-P03-04": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אני זוכר כמו היום, ומעריך את העבודה של אמא: לבשל, לרחוץ את הרצפה, לכבס.",
-      "en": "I remember it like today, and I value Mother's work: cooking, washing the floor, doing the laundry.",
+      "he": "ואמא? היא עבדה בלי הפסקה: בישלה, שטפה רצפות וכיבסה. עד היום אני זוכר את זה.",
+      "en": "And Mother? She worked without a break: cooking, washing floors, doing laundry. I still remember it.",
       "kind": "adapted",
       "memoir": "זוכר כמו היום ומעריך עבודתה של אמא ע\"ה לבשל, לרחוץ הרצפה, כביסה"
      }
     ]
    },
-   "note_he": "ללא שינוי טקסט; אין דיבור מתועד. החנות והחדר מתמזגים כי זה אותו מקום רציף.",
+   "note_he": "ניסוח פשוט יותר; \"לידה\" הוחלף ב\"ממש צמוד לחנות\".",
    "title": "חנות שהיא גם בית",
    "shows_override": {}
   },
@@ -2135,7 +2134,7 @@
   {
    "page": 35,
    "pace": "normal",
-   "recipe": "grow-4",
+   "recipe": "wide-2-wide",
    "order": [
     "B01V07-P35-01",
     "B01V07-P35-02",
@@ -2152,75 +2151,80 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לקחתי את תעודת הלידה של לייבל אחי. כשלקחו את ילידי 1902 לצבא, הלכתי לצבא.",
-      "en": "I took my brother Leibel's birth certificate. When they called up those born in 1902, I went to the army.",
+      "he": "את ראובן כבר לקחו לצבא, ובבית היו צריכים אותי. אז השתמשתי בתעודת הלידה של לייבל אחי, ונשארתי עוד שנה.",
+      "en": "Reuven had already been taken into the army, and I was needed at home. So I used my brother Leibl’s birth certificate and stayed one more year.",
       "kind": "adapted",
-      "memoir": "לקחתי את התעודה שלו ונסעתי ללודז' בתור שנה יותר צעיר, ע\"ש לייבל אחי. עד שלקחו את 1902 לצבא חזרתי לינדזיב והלכתי לצבא"
+      "memoir": "את ראובן לקחו לצבא / ללייבל אחי הייתה תעודת לידה לשנת 1902, לקחתי את התעודה שלו"
      }
     ],
     "B01V07-P35-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שלחו אותנו לברסט ליטובסק. היו אימונים, ושמרנו על מחסנים וגשרים.",
-      "en": "They sent us to Brest Litovsk. There was training, and we guarded storehouses and bridges.",
+      "he": "כשהגיע התור של ילידי 1902, התגייסתי.",
+      "en": "When those born in 1902 were called up, I enlisted.",
       "kind": "adapted",
-      "memoir": "לקחו אותי ועוד הרבה חיילים לברסט- ליטובסקי"
+      "memoir": "עד שלקחו את 1902 לצבא חזרתי לינדזיב והלכתי לצבא"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "לבשתי מדים של פולין, אבל חלמתי על השדות של ארץ ישראל.",
+      "en": "I wore a Polish uniform, but I dreamed of the fields of the Land of Israel.",
+      "kind": "adapted_thought",
+      "memoir": "התאהבתי מאוד בחקלאות וחשבתי... לנסוע לארץ ישראל להיות חקלאי",
+      "mouth": "center"
      }
     ],
     "B01V07-P35-03": [
      {
-      "type": "thought",
-      "speaker": "איטשע",
-      "he": "למה לא נתנו לי תפקיד?",
-      "en": "Why didn't they give me a post?",
-      "kind": "adapted_thought",
-      "memoir": "חשבתי שיתנו לי עונש, ולא ידעתי למה לא נתנו לי תפקיד",
-      "mouth": "Itsche in the unit by the river at dusk (no art yet), thought bubble above him; read before the caption"
-     },
-     {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לילה אחד, ליד גשר, המפקד הטיל עליי להשגיח.",
-      "en": "One night, by a bridge, the commander gave me the watch.",
+      "he": "לילה אחד האויב התקרב לגשר. בחרו חיילים טובים לשמירה, ואותי לא.",
+      "en": "One night the enemy came close to the bridge. They chose good soldiers for the watch, but not me.",
       "kind": "adapted",
-      "memoir": "נתנה פקודה בלילה להביא את יצחק לונדנר, שישגיח"
+      "memoir": "בחרו חיילים טובים, לשמירה בגשר בלילה"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "למה לא אני?",
+      "en": "Why not me?",
+      "kind": "adapted_thought",
+      "memoir": "ולא ידעתי למה לא נתנו לי תפקיד",
+      "mouth": "center"
      }
     ],
     "B01V07-P35-04": [
      {
       "type": "speech",
       "speaker": "המפקד",
-      "he": "אם האויב יתקרב, תעיר את כולם. צריך לעבור לצד השני של הגשר.",
-      "en": "If the enemy comes close, wake everyone. We must cross to the other side of the bridge.",
+      "he": "יצחק לונדנר, אתה תשמור! אם האויב מתקרב, תעיר את כולם!",
+      "en": "Yitzhak Londner, you keep watch! If the enemy comes near, wake everyone!",
       "kind": "adapted_speech",
-      "memoir": "שישגיח במקרה שיראה כי הבולשביקים מתקרבים. לעשות רעש להעיר את כולם ולעבור את הגשר לצד השני",
-      "mouth": "the commander facing Yitzhak (no art yet), tail to the commander"
+      "memoir": "נתנה פקודה בלילה להביא את יצחק לונדנר, שישגיח... לעשות רעש להעיר את כולם",
+      "mouth": "left"
      }
     ]
    },
-   "note_he": "נוספה ב־03 מחשבה קצרה מהיומן (\"לא ידעתי למה לא נתנו לי תפקיד\") שבונה מתח לפני הפקודה, בלי להזכיר עונש. הפקודה ב־04 מקבלת את הפאנל הגדול.",
+   "note_he": "ברור למה דחה את הגיוס (המשפחה הייתה צריכה אותו) ושהתגייס כשהגיע תורו. המפקד בוחר דווקא בו לשמירה החשובה.",
    "title": "במקום לצאת לארץ",
    "shows_override": {}
   },
   {
    "page": 36,
    "pace": "slow",
-   "recipe": "grow-4",
+   "recipe": "2-1-2",
    "order": [
     "B01V07-P36-01",
+    "NEW-P36-b",
     "B01V07-P36-02",
     "NEW-P36-a",
     "B01V07-P36-03",
     "B01V07-P36-04"
    ],
    "hero": "B01V07-P36-03",
-   "morph": [
-    [
-     "B01V07-P36-01",
-     "B01V07-P36-02"
-    ]
-   ],
+   "morph": [],
    "inset": "NEW-P36-a",
    "new_panels": [],
    "removed": [],
@@ -2229,28 +2233,67 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "נשארתי ער עד לפנות בוקר.",
-      "en": "I stayed awake until dawn.",
+      "he": "כל הפלוגה ישנה. רק אני שמרתי, ער כל הלילה.",
+      "en": "The whole company slept. Only I kept watch, awake all night.",
       "kind": "adapted",
       "memoir": "הייתי ער עד לפנות בוקר"
+     }
+    ],
+    "NEW-P36-b": [
+     {
+      "type": "speech",
+      "speaker": "קצין מהחזית",
+      "he": "זוז מכאן! באנו מהחזית להחליף אתכם.",
+      "en": "Move! We came from the front to replace you.",
+      "kind": "adapted_speech",
+      "memoir": "באו חיילים מהחזית להחליף אותנו",
+      "mouth": "left"
+     },
+     {
+      "type": "speech",
+      "speaker": "יצחק",
+      "he": "אני שומע רק לפקודה של המפקד שלי.",
+      "en": "I only follow my own commander’s order.",
+      "kind": "adapted_speech",
+      "memoir": "לא רציתי לשמוע פקודה של קצינים זרים, כי שמרתי את הפקודה של הממונה עלי",
+      "mouth": "right"
      }
     ],
     "B01V07-P36-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אז שמעתי רשרוש מרחוק.",
-      "en": "Then I heard a rustling in the distance.",
+      "he": "לפנות בוקר, בחושך, שמעתי רשרוש מרחוק.",
+      "en": "Before dawn, in the dark, I heard a rustling far away.",
       "kind": "adapted",
       "memoir": "לפנות בוקר הרגשתי איזה רשרוש מרחוק"
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "הם מתקרבים!",
+      "en": "They’re coming!",
+      "kind": "adapted_thought",
+      "memoir": "והרגשתי שבולשביקים מקרבים",
+      "mouth": "center"
      }
     ],
+    "NEW-P36-a": [],
     "B01V07-P36-03": [
+     {
+      "type": "shout",
+      "speaker": "יצחק",
+      "he": "קומו! האויב מתקרב!",
+      "en": "Get up! The enemy is coming!",
+      "kind": "staging",
+      "memoir": "עשיתי רעש כזה",
+      "mouth": "right"
+     },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עשיתי רעש והערתי את החיילים.",
-      "en": "I made noise and woke the soldiers.",
+      "he": "עשיתי רעש גדול, והערתי את כולם.",
+      "en": "I made a great noise and woke everyone.",
       "kind": "adapted",
       "memoir": "עשיתי רעש כזה"
      }
@@ -2259,15 +2302,14 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הם עברו במהירות לצד השני של הגשר.",
-      "en": "They crossed quickly to the other side of the bridge.",
+      "he": "תוך חמישה רגעים כל הפלוגה כבר הייתה בצד השני של הגשר.",
+      "en": "Within five minutes the whole company was on the other side of the bridge.",
       "kind": "adapted",
       "memoir": "כל הפלוגה הייתה בצד השני של הגשר במשך חמישה רגעים"
      }
-    ],
-    "NEW-P36-a": []
+    ]
    },
-   "note_he": "בלי טקסט חדש (היומן לא מוסר מה צעק). 01 ו־02 נמסים מלילה לשחר באותה משמרת; הפאנל של ההתרעה (03) מקבל את החיתוך הגדול. עורך: הפאנלים גדלים לקראת הרגע שהוא מעיר את כולם, ונוסף עיגול קטן של עיניים מקשיבות בחושך.",
+   "note_he": "הדרמה צעד אחר צעד: לבד בלילה, קצינים זרים מנסים להזיז אותו והוא נשאר, רשרוש, עיניים מקשיבות, צעקה, וכולם עוברים בזמן. (תמונה חדשה: הקצינים הזרים.)",
    "title": "עד הבוקר",
    "shows_override": {}
   },
@@ -2296,8 +2338,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "המפקד חזר לקחת גם אותי. עזבנו את הגשר.",
-      "en": "My commander came back for me too. We left the bridge.",
+      "he": "רק אז המפקד שלי חזר במיוחד, ולקח גם אותי. ברחנו מהגשר ביחד.",
+      "en": "Only then did my commander come back just for me and take me too. We left the bridge together.",
       "kind": "adapted",
       "memoir": "ואז בא הקצין שלי ולקח גם אותי וברחנו"
      }
@@ -2498,10 +2540,10 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "למרות שכבר השתחררתי פעם, גייסו אותי שוב.",
-      "en": "Even though I had been discharged once, they drafted me again.",
+      "he": "שוב קראו לי לצבא. הפעם כבר היו לי אישה, ילדה קטנה וחנות.",
+      "en": "Again I was called up. This time I already had a wife, a little girl and a shop.",
       "kind": "adapted",
-      "memoir": "אחרי זה קיבלתי להתייצב לצבא, לא הייתה לי ברירה"
+      "memoir": "קיבלתי להתייצב לצבא, לא הייתה לי ברירה"
      }
     ],
     "B01V07-P40-02": [
@@ -2528,33 +2570,33 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "מאוד התגעגעתי הביתה. דאגתי איך לצאת מהצבא.",
-      "en": "I missed home terribly. I worried about how to get out of the army.",
+      "he": "שכבתי בשמירה בשלג, רחוק מהבית. בלי שבת, בלי חג, בלי אוכל כשר.",
+      "en": "I lay on guard in the snow, far from home. No Shabbat, no holiday, no kosher food.",
       "kind": "adapted",
-      "memoir": "מאד התגעגעתי מהבית / ואני דאגתי איך לצאת מהצבא"
+      "memoir": "ואני צריך כאן לשכב, לא שבת, לא חג, ולא אוכל, לא אכלתי טרף"
      },
      {
       "type": "thought",
       "speaker": "יצחק",
-      "he": "לא שבת, לא חג. בשביל מה לי כל זה?",
-      "en": "No Shabbat, no holiday. What do I need all this for?",
+      "he": "בבית מחכות לי חוה והילדה. בשביל מה לי כל זה?",
+      "en": "Chava and our little girl are waiting at home. What is all this for?",
       "kind": "adapted_thought",
-      "memoir": "ואני צריך כאן לשכב, לא שבת, לא חג, ולא אוכל, לא אכלתי טרף, בשביל מה לי כל זה",
-      "mouth": "above Yitzhak standing guard in the snow (no shooting shown)"
+      "memoir": "ילדה נחמדה, מאד התגעגעתי מהבית... בשביל מה לי כל זה",
+      "mouth": "center"
      }
     ],
     "B01V07-P40-04": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בסוף, אחרי בדיקות וסידורים, קיבלתי שחרור.",
-      "en": "In the end, after examinations and arrangements, I was released.",
+      "he": "בסוף שחררו אותי. חזרתי הביתה, ולחלום שלי: לבנות בית בארץ ישראל.",
+      "en": "In the end I was released. I went home, back to my dream: building a home in the Land of Israel.",
       "kind": "adapted",
-      "memoir": "שכבתי שבוע ימים, כל פעם לבדיקה לרופאים ... אחרי 3 ימים נסעתי הביתה חופשי"
+      "memoir": "ואני דאגתי איך לצאת מהצבא / רעיון ארץ-ישראל"
      }
     ]
    },
-   "note_he": "הכיתוב על לייבל וחוה הפך לדברי הפרידה של יצחק ללייבל מתוך היומן, והגעגוע קיבל בועת מחשבה אמיתית מהשמירה בשלג. עורך: בועת הרופאים הוסרה: הקריינות כבר מספרת, והפרטים ביומן רגישים.",
+   "note_he": "לא נשמע כמו השתמטות: יש לו משפחה וחנות שצריכים אותו, הוא רחוק מהבית ומהחגים, והחלום שלו הוא לבנות בארץ שלו.",
    "title": "רחוק מחוה ומהילדה",
    "shows_override": {
     "B01V07-P40-02": "יצחק במדים בפתח הבית נפרד מלייבל אחיו; חוה והילדה לידם. בלי דמעות מוגזמות.",

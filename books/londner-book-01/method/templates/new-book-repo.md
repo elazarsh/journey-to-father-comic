@@ -23,4 +23,3 @@
 
 ## 4. כלים נדרשים בסביבה
 `python3` (Pillow, opencv-python-headless, pymupdf, qrcode), `node` עם Playwright ו־Chromium (בסביבת הענן מותקן מראש), מודל YuNet לזיהוי פנים (`face_detection_yunet_2023mar.onnx` מ־opencv_zoo).
-

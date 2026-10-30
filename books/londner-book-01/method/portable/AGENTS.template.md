@@ -15,4 +15,3 @@
 5. שכבות (`kind: layer`): רקע ירוק מלא #00FF00, ואז `production/scripts/chromakey.py`.
 6. לשמור כ־`art/<file>.png`, להוסיף ל־`art/progress.json`, ולדחוף עמוד אחד בכל commit (`art: page N`).
 7. אחרי כל עמוד: גיליון מגע ודיווח קצר (מה נוצר, מה נוצר מחדש ולמה, סטייה בדמויות).
-

@@ -62,7 +62,9 @@ for pg in plan['pages']:
     hero = order.index(pg['hero']) if pg.get('hero') in order else None
     inset = order.index(pg['inset']) if pg.get('inset') in order else None
     morphs = [(order.index(a), order.index(b)) for a, b in pg.get('morph', []) if a in order and b in order]
-    shapes = geometry.page_shapes(pg['recipe'], len(order), hero, morphs, inset)
+    roomy = [i for i, pid in enumerate(order)
+             if any(t.get('type') in ('speech', 'thought', 'whisper', 'shout') for t in pg['texts'].get(pid, []))]
+    shapes = geometry.page_shapes(pg['recipe'], len(order), hero, morphs, inset, roomy)
     out = []
     words = 0
     for i, pid in enumerate(order):

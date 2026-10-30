@@ -70,6 +70,9 @@ def v(at, a, b, s=0.1):
 RECIPES = {
     'splash': (1, lambda: 0),
     'splash-inset': (2, lambda: 0),
+    'side-2': (2, lambda: v(.58, 0, 1, .06)),
+    'big-small': (2, lambda: h(.64, 0, 1)),
+    '2-1-2': (5, lambda: h(.3, v(.5, 0, 1, .1), h(.62, 2, v(.56, 3, 4, -.1), -S))),
     'wide-2': (3, lambda: h(.48, 0, v(.5, 1, 2, -.12))),
     '2-wide': (3, lambda: h(.42, v(.52, 0, 1, .12), 2, -S)),
     'tall-2': (3, lambda: v(.56, 0, h(.5, 1, 2), .05)),
@@ -114,7 +117,7 @@ def set_morph(node, i, j, mo=12):
     return set_morph(node['a'], i, j, mo) or set_morph(node['b'], i, j, mo)
 
 
-def page_shapes(recipe, n, hero=None, morphs=(), inset=None):
+def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=()):
     """Return {index: {'poly': [...]} or {'circle': (x,y,w,h)}} for n panels in reading order.
     The inset (if any) is a circle over the joint; the rest fill the page with the recipe."""
     flow = [i for i in range(n) if i != inset]
@@ -126,6 +129,10 @@ def page_shapes(recipe, n, hero=None, morphs=(), inset=None):
         else:
             build = RECIPES[recipe][1]
     tree = build()
+    # panels that carry speech or thought bubbles need room for them (user's rule): a gentler push
+    for r in roomy:
+        if r in flow and r != hero:
+            bias(tree, flow.index(r), 0.55)
     if hero is not None and hero in flow:
         bias(tree, flow.index(hero))
     for a, b in morphs:
