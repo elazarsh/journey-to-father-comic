@@ -1,0 +1,19 @@
+{
+  "id": "B01V07-P08-04",
+  "source_path": "/workspace/generated_images/exec-815fbf2e-231a-4fba-b7a7-59829f203ca9.png",
+  "prompt": "Edit the supplied illustration, preserving the boy's exact approved face, pose, cap, both bandaged feet, bed, watercolor/gouache dramatic pastoral style, warm light and spacious upper-left wall. REMOVE THE SMALL FRAMED RELIGIOUS ICON/PICTURE on the wall above the boy. Fill that location with plain pale plaster matching the surrounding wall. This is an early-1900s Jewish family home: no Christian icons, no crosses, no portraits or religious decorations invented on walls. Keep all other content as close as possible to the source. No readable text, no speech bubbles, no frames or watermark. One continuous landscape scene.",
+  "references": [
+    "art/book1-v07/rejected/B01V07-P08-04-attempt-01.png"
+  ],
+  "source_visual_review": "Corrected source reviewed: inappropriate wall icon removed. Boy awake in modest tidy home bed with both bandaged feet; approved identity and calm attentive expression retained. Upper-left plaster wall is quiet and has no faces.",
+  "crop_status": "source overscan reasonable; final polygon/lettering/zoom QA pending",
+  "status": "generated-source-reviewed",
+  "replaces_rejected_attempt": "B01V07-P08-04-attempt-01",
+  "file": "art/book1-v07/B01V07-P08-04.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
+  "browser_qa": "not performed"
+}

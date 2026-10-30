@@ -1,0 +1,31 @@
+{
+  "id": "B01V07-P03-01",
+  "source_path": "/workspace/generated_images/exec-ea0dc0a4-c1d5-48ff-8f13-9f1d90b411a7.png",
+  "prompt": "Create a NEW single illustration using the provided old shop picture ONLY for painterly material atmosphere, NOT its boy, bed layout or night time. This is asset B01V07-P03-01, the daytime establishing view for a historical family graphic novel. Landscape 1536x1024. Dramatic pastoral literary watercolor and gouache, selective fine ink, cinematic natural light, rich but restrained ochre and muted blue, tactile wood and leather. A very SMALL, clean, orderly leather-and-shoemaking-SUPPLIES shop in a Polish town around 1904, also part of the family's cramped home. Show leather rolls and small orderly supplies on shelves along the LEFT wall, a LOW counter at lower center, a TALL ceramic heating stove at the BACK center, and an OPEN INTERIOR DOOR on the RIGHT leading to a clearly tiny living room with a simple table and domestic linens. We are looking inward from the front of the shop; this architecture will be reused exactly for night sleeping. Daylight through the front/out-of-frame window. Two adults behind/near the counter, father and mother, mostly in profile/back view with modest period clothing, and one customer seen from behind; do not invent identifiable portraits. NO children in this particular frame. The room is materially modest but cared for, food/security implied by orderly domestic corner, warm dignity rather than misery. NO shoemaker, no shoe-making activity, no person hammering/cutting/repairing a shoe; this is a retailer of leather and supplies. Leave upper-left 40% width by 22% height as quiet subdued plaster/soft shadow suitable for later live Hebrew caption, no faces there. All essential architecture and people within central 65% width and 55% height, generous 15% overscan for a 1.53:1 mask. No text, labels, letters, signs, bubbles, borders, collage or watermark. One continuous scene.",
+  "reference_paths": [
+    "art/p03-2.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "family_count": "Exactly 3 adults, no children; supporting faces are staged rather than verified likenesses.",
+    "scene_fidelity": "Retail leather and supplies, no cobbler work. Same architectural anchors locked for night: shelves left, tall tiled stove at back center, interior door right, low counter center.",
+    "quiet_lettering": "Upper-left plaster field is clear above faces. All adult faces below upper caption zone.",
+    "crop_notes": "Core action and faces centered; doorway remains on right. Actual final mask/zoom and browser lettering still require parent review.",
+    "limitations": [
+      "Supporting adults are not identified portraits.",
+      "No browser or final mask approval claimed."
+    ]
+  },
+  "file": "art/book1-v07/B01V07-P03-01.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "4970fd77aeceb9694936ee62f49a51162347e24f43755a9d6e8894f7787a9a4b",
+  "file_bytes": 3399429,
+  "created_at_utc": "2026-10-30T12:07:00Z",
+  "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
+  "web_sha256": "5cddd584fcaf5789a4b12bf57a43bb077f0cbdb0c9b9817f3f552b41b4d4af05"
+}

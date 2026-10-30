@@ -2,6 +2,18 @@
   "version": "0.7",
   "assets": [
     {
+      "id": "B01V07-P01-01",
+      "file": "art/book1-v07/B01V07-P01-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P01-01.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "3ec28b724763f7e8d9af493755a4c6141b647ea8bbb54fa8f30bf1ac8a5ead86",
+      "status": "generated-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P01-01.json"
+    },
+    {
       "id": "B01V07-P03-01",
       "file": "art/book1-v07/B01V07-P03-01.png",
       "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
@@ -9,7 +21,7 @@
         1536,
         1024
       ],
-      "sha256": "4970fd77aeceb9694936ee62f49a51162347e24f43755a9d6e8894f7787a9a4b",
+      "sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
       "status": "generated-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P03-01.json"
     },
@@ -50,6 +62,42 @@
       "receipt": "art/book1-v07/receipts/B01V07-P08-02.json"
     },
     {
+      "id": "B01V07-P08-03",
+      "file": "art/book1-v07/B01V07-P08-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P08-03.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P08-03.json"
+    },
+    {
+      "id": "B01V07-P08-04",
+      "file": "art/book1-v07/rejected/B01V07-P08-04-attempt-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P08-04.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "f5df75e835c2d46bbd7105ff8faeb656c95565e502ba1f80bdd26855246e2e7b",
+      "status": "rejected-historical-prop",
+      "receipt": "art/book1-v07/receipts/B01V07-P08-04-rejected-01.json"
+    },
+    {
+      "id": "B01V07-P08-04",
+      "file": "art/book1-v07/B01V07-P08-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P08-04.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P08-04.json"
+    },
+    {
       "id": "B01V07-P17-01",
       "file": "art/book1-v07/B01V07-P17-01.png",
       "web_file": "art/book1-v07/web/B01V07-P17-01.webp",
@@ -74,14 +122,26 @@
       "receipt": "art/book1-v07/receipts/B01V07-P17-02.json"
     },
     {
+      "id": "B01V07-P17-03",
+      "file": "art/book1-v07/B01V07-P17-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P17-03.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "fbb4739a450e0a09802934a77d11dea975e9a4333e3e8e85d44edc589dd34d2e",
+      "status": "generated-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P17-03.json"
+    },
+    {
       "id": "B01V07-P26-01",
       "file": "art/book1-v07/B01V07-P26-01.png",
       "web_file": "art/book1-v07/web/B01V07-P26-01.webp",
       "actual_size": [
-        1484,
-        1060
+        1024,
+        1536
       ],
-      "sha256": "168a563c47836ff9e0a107d42f1e44bcd4a0ea13c75ca871c76a3e1c8c5a29e1",
+      "sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
       "status": "generated-source-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P26-01.json"
     },
@@ -94,7 +154,7 @@
         1536
       ],
       "sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
-      "status": "generated-awaiting-source-review",
+      "status": "generated-source-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P26-02.json"
     },
     {
@@ -106,8 +166,20 @@
         1024
       ],
       "sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
-      "status": "generated-awaiting-source-review",
+      "status": "generated-source-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P26-03.json"
+    },
+    {
+      "id": "B01V07-P26-04",
+      "file": "art/book1-v07/B01V07-P26-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P26-04.webp",
+      "actual_size": [
+        1629,
+        966
+      ],
+      "sha256": "4cf341611a609275fd7c57ab9f8b561c2d6e39e3427deb017cefa457ed9708ed",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P26-04.json"
     },
     {
       "id": "B01V07-P36-01",
@@ -120,14 +192,38 @@
       "sha256": "5e259796198d641ee89b9eb2fd4737a663f03036b7d6fb7dadaf6d9b6e84e4b6",
       "status": "generated-source-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P36-01.json"
+    },
+    {
+      "id": "B01V07-P36-02",
+      "file": "art/book1-v07/B01V07-P36-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P36-02.webp",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "sha256": "5789d8206efa8d97e6feb5c68c4c458ae34fc3387251f61c171f409c7019ec84",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P36-02.json"
+    },
+    {
+      "id": "B01V07-P36-03",
+      "file": "art/book1-v07/B01V07-P36-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P36-03.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "0cb5d0175d66be65d8802d9fc0ece31d3b0cdfe27598500671007aed316c9988",
+      "status": "generated-source-reviewed",
+      "receipt": "art/book1-v07/receipts/B01V07-P36-03.json"
     }
   ],
-  "generated": 10,
+  "generated": 18,
   "planned": 187,
-  "remaining": 177,
+  "remaining": 169,
   "crop_adjustment_flags": [
     "B01V07-P08-01"
   ],
   "status": "Source images in production. Fit contain previews; final crop and bubble overlap review pending.",
-  "last_refreshed_utc": "2026-10-30T12:12:05.190665+00:00"
+  "last_refreshed_utc": "2026-10-30T12:16:21.255513+00:00"
 }

@@ -1,21 +1,23 @@
 {
   "id": "B01V07-P03-01",
-  "source_path": "/workspace/generated_images/exec-ea0dc0a4-c1d5-48ff-8f13-9f1d90b411a7.png",
-  "prompt": "Create a NEW single illustration using the provided old shop picture ONLY for painterly material atmosphere, NOT its boy, bed layout or night time. This is asset B01V07-P03-01, the daytime establishing view for a historical family graphic novel. Landscape 1536x1024. Dramatic pastoral literary watercolor and gouache, selective fine ink, cinematic natural light, rich but restrained ochre and muted blue, tactile wood and leather. A very SMALL, clean, orderly leather-and-shoemaking-SUPPLIES shop in a Polish town around 1904, also part of the family's cramped home. Show leather rolls and small orderly supplies on shelves along the LEFT wall, a LOW counter at lower center, a TALL ceramic heating stove at the BACK center, and an OPEN INTERIOR DOOR on the RIGHT leading to a clearly tiny living room with a simple table and domestic linens. We are looking inward from the front of the shop; this architecture will be reused exactly for night sleeping. Daylight through the front/out-of-frame window. Two adults behind/near the counter, father and mother, mostly in profile/back view with modest period clothing, and one customer seen from behind; do not invent identifiable portraits. NO children in this particular frame. The room is materially modest but cared for, food/security implied by orderly domestic corner, warm dignity rather than misery. NO shoemaker, no shoe-making activity, no person hammering/cutting/repairing a shoe; this is a retailer of leather and supplies. Leave upper-left 40% width by 22% height as quiet subdued plaster/soft shadow suitable for later live Hebrew caption, no faces there. All essential architecture and people within central 65% width and 55% height, generous 15% overscan for a 1.53:1 mask. No text, labels, letters, signs, bubbles, borders, collage or watermark. One continuous scene.",
+  "source_path": "/workspace/generated_images/exec-fec4a3d1-9ba0-494f-99e8-6a606da5b8e7.png",
+  "prompt": "Make a narrowly targeted historical clothing correction to this exact illustration, preserving EVERYTHING else: architecture, lighting, painted style, camera, people positions, faces, body proportions, leather shop, counter, stove, door and quiet upper-left caption space. The father is the man behind the counter on the left with cream shirt and dark waistcoat: add a modest small dark skullcap/kippah that covers the crown of his head. The mother behind the counter in the middle wears a blue patterned dress: add a modest muted navy/earth-tone headscarf fully covering her hair, tied neatly at the nape, appropriate for a religious Jewish married woman in a Polish town around 1904. Do not alter their faces or add new people. Customer already has a hat and stays exactly the same. No text, lettering, bubble, frame, watermark or collage. One continuous scene. Retain landscape 1536x1024.",
   "reference_paths": [
-    "art/p03-2.png"
+    "art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.png"
   ],
+  "previous_variant": "art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.png",
   "status": "generated-reviewed",
   "visual_review": {
     "single_scene": true,
     "no_text_or_bubbles": true,
-    "family_count": "Exactly 3 adults, no children; supporting faces are staged rather than verified likenesses.",
-    "scene_fidelity": "Retail leather and supplies, no cobbler work. Same architectural anchors locked for night: shelves left, tall tiled stove at back center, interior door right, low counter center.",
-    "quiet_lettering": "Upper-left plaster field is clear above faces. All adult faces below upper caption zone.",
-    "crop_notes": "Core action and faces centered; doorway remains on right. Actual final mask/zoom and browser lettering still require parent review.",
+    "correction": "Added dark kippah to Father and modest navy headscarf to Mother; retained architecture, faces, composition and light.",
+    "family_count": "Exactly 3 adults, no children; supporting faces remain proposed staging.",
+    "scene_fidelity": "Retail leather and supplies, not cobbler work. Shelves left, tall tiled stove back center, inner room door right.",
+    "quiet_lettering": "Clear plaster upper-left, all faces below caption area.",
+    "crop_notes": "Faces/actions centrally protected, doorway on right. Final actual mask/zoom and lettering review pending.",
     "limitations": [
       "Supporting adults are not identified portraits.",
-      "No browser or final mask approval claimed."
+      "No browser/final mask approval."
     ]
   },
   "file": "art/book1-v07/B01V07-P03-01.png",
@@ -23,9 +25,9 @@
     1536,
     1024
   ],
-  "sha256": "4970fd77aeceb9694936ee62f49a51162347e24f43755a9d6e8894f7787a9a4b",
-  "file_bytes": 3399429,
-  "created_at_utc": "2026-10-30T12:07:00Z",
+  "sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
+  "file_bytes": 2972247,
+  "recorded_at_utc": "2026-10-30T12:12:30.985809+00:00",
   "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
-  "web_sha256": "5cddd584fcaf5789a4b12bf57a43bb077f0cbdb0c9b9817f3f552b41b4d4af05"
+  "web_sha256": "e224acaf8fe4fd08cf4bc65795fa48a6d8380d04fd51d973f1f514b8f7d3960a"
 }
