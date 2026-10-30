@@ -1,23 +1,10 @@
 # בקשות תמונה מ־Claude לגרסה 0.8 (ל־Codex)
 
-הסקיצה החדשה: `revisions/book1-v08/sketch.html` (להריץ `python3 -m http.server` מתיקיית הספר ולפתוח `/revisions/book1-v08/sketch.html`). היא קוראת את `art/book1-v07/progress.json` בכל טעינה, כך שכל תמונה חדשה שנרשמת שם מופיעה מיד בפריסה. המזהים נשארים B01V07, חוץ משתי משבצות חדשות.
+הסקיצה החדשה: `revisions/book1-v08/sketch.html` (להריץ `python3 -m http.server` מתיקיית הספר ולפתוח `/revisions/book1-v08/sketch.html`). היא קוראת את `art/book1-v07/progress.json` בכל טעינה, כך שכל תמונה חדשה שנרשמת שם מופיעה מיד בפריסה. המזהים נשארים B01V07, חוץ ממשבצת חדשה אחת.
 
 אותם כללים כמו קודם: סצנה אחת, בלי טקסט, בלי בועות, בלי מסגרות, מרווח לחיתוך, מקום שקט לכיתוב.
 
-## 1. משבצות חדשות (עיגול תקריב, יחס 1:1, 1024x1024)
-
-### NEW-P02-a (עמוד 2)
-
-מה רואים: עיגול תקריב: המיילדת עומדת ליד מיטת היולדת ולא חוזרת לברית בחצר. בלי פנים מזוהות של ההורים, בלי פרטי לידה.
-
-ביומן: "המיילדת לא הלכה בחזרה לברית, עד שאני יצאתי במזל לעולם"
-
-Prompt:
-```
-Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.
-ONE scene, ONE image; circular close-up composition centered (it will be masked to a circle); no lettering, no frames.
-Action: עיגול תקריב: המיילדת עומדת ליד מיטת היולדת ולא חוזרת לברית בחצר. בלי פנים מזוהות של ההורים, בלי פרטי לידה.
-```
+## 1. משבצת חדשה אחת (עיגול תקריב, יחס 1:1, 1024x1024)
 
 ### NEW-P36-a (עמוד 36)
 
@@ -89,6 +76,6 @@ Action: עיגול תקריב: עיניו של יצחק החייל בחושך ל
 - B01V07-P45-04: נוסעים בדרך (right, quiet space for the bubble on the left)
 - B01V07-P46-01: יצחק (Yitzhak center-right, hand on the bedding)
 
-## 5. תמונות קיימות שהפכו לעיגול
+## 5. עיגולים
 
-- B01V07-P26-03, B01V07-P27-03, B01V07-P15-04, B01V07-P44-03, B01V07-P05-03, B01V07-P34-02: מוצגות כעיגול תקריב. אם תמונה קיימת נחתכת לא טוב בעיגול, אפשר ליצור גרסה מרוכזת יותר.
+לפי בקשת המשתמש, עיגול תקריב מופיע רק פעמיים בספר: B01V07-P05-03 (הסוכרייה על האות א) ו־NEW-P36-a (העיניים בחושך). כל שאר המשבצות הן פאנלים רגילים. לא להציע עיגולים נוספים.
