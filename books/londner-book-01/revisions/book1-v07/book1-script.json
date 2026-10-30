@@ -27,22 +27,22 @@
         {
           "id": "B01V07-P01-01",
           "reading_order": 1,
-          "action": "יצחק המבוגר כותב לבדו, בחום ובנחת. זה אינו מפגש מתועד עם נינים.",
+          "action": "יצחק המבוגר כותב במחברת. זה אינו מפגש מתועד עם נינים.",
           "texts": [
             {
-              "he": "ילדים, נכדים ונינים אהובים שלי, את הזיכרונות האלה אני כותב בשבילכם.",
-              "en": "My dear children, grandchildren and great-grandchildren, I am writing these memories for you.",
+              "he": "לזיכרון הבנים והבת והנכדים.",
+              "en": "In memory, for my sons, my daughter and my grandchildren.",
               "source": "S08-memoir-1",
-              "kind": "adapted",
+              "kind": "quote",
               "speaker": "יצחק המבוגר",
-              "basis": "family_requested_literary_frame",
+              "basis": "documented_event",
               "presentation": "caption",
               "id": "B01V07-P01-01-T1",
               "sources": [
                 "S08-memoir-1",
                 "S08-memoir-139"
               ],
-              "review_required": true
+              "review_required": false
             }
           ],
           "kind": "scene",
@@ -106,19 +106,19 @@
           "action": "תקריב ידו והמחברת.",
           "texts": [
             {
-              "he": "כדי שתכירו גם את הילד שהייתי, הרבה לפני שקראו לי סבא.",
-              "en": "So you can know the boy I was, long before anyone called me Grandpa.",
+              "he": "זיכרונות מיום הולדתי ועד... אולי לא יהיה בסדר הכתוב.",
+              "en": "Memories from the day I was born until... Perhaps not in the right order.",
               "source": "S08-memoir-1",
-              "kind": "adapted",
+              "kind": "quote",
               "speaker": "יצחק המבוגר",
-              "basis": "family_requested_literary_frame",
+              "basis": "documented_event",
               "presentation": "caption",
               "id": "B01V07-P01-02-T1",
               "sources": [
                 "S08-memoir-1",
                 "S08-memoir-139"
               ],
-              "review_required": true
+              "review_required": false
             }
           ],
           "kind": "scene",
@@ -236,7 +236,7 @@
           }
         }
       ],
-      "word_count_he": 27,
+      "word_count_he": 18,
       "production_layout": "intimate"
     },
     {
@@ -332,8 +332,8 @@
           "action": "יצחק ילד קטן ביונדזיוב; גיל הדמות שונה מן הנער שיופיע בהמשך.",
           "texts": [
             {
-              "he": "נולדתי בשנת 1900, ביונדזיוב שבפולין, באירופה. שמי יצחק מאיר לונדנר.",
-              "en": "I was born in 1900 in Jędrzejów, Poland, in Europe. My name is Yitzhak Meir Londner.",
+              "he": "נולדתי בט״ו בשבט 1900, בעיר יונדזיוב ליד קיעלץ, בפולין. המיילדת לא חזרה לברית של השכנים, עד שיצאתי במזל לעולם.",
+              "en": "I was born on Tu BiShvat, 1900, in Jędrzejów near Kielce, Poland. The midwife did not go back to the neighbours’ circumcision party until I had luckily come into the world.",
               "source": "S08-memoir-1",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -408,8 +408,8 @@
           "action": "פתח החנות המשפחתית, ללא אתר מזוהה שהומצא.",
           "texts": [
             {
-              "he": "בבית קראו לי איטשע.",
-              "en": "At home, they called me Itshe.",
+              "he": "שמי יצחק מאיר לונדנר. בבית קראו לי איטשע.",
+              "en": "My name is Yitzhak Meir Londner. At home, they called me Itshe.",
               "source": "S08-memoir-1",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -479,7 +479,7 @@
           }
         }
       ],
-      "word_count_he": 18,
+      "word_count_he": 31,
       "production_layout": "panorama-detail"
     },
     {
@@ -735,8 +735,8 @@
           "action": "יד האם מסדרת מקום בחדר ובגד לילד, כהמחשה לטיפול המתמשך. ללא מחווה נטענת כרגע מתועד.",
           "texts": [
             {
-              "he": "כשנזכרתי בבית, זכרתי כמה אמא דאגה לנו.",
-              "en": "When I remembered home, I remembered how Mother cared for us.",
+              "he": "אני זוכר כמו היום, ומעריך את העבודה של אמא: לבשל, לרחוץ את הרצפה, לכבס.",
+              "en": "I remember it like today, and I value Mother’s work: cooking, washing the floor, doing the laundry.",
               "source": "S08-memoir-7",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -803,7 +803,7 @@
           }
         }
       ],
-      "word_count_he": 38,
+      "word_count_he": 45,
       "production_layout": "cinematic-bands"
     },
     {
@@ -837,8 +837,8 @@
           "action": "לילה: אותה נקודת מבט כמו חנות היום, הדלת החיצונית סגורה. הסחורה מסודרת על המדפים ומפנים מקום למצעים. רק חיים, חוה האחות ואיטשע אם נראים ילדים; רייזל טרם נולדה.",
           "texts": [
             {
-              "he": "בלילה סגרו את החנות ופינו בה מקום למיטות שלנו.",
-              "en": "At night, the shop closed and room was made inside for our beds.",
+              "he": "כל ערב סידרו מקום בחנות, ליד התנור. שם ישנו הילדים.",
+              "en": "Every evening, a place was made in the shop, by the stove. That is where the children slept.",
               "source": "S08-memoir-4",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -907,11 +907,11 @@
         {
           "id": "B01V07-P04-02",
           "reading_order": 2,
-          "action": "חיים, חוה האחות ואיטשע ישנים בתוך החנות בין המדפים; בדיוק שני בנים ובת, רק חלק מן האחים. אין כובעים בשינה. תנור ופתח החדר נשארים באותו מקום כמו ביום.",
+          "action": "כמה מהילדים, ביניהם איטשע, ישנים בחנות ליד התנור; ילדים לא מזוהים, רק חלק מן האחים. אין רייזל. אין כובעים בשינה. תנור ופתח החדר נשארים באותו מקום כמו ביום.",
           "texts": [
             {
-              "he": "אותם מדפים, אותו חדר. עכשיו היה כאן מקום לישון.",
-              "en": "The same shelves, the same room. Now there was room to sleep.",
+              "he": "ארון הבגדים שלנו עמד בחנות.",
+              "en": "Our clothes cupboard stood in the shop.",
               "source": "S08-memoir-4",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -1041,11 +1041,11 @@
         {
           "id": "B01V07-P04-04",
           "reading_order": 4,
-          "action": "מעבר ליממה אחרת: ארוחת שבת. כולם מחכים לישיבת האם; מסגור חלקי, ללא ספירת משפחה מלאה.",
+          "action": "מעבר לערב אחר: ארוחת הערב המשפחתית, בין חמש לשש בערב. כולם מחכים שהאם תשב; מסגור חלקי, ללא ספירת משפחה מלאה.",
           "texts": [
             {
-              "he": "ובשבת, עד שאמא ישבה לאכול, גם אנחנו חיכינו.",
-              "en": "And on Shabbat, we waited until Mother sat down to eat.",
+              "he": "עד שאמא לא ישבה ליד השולחן, אף אחד לא קיבל צלחת.",
+              "en": "Until Mother sat down at the table, nobody was given a plate.",
               "source": "S08-memoir-4",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -1726,8 +1726,8 @@
           "action": "אם ובנה בשיחה רגועה, בלי המחשת בתים עניים מומצאים.",
           "texts": [
             {
-              "he": "הכסף היה צדקה לילדים ממשפחות שאין להן הרבה.",
-              "en": "The money was charity for children whose families had little.",
+              "he": "הם מבתים עניים. הם מקבלים ממנו גרוש כל יום. אתה לא צריך ממנו.",
+              "en": "They come from poor homes. They get a coin from him every day. You do not need his.",
               "source": "S08-memoir-9",
               "kind": "adapted_speech",
               "speaker": "אמא",
@@ -1861,23 +1861,8 @@
         {
           "id": "B01V07-P07-03",
           "reading_order": 3,
-          "action": "איטשע בחדר אחרי שהבין; אין מסירת מטבע מצדו שלא תועדה.",
-          "texts": [
-            {
-              "he": "לא כל מה שנראה כמו פרס, היה באמת פרס.",
-              "en": "Not everything that looked like a prize really was one.",
-              "source": "S08-memoir-9",
-              "kind": "adapted",
-              "speaker": "יצחק המבוגר",
-              "basis": "editorial_interpretation_of_documented_exchange",
-              "presentation": "caption",
-              "id": "B01V07-P07-03-T1",
-              "sources": [
-                "S08-memoir-9"
-              ],
-              "review_required": true
-            }
-          ],
+          "action": "החדר. בלי לקבוע מה הילד הרגיש או הבין.",
+          "texts": [],
           "kind": "scene",
           "visual_status": "storyboard directions, not generated art",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
@@ -1901,7 +1886,7 @@
               66,
               25
             ],
-            "type": "caption",
+            "type": "none",
             "tail_toward": [
               72,
               48
@@ -1911,7 +1896,7 @@
           }
         }
       ],
-      "word_count_he": 26,
+      "word_count_he": 22,
       "production_layout": "intimate"
     },
     {
@@ -1935,8 +1920,8 @@
           "action": "בשלב מאוחר יותר בילדות: חוזר מהחדר ברגל נפוחה; הגיל המדויק פתוח.",
           "texts": [
             {
-              "he": "כשהייתי גדול יותר, חזרתי פעם מהחדר עם רגל נפוחה.",
-              "en": "When I was older, I once came home from the cheder with a swollen foot.",
+              "he": "אני זוכר, פעם באתי מהחדר עם רגל נפוחה.",
+              "en": "I remember once coming home from the cheder with a swollen foot.",
               "source": "S08-memoir-10",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -2226,7 +2211,7 @@
           }
         }
       ],
-      "word_count_he": 36,
+      "word_count_he": 35,
       "production_layout": "quiet-flow"
     },
     {
@@ -2763,8 +2748,8 @@
           "action": "הילד קורא בעיתון, כתב יתווסף בשכבה חיה.",
           "texts": [
             {
-              "he": "קראתי בהם על מקומות רחוקים, ועל דברים שעוד לא הבנתי.",
-              "en": "I read about faraway places and things I did not yet understand.",
+              "he": "קראתי. כל פעם התחלתי להבין יותר ויותר.",
+              "en": "I read. Each time, I began to understand more and more.",
               "source": "S08-memoir-10",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -2829,7 +2814,7 @@
           }
         }
       ],
-      "word_count_he": 22,
+      "word_count_he": 19,
       "production_layout": "cinematic-bands"
     },
     {
@@ -3259,11 +3244,11 @@
         {
           "id": "B01V07-P12-03",
           "reading_order": 3,
-          "action": "מעבר מסומן: הדירה המרווחת שאליה עברו באותן שנות ילדות, בלי יום קבוע.",
+          "action": "הקיר שהופל והדירה שהורחבה, בלי יום קבוע.",
           "texts": [
             {
-              "he": "באותן שנות ילדות עברנו לדירה גדולה יותר. נולדה גם אחותי הקטנה רייזל.",
-              "en": "In those childhood years, we moved to a bigger home. My youngest sister, Raisel, was born too.",
+              "he": "לבסוף קיבלנו עוד דירה. הרסנו קיר, ונהייתה לנו דירה מרווחת. נולדה לנו אחות, רייזל.",
+              "en": "In the end, we got another flat. We knocked down a wall, and our home became roomy. A sister was born to us, Raisel.",
               "source": "S08-memoir-11",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -3332,7 +3317,7 @@
         {
           "id": "B01V07-P12-04",
           "reading_order": 4,
-          "action": "תמונת משפחה מבוימת בחלל החדש: בדיוק חמישה בנים ושלוש בנות, כולל רייזל התינוקת; הורים נוספים עליהם.",
+          "action": "המשפחה בבית המורחב, כהמחשה ולא כצילום של רגע אחד: בדיוק חמישה בנים ושלוש בנות, כולל רייזל התינוקת; הורים נוספים עליהם.",
           "texts": [
             {
               "he": "הבית גדל, אבל הרגל שלי עדיין הייתה חולה.",
@@ -3403,7 +3388,7 @@
           }
         }
       ],
-      "word_count_he": 32,
+      "word_count_he": 34,
       "production_layout": "family-reveal"
     },
     {
@@ -3550,8 +3535,8 @@
           "action": "רופא בודק את שתי הרגליים.",
           "texts": [
             {
-              "he": "שם החליטו שצריך לנתח את שתי הרגליים.",
-              "en": "There, they decided that both feet needed surgery.",
+              "he": "הרופא החליט לנתח את רגל ימין. אבא הראה לו גם את רגל שמאל, והוא הציע לנתח גם אותה.",
+              "en": "The doctor decided to operate on my right foot. Father showed him my left foot too, and he suggested operating on it as well.",
               "source": "S08-memoir-18",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -3683,7 +3668,7 @@
           }
         }
       ],
-      "word_count_he": 27,
+      "word_count_he": 38,
       "production_layout": "quiet-flow"
     },
     {
@@ -4125,8 +4110,8 @@
           "action": "ארוחה וטיפול טוב, בין ילדים לא מוכרים.",
           "texts": [
             {
-              "he": "טיפלו בי היטב. אבל הייתי בין ילדים שלא הכרתי.",
-              "en": "I was well cared for. But I was among children I did not know.",
+              "he": "אוכל טוב, שירות טוב. אבל הייתי לבד בין זרים, והיו שם ילדים שובבים.",
+              "en": "Good food, good care. But I was alone among strangers, and there were naughty children there.",
               "source": "S08-memoir-19",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -4258,7 +4243,7 @@
           }
         }
       ],
-      "word_count_he": 29,
+      "word_count_he": 33,
       "production_layout": "quiet-flow"
     },
     {
@@ -4420,8 +4405,8 @@
           "action": "מבט רחב המראה את הגובה ואת הילד, בלי ניסיון טיפוס.",
           "texts": [
             {
-              "he": "לא יכולתי להגיע אליו.",
-              "en": "I could not reach it.",
+              "he": "התנור היה גבוה, כמעט שלושה מטרים.",
+              "en": "The stove was tall, almost three metres.",
               "source": "S08-memoir-19",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -4489,8 +4474,8 @@
           "action": "הילד ליד מיטתו; ניתוק מהתפילה המוכרת.",
           "texts": [
             {
-              "he": "גם להתפלל כמו שהכרתי, כבר לא יכולתי.",
-              "en": "Now I could not even pray in the way I knew.",
+              "he": "לא יכולתי להתפלל.",
+              "en": "I could not pray.",
               "source": "S08-memoir-19",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -4553,7 +4538,7 @@
           }
         }
       ],
-      "word_count_he": 23,
+      "word_count_he": 21,
       "production_layout": "quiet-flow"
     },
     {
@@ -4574,7 +4559,7 @@
         {
           "id": "B01V07-P17-01",
           "reading_order": 1,
-          "action": "אישה יהודייה מן השוהים בבית החולים לצד הילד.",
+          "action": "אישה יהודייה בבית החולים לצד הילד, בלי סימני תפקיד.",
           "texts": [
             {
               "he": "בבית החולים הייתה גם אישה יהודייה.",
@@ -5300,8 +5285,8 @@
           "action": "הילד בבית המוכר, חזרה לזווית מהדירה הגדולה.",
           "texts": [
             {
-              "he": "אחרי הרופאים והחדרים הזרים, הייתי שוב בבית.",
-              "en": "After the doctors and unfamiliar rooms, I was home again.",
+              "he": "באנו הביתה, והייתי בריא. עד היום, ברוך השם.",
+              "en": "We came home, and I was healthy. To this day, thank God.",
               "source": "S08-memoir-19",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -5368,7 +5353,7 @@
         {
           "id": "B01V07-P19-04",
           "reading_order": 4,
-          "action": "חפץ מן הבית ויד הילד; תמונת סיום לפרק, לא סיום הספר.",
+          "action": "האב והבן בבית המוכר; בלי חפץ שאינו מוזכר ביומן. תמונת סיום לפרק, לא סיום הספר.",
           "texts": [],
           "kind": "scene",
           "visual_status": "storyboard directions, not generated art",
@@ -5421,7 +5406,7 @@
           }
         }
       ],
-      "word_count_he": 13,
+      "word_count_he": 14,
       "production_layout": "quiet-flow"
     },
     {
@@ -5454,8 +5439,8 @@
           "action": "תקופת ילדות מאוחרת: חוה האחות מבשלת, יצחק שוטף כלים בנפרד לבשר ולחלב.",
           "texts": [
             {
-              "he": "בבית הייתה עבודה לכולם. אחותי חוה בישלה, ואני רחצתי כלים.",
-              "en": "There was work for everyone at home. My sister Chava cooked, and I washed dishes.",
+              "he": "אחותי חוה בישלה. התפקיד שלי היה לרחוץ את הכלים, בשר לחוד וחלב לחוד.",
+              "en": "My sister Chava cooked. My job was washing the dishes, meat separately and dairy separately.",
               "source": "S08-memoir-20",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -5707,7 +5692,7 @@
           }
         }
       ],
-      "word_count_he": 27,
+      "word_count_he": 30,
       "production_layout": "cinematic-bands"
     },
     {
@@ -5858,8 +5843,8 @@
           "action": "כותב לספק.",
           "texts": [
             {
-              "he": "הוא כתב לספק. הספק היה בטוח שארז בדיוק את מה שהזמנו.",
-              "en": "He wrote to the supplier. The supplier was certain he had packed exactly what we ordered.",
+              "he": "אבא כתב לספק: חסרים חצי תריסר עליונות. הספק ענה שהוא בעצמו ארז את הסחורה, ולא ייתכן שחסר.",
+              "en": "Father wrote to the supplier: half a dozen uppers are missing. The supplier answered that he had packed the goods himself, and nothing could be missing.",
               "source": "S08-memoir-22",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -5929,8 +5914,8 @@
           "action": "מגיע מכתב תשובה; תוכנו מדווח בכיתוב, בלי זעם או ריב מומצאים.",
           "texts": [
             {
-              "he": "המכתבים נמשכו. עד שאבא הסביר מה באמת קרה.",
-              "en": "The letters continued. Until Father explained what had really happened.",
+              "he": "אבא כתב עוד מכתב. הספק ענה שהוא מוכן להישבע בטלית ותפילין.",
+              "en": "Father wrote again. The supplier answered that he was ready to swear on his tallit and tefillin.",
               "source": "S08-memoir-22",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -5995,7 +5980,7 @@
           }
         }
       ],
-      "word_count_he": 29,
+      "word_count_he": 38,
       "production_layout": "tension-diagonal"
     },
     {
@@ -6020,8 +6005,8 @@
           "action": "חשיפה חזותית של עוד שש יחידות עליונות לנעליים, לא זוגות נעליים.",
           "texts": [
             {
-              "he": "בארגז היו שש יחידות יותר ממה ששילמנו עליהן. אבא לא רצה לשמור אותן בסוד.",
-              "en": "The crate held six more pieces than we had paid for. Father did not want to keep them secret.",
+              "he": "כשאבא שמע שהספק מוכן להישבע, הוא כתב לו: היו חצי תריסר יותר.",
+              "en": "When Father heard the supplier was ready to swear, he wrote to him: there were half a dozen more.",
               "source": "S08-memoir-22",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -6217,8 +6202,8 @@
           "action": "איטשע ממשיך לעבוד לצד האב.",
           "texts": [
             {
-              "he": "את היושר של אבא זכרתי עוד שנים רבות.",
-              "en": "I remembered Father’s honesty for many years.",
+              "he": "אבא היה סוחר נאמן. זה נכנס לנו לראש ונשאר איתנו.",
+              "en": "Father was an honest merchant. That went into our heads and stayed with us.",
               "source": "S08-memoir-22",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -6525,11 +6510,11 @@
         {
           "id": "B01V07-P23-04",
           "reading_order": 4,
-          "action": "תכנון הדאגה לילדים: חיים המבוגר לצד סחורת החנות, והדודים מסייעים בסידורים. זהו שחזור אחריות מן המקור ולא כינוס מסוים שנמצא בצילום.",
+          "action": "מאיר גיטלר רושם רשימה של הסחורה בחנות; חיים לצד הסחורה. שחזור מן המקור, לא כינוס מסוים שנמצא בצילום.",
           "texts": [
             {
-              "he": "חיים, אחי הבכור, והדודים עזרו לדאוג לנו ולמצוא לנו מקום לגור.",
-              "en": "My eldest brother Chaim and our relatives helped care for us and find places for us to live.",
+              "he": "הדוד שמעון לא רצה שיישארו חובות. חיים אחי לקח עליו את החובות ובא לגור ביונדזיוב. ואנחנו, הילדים, החלטנו איפה כל אחד יגור.",
+              "en": "Uncle Shimon did not want debts left behind. My brother Chaim took on the debts and came to live in Jędrzejów. And we children decided where each of us would live.",
               "source": "S08-memoir-20",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -6596,7 +6581,7 @@
           }
         }
       ],
-      "word_count_he": 36,
+      "word_count_he": 47,
       "production_layout": "quiet-flow"
     },
     {
@@ -7221,8 +7206,8 @@
           "action": "דוד מאיר ודודה נחלה מקבלים את יצחק; לא אירוע חגיגי שהומצא.",
           "texts": [
             {
-              "he": "סידרו לי עבודה במסחר בבדים. לא אותו המסחר שהכרתי בחנות של אבא.",
-              "en": "They arranged work for me in the fabric trade. It was different from the trade in Father’s shop.",
+              "he": "המקצוע שלי לא התאים למשפחה שלהם. סידרו לי עבודה במסחר בבדים.",
+              "en": "My trade did not suit their family. They arranged work for me in the fabric trade.",
               "source": "S08-memoir-29",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -7281,8 +7266,7 @@
               48
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
-            "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility.",
-            "placement_note": "Caption moved below the faces after reviewing the actual source composition."
+            "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
           },
           "art": {
             "src": "../../art/book1-v07/web/B01V07-P26-02.webp",
@@ -7424,7 +7408,7 @@
           }
         }
       ],
-      "word_count_he": 24,
+      "word_count_he": 23,
       "production_layout": "quiet-flow"
     },
     {
@@ -7667,8 +7651,8 @@
           "action": "מול מנהל מבוגר: הנער כבר יודע מה הוא מזמין.",
           "texts": [
             {
-              "he": "לא הייתי עוד רק הילד שעוזר בחנות. עכשיו סמכו גם על הבחירה שלי.",
-              "en": "I was no longer only the boy helping in the shop. Now they trusted my choices too.",
+              "he": "הייתי ילד פיקח. מנהל אחד אמר לי: אתה תהיה סוחר גדול.",
+              "en": "I was a clever boy. One manager told me: you will be a great merchant.",
               "source": "S08-memoir-29",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -7738,7 +7722,7 @@
           }
         }
       ],
-      "word_count_he": 31,
+      "word_count_he": 29,
       "production_layout": "quiet-flow"
     },
     {
@@ -7910,8 +7894,8 @@
           "action": "חבר ויצחק לומדים בבית הכנסת, ללא שיחה מומצאת.",
           "texts": [
             {
-              "he": "עם חברים המשכתי ללמוד. הצטרפנו גם לפעילות ציונית, למען ארץ ישראל.",
-              "en": "With friends, I kept learning. We also joined Zionist activities for the Land of Israel.",
+              "he": "הדוד מאיר נפטר. חבר אמר לי: אין מי שילמד אותך, בוא נלך ללמוד בבית הכנסת.",
+              "en": "Uncle Meir passed away. A friend told me: there is no one to teach you, let us go and learn at the synagogue.",
               "source": "S08-memoir-30",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -7983,8 +7967,8 @@
           "action": "פעילות ציונית ואיסוף כספים למען ארץ ישראל.",
           "texts": [
             {
-              "he": "אספנו כסף וקיבלנו משימות.",
-              "en": "We collected money and were given tasks.",
+              "he": "הצטרפנו גם להנהלה הציונית בלודז׳. אספנו כסף וקיבלנו משימות.",
+              "en": "We also joined the Zionist leadership in Łódź. We collected money and were given tasks.",
               "source": "S08-memoir-30",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -8051,7 +8035,7 @@
           }
         }
       ],
-      "word_count_he": 29,
+      "word_count_he": 38,
       "production_layout": "cinematic-bands"
     },
     {
@@ -8223,8 +8207,8 @@
           "action": "הוא ממשיך במשימות בזמן שהיציאה טרם התאפשרה.",
           "texts": [
             {
-              "he": "בינתיים החיים בלודז׳ נעשו קשים יותר.",
-              "en": "Meanwhile, life in Łódź grew harder.",
+              "he": "הדודה אמרה: הפרנסה מתמעטת, ואין מי שישגיח עליך. קיבלתי את זה ללב.",
+              "en": "My aunt said: income is shrinking, and there is no one to look after you. I took it to heart.",
               "source": "S08-memoir-31",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -8364,7 +8348,7 @@
           }
         }
       ],
-      "word_count_he": 34,
+      "word_count_he": 40,
       "production_layout": "cinematic-bands"
     },
     {
@@ -8948,8 +8932,8 @@
           "action": "מתרגם בין המהנדס האוסטרי לחקלאי פולני, לא נאום שהומצא.",
           "texts": [
             {
-              "he": "תרגמתי בין המהנדס לבין החקלאים. מה שידעתי נעשה שימושי מאוד.",
-              "en": "I translated between the engineer and the farmers. What I knew became very useful.",
+              "he": "תרגמתי בין החקלאים לבין המהנדס, על האדמה שקלקלו להם. העבודה הייתה קלה, וכסף לא היה חסר.",
+              "en": "I translated between the farmers and the engineer about the land that had been ruined for them. The work was easy, and there was no shortage of money.",
               "source": "S08-memoir-34",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -9012,7 +8996,7 @@
           }
         }
       ],
-      "word_count_he": 23,
+      "word_count_he": 29,
       "production_layout": "cinematic-bands"
     },
     {
@@ -9535,22 +9519,7 @@
           "id": "B01V07-P33-04",
           "reading_order": 4,
           "action": "הוא מתעניין בדרך לנסיעה; מבט במסמכים בלי פקיד מסרב שהומצא.",
-          "texts": [
-            {
-              "he": "אבל האם זה מספיק כדי לנסוע?",
-              "en": "But was that enough to travel?",
-              "source": "S08-memoir-35",
-              "kind": "adapted",
-              "speaker": "יצחק המבוגר",
-              "basis": "editorial_reader_question",
-              "presentation": "caption",
-              "id": "B01V07-P33-04-T1",
-              "sources": [
-                "S08-memoir-35"
-              ],
-              "review_required": true
-            }
-          ],
+          "texts": [],
           "kind": "scene",
           "visual_status": "storyboard directions, not generated art",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
@@ -9591,7 +9560,7 @@
               66,
               25
             ],
-            "type": "caption",
+            "type": "none",
             "tail_toward": [
               72,
               48
@@ -9601,7 +9570,7 @@
           }
         }
       ],
-      "word_count_he": 27,
+      "word_count_he": 21,
       "production_layout": "tension-diagonal"
     },
     {
@@ -9700,8 +9669,8 @@
           "action": "מסמך חסר מסומן כרכיב גרפי: דרכון, לא דף מזויף מן המקור.",
           "texts": [
             {
-              "he": "המלצה לא פתחה את הגבול. בינתיים נשארתי בפולין.",
-              "en": "A recommendation did not open the border. For now, I remained in Poland.",
+              "he": "בלי פספורט פחדתי לנסוע. פחדתי שיתפסו אותי בגבול.",
+              "en": "Without a passport, I was afraid to travel. I was afraid they would catch me at the border.",
               "source": "S08-memoir-35",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -9770,11 +9739,11 @@
         {
           "id": "B01V07-P34-03",
           "reading_order": 3,
-          "action": "מעבר זמן מפורש 1918: סיום מלחמת העולם הראשונה ועצמאות פולין.",
+          "action": "מעבר זמן: סיום מלחמת העולם הראשונה ועצמאות פולין.",
           "texts": [
             {
-              "he": "ב־1918 הסתיימה המלחמה. פולין נעשתה שוב עצמאית.",
-              "en": "In 1918, the war ended. Poland became independent again.",
+              "he": "בגמר המלחמה, פולין נעשתה שוב עצמאית.",
+              "en": "When the war ended, Poland became independent again.",
               "source": "S08-memoir-35",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -9846,8 +9815,8 @@
           "action": "הנער נעשה צעיר; מסגרת מעבר לקראת שירות בצבא הפולני.",
           "texts": [
             {
-              "he": "אבל השקט לא נמשך. פרצה מלחמה בין פולין לבולשביקים, השלטון החדש ברוסיה.",
-              "en": "But peace did not last. Poland went to war against the Bolsheviks, Russia’s new rulers.",
+              "he": "אחר כך פרצה המלחמה בין פולין לבולשביקים. את ראובן אחי לקחו לצבא.",
+              "en": "Then war broke out between Poland and the Bolsheviks. My brother Reuven was taken into the army.",
               "source": "S08-memoir-35",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -9914,7 +9883,7 @@
           }
         }
       ],
-      "word_count_he": 37,
+      "word_count_he": 36,
       "production_layout": "quiet-flow"
     },
     {
@@ -9940,8 +9909,8 @@
           "action": "יצחק מבוגר יותר במדי הצבא הפולני, לא הדמות בת הארבע.",
           "texts": [
             {
-              "he": "גייסו אותי לצבא הפולני. במקום לצאת לארץ, נעשיתי חייל.",
-              "en": "I was drafted into the Polish army. Instead of leaving for the Land of Israel, I became a soldier.",
+              "he": "לקחתי את תעודת הלידה של לייבל אחי. כשלקחו את ילידי 1902 לצבא, הלכתי לצבא.",
+              "en": "I took my brother Leibl’s birth certificate. When those born in 1902 were called up, I went into the army.",
               "source": "S08-memoir-37",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -10013,8 +9982,8 @@
           "action": "יחידה במחנה, ללא ענישה גרפית.",
           "texts": [
             {
-              "he": "היו אימונים ושמירות. היינו רחוקים מהבית.",
-              "en": "There were drills and guard duties. We were far from home.",
+              "he": "שלחו אותנו לברסט ליטובסק. היו אימונים, ושמרנו על מחסנים וגשרים.",
+              "en": "They sent us to Brest-Litovsk. There were drills, and we guarded storehouses and bridges.",
               "source": "S08-memoir-37",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -10227,7 +10196,7 @@
           }
         }
       ],
-      "word_count_he": 35,
+      "word_count_he": 44,
       "production_layout": "tension-diagonal"
     },
     {
@@ -10881,8 +10850,8 @@
           "action": "מגיע מכתב ממשפחת הניך בדומברובה.",
           "texts": [
             {
-              "he": "קיבלתי הזמנה לבקר משפחה בדומברובה. חשבו שאולי אתאים לאחת הבנות.",
-              "en": "I was invited to visit relatives in Dąbrowa. They thought I might be a match for one daughter.",
+              "he": "קיבלתי מכתב מהניך, בן דוד שלנו. הוא כתב שיש לו בת, ושאבוא לדומברובה לראות אותה.",
+              "en": "I got a letter from Henech, our cousin. He wrote that he had a daughter, and that I should come to Dąbrowa to see her.",
               "source": "S08-memoir-49",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -11010,16 +10979,16 @@
         {
           "id": "B01V07-P38-03",
           "reading_order": 3,
-          "action": "ארבע בנות המשפחה נכנסות בזו אחר זו. יצחק הצעיר נוכח מימין ומביט בהן, כדי שהמחשבה תהיה מחוברת לדמות חושבת. בדיוק ארבע בנות ועוד יצחק; אין גילאים מדויקים או סדר גיל מוסק. מקום שקט לבועה למעלה משמאל, הפנים מתחת ומימין.",
+          "action": "אחרי כניסת ארבע הבנות: יצחק הצעיר מדבר עם הניך, פניו מימין ומקום לבועה למעלה משמאל. ברקע ארבע בנות בדיוק; אין גילאים מדויקים או סדר גיל מוסק.",
           "texts": [
             {
-              "he": "לאיזו מהבנות הוא מתכוון?",
-              "en": "Which daughter does he mean?",
+              "he": "ראיתי ארבע בנות. אני לא יודע לאיזו בת אתה מתכוון.",
+              "en": "I saw four daughters. I do not know which daughter you mean.",
               "source": "S08-memoir-52",
-              "kind": "adapted_thought",
+              "kind": "adapted_speech",
               "speaker": "יצחק",
-              "basis": "documented_uncertainty_as_interior_voice",
-              "presentation": "thought",
+              "basis": "documented_reported_exchange",
+              "presentation": "speech",
               "id": "B01V07-P38-03-T1",
               "sources": [
                 "S08-memoir-49",
@@ -11073,7 +11042,7 @@
               66,
               25
             ],
-            "type": "thought",
+            "type": "speech",
             "tail_toward": [
               72,
               48
@@ -11158,7 +11127,7 @@
           }
         }
       ],
-      "word_count_he": 26,
+      "word_count_he": 37,
       "production_layout": "quiet-flow"
     },
     {
@@ -11190,8 +11159,8 @@
           "action": "1922, נישואי יצחק וחוה, בלי המון קרובים שספירתם מומצאת.",
           "texts": [
             {
-              "he": "בשנת 1922 התחתנו. פתחנו פרק חדש יחד.",
-              "en": "In 1922, we married. We began a new chapter together.",
+              "he": "בשנת 1922 התחתנו. גרנו כמו שסיכמנו לפני החתונה.",
+              "en": "In 1922 we married. We lived as we had agreed before the wedding.",
               "source": "S08-memoir-53",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -11477,7 +11446,7 @@
           }
         }
       ],
-      "word_count_he": 29,
+      "word_count_he": 30,
       "production_layout": "cinematic-bands"
     },
     {
@@ -11656,13 +11625,13 @@
           "action": "יצחק במדי צבא מתגעגע לפי היומן; אין בועת מחשבה מומצאת.",
           "texts": [
             {
-              "he": "אני רוצה לחזור לחוה ולילדה.",
-              "en": "I want to go home to Chava and our daughter.",
+              "he": "מאוד התגעגעתי הביתה. דאגתי איך לצאת מהצבא.",
+              "en": "I missed home very much. I worried about how to get out of the army.",
               "source": "S08-memoir-56",
-              "kind": "adapted_thought",
-              "speaker": "יצחק",
-              "basis": "documented_longing_as_interior_voice",
-              "presentation": "thought",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "presentation": "caption",
               "id": "B01V07-P40-03-T1",
               "sources": [
                 "S08-memoir-55",
@@ -11714,7 +11683,7 @@
               66,
               25
             ],
-            "type": "thought",
+            "type": "caption",
             "tail_toward": [
               72,
               48
@@ -11797,7 +11766,7 @@
           }
         }
       ],
-      "word_count_he": 27,
+      "word_count_he": 29,
       "production_layout": "tension-diagonal"
     },
     {
@@ -11890,11 +11859,11 @@
         {
           "id": "B01V07-P41-02",
           "reading_order": 2,
-          "action": "המשפחה שוב באותו חדר, חוה והילדה בגיל מתאים.",
+          "action": "המשפחה בחדר; הילדה חולה ושוכבת, בלי דרמה. חוה והילדה בגיל מתאים.",
           "texts": [
             {
-              "he": "עכשיו כבר היינו משפחה. רציתי לבנות את העתיד שלנו בארץ ישראל.",
-              "en": "Now we were a family. I wanted to build our future in the Land of Israel.",
+              "he": "חזרתי הביתה בלי סחורה, בלי כסף, והילדה חולה. אבל רעיון ארץ ישראל נשאר אצלי.",
+              "en": "I came home with no goods, no money, and our little girl was ill. But the idea of the Land of Israel stayed with me.",
               "source": "S08-memoir-57",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -12101,7 +12070,7 @@
           }
         }
       ],
-      "word_count_he": 31,
+      "word_count_he": 34,
       "production_layout": "quiet-flow"
     },
     {
@@ -12794,8 +12763,8 @@
           "action": "סל גדול, שמיכות וכרים.",
           "texts": [
             {
-              "he": "שמיכות וכרים, פרימוס לבישול, וגם אוכל שלא יתקלקל בדרך.",
-              "en": "Blankets and pillows, a primus stove for cooking, and food that would keep during the journey.",
+              "he": "שמיכות וכרים, פרימוס, וקצת אוכל יבש שיהיה לנו כשנגיע: שומן, גריסים ואטריות.",
+              "en": "Blankets and pillows, a primus stove, and a little dry food for when we arrived: fat, groats and noodles.",
               "source": "S08-memoir-58",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -12920,8 +12889,8 @@
           "action": "חוה, יצחק ובתם מוכנים לצאת, לא תאומות או ילדים שטרם נולדו.",
           "texts": [
             {
-              "he": "לא חיכיתי שהכול יהיה קל. הגיע הזמן לצאת.",
-              "en": "I did not wait for everything to become easy. It was time to leave.",
+              "he": "חשבתי לנסוע יחד עם קרובים שלנו. אבל פחדתי לחכות.",
+              "en": "I thought of travelling together with relatives of ours. But I was afraid to wait.",
               "source": "S08-memoir-58",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -12986,7 +12955,7 @@
           }
         }
       ],
-      "word_count_he": 25,
+      "word_count_he": 29,
       "production_layout": "cinematic-bands"
     },
     {
@@ -13597,9 +13566,9 @@
           "action": "חזרה ליצחק המבוגר כותב; אותו אדם שאיתו פתחנו.",
           "texts": [
             {
-              "he": "כשהייתי ילד, היו מי שעזרו לי. כשגדלתי, למדתי לקחת אחריות בעצמי.",
-              "en": "When I was a boy, people helped me. As I grew, I learned to take responsibility myself.",
-              "source": "S08-memoir-1",
+              "he": "תמיד הייתי עסוק בעבודה. לא יכולתי להתעסק הרבה עם הנכדים.",
+              "en": "I was always busy with work. I could not spend much time with my grandchildren.",
+              "source": "S08-memoir-139",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
               "basis": "editorial_synthesis_of_documented_events",
@@ -13680,12 +13649,12 @@
           "action": "מחברת ולצדה דימויים מן הסיפור: עיפרון, חשבון חנות, סל דרך. לא שרידים שהוכח ששמר.",
           "texts": [
             {
-              "he": "היו גם ימים קשים. ולצדם אנשים טובים, סקרנות, וחלומות שלא עזבתי.",
-              "en": "There were hard days too. Alongside them were good people, curiosity and dreams I held on to.",
-              "source": "S08-memoir-1",
-              "kind": "adapted",
+              "he": "אבל בלב אהבתי את כולם.",
+              "en": "But in my heart, I loved them all.",
+              "source": "S08-memoir-139",
+              "kind": "quote",
               "speaker": "יצחק המבוגר",
-              "basis": "editorial_synthesis_of_documented_events",
+              "basis": "documented_event",
               "presentation": "caption",
               "id": "B01V07-P47-02-T1",
               "sources": [
@@ -13698,7 +13667,7 @@
                 "S08-memoir-61",
                 "S08-memoir-139"
               ],
-              "review_required": true
+              "review_required": false
             }
           ],
           "kind": "scene",
@@ -13763,8 +13732,8 @@
           "action": "פנים חמות של המספר, ללא שורת הסבר נוספת על כל מסר.",
           "texts": [
             {
-              "he": "את הסיפור הזה אני משאיר לכם באהבה.",
-              "en": "I leave this story to you with love.",
+              "he": "את הזיכרונות האלה כתבתי לזיכרון הבנים והבת והנכדים.",
+              "en": "I wrote these memories in memory, for my sons, my daughter and my grandchildren.",
               "source": "S08-memoir-1",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
@@ -13824,7 +13793,7 @@
           }
         }
       ],
-      "word_count_he": 29,
+      "word_count_he": 23,
       "reader_takeaways": [
         {
           "he": "לשאול, ללמוד ולנסות.",
@@ -13982,9 +13951,9 @@
           "action": "הסל והכרים ליד המשפחה. אין בית מוכן בדימוי קדימה.",
           "texts": [
             {
-              "he": "בארץ עוד לא היה לנו בית משלנו, ולא עבודה קבועה.",
-              "en": "We still had no home of our own there, and no steady work.",
-              "source": "S08-memoir-60",
+              "he": "אמרו לנו שקשה להשיג דירה בארץ.",
+              "en": "We were told it was hard to find a home in the Land.",
+              "source": "S08-memoir-61",
               "kind": "adapted",
               "speaker": "יצחק המבוגר",
               "basis": "documented_event",
@@ -14053,19 +14022,19 @@
           "action": "ים פתוח ממלא את רוב המשבצת האחרונה; השלושה נשארים יחד בפריים.",
           "texts": [
             {
-              "he": "איך מתחילים מחדש כשעוד לא יודעים איפה נגור?",
-              "en": "How do you begin again when you do not yet know where you will live?",
-              "source": "S08-memoir-60",
-              "kind": "editorial",
-              "speaker": "לקורא",
-              "basis": "unresolved_volume_boundary",
+              "he": "לא פחדתי משום איומים.",
+              "en": "I was not afraid of any threats.",
+              "source": "S08-memoir-61",
+              "kind": "quote",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
               "presentation": "caption",
               "id": "B01V07-P48-03-T1",
               "sources": [
                 "S08-memoir-60",
                 "S08-memoir-61"
               ],
-              "review_required": true
+              "review_required": false
             }
           ],
           "kind": "scene",
@@ -14119,7 +14088,7 @@
           }
         }
       ],
-      "word_count_he": 26,
+      "word_count_he": 18,
       "continued": {
         "he": "המשך יבוא.",
         "en": "To be continued.",
