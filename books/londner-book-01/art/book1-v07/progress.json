@@ -74,6 +74,54 @@
       "receipt": "art/book1-v07/receipts/B01V07-P03-01.json"
     },
     {
+      "id": "B01V07-P03-02",
+      "file": "art/book1-v07/B01V07-P03-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P03-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "8190e40f9ddff1288e3ac8e551257f72f3e106577f7ff64ed06d169f582787d9",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-02.json"
+    },
+    {
+      "id": "B01V07-P03-03",
+      "file": "art/book1-v07/B01V07-P03-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P03-03.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "d020d1face43992a1387010774b3a6f68eb1a7a54dd63da5b754ae3d82f974ff",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-03.json"
+    },
+    {
+      "id": "B01V07-P03-04",
+      "file": "art/book1-v07/B01V07-P03-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P03-04.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "0661f1d50a197187f418e06e798ad2ad34520e47e7946c8249b6b1bfa541af26",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-04.json"
+    },
+    {
+      "id": "B01V07-P04-01",
+      "file": "art/book1-v07/B01V07-P04-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P04-01.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "300a22087c13c81b3f969f82f3951f4c9695244362fb162d216a4da9cf77e76d",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-01.json"
+    },
+    {
       "id": "B01V07-P04-02",
       "file": "art/book1-v07/B01V07-P04-02.png",
       "web_file": "art/book1-v07/web/B01V07-P04-02.webp",
@@ -84,6 +132,162 @@
       "sha256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
       "status": "generated-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P04-02.json"
+    },
+    {
+      "id": "B01V07-P04-03",
+      "file": "art/book1-v07/B01V07-P04-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P04-03.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-03.json"
+    },
+    {
+      "id": "B01V07-P04-04",
+      "file": "art/book1-v07/B01V07-P04-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P04-04.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "6e357e9601423563469c35bd89c5169076c1fc7665c54b5c6d34f3f4ee31424c",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-04.json"
+    },
+    {
+      "id": "B01V07-P05-01",
+      "file": "art/book1-v07/B01V07-P05-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P05-01.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-01.json"
+    },
+    {
+      "id": "B01V07-P05-02",
+      "file": "art/book1-v07/B01V07-P05-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P05-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-02.json"
+    },
+    {
+      "id": "B01V07-P05-03",
+      "file": "art/book1-v07/B01V07-P05-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P05-03.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "09d5101320da782ca5f1ccc1a1767c89a6151b17967addc13e235604d6b24a7c",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-03.json"
+    },
+    {
+      "id": "B01V07-P05-04",
+      "file": "art/book1-v07/B01V07-P05-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P05-04.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "d4a7b1c71912016935cf8e9af05186ebe94ce8477bb37514ae58866aeced9e25",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-04.json"
+    },
+    {
+      "id": "B01V07-P06-01",
+      "file": "art/book1-v07/B01V07-P06-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P06-01.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-01.json"
+    },
+    {
+      "id": "B01V07-P06-02",
+      "file": "art/book1-v07/B01V07-P06-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P06-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "512e8046d7edd1f649189162e90ddb354da7af1984a726f0702cdfdca079d5a0",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-02.json"
+    },
+    {
+      "id": "B01V07-P06-03",
+      "file": "art/book1-v07/B01V07-P06-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P06-03.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "b6814db692d4056d4baab0df84c3b0e8671762cea13b5aa6a9d870d9562b94f5",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-03.json"
+    },
+    {
+      "id": "B01V07-P06-04",
+      "file": "art/book1-v07/B01V07-P06-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P06-04.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-04.json"
+    },
+    {
+      "id": "B01V07-P07-01",
+      "file": "art/book1-v07/B01V07-P07-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P07-01.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "737e54f04bcee04d46a9e548f98c593af2af446ddb00b6090f6634c7a89a744f",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P07-01.json"
+    },
+    {
+      "id": "B01V07-P07-02",
+      "file": "art/book1-v07/B01V07-P07-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P07-02.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "c6147bb5894fbde98e7edd6f94c6d52c6442c07f772aca87c317f1e0920eb2e0",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P07-02.json"
+    },
+    {
+      "id": "B01V07-P07-03",
+      "file": "art/book1-v07/B01V07-P07-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P07-03.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "2a7f127ad1d21f337abf6a8b5c7152b155dc798209274e872a421e0779b9af32",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P07-03.json"
     },
     {
       "id": "B01V07-P08-01",
@@ -146,6 +350,18 @@
       "receipt": "art/book1-v07/receipts/B01V07-P08-04.json"
     },
     {
+      "id": "B01V07-P08-04",
+      "file": "art/book1-v07/B01V07-P08-04.v2.png",
+      "web_file": "art/book1-v07/web/B01V07-P08-04.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "f63037913b28a4b649bc88f9b4d4c59329fe542c15951e74d68d706905bf253f",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P08-04.v2.json"
+    },
+    {
       "id": "B01V07-P09-01",
       "file": "art/book1-v07/B01V07-P09-01.png",
       "web_file": "art/book1-v07/web/B01V07-P09-01.webp",
@@ -194,6 +410,18 @@
       "receipt": "art/book1-v07/receipts/B01V07-P09-04.json"
     },
     {
+      "id": "B01V07-P09-04",
+      "file": "art/book1-v07/B01V07-P09-04.v2.png",
+      "web_file": "art/book1-v07/web/B01V07-P09-04.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "06a62819f1fbbee70bc92a802716b6b2be9b6e6de578e525de19c5f764b5ae91",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P09-04.v2.json"
+    },
+    {
       "id": "B01V07-P10-01",
       "file": "art/book1-v07/B01V07-P10-01.png",
       "web_file": "art/book1-v07/web/B01V07-P10-01.webp",
@@ -216,6 +444,150 @@
       "sha256": "a4b3259d4b7679213762254dc0bed59219408221b9a9b90d80c39a61bad6f84b",
       "status": "generated-source-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P10-02.json"
+    },
+    {
+      "id": "B01V07-P10-03",
+      "file": "art/book1-v07/B01V07-P10-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P10-03.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "89e4ac43584591d98d1f220f8aec3ab6acb8b8d54dea1ed4c46d690fa48a222a",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P10-03.json"
+    },
+    {
+      "id": "B01V07-P10-04",
+      "file": "art/book1-v07/B01V07-P10-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P10-04.webp",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "bbc776b573f5332a5717faba268374f62f57f3a233dc50443102033307664ba6",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P10-04.json"
+    },
+    {
+      "id": "B01V07-P11-01",
+      "file": "art/book1-v07/B01V07-P11-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P11-01.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "2b67aaa92bcc7e89b1274cdf0fc97ddc510b109793b64cca1175b279f97ddb30",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P11-01.json"
+    },
+    {
+      "id": "B01V07-P11-03",
+      "file": "art/book1-v07/B01V07-P11-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P11-03.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "f148b0eeecb7bddaf8daa774b6b85b44fec4039991df1f4b5f22ab1751d1c40d",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P11-03.json"
+    },
+    {
+      "id": "B01V07-P11-04",
+      "file": "art/book1-v07/B01V07-P11-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P11-04.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P11-04.json"
+    },
+    {
+      "id": "B01V07-P12-01",
+      "file": "art/book1-v07/B01V07-P12-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P12-01.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-01.json"
+    },
+    {
+      "id": "B01V07-P12-02",
+      "file": "art/book1-v07/B01V07-P12-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P12-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "5092d2d630bb1e444a2559fc31e092c26af338c7a682a6dc2a254d502c50c00f",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-02.json"
+    },
+    {
+      "id": "B01V07-P12-03",
+      "file": "art/book1-v07/B01V07-P12-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P12-03.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "e74d97080e25eace53fde7331b4b15f24266cd2462aa580514e3ff1468b1acf1",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-03.json"
+    },
+    {
+      "id": "B01V07-P12-04",
+      "file": "art/book1-v07/B01V07-P12-04.png",
+      "web_file": "art/book1-v07/web/B01V07-P12-04.webp",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "ff1083e336bb1f907c4b97e115f05c91dfb4901b1c990b5574e072207aa109f7",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-04.json"
+    },
+    {
+      "id": "B01V07-P13-01",
+      "file": "art/book1-v07/B01V07-P13-01.png",
+      "web_file": "art/book1-v07/web/B01V07-P13-01.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "4bfcfaab0f6687e585f6eb1f235a702443d3d4bad7cd4749bb541526912253b7",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P13-01.json"
+    },
+    {
+      "id": "B01V07-P13-02",
+      "file": "art/book1-v07/B01V07-P13-02.png",
+      "web_file": "art/book1-v07/web/B01V07-P13-02.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "f6fd7b8ebc4e0dad8af92982789aef164f91aeab4b4e04c49b227b7a88760a1d",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P13-02.json"
+    },
+    {
+      "id": "B01V07-P13-03",
+      "file": "art/book1-v07/B01V07-P13-03.png",
+      "web_file": "art/book1-v07/web/B01V07-P13-03.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/B01V07-P13-03.json"
     },
     {
       "id": "B01V07-P17-01",
@@ -456,14 +828,38 @@
       "sha256": "3fd9265c66c900d47a66614842bb86f399fca3b1e3be2a89c6554c4e4d34a9a2",
       "status": "generated-source-reviewed",
       "receipt": "art/book1-v07/receipts/B01V07-P37-02.json"
+    },
+    {
+      "id": "NEW-P02-b",
+      "file": "art/book1-v07/NEW-P02-b.png",
+      "web_file": "art/book1-v07/web/NEW-P02-b.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "e9531385f3f52ee28434c2e62d162d2cdb494c4da79a2404a4a22f1eb2510b6e",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/NEW-P02-b.json"
+    },
+    {
+      "id": "NEW-P02-b",
+      "file": "art/book1-v07/NEW-P02-b.v2.png",
+      "web_file": "art/book1-v07/web/NEW-P02-b.webp",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "f753a5005d0f6463d65b674da037a6c657652f14b2f891594ac4032bd475e2c9",
+      "status": "generated-claude-awaiting-review",
+      "receipt": "art/book1-v07/receipts/NEW-P02-b.v2.json"
     }
   ],
-  "generated": 38,
+  "generated": 71,
   "planned": 187,
-  "remaining": 149,
+  "remaining": 116,
   "crop_adjustment_flags": [
     "B01V07-P08-01"
   ],
   "status": "Source images in production. Fit contain previews; final crop and bubble overlap review pending.",
-  "last_refreshed_utc": "2026-10-30T12:54:14.988880+00:00"
+  "last_refreshed_utc": "2026-10-30T17:56:53.259642+00:00"
 }

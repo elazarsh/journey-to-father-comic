@@ -606,7 +606,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-3",
@@ -654,6 +654,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P03-02.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -679,7 +684,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-3",
@@ -727,6 +732,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P03-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -752,7 +762,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-3",
@@ -800,6 +810,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P03-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -854,7 +869,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-4",
@@ -902,6 +917,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P04-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1005,7 +1025,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-4",
@@ -1036,6 +1056,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P04-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1061,7 +1086,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-4",
@@ -1109,6 +1134,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P04-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -1159,7 +1189,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-8",
@@ -1206,6 +1236,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P05-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1230,7 +1265,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-8",
@@ -1277,6 +1312,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P05-02.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1301,7 +1341,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-8",
@@ -1348,6 +1388,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P05-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1372,7 +1417,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-8",
@@ -1419,6 +1464,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P05-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -1461,7 +1511,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1507,6 +1557,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P06-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1515,7 +1570,7 @@
           "action": "מטבע עובר ליד ילד אחר.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1561,6 +1616,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P06-02.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1584,7 +1644,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1630,6 +1690,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P06-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1653,7 +1718,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1699,6 +1764,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P06-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -1741,7 +1811,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1787,6 +1857,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P07-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1810,7 +1885,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1856,6 +1931,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P07-02.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -1864,7 +1944,7 @@
           "action": "החדר. בלי לקבוע מה הילד הרגיש או הבין.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-9"
@@ -1893,6 +1973,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P07-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -2157,7 +2242,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "generated-source-reviewed",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10"
@@ -2207,7 +2292,7 @@
           "art": {
             "src": "../../art/book1-v07/web/B01V07-P08-04.webp",
             "fit": "contain",
-            "status": "generated-source-reviewed"
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -2479,7 +2564,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "generated-source-reviewed",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10"
@@ -2529,7 +2614,7 @@
           "art": {
             "src": "../../art/book1-v07/web/B01V07-P09-04.webp",
             "fit": "contain",
-            "status": "generated-source-reviewed"
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -2710,7 +2795,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10",
@@ -2740,6 +2825,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P10-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -2764,7 +2854,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-10",
@@ -2811,6 +2901,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P10-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -2853,7 +2948,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11"
@@ -2899,6 +2994,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P11-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -2961,7 +3061,7 @@
           "action": "דימוי קטן של מרפסת, מסומן כהמחשת משמעות מילה ולא חלום מתועד.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11"
@@ -3007,6 +3107,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P11-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -3030,7 +3135,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11"
@@ -3076,6 +3181,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P11-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -3135,7 +3245,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11",
@@ -3183,6 +3293,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P12-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -3208,7 +3323,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11",
@@ -3239,6 +3354,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P12-02.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -3264,7 +3384,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11",
@@ -3312,6 +3432,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P12-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -3337,7 +3462,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-11",
@@ -3385,6 +3510,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P12-04.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         }
       ],
@@ -3427,7 +3557,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-18"
@@ -3473,6 +3603,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P13-01.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -3481,7 +3616,7 @@
           "action": "אב ובנו יוצאים לוורשה בלי אמצעי נסיעה מזוהה.",
           "texts": [],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-18"
@@ -3527,6 +3662,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P13-02.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {
@@ -3550,7 +3690,7 @@
             }
           ],
           "kind": "scene",
-          "visual_status": "storyboard directions, not generated art",
+          "visual_status": "generated-claude-awaiting-review",
           "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
           "source_ids": [
             "S08-memoir-18"
@@ -3596,6 +3736,11 @@
             ],
             "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
             "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
+          },
+          "art": {
+            "src": "../../art/book1-v07/web/B01V07-P13-03.webp",
+            "fit": "contain",
+            "status": "generated-claude-awaiting-review"
           }
         },
         {

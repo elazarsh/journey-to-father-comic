@@ -171,6 +171,58 @@
     "web_sha256": "e224acaf8fe4fd08cf4bc65795fa48a6d8380d04fd51d973f1f514b8f7d3960a"
   },
   {
+    "id": "B01V07-P03-02",
+    "file": "art/book1-v07/B01V07-P03-02.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Point of view from inside a small village shop in Poland around 1905, looking through a narrow open doorway into the family's tiny living room behind it. The dark wooden door frame borders the view on both sides. Inside, a cramped dim room: plain wooden beds pushed close together, a simple wooden table, a single small window. Worn floorboards, rough plaster walls, folded quilts. No people in the scene. Camera: Wide shot, point-of-view angle through the doorway, at standing eye level. Light and colour: Dim interior light; the one small window casts a soft pale shaft into the dark room, the door frame in deep shadow. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the dark plain wall or the shadowed upper door frame area. Character consistency: No people appear, so no siblings are shown. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P03-01.webp"
+    ],
+    "sha256": "8190e40f9ddff1288e3ac8e551257f72f3e106577f7ff64ed06d169f582787d9",
+    "bytes": 2936707,
+    "created_at": "2026-10-30T17:42:40.998663+00:00"
+  },
+  {
+    "id": "B01V07-P03-03",
+    "file": "art/book1-v07/B01V07-P03-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Directly above a simple wooden dining table in a modest Jewish home in Poland around 1905. Plain earthenware bowls, a round loaf of bread, a wooden spoon or two. A few children's hands reach in toward the bread and bowls; one sleeve is visibly mended with a patch. No faces visible, only hands and forearms entering from the frame edges. Camera: Medium shot from a straight-down bird's-eye angle over the table. Light and colour: Warm table light, as from a lamp above, with soft shadows around the bowls and the bread. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as an empty stretch of plain wooden tabletop. Character consistency: Only a few children's hands, not a full count of eight children; no faces. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P03-01.webp"
+    ],
+    "sha256": "d020d1face43992a1387010774b3a6f68eb1a7a54dd63da5b754ae3d82f974ff",
+    "bytes": 3117322,
+    "created_at": "2026-10-30T17:42:49.542032+00:00"
+  },
+  {
+    "id": "B01V07-P03-04",
+    "file": "art/book1-v07/B01V07-P03-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A mother's hands and forearms wringing out laundry over a wooden washtub in a modest home in Poland around 1905. Her sleeves are rolled up, her hands reddened by work, water drops falling and steam rising from the tub. Only hands and arms are shown, no face. Camera: Detail shot from a low angle, at the height of the washtub rim, looking slightly up at the hands. Light and colour: Grey, steamy daylight, diffused and soft, with glints on the falling water drops. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the soft steamy background above the hands. Character consistency: Only the mother's hands and arms appear. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P03-01.webp"
+    ],
+    "sha256": "0661f1d50a197187f418e06e798ad2ad34520e47e7946c8249b6b1bfa541af26",
+    "bytes": 3058776,
+    "created_at": "2026-10-30T17:42:48.784479+00:00"
+  },
+  {
+    "id": "B01V07-P04-01",
+    "file": "art/book1-v07/B01V07-P04-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside a small village shop in Poland around 1905, at dusk. Hands spread straw mattresses and woollen blankets on the wooden shop floor beside the base of a tiled stove, making a sleeping place for the children. In the corner, the edge of a shelf stocked with simple goods (sacks, jars, bundles, no labels). Only hands and arms visible. Camera: Detail shot from a high angle, looking down at the hands and bedding on the floor. Light and colour: Orange dusk glow from an oil lamp, warm light on the blankets and long soft shadows across the floorboards. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain floorboards or the shadowed wall above the stove base. Character consistency: Only hands appear; no full family is shown. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P04-02.webp"
+    ],
+    "sha256": "300a22087c13c81b3f969f82f3951f4c9695244362fb162d216a4da9cf77e76d",
+    "bytes": 3326032,
+    "created_at": "2026-10-30T17:44:02.397539+00:00"
+  },
+  {
     "id": "B01V07-P04-02",
     "source_path": "/workspace/generated_images/exec-8abc8f61-f2bc-45f1-9f56-eccd2337dd43.png",
     "prompt": "Edit the FIRST reference scene into a night sleeping view of the EXACT SAME shop interior, maintaining the architecture: leather-roll shelves on LEFT wall, blue-and-white tall ceramic stove BACK center, interior doorway RIGHT leading to the small living room, and the low counter. A portrait 1024x1536 viewpoint framed slightly farther back/downward, a single continuous scene. The SECOND reference is ONLY Yitzhak's approved facial identity; portray him younger, about four, using narrow oval face, visible ears and longish natural nose, not oversized cartoon eyes. Exactly THREE sleeping siblings: one older teenage BOY Chaim, one older school-age GIRL Chava, and the small BOY Yitzhak about four. They sleep peacefully on three tidy low mattresses/bedrolls set in the cleared shop floor between the shelves; exactly TWO boys and ONE girl, no baby, no other people, no parents in this frame, no caps worn in sleep. Keep all three faces, hands and blankets within central 60% width and middle 55% height; ensure they are fully clothed under modest blankets. Their relative sizes make the age differences clear. The merchandise is neatly put away. Counter has been moved back just enough for sleeping, but stove and doorway are in identical positions. Warm oil-lamp amber light mixed with soft indigo night, dignified, cared-for, safe family atmosphere, no dirt/poverty melodrama. Show that a small SHOP becomes the sleeping room at night. Dramatic pastoral literary watercolor/gouache with selective ink contours matching the first image, strong but gentle light, tactile period wood/leather/textile, no glossy 3D or photorealism. Keep upper-left subdued wall 45% wide by 23% high quiet and low detail for a live caption, all faces below it. Generous 15% overscan for final comic cropping. NO text, bubbles, letters, border, frame, collage, watermark; ONE scene.",
@@ -201,6 +253,169 @@
     "recorded_at_utc": "2026-10-30T12:10:11.384308+00:00",
     "web_file": "art/book1-v07/web/B01V07-P04-02.webp",
     "web_sha256": "6935dc24e00b183a13c20f9d10043e257cac5e826c46e2a58fd6414601f618a2"
+  },
+  {
+    "id": "B01V07-P04-03",
+    "file": "art/book1-v07/B01V07-P04-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Night in a modest Jewish home in Poland around 1905. Close on the mother's face, a woman in her thirties with a headscarf, bent over a garment as she mends it with needle and thread in her hand. She is lit from below by a single pool of light from a kerosene lamp; everything else is dark. At the edge of the frame, the shapes of sleeping children lie in shadow under blankets, indistinct. Camera: Close-up from a low angle, looking slightly up at the mother's lowered face. Light and colour: A single warm kerosene lamp pool in surrounding darkness, deep chiaroscuro. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, in the dark empty shadow above and behind the mother's head. Character consistency: The sleeping children are only partial dim shapes, no more than three (two boys and a girl), not the whole household; no baby. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P04-02.webp"
+    ],
+    "sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+    "bytes": 1588312,
+    "created_at": "2026-10-30T17:44:58.596323+00:00"
+  },
+  {
+    "id": "B01V07-P04-04",
+    "file": "art/book1-v07/B01V07-P04-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Point of view of a child seated at a set family table in a modest home in Poland around 1905, late afternoon. Simple empty plates and cups on the table. The hands of a couple of siblings rest quietly beside their empty plates, waiting. At the head of the table, the mother's wooden chair is still empty. Partial framing: no faces, no counting of the family. Camera: Medium shot, point-of-view angle from a seated child's eye level looking along the table toward the empty chair at its head. Light and colour: Late afternoon amber light from a side window, warm and still. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain wall above the empty chair. Character consistency: Only partial siblings' hands (at most three: two boys and a girl), no faces; no baby. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P04-02.webp"
+    ],
+    "sha256": "6e357e9601423563469c35bd89c5169076c1fc7665c54b5c6d34f3f4ee31424c",
+    "bytes": 3044276,
+    "created_at": "2026-10-30T17:44:17.266899+00:00"
+  },
+  {
+    "id": "B01V07-P05-01",
+    "file": "art/book1-v07/B01V07-P05-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A narrow lane of a small Jewish town in Poland, 1904, on a clear morning. Wooden houses with steep roofs, a dirt path, a few fences. Small in the scene, the boy Yitzhak, about four years old, in a simple coat and cap, walks hand in hand with his mother, a woman in a headscarf and long skirt, toward the cheder (the small religious school room). Camera: Extreme wide shot from a high angle, the two figures small in the lane. Light and colour: Crisp morning light, clear air, long soft shadows. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the clear morning sky above the rooftops. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. He is about four years old here, younger and rounder than the reference, but with the same features. Only Yitzhak and his mother appear. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+    "bytes": 3384178,
+    "created_at": "2026-10-30T17:44:14.438928+00:00"
+  },
+  {
+    "id": "B01V07-P05-02",
+    "file": "art/book1-v07/B01V07-P05-02.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside a traditional cheder room in a Polish Jewish town around 1904. The rabbi, a bearded man in dark clothing and a skullcap, sits or stands beside the study table with open books. Young boys of about four to six sit on a wooden bench before him. Plaster walls, wooden beams, a dim window. Camera: Medium shot from a low angle, at a small child's eye height, looking up at the rabbi. Light and colour: Dim warm interior light, a muted window glow behind. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain plastered wall and beams above the rabbi. Character consistency: The other boys in the cheder are not Yitzhak's siblings. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+    "bytes": 2834277,
+    "created_at": "2026-10-30T17:45:34.066968+00:00"
+  },
+  {
+    "id": "B01V07-P05-03",
+    "file": "art/book1-v07/B01V07-P05-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Directly above an open book page of large Hebrew letters on a cheder table, 1904. A mother's hand gently places a small candy onto one letter on the page. The letters on the page are drawn only as soft blurred, illegible marks; the main letter will be added later as a text layer, so leave the spot under the candy as plain paper. Camera: Detail shot from a bird's-eye angle, composed to work inside a circular crop. Light and colour: Warm window light falling across the page and the hand. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain paper margin of the page. Character consistency: Only the mother's hand appears. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "09d5101320da782ca5f1ccc1a1767c89a6151b17967addc13e235604d6b24a7c",
+    "bytes": 2032457,
+    "created_at": "2026-10-30T17:46:19.221382+00:00"
+  },
+  {
+    "id": "B01V07-P05-04",
+    "file": "art/book1-v07/B01V07-P05-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside the cheder, 1904. Close on the face of the boy Yitzhak, about four years old, with a small candy in his mouth, cheeks full, eyes shining with delight. A simple cap and collar of a plain shirt. Camera: Close-up at eye level. Light and colour: Warm window light from the side, gently modelling the face. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the soft blurred wall behind his head. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. He is about four years old here, younger and rounder than the reference, adapt the proportions but keep the same features. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "d4a7b1c71912016935cf8e9af05186ebe94ce8477bb37514ae58866aeced9e25",
+    "bytes": 3181177,
+    "created_at": "2026-10-30T17:45:43.833764+00:00"
+  },
+  {
+    "id": "B01V07-P06-01",
+    "file": "art/book1-v07/B01V07-P06-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside a cheder room in a small Polish Jewish town around 1905. A visiting examiner, a bearded man in a long dark coat and hat, stands before a row of young boys on a bench and asks them questions. The boys raise their heads toward him. Wooden table, books, plaster walls. The boy Yitzhak, about five, is one of the boys in the row, not singled out. Camera: Wide shot from a high angle over the room. Light and colour: Grey, flat daylight from a window. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain wall above the visitor. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+    "bytes": 2132744,
+    "created_at": "2026-10-30T17:46:54.598157+00:00"
+  },
+  {
+    "id": "B01V07-P06-02",
+    "file": "art/book1-v07/B01V07-P06-02.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A small copper grosz coin passing from an adult man's hand into the open palm of a young boy (not Yitzhak), around 1905. A shaft of light falls on the coin; the background is dark. Camera: Detail shot at eye level. Light and colour: A narrow shaft of light on the coin, everything around in deep shadow. Lettering space: No lettering on this panel; full composition. Character consistency: Only hands appear; the receiving boy is not Yitzhak. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "512e8046d7edd1f649189162e90ddb354da7af1984a726f0702cdfdca079d5a0",
+    "bytes": 2499188,
+    "created_at": "2026-10-30T17:46:55.674292+00:00"
+  },
+  {
+    "id": "B01V07-P06-03",
+    "file": "art/book1-v07/B01V07-P06-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside the cheder, around 1905. Close on the face of the boy Yitzhak, about five, in shadow, his mouth still slightly open from having just answered, his empty hands resting on the table in front of him. A quiet, hurt puzzlement. Camera: Close-up at eye level. Light and colour: Dim shade, the face half in shadow with a soft edge of light. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the dark plain background above his head. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "b6814db692d4056d4baab0df84c3b0e8671762cea13b5aa6a9d870d9562b94f5",
+    "bytes": 2893405,
+    "created_at": "2026-10-30T17:47:12.660570+00:00"
+  },
+  {
+    "id": "B01V07-P06-04",
+    "file": "art/book1-v07/B01V07-P06-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home in a modest Jewish house in Poland around 1905. The small boy Yitzhak, about five, stands beside a warm tiled stove, lifting his face toward his mother and asking her a question. The mother, in a headscarf and apron, is seen half from behind, half turning toward him. Simple wooden furniture, plaster walls. Camera: Wide shot from a high angle. Light and colour: Warm hearth light from the stove glowing on both figures. Lettering space: Leave calm empty space in the upper area of the frame, just above Yitzhak's head left of center, for a speech balloon. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+    "bytes": 3201195,
+    "created_at": "2026-10-30T17:47:48.506196+00:00"
+  },
+  {
+    "id": "B01V07-P07-01",
+    "file": "art/book1-v07/B01V07-P07-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home, evening, around 1905. Over the mother's shoulder: close on the listening face of the boy Yitzhak, about five, attentive and thoughtful. The mother is seen only from behind, her headscarf at the edge of the frame. Camera: Close-up, over-the-shoulder angle from behind the mother. Light and colour: Warm lamp light on the boy's face. Lettering space: Leave calm space in the upper right of the frame, above the mother's head and shoulder, for a speech balloon. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "737e54f04bcee04d46a9e548f98c593af2af446ddb00b6090f6634c7a89a744f",
+    "bytes": 2111971,
+    "created_at": "2026-10-30T17:48:57.821852+00:00"
+  },
+  {
+    "id": "B01V07-P07-02",
+    "file": "art/book1-v07/B01V07-P07-02.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home around 1905. A two-shot: the mother, a woman in her thirties in a headscarf, on the right, speaking gently to the boy Yitzhak, about five, who listens. No coin in the scene. Camera: Medium shot at eye level, two-shot. Light and colour: Soft window side light. Lettering space: Leave a calm, low-detail area in the upper left of the frame for two stacked speech balloons linked to the mother on the right; keep the mother's face on the right side. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "c6147bb5894fbde98e7edd6f94c6d52c6442c07f772aca87c317f1e0920eb2e0",
+    "bytes": 2215469,
+    "created_at": "2026-10-30T17:48:51.659874+00:00"
+  },
+  {
+    "id": "B01V07-P07-03",
+    "file": "art/book1-v07/B01V07-P07-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: The cheder study room, almost empty, in the afternoon, around 1905. Rows of wooden benches and the rabbi's table, plaster walls. The boy Yitzhak sits very small in his place in the background. Most of the frame is empty space. Camera: Extreme wide shot from a high angle. Light and colour: Cool grey afternoon light. Lettering space: No lettering on this panel; full composition. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. He is a tiny figure here; keep his general look consistent. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "2a7f127ad1d21f337abf6a8b5c7152b155dc798209274e872a421e0779b9af32",
+    "bytes": 3543310,
+    "created_at": "2026-10-30T17:48:41.041164+00:00"
   },
   {
     "id": "B01V07-P08-01",
@@ -263,22 +478,18 @@
   },
   {
     "id": "B01V07-P08-04",
-    "source_path": "/workspace/generated_images/exec-815fbf2e-231a-4fba-b7a7-59829f203ca9.png",
-    "prompt": "Edit the supplied illustration, preserving the boy's exact approved face, pose, cap, both bandaged feet, bed, watercolor/gouache dramatic pastoral style, warm light and spacious upper-left wall. REMOVE THE SMALL FRAMED RELIGIOUS ICON/PICTURE on the wall above the boy. Fill that location with plain pale plaster matching the surrounding wall. This is an early-1900s Jewish family home: no Christian icons, no crosses, no portraits or religious decorations invented on walls. Keep all other content as close as possible to the source. No readable text, no speech bubbles, no frames or watermark. One continuous landscape scene.",
-    "references": [
-      "art/book1-v07/rejected/B01V07-P08-04-attempt-01.png"
+    "file": "art/book1-v07/B01V07-P08-04.v2.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Directly above a bed in a modest home in Poland around 1907. The boy Yitzhak, about seven, lies small in the bed under a quilt; both his feet are bandaged and stand out in white. His shoes lie unused to one side on the floor, and his school bag hangs by the door. A large area of bare wooden floor around the bed. Camera: Wide shot from a straight-down bird's-eye angle. Light and colour: Pale afternoon light. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the empty wooden floor. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/web/B01V07-P08-01.webp",
+      "art/book1-v07/web/B01V07-P08-02.webp"
     ],
-    "source_visual_review": "Corrected source reviewed: inappropriate wall icon removed. Boy awake in modest tidy home bed with both bandaged feet; approved identity and calm attentive expression retained. Upper-left plaster wall is quiet and has no faces.",
-    "crop_status": "source overscan reasonable; final polygon/lettering/zoom QA pending",
-    "status": "generated-source-reviewed",
-    "replaces_rejected_attempt": "B01V07-P08-04-attempt-01",
-    "file": "art/book1-v07/B01V07-P08-04.png",
-    "actual_size": [
-      1536,
-      1024
-    ],
-    "sha256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
-    "browser_qa": "not performed"
+    "sha256": "f63037913b28a4b649bc88f9b4d4c59329fe542c15951e74d68d706905bf253f",
+    "bytes": 3260330,
+    "created_at": "2026-10-30T17:49:10.856842+00:00"
   },
   {
     "id": "B01V07-P09-01",
@@ -338,22 +549,17 @@
   },
   {
     "id": "B01V07-P09-04",
-    "source_path": "/workspace/generated_images/exec-2a4995e6-c910-4e7f-ba31-24564ee9fab5.png",
-    "prompt": "ONE landscape 3:2 image, painterly watercolor and gouache literary historical graphic novel, dramatic pastoral warm amber and pale blue light. Same approved boy and same bed/room as the attached bed reference. He is awake propped up in bed, charcoal shirt, dark cap, narrow oval face, natural brown eyes, both feet still gently bandaged under a pulled-back cream blanket. He practices writing with a simple dip pen on a bedside wooden board resting across the bed. No older brother in this panel. No readable letters, just faint abstract guide marks. Keep his face, writing hand, nib and board safely in the middle-right, away from upper-left caption zone. A broad plain quiet wall fills top-left; leave at least 18% margins above head and beyond important hands. Give absorbed interest and small satisfaction, not a big grin. Modest tidy Jewish home, no crosses or religious wall icons. No text, balloons, panel borders, collage or watermark.",
-    "references": [
-      "art/chars/yitzhak-child-v02.png",
-      "art/book1-v07/B01V07-P08-04.png"
+    "file": "art/book1-v07/B01V07-P09-04.v2.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Evening exterior of a house in a small Polish Jewish town around 1908. The house and town are in cold blue; one window glows yellow, and inside it the small silhouette of a boy bent over a slate board on his bed. Most of the frame is sky and rooftops. Camera: Extreme wide shot at eye level from outside. Light and colour: Cold blue dusk with one warm yellow window. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, in the open evening sky. Character consistency: The silhouette in the window is Yitzhak, too small for facial detail; no other figures. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P09-01.webp",
+      "art/book1-v07/web/B01V07-P09-03.webp"
     ],
-    "source_visual_review": "Approved boy practices in same home bed, both feet remain bandaged, calm interest. Window and blanket continuity kept. Quiet wall upper-left clear of face; no wall icon. Paper marks are abstract and not words.",
-    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
-    "status": "generated-source-reviewed",
-    "file": "art/book1-v07/B01V07-P09-04.png",
-    "actual_size": [
-      1536,
-      1024
-    ],
-    "sha256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
-    "browser_qa": "not performed"
+    "sha256": "06a62819f1fbbee70bc92a802716b6b2be9b6e6de578e525de19c5f764b5ae91",
+    "bytes": 1589178,
+    "created_at": "2026-10-30T17:50:45.543199+00:00"
   },
   {
     "id": "B01V07-P10-01",
@@ -386,6 +592,153 @@
     ],
     "sha256": "a4b3259d4b7679213762254dc0bed59219408221b9a9b90d80c39a61bad6f84b",
     "browser_qa": "not performed"
+  },
+  {
+    "id": "B01V07-P10-03",
+    "file": "art/book1-v07/B01V07-P10-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Point of view of the boy lying in bed in a modest home in Poland around 1908. His bandaged feet are in the foreground under the blanket; a hand reaches in from the doorway holding out a stack of crumpled newspaper pages (the owner of the hand is not shown). The newspaper print is only soft illegible texture. Camera: Medium shot, point-of-view angle from the bed. Light and colour: Cool morning bedroom light. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain wall above the doorway. Character consistency: Yitzhak is the viewer and is not shown except for his bandaged feet. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P10-01.webp",
+      "art/book1-v07/web/B01V07-P10-02.webp"
+    ],
+    "sha256": "89e4ac43584591d98d1f220f8aec3ab6acb8b8d54dea1ed4c46d690fa48a222a",
+    "bytes": 2006816,
+    "created_at": "2026-10-30T17:52:37.241803+00:00"
+  },
+  {
+    "id": "B01V07-P10-04",
+    "file": "art/book1-v07/B01V07-P10-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: In bed at home, around 1908. Close on the face of the boy Yitzhak, about eight, lit from the open newspaper page that reflects warm light onto him, his eyes reading with concentration. The page itself is not legible; the writing will be added later as a separate layer. Camera: Close-up from a low angle, from below the page looking up at his face. Light and colour: Warm light reflected up from the paper onto the face, darker surroundings. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the dark soft background above his head. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/web/B01V07-P10-01.webp",
+      "art/book1-v07/web/B01V07-P10-02.webp"
+    ],
+    "sha256": "bbc776b573f5332a5717faba268374f62f57f3a233dc50443102033307664ba6",
+    "bytes": 2970627,
+    "created_at": "2026-10-30T17:50:21.328910+00:00"
+  },
+  {
+    "id": "B01V07-P11-01",
+    "file": "art/book1-v07/B01V07-P11-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Point of view looking down at a dense column of an old newspaper, around 1912. A child's finger stops beneath one line. All print is rendered as soft illegible grey texture; the word under the finger will be added later as a text layer, so keep it blank. Camera: Detail shot, point-of-view angle. Light and colour: Warm lamp light on the paper. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the paper's blank top margin or the soft background beyond it. Character consistency: Only the child's finger and hand appear. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "2b67aaa92bcc7e89b1274cdf0fc97ddc510b109793b64cca1175b279f97ddb30",
+    "bytes": 3385159,
+    "created_at": "2026-10-30T17:50:24.793689+00:00"
+  },
+  {
+    "id": "B01V07-P11-03",
+    "file": "art/book1-v07/B01V07-P11-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A child's daydream image: an empty wooden balcony on a house in a small Polish town, carved wooden railing, shutters. No fighters, no event, no people. The image softly fades out to the edges in a rounded, misty vignette like a memory or thought, without any drawn border. Camera: Medium shot at eye level. Light and colour: Hazy dreamlike light, soft and faded. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the misty sky above the balcony. Character consistency: Yitzhak does not appear in this panel. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "f148b0eeecb7bddaf8daa774b6b85b44fec4039991df1f4b5f22ab1751d1c40d",
+    "bytes": 2972489,
+    "created_at": "2026-10-30T17:51:45.394288+00:00"
+  },
+  {
+    "id": "B01V07-P11-04",
+    "file": "art/book1-v07/B01V07-P11-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home in the evening, around 1912. Over the father's shoulder: close on the face of the boy Yitzhak, about eleven, sitting in bed, asking with innocent seriousness. The father's shoulder and beard are blurred in the foreground. Camera: Close-up, over-the-shoulder angle from behind the father. Light and colour: Warm evening lamp light. Lettering space: Leave calm empty space just above Yitzhak's head, center-right, for a speech balloon. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae",
+    "bytes": 2905036,
+    "created_at": "2026-10-30T17:51:51.781882+00:00"
+  },
+  {
+    "id": "B01V07-P12-01",
+    "file": "art/book1-v07/B01V07-P12-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home in the evening, around 1912. The father, a bearded man in his forties with a skullcap and dark vest, explains patiently, one finger raised, a newspaper in his other hand. Camera: Medium shot from a low angle, from a child's height looking up. Light and colour: Warm lamp light. Lettering space: Leave calm empty space just above the father's head for a speech balloon. Character consistency: Only the father appears in this panel. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089",
+    "bytes": 2732570,
+    "created_at": "2026-10-30T17:52:06.379727+00:00"
+  },
+  {
+    "id": "B01V07-P12-02",
+    "file": "art/book1-v07/B01V07-P12-02.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home, around 1912. Over Yitzhak's shoulder: close on the mother's face as she listens, her gaze soft. Yitzhak and the newspaper are blurred in the foreground (seen from behind). Camera: Close-up, over-the-shoulder angle from behind Yitzhak. Light and colour: Soft warm side light. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the soft blurred wall behind the mother. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. Yitzhak is seen only from behind, blurred; keep his hair and ears consistent with the reference. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "5092d2d630bb1e444a2559fc31e092c26af338c7a682a6dc2a254d502c50c00f",
+    "bytes": 2911122,
+    "created_at": "2026-10-30T17:53:15.394788+00:00"
+  },
+  {
+    "id": "B01V07-P12-03",
+    "file": "art/book1-v07/B01V07-P12-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside a modest home in a Polish Jewish town around 1912: a wide opening where a wall has been removed, joining two apartments into one bright, spacious room. Plain floorboards, plastered walls with rough edges around the opening, fine dust floating in the air. No people. Camera: Wide shot at eye level. Light and colour: Bright, airy daylight. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the bright plain upper wall. Character consistency: Yitzhak does not appear in this panel. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "e74d97080e25eace53fde7331b4b15f24266cd2462aa580514e3ff1468b1acf1",
+    "bytes": 2858983,
+    "created_at": "2026-10-30T17:53:09.583857+00:00"
+  },
+  {
+    "id": "B01V07-P12-04",
+    "file": "art/book1-v07/B01V07-P12-04.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: An illustrative family picture in the enlarged home, around 1912, golden afternoon. The father, bearded, stands near the mother, who holds the baby girl Raizel in her arms. Around them exactly eight children in total: five boys and three daughters (one of the daughters is baby Raizel). The older children are clearly distinguishable from the younger ones; the eldest son Chaim looks noticeably older. The boy Yitzhak sits to the side, his bandaged foot resting on a low stool. Camera: Wide shot from a high angle. Light and colour: Golden afternoon light. Lettering space: Leave a calm, low-detail area in the upper right of the frame, tall enough for two stacked captions, such as the plain wall above the family. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. This is the only full family picture: exactly five sons and three daughters plus father and mother, ten people in all; relative ages only. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "ff1083e336bb1f907c4b97e115f05c91dfb4901b1c990b5574e072207aa109f7",
+    "bytes": 2263202,
+    "created_at": "2026-10-30T17:54:09.614284+00:00"
+  },
+  {
+    "id": "B01V07-P13-01",
+    "file": "art/book1-v07/B01V07-P13-01.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A local doctor's room in a Polish town around 1912. The doctor, a man in a dark suit and waistcoat, speaks to the parents across a desk; the father bearded with a hat, the mother in a headscarf. Camera: Medium shot at eye level. Light and colour: Grey clinic light. Lettering space: Leave calm empty space just above the doctor's head on the right side of the frame for a speech balloon; place the doctor on the right facing the parents. Character consistency: No children in this panel. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "4bfcfaab0f6687e585f6eb1f235a702443d3d4bad7cd4749bb541526912253b7",
+    "bytes": 3153775,
+    "created_at": "2026-10-30T17:54:02.957049+00:00"
+  },
+  {
+    "id": "B01V07-P13-02",
+    "file": "art/book1-v07/B01V07-P13-02.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A road leading out of a small Polish town at grey dawn, around 1912. Two tiny figures of a father and his son walk onward along the road. No vehicle, no cart, no train. Camera: Extreme wide shot from a high angle. Light and colour: Grey dawn light, soft mist. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, in the open grey dawn sky. Character consistency: The two figures are tiny silhouettes (father and Yitzhak); no facial detail. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (generate, high)",
+    "referenced_files": [],
+    "sha256": "f6fd7b8ebc4e0dad8af92982789aef164f91aeab4b4e04c49b227b7a88760a1d",
+    "bytes": 2606452,
+    "created_at": "2026-10-30T17:54:34.981943+00:00"
+  },
+  {
+    "id": "B01V07-P13-03",
+    "file": "art/book1-v07/B01V07-P13-03.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A tall examination room in a Warsaw hospital around 1912: high ceiling, tall glass cabinets. The doctor, a man in a white coat, bends to examine both feet of the boy Yitzhak, about eleven, who sits on the examination table. The father, bearded, stands beside them pointing at the boy's left foot. Nothing graphic. Camera: Wide shot from a low angle, emphasizing the tall ceiling. Light and colour: Cool light from tall windows. Lettering space: Leave calm low-detail space in the upper part of the frame: upper right above the doctor for two speech balloons, and room for one caption, using the high ceiling and plain wall. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+    "bytes": 3008059,
+    "created_at": "2026-10-30T17:54:37.395103+00:00"
   },
   {
     "id": "B01V07-P17-01",
@@ -956,5 +1309,19 @@
     "sha256": "3fd9265c66c900d47a66614842bb86f399fca3b1e3be2a89c6554c4e4d34a9a2",
     "tool": "image_gen__imagegen",
     "status": "generated-source-reviewed"
+  },
+  {
+    "id": "NEW-P02-b",
+    "file": "art/book1-v07/NEW-P02-b.v2.png",
+    "status": "generated-claude-awaiting-review",
+    "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A simple Jewish home in a small Polish town in winter, around 1900. A plain room with whitewashed walls and wooden floorboards. The mother, a young woman in her twenties with a headscarf, rests in a wooden bed under a heavy quilt, holding her newborn baby swaddled in white linen. The village midwife, an older woman in a dark shawl and apron, sits beside the bed smiling gently, both caught in a warm patch of glow from a tiled stove. Through a frost-covered window, small and blurred in cold blue, neighbours in dark winter coats hurry across a snowy courtyard toward a circumcision celebration at a neighbouring house. No birth details; a calm, tender moment after. Camera: Medium shot from a high angle, as if from the upper corner of the ceiling, looking down on the bed. Light and colour: Cold blue winter light from the frosted window contrasting with the warm amber glow of the stove pooling over the mother, baby and midwife. Lettering space: Leave a calm, low-detail area in the upper right of the frame, tall enough for two stacked captions, such as the plain upper wall and ceiling corner; keep the figures in the lower and central part of the frame. Character consistency: The newborn baby is Yitzhak (age stage small child 0-4): tiny, swaddled, face soft and barely visible; no adult features. The midwife is not a family member. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+    "tool": "openai gpt-image-2 (edit, high)",
+    "referenced_files": [
+      "art/book1-v07/web/B01V07-P02-02.webp",
+      "art/book1-v07/web/B01V07-P02-03.webp"
+    ],
+    "sha256": "f753a5005d0f6463d65b674da037a6c657652f14b2f891594ac4032bd475e2c9",
+    "bytes": 3250804,
+    "created_at": "2026-10-30T17:42:45.760513+00:00"
   }
 ]
