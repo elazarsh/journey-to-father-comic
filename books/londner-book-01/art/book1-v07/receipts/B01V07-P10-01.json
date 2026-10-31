@@ -1,0 +1,16 @@
+{
+  "id": "B01V07-P10-01",
+  "source_path": "/workspace/generated_images/exec-f0a0b29e-f914-459f-92f6-397b85dc1724.png",
+  "prompt": "ONE landscape 3:2 continuous historical graphic-novel illustration, dramatic pastoral watercolor and gouache, selective fine ink, warm amber daylight. Early-1900s small Polish town, inside a Jewish relative's shop selling household goods and hats, not a cobbler workshop and not a leather shop. One anonymous adult shopkeeper's hands unpack a wooden delivery crate containing simple household goods wrapped in folded old newspapers; plain kettles, crockery and hat boxes on shelves. The wrapping papers clearly have faint printed-column textures but absolutely NO readable words, titles or letters. No child needed. Human face can remain outside frame; no invented identifiable portrait. Place hands, wrapped parcel and crate middle-right, preserve a broad softly lit quiet upper-left plaster/shelf-shadow area for live narration. Important hands far from source edges, 18% overscan. Rich tactile paper and wood, clean orderly business, no poverty or mess. No written text, balloons, panel frames, collage, Christian wall icons or watermark.",
+  "references": [],
+  "source_visual_review": "Household-goods and hats shop, not leather or cobbler scene. Anonymous hands unpack goods wrapped in newspaper; period materials and no identifiable relative face. Newspaper column texture has no readable wording. Clear pale left wall for narration.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P10-01.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "1c71c57692ef7468f6cfa06a00ca41c9f2515b7416b67b5994dde67a77611479",
+  "browser_qa": "not performed"
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "39885b7babe3589f0797149c90f48e89faec7030",
+  "branch": "codex/londner-book-01-v07-ready",
+  "verified_before_generation": true,
+  "remote_files_verified": [
+    "revisions/book1-v07/bereavement-edit.md",
+    "revisions/book1-v07/production/manifest.json"
+  ],
+  "changed_files": 157,
+  "changes_confined_to": "books/londner-book-01/"
+}

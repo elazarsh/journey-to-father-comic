@@ -1,0 +1,13 @@
+{
+  "id": "B01V07-P12-02",
+  "file": "art/book1-v07/B01V07-P12-02.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home, around 1912. Over Yitzhak's shoulder: close on the mother's face as she listens, her gaze soft. Yitzhak and the newspaper are blurred in the foreground (seen from behind). Camera: Close-up, over-the-shoulder angle from behind Yitzhak. Light and colour: Soft warm side light. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the soft blurred wall behind the mother. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. Yitzhak is seen only from behind, blurred; keep his hair and ears consistent with the reference. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "sha256": "5092d2d630bb1e444a2559fc31e092c26af338c7a682a6dc2a254d502c50c00f",
+  "bytes": 2911122,
+  "created_at": "2026-10-30T17:53:15.394788+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "B01V07-P10-02",
+  "source_path": "/workspace/generated_images/exec-98840aa3-d6d1-4edd-8dc4-bf88cdeeb6cd.png",
+  "prompt": "ONE portrait 2:3 illustration, painterly watercolor/gouache historical graphic novel with fine ink details and warm amber light. Close-up of a household-goods parcel being opened in an early-1900s Jewish Polish shop. Two anonymous adult hands carefully unfold and save the old newspaper wrapping rather than throw it away. One plain ceramic bowl partly visible inside the parcel; no other action. Faint narrow print-column texture on yellowed paper, NO readable words or recognizable letters, no publisher headline. No faces. Keep hands and paper in the central half of the image; large soft unfocused pale counter surface in upper-left reserved for future lettering, generous 18% crop margins. Period materials, no plastic packaging, tape or modern labels. A single continuous scene without borders, balloons, captions, collage, religious icons or watermark.",
+  "references": [],
+  "source_visual_review": "Close parcel opening and saved wrapping paper with a plain bowl. Hands natural. Upper-left counter is quiet; no faces. Dense newspaper-like texture is non-readable and must not be treated as actual historical newspaper evidence.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P10-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "a4b3259d4b7679213762254dc0bed59219408221b9a9b90d80c39a61bad6f84b",
+  "browser_qa": "not performed"
+}

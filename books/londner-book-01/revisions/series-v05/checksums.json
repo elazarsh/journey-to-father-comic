@@ -1,0 +1,20 @@
+{
+  "AGENTS.md": "3b7c6885938f29a4883b56b7745a9049b003f24528678213aca2c8aa0cb7cae5",
+  "README.md": "bcb1d4550e57446b55cd5802e06a30d93105cd141968670a933dbd8f1ea44113",
+  "book1-reader.html": "031fd3063a5a90143c40cfbcf31d38ea3e7e4afd9b065fa9711055439c3479b5",
+  "book1-script-he.md": "43aae2893f251d49157d4eaf87e96977f3c7868e8d1e96fdefe4814d2a215005",
+  "book1-script.json": "0a1f991e71d1931c75900051496bf212a24e9fe0538b809e98a9f0bf7651ee80",
+  "book1_scene_data.py": "bfcaeac7fc4c632508a76ae8726494d4ff55f3178dcdb3b55d7bdfd595e32d39",
+  "build.py": "111277998ab839fd7c17008703590fab3bc7346bf3e670c8c9c29fcefa0768c2",
+  "index.html": "74f1e2e2345a81eb39ee798757ca5975b020b908c9ff7ae7d3db991424326acc",
+  "migration.md": "35a43ff0951c026e28b28e1e74f7f6945cbfa9e411521c8a951e98d403e06489",
+  "new-wording-review.md": "3f0395e70ab029397b3c4b5a2550cc230c09c0e20a9f85b07724424a0ec57af3",
+  "new-wording.json": "be98c2382edffcef465bc0127bec59ef5b72dab03d46118da6d026fd2db5a955",
+  "qa-report.json": "cace329e43c3f9a77a4b2a5163b6440bb3511b7ee069e3d06727abb82cfe71a7",
+  "series-plan.json": "2f74deab926da26c4f0ad37bb23e887b82ff60d5b8d9a828cd593b12f7d72077",
+  "series_data.py": "3968dd1c3a69cde16a87a79cae4ce5579d35d1733cc7d9e6094ac2c7ed92c7a8",
+  "source-excerpts.json": "ae8ec59d654ffbe3b14fad93d6f5af2f5c8f2b2d1c56bcf1cde59604da8a8ff9",
+  "suspense-design.md": "4af4fd906534b1fd1e6b54728a66920e3597ae00a2c2fc3bb70de8ba474d9e0d",
+  "template.html": "c3c0188bdf63cf42de03c0934eb8f9f1a2e15417b56d6b23be947b87bac8986e",
+  "verify_pagination.js": "7af23006a1c438f37c0289a6093bf7e651cde5b02209a1ed5b3d1ab064af1099"
+}

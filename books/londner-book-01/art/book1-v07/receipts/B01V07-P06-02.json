@@ -1,0 +1,11 @@
+{
+  "id": "B01V07-P06-02",
+  "file": "art/book1-v07/B01V07-P06-02.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A small copper grosz coin passing from an adult man's hand into the open palm of a young boy (not Yitzhak), around 1905. A shaft of light falls on the coin; the background is dark. Camera: Detail shot at eye level. Light and colour: A narrow shaft of light on the coin, everything around in deep shadow. Lettering space: No lettering on this panel; full composition. Character consistency: Only hands appear; the receiving boy is not Yitzhak. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (generate, high)",
+  "referenced_files": [],
+  "sha256": "512e8046d7edd1f649189162e90ddb354da7af1984a726f0702cdfdca079d5a0",
+  "bytes": 2499188,
+  "created_at": "2026-10-30T17:46:55.674292+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "story_pages": 48,
+  "physical_pages_provisional": 52,
+  "scene_sequences": 8,
+  "panels": 187,
+  "text_blocks": 164,
+  "words_he": 1300,
+  "max_page_words_he": 37,
+  "max_text_block_words_he": 14,
+  "silent_action_panels": 27,
+  "literal_quotes_verified": 4,
+  "adapted_reported_speech": 6,
+  "designed_page_turn_pairs": 7,
+  "checks": {
+    "exactly_three_volumes": true,
+    "original_family_five_sons_three_daughters": true,
+    "all_eight_cast_ids_unique": true,
+    "raisel_absent_before_birth_in_old_house_contract": true,
+    "scene_family_contracts": 20,
+    "shoe_verb_corrected": true,
+    "stop_before_arrival": true,
+    "all_48_pages_have_need_change_emotion": true,
+    "all_sources_resolve": true,
+    "quotes_match_primary_transcript": true,
+    "all_text_has_hebrew_and_english": true,
+    "page_turn_pairs_not_on_same_provisional_spread": true,
+    "no_long_dashes_in_hebrew": true,
+    "all_panel_ids_unique_and_separate_from_old_manifest": true,
+    "javascript_syntax_and_actual_navigation_functions": "passed with DOM stub",
+    "navigation_clamps_invalid_page_numbers": true
+  },
+  "not_claimed": [
+    "No child-reader comprehension study.",
+    "No browser visual, face-crop or final lettering approval.",
+    "No final chronology or family approval.",
+    "No new illustrations in this revision.",
+    "No GitHub publication of this revision."
+  ]
+}

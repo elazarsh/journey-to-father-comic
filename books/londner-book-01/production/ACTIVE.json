@@ -1,0 +1,9 @@
+{
+  "active_revision": "../revisions/book1-v07",
+  "active_manifest": "../revisions/book1-v07/production/manifest.json",
+  "story_pages": 48,
+  "panels": 187,
+  "plot_approved": true,
+  "yitzhak_designs_approved": true,
+  "old_manifest_status": "Archived 32-page script; do not generate against it"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "p02-1",
+    "file": "art/p02-1.png",
+    "web_file": "art/web/p02-1.webp",
+    "status": "generated-awaiting-crop-review",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "geometry_sha256": "d9512ce12cdbdf38ec620b288d42b221b9c3fe33b3aeb099b43d73f782e13b60",
+    "sha256": "4b14784ada78bef33f6d6a4bac412b807c5bbe7a92a3a2419fe8f70f2e106da3",
+    "crop_qa": "source visually inspected; browser mask and bilingual lettering review pending"
+  },
+  {
+    "id": "p03-2",
+    "file": "art/p03-2.png",
+    "web_file": "art/web/p03-2.webp",
+    "status": "generated-awaiting-crop-review",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "geometry_sha256": "0acddf3e20c6fe139d3b88293c4f550bb770651489707a3f33a2f383b338d2b5",
+    "sha256": "1d0a27fd604f9dd78922f1db3f6d5c4e88aeecfd5da4bbaaecbbc8333bc2dc10",
+    "crop_qa": "source visually inspected; browser mask and bilingual lettering review pending"
+  },
+  {
+    "id": "p04-2",
+    "file": "art/p04-2.png",
+    "web_file": "art/web/p04-2.webp",
+    "status": "generated-awaiting-crop-review",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "geometry_sha256": "4be0ddcef711febb0b7313deb9b3b68e8083d2b36d3a9da3fb10fcc2abddafa4",
+    "sha256": "11c88626625ed41ef4916f5099c9a540a83da0e2655fa3ceb43f91d35d8366b8",
+    "crop_qa": "source visually inspected; browser mask and bilingual lettering review pending"
+  }
+]

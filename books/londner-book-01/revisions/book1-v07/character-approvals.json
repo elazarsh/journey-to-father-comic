@@ -1,0 +1,11 @@
+{
+  "approved_on": "2026-10-30",
+  "approval": "Family approved the first-book plot and the previously created Yitzhak child, youth and adult identities; targeted opening and comic lettering refinements authorized.",
+  "child_master": "art/chars/yitzhak-child-v02.png",
+  "adult_elder_master": "art/chars/yitzhak-three-ages-v01.png",
+  "elder_scene_reference": "art/drafts/p01-1.png",
+  "youth_continuity_photo": "ref/S08-img013.jpg",
+  "identity_rules": "Keep narrow oval face, natural brown eyes, pronounced ears, bridge of nose and restrained mouth. Preserve identity across age changes. The older rejected child attempt is not the current child master. The middle image of the three-age sheet is adult, not a verified teenage sheet.",
+  "youth_asset_status": "User approved youth likeness in conversation. No separately named illustrated teenage sheet was located in current art/chars. Use approved facial continuity and the existing youth photograph when constructing that stage; do not label the middle adult portrait a teenager.",
+  "supporting_family": "Counts and relative ages follow family-continuity.json. Approval of Yitzhak does not identify the faces of other relatives."
+}

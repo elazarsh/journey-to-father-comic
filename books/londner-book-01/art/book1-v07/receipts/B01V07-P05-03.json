@@ -1,0 +1,11 @@
+{
+  "id": "B01V07-P05-03",
+  "file": "art/book1-v07/B01V07-P05-03.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Directly above an open book page of large Hebrew letters on a cheder table, 1904. A mother's hand gently places a small candy onto one letter on the page. The letters on the page are drawn only as soft blurred, illegible marks; the main letter will be added later as a text layer, so leave the spot under the candy as plain paper. Camera: Detail shot from a bird's-eye angle, composed to work inside a circular crop. Light and colour: Warm window light falling across the page and the hand. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain paper margin of the page. Character consistency: Only the mother's hand appears. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (generate, high)",
+  "referenced_files": [],
+  "sha256": "09d5101320da782ca5f1ccc1a1767c89a6151b17967addc13e235604d6b24a7c",
+  "bytes": 2032457,
+  "created_at": "2026-10-30T17:46:19.221382+00:00"
+}

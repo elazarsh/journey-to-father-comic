@@ -1,0 +1,4390 @@
+{
+  "version": "0.5-structural-redesign",
+  "book_number": 1,
+  "title_he": "הדרך של איטשע",
+  "title_en": "Itshe’s Journey",
+  "status": "Complete 48-page scene-and-panel review draft; not final approved art or print layout",
+  "audience": "Children 10+, teenagers and adults; descendants meeting Yitzhak for the first time",
+  "story_pages": 48,
+  "physical_pages_provisional": 52,
+  "pages": [
+    {
+      "number": 1,
+      "title": "בשבילכם",
+      "sources": [
+        "S08-memoir-1",
+        "S08-memoir-139"
+      ],
+      "scene_need": "להכיר את האדם שפונה אל הקורא",
+      "change": "המחברת הופכת למתנה אישית",
+      "emotion": "קרבה וסקרנות",
+      "turn_hook": "מי היה הילד הזה?",
+      "withhold": "אין תקציר של קשיים או תוצאות הסדרה.",
+      "layout": "intimate-three",
+      "sequence": "frame",
+      "panels": [
+        {
+          "id": "B01-P01-01",
+          "reading_order": 1,
+          "action": "יצחק בן כשבעים ואחת ליד המחברת. מבט חם ואינטימי, לא כינוס נכדים בחדר.",
+          "texts": [
+            {
+              "he": "1971. אני כבר סבא, בן שבעים ואחת.",
+              "en": "1971. I am a grandfather now, seventy-one years old.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P01-01-T1",
+              "sources": [
+                "S08-memoir-1",
+                "S08-memoir-139"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1",
+            "S08-memoir-139"
+          ]
+        },
+        {
+          "id": "B01-P01-02",
+          "reading_order": 2,
+          "action": "ידו המבוגרת מחזיקה עט מעל הדף.",
+          "texts": [
+            {
+              "he": "לילדים, לנכדים ולנינים האהובים שלי: את הזיכרונות האלה אני משאיר לכם.",
+              "en": "To my dear children, grandchildren and great-grandchildren: I leave these memories for you.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "family_requested_literary_frame",
+              "id": "B01-P01-02-T1",
+              "sources": [
+                "S08-memoir-1",
+                "S08-memoir-139"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1",
+            "S08-memoir-139"
+          ]
+        },
+        {
+          "id": "B01-P01-03",
+          "reading_order": 3,
+          "action": "הוא מתחיל לכתוב. המילים בשכבת HTML בלבד.",
+          "texts": [
+            {
+              "he": "אני רוצה שתכירו גם את הילד שהייתי.",
+              "en": "I want you to know the boy I once was.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "family_requested_literary_frame",
+              "id": "B01-P01-03-T1",
+              "sources": [
+                "S08-memoir-1",
+                "S08-memoir-139"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1",
+            "S08-memoir-139"
+          ]
+        }
+      ],
+      "word_count_he": 25
+    },
+    {
+      "number": 2,
+      "title": "הדף נפתח",
+      "sources": [
+        "S08-memoir-1"
+      ],
+      "scene_need": "לקשור את הסבא אל הילד",
+      "change": "נכנסים לזמן ולמקום",
+      "emotion": "פליאה",
+      "turn_hook": "לאן הילד נכנס?",
+      "withhold": "אין כותרת המסגירה את מסע הרפואה.",
+      "layout": "wide-transition",
+      "sequence": "frame",
+      "panels": [
+        {
+          "id": "B01-P02-01",
+          "reading_order": 1,
+          "action": "תקריב העט והדף.",
+          "texts": [
+            {
+              "he": "מה שאני אזכור, אכתוב.",
+              "en": "Whatever I remember, I will write.",
+              "source": "S08-memoir-1",
+              "kind": "quote",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P02-01-T1",
+              "sources": [
+                "S08-memoir-1"
+              ],
+              "review_required": false
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1"
+          ]
+        },
+        {
+          "id": "B01-P02-02",
+          "reading_order": 2,
+          "action": "מעבר גרפי אל רחוב בעיר הילדות, ללא טענה שזהו בית שזוהה בצילום.",
+          "texts": [
+            {
+              "he": "נולדתי בשנת 1900 ביונדזיוב שבפולין, באירופה.",
+              "en": "I was born in 1900 in Jędrzejów, Poland, in Europe.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P02-02-T1",
+              "sources": [
+                "S08-memoir-1"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1"
+          ]
+        },
+        {
+          "id": "B01-P02-03",
+          "reading_order": 3,
+          "action": "אותו אדם כילד בתוך הרחוב; עיצוב הגיל טרם אושר.",
+          "texts": [
+            {
+              "he": "שמי יצחק מאיר לונדנר. בבית קראו לי איטשע.",
+              "en": "My name is Yitzhak Meir Londner. At home, they called me Itshe.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P02-03-T1",
+              "sources": [
+                "S08-memoir-1"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1"
+          ]
+        }
+      ],
+      "word_count_he": 18
+    },
+    {
+      "number": 3,
+      "title": "החנות",
+      "sources": [
+        "S08-memoir-3"
+      ],
+      "scene_need": "להבין מהו המקום שהוא ביתו",
+      "change": "חנות מתגלה גם כבית",
+      "emotion": "סקרנות ביתית",
+      "turn_hook": "כמה אנשים גרים בחדר הזה?",
+      "withhold": "מקומות השינה יתגלו אחרי ההיכרות עם היום.",
+      "layout": "four-beat",
+      "sequence": "home",
+      "panels": [
+        {
+          "id": "B01-P03-01",
+          "reading_order": 1,
+          "action": "פתח חנות עורות וחומרים לסנדלרים.",
+          "texts": [
+            {
+              "he": "לאבא ולאמא הייתה חנות לעורות ולחומרים להכנת נעליים.",
+              "en": "Mother and Father had a shop selling leather and supplies for making shoes.",
+              "source": "S08-memoir-3",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P03-01-T1",
+              "sources": [
+                "S08-memoir-3"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3"
+          ]
+        },
+        {
+          "id": "B01-P03-02",
+          "reading_order": 2,
+          "action": "גלילים וחומרי עבודה. אין ייצור נעליים בידי האב.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3"
+          ]
+        },
+        {
+          "id": "B01-P03-03",
+          "reading_order": 3,
+          "action": "אחד ההורים מטפל בסחורה; דיוקנאות זמניים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3"
+          ]
+        },
+        {
+          "id": "B01-P03-04",
+          "reading_order": 4,
+          "action": "מבעד לפתח פנימי מתגלה חדר מגורים קטן.",
+          "texts": [
+            {
+              "he": "לידה היה החדר שבו גרנו.",
+              "en": "Beside it was the room where we lived.",
+              "source": "S08-memoir-3",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P03-04-T1",
+              "sources": [
+                "S08-memoir-3"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3"
+          ]
+        }
+      ],
+      "word_count_he": 13
+    },
+    {
+      "number": 4,
+      "title": "שמונה ילדים",
+      "sources": [
+        "S08-memoir-3",
+        "S08-memoir-4",
+        "S08-memoir-7"
+      ],
+      "scene_need": "להבין משפחה בתוך חלל קטן",
+      "change": "הבית נעשה מוכר ויקר לקורא",
+      "emotion": "שייכות",
+      "turn_hook": "איפה נכנסות המיטות?",
+      "withhold": "לא להראות את סידור השינה כבר בפאנל הראשון.",
+      "layout": "wide-three",
+      "sequence": "home",
+      "panels": [
+        {
+          "id": "B01-P04-01",
+          "reading_order": 1,
+          "action": "שגרת המשפחה בחדר ובחנות, לא ספירת שמונה דיוקנאות מומצאים באותו רגע.",
+          "texts": [
+            {
+              "he": "במשפחה שלנו היו שמונה ילדים. כשהייתי קטן, גרנו בצפיפות.",
+              "en": "There were eight children in our family. When I was little, our home was crowded.",
+              "source": "S08-memoir-3",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P04-01-T1",
+              "sources": [
+                "S08-memoir-3",
+                "S08-memoir-4",
+                "S08-memoir-7"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3",
+            "S08-memoir-4",
+            "S08-memoir-7"
+          ]
+        },
+        {
+          "id": "B01-P04-02",
+          "reading_order": 2,
+          "action": "מזון מוגש; הילדים הקטנים יושבים על הרצפה עם צלחות, לפי המקור.",
+          "texts": [
+            {
+              "he": "לא היינו עשירים, אבל אוכל לא חסר לנו.",
+              "en": "We were not rich, but we had enough to eat.",
+              "source": "S08-memoir-3",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P04-02-T1",
+              "sources": [
+                "S08-memoir-3",
+                "S08-memoir-4",
+                "S08-memoir-7"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3",
+            "S08-memoir-4",
+            "S08-memoir-7"
+          ]
+        },
+        {
+          "id": "B01-P04-03",
+          "reading_order": 3,
+          "action": "ההורים והילדים בסיום הארוחה. אין חגיגה מסוימת שהומצאה.",
+          "texts": [
+            {
+              "he": "ובערב צריך היה להכין גם מקום לישון.",
+              "en": "In the evening, sleeping places had to be made too.",
+              "source": "S08-memoir-3",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P04-03-T1",
+              "sources": [
+                "S08-memoir-3",
+                "S08-memoir-4",
+                "S08-memoir-7"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-3",
+            "S08-memoir-4",
+            "S08-memoir-7"
+          ]
+        }
+      ],
+      "word_count_he": 24
+    },
+    {
+      "number": 5,
+      "title": "כשהחנות נסגרת",
+      "sources": [
+        "S08-memoir-4"
+      ],
+      "scene_need": "למצוא מקום לישון בלי לצאת מן הבית",
+      "change": "החלל המוכר מקבל שימוש אחר",
+      "emotion": "הפתעה יומיומית וחום",
+      "turn_hook": "הבית נרדם. מי עוד ער?",
+      "withhold": "לשמור את תמונת החנות־כחדר לשלב האחרון.",
+      "layout": "four-beat",
+      "sequence": "home",
+      "panels": [
+        {
+          "id": "B01-P05-01",
+          "reading_order": 1,
+          "action": "אותה זווית חנות מן היום, ללא לקוחות עכשיו.",
+          "texts": [
+            {
+              "he": "ביום הייתה כאן חנות.",
+              "en": "By day, this was a shop.",
+              "source": "S08-memoir-4",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P05-01-T1",
+              "sources": [
+                "S08-memoir-4"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4"
+          ]
+        },
+        {
+          "id": "B01-P05-02",
+          "reading_order": 2,
+          "action": "מכינים מצעים ליד התנור ובין אזורי האחסון.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4"
+          ]
+        },
+        {
+          "id": "B01-P05-03",
+          "reading_order": 3,
+          "action": "כמה מן הילדים מסתדרים לשינה.",
+          "texts": [
+            {
+              "he": "בלילה ישנו כאן גם הילדים. הקטנים ביותר ישנו עם ההורים.",
+              "en": "At night, children slept here too. The very youngest slept with our parents.",
+              "source": "S08-memoir-4",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P05-03-T1",
+              "sources": [
+                "S08-memoir-4"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4"
+          ]
+        },
+        {
+          "id": "B01-P05-04",
+          "reading_order": 4,
+          "action": "החנות משמשת חדר שינה, עם הסחורה עדיין נראית.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4"
+          ]
+        }
+      ],
+      "word_count_he": 14
+    },
+    {
+      "number": 6,
+      "title": "עוד כפתור אחד",
+      "sources": [
+        "S08-memoir-7"
+      ],
+      "scene_need": "לבוש מוכן ליום הבא",
+      "change": "הקורא רואה את הטיפול שמאחורי השגרה",
+      "emotion": "אהבה שקטה",
+      "turn_hook": "איך נראים הימים הטובים בבית?",
+      "withhold": "אין מסר כתוב על הקרבה או אמא בוכה.",
+      "layout": "quiet-four",
+      "sequence": "home",
+      "panels": [
+        {
+          "id": "B01-P06-01",
+          "reading_order": 1,
+          "action": "הילדים ישנים.",
+          "texts": [
+            {
+              "he": "אחרי שנרדמנו, אמא עוד הייתה ערה.",
+              "en": "After we fell asleep, Mother was still awake.",
+              "source": "S08-memoir-7",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P06-01-T1",
+              "sources": [
+                "S08-memoir-7"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-7"
+          ]
+        },
+        {
+          "id": "B01-P06-02",
+          "reading_order": 2,
+          "action": "אור מנורת נפט ליד האם ובגד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-7"
+          ]
+        },
+        {
+          "id": "B01-P06-03",
+          "reading_order": 3,
+          "action": "ידיים מתקנות כפתור או כיס.",
+          "texts": [
+            {
+              "he": "לזה כפתור, לזה כיס. היא תיקנה את הבגדים שלנו למחר.",
+              "en": "A button for one, a pocket for another. She mended our clothes for the next day.",
+              "source": "S08-memoir-7",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P06-03-T1",
+              "sources": [
+                "S08-memoir-7"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-7"
+          ]
+        },
+        {
+          "id": "B01-P06-04",
+          "reading_order": 4,
+          "action": "הבגד המתוקן מונח לצד הבגדים האחרים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-7"
+          ]
+        }
+      ],
+      "word_count_he": 16
+    },
+    {
+      "number": 7,
+      "title": "ריח של שבת",
+      "sources": [
+        "S08-memoir-4",
+        "S08-memoir-6",
+        "S08-memoir-7",
+        "S08-memoir-8"
+      ],
+      "scene_need": "לחיות רגע רגיל וטוב עם המשפחה",
+      "change": "יש לקורא בית שהוא ירצה לחזור אליו",
+      "emotion": "נחת וציפייה",
+      "turn_hook": "איטשע עומד להתחיל ללמוד.",
+      "withhold": "בלי דיאלוג משפחתי או בדיחת שולחן שלא תועדו.",
+      "layout": "wide-three",
+      "sequence": "home",
+      "panels": [
+        {
+          "id": "B01-P07-01",
+          "reading_order": 1,
+          "action": "הכנת חלות ועוגות לפי זיכרונות הבית.",
+          "texts": [
+            {
+              "he": "אמא הכינה גם חלות ועוגות לשבת.",
+              "en": "Mother made challah and cakes for Shabbat too.",
+              "source": "S08-memoir-4",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P07-01-T1",
+              "sources": [
+                "S08-memoir-4",
+                "S08-memoir-6",
+                "S08-memoir-7",
+                "S08-memoir-8"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4",
+            "S08-memoir-6",
+            "S08-memoir-7",
+            "S08-memoir-8"
+          ]
+        },
+        {
+          "id": "B01-P07-02",
+          "reading_order": 2,
+          "action": "בני הבית מחכים עד שהאם יושבת לארוחה.",
+          "texts": [
+            {
+              "he": "עד שאמא ישבה, חיכינו גם אנחנו.",
+              "en": "We waited until Mother had sat down too.",
+              "source": "S08-memoir-4",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P07-02-T1",
+              "sources": [
+                "S08-memoir-4",
+                "S08-memoir-6",
+                "S08-memoir-7",
+                "S08-memoir-8"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4",
+            "S08-memoir-6",
+            "S08-memoir-7",
+            "S08-memoir-8"
+          ]
+        },
+        {
+          "id": "B01-P07-03",
+          "reading_order": 3,
+          "action": "מראה רחב של המשפחה בארוחה, ללא תיעוד של ערב מסוים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-4",
+            "S08-memoir-6",
+            "S08-memoir-7",
+            "S08-memoir-8"
+          ]
+        }
+      ],
+      "word_count_he": 12
+    },
+    {
+      "number": 8,
+      "title": "מקום חדש",
+      "sources": [
+        "S08-memoir-8",
+        "S08-memoir-9"
+      ],
+      "scene_need": "להיכנס למרחב לימודי חדש",
+      "change": "סוכרייה מופיעה במקום בלתי צפוי",
+      "emotion": "מבוכה קטנה וסקרנות",
+      "turn_hook": "למה יש סוכרייה על האות?",
+      "withhold": "לא להסביר מראש את מנהג המתיקות.",
+      "layout": "four-beat",
+      "sequence": "school",
+      "panels": [
+        {
+          "id": "B01-P08-01",
+          "reading_order": 1,
+          "action": "ילד צעיר יותר לצד אמו בדרך ללימודים.",
+          "texts": [
+            {
+              "he": "כשהתחלתי ללמוד בחדר, אמא הלכה איתי.",
+              "en": "When I began studying at the cheder, Mother came with me.",
+              "source": "S08-memoir-8",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P08-01-T1",
+              "sources": [
+                "S08-memoir-8",
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-8",
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P08-02",
+          "reading_order": 2,
+          "action": "חדר הלימוד והרבי; אין זיהוי מבנה מסוים.",
+          "texts": [
+            {
+              "he": "בחדר למדו אצל רבי.",
+              "en": "At the cheder, we learned with a teacher called a rebbe.",
+              "source": "S08-memoir-8",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P08-02-T1",
+              "sources": [
+                "S08-memoir-8",
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-8",
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P08-03",
+          "reading_order": 3,
+          "action": "האם לצד הילד ודף.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-8",
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P08-04",
+          "reading_order": 4,
+          "action": "סוכרייה מונחת על האות א, שתתווסף כטקסט חי.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-8",
+            "S08-memoir-9"
+          ]
+        }
+      ],
+      "word_count_he": 10
+    },
+    {
+      "number": 9,
+      "title": "האות המתוקה",
+      "sources": [
+        "S08-memoir-9"
+      ],
+      "scene_need": "להבין מה עושים עם הסוכרייה",
+      "change": "האות מתחברת לחוויה גופנית ונעימה",
+      "emotion": "שעשוע",
+      "turn_hook": "יום אחר יביא שאלה אחרת.",
+      "withhold": "אין הישג קריאה או פרס שלא הוזכרו.",
+      "layout": "small-to-large",
+      "sequence": "school",
+      "panels": [
+        {
+          "id": "B01-P09-01",
+          "reading_order": 1,
+          "action": "האות א והסוכרייה במרכז; אין כיתוב מוטבע בתמונה.",
+          "texts": [
+            {
+              "he": "אמא שמה סוכרייה על האות א.",
+              "en": "Mother put a sweet on the letter aleph.",
+              "source": "S08-memoir-9",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P09-01-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P09-02",
+          "reading_order": 2,
+          "action": "הילד מתקרב אל הסוכרייה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P09-03",
+          "reading_order": 3,
+          "action": "הוא לוקח אותה בפיו, כמתואר בזיכרון.",
+          "texts": [
+            {
+              "he": "ואני לקחתי אותה עם הפה.",
+              "en": "And I picked it up with my mouth.",
+              "source": "S08-memoir-9",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P09-03-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 10,
+      "title": "גרוש",
+      "sources": [
+        "S08-memoir-9"
+      ],
+      "scene_need": "להבין את מנהג המטבע",
+      "change": "מתגלה פער בין מה שנראה הוגן לבין מה שלא ידוע",
+      "emotion": "סקרנות וציפייה",
+      "turn_hook": "ומה קיבל איטשע?",
+      "withhold": "אין הבעה מרושעת אצל המבקר.",
+      "layout": "four-beat",
+      "sequence": "school",
+      "panels": [
+        {
+          "id": "B01-P10-01",
+          "reading_order": 1,
+          "action": "מבקר מגיע לחדר הלימוד; אינו מוצג כפקיד בריטי.",
+          "texts": [
+            {
+              "he": "לפעמים בא אלינו מבקר ושאל שאלות.",
+              "en": "Sometimes a visitor came and asked us questions.",
+              "source": "S08-memoir-9",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P10-01-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P10-02",
+          "reading_order": 2,
+          "action": "הוא שואל ילדים שאלות; אין שאלה לימודית מסוימת שהומצאה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P10-03",
+          "reading_order": 3,
+          "action": "ילד מקבל מטבע.",
+          "texts": [
+            {
+              "he": "ילדים שענו קיבלו ממנו גרוש.",
+              "en": "Children who answered received a coin from him.",
+              "source": "S08-memoir-9",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P10-03-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P10-04",
+          "reading_order": 4,
+          "action": "איטשע מתבונן; אין מחשבה מומצאת שהוא נחות או שנוא.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 11,
+      "title": "ואני?",
+      "sources": [
+        "S08-memoir-9"
+      ],
+      "scene_need": "לקבל הסבר להבדל",
+      "change": "הילד מבקש תשובה במקום לקבל הסבר מן הקריין",
+      "emotion": "פגיעה קטנה ואמפתיה",
+      "turn_hook": "מה האם יודעת שהילד אינו יודע?",
+      "withhold": "התשובה תופיע אחרי דפדוף, לא בכפולה הגלויה.",
+      "layout": "question-four",
+      "sequence": "school",
+      "panels": [
+        {
+          "id": "B01-P11-01",
+          "reading_order": 1,
+          "action": "איטשע מול המבקר, לפי הזיכרון שידע תשובות אך לא קיבל מטבע.",
+          "texts": [
+            {
+              "he": "ידעתי לענות, אבל לי הוא לא נתן.",
+              "en": "I knew the answers, but he did not give me a coin.",
+              "source": "S08-memoir-9",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P11-01-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P11-02",
+          "reading_order": 2,
+          "action": "ילד אחר עם מטבע; אין הקנטה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P11-03",
+          "reading_order": 3,
+          "action": "איטשע בבית מול אמו.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P11-04",
+          "reading_order": 4,
+          "action": "השאלה לאם, כהמחזה של שיחה מדווחת.",
+          "texts": [
+            {
+              "he": "למה הילדים האחרים קיבלו גרוש, ואני לא?",
+              "en": "Why did the other children get a coin, and not me?",
+              "source": "S08-memoir-9",
+              "kind": "adapted_speech",
+              "speaker": "איטשע",
+              "basis": "documented_reported_exchange",
+              "id": "B01-P11-04-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        }
+      ],
+      "word_count_he": 14
+    },
+    {
+      "number": 12,
+      "title": "מה שלא ראיתי",
+      "sources": [
+        "S08-memoir-9"
+      ],
+      "scene_need": "להבין את ההבדל בלי להשפיל איש",
+      "change": "מה שנראה כקיפוח מתגלה כעזרה",
+      "emotion": "הבנה וקרבה לאם",
+      "turn_hook": "הזמן עובר; שגרת הלימודים עומדת להשתנות.",
+      "withhold": "אין מעשה תרומה של הילד שלא תועד.",
+      "layout": "wide-three",
+      "sequence": "school",
+      "panels": [
+        {
+          "id": "B01-P12-01",
+          "reading_order": 1,
+          "action": "האם עונה לילד.",
+          "texts": [
+            {
+              "he": "הוא עוזר לילדים מבתים עניים. אתה מקבל ממני, ואני משלמת לרבי.",
+              "en": "He helps children from poor homes. You receive from me, and I pay the teacher.",
+              "source": "S08-memoir-9",
+              "kind": "adapted_speech",
+              "speaker": "אמא",
+              "basis": "documented_reported_exchange",
+              "id": "B01-P12-01-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P12-02",
+          "reading_order": 2,
+          "action": "הילד מקשיב; אין נאום על נתינה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        },
+        {
+          "id": "B01-P12-03",
+          "reading_order": 3,
+          "action": "חוזרים למבט בחדר הלימוד ללא סימון הילדים העניים כמוזנחים.",
+          "texts": [
+            {
+              "he": "אמא הסבירה לי מה שלא ידעתי.",
+              "en": "Mother explained what I had not known.",
+              "source": "S08-memoir-9",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P12-03-T1",
+              "sources": [
+                "S08-memoir-9"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-9"
+          ]
+        }
+      ],
+      "word_count_he": 17
+    },
+    {
+      "number": 13,
+      "title": "הרגל הנפוחה",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "לטפל ברגל כדי להמשיך בשגרה",
+      "change": "הבעיה נכנסת לחיים שכבר מכירים",
+      "emotion": "דאגה מדודה",
+      "turn_hook": "האם הטיפול יעזור?",
+      "withhold": "לא לרמוז מוקדם לניתוח או לווינה.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P13-01",
+          "reading_order": 1,
+          "action": "איטשע גדול יותר חוזר מן החדר; אין תאריך או גיל מדויקים.",
+          "texts": [
+            {
+              "he": "כבר הייתי גדול יותר. פעם חזרתי מהחדר עם רגל נפוחה.",
+              "en": "I was older by then. Once, I came home from the cheder with a swollen foot.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P13-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P13-02",
+          "reading_order": 2,
+          "action": "תקריב נעל ורגל בלי פצע גלוי.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P13-03",
+          "reading_order": 3,
+          "action": "מפגש עם רופא, שחזור כללי.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P13-04",
+          "reading_order": 4,
+          "action": "הורדת הנעל והמשך טיפול, בלי צעקת כאב שהומצאה.",
+          "texts": [
+            {
+              "he": "הרופא אמר שלא אנעל נעליים.",
+              "en": "The doctor told me not to wear shoes.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P13-04-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 15
+    },
+    {
+      "number": 14,
+      "title": "עוד טיפול",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "להמשיך ללמוד עם המגבלה",
+      "change": "הטיפול אינו פותר מיד את הבעיה",
+      "emotion": "אי־נוחות ודאגה",
+      "turn_hook": "מה יקרה גם לרגל השנייה?",
+      "withhold": "אין לייחס את הדריכה לבריונות.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P14-01",
+          "reading_order": 1,
+          "action": "משחה או יוד לצד תחבושות, בלי מותג או מרשם פיקטיבי.",
+          "texts": [
+            {
+              "he": "טיפלו בפצע, אבל הוא לא התרפא.",
+              "en": "They treated the sore, but it did not heal.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P14-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P14-02",
+          "reading_order": 2,
+          "action": "מעבר זמן ללא לוח תאריכים מדויק.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P14-03",
+          "reading_order": 3,
+          "action": "הילד עדיין הולך לחדר עם תחבושת.",
+          "texts": [
+            {
+              "he": "המשכתי ללכת לחדר עם תחבושת. לפעמים דרכו לי על הרגל.",
+              "en": "I kept going to the cheder with a bandage. Sometimes people stepped on my foot.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P14-03-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P14-04",
+          "reading_order": 4,
+          "action": "כפות רגליים צפופות במעבר; אין פגיעה מכוונת.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 16
+    },
+    {
+      "number": 15,
+      "title": "גם הרגל השנייה",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "להסתדר עם רגל פגועה",
+      "change": "נוספת מגבלה ממשית",
+      "emotion": "דאגה",
+      "turn_hook": "האם אפשר עדיין ללכת ללמוד?",
+      "withhold": "בלי דם ובלי איום רפואי מומצא.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P15-01",
+          "reading_order": 1,
+          "action": "דלת עץ פשוטה עם מסמרים, ללא מדריך לבניית משחק.",
+          "texts": [
+            {
+              "he": "פעם התנדנדתי על דלת עץ. מסמר חלוד פגע ברגל השנייה.",
+              "en": "Once, I swung on a wooden door. A rusty nail injured my other foot.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P15-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P15-02",
+          "reading_order": 2,
+          "action": "תנועה של הילד על הדלת, כפי שנזכר ביומן.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P15-03",
+          "reading_order": 3,
+          "action": "הפגיעה נשארת מחוץ לפריים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P15-04",
+          "reading_order": 4,
+          "action": "עכשיו שתי הרגליים חבושות.",
+          "texts": [
+            {
+              "he": "עכשיו שתי הרגליים היו חבושות.",
+              "en": "Now both feet were bandaged.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P15-04-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 15
+    },
+    {
+      "number": 16,
+      "title": "להישאר במיטה",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "להמשיך בחיים כשאי אפשר ללכת ללימודים",
+      "change": "השגרה נקטעת",
+      "emotion": "הזדהות ושקט",
+      "turn_hook": "איך מגיעים הלימודים אליו?",
+      "withhold": "אין שורה מכריזה על המסר של אי־ויתור.",
+      "layout": "quiet-four",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P16-01",
+          "reading_order": 1,
+          "action": "הרופא בודק, ללא טקסט שלו שלא תועד.",
+          "texts": [
+            {
+              "he": "המצב החמיר. הרופא אמר שלא אלך לחדר, אלא אשכב במיטה.",
+              "en": "It grew worse. The doctor said I must stay in bed instead of going to the cheder.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P16-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P16-02",
+          "reading_order": 2,
+          "action": "הילד במיטה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P16-03",
+          "reading_order": 3,
+          "action": "החדר מוכר, אבל כל הפעילות רחוקה ממנו.",
+          "texts": [
+            {
+              "he": "שכבתי כך זמן רב.",
+              "en": "I stayed in bed for a long time.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P16-03-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P16-04",
+          "reading_order": 4,
+          "action": "דף ריק ומקום ליד המיטה; אין אח נעדר שהומצא.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 14
+    },
+    {
+      "number": 17,
+      "title": "חיים מתקרב",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "ליצור דרך מעשית ללמוד במיטה",
+      "change": "הילד מקבל הזמנה לפעול",
+      "emotion": "ציפייה וקרבה לאח",
+      "turn_hook": "מה יעשה איטשע בסימנים שעל הדף?",
+      "withhold": "לא להראות כבר את הכתיבה בדיו.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P17-01",
+          "reading_order": 1,
+          "action": "אחי חיים ליד המיטה, עם דף ועיפרון.",
+          "texts": [
+            {
+              "he": "אחי חיים עזר לי ללמוד לכתוב.",
+              "en": "My brother Chaim helped me learn to write.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P17-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P17-02",
+          "reading_order": 2,
+          "action": "הילד מביט בדף.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P17-03",
+          "reading_order": 3,
+          "action": "חיים מסמן בעיפרון; התווים יוספו בשכבה חיה אם צריך.",
+          "texts": [
+            {
+              "he": "הוא כתב בשבילי בעיפרון.",
+              "en": "He wrote in pencil for me.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P17-03-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P17-04",
+          "reading_order": 4,
+          "action": "דף עם קווים בהירים וכלי דיו לצדו.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 10
+    },
+    {
+      "number": 18,
+      "title": "עכשיו היד שלי",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "להשתתף בעצמו בלימוד",
+      "change": "המגבלה נשארת, ונפתחת אפשרות",
+      "emotion": "סיפוק קטן",
+      "turn_hook": "מה עוד יכול להגיע אליו מבחוץ?",
+      "withhold": "אין אות מושלמת, מבחן או פרס שלא תועדו.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P18-01",
+          "reading_order": 1,
+          "action": "כלי הדיו מתקרב לדף.",
+          "texts": [
+            {
+              "he": "כתב לי עם עיפרון, ואני עברתי על זה עם דיו",
+              "en": "He wrote for me in pencil, and I went over it in ink.",
+              "source": "S08-memoir-10",
+              "kind": "quote",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P18-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": false
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P18-02",
+          "reading_order": 2,
+          "action": "יד הילד עוקבת אחרי סימון בעיפרון.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P18-03",
+          "reading_order": 3,
+          "action": "תקריב התנועה, ללא שפיכת דיו או כישלון שהומצאו.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P18-04",
+          "reading_order": 4,
+          "action": "הדף והיד לצד המיטה: הוא עדיין במיטה, אבל עוסק בכתיבה.",
+          "texts": [
+            {
+              "he": "כך התאמנתי, במשך זמן רב.",
+              "en": "That was how I practiced, for a long time.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P18-04-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 15
+    },
+    {
+      "number": 19,
+      "title": "נייר מן החנות",
+      "sources": [
+        "S08-memoir-10"
+      ],
+      "scene_need": "למצוא עוד מה לקרוא",
+      "change": "נייר שהיה עטיפה הופך לחלון למידע",
+      "emotion": "סקרנות",
+      "turn_hook": "מה יש בעולם שמופיע בעיתון?",
+      "withhold": "אין כותרת עיתון היסטורית מזויפת.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P19-01",
+          "reading_order": 1,
+          "action": "סחורה עטופה בנייר, בלי מותג מזוהה.",
+          "texts": [
+            {
+              "he": "קרובי משפחה קיבלו סחורה עטופה בעיתונים.",
+              "en": "Relatives received goods wrapped in newspapers.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P19-01-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P19-02",
+          "reading_order": 2,
+          "action": "נייר העטיפה נפתח; האותיות אינן מודפסות בתוך תמונת AI.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P19-03",
+          "reading_order": 3,
+          "action": "הנייר מובא לילד.",
+          "texts": [
+            {
+              "he": "את העיתונים הביאו לי לקרוא.",
+              "en": "They brought me the newspapers to read.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P19-03-T1",
+              "sources": [
+                "S08-memoir-10"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        },
+        {
+          "id": "B01-P19-04",
+          "reading_order": 4,
+          "action": "הוא פותח עיתון לצד המיטה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 20,
+      "title": "עולם על הדף",
+      "sources": [
+        "S08-memoir-10",
+        "S08-memoir-11"
+      ],
+      "scene_need": "להבין מילה חדשה",
+      "change": "הקריאה מעלה שאלה אמיתית",
+      "emotion": "סקרנות",
+      "turn_hook": "מה הילד חושב ששמע?",
+      "withhold": "אין תמונת קרב או סיום השיחה כבר כאן.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P20-01",
+          "reading_order": 1,
+          "action": "הילד קורא; המיטה נשארת נוכחת.",
+          "texts": [
+            {
+              "he": "קראתי על מלחמה בבלקנים.",
+              "en": "I read about a war in the Balkans.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P20-01-T1",
+              "sources": [
+                "S08-memoir-10",
+                "S08-memoir-11"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10",
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P20-02",
+          "reading_order": 2,
+          "action": "תקריב המבט והתנועה על הדף.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10",
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P20-03",
+          "reading_order": 3,
+          "action": "השם בלקנים מוצג כטקסט עריכתי חי, לא ככותרת מקור.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10",
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P20-04",
+          "reading_order": 4,
+          "action": "הילד פונה אל אביו.",
+          "texts": [
+            {
+              "he": "הייתה לי שאלה לאבא.",
+              "en": "I had a question for Father.",
+              "source": "S08-memoir-10",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P20-04-T1",
+              "sources": [
+                "S08-memoir-10",
+                "S08-memoir-11"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-10",
+            "S08-memoir-11"
+          ]
+        }
+      ],
+      "word_count_he": 8
+    },
+    {
+      "number": 21,
+      "title": "מלחמה על מרפסת?",
+      "sources": [
+        "S08-memoir-11"
+      ],
+      "scene_need": "לבדוק אם הבין מה שקרא",
+      "change": "הקורא מגלה את אי־ההבנה",
+      "emotion": "הפתעה והומור עדין",
+      "turn_hook": "מה ההבדל בין בלקנים לבלקונים?",
+      "withhold": "התיקון יהיה אחרי דפדוף, בלי אב לועג.",
+      "layout": "question-four",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P21-01",
+          "reading_order": 1,
+          "action": "איטשע פונה אל אביו מן המיטה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P21-02",
+          "reading_order": 2,
+          "action": "תקריב הילד שואל.",
+          "texts": [
+            {
+              "he": "אבא, אפשר לעשות מלחמה על בלקונים?",
+              "en": "Father, can people fight a war on balconies?",
+              "source": "S08-memoir-11",
+              "kind": "adapted_speech",
+              "speaker": "איטשע",
+              "basis": "documented_reported_exchange",
+              "id": "B01-P21-02-T1",
+              "sources": [
+                "S08-memoir-11"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P21-03",
+          "reading_order": 3,
+          "action": "מרפסת כדימוי עריכתי של משמעות המילה, לא פנטזיה היסטורית שתועדה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P21-04",
+          "reading_order": 4,
+          "action": "שומרים את תגובת האב בלי תשובה כתובה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        }
+      ],
+      "word_count_he": 6
+    },
+    {
+      "number": 22,
+      "title": "אות אחת ועולם אחר",
+      "sources": [
+        "S08-memoir-11"
+      ],
+      "scene_need": "להבין ולחזור לקריאה",
+      "change": "שאלה קטנה מובילה לעוד הבנה ולקשר עם ההורים",
+      "emotion": "הקלה וחום",
+      "turn_hook": "הלימוד מתקדם. מה עם הרגל?",
+      "withhold": "אין מסר כתוב על כך ששום קושי אינו עוצר אותנו.",
+      "layout": "four-beat",
+      "sequence": "bed",
+      "panels": [
+        {
+          "id": "B01-P22-01",
+          "reading_order": 1,
+          "action": "האב מסביר לילד.",
+          "texts": [
+            {
+              "he": "לא בלקונים. בלקנים, זה שם של אזור.",
+              "en": "Not balconies. The Balkans, that is the name of a region.",
+              "source": "S08-memoir-11",
+              "kind": "adapted_speech",
+              "speaker": "אבא",
+              "basis": "documented_reported_exchange",
+              "id": "B01-P22-01-T1",
+              "sources": [
+                "S08-memoir-11"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P22-02",
+          "reading_order": 2,
+          "action": "דימוי עריכתי נפרד של אזור הבלקן; אין מפה שהאב החזיק כביכול.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P22-03",
+          "reading_order": 3,
+          "action": "הילד שב לקרוא.",
+          "texts": [
+            {
+              "he": "כל פעם התחלתי להבין יותר.",
+              "en": "Each time, I began to understand a little more.",
+              "source": "S08-memoir-11",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P22-03-T1",
+              "sources": [
+                "S08-memoir-11"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        },
+        {
+          "id": "B01-P22-04",
+          "reading_order": 4,
+          "action": "האם מקשיבה לו וקולה אינו מוסיף נאום.",
+          "texts": [
+            {
+              "he": "אמא אהבה לשמוע אותי קורא.",
+              "en": "Mother loved hearing me read.",
+              "source": "S08-memoir-11",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P22-04-T1",
+              "sources": [
+                "S08-memoir-11"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-11"
+          ]
+        }
+      ],
+      "word_count_he": 17
+    },
+    {
+      "number": 23,
+      "title": "הבית גדל",
+      "sources": [
+        "S08-memoir-18"
+      ],
+      "scene_need": "להצליח בטיפול שעוד לא עזר",
+      "change": "הדרך נפתחת מחוץ לעיר",
+      "emotion": "תקווה ודאגה",
+      "turn_hook": "מה יוכלו לעשות בוורשה?",
+      "withhold": "אין הבטחת רופא שהטיפול ודאי יצליח.",
+      "layout": "four-beat",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P23-01",
+          "reading_order": 1,
+          "action": "דירה מרווחת יותר מן הראשונה, לפי תיאור המעבר.",
+          "texts": [
+            {
+              "he": "בינתיים עברנו לדירה מרווחת יותר.",
+              "en": "Meanwhile, we moved to a roomier home.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P23-01-T1",
+              "sources": [
+                "S08-memoir-18"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P23-02",
+          "reading_order": 2,
+          "action": "משפחה מתארגנת במרחב החדש; אין יום מעבר מדויק.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P23-03",
+          "reading_order": 3,
+          "action": "הרגל עדיין חבושה.",
+          "texts": [
+            {
+              "he": "אבל הרגל עדיין לא החלימה. הרופא המליץ לנסוע לוורשה.",
+              "en": "But my foot still had not healed. The doctor recommended going to Warsaw.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P23-03-T1",
+              "sources": [
+                "S08-memoir-18"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P23-04",
+          "reading_order": 4,
+          "action": "רופא מקומי והאב מתכוננים לשלב טיפול אחר.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        }
+      ],
+      "word_count_he": 14
+    },
+    {
+      "number": 24,
+      "title": "עם אבא בדרך",
+      "sources": [
+        "S08-memoir-18"
+      ],
+      "scene_need": "להגיע למקום שעשוי לעזור",
+      "change": "הילד עוזב את הבית שיש לו קשר אליו",
+      "emotion": "קרבה לאב וחוסר היכרות",
+      "turn_hook": "איך יהיה בבית החולים?",
+      "withhold": "לא להמציא מסלול רכבת, יום נסיעה או שיחה בדרך.",
+      "layout": "wide-three",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P24-01",
+          "reading_order": 1,
+          "action": "אב ובן מוכנים לנסיעה; בגדים וצרור בשחזור.",
+          "texts": [
+            {
+              "he": "נסעתי עם אבא לוורשה, אל רופא אחר.",
+              "en": "I traveled with Father to Warsaw, to another doctor.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P24-01-T1",
+              "sources": [
+                "S08-memoir-18"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P24-02",
+          "reading_order": 2,
+          "action": "יציאה מן הסביבה המוכרת, ללא אמצעי תחבורה שלא תועד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P24-03",
+          "reading_order": 3,
+          "action": "שם ורשה במפת־דרך קטנה, חיצונית לאיור.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        }
+      ],
+      "word_count_he": 7
+    },
+    {
+      "number": 25,
+      "title": "הרופא בוורשה",
+      "sources": [
+        "S08-memoir-18"
+      ],
+      "scene_need": "לקבל טיפול אחר",
+      "change": "הבעיה מחייבת יותר מטיפול רגיל",
+      "emotion": "דאגה שקולה",
+      "turn_hook": "מה יקרה אחרי הניתוח?",
+      "withhold": "אין איום על חיים או כריתה שלא תועדה.",
+      "layout": "four-beat",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P25-01",
+          "reading_order": 1,
+          "action": "מפגש עם רופא; המראה המקצועי הוא שחזור.",
+          "texts": [
+            {
+              "he": "הרופא בדק את שתי הרגליים.",
+              "en": "The doctor examined both feet.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P25-01-T1",
+              "sources": [
+                "S08-memoir-18"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P25-02",
+          "reading_order": 2,
+          "action": "בדיקה ללא פצע גלוי.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P25-03",
+          "reading_order": 3,
+          "action": "האב לצד הילד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        },
+        {
+          "id": "B01-P25-04",
+          "reading_order": 4,
+          "action": "המעבר להחלטה רפואית, בלי דיבור מזויף.",
+          "texts": [
+            {
+              "he": "הוא החליט שצריך לנתח.",
+              "en": "He decided an operation was needed.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P25-04-T1",
+              "sources": [
+                "S08-memoir-18"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18"
+          ]
+        }
+      ],
+      "word_count_he": 9
+    },
+    {
+      "number": 26,
+      "title": "הטיפול",
+      "sources": [
+        "S08-memoir-18",
+        "S08-memoir-19"
+      ],
+      "scene_need": "לתת לטיפול זמן לפעול",
+      "change": "עוברים מן ההחלטה להחלמה",
+      "emotion": "שקט והמתנה",
+      "turn_hook": "האם הפעם יתרפא הפצע?",
+      "withhold": "אין פירוט גרפי. אי אפשר לצייר בהמשך אצבעות שצמחו מחדש.",
+      "layout": "quiet-three",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P26-01",
+          "reading_order": 1,
+          "action": "חדר אשפוז או חלון, ללא ניתוח מצויר.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P26-02",
+          "reading_order": 2,
+          "action": "הילד אחרי הטיפול, רגליים חבושות.",
+          "texts": [
+            {
+              "he": "ניתחו אותי בשתי הרגליים. אחר כך הייתי צריך להישאר בבית החולים.",
+              "en": "I had surgery on both feet. Afterwards, I had to stay in hospital.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P26-02-T1",
+              "sources": [
+                "S08-memoir-18",
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P26-03",
+          "reading_order": 3,
+          "action": "סביבה רפואית רגועה, לא בית חולים מאיים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 27,
+      "title": "לא באותו הקצב",
+      "sources": [
+        "S08-memoir-18",
+        "S08-memoir-19"
+      ],
+      "scene_need": "לחזור הביתה לאחר שהטיפול יסתיים",
+      "change": "ההתקדמות אינה אחידה",
+      "emotion": "תקווה לצד קושי",
+      "turn_hook": "עם מי יחזור הילד הביתה?",
+      "withhold": "אין הבטחה שהפצע שנותר קטן ולכן אינו מסוכן.",
+      "layout": "four-beat",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P27-01",
+          "reading_order": 1,
+          "action": "טיפול ותחבושות.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P27-02",
+          "reading_order": 2,
+          "action": "פרט של רגל שמאל לעומת ימין בלי אנטומיה גרפית.",
+          "texts": [
+            {
+              "he": "רגל שמאל התרפאה מהר יותר. בימין נשאר פצע.",
+              "en": "My left foot healed faster. A sore remained on the right.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P27-02-T1",
+              "sources": [
+                "S08-memoir-18",
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P27-03",
+          "reading_order": 3,
+          "action": "הילד נשאר במיטה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P27-04",
+          "reading_order": 4,
+          "action": "האב אינו בחדר, ללא סצנת פרידה חדשה.",
+          "texts": [
+            {
+              "he": "בינתיים אבא חזר הביתה. אני עוד נשארתי לטיפול.",
+              "en": "Meanwhile, Father went home. I stayed for more treatment.",
+              "source": "S08-memoir-18",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P27-04-T1",
+              "sources": [
+                "S08-memoir-18",
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-18",
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 16
+    },
+    {
+      "number": 28,
+      "title": "חזרה מוורשה",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להגיע בחזרה אל הבית",
+      "change": "עזרה מגיעה גם מחוץ למשפחה הקרובה",
+      "emotion": "הקלה",
+      "turn_hook": "האם החזרה הזאת היא סוף הטיפול?",
+      "withhold": "אין להחליף את האיש באביו של יצחק.",
+      "layout": "wide-three",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P28-01",
+          "reading_order": 1,
+          "action": "אדם מעיר הילדות בא לקחת את בתו מבית החולים.",
+          "texts": [
+            {
+              "he": "איש מעירנו בא לקחת את בתו. גם אותי לקח בחזרה הביתה.",
+              "en": "A man from our town came to collect his daughter. He took me home too.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P28-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P28-02",
+          "reading_order": 2,
+          "action": "איטשע מצטרף אליהם לפי סידור הדודה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P28-03",
+          "reading_order": 3,
+          "action": "חזרה לעיר הילדות, ללא כלי תחבורה שנקבע סתם.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 29,
+      "title": "הפצע נשאר",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להשלים את ההחלמה בבית",
+      "change": "החזרה הביתה אינה עדיין פתרון",
+      "emotion": "דאגה מחודשת",
+      "turn_hook": "לאן אפשר לפנות עכשיו?",
+      "withhold": "אין לכנות את הניתוח כישלון רפואי מוחלט או להאשים רופא.",
+      "layout": "four-beat",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P29-01",
+          "reading_order": 1,
+          "action": "הילד שוב בבית.",
+          "texts": [
+            {
+              "he": "חזרתי הביתה, אבל הפצע עוד לא נסגר.",
+              "en": "I came home, but the sore had still not healed.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P29-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P29-02",
+          "reading_order": 2,
+          "action": "טיפול מקומי חוזר.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P29-03",
+          "reading_order": 3,
+          "action": "התחבושת נשארת, למרות הזמן שעבר.",
+          "texts": [
+            {
+              "he": "טיפלו בי עוד זמן רב.",
+              "en": "They kept treating me for a long time.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P29-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P29-04",
+          "reading_order": 4,
+          "action": "ההורים פועלים להמשך טיפול, בלי מריבה פיקטיבית.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 12
+    },
+    {
+      "number": 30,
+      "title": "רחוק יותר",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "לנסות טיפול נוסף",
+      "change": "המרחק מן המוכר גדל",
+      "emotion": "תקווה מעורבת בחוסר ודאות",
+      "turn_hook": "מה יחכה בווינה?",
+      "withhold": "בלי לקבוע גיל, שנה או מסלול נסיעה מדויקים.",
+      "layout": "wide-three",
+      "sequence": "warsaw",
+      "panels": [
+        {
+          "id": "B01-P30-01",
+          "reading_order": 1,
+          "action": "רופא מקומי עם ההורים.",
+          "texts": [
+            {
+              "he": "הרופא המליץ לנסות בית חולים בווינה, באוסטריה.",
+              "en": "The doctor recommended trying a hospital in Vienna, Austria.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P30-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P30-02",
+          "reading_order": 2,
+          "action": "מפת־דרך גרפית קטנה: וינה באוסטריה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P30-03",
+          "reading_order": 3,
+          "action": "האב והילד מתכוננים לנסיעה נוספת.",
+          "texts": [
+            {
+              "he": "שוב יצאתי עם אבא לדרך.",
+              "en": "Once again, Father and I set off.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P30-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 12
+    },
+    {
+      "number": 31,
+      "title": "בית חולים אחר",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להתחיל טיפול נוסף במקום זר",
+      "change": "נדרשת התערבות חוזרת",
+      "emotion": "אי־ודאות",
+      "turn_hook": "איך יעבור הטיפול הפעם?",
+      "withhold": "אין תיאור מסוכן יותר ממה שסופר במקור.",
+      "layout": "four-beat",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P31-01",
+          "reading_order": 1,
+          "action": "הגעה לבית חולים משוחזר, שאינו מזוהה כמוסד מסוים.",
+          "texts": [
+            {
+              "he": "בווינה נכנסנו לבית חולים אחר.",
+              "en": "In Vienna, we entered another hospital.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P31-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P31-02",
+          "reading_order": 2,
+          "action": "צוות רפואי פוגש את האב והילד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P31-03",
+          "reading_order": 3,
+          "action": "הילד בתוך חדר חדש.",
+          "texts": [
+            {
+              "he": "הרופא אמר שצריך לפתוח את התפרים ולטפל שוב.",
+              "en": "The doctor said the stitches had to be opened and the treatment done again.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P31-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P31-04",
+          "reading_order": 4,
+          "action": "האב עדיין לצד הילד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 13
+    },
+    {
+      "number": 32,
+      "title": "שוב טיפול",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להחלים לאחר התערבות נוספת",
+      "change": "מתחילים המתנה חדשה",
+      "emotion": "איפוק ותקווה",
+      "turn_hook": "איך ייראה הזמן בבית החולים?",
+      "withhold": "בלי מניין ימים או הבטחת ריפוי מיידית.",
+      "layout": "quiet-three",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P32-01",
+          "reading_order": 1,
+          "action": "הטיפול נשאר מחוץ לפריים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P32-02",
+          "reading_order": 2,
+          "action": "תחבושת נקייה וחדר אשפוז.",
+          "texts": [
+            {
+              "he": "עברתי עוד טיפול. הייתי צריך להישאר כדי שהרגל תחלים.",
+              "en": "I had more treatment. I had to stay until my foot healed.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P32-02-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P32-03",
+          "reading_order": 3,
+          "action": "רגע שקט של הצוות מטפל, כהמחשה לשירות הטוב שתיאר.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 9
+    },
+    {
+      "number": 33,
+      "title": "אבא חוזר",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להסתדר במקום זר בלי האב",
+      "change": "מי שנתן ביטחון אינו לצדו עכשיו",
+      "emotion": "בדידות ואמפתיה",
+      "turn_hook": "במה יוכל להיאחז בתוך המקום החדש?",
+      "withhold": "אין טענה שהאב נטש או הבטיח תאריך חזרה.",
+      "layout": "quiet-four",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P33-01",
+          "reading_order": 1,
+          "action": "האב עם הילד לפני נסיעתו; שחזור ללא שיחה מתועדת.",
+          "texts": [
+            {
+              "he": "אבא חזר הביתה. אני נשארתי בבית החולים.",
+              "en": "Father went home. I stayed in the hospital.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P33-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P33-02",
+          "reading_order": 2,
+          "action": "החדר ובו הילד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P33-03",
+          "reading_order": 3,
+          "action": "חלל ליד המיטה שנותר פנוי.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P33-04",
+          "reading_order": 4,
+          "action": "ידו של הילד עם חפץ תפילה פשוט.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 7
+    },
+    {
+      "number": 34,
+      "title": "בחדר החדש",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "לחיות בתוך האשפוז ולא רק להמתין לסופו",
+      "change": "יש בו גם טיפול טוב לצד זרות",
+      "emotion": "מורכבות ורוגע",
+      "turn_hook": "מה נותן לו חיבור למוכר?",
+      "withhold": "אין להציג את כל הילדים או הצוות כרעים.",
+      "layout": "four-beat",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P34-01",
+          "reading_order": 1,
+          "action": "מראה חדר עם ילדים אחרים.",
+          "texts": [
+            {
+              "he": "הייתי ילד שקט, בין ילדים שלא הכרתי.",
+              "en": "I was a quiet boy among children I did not know.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P34-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P34-02",
+          "reading_order": 2,
+          "action": "הילד אוכל; בלי לפרש כל אוכל כעלבון או כסכנה.",
+          "texts": [
+            {
+              "he": "את האוכל והשירות בבית החולים זכרתי לטובה.",
+              "en": "I remembered the hospital’s food and care as good.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P34-02-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P34-03",
+          "reading_order": 3,
+          "action": "טיפול רגיל בצוות.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P34-04",
+          "reading_order": 4,
+          "action": "הוא ליד מיטתו עם הסידור.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 14
+    },
+    {
+      "number": 35,
+      "title": "הסידור שלי",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להתפלל עם הדבר המוכר שלו",
+      "change": "גם החפץ הזה יוצא משליטתו",
+      "emotion": "דאגה ואמפתיה",
+      "turn_hook": "לאן נלקח הספר?",
+      "withhold": "לא להראות עדיין את מיקומו, ולא לבנות פחד משרפה.",
+      "layout": "four-beat",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P35-01",
+          "reading_order": 1,
+          "action": "סידור בידי הילד, ללא כתב AI.",
+          "texts": [
+            {
+              "he": "היה לי סידור, ספר התפילות שלי.",
+              "en": "I had a siddur, my prayer book.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P35-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P35-02",
+          "reading_order": 2,
+          "action": "הילד בתפילה ליד מיטתו.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P35-03",
+          "reading_order": 3,
+          "action": "ילדים אחרים מתקרבים; אין הבעה שטנית.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P35-04",
+          "reading_order": 4,
+          "action": "הסידור נלקח מידו, בלי דיאלוג מאיים.",
+          "texts": [
+            {
+              "he": "ילדים אחרים לקחו אותו ממני.",
+              "en": "Other children took it from me.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P35-04-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 36,
+      "title": "למעלה",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להגיע לסידור ולהתפלל",
+      "change": "המכשול מתגלה במלואו",
+      "emotion": "תסכול",
+      "turn_hook": "מה עושים כשהספר אינו בהישג יד?",
+      "withhold": "הספר על התנור, לא בתוך האש; אין שרפה במקור.",
+      "layout": "tall-reveal",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P36-01",
+          "reading_order": 1,
+          "action": "מבט אל התנור הגבוה בחדר.",
+          "texts": [
+            {
+              "he": "הם זרקו את הסידור על התנור הגבוה.",
+              "en": "They threw the siddur onto the tall stove.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P36-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P36-02",
+          "reading_order": 2,
+          "action": "הסידור מונח למעלה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P36-03",
+          "reading_order": 3,
+          "action": "הילד והגובה, בפרופורציות סבירות.",
+          "texts": [
+            {
+              "he": "לא יכולתי להגיע אליו.",
+              "en": "I could not reach it.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P36-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 11
+    },
+    {
+      "number": 37,
+      "title": "המרחק הקטן הזה",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "למצוא דרך לקיים תפילה בתוך מגבלה",
+      "change": "המרחק הגופני מקבל משמעות אנושית",
+      "emotion": "שהייה עם התסכול",
+      "turn_hook": "האם קיימת דרך אחרת?",
+      "withhold": "אין פתרון טיפוס, ספר חלופי או השבת הספר שלא תועדו.",
+      "layout": "quiet-three",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P37-01",
+          "reading_order": 1,
+          "action": "הסידור עדיין גבוה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P37-02",
+          "reading_order": 2,
+          "action": "ידי הילד במרחב שלו, בלי ניסיון טיפוס שהומצא.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P37-03",
+          "reading_order": 3,
+          "action": "הילד ליד המיטה.",
+          "texts": [
+            {
+              "he": "בלי הסידור, לא יכולתי להתפלל כמו שהכרתי.",
+              "en": "Without the siddur, I could not pray as I knew how.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P37-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 7
+    },
+    {
+      "number": 38,
+      "title": "אישה בבית החולים",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "לקבל ליווי בתוך המקום הזר",
+      "change": "מופיעה עזרה אנושית",
+      "emotion": "תקווה",
+      "turn_hook": "לאן הם נוסעים?",
+      "withhold": "אין טענה שראתה את לקיחת הסידור או הבטיחה להחזירו.",
+      "layout": "wide-three",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P38-01",
+          "reading_order": 1,
+          "action": "האישה היהודייה במרחב בית החולים; פניה לא זוהו במקור.",
+          "texts": [
+            {
+              "he": "הייתה בבית החולים אישה יהודייה.",
+              "en": "There was a Jewish woman at the hospital.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P38-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P38-02",
+          "reading_order": 2,
+          "action": "היא לצד הילד ועגלת חולים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P38-03",
+          "reading_order": 3,
+          "action": "הילד יוצא מן החדר בעגלה בלווייתה.",
+          "texts": [
+            {
+              "he": "היא לקחה אותי בעגלת חולים.",
+              "en": "She took me in a hospital chair.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P38-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 10
+    },
+    {
+      "number": 39,
+      "title": "אל התפילה",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להגיע למקום תפילה",
+      "change": "נמצאת דרך אחרת להיות בתפילה",
+      "emotion": "הקלה וסקרנות",
+      "turn_hook": "האם כאן הכול יהיה מוכר?",
+      "withhold": "אין שפת תפילה ידועה לקורא מראש.",
+      "layout": "four-beat",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P39-01",
+          "reading_order": 1,
+          "action": "נסיעה במסדרון משוחזר.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P39-02",
+          "reading_order": 2,
+          "action": "כניסה למרחב תפילה, בלי זיהוי מוסד לא מוכר.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P39-03",
+          "reading_order": 3,
+          "action": "הילד בתוך בית הכנסת של בית החולים.",
+          "texts": [
+            {
+              "he": "היא הביאה אותי לבית הכנסת של בית החולים.",
+              "en": "She brought me to the hospital synagogue.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P39-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P39-04",
+          "reading_order": 4,
+          "action": "אנשים מתפללים, ללא מלל תפילה מוטבע בתמונה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 8
+    },
+    {
+      "number": 40,
+      "title": "גם כאן משהו אחר",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להבין ולמצוא קשר בתוך תפילה זרה",
+      "change": "העזרה אמיתית, והזרות אינה נעלמת לגמרי",
+      "emotion": "מורכבות וקשר",
+      "turn_hook": "האם הרגל תחלים ויוכל לחזור הביתה?",
+      "withhold": "לא להפוך את האישה לפותרת קסמים או לטעון שהסידור הוחזר.",
+      "layout": "wide-three",
+      "sequence": "vienna",
+      "panels": [
+        {
+          "id": "B01-P40-01",
+          "reading_order": 1,
+          "action": "הילד מקשיב.",
+          "texts": [
+            {
+              "he": "אבל התפללו שם בגרמנית. לא הבנתי את המילים.",
+              "en": "But the prayers there were in German. I did not understand the words.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P40-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P40-02",
+          "reading_order": 2,
+          "action": "מבטו בין המתפללים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P40-03",
+          "reading_order": 3,
+          "action": "האישה נוכחת במרחב שלו; אין מגע מנחם מסוים שנטען כעובדה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 8
+    },
+    {
+      "number": 41,
+      "title": "זמן להחלים",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "לתת להחלמה זמן",
+      "change": "נראה שינוי ממשי במצב הגופני",
+      "emotion": "תקווה",
+      "turn_hook": "האם אפשר כבר לחזור?",
+      "withhold": "אין ריפוי פתאומי, קפיצה או ריצה שלא תועדו.",
+      "layout": "four-beat",
+      "sequence": "homecoming",
+      "panels": [
+        {
+          "id": "B01-P41-01",
+          "reading_order": 1,
+          "action": "חדר הטיפול בתקופה מאוחרת יותר.",
+          "texts": [
+            {
+              "he": "המשכתי לקבל טיפול בבית החולים.",
+              "en": "I kept receiving treatment in the hospital.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P41-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P41-02",
+          "reading_order": 2,
+          "action": "תחבושות וטיפול רגיל.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P41-03",
+          "reading_order": 3,
+          "action": "הילד בתוך שגרת בית החולים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P41-04",
+          "reading_order": 4,
+          "action": "עוד שלב החלמה, בלי סימון ימים לא ידוע.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 5
+    },
+    {
+      "number": 42,
+      "title": "השלב שחיכינו לו",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "להגיע לסוף האשפוז",
+      "change": "הריפוי וחזרת האב הם גמול לשהייה עם הילד",
+      "emotion": "הקלה ושמחה",
+      "turn_hook": "נותנים למפגש זמן בתוך אותה כפולה.",
+      "withhold": "עמודים 42 ו־43 הם יחד גילוי ותגובה, לא תעלומת דפדוף.",
+      "layout": "breathing-three",
+      "sequence": "homecoming",
+      "panels": [
+        {
+          "id": "B01-P42-01",
+          "reading_order": 1,
+          "action": "הילד אחרי הטיפול.",
+          "texts": [
+            {
+              "he": "הרגל התרפאה.",
+              "en": "My foot healed.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P42-01-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P42-02",
+          "reading_order": 2,
+          "action": "האב מגיע לבית החולים, לפי זיכרונו של יצחק.",
+          "texts": [
+            {
+              "he": "אבא חזר לקחת אותי.",
+              "en": "Father came back to collect me.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P42-02-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P42-03",
+          "reading_order": 3,
+          "action": "המפגש נפתח, וימשיך בעמוד הבא כחלק מאותה כפולה.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 6
+    },
+    {
+      "number": 43,
+      "title": "אבא כאן",
+      "sources": [
+        "S08-memoir-19"
+      ],
+      "scene_need": "לצאת מן האשפוז עם האדם המוכר",
+      "change": "הפרידה נסגרת",
+      "emotion": "שמחה והקלה",
+      "turn_hook": "עכשיו מתחילה הדרך הביתה.",
+      "withhold": "אין איחור של האב או פחד שלא יבוא.",
+      "layout": "large-reunion",
+      "sequence": "homecoming",
+      "panels": [
+        {
+          "id": "B01-P43-01",
+          "reading_order": 1,
+          "action": "האב שכבר הגיע ליד מיטת הילד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P43-02",
+          "reading_order": 2,
+          "action": "הילד רואה אותו; מבט רגשי הוא שחזור.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        },
+        {
+          "id": "B01-P43-03",
+          "reading_order": 3,
+          "action": "שניהם יחד, בלי שיחה או חיבוק שנאמר שתועדו.",
+          "texts": [
+            {
+              "he": "עכשיו יכולנו לחזור הביתה.",
+              "en": "Now we could go home.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P43-03-T1",
+              "sources": [
+                "S08-memoir-19"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19"
+          ]
+        }
+      ],
+      "word_count_he": 4
+    },
+    {
+      "number": 44,
+      "title": "שוב ביחד",
+      "sources": [
+        "S08-memoir-19",
+        "S08-memoir-20"
+      ],
+      "scene_need": "לעבור מן האשפוז חזרה לחיים",
+      "change": "הילד אינו לבדו בדרך",
+      "emotion": "ביטחון",
+      "turn_hook": "מה ירגיש עכשיו הבית?",
+      "withhold": "בלי ארוחת פרידה או מתנת צוות שלא תועדו.",
+      "layout": "wide-three",
+      "sequence": "homecoming",
+      "panels": [
+        {
+          "id": "B01-P44-01",
+          "reading_order": 1,
+          "action": "אב ובן מתארגנים לצאת.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        },
+        {
+          "id": "B01-P44-02",
+          "reading_order": 2,
+          "action": "הם מחוץ למרחב האשפוז.",
+          "texts": [
+            {
+              "he": "עזבנו את בית החולים יחד.",
+              "en": "We left the hospital together.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P44-02-T1",
+              "sources": [
+                "S08-memoir-19",
+                "S08-memoir-20"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        },
+        {
+          "id": "B01-P44-03",
+          "reading_order": 3,
+          "action": "עיר ודרך כלליות, ללא מסלול או כלי רכב שנקבעו.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        }
+      ],
+      "word_count_he": 5
+    },
+    {
+      "number": 45,
+      "title": "הדרך אל הבית",
+      "sources": [
+        "S08-memoir-19",
+        "S08-memoir-20"
+      ],
+      "scene_need": "לחזור למקום שכבר מכירים ואוהבים",
+      "change": "המקום מן ההתחלה מקבל משמעות נוספת",
+      "emotion": "ציפייה חמה",
+      "turn_hook": "איך ייראה הבית אחרי הדרך?",
+      "withhold": "אין מסיבת קבלת פנים, דיאלוג או תאריך שהומצאו.",
+      "layout": "wide-three",
+      "sequence": "homecoming",
+      "panels": [
+        {
+          "id": "B01-P45-01",
+          "reading_order": 1,
+          "action": "סימון מקום חיצוני לאיור: וינה אל עיר הילדות.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        },
+        {
+          "id": "B01-P45-02",
+          "reading_order": 2,
+          "action": "אב ובן בדרך; העמדה כללית.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        },
+        {
+          "id": "B01-P45-03",
+          "reading_order": 3,
+          "action": "העיר המוכרת מתגלה.",
+          "texts": [
+            {
+              "he": "חזרנו הביתה.",
+              "en": "We came home.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P45-03-T1",
+              "sources": [
+                "S08-memoir-19",
+                "S08-memoir-20"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        }
+      ],
+      "word_count_he": 2
+    },
+    {
+      "number": 46,
+      "title": "בבית",
+      "sources": [
+        "S08-memoir-19",
+        "S08-memoir-20"
+      ],
+      "scene_need": "לשוב להשתייכות ולחיים בבית",
+      "change": "המסע של הכרך מקבל סגירה",
+      "emotion": "נחת",
+      "turn_hook": "מי זוכר עכשיו את הדרך הזאת?",
+      "withhold": "לא לטעון שאותו בגד, סידור או רהיט נשמר במציאות.",
+      "layout": "large-home",
+      "sequence": "homecoming",
+      "panels": [
+        {
+          "id": "B01-P46-01",
+          "reading_order": 1,
+          "action": "מראה הבית והמשפחה לאחר החזרה; שחזור כללי של חיים בבית.",
+          "texts": [
+            {
+              "he": "הייתי שוב בבית, אחרי כל הטיפולים.",
+              "en": "I was home again, after all the treatments.",
+              "source": "S08-memoir-19",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "documented_event",
+              "id": "B01-P46-01-T1",
+              "sources": [
+                "S08-memoir-19",
+                "S08-memoir-20"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        },
+        {
+          "id": "B01-P46-02",
+          "reading_order": 2,
+          "action": "הילד במרחב ביתי, לא סצנת ריצה כהוכחת ריפוי מלא.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        },
+        {
+          "id": "B01-P46-03",
+          "reading_order": 3,
+          "action": "פרט מוכר מן הבית, כחרוז חזותי בלבד.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-19",
+            "S08-memoir-20"
+          ]
+        }
+      ],
+      "word_count_he": 6
+    },
+    {
+      "number": 47,
+      "title": "מה שנשאר בזיכרון",
+      "sources": [
+        "S08-memoir-1",
+        "S08-memoir-4",
+        "S08-memoir-7",
+        "S08-memoir-19",
+        "S08-memoir-139"
+      ],
+      "scene_need": "לסגור את הקשר בין הזיכרון לבין המשפחה הקוראת",
+      "change": "הקורא מבין מה נשאר מן המסע",
+      "emotion": "קרבה והכרת תודה",
+      "turn_hook": "עוד חלקים בסיפור חייו מחכים.",
+      "withhold": "אין נאום המפרש כל מעשה או טענה שסיכם כך במקור.",
+      "layout": "intimate-three",
+      "sequence": "closing",
+      "panels": [
+        {
+          "id": "B01-P47-01",
+          "reading_order": 1,
+          "action": "חזרה לידו המבוגרת של יצחק במחברת.",
+          "texts": [
+            {
+              "he": "עברו שנים רבות. את העזרה ואת הדאגה לא שכחתי.",
+              "en": "Many years passed. I did not forget the help and care.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "literary_reflection_grounded_in_recollections",
+              "id": "B01-P47-01-T1",
+              "sources": [
+                "S08-memoir-1",
+                "S08-memoir-4",
+                "S08-memoir-7",
+                "S08-memoir-19",
+                "S08-memoir-139"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1",
+            "S08-memoir-4",
+            "S08-memoir-7",
+            "S08-memoir-19",
+            "S08-memoir-139"
+          ]
+        },
+        {
+          "id": "B01-P47-02",
+          "reading_order": 2,
+          "action": "פרטים גרפיים קטנים: יד העוזרת לכתוב, בגד מתוקן, עגלת חולים.",
+          "texts": [],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1",
+            "S08-memoir-4",
+            "S08-memoir-7",
+            "S08-memoir-19",
+            "S08-memoir-139"
+          ]
+        },
+        {
+          "id": "B01-P47-03",
+          "reading_order": 3,
+          "action": "מבטו הרך של המספר; בלי צאצאים נוכחים בחדר.",
+          "texts": [
+            {
+              "he": "ועכשיו אני משאיר לכם את הזיכרונות, באהבה.",
+              "en": "Now I leave you these memories, with love.",
+              "source": "S08-memoir-1",
+              "kind": "adapted",
+              "speaker": "יצחק המבוגר",
+              "basis": "family_requested_literary_frame",
+              "id": "B01-P47-03-T1",
+              "sources": [
+                "S08-memoir-1",
+                "S08-memoir-4",
+                "S08-memoir-7",
+                "S08-memoir-19",
+                "S08-memoir-139"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-1",
+            "S08-memoir-4",
+            "S08-memoir-7",
+            "S08-memoir-19",
+            "S08-memoir-139"
+          ]
+        }
+      ],
+      "word_count_he": 16,
+      "reader_takeaways": [
+        {
+          "he": "לשאול כשלא מבינים.",
+          "en": "Ask when you do not understand.",
+          "source": null,
+          "kind": "editorial",
+          "speaker": "מסגרת הספר",
+          "basis": "documented_event",
+          "id": "B01-TAKEAWAY-1",
+          "sources": [
+            "S08-memoir-9",
+            "S08-memoir-10",
+            "S08-memoir-11",
+            "S08-memoir-19"
+          ],
+          "review_required": true
+        },
+        {
+          "he": "יש יותר מדרך אחת ללמוד.",
+          "en": "There is more than one way to learn.",
+          "source": null,
+          "kind": "editorial",
+          "speaker": "מסגרת הספר",
+          "basis": "documented_event",
+          "id": "B01-TAKEAWAY-2",
+          "sources": [
+            "S08-memoir-9",
+            "S08-memoir-10",
+            "S08-memoir-11",
+            "S08-memoir-19"
+          ],
+          "review_required": true
+        },
+        {
+          "he": "לזכור את מי שעוזר.",
+          "en": "Remember those who help.",
+          "source": null,
+          "kind": "editorial",
+          "speaker": "מסגרת הספר",
+          "basis": "documented_event",
+          "id": "B01-TAKEAWAY-3",
+          "sources": [
+            "S08-memoir-9",
+            "S08-memoir-10",
+            "S08-memoir-11",
+            "S08-memoir-19"
+          ],
+          "review_required": true
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "העולם שבחוץ",
+      "sources": [
+        "S08-memoir-20",
+        "S08-memoir-25",
+        "S08-memoir-26",
+        "S08-memoir-27",
+        "S08-memoir-30",
+        "S08-memoir-33"
+      ],
+      "scene_need": "לפתוח שאלה חדשה לאחר סיום שלם",
+      "change": "ההמשך מזמין, וההישג של הכרך נשאר",
+      "emotion": "סקרנות",
+      "turn_hook": "המשך יבוא",
+      "withhold": "אין מעטפת איום, דמות מרושעת או מסר נבואי שהומצאו.",
+      "layout": "two-wide",
+      "sequence": "closing",
+      "panels": [
+        {
+          "id": "B01-P48-01",
+          "reading_order": 1,
+          "action": "דף מעבר נפרד מן הסיום: מבט עריכתי על עיר גדולה ודרך.",
+          "texts": [
+            {
+              "he": "בספר הבא: העולם שבחוץ.",
+              "en": "In the next book: The World Outside.",
+              "source": "S08-memoir-20",
+              "kind": "editorial",
+              "speaker": "מסגרת הספר",
+              "basis": "documented_event",
+              "id": "B01-P48-01-T1",
+              "sources": [
+                "S08-memoir-20",
+                "S08-memoir-25",
+                "S08-memoir-26",
+                "S08-memoir-27",
+                "S08-memoir-30",
+                "S08-memoir-33"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-20",
+            "S08-memoir-25",
+            "S08-memoir-26",
+            "S08-memoir-27",
+            "S08-memoir-30",
+            "S08-memoir-33"
+          ]
+        },
+        {
+          "id": "B01-P48-02",
+          "reading_order": 2,
+          "action": "כיתוב הזמנה לכרך הבא, ללא מות ההורים או תוצאת המלחמה.",
+          "texts": [
+            {
+              "he": "איטשע גדל. הוא יגיע לעיר גדולה, ויצטרך למצוא בה את דרכו.",
+              "en": "Itshe is growing up. He will reach a big city and have to find his way.",
+              "source": "S08-memoir-20",
+              "kind": "editorial",
+              "speaker": "מסגרת הספר",
+              "basis": "documented_event",
+              "id": "B01-P48-02-T1",
+              "sources": [
+                "S08-memoir-20",
+                "S08-memoir-25",
+                "S08-memoir-26",
+                "S08-memoir-27",
+                "S08-memoir-30",
+                "S08-memoir-33"
+              ],
+              "review_required": true
+            }
+          ],
+          "kind": "scene",
+          "visual_status": "storyboard directions, not generated art",
+          "historical_status": "Source-based event; exact framing, gestures and environment are proposed staging.",
+          "source_ids": [
+            "S08-memoir-20",
+            "S08-memoir-25",
+            "S08-memoir-26",
+            "S08-memoir-27",
+            "S08-memoir-30",
+            "S08-memoir-33"
+          ]
+        }
+      ],
+      "word_count_he": 15,
+      "continued": {
+        "he": "המשך יבוא.",
+        "en": "To be continued.",
+        "source": null,
+        "kind": "editorial",
+        "speaker": "מסגרת הספר",
+        "basis": "documented_event",
+        "id": "B01-CONTINUED",
+        "sources": [],
+        "review_required": true
+      }
+    }
+  ],
+  "sequences": [
+    {
+      "id": "frame",
+      "title": "המחברת והדלת לעבר",
+      "first": 1,
+      "last": 2,
+      "question": "למי האיש כותב, ולמה הוא רוצה שנכיר אותו?",
+      "relationship": "סבא וקוראיו",
+      "payoff": "נכנסים אל הילד מתוך קשר אישי, בלי תקציר שמגלה את ההמשך."
+    },
+    {
+      "id": "home",
+      "title": "בית שכדאי לחזור אליו",
+      "first": 3,
+      "last": 7,
+      "question": "איך חיים בבית קטן ובחנות, ומי דואג לשגרה?",
+      "relationship": "הילד, הוריו ואחיו",
+      "payoff": "הקורא מקבל שייכות וזיכרון של ימים טובים לפני הקושי."
+    },
+    {
+      "id": "school",
+      "title": "אות מתוקה ומטבע חסר",
+      "first": 8,
+      "last": 12,
+      "question": "למה ילדים אחרים קיבלו גרוש והוא לא?",
+      "relationship": "הילד ואמו",
+      "payoff": "האם מסבירה עובדה שלא ידע. ההבנה נולדת אחרי שהקורא היה עם השאלה."
+    },
+    {
+      "id": "bed",
+      "title": "המיטה אינה כל העולם",
+      "first": 13,
+      "last": 22,
+      "question": "איך יישאר חלק מן הלימודים כשאינו יכול ללכת לחדר?",
+      "relationship": "איטשע וחיים, ואחר כך הוריו",
+      "payoff": "הוא כותב, קורא ושואל. אין טענה שכוח רצון מרפא את הרגל."
+    },
+    {
+      "id": "warsaw",
+      "title": "נסיעה שאינה עדיין פתרון",
+      "first": 23,
+      "last": 30,
+      "question": "האם הטיפול בוורשה יאפשר לחזור לחיים בבית?",
+      "relationship": "הילד, אביו ומי שעוזר בדרך",
+      "payoff": "חוזר הביתה, אך הפצע נשאר; נפתחת דרך נוספת, לווינה."
+    },
+    {
+      "id": "vienna",
+      "title": "מקום זר, עזרה לא מוכרת",
+      "first": 31,
+      "last": 40,
+      "question": "איך מסתדרים באשפוז רחוק מן האב, כשהדברים המוכרים אינם בהישג יד?",
+      "relationship": "הילד, האב החסר והאישה היהודייה",
+      "payoff": "יש ליווי לתפילה, גם כשלא הכול מובן. עזרה אנושית, לא פתרון קסמים."
+    },
+    {
+      "id": "homecoming",
+      "title": "לחזור יחד",
+      "first": 41,
+      "last": 46,
+      "question": "מתי יוכל לצאת מן האשפוז ולחזור הביתה?",
+      "relationship": "הילד ואביו",
+      "payoff": "ההחלמה, חזרת האב והבית מקבלים זמן ומרחב, לא שורת סיכום אחת."
+    },
+    {
+      "id": "closing",
+      "title": "מה שהסבא משאיר",
+      "first": 47,
+      "last": 48,
+      "question": "מה מחבר בין הילד ובין מי שכותב כעת?",
+      "relationship": "הסבא ומשפחתו הקוראת",
+      "payoff": "זיכרון של טיפול ועזרה, שלוש מחשבות קצרות והזמנה נפרדת להמשך."
+    }
+  ],
+  "page_turns": [
+    {
+      "setup": 11,
+      "reveal": 12,
+      "type": "empathy-and-explanation",
+      "question": "למה לי לא נתנו?",
+      "payoff": "האם מסבירה את התמיכה בילדים מבתים עניים."
+    },
+    {
+      "setup": 17,
+      "reveal": 18,
+      "type": "action-and-agency",
+      "question": "מה יעשה הילד בסימוני העיפרון?",
+      "payoff": "ידו ממשיכה בדיו; הילד נעשה משתתף פעיל."
+    },
+    {
+      "setup": 21,
+      "reveal": 22,
+      "type": "gentle-humor",
+      "question": "מלחמה על בלקונים?",
+      "payoff": "אזור הבלקן מתגלה, וההסבר מוביל חזרה לקריאה ולאם המקשיבה."
+    },
+    {
+      "setup": 35,
+      "reveal": 36,
+      "type": "spatial-discovery",
+      "question": "לאן לקחו את הסידור?",
+      "payoff": "מיקומו בראש התנור מתגלה. לא מדובר בספר בוער."
+    },
+    {
+      "setup": 37,
+      "reveal": 38,
+      "type": "human-help",
+      "question": "איך יהיה חלק מן התפילה בלי יכולת להגיע לספר?",
+      "payoff": "אישה מלווה אותו. אין השבה מומצאת של הסידור."
+    },
+    {
+      "setup": 39,
+      "reveal": 40,
+      "type": "partial-relief",
+      "question": "האם הכול מוכר בבית הכנסת?",
+      "payoff": "השפה זרה; העזרה אמיתית והמורכבות נשארת."
+    },
+    {
+      "setup": 41,
+      "reveal": 42,
+      "type": "emotional-relief",
+      "question": "האם אפשר כבר לצאת מן האשפוז?",
+      "payoff": "החלמה וחזרת האב, עם מרחב תגובה בעמוד 43."
+    }
+  ],
+  "reader_opening_policy": "Only the personal family dedication before the story. No series synopsis or foreknowledge of later losses.",
+  "scope": "Childhood home, school, illness, learning, Warsaw, Vienna, recovery and homecoming. Parents’ deaths, wars, farming, aliyah and Esther belong to later volumes.",
+  "editorial_frame": "The direct address to great-grandchildren is new literary framing requested by the family. The 1971 diary dedication names children and grandchildren. No meeting with great-grandchildren is claimed.",
+  "stage_policy": "Known events may be staged visually; do not invent a new incident, spoken exchange, promise, failure, rescue or emotional declaration as historical fact.",
+  "print_assumption": "For planning, story page 1 is a single left page in an RTL book; spreads are 2/3, 4/5 etc. Verify actual front-matter imposition before final art. Reveal pairs must stay separated by a real page turn.",
+  "open_questions": [
+    "Exact ages and dates for foot illness, Warsaw and Vienna.",
+    "The Balkan-wars reference and place names are retrospective; do not infer a precise year from them without further research.",
+    "The first-school recollection names 1904. Character age must differ from later childhood; the existing child-v02 is not a verified age-four reference.",
+    "The timing of Father’s departure relative to surgery in Warsaw is not dated.",
+    "The original says Father did not collect Yitzhak on the return from Warsaw; a man from their town did.",
+    "The siddur was thrown ON TOP of a tall stove. No burning, retrieval or replacement is recorded.",
+    "Which Vienna hospital and synagogue, supporting faces and exact buildings remain unidentified."
+  ],
+  "lettering_policy": "Live Hebrew and English, one scene per image, no AI lettering, generous crop and text margins. Count words after arranging the scene; never abbreviate essential context to hit an arbitrary total."
+}

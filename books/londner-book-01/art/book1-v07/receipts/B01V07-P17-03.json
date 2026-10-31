@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P17-03",
+  "prompt": "ONE LANDSCAPE image 1536x1024, a historical family graphic novel in dramatic pastoral watercolor/gouache and light ink. Continue EXACTLY the boy, woman, wooden wicker hospital chair, cream nightshirt, flat cap and blue-green Vienna ward atmosphere in the reference. This action is their quiet progress along an early-1900s hospital corridor toward a prayer room; not a rescue or escape. View at a little distance from the side/back, woman guiding the chair calmly, the boy looking forward. The reference establishes anonymous woman's face and the approved boy's likeness; only these two people. Tall windows to the right cast warm light over muted plaster and worn wood floor. ALL of woman, child and chair occupy only central 55% width and 60% height, fully visible in x30–78%, y25–80%, NOT close to bottom or side edges. Include ample empty architecture around them. Upper-left quarter is deliberately a simple gently lit blue-green wall, no faces/objects, reserved for future caption. Keep hands and chair natural, no modern wheelchair technology. No letters, signage, written books, captions, speech bubbles, thought bubbles, panel frames, collage, logos or watermarks. One continuous scene only.\nCORRECTION: Correct only the distant prayer-room doorway at the end of the corridor. This story takes the Jewish child to the HOSPITAL SYNAGOGUE, not a Christian chapel. Completely remove the Christian cross and altar at the far end. Replace that distant interior with a quiet simple Jewish prayer room: dark wood benches and a small plain linen-curtained wooden cabinet, no readable inscriptions, no cross, no crucifix, no altar. Preserve every other part of this painting: same hospital corridor, exact two characters, chair, light, blank upper-left wall and composition. One continuous landscape scene, no lettering, bubbles or border.\nFINAL CORRECTION: Make ONE targeted correction: CLOSE the far doorway at the end of this corridor with a completely plain rectangular double wooden door. No view into the room beyond. The door has simple unornamented rectangular panels and no signs, symbols, crosses, carvings, decorations or windows. Remove the little cross-shaped finial currently visible beyond that far doorway by replacing the entire doorway interior with this closed plain door. Do not change the two people, chair, corridor, light or composition. No text or bubbles.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P17-02.png",
+    "/workspace/generated_images/exec-cb56b476-4049-413b-92c7-6f82728dc76c.png",
+    "/workspace/generated_images/exec-66f470ea-93ff-4027-94e5-c80639bf9a63.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-a21fad0f-7cc6-4c10-98da-111deea05c70.png",
+  "visual_review": {
+    "source_seen": true,
+    "count": "one child and one woman, matching preceding chair scene",
+    "quiet_area": "upper-left wall fully empty",
+    "crop_note": "figures and chair inside central frame with large margins",
+    "historical_correction": "wrong Christian prayer-room symbols from first two attempts removed; final far door is plain closed wood",
+    "pending": "actual browser masks and lettering not reviewed"
+  },
+  "rejected_attempts": [
+    "/workspace/generated_images/exec-cb56b476-4049-413b-92c7-6f82728dc76c.png",
+    "/workspace/generated_images/exec-66f470ea-93ff-4027-94e5-c80639bf9a63.png"
+  ],
+  "file": "art/book1-v07/B01V07-P17-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P17-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "fbb4739a450e0a09802934a77d11dea975e9a4333e3e8e85d44edc589dd34d2e",
+  "status": "generated-reviewed",
+  "generator": "image_gen__imagegen",
+  "generated_on": "2026-10-30"
+}

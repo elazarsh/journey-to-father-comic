@@ -1,0 +1,30 @@
+{
+  "story_pages": 48,
+  "physical_pages_provisional": 52,
+  "scene_sequences": 8,
+  "panels": 169,
+  "text_blocks": 90,
+  "words_he": 575,
+  "max_page_words_he": 25,
+  "max_text_block_words_he": 11,
+  "silent_action_panels": 83,
+  "literal_quotes_verified": 2,
+  "adapted_reported_speech": 4,
+  "designed_page_turn_pairs": 7,
+  "checks": {
+    "all_48_pages_have_need_change_emotion": true,
+    "all_sources_resolve": true,
+    "quotes_match_primary_transcript": true,
+    "all_text_has_hebrew_and_english": true,
+    "page_turn_pairs_not_on_same_provisional_spread": true,
+    "no_long_dashes_in_hebrew": true,
+    "all_panel_ids_unique_and_separate_from_old_manifest": true
+  },
+  "not_claimed": [
+    "No child-reader comprehension study.",
+    "No browser visual, face-crop or final lettering approval.",
+    "No final chronology or family approval.",
+    "No new illustrations in this revision.",
+    "No GitHub publication of this revision."
+  ]
+}

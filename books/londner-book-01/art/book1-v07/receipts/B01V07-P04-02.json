@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P04-02",
+  "source_path": "/workspace/generated_images/exec-8abc8f61-f2bc-45f1-9f56-eccd2337dd43.png",
+  "prompt": "Edit the FIRST reference scene into a night sleeping view of the EXACT SAME shop interior, maintaining the architecture: leather-roll shelves on LEFT wall, blue-and-white tall ceramic stove BACK center, interior doorway RIGHT leading to the small living room, and the low counter. A portrait 1024x1536 viewpoint framed slightly farther back/downward, a single continuous scene. The SECOND reference is ONLY Yitzhak's approved facial identity; portray him younger, about four, using narrow oval face, visible ears and longish natural nose, not oversized cartoon eyes. Exactly THREE sleeping siblings: one older teenage BOY Chaim, one older school-age GIRL Chava, and the small BOY Yitzhak about four. They sleep peacefully on three tidy low mattresses/bedrolls set in the cleared shop floor between the shelves; exactly TWO boys and ONE girl, no baby, no other people, no parents in this frame, no caps worn in sleep. Keep all three faces, hands and blankets within central 60% width and middle 55% height; ensure they are fully clothed under modest blankets. Their relative sizes make the age differences clear. The merchandise is neatly put away. Counter has been moved back just enough for sleeping, but stove and doorway are in identical positions. Warm oil-lamp amber light mixed with soft indigo night, dignified, cared-for, safe family atmosphere, no dirt/poverty melodrama. Show that a small SHOP becomes the sleeping room at night. Dramatic pastoral literary watercolor/gouache with selective ink contours matching the first image, strong but gentle light, tactile period wood/leather/textile, no glossy 3D or photorealism. Keep upper-left subdued wall 45% wide by 23% high quiet and low detail for a live caption, all faces below it. Generous 15% overscan for final comic cropping. NO text, bubbles, letters, border, frame, collage, watermark; ONE scene.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P03-01.png",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "family_count": "Exactly two sleeping boys and one sleeping girl; no baby/parents/extra children. Partial sibling group only.",
+    "scene_fidelity": "Night sleeping in same shop architecture as P03-01: shelves left, same tiled stove and interior door right. Merchandise still visible; no caps during sleep.",
+    "quiet_lettering": "Large subdued upper-left plaster field; all faces below it.",
+    "crop_notes": "Three faces centered across middle/lower-middle. Source portrait is taller than 0.83 panel and permits trimming top/bottom; final parent mask review still required.",
+    "limitations": [
+      "Sibling ages are visually approximate, not verified birth-year portraits.",
+      "No final browser or mask approval."
+    ]
+  },
+  "file": "art/book1-v07/B01V07-P04-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
+  "file_bytes": 3145935,
+  "recorded_at_utc": "2026-10-30T12:10:11.384308+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P04-02.webp",
+  "web_sha256": "6935dc24e00b183a13c20f9d10043e257cac5e826c46e2a58fd6414601f618a2"
+}

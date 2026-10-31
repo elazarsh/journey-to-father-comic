@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P01-01",
+  "source_path": "/workspace/generated_images/exec-9d6636f5-1d26-4d55-98f2-b96f8877ed8d.png",
+  "prompt": "Create a single intimate literary graphic-novel illustration derived from these approved character references. Yitzhak at age about 71 in 1971, EXACT same narrow kind face, large natural ears, restrained nose/mouth, brown-rimmed glasses and brown felt hat as the elderly man at RIGHT of first image and the man in second image. He sits ALONE at a modest wooden writing desk, writing his memoir by warm desk lamp, calm affectionate gentle half-smile, a personal gift for his descendants. NO children or grandchildren visible, no family gathering. Match approved likeness rather than a generic elderly man. Dramatic pastoral watercolor and gouache, selective fine ink, cinematic warm amber light against softly cool blue-green wall, tactile paper and wood; painterly not photorealistic or glossy. PORTRAIT 1024x1536, but compose for a nearly square 0.86:1 central crop: face in middle-right about x65% y43%, both writing hands and open plain notebook at x55% y62%. Keep hat, head, hands and book well within the middle 60% width and middle 55% height, generous overscan above/below and around. Upper-left x5–48% y5–27% should be low-detail subdued plaster wall for later live caption, NO lamp blocking that quiet area (lamp can be at far left mid-height). Desk appears cared-for, plain notebook pages with no readable words. The room is modest 1971, not the 1904 shop, and has an ordinary electric desk lamp. NO lettering, bubbles, frames, watermarks, collage or panel borders. ONE continuous scene.",
+  "reference_paths": [
+    "art/chars/yitzhak-three-ages-v01.png",
+    "art/drafts/p01-1.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "likeness": "Matches approved elderly face: narrow kind face, pronounced ears, restrained nose/mouth, brown glasses and felt hat. Gentle half-smile.",
+    "scene_fidelity": "One older writer alone with open notebook and electric lamp, no invented meeting with descendants.",
+    "quiet_lettering": "Large quiet upper-left wall field; face at middle-right, hands below, all away from caption zone.",
+    "crop_notes": "0.86:1 final panel can crop top/bottom of tall source while preserving face, hat, both hands and notebook. Final parent mask review pending.",
+    "limitations": [
+      "No browser or final lettering approval.",
+      "Notebook marks are faint non-readable, live text belongs in renderer."
+    ]
+  },
+  "file": "art/book1-v07/B01V07-P01-01.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "3ec28b724763f7e8d9af493755a4c6141b647ea8bbb54fa8f30bf1ac8a5ead86",
+  "file_bytes": 2823381,
+  "recorded_at_utc": "2026-10-30T12:14:27.536182+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P01-01.webp",
+  "web_sha256": "5c76a770979cc604960338f9fb5c4a4866355611defc4d6c84f651829c411180"
+}

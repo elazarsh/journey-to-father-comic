@@ -1,0 +1,19 @@
+{
+  "id": "B01V07-P09-04",
+  "source_path": "/workspace/generated_images/exec-2a4995e6-c910-4e7f-ba31-24564ee9fab5.png",
+  "prompt": "ONE landscape 3:2 image, painterly watercolor and gouache literary historical graphic novel, dramatic pastoral warm amber and pale blue light. Same approved boy and same bed/room as the attached bed reference. He is awake propped up in bed, charcoal shirt, dark cap, narrow oval face, natural brown eyes, both feet still gently bandaged under a pulled-back cream blanket. He practices writing with a simple dip pen on a bedside wooden board resting across the bed. No older brother in this panel. No readable letters, just faint abstract guide marks. Keep his face, writing hand, nib and board safely in the middle-right, away from upper-left caption zone. A broad plain quiet wall fills top-left; leave at least 18% margins above head and beyond important hands. Give absorbed interest and small satisfaction, not a big grin. Modest tidy Jewish home, no crosses or religious wall icons. No text, balloons, panel borders, collage or watermark.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P08-04.png"
+  ],
+  "source_visual_review": "Approved boy practices in same home bed, both feet remain bandaged, calm interest. Window and blanket continuity kept. Quiet wall upper-left clear of face; no wall icon. Paper marks are abstract and not words.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P09-04.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
+  "browser_qa": "not performed"
+}

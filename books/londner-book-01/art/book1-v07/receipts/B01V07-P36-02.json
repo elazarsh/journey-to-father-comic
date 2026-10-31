@@ -1,0 +1,25 @@
+{
+  "id": "B01V07-P36-02",
+  "page": 36,
+  "file": "art/book1-v07/B01V07-P36-02.png",
+  "web_file": "art/book1-v07/B01V07-P36-02.webp",
+  "source_path": "/workspace/generated_images/exec-c5ee6867-9f18-4136-aada-df31dcf2f6c5.png",
+  "tool": "image_gen__imagegen",
+  "prompt_file": "art/book1-v07/receipts/B01V07-P36-02.prompt.txt",
+  "references": [
+    "art/book1-v07/B01V07-P36-01.png"
+  ],
+  "actual_size": [
+    940,
+    1672
+  ],
+  "sha256": "5789d8206efa8d97e6feb5c68c4c458ae34fc3387251f61c171f409c7019ec84",
+  "status": "generated-source-reviewed",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Quiet river reeds and mist at predawn, no people, enemy or battle.",
+    "lettering": "Upper-left mist/sky is quiet, no faces to obscure.",
+    "limits": "Final masked crop/lettering review remains pending.",
+    "browser_visual_qa": false
+  }
+}

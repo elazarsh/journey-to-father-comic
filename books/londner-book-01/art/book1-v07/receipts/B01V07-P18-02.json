@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P18-02",
+  "prompt": "One portrait-format watercolor/gouache historical graphic novel scene, 1024x1536. Preserve EXACTLY the boy's narrow face, small natural brown eyes, ears, dark flat cap and cream hospital nightshirt from the references. A slightly closer three-quarter profile view of him seated in a wicker hospital chair, listening quietly to unfamiliar spoken prayer in a small Jewish hospital synagogue. His subtle expression: attentive, a slight puzzled brow, no exaggerated confusion, fear or tears. The anonymous woman is only a soft shoulder at far right if needed; do NOT make him alone or abandoned. A softly blurred dark wood bench and warm window light establish the same room. No crosses, no Christian iconography, no readable books or symbols. His head and face centered around x66%, y48%, upper body and resting hands x40–78%, y35–78%. Reserve the entire top-left 50% width by top25% height as softly painted low-detail teal wall, with no faces, objects or letters. Leave generous margin around his head; not an edge-to-edge face crop. Warm natural expressive graphic novel, dramatic pastoral chiaroscuro, painterly paper texture, never photorealistic or glossy 3D. No lettering, caption, speech bubble, thought bubble, panel border, collage or watermark. This is a quiet listening reaction, not an invented incident.",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P18-01.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-7e629ead-3af5-4a4d-918e-2c5b0a07572e.png",
+  "visual_review": {
+    "source_seen": true,
+    "likeness": "narrow face and natural ears/eyes retained, attentive puzzled reaction",
+    "quiet_area": "large upper-left teal wall, no face in caption area",
+    "safety": "no invented speech, fear or returned book",
+    "crop_note": "head/hands inside central frame, medium close shot",
+    "pending": "browser mask and typography review"
+  },
+  "file": "art/book1-v07/B01V07-P18-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P18-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "a149a62b1d10cbd22948b644931f034ed95220a5828688d4bd2146c3e868ac82",
+  "status": "generated-reviewed",
+  "generator": "image_gen__imagegen",
+  "generated_on": "2026-10-30"
+}

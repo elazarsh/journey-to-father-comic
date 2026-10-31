@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P36-04",
+  "page": 36,
+  "source_path": "/workspace/generated_images/exec-59ee110b-92c4-4450-a353-b5b2ea9e968e.png",
+  "prompt": "VERTICAL PORTRAIT image, approximately 1024 x 1536. The guard unit crosses the long modest wooden bridge away from the camera at pale dawn. A line of four or five uniformed adults recedes up the bridge; no civilians, no father figure, no charging, no combat. The figures are shown mostly from behind, kept in the central 55% width. Mist and subdued sky upper-left reserved for a caption. River, bridge and distant low skyline must match the supplied river reference; no dramatic enemy, explosion or catastrophe.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: היחידה עוברת את הגשר; האב אינו כאן.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: dusk blue, warm skin, restrained contrast.\nCompose for a 0.45:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-59ee110b-92c4-4450-a353-b5b2ea9e968e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "references": [
+    "art/book1-v07/B01V07-P36-01.png",
+    "ref/S08-img013.jpg"
+  ],
+  "visual_review": {
+    "source_reviewed": true,
+    "lettering": "Calm upper-left sky; no mouth in upper-left.",
+    "browser_visual_qa": false,
+    "scene": "Guard unit crosses wooden bridge away from camera; no battle/enemy, civilians or father figure.",
+    "composition": "Portrait; figures recede through center. Upper-left sky quiet.",
+    "limits": "Foreground coat continues below source edge; final crop needs review."
+  },
+  "file": "art/book1-v07/B01V07-P36-04.png",
+  "web_file": "art/book1-v07/B01V07-P36-04.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P18-01",
+  "prompt": "ONE portrait graphic novel illustration, 1024x1536. Continue the exact narrow-faced Jewish boy from reference 1 and the same period wicker transport chair and synagogue room from reference 2. Dramatic pastoral watercolor and gouache, selective fine ink, quiet cinematic amber window light against muted teal. The boy listens to prayer in a small Jewish hospital synagogue in early-1900s Vienna. His face is the focus: thoughtful concentration, natural modest brown eyes, not giant cartoon eyes; he is around 9–11 as proposed visual age. Cream nightshirt, dark flat cap, familiar blue-grey blanket over lower body. Empty hands resting on blanket: he has NOT had his prayer book returned. At right behind him the same anonymous woman in brown patterned headscarf and dark dress is quietly present, not hugging or lecturing. Only the two foreground people; distant praying men's shoulders may be softly suggested without extra identifiable faces. No crosses or Christian ornaments; no readable texts. Place his full face around x65%, y48%, woman x78%, y40%, leave x4–52%, y4–25% as subdued empty wall for live caption. Medium view with head, hands and chair safely within central x25–80%, y25–80%, generous 15% margins. One continuous scene; no text, no speech/thought bubble, no panels, frames, logo or watermark.",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P17-04.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-8977aee2-55d9-4ead-a3b2-ddb81f2a4136.png",
+  "visual_review": {
+    "source_seen": true,
+    "likeness": "approved narrow face, ears, restrained brown eyes retained",
+    "scene": "listening in Jewish prayer room; no returned siddur",
+    "quiet_area": "upper-left caption zone has window/wall background but no faces; dark live caption backing needed",
+    "crop_note": "medium shot deliberately crops lower chair; faces and hands are the protected narrative content",
+    "pending": "actual browser masks and lettering"
+  },
+  "file": "art/book1-v07/B01V07-P18-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P18-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+  "status": "generated-reviewed",
+  "generator": "image_gen__imagegen",
+  "generated_on": "2026-10-30"
+}

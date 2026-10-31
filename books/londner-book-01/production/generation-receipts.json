@@ -1,0 +1,35 @@
+[
+  {
+    "id": "p02-1",
+    "source_path": "/workspace/generated_images/exec-4f10d7c6-42d3-418d-9740-60047d4610f4.png",
+    "reason": "Opening street plate; revised to remove invented cobbler activity and reserve lower lettering area.",
+    "revision_prompt": "Edit this street illustration for the production crop contract. Keep the SAME boy's face, same clothing identity, same watercolor/ink style and general early-twentieth-century Polish street. TWO PRECISE CORRECTIONS: (1) Remove the seated bearded cobbler completely, along with the shoe-repair hammer and repair workbench. The family is documented as selling leather and shoemaking supplies, so show quiet STOCK of rolled leather and small plain supplies instead, without anyone making shoes. No new readable signs. (2) Make the boy notably SMALLER and place him farther up the street at upper right. His COMPLETE body, including head, both hands and feet, must fit between x=55..80% and y=23..61% of the FULL source canvas. He must look naturally standing farther away on the same street, never floating. Do not enlarge his face to fill the composition. The LOWER 30% of the source canvas must be only calm low-detail pale cobblestone/ground with NO person, hands, shoes, important props or shop merchandise; this area is for five short live text lines added later. Keep a little empty sky above all heads as overscan. Keep the exact 2:3 PORTRAIT canvas. The image must extend naturally to every edge, with NO borders, panels, letters, handwriting, captions, bubbles or empty text boxes. This is a proposed period reconstruction, not a claim of locating the actual family building. Do not change the child's individual narrow face or replace him with a different generic child.",
+    "status": "generated, crop review pending"
+  },
+  {
+    "id": "p03-2",
+    "selected_file": "art/p03-2.png",
+    "prompt_source": "production/manifest.json",
+    "added_instruction": "CRITICAL: keep essential action in the upper middle half. Leave the bottom quarter completely unoccupied calm background. Frame wider than a normal portrait.",
+    "status": "candidate; manual crop review required; no final family approval"
+  },
+  {
+    "id": "p04-2",
+    "selected_file": "art/p04-2.png",
+    "prompt_source": "production/manifest.json",
+    "added_instruction": "CRITICAL: keep essential action in the upper middle half. Leave the bottom quarter completely unoccupied calm background. Frame wider than a normal portrait.",
+    "status": "candidate; manual crop review required; no final family approval"
+  },
+  {
+    "id": "p03-1",
+    "file": "art/rejected/p03-1-attempt-01.png",
+    "status": "rejected",
+    "reason": "Unwanted cobbler at work; family sold leather and supplies. Boy occupies more height than composition contract."
+  },
+  {
+    "id": "p03-3",
+    "file": "art/rejected/p03-3-attempt-01.png",
+    "status": "rejected",
+    "reason": "Adds a waking child watching mother, despite script saying children asleep. Do not use in story."
+  }
+]

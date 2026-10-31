@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P02-03",
+  "source_path": "/workspace/generated_images/exec-2e5c7b84-0fa0-43a0-8140-304bff00cd79.png",
+  "prompt": "Create one continuous exterior illustration of the small early-1900s Polish leather-and-shoemaking-SUPPLIES shop whose INTERIOR is shown in the reference. A modest plaster-and-timber shop front on a quiet cobbled lane, seen at a gentle three-quarter angle. The open doorway is on the right half, through which viewers can glimpse the SAME leather shelves and low counter; the shop is small and cared for, no cobbler bench and no shoe repair. No people in this particular view. A few rolls of leather visible in the dark window, plain wooden doorway and warm domestic light, no sign lettering. This is a historical reconstruction, not a claim that an actual address/building was identified. Dramatic pastoral literary watercolor/gouache matching reference, selective ink, warm amber and muted blue, tender period texture. Portrait 1024x1536 for later near-square comic panel crop. Door/window and defining props in middle 60% width and middle 55% height, 15% overscan. Upper-left broad plain wall quiet for later live caption. NO readable text/signs, letters, bubbles, borders, watermark or collage. ONE scene.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P03-01.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "scene_fidelity": "Small retail shop doorway, leather-roll window; same interior counter/shelves/tiled stove visible. No cobbler or people.",
+    "quiet_lettering": "Upper-left plain plaster field above window.",
+    "crop_notes": "Door/window centered for panel; some peripheral plants may trim without loss of story.",
+    "no_text_or_bubbles": true,
+    "limitations": [
+      "Historical reconstruction, not an identified actual address."
+    ]
+  },
+  "file": "art/book1-v07/B01V07-P02-03.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "6de3782ab21ba28003704f88b647c0ab13479eea17cdff155ae1e97410e48e9d",
+  "file_bytes": 3518353,
+  "recorded_at_utc": "2026-10-30T12:20:22.540785+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P02-03.webp",
+  "web_sha256": "64aad0161856cc494e614dbc070e9e2ed6e81b0e8b3ccd9b33eeb8846df753cc"
+}

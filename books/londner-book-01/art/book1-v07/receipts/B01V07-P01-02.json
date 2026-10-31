@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P01-02",
+  "source_path": "/workspace/generated_images/exec-79127f88-49bf-4459-be7b-b7664213c652.png",
+  "prompt": "Create a new single close-up illustration in the exact painterly style and desk continuity of the reference. Only the elderly writer's natural aged RIGHT hand holding a simple dark pen above the open plain notebook, with his LEFT hand resting on the other page. Brown jacket cuffs and cream shirt as reference. Warm electric desk-lamp light across tactile paper and wooden table. Do not include face or other people. This is 1971, the intimate act of leaving his memoir for descendants. Portrait 1024x1536, compose all hands, all five fingers of each hand and notebook within central 60% width and middle 55% height, 15% overscan. Upper-left x5–50% y5–27% is quiet soft wall/table blur for later caption, not dense writing. No readable letters or numbers in the notebook; faint abstract paper lines only. Dramatic pastoral literary watercolor/gouache with selective fine ink matching reference, no photorealism. NO text, speech bubbles, borders, collage or watermark, ONE scene.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P01-01.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "scene_fidelity": "Only elderly writing hands, notebook and same desk/lamp/clothes; one scene.",
+    "quiet_lettering": "Broad quiet upper wall field; hands and pen below text zone.",
+    "crop_notes": "All fingers and book present. Final crop must keep both hands and pen tip; no browser mask approval.",
+    "anatomy": "Natural hand positions, no obvious extra fingers.",
+    "no_text_or_bubbles": true
+  },
+  "file": "art/book1-v07/B01V07-P01-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+  "file_bytes": 2615612,
+  "recorded_at_utc": "2026-10-30T12:17:06.868473+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P01-02.webp",
+  "web_sha256": "f0c039a820ffeeb70b5b4b12f9b7c02dd98b5d7537aba76538734d0e3a3cfbcc"
+}

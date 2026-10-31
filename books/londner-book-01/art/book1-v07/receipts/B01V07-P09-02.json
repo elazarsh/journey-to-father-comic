@@ -1,0 +1,18 @@
+{
+  "id": "B01V07-P09-02",
+  "source_path": "/workspace/generated_images/exec-2cdc7dc3-601f-44c2-b610-78a6e576bdf8.png",
+  "prompt": "ONE portrait 2:3 close-up illustration for a historical graphic novel, painterly watercolor and gouache, selective fine ink, warm oil-lamp color with soft daylight. Early-1900s Polish Jewish home. Close view of an older brother's hand using a simple wooden graphite pencil to draw faint guiding strokes on cream paper on a wooden bed-side board. The younger boy's small hand rests nearby watching, but no duplicate pencil. Only hands, sleeve edges and paper; no faces required. Older hand visibly larger than the child's. Pencil is period-correct, not a mechanical pencil or ballpoint pen. Guiding marks are faint abstract curves, NOT readable words or any printed alphabet. Place hand and pencil tip center-right/lower-middle. Large unobtrusive blurred pale cloth in top-left for future live caption, with generous overscan around fingers. Tactile period materials, quiet warmth, a practical method of learning. No text or lettering, no balloons, no framed panels, no collage, no Christian icons, no watermark.",
+  "references": [
+    "art/book1-v07/B01V07-P08-04.png"
+  ],
+  "source_visual_review": "Hand detail only: larger older brother hand holding wooden graphite pencil, smaller child's hand beside it. Faint nonverbal guiding strokes, no readable words. No injury or faces. Pale upper-left linen quiet enough for short caption.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P09-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "ec33d92004d454ecef40356b91107690452417cfceecfdf861af2b1fb6f470c0",
+  "browser_qa": "not performed"
+}

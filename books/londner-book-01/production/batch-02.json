@@ -1,0 +1,27 @@
+{
+  "ids": [
+    "p02-1",
+    "p03-1",
+    "p03-2",
+    "p03-3",
+    "p04-1",
+    "p04-2",
+    "p04-3"
+  ],
+  "dependency_order": [
+    [
+      "p02-1"
+    ],
+    [
+      "p03-1"
+    ],
+    [
+      "p03-2",
+      "p03-3",
+      "p04-1",
+      "p04-2",
+      "p04-3"
+    ]
+  ],
+  "note": "Street then shop establish environment; reuse those references for the shop interiors. Child and supporting identities remain review candidates."
+}

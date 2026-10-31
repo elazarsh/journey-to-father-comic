@@ -1,0 +1,33 @@
+{
+  "id": "B01V07-P03-01",
+  "source_path": "/workspace/generated_images/exec-fec4a3d1-9ba0-494f-99e8-6a606da5b8e7.png",
+  "prompt": "Make a narrowly targeted historical clothing correction to this exact illustration, preserving EVERYTHING else: architecture, lighting, painted style, camera, people positions, faces, body proportions, leather shop, counter, stove, door and quiet upper-left caption space. The father is the man behind the counter on the left with cream shirt and dark waistcoat: add a modest small dark skullcap/kippah that covers the crown of his head. The mother behind the counter in the middle wears a blue patterned dress: add a modest muted navy/earth-tone headscarf fully covering her hair, tied neatly at the nape, appropriate for a religious Jewish married woman in a Polish town around 1904. Do not alter their faces or add new people. Customer already has a hat and stays exactly the same. No text, lettering, bubble, frame, watermark or collage. One continuous scene. Retain landscape 1536x1024.",
+  "reference_paths": [
+    "art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.png"
+  ],
+  "previous_variant": "art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.png",
+  "status": "generated-reviewed",
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "correction": "Added dark kippah to Father and modest navy headscarf to Mother; retained architecture, faces, composition and light.",
+    "family_count": "Exactly 3 adults, no children; supporting faces remain proposed staging.",
+    "scene_fidelity": "Retail leather and supplies, not cobbler work. Shelves left, tall tiled stove back center, inner room door right.",
+    "quiet_lettering": "Clear plaster upper-left, all faces below caption area.",
+    "crop_notes": "Faces/actions centrally protected, doorway on right. Final actual mask/zoom and lettering review pending.",
+    "limitations": [
+      "Supporting adults are not identified portraits.",
+      "No browser/final mask approval."
+    ]
+  },
+  "file": "art/book1-v07/B01V07-P03-01.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
+  "file_bytes": 2972247,
+  "recorded_at_utc": "2026-10-30T12:12:30.985809+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
+  "web_sha256": "e224acaf8fe4fd08cf4bc65795fa48a6d8380d04fd51d973f1f514b8f7d3960a"
+}

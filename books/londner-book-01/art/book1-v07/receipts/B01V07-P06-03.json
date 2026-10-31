@@ -1,0 +1,13 @@
+{
+  "id": "B01V07-P06-03",
+  "file": "art/book1-v07/B01V07-P06-03.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside the cheder, around 1905. Close on the face of the boy Yitzhak, about five, in shadow, his mouth still slightly open from having just answered, his empty hands resting on the table in front of him. A quiet, hurt puzzlement. Camera: Close-up at eye level. Light and colour: Dim shade, the face half in shadow with a soft edge of light. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the dark plain background above his head. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "sha256": "b6814db692d4056d4baab0df84c3b0e8671762cea13b5aa6a9d870d9562b94f5",
+  "bytes": 2893405,
+  "created_at": "2026-10-30T17:47:12.660570+00:00"
+}

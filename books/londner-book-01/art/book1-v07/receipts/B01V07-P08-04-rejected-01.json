@@ -1,0 +1,19 @@
+{
+  "id": "B01V07-P08-04",
+  "source_path": "/workspace/generated_images/exec-a94097a7-0497-4179-a152-faa07d078c5e.png",
+  "prompt": "Landscape 3:2 orientation, ONE continuous painterly literary graphic novel illustration, watercolor and gouache with fine selective ink, dramatic but humane warm amber and soft cool daylight. Early-1900s Polish modest tidy home. The boy in the approved reference, later-childhood age with narrow oval face, natural brown eyes, pronounced ears and the same nose and mouth, rests awake in a simple bed. Clean cream linen; both feet are gently wrapped in clean bandages with no visible injury. His charcoal shirt and dark cap preserve identity, trousers or blanket cover him modestly. Face is curious and quiet, not depressed, looking toward a window outside the image. Position his face and hands center-right in the middle third; both bandaged feet lie safely inside the center-bottom, not at the edge. Large blank low-detail pale wall upper-left reserved for narration. Add at least 18% empty context margin around head, hands and feet for cropping and gentle zoom. No other children, no visitor or doctor. One scene, no readable text, speech balloons, thought clouds, borders or watermark.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_visual_review": "Rejected: unrequested Christian-style wall icon in a Jewish family home. Do not use in reader. Image otherwise gives child in bed and both bandaged feet.",
+  "crop_status": "not assessed after historical rejection",
+  "status": "rejected-historical-prop",
+  "rejected": true,
+  "file": "art/book1-v07/rejected/B01V07-P08-04-attempt-01.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "f5df75e835c2d46bbd7105ff8faeb656c95565e502ba1f80bdd26855246e2e7b",
+  "browser_qa": "not performed"
+}

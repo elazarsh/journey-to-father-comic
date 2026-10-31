@@ -1,0 +1,14 @@
+{
+  "pages": [
+    1,
+    8,
+    9,
+    17,
+    26,
+    27,
+    36
+  ],
+  "renderer": "Pillow technical composition, not browser QA",
+  "master_pixels_unchanged": true,
+  "fit": "contain"
+}

@@ -1,0 +1,37 @@
+# גרסה 0.6, שלושה ספרים וסיום פתוח
+
+המשוב העדכני של המשפחה מחליף את גבולות הכרכים בגרסה 0.5. קראו את הנחיות הבהירות והקול ב־../story-v04/AGENTS.md. עקרונות הקצב והאמינות של גרסה 0.5 נשארים, אך החלוקה לארבעה ספרים והסיום בווינה אינם בתוקף.
+
+1. שלושה ספרים, לפי הבהרת המשתמש. ספר 1 מחבר ילדות והתבגרות עד היציאה באונייה ב־1925, באותם 48 עמודים. לא מוסיפים עמודי המתנה רק כדי למלא היקף. ספרים 2 ו־3 הם עדיין הצעת רצף, לא תסריטים מאושרים.
+2. לעצור בין הספרים בתוך תהליך שלא נפתר. בסוף ספר 1 המשפחה על האונייה, בלי בית או עבודה בארץ. אין להקדים את ההגעה או את החלבה. ספר 2 ייתן תשובה מיד בפתיחתו וייעצר במשבר הסוסים. ספר 3 ימשיך משם אל סיוע ואסתר.
+3. הסקרנות, היושר, האחריות והיוזמה מתפתחים דרך מעשים. פרק הרגליים אינו כל דיוקנו של יצחק. אין להחזיר את כל הביוגרפיה לרצף סיכומים, ואין להמציא סכנות כדי ליצור מתח.
+4. נעליים נועלים. ציטוט מילולי מן היומן נשמר כלשונו, אבל כיתוב מעובד משתמש בעברית נכונה. בגרסה החדשה השורה מופיעה בעמוד 8; בגרסה 0.5 המקורית היא בעמוד 13 ותוקנה גם שם.
+5. לכל הספרים: קראו family-continuity.json ואת family-continuity.md. במשפחת הוריו חמישה בנים כולל יצחק ושלוש בנות, לא שמונה אחים מלבדו. אב ואם אינם חלק ממניין הילדים. אין לצייר את רייזל לפני לידתה אחרי מעבר הדירה.
+6. לא כל ילד בפריים הוא אחיו. לכל עמוד קבוצתי יש רשימת נוכחים/יחסי גיל. אין להעתיק שמונה דמויות באותו גיל בין תקופות. במפגש עם הורי חוה ארבע בנות; אצל דוד אברהמלה שלושה בנים ושרהלה; באונייה יצחק, חוה האישה וחנהצ׳ילה בלבד.
+7. שנות לידה של רוב האחים אינן מאומתות. גיל חזותי משוער יסומן כהערכה. אין דיוקנאות מאושרים לשאר בני הבית; הפנים המוצעות אינן זיהוי מחקרי.
+8. מזהי גרסה זו מתחילים B01V06. אין לשלוח את מניפסט 32 העמודים או את מזהי v05 ליצירת איורים לפי הסיפור החדש.
+9. כיתוב חדש, פרשנות, פנייה לצאצאים ושאלות לקורא רשומים לעיון. דיבור מעובד רק מתוך חילופי דברים מדווחים. לכל עמוד מקורות ובימוי מוצע. אין לטעון שזו גרסה מאוירת או שהמשפחה אישרה אותה סופית.
+
+# אישור המשפחה והמשך ההפקה, 0.7, מחליף את מעמד הטיוטה לעיל
+
+המשפחה אישרה במפורש את העלילה ואת מראה יצחק בגילים השונים, וביקשה העלאה לגיטהאב לפני התחלת התמונות. אין צורך לשאול שוב על אישור התסריט או על דמות יצחק. קראו character-approvals.json: הילד הפעיל הוא v02; דיוקנאות יתר הקרובים אינם מזוהים רק מכוח האישור הזה.
+
+הגרסה הפעילה כעת היא תיקייה זו, ומזהי התמונות מתחילים B01V07. 48 העמודים ואירועי העלילה נשמרו. תוספות ממוקדות: הבהרת חנות היום/שנת הלילה ובית מספק ומטופח, דיבור מעובד מתוך חילופי דברים מדווחים, ושלוש בועות מחשבה מתוך רצון/אי־ידיעה/געגוע מפורשים במקור. זוהי מסירה כקומיקס, לא המצאת אירועי מחשבה חדשים. כל עיבוד רשום.
+
+הסגנון דרמטי ופסטורלי. מותר ורצוי לתת לתמונה להעביר יחס, סדר, חום, מרחק ועזרה. אין להחליף עובדות כדי ליצור דרמה. הכיתוב והבועות נוצרים בעימוד בלבד. הפתיחה לא רומזת לאירועי ההמשך. בחדר: סוכרייה על א לחוד, ומטבע הצדקה לחוד.
+
+production/manifest.json שבתיקייה זו הוא תור האיורים החדש, 187 משבצות. production/layout-map.html מראה את הצורות בפועל. שמרו על סדר קריאה ברור; צורות משרתות את הרגש. אין לייצר עמוד שלם כקובץ קומיקס אחד. כל תמונה סצנה אחת, ואז מסכה וכיתוב חי.
+
+העלו תחילה את כל חומרי העבודה החדשים למאגר הפרטי, אמתו מרחוק, ורק אז התחילו בקבוצת הפתיחה המתועדת. הסקיצה אינה פרסום ציבורי. אין לטעון שבדיקת דפדפן/חיתוך בוצעה אם טרם בוצעה.
+
+בעקבות בקשת המשפחה על מות ההורים: קראו bereavement-edit.md. עמוד 23 כולל במפורש גם את המוות וגם את הדאגה של חיים והקרובים. אין להשאיר cliffhanger על נטישה, לקשור את המוות לילדים/מאמץ עבורם, להציג ילדה בודדה מול דלת או להבטיח שלא יקרה אובדן. הסיפור נשאר עצוב במקום הזה, עם אנשים שפועלים לדאוג לילדים. הידיעה על קבלת שרהלה מסומנת כמשהו שנודע ליצחק אחר כך.
+
+## Version 0.8: comic layout and memoir-fidelity edits (Claude, after user approval)
+
+- The user approved replacing invented lines in the 0.7 script with the memoir's own words (see revisions/book1-v07/claude-review/). The user is the family member who approved the plot; he asked for MINIMUM invention. Do not add morals, reasons, questions to the reader or summaries that the memoir does not state. The reassuring line on page 23 stays by explicit request. Book-frame lines (the three takeaways, "המשך יבוא") are marked as frame, not Yitzhak's voice.
+- revisions/book1-v08/layout-plan.json is now the source of truth for page layout and lettering. The story, the 48 pages and the B01V07 image IDs are unchanged. Five panels were removed and one panel added (NEW-P36-a). Circle insets are used at most once or twice in the whole book (currently pages 5 and 36): the user dislikes them.
+- New image work: read handoffs/claude/v08-image-requests.md. Keep registering images in art/book1-v07/progress.json as before; the sketch at revisions/book1-v08/sketch.html picks them up automatically when served over http. After adding images, run revisions/book1-v08/detect_faces.py and build_sketch.py.
+- Speech bubbles only where the memoir reports speech; thought bubbles only where it states a wish, worry or plan. Leave a calm area above each speaker listed in the requests file.
+- Every image must earn its place (user rule): before generating, know what the image adds (emotion, atmosphere, information) that its neighbours do not. Adjacent images on a page differ in at least two of shot size, angle, light/colour, number of figures, place. If a generated image repeats its neighbour, ask for a different one or drop the panel. Each request in handoffs/claude/v08-image-requests.md carries its purpose.
+- Panels with speech or thought bubbles get larger slots; leave calm space above the speaker.
+- Opening pages use simple, inviting language for children (user request); exact quotes are kept where they are strongest.

@@ -1,0 +1,34 @@
+{
+  "id": "B01V07-P17-02",
+  "prompt": "ONE portrait graphic-novel illustration, 1024x1536. Continue the same boy, woman and Vienna hospital from reference 2, keeping the approved boy identity from reference 1. Dramatic pastoral watercolor and gouache with restrained ink, blue-green plaster walls, warm humane window light. The anonymous middle-aged Jewish woman in the same brown patterned headscarf and dark modest dress gently pushes the boy seated in a period hospital transport chair: old dark wood/wicker seat, four spoked wheels, simple push handles, no modern chrome wheelchair. Boy wears cream nightshirt, familiar dark flat cap, feet discreetly wrapped under a blanket supported by chair footrest. He looks quietly curious, not frightened or crying. The single action is leaving the bed by hospital chair, no embracing, no dialogue or promise. No prayer book in his hands, no book returned. Three-quarter view, all heads/faces and hands concentrated in the central-right x45–75%, y32–62%. The transport chair must fit safely with 15% margin from every image edge. Leave upper-left wall, x4–52%, y4–24%, completely quiet for later caption. Natural anatomically correct hands; no extra people. No lettering, bubble, frame, collage, border or watermark.\nEDIT: Edit this single illustration only by pulling the camera back / expanding the same continuous room around the entire scene. Preserve exactly the two identities, clothing, chair, ward, colors and style. The entire hospital chair INCLUDING every wheel and the forward footrest must have at least 15% image margin below and beside it. Currently the footrest and wheel are too close to the bottom. Make the woman and chair about 75% of their current size within the frame by showing more floor, more wall and more space at both sides. Do not add people or objects. Keep upper-left wall empty for live lettering. Faces and hands must remain naturally visible, not distorted or changed. Output 1024x1536 portrait, one continuous scene, no inset, frame, text or bubbles.",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P17-01.png",
+    "/workspace/generated_images/exec-61dfecf1-7ce7-450e-a96d-a3897ce28db0.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-62b007d5-334c-4d60-b74b-b453410b9a52.png",
+  "visual_review": {
+    "source_seen": true,
+    "count": "one child, one anonymous woman",
+    "quiet_area": "upper-left wall clear",
+    "crop_note": "edited camera back; all chair wheels and footrest now inside broad floor margin; actual live-mask review remains pending",
+    "safety": "calm caring scene, no visible wounds",
+    "pending": "No browser masks or final live lettering review"
+  },
+  "rejected_attempts": [
+    {
+      "path": "/workspace/generated_images/exec-61dfecf1-7ce7-450e-a96d-a3897ce28db0.png",
+      "reason": "chair footrest/wheels too close to image bottom for zoom margin"
+    }
+  ],
+  "file": "art/book1-v07/B01V07-P17-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P17-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "a167e7eb43095f8a0c9da30498c92a548cf76926d43afbecbe1834294725561c",
+  "status": "generated-reviewed",
+  "generator": "image_gen__imagegen",
+  "generated_on": "2026-10-30"
+}

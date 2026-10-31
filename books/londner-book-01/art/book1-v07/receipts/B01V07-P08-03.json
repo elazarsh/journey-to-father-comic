@@ -1,0 +1,18 @@
+{
+  "id": "B01V07-P08-03",
+  "source_path": "/workspace/generated_images/exec-15c6e424-f949-4933-a22e-71ddaa2f0af7.png",
+  "prompt": "Landscape 3:2 orientation, ONE continuous literary graphic-novel watercolor and gouache scene, fine selective ink, dramatic pastoral amber/blue light. Use the approved reference boy's narrow oval face and natural brown eyes, pronounced ears and nose, charcoal shirt and brown trousers, dark cap. Later childhood in early-1900s Poland, exact year unknown. A restrained off-frame injury moment near a simple loose wooden door: the boy is in center-right, seated near the low rough wooden door, one hand gripping its edge, glancing down toward his LEFT foot that remains below the visible action. Suggest interrupted play, not a demonstration of a dangerous game. Do not show a nail entering skin, no blood, no wound, no screaming or exaggerated pain. Do not add another person. Whole head, shoulders and important hand in central 60% width and middle 45% height, with generous top and bottom overscan. Large low-detail softly lit plaster wall in the upper-left quarter for live narration. Keep faces completely outside that space. Single scene only, no text, no letters, no balloons, no borders, no collage, no watermarks.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_visual_review": "Non-graphic interrupted-play aftermath at wooden doorway, no nail entering skin or blood. Narrow child face preserved. One figure only. Upper-left area light but textured; keep caption tight to top-left and recheck actual mask.",
+  "crop_status": "pending renderer; keep face and door-gripping hand unobscured, top headroom modest",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P08-03.png",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+  "browser_qa": "not performed"
+}
