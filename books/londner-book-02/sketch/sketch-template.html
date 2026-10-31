@@ -126,9 +126,9 @@ html.print .pw{animation:none!important}
   var Q = new URLSearchParams(location.search); if (Q.has('print')) document.documentElement.classList.add('print');
   var lang = Q.get('lang') === 'en' ? 'en' : 'he', SVGNS = 'http://www.w3.org/2000/svg';
   var UI = {
-    he: { sub: 'סקיצת עימוד, ספר 2, טיוטה 0.2. תמונות שעוד לא צוירו מוצגות כמשבצת עם תיאור.', prog: function (a, b) { return a + ' מתוך ' + b + ' תמונות מוכנות'; }, page: 'עמוד', wait: 'ממתין לתמונה', newp: 'משבצת חדשה', lang: 'English', work: 'סימוני עבודה',
+    he: { sub: 'סקיצת עימוד, ספר 2, טיוטה 0.3. תמונות שעוד לא צוירו מוצגות כמשבצת עם תיאור.', prog: function (a, b) { return a + ' מתוך ' + b + ' תמונות מוכנות'; }, page: 'עמוד', wait: 'ממתין לתמונה', newp: 'משבצת חדשה', lang: 'English', work: 'סימוני עבודה',
       legend: '<b>סימוני עבודה:</b> מסגרת כתומה מקווקוות = בועה חדשה בגרסה 0.8. ⚠️ = בימוי או מסגרת שלא כתובים ביומן (לבדיקת המשפחה). מתחת לכל עמוד: מה השתנה ולמה. מספר המשבצת מופיע בפינה.' },
-    en: { sub: 'Layout sketch, book 2, draft 0.2. Panels not yet drawn show a description.', prog: function (a, b) { return a + ' of ' + b + ' images ready'; }, page: 'Page', wait: 'awaiting image', newp: 'new panel', lang: 'עברית', work: 'Work marks',
+    en: { sub: 'Layout sketch, book 2, draft 0.3. Panels not yet drawn show a description.', prog: function (a, b) { return a + ' of ' + b + ' images ready'; }, page: 'Page', wait: 'awaiting image', newp: 'new panel', lang: 'עברית', work: 'Work marks',
       legend: '<b>Work marks:</b> dashed orange outline = new bubble in v0.8. ⚠️ = staging or framing not written in the memoir (for family review). Under each page: what changed and why.' }
   };
   function el(tag, cls, parent) { var e = document.createElement(tag); if (cls) e.className = cls; if (parent) parent.appendChild(e); return e; }

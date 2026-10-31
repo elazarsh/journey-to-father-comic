@@ -129,7 +129,7 @@ RECIPE_HE = {'splash': 'תמונה אחת לכל העמוד', 'splash-inset': '�
              'wide-2-wide': 'רחבה, שתיים, רחבה', 'burst-5': 'חמש', 'six': 'שש מהירות'}
 PACE_HE = {'slow': 'אטי', 'normal': 'רגיל', 'fast': 'מהיר', 'silence': 'שקט'}
 if not embed:
-    L = ['# מקום משלנו · ספר 2 · תסריט וקומיקס, טיוטה 0.2', '',
+    L = ['# מקום משלנו · ספר 2 · תסריט וקומיקס, טיוטה 0.3', '',
          'נוצר אוטומטית מ־layout-plan.json, יחד עם הסקיצה. ⚠️ = בימוי או מסגרת שלא כתובים ביומן. 🆕 = בועה או משבצת חדשה בגרסה 0.8.', '',
          f'{len(pages)} עמודים, {total} משבצות, {ready} תמונות מוכנות.', '']
     for p in pages:
@@ -142,7 +142,7 @@ if not embed:
             tag += ' · 🆕 משבצת חדשה' if q['new'] else ''
             tag += ' · ✔ יש תמונה' if q['art'] else ''
             tag += ' · 🔁 לצייר אחרת' if q.get('verdict') == 'redirect' else ''
-            L += [f"**{i}. {q['id'].replace('B02V01-', '')}**{tag}", '', f"רואים: {q['shows']}", '']
+            L += [f"**{i}. {re.sub(r'^B02V0\d-', '', q['id'])}**{tag}", '', f"רואים: {q['shows']}", '']
             sh = next((x.get('shots', {}).get(q['id']) for x in plan['pages'] if x['page'] == p['n']), None)
             if sh:
                 L += [f"צילום: {sh.get('shot')} · {sh.get('angle')} · {sh.get('subject')} · {sh.get('light')}", '']
@@ -165,5 +165,5 @@ if not embed:
         for q in p['panels']:
             for t in q['texts']:
                 if t.get('isnew'):
-                    R.append(f"| {p['n']} | {q['id'].replace('B02V01-', '')} | {TYPE_HE.get(t.get('type'), '')} | {t.get('speaker', '')} | {t['he'] or '(ציור הנכדים)'} | {KIND_HE.get(t.get('kind'), t.get('kind'))} | {(t.get('memoir') or '').replace('|', '/')} |")
+                    R.append(f"| {p['n']} | {re.sub(r'^B02V0\d-', '', q['id'])} | {TYPE_HE.get(t.get('type'), '')} | {t.get('speaker', '')} | {t['he'] or '(ציור הנכדים)'} | {KIND_HE.get(t.get('kind'), t.get('kind'))} | {(t.get('memoir') or '').replace('|', '/')} |")
     (V / 'new-bubbles-review-he.md').write_text('\n'.join(R) + '\n', encoding='utf-8')
