@@ -1,0 +1,8 @@
+{
+  "javascript_syntax": "passed",
+  "actual_navigation_functions": "passed with DOM stub",
+  "page_turns": 8,
+  "language_toggle": "passed",
+  "directions_toggle": "passed",
+  "browser_visual_qa": "not performed"
+}
