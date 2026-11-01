@@ -112,7 +112,7 @@ for pg in plan['pages']:
                 if needle not in hay:
                     problems.append(f"{pid}: quote not verbatim: {t['he']}")
         pur = pg.get('purpose', {}).get(pid, {})
-        art = art_for(pid)
+        art = art_for(pg.get('art_land', {}).get(pid, pid) if land else pid)
         if art and not any(k in art for k in ('fit', 'zoom', 'fx', 'fy')):
             art.update(frame_art(art, shapes[i], pg.get('shots', {}).get(pid, {}).get('shot', '')))
         out.append(dict(id=pid, shows=shows, art=art, texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=('resolved' if pur.get('verdict')=='redirect' and (assets.get(pid,{}).get('claude_v08_review_complete') or (assets.get(pid,{}).get('claude_v08_review') or {}).get('verdict')=='pass') else pur.get('verdict','')),

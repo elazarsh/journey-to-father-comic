@@ -2767,13 +2767,13 @@
   {
    "page": 24,
    "pace": "slow",
-   "recipe": "wide-2",
+   "recipe": "stack-tall",
    "order": [
     "NEW-P24-map",
     "B01V07-P24-02",
     "B01V07-P24-03"
    ],
-   "hero": "NEW-P24-map",
+   "hero": "B01V07-P24-03",
    "morph": [],
    "inset": null,
    "new_panels": [],
@@ -2815,18 +2815,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עכשיו אספר לכם לאן הלך כל אחד מאיתנו, ואחר כך מה קרה איתי.",
-      "en": "Now I will tell you where each of us went, and then what happened to me.",
-      "kind": "editorial",
-      "capBottom": false
-     },
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "כל אחד עבר לגור אצל קרובים שדאגו לו.",
-      "en": "Each of us went to live with relatives who took care of us.",
-      "kind": "adapted",
-      "capBottom": false
+      "he": "עכשיו אספר לכם לאן הלך כל אחד מאיתנו. כל אחד עבר לגור אצל קרובים שדאגו לו.",
+      "en": "Now I will tell you where each of us went. Each of us went to live with relatives who took care of us.",
+      "kind": "adapted"
      }
     ]
    },
@@ -2893,7 +2884,9 @@
     "B01V07-P24-03": "שוט רחב מאוד מזווית גבוהה: יצחק ושרהלה כבת חמש קטנים על הדרך לקילץ, חבילת הבגדים בידו, שמיים פתוחים ואור זהוב.",
     "NEW-P24-map": "מפה של דרום פולין: מיונדזיוב יוצאים חיצים לקילץ (שרהלה), ורשה (שמעון), מיעכוב (לייבל) ולודז׳ (איטשע)."
    },
-   "recipe_land": "map-l"
+   "art_land": {
+    "NEW-P24-map": "NEW-P24-map-wide"
+   }
   },
   {
    "page": 25,

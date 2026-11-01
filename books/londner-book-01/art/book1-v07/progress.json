@@ -3204,10 +3204,24 @@
    "file": "art/book1-v08-claude/NEW-P24-map.png",
    "web_file": "art/book1-v08-claude/NEW-P24-map.webp",
    "actual_size": [
-    1536,
-    1024
+    1024,
+    1536
    ],
-   "sha256": "6284c10c68e36977671b5f57cac46801f23a095ea8ed103decd18349a9f84d1e",
+   "sha256": "8c54c0191a9e63659d31ac37075cdea16e611d03471a61928a90acc452084c06",
+   "status": "claude-drawn-map",
+   "nomirror": true,
+   "receipt": "art/book1-v08-claude/map2.py",
+   "credit": "Sentinel-2 cloudless 2016 by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2016), CC BY 4.0"
+  },
+  {
+   "id": "NEW-P24-map-wide",
+   "file": "art/book1-v08-claude/NEW-P24-map-wide.png",
+   "web_file": "art/book1-v08-claude/NEW-P24-map-wide.webp",
+   "actual_size": [
+    1536,
+    1180
+   ],
+   "sha256": "f750c3db365ff439fd1564750890426a08447338b06900f177dd1df0e5443490",
    "status": "claude-drawn-map",
    "nomirror": true,
    "receipt": "art/book1-v08-claude/map2.py",
