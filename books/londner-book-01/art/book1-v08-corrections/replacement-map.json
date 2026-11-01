@@ -192,18 +192,22 @@
     },
     {
       "target": "B01V07-P23-03",
-      "file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png",
-      "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.webp",
-      "sha256": "564f6e9f46a88a1d6bb0ef1466b345aabc543beb97c1b8119b2f3e3aea2263ab",
+      "file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.webp",
+      "sha256": "620d4f0cca3247275267e99d1504f4bb4a7648a68c71dbd1318b01cd7f9756fe",
+      "web_sha256": "b4e49007bbbd4d87df52dcd8b1c492d28d6b74d7f56594a5902c2a0abc31a0d6",
       "actual_size": [
         1024,
         1536
       ],
-      "age_band": "14",
-      "previous_file": "art/book1-v07/B01V07-P23-03.png",
-      "previous_sha256": "261230afbc8f6bf26f89c365094ce27dc97036a20c32ade2e450bd61e5df393c",
-      "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-agefix.json",
-      "requires_new_face_and_crop_review": true
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png. Visually checked: Adult cap changed; teen cap and faces visually retained. Adult hair on forehead is partly covered by added cap. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:19.467642+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-family-proof-v01.json"
     },
     {
       "target": "B01V07-P24-02",
@@ -718,6 +722,21 @@
       "previous_file": "art/book1-v07/B01V07-P05-02.png",
       "previous_sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P05-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P23-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.webp",
+      "sha256": "564f6e9f46a88a1d6bb0ef1466b345aabc543beb97c1b8119b2f3e3aea2263ab",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P23-03.png",
+      "previous_sha256": "261230afbc8f6bf26f89c365094ce27dc97036a20c32ade2e450bd61e5df393c",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-agefix.json",
       "requires_new_face_and_crop_review": true
     }
   ]
