@@ -89,7 +89,7 @@ for pg in plan['pages']:
                 if needle not in hay:
                     problems.append(f"{pid}: quote not verbatim: {t['he']}")
         pur = pg.get('purpose', {}).get(pid, {})
-        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=('resolved' if pur.get('verdict')=='redirect' and assets.get(pid,{}).get('claude_v08_review_complete') else pur.get('verdict','')),
+        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=('resolved' if pur.get('verdict')=='redirect' and (assets.get(pid,{}).get('claude_v08_review_complete') or (assets.get(pid,{}).get('claude_v08_review') or {}).get('verdict')=='pass') else pur.get('verdict','')),
                         hero=(i == hero), **shapes[i]))
     # shot variety: adjacent panels must differ in at least two of distance, angle, subject, light
     sp = pg.get('shots', {})
