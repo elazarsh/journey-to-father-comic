@@ -3241,12 +3241,13 @@
   {
    "page": 28,
    "pace": "fast",
-   "recipe": "wide-2-wide",
+   "recipe": "2-1-2",
    "order": [
     "B01V07-P28-01",
     "B01V07-P28-02",
     "B01V07-P28-03",
-    "B01V07-P28-04"
+    "B01V07-P28-04",
+    "NEW-P28-jnf"
    ],
    "hero": "B01V07-P28-04",
    "morph": [],
@@ -3297,8 +3298,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הצטרפנו להנהלה הציונית בלודז׳. אספנו כסף לקרן הקיימת, כדי לקנות אדמות בארץ ישראל.",
-      "en": "We joined the Zionist leadership in Lodz. We collected money for the Jewish National Fund, to buy land in the Land of Israel.",
+      "he": "הצטרפנו להנהלה הציונית בלודז׳, וקיבלנו משימות.",
+      "en": "We joined the Zionist leadership in Lodz and were given tasks.",
       "kind": "adapted",
       "memoir": "החלטנו ללכת להנהלה הציונית בלודז', ראש ההנהלה היה ד\"ר רוזנבלט, קיבלו אותנו, נתנו לנו תפקידים לאסוף כסף לקרן הקיימת"
      },
@@ -3315,6 +3316,15 @@
        0.2
       ],
       "offPanel": true
+     }
+    ],
+    "NEW-P28-jnf": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אספנו כסף לקרן הקיימת בקופסאות הכחולות, כדי לקנות אדמות בארץ ישראל.",
+      "en": "We collected money for the Jewish National Fund in the blue boxes, to buy land in the Land of Israel.",
+      "kind": "adapted"
      }
     ]
    },
@@ -3382,6 +3392,12 @@
      "angle": "low",
      "subject": "other",
      "light": "bright hopeful daylight"
+    },
+    "NEW-P28-jnf": {
+     "shot": "detail",
+     "angle": "high",
+     "subject": "hands",
+     "light": "warm lamp"
     }
    },
    "shows_override": {
@@ -3389,18 +3405,7 @@
     "B01V07-P28-02": "פרט בגובה עין: מדפי בדים חצי ריקים ונול עומד בפינה, אבק מרחף בקרן אור יחידה בחנות חשוכה.",
     "B01V07-P28-03": "בינוני מעבר לכתפו של יצחק: החבר מולו בבית הכנסת, ספר פתוח ביניהם, מדבר אליו בעדינות; אור נרות חם.",
     "B01V07-P28-04": "רחב מזווית נמוכה: ד״ר רוזנבלט עומד ונואם מול קבוצת צעירים, קופת איסוף על השולחן, יצחק בין המאזינים; אור יום בהיר נכנס מחלונות גבוהים."
-   },
-   "photos": [
-    {
-     "file": "art/book1-v08-claude/jnf-blue-box.png",
-     "he": "הקופסה הכחולה של הקרן הקיימת",
-     "en": "The JNF blue box",
-     "x": 4,
-     "y": 96,
-     "w": 15,
-     "rot": -4
-    }
-   ]
+   }
   },
   {
    "page": 29,
