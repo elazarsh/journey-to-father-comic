@@ -96,21 +96,26 @@
   },
   {
    "id": "B01V07-P03-01",
-   "file": "art/book1-v07/B01V07-P03-01.png",
-   "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P03-01-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P03-01-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
-   "status": "source-reviewed-for-v08",
-   "receipt": "art/book1-v07/receipts/B01V07-P03-01.json",
+   "sha256": "e3084ebe77d58bf2ac6d4ab9c6af663bb84cad2213ff947d780edee33ef8d081",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P03-01-family-proof-v01.json",
    "master_available_locally": true,
    "claude_v08_review": null,
    "origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P03-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
+    "sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec"
+   }
   },
   {
    "id": "B01V07-P03-02",
@@ -293,15 +298,15 @@
   },
   {
    "id": "B01V07-P05-02",
-   "file": "art/book1-v08-corrections/panels/B01V07-P05-02-agefix.png",
-   "web_file": "art/book1-v08-corrections/panels/B01V07-P05-02-agefix.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P05-02-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P05-02-family-proof-v01.webp",
    "actual_size": [
     1024,
     1536
    ],
-   "sha256": "e526295e39338962b9b0acd85e8988cae78de3c412f319d0d0e63e1debce028c",
-   "status": "replacement-agefix-20261101",
-   "receipt": "art/book1-v08-corrections/receipts/B01V07-P05-02-agefix.json",
+   "sha256": "cfeccd4f7942324e7b39cc7d36e9eac72a4871b827f2215871c86c501872ff1c",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P05-02-family-proof-v01.json",
    "origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
    "master_available_locally": false,
    "claude_v08_review": {
@@ -796,15 +801,15 @@
   },
   {
    "id": "B01V07-P11-04",
-   "file": "art/book1-v07/B01V07-P11-04.png",
-   "web_file": "art/book1-v07/web/B01V07-P11-04.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.webp",
    "actual_size": [
     1024,
     1536
    ],
-   "sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae",
-   "status": "source-reviewed-for-v08",
-   "receipt": "art/book1-v07/receipts/B01V07-P11-04.json",
+   "sha256": "af344986a5470250a5736ef0d84576328dde81cd9ffe3fda780fa27b51950fdf",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P11-04-family-proof-v01.json",
    "origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
    "master_available_locally": false,
    "claude_v08_review": {
@@ -813,19 +818,24 @@
     "issue": "Over father's shoulder on Yitzhak about 11 in bed, calm wall above his head.",
     "instruction": ""
    },
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P11-04.png",
+    "web_file": "art/book1-v07/web/B01V07-P11-04.webp",
+    "sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae"
+   }
   },
   {
    "id": "B01V07-P12-01",
-   "file": "art/book1-v07/B01V07-P12-01.png",
-   "web_file": "art/book1-v07/web/B01V07-P12-01.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P12-01-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P12-01-family-proof-v01.webp",
    "actual_size": [
     1024,
     1536
    ],
-   "sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089",
-   "status": "source-reviewed-for-v08",
-   "receipt": "art/book1-v07/receipts/B01V07-P12-01.json",
+   "sha256": "92d5ca0c2bdca4812b5b2945e26578990d8961d6128ba64e7072d83fc065ebd0",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P12-01-family-proof-v01.json",
    "origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
    "master_available_locally": false,
    "claude_v08_review": {
@@ -834,7 +844,12 @@
     "issue": "Father with raised finger and newspaper by lamp, space above head. Angle near eye level rather than low; minor.",
     "instruction": ""
    },
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P12-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P12-01.webp",
+    "sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089"
+   }
   },
   {
    "id": "B01V07-P12-02",
@@ -1115,15 +1130,15 @@
   },
   {
    "id": "B01V07-P26-03",
-   "file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png",
-   "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "d808a0ae631b66b3a18f668df1a54a0781a60d47db7ed970e41a6ebf8260c1c2",
-   "status": "replacement-agefix-20261101",
-   "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-agefix.json",
+   "sha256": "6e843bfa9b861a55d00065482769092c72e3014ee88bbed07ed836f3f07ec932",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-family-proof-v01.json",
    "master_available_locally": true,
    "claude_v08_review": null,
    "origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
@@ -1692,35 +1707,45 @@
   },
   {
    "id": "B01V07-P20-04",
-   "file": "art/book1-v07/B01V07-P20-04.png",
-   "web_file": "art/book1-v07/web/B01V07-P20-04.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P20-04-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P20-04-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f",
-   "status": "generated-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P20-04.json",
+   "sha256": "396231003d352806e9dd11b4fa63ec7a3e80ea74207d6962e0365f2a0083a93c",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P20-04-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P20-04.png",
+    "web_file": "art/book1-v07/web/B01V07-P20-04.webp",
+    "sha256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f"
+   }
   },
   {
    "id": "B01V07-P21-01",
-   "file": "art/book1-v07/B01V07-P21-01.png",
-   "web_file": "art/book1-v07/web/B01V07-P21-01.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P21-01-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P21-01-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
-   "status": "generated-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P21-01.json",
+   "sha256": "2595e84da88b0306640589e5a65f417a28a6919448572ae1cf384cab334e156f",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P21-01-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P21-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P21-01.webp",
+    "sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf"
+   }
   },
   {
    "id": "B01V07-P21-02",
@@ -1740,19 +1765,24 @@
   },
   {
    "id": "B01V07-P21-03",
-   "file": "art/book1-v07/B01V07-P21-03.png",
-   "web_file": "art/book1-v07/web/B01V07-P21-03.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P21-03-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P21-03-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "905387a183519a6219255783a448e874e7073b6e3bf4698d5361c9826aefb49b",
-   "status": "generated-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P21-03.json",
+   "sha256": "7b7f232898af233156e32630954f0998a24803832773c3fd6b8b144f7f452545",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P21-03-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P21-03.png",
+    "web_file": "art/book1-v07/web/B01V07-P21-03.webp",
+    "sha256": "905387a183519a6219255783a448e874e7073b6e3bf4698d5361c9826aefb49b"
+   }
   },
   {
    "id": "B01V07-P21-04",
@@ -1804,19 +1834,24 @@
   },
   {
    "id": "B01V07-P22-04",
-   "file": "art/book1-v07/B01V07-P22-04.png",
-   "web_file": "art/book1-v07/web/B01V07-P22-04.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P22-04-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P22-04-family-proof-v01.webp",
    "actual_size": [
     1024,
     1536
    ],
-   "sha256": "68c68d95df022395f8a504da16190966135a2035e8653ce48e663a138d248345",
-   "status": "generated-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P22-04.json",
+   "sha256": "6d416a888b65979ecea338000953beb1c4d14bdd1ef66411aa643544b7bf268f",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P22-04-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P22-04.png",
+    "web_file": "art/book1-v07/web/B01V07-P22-04.webp",
+    "sha256": "68c68d95df022395f8a504da16190966135a2035e8653ce48e663a138d248345"
+   }
   },
   {
    "id": "B01V07-P23-01",
@@ -1852,15 +1887,15 @@
   },
   {
    "id": "B01V07-P23-03",
-   "file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png",
-   "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.webp",
    "actual_size": [
     1024,
     1536
    ],
-   "sha256": "564f6e9f46a88a1d6bb0ef1466b345aabc543beb97c1b8119b2f3e3aea2263ab",
-   "status": "replacement-agefix-20261101",
-   "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-agefix.json",
+   "sha256": "620d4f0cca3247275267e99d1504f4bb4a7648a68c71dbd1318b01cd7f9756fe",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
@@ -1873,19 +1908,24 @@
   },
   {
    "id": "B01V07-P23-04",
-   "file": "art/book1-v07/B01V07-P23-04.png",
-   "web_file": "art/book1-v07/web/B01V07-P23-04.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P23-04-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P23-04-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "bca0320b92ba9985af46a7b568584171ac577c465cb20e7280c7650e7a407684",
-   "status": "generated-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P23-04.json",
+   "sha256": "bfb9b65c80a5b91d02560b7ccbb96f69b694d4a9b369ce478ac5a41a9893c915",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-04-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P23-04.png",
+    "web_file": "art/book1-v07/web/B01V07-P23-04.webp",
+    "sha256": "bca0320b92ba9985af46a7b568584171ac577c465cb20e7280c7650e7a407684"
+   }
   },
   {
    "id": "B01V07-P24-01",
@@ -1958,19 +1998,24 @@
   },
   {
    "id": "B01V07-P25-03",
-   "file": "art/book1-v07/B01V07-P25-03.png",
-   "web_file": "art/book1-v07/web/B01V07-P25-03.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P25-03-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P25-03-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "0a50c88fa566cb1f16917b1d3303fad76d1b3fd3488338bd3ad7ca0d3ef132ec",
-   "status": "generated-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P25-03.json",
+   "sha256": "f5e6ce71e2f7bb2fa1e883feb827273017aa28c8df53ddf93eda5d0b0e7d9386",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P25-03-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P25-03.png",
+    "web_file": "art/book1-v07/web/B01V07-P25-03.webp",
+    "sha256": "0a50c88fa566cb1f16917b1d3303fad76d1b3fd3488338bd3ad7ca0d3ef132ec"
+   }
   },
   {
    "id": "B01V07-P25-04",
@@ -2641,19 +2686,24 @@
   },
   {
    "id": "B01V07-P39-01",
-   "file": "art/book1-v07/B01V07-P39-01.png",
-   "web_file": "art/book1-v07/web/B01V07-P39-01.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P39-01-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P39-01-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356",
-   "status": "source-reviewed-for-v08",
-   "receipt": "art/book1-v07/receipts/B01V07-P39-01.json",
+   "sha256": "5cfac79490fcd1c3e86402e0f45bdb84751206432f57e9a88fbb66e57c3d4849",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P39-01-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P39-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P39-01.webp",
+    "sha256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356"
+   }
   },
   {
    "id": "B01V07-P39-02",
@@ -2785,19 +2835,24 @@
   },
   {
    "id": "B01V07-P41-03",
-   "file": "art/book1-v07/B01V07-P41-03.png",
-   "web_file": "art/book1-v07/web/B01V07-P41-03.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P41-03-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P41-03-family-proof-v01.webp",
    "actual_size": [
     1536,
     1024
    ],
-   "sha256": "498cf6b5c099ababeb89f531020393752435615372235b5ca2e5bae00c0a75af",
-   "status": "source-reviewed-for-v08",
-   "receipt": "art/book1-v07/receipts/B01V07-P41-03.json",
+   "sha256": "7396ad10db4d1a12d8812d68ba901b9149f27e2471995b37caf77f524f5fc76c",
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P41-03-family-proof-v01.json",
    "master_available_locally": true,
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "in_active_layout": true,
+   "previous": {
+    "file": "art/book1-v07/B01V07-P41-03.png",
+    "web_file": "art/book1-v07/web/B01V07-P41-03.webp",
+    "sha256": "498cf6b5c099ababeb89f531020393752435615372235b5ca2e5bae00c0a75af"
+   }
   },
   {
    "id": "B01V07-P42-01",
@@ -3226,6 +3281,30 @@
    "nomirror": true,
    "receipt": "art/book1-v08-claude/map2.py",
    "credit": "Sentinel-2 cloudless 2016 by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2016), CC BY 4.0"
+  },
+  {
+   "id": "NEW-P28-jnf",
+   "file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.webp",
+   "sha256": "4ea66629b3240237fda8fcb84a375961b364988fe924942337bd1600c0386507",
+   "actual_size": [
+    1536,
+    1024
+   ],
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/NEW-P28-jnf-family-proof-v01.json"
+  },
+  {
+   "id": "NEW-P43-tax",
+   "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.png",
+   "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.webp",
+   "sha256": "179ba671b672229e6fbbb93b85c91431f5f4ad6f6463df9046bd682154e17e9d",
+   "actual_size": [
+    1536,
+    1024
+   ],
+   "status": "family-proof-20261102",
+   "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v02.json"
   }
  ],
  "generated": 170,
