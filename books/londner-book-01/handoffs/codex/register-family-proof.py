@@ -6,9 +6,11 @@ from PIL import Image
 B=Path(__file__).resolve().parents[2]
 D=B/'art/book1-v08-corrections'
 target, source, note = sys.argv[1:4]
-ident=target+'-family-proof-v01'
+version=1
+while (D/'panels'/(target+f'-family-proof-v{version:02d}.png')).exists():
+    version+=1
+ident=target+f'-family-proof-v{version:02d}'
 dest=D/'panels'/(ident+'.png')
-if dest.exists(): raise SystemExit(f'Already exists: {dest}')
 shutil.copyfile(source,dest)
 with Image.open(dest) as im:
     im.load(); size=list(im.size); mode=im.mode

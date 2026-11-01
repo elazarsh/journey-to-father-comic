@@ -557,10 +557,10 @@
     },
     {
       "target": "NEW-P43-tax",
-      "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.png",
-      "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.webp",
-      "sha256": "14c422e7d9a532a872c7acdf15b298e8d83824783d1fc48fbed858ca7569496f",
-      "web_sha256": "a5840999c2f234c1dd39814a85c43c0f5da48594526c6317f2b6f9deeb932324",
+      "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.webp",
+      "sha256": "179ba671b672229e6fbbb93b85c91431f5f4ad6f6463df9046bd682154e17e9d",
+      "web_sha256": "e4f7e3877ea2eea252e1c9e5ae2d92a32754a89365ed6a9f6aa256165d886c1e",
       "actual_size": [
         1536,
         1024
@@ -570,9 +570,9 @@
       "status": "candidate-for-Claude-integration",
       "family_approved": false,
       "requires_new_face_and_crop_review": true,
-      "qa_notes": "Candidate only: two officials, Yitzhak, Chava and daughter, sparse room, and three visible table legs. Chairs are broken and leaning but their two-legged construction is not clearly readable; must inspect and repair before final integration. Initial unrequested wall portrait removed. Historical and family likeness not independently verified.",
-      "created_utc": "2026-11-01T20:56:04.011852+00:00",
-      "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v01.json"
+      "qa_notes": "Second independent review: two visible legs on each chair and three visible legs on the table; wall portrait removed. Breakage subtle; check leg visibility after framing. Candidate for integration, not family approval.",
+      "created_utc": "2026-11-01T21:09:16.044505+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v02.json"
     },
     {
       "target": "B01V07-P21-03",
@@ -814,6 +814,25 @@
       "previous_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-agefix.json",
       "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "NEW-P43-tax",
+      "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.webp",
+      "sha256": "14c422e7d9a532a872c7acdf15b298e8d83824783d1fc48fbed858ca7569496f",
+      "web_sha256": "a5840999c2f234c1dd39814a85c43c0f5da48594526c6317f2b6f9deeb932324",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Candidate only: two officials, Yitzhak, Chava and daughter, sparse room, and three visible table legs. Chairs are broken and leaning but their two-legged construction is not clearly readable; must inspect and repair before final integration. Initial unrequested wall portrait removed. Historical and family likeness not independently verified.",
+      "created_utc": "2026-11-01T20:56:04.011852+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v01.json"
     }
   ]
 }
