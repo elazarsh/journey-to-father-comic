@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 37,
+  "replacement_count": 38,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -580,6 +580,25 @@
       "qa_notes": "Cap correction edit of art/book1-v07/B01V07-P21-03.png. Visually checked: One adult black cap; face and workspace visually retained. Generative edit; exact pixel preservation outside the cap has not been established. Final crop, mouth anchors and family review pending.",
       "created_utc": "2026-11-01T20:57:24.288830+00:00",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P21-03-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P03-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P03-01-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P03-01-family-proof-v01.webp",
+      "sha256": "e3084ebe77d58bf2ac6d4ab9c6af663bb84cad2213ff947d780edee33ef8d081",
+      "web_sha256": "6a9726ac6b1ba22991cf8a564001193eedb0bf81241f05d52fc8a5b90176cecd",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P03-01.png. הוחלפה כיפת המוכר לקסקט; כובע הלקוח ומטפחת האישה נשמרו. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:07.423611+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P03-01-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
