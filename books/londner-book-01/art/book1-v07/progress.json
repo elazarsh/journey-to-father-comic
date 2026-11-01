@@ -3305,6 +3305,42 @@
    ],
    "status": "family-proof-20261102",
    "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v02.json"
+  },
+  {
+   "id": "PHOTO-P35",
+   "file": "ref/S08-img013.jpg",
+   "web_file": "art/book1-v08-claude/PHOTO-P35.webp",
+   "actual_size": [
+    1080,
+    1566
+   ],
+   "sha256": "f871b1d0ef99129f125a8b33ef4cfe3343992d71f0fb68108bd320416cbe8931",
+   "status": "real-family-photo",
+   "nomirror": true
+  },
+  {
+   "id": "PHOTO-P47",
+   "file": "ref/S08-img001.jpg",
+   "web_file": "art/book1-v08-claude/PHOTO-P47.webp",
+   "actual_size": [
+    313,
+    371
+   ],
+   "sha256": "e8fb88033a9ce2acad7067f1f8b257b44c269248add8ca4e21375da91559886a",
+   "status": "real-family-photo",
+   "nomirror": true
+  },
+  {
+   "id": "PHOTO-P48",
+   "file": "ref/S08-img002.jpg",
+   "web_file": "art/book1-v08-claude/PHOTO-P48.webp",
+   "actual_size": [
+    913,
+    692
+   ],
+   "sha256": "bcd91d96cec5ebd8c2a78bfa0530cd84665ee7027f4b0354beeb947dc253b6e3",
+   "status": "real-family-photo",
+   "nomirror": true
   }
  ],
  "generated": 170,

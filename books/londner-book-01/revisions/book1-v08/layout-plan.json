@@ -4196,14 +4196,15 @@
   {
    "page": 35,
    "pace": "normal",
-   "recipe": "wide-2-wide",
+   "recipe": "burst-5",
    "order": [
     "B01V07-P35-01",
     "B01V07-P35-02",
+    "PHOTO-P35",
     "B01V07-P35-03",
     "B01V07-P35-04"
    ],
-   "hero": "B01V07-P35-04",
+   "hero": null,
    "morph": [],
    "inset": null,
    "new_panels": [],
@@ -4265,6 +4266,15 @@
       "kind": "adapted_speech",
       "memoir": "נתנה פקודה בלילה להביא את יצחק לונדנר, שישגיח... לעשות רעש להעיר את כולם",
       "mouth": "left"
+     }
+    ],
+    "PHOTO-P35": [
+     {
+      "type": "caption",
+      "speaker": "",
+      "he": "תמונה אמיתית: סבא יצחק בגיל 17, במדים.",
+      "en": "Real photo: Grandpa Yitzhak at 17, in uniform.",
+      "kind": "editorial"
      }
     ]
    },
@@ -4332,25 +4342,21 @@
      "angle": "low",
      "subject": "other",
      "light": "warm lantern glow at night"
+    },
+    "PHOTO-P35": {
+     "shot": "medium",
+     "angle": "eye",
+     "subject": "photo",
+     "light": "sepia"
     }
    },
    "shows_override": {
     "B01V07-P35-01": "בינוני בגובה עין: יצחק בבגדים אזרחיים מחזיק תעודת לידה בלי כתב קריא, האחים ברקע באור מנורה ביתי.",
     "B01V07-P35-02": "רחב מזווית גבוהה: יחידה במחנה, שורות אוהלים, יצחק במדים פולניים בין החיילים מביט הצידה, בועת מחשבה; בלי ענישה.",
     "B01V07-P35-03": "רחב מאחורי כתפו של יצחק (צללית בחזית, בועת המחשבה ממנו): החיילים שנבחרו הולכים לעבר הגשר והנהר בלילה כחול.",
-    "B01V07-P35-04": "בינוני מזווית נמוכה: המפקד מצביע ומדבר אל יצחק, פניו מוארות בפנס; יצחק בחלק התחתון של הפריים."
-   },
-   "photos": [
-    {
-     "file": "ref/S08-img013.jpg",
-     "he": "סבא יצחק בגיל 17, במדים (תמונה אמיתית)",
-     "en": "Grandpa Yitzhak at 17, in uniform (real photo)",
-     "x": 3,
-     "y": 52,
-     "w": 20,
-     "rot": -3
-    }
-   ]
+    "B01V07-P35-04": "בינוני מזווית נמוכה: המפקד מצביע ומדבר אל יצחק, פניו מוארות בפנס; יצחק בחלק התחתון של הפריים.",
+    "PHOTO-P35": "תמונה אמיתית מהיומן של סבא יצחק."
+   }
   },
   {
    "page": 36,
@@ -5884,10 +5890,11 @@
   {
    "page": 47,
    "pace": "silence",
-   "recipe": "2-wide",
+   "recipe": "3-wide",
    "order": [
     "B01V07-P48-01",
     "B01V07-P48-02",
+    "PHOTO-P47",
     "B01V07-P48-03"
    ],
    "hero": "B01V07-P48-03",
@@ -5924,6 +5931,15 @@
       "en": "I was not afraid of any threats.",
       "kind": "quote",
       "memoir": "לא פחדתי משום איומים."
+     }
+    ],
+    "PHOTO-P47": [
+     {
+      "type": "caption",
+      "speaker": "",
+      "he": "תמונה אמיתית: סבא יצחק בצעירותו.",
+      "en": "Real photo: Grandpa Yitzhak as a young man.",
+      "kind": "editorial"
      }
     ]
    },
@@ -5976,32 +5992,29 @@
      "angle": "eye",
      "subject": "yitzhak",
      "light": "golden sunset"
+    },
+    "PHOTO-P47": {
+     "shot": "close",
+     "angle": "eye",
+     "subject": "photo",
+     "light": "sepia"
     }
    },
    "shows_override": {
     "B01V07-P48-01": "בינוני בגובה עין: המשפחה ליד המעקה, רוח בשיער.",
     "B01V07-P48-03": "רחב מאוד בגובה עין: שלושתם כצללית קטנה מול ים פתוח עצום.",
-    "B01V07-P48-02": "פרט מזווית גבוהה: הסל והכרים על הסיפון."
-   },
-   "photos": [
-    {
-     "file": "ref/S08-img001.jpg",
-     "he": "סבא יצחק בצעירותו (תמונה אמיתית)",
-     "en": "Grandpa Yitzhak as a young man (real photo)",
-     "x": 4,
-     "y": 4,
-     "w": 22,
-     "rot": 3
-    }
-   ]
+    "B01V07-P48-02": "פרט מזווית גבוהה: הסל והכרים על הסיפון.",
+    "PHOTO-P47": "תמונה אמיתית מהיומן של סבא יצחק."
+   }
   },
   {
    "page": 48,
    "title": "במחברת הבאה",
    "pace": "slow",
-   "recipe": "big-small",
+   "recipe": "tall-2",
    "order": [
     "B01V07-P47-03",
+    "PHOTO-P48",
     "B01V07-P47-02"
    ],
    "hero": "B01V07-P47-03",
@@ -6043,6 +6056,15 @@
       "kind": "editorial",
       "memoir": ""
      }
+    ],
+    "PHOTO-P48": [
+     {
+      "type": "caption",
+      "speaker": "",
+      "he": "תמונה אמיתית: סבא יצחק וסבתא חוה.",
+      "en": "Real photo: Grandpa Yitzhak and Grandma Chava.",
+      "kind": "editorial"
+     }
     ]
    },
    "shots": {
@@ -6057,12 +6079,19 @@
      "angle": "high",
      "subject": "objects",
      "light": "warm lamp"
+    },
+    "PHOTO-P48": {
+     "shot": "medium",
+     "angle": "eye",
+     "subject": "photo",
+     "light": "sepia"
     }
    },
    "note_he": "סיום עם שאלות פתוחות ורמזים קטנים לספר 2 (בקשת המשפחה 01/11). קטע 'אהבתי את כולם' עבר לעמוד 1.",
    "shows_override": {
     "B01V07-P47-02": "פרט ממבט ציפור: מחברת ולצדה עיפרון, חשבון חנות וסל דרך כדימויים.",
-    "B01V07-P47-03": "תקריב בגובה עין: פנים חמות של המספר."
+    "B01V07-P47-03": "תקריב בגובה עין: פנים חמות של המספר.",
+    "PHOTO-P48": "תמונה אמיתית מהיומן של סבא יצחק."
    },
    "purpose": {
     "B01V07-P47-02": {
@@ -6083,18 +6112,7 @@
      "angle": "eye",
      "light": "soft warm window light"
     }
-   },
-   "photos": [
-    {
-     "file": "ref/S08-img002.jpg",
-     "he": "סבא יצחק וסבתא חוה (תמונה אמיתית)",
-     "en": "Grandpa Yitzhak and Grandma Chava (real photo)",
-     "x": 5,
-     "y": 88,
-     "w": 30,
-     "rot": -3
-    }
-   ]
+   }
   }
  ]
 }
