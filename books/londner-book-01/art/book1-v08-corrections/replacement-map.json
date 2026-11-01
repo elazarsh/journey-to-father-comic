@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 34,
+  "replacement_count": 35,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -523,6 +523,25 @@
       "qa_notes": "Edit of art/book1-v07/B01V07-P39-01.png: groom skullcap replaced by flat cap; source scene otherwise visually preserved. Crop and integration still require review.",
       "created_utc": "2026-11-01T20:54:05.902923+00:00",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P39-01-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P25-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P25-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P25-03-family-proof-v01.webp",
+      "sha256": "f5e6ce71e2f7bb2fa1e883feb827273017aa28c8df53ddf93eda5d0b0e7d9386",
+      "web_sha256": "99d80e52f13f00d6c607307d95c47176679c18dbb4ca03d3d2ec377449b93743",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Edit of P25-03: uncle has short gray beard, glasses and flat cap; other figures preserved. Existing panel receipt and layout identify uncle as Avrahamle, whereas latest request mentions Meir: identity remains unresolved, no invented identification. Crop and final review pending.",
+      "created_utc": "2026-11-01T20:54:34.587371+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P25-03-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
