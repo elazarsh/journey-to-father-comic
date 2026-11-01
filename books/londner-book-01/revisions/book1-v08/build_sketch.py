@@ -32,7 +32,10 @@ if (V / 'new-panels.json').exists():
 faces = json.loads((V / 'faces.json').read_text()) if (V / 'faces.json').exists() else {}
 render_overrides = json.loads((V/'render-overrides.json').read_text()) if (V/'render-overrides.json').exists() else {}
 embed = '--embed' in sys.argv
-out_path = Path(sys.argv[sys.argv.index('--embed') + 1]) if embed else V / 'sketch.html'
+land = '--landscape' in sys.argv
+if land:
+    geometry.H = 70.7   # A4 landscape: 100 x 70.7
+out_path = Path(sys.argv[sys.argv.index('--embed') + 1]) if embed else V / ('sketch-landscape.html' if land else 'sketch.html')
 
 panels_v07 = {q['id']: (p['number'], q) for p in script['pages'] for q in p['panels']}
 assets = {a['id']: a for a in progress['assets'] if 'rejected' not in a['status']}
@@ -67,7 +70,7 @@ for pg in plan['pages']:
     morphs = [(order.index(a), order.index(b)) for a, b in pg.get('morph', []) if a in order and b in order]
     roomy = [i for i, pid in enumerate(order)
              if any(t.get('type') in ('speech', 'thought', 'whisper', 'shout') for t in pg['texts'].get(pid, []))]
-    shapes = geometry.page_shapes(pg['recipe'], len(order), hero, morphs, inset, roomy, pg.get('inset_dy', 0))
+    shapes = geometry.page_shapes(pg.get('recipe_land', pg['recipe']) if land else pg['recipe'], len(order), hero, morphs, inset, roomy, pg.get('inset_dy', 0))
     out = []
     words = 0
     for i, pid in enumerate(order):
@@ -144,7 +147,7 @@ for p_ in pages:
             if t_.get('imgFile'):
                 t_['img'] = file_src(t_['imgFile'], (600, 600), alpha=True)
 data = dict(special=sp, pages=pages, ready=ready, total=total, title=script['title_he'], title_en=script['title_en'],
-            live=not embed)
+            live=not embed, landscape=land)
 html = (V / 'sketch-template.html').read_text(encoding='utf-8').replace(
     '/*DATA*/null', json.dumps(data, ensure_ascii=False))
 out_path.write_text(html, encoding='utf-8')
@@ -159,7 +162,7 @@ RECIPE_HE = {'splash': 'תמונה אחת לכל העמוד', 'splash-inset': '�
              'tall-3': 'גבוהה מימין ושלוש משמאל', 'grow-4': 'פאנלים שגדלים כלפי מטה', 'rigid-4': 'ארבעה ריבועים שקטים',
              'wide-2-wide': 'רחבה, שתיים, רחבה', 'burst-5': 'חמש', 'six': 'שש מהירות'}
 PACE_HE = {'slow': 'אטי', 'normal': 'רגיל', 'fast': 'מהיר', 'silence': 'שקט'}
-if not embed:
+if not embed and not land:
     L = ['# הדרך של איטשע · ספר 1 · תסריט וקומיקס, גרסה 0.8', '',
          'נוצר אוטומטית מ־layout-plan.json, יחד עם הסקיצה. ⚠️ = בימוי או מסגרת שלא כתובים ביומן. 🆕 = בועה או משבצת חדשה בגרסה 0.8.', '',
          f'{len(pages)} עמודים, {total} משבצות, {ready} תמונות מוכנות.', '']

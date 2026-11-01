@@ -47,7 +47,7 @@ body.work .pid{display:block}
 /* lettering */
 .tx{position:absolute;z-index:20;font-size:clamp(.62rem,1.85cqw,1.12rem);line-height:1.3;text-wrap:balance;text-align:center}
 .tx.cap{font-family:'Frank Ruhl Libre',serif;font-weight:700;color:var(--cap);background:var(--capbg);box-shadow:0 0 1em .6em var(--capbg);padding:.15em .35em;border-radius:.6em;text-shadow:0 1px 2px #000;text-align:start}
-.tx.bub,.tx.tho,.tx.whi{font-family:Rubik,sans-serif;font-weight:600;color:#1f150d;background:none;border:0;border-radius:50%/46%;padding:.7em 1.15em}
+.tx.bub,.tx.tho,.tx.whi{font-family:Rubik,sans-serif;font-weight:600;color:#1f150d;background:none;border:0;padding:.55em .95em}
 .tx.tho{border-radius:42%/40%}
 .tx.whi{border-style:dashed}
 .tx.sho{font-family:Rubik,sans-serif;font-weight:700;color:var(--ink);background:#ffe27a;border:2.6px solid var(--ink);padding:.7em 1.1em;clip-path:polygon(0 18%,12% 0,25% 14%,40% 0,55% 12%,70% 0,84% 14%,100% 4%,92% 30%,100% 52%,90% 70%,100% 92%,80% 86%,64% 100%,50% 86%,34% 100%,20% 86%,4% 96%,10% 70%,0 50%,8% 32%)}
@@ -100,6 +100,11 @@ html.print main{padding:0}
 html.print .pagewrap{max-width:none;width:794px;margin:0}
 html.print .page,html.print .sp{border-radius:0;box-shadow:none}
 html.print .page{aspect-ratio:210/297!important;background:#0d0907}
+html.land .sp{aspect-ratio:297/210}
+html.land .sp .in{inset:6% 20%;container-type:inline-size}
+html.land.print .page{aspect-ratio:297/210!important}
+html.land.print .pagewrap{width:1123px}
+html.land .pagewrap{max-width:1400px}
 html.print .pw{animation:none!important}
 @media (max-width:700px){
   .cv{position:static;display:flex;flex-direction:column;gap:14px}
@@ -129,6 +134,7 @@ html.print .pw{animation:none!important}
 <script>
 (function () {
   var DATA = /*DATA*/null;
+  if (DATA && DATA.landscape) document.documentElement.classList.add('land');
   var Q = new URLSearchParams(location.search); if (Q.has('print')) document.documentElement.classList.add('print');
   var lang = Q.get('lang') === 'en' ? 'en' : 'he', SVGNS = 'http://www.w3.org/2000/svg';
   var UI = {
@@ -308,6 +314,23 @@ html.print .pw{animation:none!important}
           x += Math.sign(cxp - (x + w / 2)) * Math.min(4, Math.abs(cxp - (x + w / 2)));
           y += Math.sign(cyp - (y + h / 2)) * Math.min(4, Math.abs(cyp - (y + h / 2)));
         }
+        /* never on a face: try nearby spots (beside the head, the other corners) */
+        if (!Array.isArray(t.at)) {
+          var faceHit = function (X, Y) { return fpx.some(function (f) { var mx2 = f.w * .12, my2 = f.h * .12; return X < f.x + f.w + mx2 && X + w > f.x - mx2 && Y < f.y + f.h + my2 && Y + h > f.y - my2; }); };
+          var textHit = function (X, Y) { return placed.some(function (o) { return X < o.x + o.w + 4 && X + w + 4 > o.x && Y < o.y + o.h + 4 && Y + h + 4 > o.y; }); };
+          var inside = function (X, Y) { return X >= box.l + 2 && Y >= box.t + 2 && X + w <= box.l + box.w - 2 && Y + h <= box.t + box.h - 2 && rectInside(q, X - off.x, Y - off.y, w, h, pr.width, pr.height, 4); };
+          if (faceHit(x, y)) {
+            var cands = [], fs2 = parseFloat(getComputedStyle(d).fontSize);
+            if (m) {
+              var hf = fpx.filter(function (f) { return Math.abs(f.cx - m[0]) < 2 && Math.abs(f.my - m[1]) < 2; })[0] || { x: m[0] - 10, y: m[1] - 10, w: 20, h: 20 };
+              cands.push([hf.x - w - fs2 * .8, hf.y - h * .4], [hf.x + hf.w + fs2 * .8, hf.y - h * .4], [hf.x - w - fs2 * .8, hf.y + hf.h * .2], [hf.x + hf.w + fs2 * .8, hf.y + hf.h * .2], [m[0] - w / 2, hf.y + hf.h + fs2 * 1.2]);
+            }
+            cands.push([box.l + pad, box.t + pad], [box.l + box.w - w - pad, box.t + pad], [box.l + pad, box.t + box.h - h - pad], [box.l + box.w - w - pad, box.t + box.h - h - pad], [box.l + box.w / 2 - w / 2, box.t + pad], [box.l + box.w / 2 - w / 2, box.t + box.h - h - pad]);
+            var best2 = null;
+            cands.forEach(function (c) { var X = c[0], Y = c[1]; if (!inside(X, Y) || faceHit(X, Y) || textHit(X, Y)) return; var dd = m ? Math.hypot(X + w / 2 - m[0], Y + h / 2 - m[1]) : 0; if (!best2 || dd < best2.d) best2 = { d: dd, x: X, y: Y }; });
+            if (best2) { x = best2.x; y = best2.y; }
+          }
+        }
         /* never on top of another text: slide down, then to the other side */
         for (var guard = 0; guard < 12 && !Array.isArray(t.at); guard++) {
           var hit = null;
@@ -330,7 +353,7 @@ html.print .pw{animation:none!important}
     var g = svg('g', { opacity: k === 'sho' ? 1 : .84 }, s);
     var rx = r.w / 2, ry = r.h / 2;
     if (k !== 'sho') {   /* the bubble itself, so bubble and tail are one shape with one transparency */
-      var rr = k === 'tho' ? [r.w * .42, r.h * .4] : [r.w * .5, r.h * .46];
+      var rr = k === 'tho' ? [Math.min(r.w * .45, fs * 2.2), Math.min(r.h * .48, fs * 2.2)] : [Math.min(r.w * .5, fs * 1.5), Math.min(r.h * .5, fs * 1.5)];
       svg('rect', { x: r.x, y: r.y, width: r.w, height: r.h, rx: rr[0], ry: rr[1], fill: FILL, stroke: INK, 'stroke-width': 2, 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, g);
     }
     var dx = m[0] - cx, dy = m[1] - cy, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L;

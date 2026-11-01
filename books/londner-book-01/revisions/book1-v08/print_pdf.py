@@ -8,8 +8,9 @@ from PIL import Image
 
 out = sys.argv[1]
 files = sorted(glob.glob(os.path.join(out, 'sheet-*.jpg')))
-A4 = (2480, 3508)
-for name, dpi, q in (('londner-book1-A4-print.pdf', 300, 88), ('londner-book1-A4-screen.pdf', 150, 70)):
+A4 = (3508, 2480) if '--landscape' in sys.argv else (2480, 3508)
+pre = 'londner-book1-landscape' if '--landscape' in sys.argv else 'londner-book1'
+for name, dpi, q in ((pre + '-A4-print.pdf', 300, 88), (pre + '-A4-screen.pdf', 150, 70)):
     size = (A4[0] * dpi // 300, A4[1] * dpi // 300)
     pages = []
     for f in files:

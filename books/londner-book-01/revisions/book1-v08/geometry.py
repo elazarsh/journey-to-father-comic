@@ -86,6 +86,7 @@ RECIPES = {
     'rigid-4': (4, lambda: h(.5, v(.5, 0, 1, 0), v(.5, 2, 3, 0), 0)),
     'wide-2-wide': (4, lambda: h(.3, 0, h(.68, v(.5, 1, 2, .1), 3, -S))),
     'burst-5': (5, lambda: h(.3, 0, h(.64, v(.34, 1, v(.67, 2, 3, .1), .1), 4, -S))),
+    'cols-3': (3, lambda: v(.34, 0, v(.67, 1, 2, .1), .1)),
     'six': (6, lambda: h(.33, v(.5, 0, 1, .1), h(.66, v(.5, 2, 3, -.1), v(.5, 4, 5, .1)))),
 }
 
@@ -121,6 +122,8 @@ def set_morph(node, i, j, mo=12):
 def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=(), inset_dy=0):
     """Return {index: {'poly': [...]} or {'circle': (x,y,w,h)}} for n panels in reading order.
     The inset (if any) is a circle over the joint; the rest fill the page with the recipe."""
+    if H < 100:   # landscape album: thin strips become columns
+        recipe = {'strips-3': 'cols-3', 'wide-2-wide': 'zig-4', 'grow-4': 'tall-3'}.get(recipe, recipe)
     flow = [i for i in range(n) if i != inset]
     count, build = RECIPES.get(recipe, (None, None))
     if count != len(flow):
@@ -148,7 +151,7 @@ def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=(), inset_dy=
         # sit on the joint after the panel that precedes it, at the end side
         prev = res[flow[max(0, min(len(flow) - 1, inset - 1))]]['poly']
         x, y, w, hh = bbox(prev)
-        d = 34
+        d = 34 if H > 100 else 26
         cy = min(H - d - 2, max(2, y + hh - d * .55 + inset_dy))
         cx = min(100 - d - 3, max(3, x + w - d - 4))
         res[inset] = dict(circle=[round(cx, 2), round(cy, 2), d, d])

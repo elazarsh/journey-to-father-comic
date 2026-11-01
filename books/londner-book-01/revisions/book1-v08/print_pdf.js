@@ -5,11 +5,12 @@
 const fs = require('fs');
 const { chromium } = require('playwright');
 (async () => {
-  const [url, out, lang = 'he', dpi = '300'] = process.argv.slice(2);
+  const [url, out, lang = 'he', dpi = '300', orient = 'portrait'] = process.argv.slice(2);
+  const land = orient === 'landscape', W = land ? 1123 : 794, Hh = land ? 794 : 1123, mm = land ? 297 : 210;
   fs.mkdirSync(out, { recursive: true });
-  const scale = (+dpi * 210 / 25.4) / 794;   // 794 css px = 210 mm
+  const scale = (+dpi * mm / 25.4) / W;   // css px width = page width in mm
   const b = await chromium.launch();
-  const p = await b.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: scale });
+  const p = await b.newPage({ viewport: { width: W, height: Hh }, deviceScaleFactor: scale });
   const errs = []; p.on('pageerror', e => errs.push(e.message));
   await p.goto(url + '?print&lang=' + lang, { waitUntil: 'load' });
   await p.evaluate(() => document.querySelectorAll('img').forEach(i => i.loading = 'eager'));

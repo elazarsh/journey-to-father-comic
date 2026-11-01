@@ -726,10 +726,10 @@
   {
    "page": 7,
    "pace": "slow",
-   "recipe": "side-2",
+   "recipe": "big-small",
    "order": [
-    "B01V07-P07-01",
-    "B01V07-P07-02"
+    "B01V07-P07-02",
+    "B01V07-P07-01"
    ],
    "hero": "B01V07-P07-02",
    "morph": [],
@@ -742,37 +742,31 @@
     }
    ],
    "texts": {
-    "B01V07-P07-01": [
-     {
-      "type": "speech",
-      "speaker": "אמא",
-      "he": "הילדים האלה באים מבתים עניים. הוא עוזר להם ונותן להם גרוש כל יום.",
-      "en": "Those children come from poor homes. He helps them and gives them a coin every day.",
-      "kind": "adapted_speech",
-      "memoir": "הם מבתים עניים, והם מקבלים ממנו כל יום גרוש",
-      "mouth": "right side, mother's face"
-     }
-    ],
     "B01V07-P07-02": [
      {
       "type": "speech",
       "speaker": "אמא",
-      "he": "לך לא צריך. אתה מקבל ממני.",
-      "en": "You do not need it. You get from me.",
+      "he": "הילדים האלה באים מבתים עניים. הוא עוזר להם ונותן להם גרוש.",
+      "en": "Those children come from poor homes. He helps them and gives them a coin.",
       "kind": "adapted_speech",
-      "memoir": "ואתה לא צריך ממנו, אתה מקבל ממני",
-      "mouth": "right side, mother's face; balloon in left area"
+      "mouthXY": [
+       0.64,
+       0.45
+      ]
      },
      {
       "type": "speech",
       "speaker": "אמא",
-      "he": "ואני גם משלמת לרבי כל חודש בשביל הלימודים שלך.",
-      "en": "And I also pay the rabbi every month for your lessons.",
+      "he": "לך לא צריך: אתה מקבל ממני. ואני גם משלמת לרבי בשביל הלימודים שלך.",
+      "en": "You do not need it: you get from me. And I also pay the rabbi for your lessons.",
       "kind": "adapted_speech",
-      "memoir": "ואני משלמת לרבי כל חודש, שכר לימוד.",
-      "mouth": "right side, mother's face; second balloon linked below the first"
+      "mouthXY": [
+       0.64,
+       0.45
+      ]
      }
-    ]
+    ],
+    "B01V07-P07-01": []
    },
    "note_he": "דברי אמא הוחזרו למילים המדויקות של הזיכרונות ופוצלו לבועות קצרות; הפאנל השקט בסוף מקבל את המקום הגדול. עורך: גיוון תמונות: שלוש תמונות של אותה שיחה בין אם לבן באותו מקום; צריך לגוון זווית וגודל, ולסיים בשקט אחר. עורך: צילום: מתקריב חם לשני-שוט, ואז חלל ריק וקר שבו הילד כמעט נעלם.",
    "title": "מה שלא רואים",
@@ -1571,7 +1565,8 @@
     "B01V07-P13-01": "שוט בינוני: הרופא המקומי מדבר אל ההורים מעבר לשולחן, אור אפור.",
     "B01V07-P13-02": "שוט רחב מאוד מזווית גבוהה: דרך היוצאת מן העיירה בשחר אפור, שתי דמויות זעירות של אב ובן הולכות הלאה, בלי אמצעי נסיעה.",
     "B01V07-P13-04": "מבט ציפור על שורת מיטות לבנות באולם בית החולים, רק באחת הילד הקטן עם רגליים חבושות; ניגוד קנה מידה, בלי אנטומיה."
-   }
+   },
+   "recipe_land": "zig-4"
   },
   {
    "page": 14,
@@ -2394,10 +2389,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "פעם אבא פתח ארגז סחורה וגילה שהכמות לא מתאימה לחשבון.",
-      "en": "Once Father opened a crate of goods and found the amount did not match the bill.",
-      "kind": "adapted",
-      "memoir": "אבא פתח את הארגז עם החשבון וראה שלפי החשבון יש יותר סחורה"
+      "he": "פעם אבא פתח ארגז סחורה מבית החרושת, ובדק אותו מול החשבון. משהו לא הסתדר.",
+      "en": "Once Father opened a crate of goods from the factory and checked it against the bill. Something did not add up.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P21-02": [],
@@ -2405,29 +2399,32 @@
      {
       "type": "speech",
       "speaker": "אבא",
-      "he": "תדע לך כי חסר חצי תריסר עליונות.",
-      "en": "Know that half a dozen shoe uppers are missing.",
-      "kind": "quote",
-      "memoir": "תדע לך כי חסר חצי תריסר עליונות",
-      "mouth": "Father, right side, at the desk with pen and letter"
+      "he": "יש טעות בארגז! חצי תריסר עליונות לא מתאים לחשבון.",
+      "en": "There is a mistake in the crate! Half a dozen uppers do not match the bill.",
+      "kind": "adapted_speech"
      },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הספק ענה שהוא בעצמו ארז את הסחורה, ולא ייתכן שחסר.",
-      "en": "The supplier answered that he had packed the goods himself, and nothing could be missing.",
-      "kind": "adapted",
-      "memoir": "קיבלנו תשובה כי בעל בית החרושת בעצמו ארז את הסחורה ולא יכול להיות שחסר"
+      "he": "הספק נעלב. הוא כתב שהוא בעצמו ארז את הארגז, ושאין שום טעות.",
+      "en": "The supplier was offended. He wrote that he had packed the crate himself, and there was no mistake.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P21-04": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אבא כתב עוד מכתב. הספק ענה שהוא מוכן להישבע בטלית ותפילין.",
-      "en": "Father wrote another letter. The supplier answered he was ready to swear on tallit and tefillin.",
-      "kind": "adapted",
-      "memoir": "קיבלנו תשובה כי אם אבי רוצה הוא יכול להישבע בטלית ותפילין"
+      "he": "אבא כתב שוב. הספק כעס עוד יותר:",
+      "en": "Father wrote again. The supplier grew even angrier:",
+      "kind": "adapted"
+     },
+     {
+      "type": "caption",
+      "speaker": "מכתב הספק",
+      "he": "אני מוכן להישבע בטלית ותפילין שלא חסר כלום!",
+      "en": "I am ready to swear on my tallit and tefillin that nothing is missing!",
+      "kind": "adapted"
      }
     ]
    },
@@ -2528,28 +2525,32 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אבא בדק שוב, ומצא שהזוגות בכלל לא חסרים. הוא כתב לספק מיד: טעיתי, הכל הגיע.",
-      "en": "Father checked again and found the pairs were not missing at all. He wrote to the supplier at once: I was wrong, everything arrived.",
-      "kind": "adapted",
-      "memoir": "אבי שמע שהוא רוצה לתת שבועה, כתב לו אבי כי היה חצי תריסר יותר"
+      "he": "כשאבא שמע שהספק מוכן להישבע, הוא מיהר לכתוב לו:",
+      "en": "When Father heard the supplier was ready to swear, he hurried to write back:",
+      "kind": "adapted"
+     },
+     {
+      "type": "caption",
+      "speaker": "מכתב של אבא",
+      "he": "אבל לא חסר כלום! שלחת לי חצי תריסר יותר, ואני רוצה להחזיר לך אותם.",
+      "en": "But nothing is missing! You sent me half a dozen extra, and I want to give them back.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P22-03": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "מאז סמכו עליו עוד יותר. בית החרושת כתב:",
-      "en": "From then on they trusted him even more. The factory wrote:",
-      "kind": "adapted",
-      "memoir": "מאז היה לנו אמון, לאיזה בית חרושת... קיבלנו תשובה"
+      "he": "הספק לא האמין. סוחר שמתווכח כדי להחזיר סחורה? מאז סמכו על אבא לגמרי, וכתבו לו:",
+      "en": "The supplier could not believe it. A merchant who argues in order to return goods? From then on they trusted Father completely, and wrote to him:",
+      "kind": "adapted"
      },
      {
       "type": "caption",
       "speaker": "מכתב מבית החרושת",
       "he": "אנחנו נשלח לך סחורה, גם אם עוד לא שילמת על הקודמת.",
       "en": "We will send you goods, even if you have not yet paid for the last order.",
-      "kind": "adapted",
-      "memoir": "אם לא תשלם, גם נשלח לך את הסחורה"
+      "kind": "adapted"
      }
     ],
     "B01V07-P22-04": [
@@ -3296,7 +3297,12 @@
       "en": "Torah without work cannot last.",
       "kind": "quote",
       "memoir": "תורה בלי עבודה אין קיום",
-      "mouth": "Dr. Rosenblatt, head of the leadership (no art yet: an older man addressing the young men), tail to him"
+      "mouth": "Dr. Rosenblatt, head of the leadership (no art yet: an older man addressing the young men), tail to him",
+      "mouthXY": [
+       0.67,
+       0.2
+      ],
+      "offPanel": true
      }
     ]
    },
@@ -3393,30 +3399,25 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "יום אחד בחרו שישה בחורים שיתכוננו לעלות לארץ. הייתי אחד מהם.",
-      "en": "One day they chose six young men to prepare to go to the Land of Israel. I was one of them.",
-      "kind": "adapted",
-      "memoir": "הם בחרו מאיתנו, מתוך 17 בחורים 6 חבר'ה. אני הייתי מספר 4"
+      "he": "יום אחד בחרו בתנועה שישה בחורים שייסעו לארץ ישראל. ואני הייתי אחד מהם!",
+      "en": "One day the movement chose six young men to go to the Land of Israel. And I was one of them!",
+      "kind": "adapted"
      }
     ],
     "B01V07-P29-02": [
      {
       "type": "speech",
-      "speaker": "איטשע",
-      "he": "אין לנו הורים.",
-      "en": "We have no parents.",
-      "kind": "quote",
-      "memoir": "אני ועוד חבר אחד יצאנו מהשורה ואמרנו כי אין לנו הורים",
-      "mouth": "Itsche, stepping out of the line with one friend (no art yet), tail to Itsche; place this bubble first, on the right"
+      "speaker": "אחד ממנהיגי התנועה",
+      "he": "אתה מתאים לנסוע. אישור יש לך כבר. חסר רק עוד אישור אחד, מוורשה.",
+      "en": "You are right for it. You already have approval. Only one more permit is missing, from Warsaw.",
+      "kind": "adapted_speech"
      },
      {
-      "type": "speech",
-      "speaker": "אחד ממנהיגי התנועה",
-      "he": "אישור יש לך כבר. צריך עוד אישור אחד מוורשה.",
-      "en": "You already have one approval. You need one more, from Warsaw.",
-      "kind": "adapted_speech",
-      "memoir": "אישור יש לך כבר רק צריך עוד אישור אחד מורשה",
-      "mouth": "a movement leader facing Itsche, on the left, tail to him"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "עוד אישור אחד, ואני בארץ ישראל!",
+      "en": "One more permit, and I am in the Land of Israel!",
+      "kind": "staging"
      }
     ],
     "B01V07-P29-03": [
@@ -3424,18 +3425,16 @@
       "type": "speech",
       "speaker": "דודה נחלה",
       "he": "אינני יכולה להשגיח עליך. הפרנסה מתמעטת.",
-      "en": "I cannot watch over you. Our living is shrinking.",
+      "en": "I cannot look after you. Our income is shrinking.",
       "kind": "adapted_speech",
-      "memoir": "כל זמן שהדוד היה חי, הוא השגיח עליך, אינני יכולה להשגיח. הפרנסה מתמעטת",
-      "mouth": "Aunt Nachale, speaking gently to Yitzhak at home (no art yet: draw her in the panel), tail to her"
+      "memoir": "אינני יכולה להשגיח. הפרנסה מתמעטת"
      },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "קיבלתי את זה ללב.",
-      "en": "I took it to heart.",
-      "kind": "quote",
-      "memoir": "קיבלתי את זה ללב"
+      "he": "הבנתי שהדודה כבר לא יכולה להחזיק אותי בביתה.",
+      "en": "I understood that my aunt could no longer keep me in her home.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P29-04": [
@@ -3445,16 +3444,14 @@
       "he": "החלטתי לנסוע הביתה.",
       "en": "I have decided to go home.",
       "kind": "quote",
-      "memoir": "אמרתי לדודה שהחלטתי לנסוע הביתה",
-      "mouth": "Yitzhak, packing, turned toward the aunt (no art yet), tail to him"
+      "memoir": "החלטתי לנסוע הביתה"
      },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הדרך ארכה ימים ולילות.",
-      "en": "The journey took days and nights.",
-      "kind": "adapted",
-      "memoir": "אחרי ימים ולילות טלטולים בדרכים"
+      "he": "לנסוע הביתה פירושו לעזוב את התנועה. וכך, רגע לפני, החלום התבטל.",
+      "en": "Going home meant leaving the movement. And so, at the last moment, the dream fell apart.",
+      "kind": "adapted"
      }
     ]
    },
@@ -3556,49 +3553,48 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בבית היו חוה, רייזל ושמעון.",
-      "en": "At home were Chava, Raisel and Shimon.",
-      "kind": "adapted",
-      "memoir": "חוה, רייזיל ושמעון היו בבית"
+      "he": "בבית היו חוה, רייזל ושמעון. לא היה כסף, וכמעט לא היה מה לאכול.",
+      "en": "At home were Chava, Reizel and Shimon. There was no money, and almost nothing to eat.",
+      "kind": "adapted"
      },
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "מה לעשות? לאכול נחוץ.",
-      "en": "What to do? We need to eat.",
+      "he": "אני חייב למצוא עבודה, כדי שיהיה לנו אוכל.",
+      "en": "I must find work, so we will have food.",
       "kind": "adapted_thought",
-      "memoir": "מה עושים, חוה, רייזיל ושמעון היו בבית. מה לעשות? לאכול נחוץ",
-      "mouth": "Itsche, standing with his siblings (no art yet), thought bubble above his head"
+      "mouthXY": [
+       0.9,
+       0.3
+      ],
+      "offPanel": true
      }
     ],
     "B01V07-P30-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לקחו אנשים לעבודות כבישים. גם אותי לקחו. בהתחלה לא שאלו אם אנחנו רוצים.",
-      "en": "They took people for road work. They took me too. At first no one asked if we wanted to.",
-      "kind": "adapted",
-      "memoir": "פעם באמצע היום התחילו לתפוס אנשים לעבודה לתיקון כבישים"
+      "he": "באותם ימים, באמצע המלחמה, הצבא תפס אנשים מהרחוב לתקן כבישים. גם אותי תפסו.",
+      "en": "In those days, in the middle of the war, the army grabbed people off the street to repair roads. They grabbed me too.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P30-03": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עבדנו תחת שמירה.",
-      "en": "We worked under guard.",
-      "kind": "adapted",
-      "memoir": "בפועל עבדנו בכוח, שמרו עלינו"
+      "he": "עבדנו תחת שמירה. לא היה נוח, אבל העבודה לא הייתה קשה.",
+      "en": "We worked under guard. It was not pleasant, but the work was not hard.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P30-04": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אחרי זמן הסדירו תשלום לעובדים. המשכתי לעבוד ולהרוויח.",
-      "en": "After a while they arranged pay for the workers. I kept working and earning.",
-      "kind": "adapted",
-      "memoir": "אחרי חודשיים עבודה החליטו פרנסים מהעיר, שהם ישלמו לנו חלק כסף"
+      "he": "אחרי חודשיים התחילו לשלם לנו. ככה הייתה לי פרנסה, ולבית היה אוכל.",
+      "en": "After two months they started paying us. So I had a living, and there was food at home.",
+      "kind": "adapted"
      }
     ]
    },
@@ -3699,30 +3695,27 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "ביקשו עובדים שיודעים לדבר ולכתוב בגרמנית. ידעתי, והצטרפתי למודדים.",
-      "en": "They wanted workers who could speak and write German. I could, and I joined the surveyors.",
-      "kind": "adapted",
-      "memoir": "פעם שאלו מי יודע לכתוב ולדבר גרמנית"
+      "he": "יום אחד שאלו המודדים האוסטרים: מי יודע לדבר ולכתוב גרמנית טובה? אני ידעתי!",
+      "en": "One day the Austrian surveyors asked: who can speak and write good German? I could!",
+      "kind": "adapted"
      }
     ],
     "B01V07-P31-03": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עזרתי למדוד דרכים וגשרים. העבודה הייתה קלה, וכסף לא היה חסר.",
-      "en": "I helped measure roads and bridges. The work was easy, and there was no shortage of money.",
-      "kind": "adapted",
-      "memoir": "מדדנו גשרים ודרכים"
+      "he": "הצטרפתי למהנדסים, ומדדנו דרכים וגשרים. העבודה הייתה קלה יותר, ושילמו בה הרבה יותר.",
+      "en": "I joined the engineers, and we measured roads and bridges. The work was easier, and it paid much better.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P31-04": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "תרגמתי בין החקלאים לבין המהנדס, על האדמה שקלקלו להם.",
-      "en": "I translated between the farmers and the engineer, about the land that had been damaged.",
-      "kind": "adapted",
-      "memoir": "אני הייתי המתורגמן בין החקלאים הפולניים, לאינג'ינר האוסטרי בנושא האדמה שקלקלו להם"
+      "he": "האיכרים דיברו פולנית, המהנדס דיבר רק גרמנית, ואני הייתי המתורגמן ביניהם. מה שלמדתי בלודז׳ הפך פתאום ליתרון שלי.",
+      "en": "The farmers spoke Polish, the engineer spoke only German, and I was the interpreter between them. What I had learned in Lodz suddenly became my advantage.",
+      "kind": "editorial"
      }
     ]
    },
@@ -3808,10 +3801,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בכפרים ראיתי אנשים חורשים ומגדלים את האוכל שלהם.",
-      "en": "In the villages I saw people plowing and growing their own food.",
-      "kind": "adapted",
-      "memoir": "וראינו איך שחקלאים חורשים אדמה"
+      "he": "בכפרים ראיתי איכרים חורשים, זורעים ומגדלים בעצמם את האוכל שלהם.",
+      "en": "In the villages I saw farmers ploughing, sowing and growing their own food.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P32-02": [],
@@ -3819,20 +3811,18 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שמרו מן היבול גם לחורף.",
-      "en": "They kept some of the harvest for winter too.",
-      "kind": "adapted",
-      "memoir": "רק ישבו בבית ואכלו מה שאספו בקיץ"
+      "he": "בחורף היה להם אוכל שמור מהיבול שלהם. הם לא היו צריכים לפחד מהמחר.",
+      "en": "In winter they had food stored from their own harvest. They did not need to fear tomorrow.",
+      "kind": "editorial"
      }
     ],
     "B01V07-P32-04": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "התאהבתי מאוד בחקלאות",
-      "en": "I fell deeply in love with farming",
-      "kind": "quote",
-      "memoir": "התאהבתי מאוד בחקלאות"
+      "he": "התאהבתי בחקלאות. חלמתי על אדמה משלי, ועל חיים שקטים ובטוחים.",
+      "en": "I fell in love with farming. I dreamed of land of my own, and of a calm and secure life.",
+      "kind": "editorial"
      }
     ]
    },
@@ -4085,10 +4075,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אחר כך פרצה המלחמה בין פולין לבולשביקים. את ראובן אחי לקחו לצבא.",
-      "en": "Then war broke out between Poland and the Bolsheviks. My brother Reuven was taken into the army.",
-      "kind": "adapted",
-      "memoir": "אחרי שפרצה המלחמה בין פולניה לבולשביקים, את ראובן לקחו לצבא"
+      "he": "ואז פרצה מלחמה חדשה, בין פולין לבולשביקים, והצבא גייס את ראובן אחי.",
+      "en": "Then a new war broke out, between Poland and the Bolsheviks, and the army drafted my brother Reuven.",
+      "kind": "adapted"
      }
     ]
    },
@@ -4185,10 +4174,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "את ראובן כבר לקחו לצבא, ובבית היו צריכים אותי. אז השתמשתי בתעודת הלידה של לייבל אחי, ונשארתי עוד שנה.",
-      "en": "Reuven had already been taken into the army, and I was needed at home. So I used my brother Leibl’s birth certificate and stayed one more year.",
-      "kind": "adapted",
-      "memoir": "את ראובן לקחו לצבא / ללייבל אחי הייתה תעודת לידה לשנת 1902, לקחתי את התעודה שלו"
+      "he": "עכשיו, כשראובן בצבא, הבית היה צריך אותי. השתמשתי בתעודת הלידה של לייבל אחי, וכך נשארתי בבית עוד שנה.",
+      "en": "Now, with Reuven in the army, home needed me. I used my brother Leibel's birth certificate, and so I stayed home another year.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P35-02": [
@@ -4336,8 +4324,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "כל הפלוגה ישנה. רק אני שמרתי, שעה אחרי שעה, כל הלילה.",
-      "en": "The whole company slept. Only I kept watch, hour after hour, all night long.",
+      "he": "כל הפלוגה ישנה. רק אני שמרתי, כל הלילה.",
+      "en": "The whole company slept. Only I kept watch, all night.",
       "kind": "adapted",
       "memoir": "הייתי ער עד לפנות בוקר"
      },
@@ -4353,22 +4341,25 @@
     ],
     "NEW-P36-b": [
      {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "לפנות בוקר הגיעו קצינים זרים ורצו שאעזוב. אבל המפקד שלי אמר לי לשמור.",
+      "en": "Before dawn, strange officers came and wanted me to leave. But my commander had told me to stand guard.",
+      "kind": "adapted"
+     },
+     {
       "type": "speech",
       "speaker": "קצין מהחזית",
-      "he": "זוז מכאן! באנו מהחזית להחליף אתכם.",
-      "en": "Move! We came from the front to replace you.",
-      "kind": "adapted_speech",
-      "memoir": "באו חיילים מהחזית להחליף אותנו",
-      "mouth": "left"
+      "he": "זוז מכאן! אנחנו מחליפים אתכם.",
+      "en": "Move! We are taking over.",
+      "kind": "adapted_speech"
      },
      {
       "type": "speech",
       "speaker": "יצחק",
-      "he": "אני שומע רק לפקודה של המפקד שלי.",
-      "en": "I only follow my own commander’s order.",
-      "kind": "adapted_speech",
-      "memoir": "לא רציתי לשמוע פקודה של קצינים זרים, כי שמרתי את הפקודה של הממונה עלי",
-      "mouth": "right"
+      "he": "אני מקבל פקודות רק מהמפקד שלי.",
+      "en": "I take orders only from my commander.",
+      "kind": "adapted_speech"
      }
     ],
     "B01V07-P36-02": [
@@ -4414,10 +4405,16 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "תוך חמישה רגעים כל הפלוגה כבר הייתה בצד השני של הגשר. כולם ניצלו.",
-      "en": "Within five minutes the whole company was on the other side of the bridge. Everyone was saved.",
-      "kind": "adapted",
-      "memoir": "כל הפלוגה הייתה בצד השני של הגשר במשך חמישה רגעים"
+      "he": "תוך חמישה רגעים כל הפלוגה כבר הייתה בצד השני של הגשר. ניצלנו ברגע האחרון.",
+      "en": "Within five minutes the whole company was across the bridge. We were saved at the last moment.",
+      "kind": "adapted"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "המפקד שלי חזר לקחת גם אותי. פחדתי מאוד, אבל כולם היו בחיים.",
+      "en": "My commander came back for me too. I was very scared, but everyone was alive.",
+      "kind": "editorial"
      }
     ]
    },
@@ -4690,9 +4687,10 @@
       "memoir": "שאל אותי, נו איטשע / איך מוצא חן הבת שלי",
       "mouth": "left, facing Yitzhak (Henich should stand on the left; his bubble sits top-right so it is read first)",
       "mouthXY": [
-       0.19,
-       0.44
-      ]
+       0.07,
+       0.3
+      ],
+      "offPanel": true
      },
      {
       "type": "speech",
@@ -4703,17 +4701,18 @@
       "memoir": "אמרתי כי ראיתי 4 בנות, ואינני יודע, איזה בת, הוא חושב עבורי",
       "mouth": "right, face on the right, bubble upper left",
       "mouthXY": [
-       0.82,
-       0.43
-      ]
+       0.92,
+       0.42
+      ],
+      "offPanel": true
      }
     ],
     "B01V07-P38-04": [
      {
       "type": "speech",
       "speaker": "הניך",
-      "he": "לא פרידה. האחרונה שבאה, הכי גבוהה, הרזה.",
-      "en": "Not Frida. The last one who came in, the tallest, the slim one.",
+      "he": "לא פרידה. אני מתכוון לבת שנכנסה אחרונה: הגבוהה והרזה.",
+      "en": "Not Frida. I mean the daughter who came in last: the tall, slim one.",
       "kind": "adapted_speech",
       "memoir": "הוא אמר שלא היפה יפה, הוא חושב על פרידה הכי יפה, רק אחרונה אחרונה שבאה, הכי גבוהה הרזה",
       "mouth": "off-panel right or at the edge; Chava is the focus",
@@ -4826,10 +4825,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בשנת 1922 התחתנו. גרנו כמו שסיכמנו לפני החתונה.",
-      "en": "In 1922 we were married. We lived as we had agreed before the wedding.",
-      "kind": "adapted",
-      "memoir": "התחתנו ב-1922 / והיינו גרים כפי שדובר לפני החתונה"
+      "he": "בשנת 1922 התחתנו, חוה ואני. התרגשתי מאוד: התחלנו את החיים שלנו בדיוק כמו שהבטחנו זה לזה, בחדר משלנו ועם פינה קטנה בחנות.",
+      "en": "In 1922 Chava and I were married. I was so moved: we began our life exactly as we had promised each other, with a room of our own and a little corner in the shop.",
+      "kind": "editorial"
      }
     ],
     "B01V07-P39-02": [
@@ -5246,19 +5244,23 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שם עוד שמרו את ההמלצות שלי, משנת 1916 והלאה.",
-      "en": "There they still kept my recommendations, from 1916 on.",
-      "kind": "adapted",
-      "memoir": "הוציאו כל התיק שלי, עם כל המלצות משנת 1916 עד שנת 1925"
+      "he": "שם עוד שמרו את ההמלצות שלי, משנת 1916 והלאה. ואחרי כל זה, אמרו לי רק:",
+      "en": "They still kept all my recommendations there, from 1916 on. And after all that, they only told me:",
+      "kind": "adapted"
      },
      {
       "type": "speech",
       "speaker": "במשרד",
-      "he": "תיסע הביתה.",
-      "en": "Go home.",
-      "kind": "quote",
-      "memoir": "ואמרו תיסע הביתה",
-      "mouth": "clerk behind the file, left"
+      "he": "תיסע הביתה. נודיע לך.",
+      "en": "Go home. We will let you know.",
+      "kind": "adapted_speech"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "שוב לחכות, בלי לדעת אם יאשרו אותי ומתי. ההמתנה הזאת הייתה קשה מאוד.",
+      "en": "Waiting again, without knowing if or when they would approve me. That waiting was very hard.",
+      "kind": "editorial"
      }
     ],
     "B01V07-P42-04": []
