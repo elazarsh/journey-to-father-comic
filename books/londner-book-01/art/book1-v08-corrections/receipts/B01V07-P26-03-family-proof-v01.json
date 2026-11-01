@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P26-03",
+  "file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.webp",
+  "sha256": "6e843bfa9b861a55d00065482769092c72e3014ee88bbed07ed836f3f07ec932",
+  "web_sha256": "f78f2670b6230ea4a084a3a998dd32a23ff62b3cfe09a8ce961e67791eff8f9c",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png. Visually checked: Adult cap changed; boy cap and age-corrected face visually retained. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+  "created_utc": "2026-11-01T20:59:23.883074+00:00"
+}

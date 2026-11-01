@@ -256,18 +256,22 @@
     },
     {
       "target": "B01V07-P26-03",
-      "file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png",
-      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.webp",
-      "sha256": "d808a0ae631b66b3a18f668df1a54a0781a60d47db7ed970e41a6ebf8260c1c2",
+      "file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.webp",
+      "sha256": "6e843bfa9b861a55d00065482769092c72e3014ee88bbed07ed836f3f07ec932",
+      "web_sha256": "f78f2670b6230ea4a084a3a998dd32a23ff62b3cfe09a8ce961e67791eff8f9c",
       "actual_size": [
         1536,
         1024
       ],
-      "age_band": "14",
-      "previous_file": "art/book1-v07/B01V07-P26-03.png",
-      "previous_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
-      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-agefix.json",
-      "requires_new_face_and_crop_review": true
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png. Visually checked: Adult cap changed; boy cap and age-corrected face visually retained. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:23.883074+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-family-proof-v01.json"
     },
     {
       "target": "B01V07-P28-03",
@@ -756,6 +760,21 @@
       "previous_file": "art/book1-v07/B01V07-P23-03.png",
       "previous_sha256": "261230afbc8f6bf26f89c365094ce27dc97036a20c32ade2e450bd61e5df393c",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P26-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.webp",
+      "sha256": "d808a0ae631b66b3a18f668df1a54a0781a60d47db7ed970e41a6ebf8260c1c2",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P26-03.png",
+      "previous_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-agefix.json",
       "requires_new_face_and_crop_review": true
     }
   ]
