@@ -62,9 +62,8 @@ def art_for(pid):
 
 
 def frame_art(art, shape, shot):
-    """Show as much of each picture as the panel allows. Close-ups and details keep the tight crop;
-    other shots are not zoomed onto a face: a light crop stays 'cover', a heavy one shows the whole
-    picture ('contain') over a blurred copy of itself."""
+    """Fill the panel (cover) without extra zoom, centred on the scene rather than on one face.
+    Close-ups and details keep the face-led crop."""
     if shot in ('close', 'detail', 'extreme-close', 'xcu', 'ecu'):
         return {}
     if 'circle' in shape:
@@ -77,8 +76,7 @@ def frame_art(art, shape, shot):
     fc = art.get('faces') or []
     cx = sum(f[0] + f[2] / 2 for f in fc) / len(fc) / 100 if fc else .5
     cy = sum(f[1] + f[3] / 2 for f in fc) / len(fc) / 100 if fc else .4
-    if .30 < lost < .55:   # a thin strip would shrink the picture too much: crop it instead
-        return dict(fit='contain', zoom=1.0, fx=.5, fy=.5)
+    # never letterbox or blur: the picture always fills its panel (family feedback 01/11)
     return dict(fit='cover', zoom=1.0, fx=round(.6 * .5 + .4 * cx, 3), fy=round(.6 * .42 + .4 * cy, 3))
 
 
