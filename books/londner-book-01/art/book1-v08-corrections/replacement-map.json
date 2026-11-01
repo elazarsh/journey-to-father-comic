@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 32,
+  "replacement_count": 33,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -485,6 +485,25 @@
       "previous_sha256": "6d698528db49b1b33d3bb5eab5ea5b1814563f6ef180ae337a5f15dc1681b70e",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P35-04-agefix.json",
       "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "NEW-P28-jnf",
+      "file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.webp",
+      "sha256": "4ea66629b3240237fda8fcb84a375961b364988fe924942337bd1600c0386507",
+      "web_sha256": "345e47d30d121f6d72bf679aef84646f0fea7e3ae62ed0ff2d1481628968d2da",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Independent visual review: blue boxes and star, coin, notebook, no readable text; hand age and historical box details not independently verified; crop and lettering pending.",
+      "created_utc": "2026-11-01T20:52:13.144069+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P28-jnf-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
