@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 35,
+  "replacement_count": 36,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -542,6 +542,25 @@
       "qa_notes": "Edit of P25-03: uncle has short gray beard, glasses and flat cap; other figures preserved. Existing panel receipt and layout identify uncle as Avrahamle, whereas latest request mentions Meir: identity remains unresolved, no invented identification. Crop and final review pending.",
       "created_utc": "2026-11-01T20:54:34.587371+00:00",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P25-03-family-proof-v01.json"
+    },
+    {
+      "target": "NEW-P43-tax",
+      "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.webp",
+      "sha256": "14c422e7d9a532a872c7acdf15b298e8d83824783d1fc48fbed858ca7569496f",
+      "web_sha256": "a5840999c2f234c1dd39814a85c43c0f5da48594526c6317f2b6f9deeb932324",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Candidate only: two officials, Yitzhak, Chava and daughter, sparse room, and three visible table legs. Chairs are broken and leaning but their two-legged construction is not clearly readable; must inspect and repair before final integration. Initial unrequested wall portrait removed. Historical and family likeness not independently verified.",
+      "created_utc": "2026-11-01T20:56:04.011852+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
