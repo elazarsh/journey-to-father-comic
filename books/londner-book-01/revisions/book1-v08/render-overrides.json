@@ -1,0 +1,58 @@
+{
+  "B01V07-P01-02": {
+    "source_sha256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+    "fit": "contain",
+    "fx": 0.5,
+    "fy": 0.5,
+    "zoom": 0.92,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  },
+  "B01V07-P05-01": {
+    "source_sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+    "fit": "cover",
+    "fx": 0.5,
+    "fy": 1.0,
+    "zoom": 1.0,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  },
+  "B01V07-P08-01": {
+    "source_sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+    "fit": "contain",
+    "fx": 0.5,
+    "fy": 0.5,
+    "zoom": 0.92,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  },
+  "B01V07-P21-01": {
+    "source_sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+    "fit": "contain",
+    "fx": 0.5,
+    "fy": 0.5,
+    "zoom": 0.92,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  },
+  "B01V07-P28-04": {
+    "source_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+    "fit": "contain",
+    "fx": 0.5,
+    "fy": 0.5,
+    "zoom": 0.92,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  },
+  "B01V07-P38-02": {
+    "source_sha256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+    "fit": "contain",
+    "fx": 0.5,
+    "fy": 0.5,
+    "zoom": 0.92,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  },
+  "B01V07-P38-03": {
+    "source_sha256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+    "fit": "contain",
+    "fx": 0.5,
+    "fy": 0.5,
+    "zoom": 0.92,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  }
+}

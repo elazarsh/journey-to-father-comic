@@ -30,6 +30,7 @@ if (V / 'new-panels.json').exists():
     new_specs = {p['id']: p for p in json.loads((V / 'new-panels.json').read_text(encoding='utf-8'))}
 
 faces = json.loads((V / 'faces.json').read_text()) if (V / 'faces.json').exists() else {}
+render_overrides = json.loads((V/'render-overrides.json').read_text()) if (V/'render-overrides.json').exists() else {}
 embed = '--embed' in sys.argv
 out_path = Path(sys.argv[sys.argv.index('--embed') + 1]) if embed else V / 'sketch.html'
 
@@ -52,7 +53,9 @@ def art_for(pid):
             buf = io.BytesIO()
             im.save(buf, 'WEBP', quality=68, method=5)
         src = 'data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode()
-    return dict(src=src, w=w, h=h, status=a['status'], faces=[f for f in faces.get(pid, []) if f[2] >= 2.5])
+    settings=render_overrides.get(pid,{})
+    if settings.get('source_sha256')!=a.get('sha256'):settings={}
+    return dict(src=src, w=w, h=h, status=a['status'], source_sha256=a.get('sha256'), faces=[f for f in faces.get(pid, []) if f[2] >= 2.5], **{k:settings[k] for k in ['fit','fx','fy','zoom'] if k in settings})
 
 
 problems = []
@@ -86,7 +89,7 @@ for pg in plan['pages']:
                 if needle not in hay:
                     problems.append(f"{pid}: quote not verbatim: {t['he']}")
         pur = pg.get('purpose', {}).get(pid, {})
-        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=pur.get('verdict', ''),
+        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=('resolved' if pur.get('verdict')=='redirect' and assets.get(pid,{}).get('claude_v08_review_complete') else pur.get('verdict','')),
                         hero=(i == hero), **shapes[i]))
     # shot variety: adjacent panels must differ in at least two of distance, angle, subject, light
     sp = pg.get('shots', {})
