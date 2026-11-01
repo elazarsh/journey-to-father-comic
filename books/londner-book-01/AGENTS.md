@@ -1,5 +1,9 @@
 # Londner Book 1: scoped production instructions
 
+## Family image correction batch, 2026-11-01
+
+The user authorized a bounded new image correction batch. Read `handoffs/codex/20261101-family-image-review.md` and `art/book1-v08-corrections/replacement-map.json`. The new package has 32 scene replacements, three new age reference portraits and two opening assets. These are candidates for family review; Claude will integrate images, memory overlay, lettering, narrative edits and final PDFs after this delivery. Preserve existing book layout and PDFs until integration is requested. Current user preference is idiomatic, clear modern Hebrew rather than word-for-word memoir wording: preserve historical facts, distinguish adaptations from actual quotations, and do not retain quote labels on adapted lines. This supersedes the earlier minimum-adaptation wording rule. New age portraits are not already family-approved. Retain the economical-agent policy and do not continue automatically into another production batch.
+
 ## Current agent budget and background-work policy
 
 Read `method/agent-efficiency-policy.md` before any delegation or heavy production. The user's 2026-11-01 instruction supersedes earlier open-ended parallel-production authorization. Heavy background production is currently paused. Default to the primary agent or deterministic scripts; at most two narrowly scoped workers, no nested delegation. Use `gpt-6-luna` with low reasoning and `fork_turns: "none"` for suitable simple tasks. Never inherit the full conversation for a routine worker. Keep shared integration files and uploads owned by the primary agent; one initial attempt plus one correction, then stop and return a blocker. These are workflow limits, not an API-enforced spending cap.

@@ -1,0 +1,34 @@
+{
+  "id": "yitzhak-age14-v01",
+  "prompt": "Create one illustrated character identity reference PORTRAIT of Yitzhak/Itshe Londner aged FOURTEEN, early 1910s Poland. First attached drawing is the SAME PERSON at 8-10, second real photograph is the same person identified by family as age17. Make a convincing INTERMEDIATE growing adolescent with clear family likeness: narrow oval face longer than the child drawing, developing cheekbone/jaw but no adult beard or moustache, prominent ears, long distinctive nose bridge from the photo, brown eyes and dark brown hair, restrained friendly thoughtful mouth. This must clearly look 13-14, not a 7-year-old cute boy nor an adult man. Natural anatomy: adolescent neck and modest narrow shoulders proportional to the head. Brown peaked cloth everyday cap, dark simple shirt and worn neat waistcoat, NOT military uniform. Head and upper chest/bust, slight three quarter turn, warm cream uncluttered paper background. Rich natural watercolor/gouache illustration in the dramatic pastoral graphic novel style of first reference, subtle paper texture, natural small eyes, warm gentle light, no photorealism. No words, labels, text, diagrams, balloons, borders. Cap, ears and shoulders entirely inside portrait. Historical artistic reconstruction of his intermediate age; reference likeness without copying the pose exactly.",
+  "kind": "character-reference",
+  "target": null,
+  "file": "art/book1-v08-corrections/characters/yitzhak-age14-v01.png",
+  "web_file": "art/book1-v08-corrections/characters/yitzhak-age14-v01.webp",
+  "sha256": "88f8e3037476e9682f8444d32cf9a7497ef33b162e3e4574a7c0131c00fadf47",
+  "web_sha256": "98f08b4360a7ef2681c6e01af2fa78fa0e880b97db52bb5d70e7aed58e72fbc0",
+  "actual_size": [
+    1145,
+    1374
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-9d8daf63-77ff-4bd3-a832-a1a976bd71c0.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/chars/yitzhak-child-v02.png",
+      "sha256": "ce81be84ce48c479c9f331e27a59eafc6b1b1df80383736d59648bcb2167e46c"
+    },
+    {
+      "file": "ref/S08-img013.jpg",
+      "sha256": "f871b1d0ef99129f125a8b33ef4cfe3343992d71f0fb68108bd320416cbe8931"
+    }
+  ],
+  "status": "generated-candidate-for-Claude-integration",
+  "family_approved": false,
+  "created_utc": "2026-11-01T09:57:35.288196+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

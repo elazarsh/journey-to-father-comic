@@ -1,0 +1,468 @@
+[
+  {
+    "id": "B01V07-P02-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P02-02",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P02-02.png",
+    "previous_source_sha256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P02-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "He is a little boy about3-4, full body on the town street. Short child legs, small shoulders, head-to-total-height around1:5.2, not an adult body with a little head. Cap, hands and shoes all within 12% safe margin.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-8bb96e93-c44b-4f80-a961-492c01b6f7ba.png"
+  },
+  {
+    "id": "B01V07-P05-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P05-02",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P05-02.png",
+    "previous_source_sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P05-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "He is about FOUR starting cheder; all visible class pupils are preschool/early childhood boys about4-6, while teacher is an adult. Preserve the teaching scene and clearly distinguish child heights from adult height.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-e43c5a5e-7c78-486d-b29a-44f186a08f08.png"
+  },
+  {
+    "id": "B01V07-P05-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P05-04",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P05-04.png",
+    "previous_source_sha256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P05-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "FOUR-year-old delighted restrained smile after learning; face portrait, short child neck and narrow shoulders, do not turn him into an older child.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-65268b56-644a-47f0-b44a-746548507432.png"
+  },
+  {
+    "id": "B01V07-P06-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P06-01",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P06-01.png",
+    "previous_source_sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P06-01.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "This cheder class is about4-6-year-old children and an adult teacher; lower the child body/bench scale while preserving the room and their number.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-46a20bd5-a431-4ff6-89ae-7e9593e21599.png"
+  },
+  {
+    "id": "B01V07-P06-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P06-03",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P06-03.png",
+    "previous_source_sha256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P06-03.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "He is FOUR at a cheder desk, naturally puzzled, small short forearms and child shoulder width, visibly younger than age9.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-53c905cc-8085-4a88-8ab5-71262d5bd02e.png"
+  },
+  {
+    "id": "B01V07-P07-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P07-01",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P07-01.png",
+    "previous_source_sha256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P07-01.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "FOUR-year-old little boy listening to mother across table, maintain mother same age/design and composition; his upper torso short and shoulders child narrow.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-c4e95dd8-4a03-4d0f-bf5e-1c5bca61d801.png"
+  },
+  {
+    "id": "B01V07-P07-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P07-02",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P07-02.png",
+    "previous_source_sha256": "2e7946c7ffb62812a22d4d173cc7c856355e295443a524f693052c1810ecb505",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P07-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "FOUR-year-old boy and mother explaining gently, preserve mother identity/gesture. Child small in relation to adult, short torso/neck, no oversized adult shoulders.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-19b4dd27-0fab-491a-aead-fe3d7530f972.png"
+  },
+  {
+    "id": "B01V07-P06-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P06-04",
+    "age_band": "04",
+    "previous_source_file": "art/book1-v07/B01V07-P06-04.png",
+    "previous_source_sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P06-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age04-v01.png"
+    ],
+    "specific": "The boy standing inside doorway opposite his mother is FOUR. Keep mother adult and preserve perspective/doorway. Natural short preschool body and limbs with relatively larger child head, no adult-long legs or tiny adult head. Tender child uncertainty, not abandonment fear. Keep child fully inside safe margins.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-596234cd-58b9-419f-835d-2db30df6672b.png"
+  },
+  {
+    "id": "B01V07-P08-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P08-01",
+    "age_band": "09",
+    "previous_source_file": "art/book1-v07/B01V07-P08-01.png",
+    "previous_source_sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P08-01.webp",
+      "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png"
+    ],
+    "specific": "Boy roughly8-10 near doorway as leg pain begins; preserve the cautious stance and narrative action. Correct too-small head/overlarge body: natural child approximately6-head-high body, slim age-appropriate shoulder width, shorter trunk/legs, no athletic/adult proportions. No added injury or gore.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-de5599ae-920c-4220-8376-26f5bcaa1bae.png"
+  },
+  {
+    "id": "B01V07-P08-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P08-03",
+    "age_band": "09",
+    "previous_source_file": "art/book1-v07/B01V07-P08-03.png",
+    "previous_source_sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P08-03.webp",
+      "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png"
+    ],
+    "specific": "Boy roughly8-10 bending near doorway with sore leg, keep the posture but give anatomically natural child limb/trunk/head proportions, no bulky giant torso with tiny head. Do not add wounds.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-b51955ca-f28b-46e1-b423-2fd5ac87187c.png"
+  },
+  {
+    "id": "B01V07-P13-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P13-03",
+    "age_band": "09",
+    "previous_source_file": "art/book1-v07/B01V07-P13-03.png",
+    "previous_source_sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P13-03.webp",
+      "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png"
+    ],
+    "specific": "Medical examination with father and seated/standing child. Child is roughly8-11, not an adult-miniature; correct the child head/body scale, keep father and physician unmistakably grown adults and preserve calm non-graphic care.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-29622bd8-114a-47ad-9f06-c19577f3f21d.png"
+  },
+  {
+    "id": "B01V07-P16-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P16-04",
+    "age_band": "09",
+    "previous_source_file": "art/book1-v07/B01V07-P16-04.png",
+    "previous_source_sha256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P16-04.webp",
+      "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png"
+    ],
+    "specific": "Child roughly8-11 sits on bed at dusk; shorten oversized torso/shoulders and lengthen head-relative scale naturally. Keep wistful look, room and no horror, no added clinical details.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-f47b714e-0725-43d0-a9b8-134dcf274a30.png"
+  },
+  {
+    "id": "B01V07-P23-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P23-03",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P23-03.png",
+    "previous_source_sha256": "261230afbc8f6bf26f89c365094ce27dc97036a20c32ade2e450bd61e5df393c",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P23-03.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Yitzhak about12-13 beside a reassuring adult relative after parental loss. Preserve supportive hand on shoulder and adult-relative identity. He must be visibly transitioning toward adolescence, younger than age14 reference but older than early-child scenes, no adult muscular body.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-bd509003-ad32-48b1-8036-1f100f982f57.png"
+  },
+  {
+    "id": "B01V07-P26-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P26-01",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P26-01.png",
+    "previous_source_sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v08-corrections/panels/B01V07-P26-01-agefix.png",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "He is a slim FOURTEEN-year-old arriving in Lodz, full body, NOT a little child. Longer adolescent face and appropriate teenage posture; clothes remain same plain dark clothing. Preserve street shot and safe hands/shoes. CRITICAL PRINT COMPOSITION CORRECTION: pull the camera back. The whole teenager must be SMALLER within this portrait, cap top around28% of image height, both complete shoes including soles no lower than84%-86%. Show a full uninterrupted band of cobbled pavement across bottom14%, no foot, leg or body crossing that lower band. Do NOT reproduce the previous lower-edge shoe clipping. Keep all hands and cap inside central76%. Preserve adolescent face and natural14-year-old anatomy, same street, walking pose and shoulder bag.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-6b8b929b-1117-4db8-8229-9f6634acac24.png",
+    "retry": 1
+  },
+  {
+    "id": "B01V07-P26-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P26-02",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P26-02.png",
+    "previous_source_sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P26-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "FOURTEEN-year-old between uncle/aunt; preserve both adults, give boy adolescent face and slim adolescent torso. Not same tiny age4/8 face.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-7720e2b9-417c-46d7-b0ca-9dbfaaa65bdc.png"
+  },
+  {
+    "id": "B01V07-P26-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P26-03",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P26-03.png",
+    "previous_source_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P26-03.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "FOURTEEN-year-old apprentice at fabric counter opposite adult merchant; adolescent face and longer slimmer body, preserve fabric shop not leather shop in this scene.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-86ab14b4-abdb-4bd5-8c8b-132228e472f2.png"
+  },
+  {
+    "id": "B01V07-P28-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P28-03",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P28-03.png",
+    "previous_source_sha256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P28-03.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "FOURTEEN-year-old studying and conversing with religious friend, both are adolescents, not preschool boys. Preserve quiet candlelit study and both faces apart.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-9e697bac-f984-4f21-bd8f-952a4862821c.png"
+  },
+  {
+    "id": "B01V07-P28-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P28-04",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P28-04.png",
+    "previous_source_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P28-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "FOURTEEN-year-old listening among adolescent students to an adult rabbi; keep rabbi, preserve classroom and students number. His face near foreground needs adolescent maturity.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-3be987c4-611a-414d-90a5-68474bbf570c.png"
+  },
+  {
+    "id": "B01V07-P29-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P29-01",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P29-01.png",
+    "previous_source_sha256": "750e96a8a29589ca085585124cd9c6a49904905258e9c90b9bde59f103ce0627",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P29-01.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Group of adolescent boys about14-16 facing an adult selecting workers, not a group of 8-year-olds. Preserve count and selection scene, no combat.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-7c077f97-f923-4c66-9b01-55bfbd71e163.png"
+  },
+  {
+    "id": "B01V07-P29-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P29-02",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P29-02.png",
+    "previous_source_sha256": "a528ad6e03aa677ca269c04c07b9c244e90273494c11536b2a45300270bd46cb",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P29-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Yitzhak about14-15 foreground between other adolescents with an adult behind, unmistakably adolescent face and slender teen neck/shoulders.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-3a735108-d6a9-4ed3-8cc0-d836ff97e7c2.png"
+  },
+  {
+    "id": "B01V07-P29-03-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P29-03",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P29-03.png",
+    "previous_source_sha256": "2b5c4aebb4ccd278d5bbb115fa7887d6bc27ab363dee8687c39a0c2e9a7adac7",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P29-03.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "FOURTEEN/FIFTEEN-year-old at table with aunt; preserve aunt face and speaking direction. Yitzhak in cap is adolescent and older than childhood, keep warm concern.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-a97b1b94-2820-4c3c-a4f0-cbddf673d4e8.png"
+  },
+  {
+    "id": "B01V07-P29-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P29-04",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P29-04.png",
+    "previous_source_sha256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P29-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "FOURTEEN/FIFTEEN-year-old packing a small bag at night. Preserve clothing and action, teen body naturally longer but not adult muscular, teen facial structure.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-a0fa085a-2431-4129-a8d0-095207e8a292.png"
+  },
+  {
+    "id": "B01V07-P30-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P30-02",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P30-02.png",
+    "previous_source_sha256": "4c790c6feee085e63f6327fa30bd7c1d1f8737e75c5407c0ff09e4a4964b730a",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P30-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Yitzhak about15-16 digging a trench alongside adult workers. He is adolescent, not a 9-year-old child. Preserve trench, tool and workers, no fighting, no invented violence. Correct head-to-torso scale naturally.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-73cfc280-170e-4616-8afa-daf9df803811.png"
+  },
+  {
+    "id": "B01V07-P30-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P30-04",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P30-04.png",
+    "previous_source_sha256": "595f9cf3c59c108b0261613c2fa5b201076902c0691edff1d84845c6cab99812",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P30-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Yitzhak about15-16 receiving pay from adult, adolescent face/body. Keep correct simple two-person hands gesture and existing side workers, no extra hands.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-c9b89d60-c5bf-4b60-834a-015533b217d7.png"
+  },
+  {
+    "id": "B01V07-P31-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P31-01",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P31-01.png",
+    "previous_source_sha256": "e012e7599d908aca8099082f7f3401d95fd7fc60f78aab11d015d616e51eff2e",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P31-01.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Yitzhak about15-16 interpreting among adults and survey instrument, preserve all positions/props, teen age not little boy, quiet zones above speakers.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-b96e4e15-abb6-4f55-920d-0702cb9faaf8.png"
+  },
+  {
+    "id": "B01V07-P31-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P31-04",
+    "age_band": "14",
+    "previous_source_file": "art/book1-v07/B01V07-P31-04.png",
+    "previous_source_sha256": "cfcd06200a8c8506b408d5550d593ed656de1a76c3b7da2984bd9d002fabd9ca",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P31-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age14-v01.png"
+    ],
+    "specific": "Yitzhak about15-16 seen between adults in field interpreting. Preserve speaker positions and document/instrument, natural adolescent face and shoulder width.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-863dc448-052b-4561-93ee-8e5d718c63de.png"
+  },
+  {
+    "id": "B01V07-P33-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P33-02",
+    "age_band": "17",
+    "previous_source_file": "art/book1-v07/B01V07-P33-02.png",
+    "previous_source_sha256": "89e4c470d52e82aeab2d3606052b43460faefebd519923efbafc2122c3a7789e",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P33-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age17-v01.png"
+    ],
+    "specific": "Yitzhak aboutSIXTEEN/SEVENTEEN dreaming of farming in a field, visually an older teen whose features follow the actual17-year-old photo, not the same early childhood face.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-f0a3fdce-e693-46fa-a2f5-01000f00ea7a.png"
+  },
+  {
+    "id": "B01V07-P33-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P33-04",
+    "age_band": "17",
+    "previous_source_file": "art/book1-v07/B01V07-P33-04.png",
+    "previous_source_sha256": "44c789bdb543a0672d21fac67c0a76ecba6809682884c209ef511aa2efc269cf",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P33-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age17-v01.png"
+    ],
+    "specific": "Yitzhak aboutSIXTEEN/SEVENTEEN seated thinking at lamplit desk, older teen face, slender youth hands/shoulders, preserve quiet thought space and documented emotion.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-1d161555-d0fd-4258-ad7b-3af4152f7a10.png"
+  },
+  {
+    "id": "B01V07-P34-02-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P34-02",
+    "age_band": "17",
+    "previous_source_file": "art/book1-v07/B01V07-P34-02.png",
+    "previous_source_sha256": "49ebd36687d5da41c40914a2af46850037d1d5adae316fb6196031d0071a1b47",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P34-02.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age17-v01.png"
+    ],
+    "specific": "SIXTEEN/SEVENTEEN-year-old by window, disappointed because permission to travel has not come. Older teen likeness, visible but restrained heartbreak/frustration, no melodramatic tears or invented action, preserve mood/light.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-3ff6ca33-bdd7-4abb-80fe-b7bf923e0b76.png"
+  },
+  {
+    "id": "B01V07-P35-01-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P35-01",
+    "age_band": "17",
+    "previous_source_file": "art/book1-v07/B01V07-P35-01.png",
+    "previous_source_sha256": "d0f64ee8b3a997e3c0e4c5b131aa3b4da78bee5fd198b2e1a80cb4a05287d1b7",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P35-01.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age17-v01.png"
+    ],
+    "specific": "Yitzhak aboutEIGHTEEN reading draft paperwork at table with other adolescent boys behind; late-teen likeness and appropriately grown body, preserve serious look, no readable writing.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-6378af1e-1f29-46ef-abb9-047f0d65e90f.png"
+  },
+  {
+    "id": "B01V07-P35-04-agefix",
+    "kind": "panel-replacement",
+    "target": "B01V07-P35-04",
+    "age_band": "17",
+    "previous_source_file": "art/book1-v07/B01V07-P35-04.png",
+    "previous_source_sha256": "6d698528db49b1b33d3bb5eab5ea5b1814563f6ef180ae337a5f15dc1681b70e",
+    "refs": [
+      "/workspace/londner-book-01/art/book1-v07/web/B01V07-P35-04.webp",
+      "/workspace/londner-book-01/art/book1-v08-corrections/characters/yitzhak-age17-v01.png"
+    ],
+    "specific": "Yitzhak aboutEIGHTEEN listens as officer points to bridge during night guard duty, late-teen likeness rather than child. Preserve night lantern, officer, bridge scene and no added weapons/combat.",
+    "status": "generated",
+    "output_source": "/workspace/generated_images/exec-8d09a51a-9973-4b7e-b832-422f6de52906.png"
+  }
+]

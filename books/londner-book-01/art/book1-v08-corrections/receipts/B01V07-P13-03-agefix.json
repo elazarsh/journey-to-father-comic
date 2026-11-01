@@ -1,0 +1,38 @@
+{
+  "id": "B01V07-P13-03-agefix",
+  "kind": "panel-replacement",
+  "target": "B01V07-P13-03",
+  "age_band": "09",
+  "previous_source_file": "art/book1-v07/B01V07-P13-03.png",
+  "previous_source_sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+  "specific": "Medical examination with father and seated/standing child. Child is roughly8-11, not an adult-miniature; correct the child head/body scale, keep father and physician unmistakably grown adults and preserve calm non-graphic care.",
+  "status": "generated-candidate-for-Claude-integration",
+  "prompt": "Edit the FIRST attached historical graphic-novel panel. Its overall scene, camera angle, framing/aspect ratio, lighting, setting, other people, period clothing and essential actions must remain recognizable. The SECOND image is the age-specific Yitzhak identity reference: it overrides the old panel's too-young face and wrong proportions. Repaint the visible Yitzhak naturally as one anatomically coherent person of the specified age; do not paste or resize a head. Preserve his recognizable brown eyes, prominent ears, distinctive nose and cap, natural smaller eyes and subtle expressions. No generic cartoon, no giant head, no small head on adult torso, no massive shoulders or overlong adult legs on a small child. Treat adult/child scale and head/neck/shoulder relationships coherently. Preserve the established warm painterly watercolor/gouache dramatic pastoral style and paper texture, not glossy photo-realism. Do not introduce new events, symbols or people. Keep faces, hands, feet when relevant, and key props at least10-12% inside edges; leave a naturally calm area ABOVE each visible speaker for later live lettering. NO text, readable writing, balloons, outlines, panel frames or watermarks. This is one complete scene, not a montage. Specific correction: Medical examination with father and seated/standing child. Child is roughly8-11, not an adult-miniature; correct the child head/body scale, keep father and physician unmistakably grown adults and preserve calm non-graphic care.",
+  "file": "art/book1-v08-corrections/panels/B01V07-P13-03-agefix.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P13-03-agefix.webp",
+  "sha256": "e1574f0dd58ecd14522a327c7198116290a4f33d65ed3828f494542228beccbe",
+  "web_sha256": "ac6f06cd42accfdab3688a12fced99401894bb26cb7379d78dcfef04af83294e",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-29622bd8-114a-47ad-9f06-c19577f3f21d.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v07/web/B01V07-P13-03.webp",
+      "sha256": "a4bb02c25cd2a49118c4e6833fa1ba6e2f7234c30d4a573e3ef33c92246cf7bd"
+    },
+    {
+      "file": "art/chars/yitzhak-child-v02.png",
+      "sha256": "ce81be84ce48c479c9f331e27a59eafc6b1b1df80383736d59648bcb2167e46c"
+    }
+  ],
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:11:53.062720+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "B01V07-P30-02-agefix",
+  "kind": "panel-replacement",
+  "target": "B01V07-P30-02",
+  "age_band": "14",
+  "previous_source_file": "art/book1-v07/B01V07-P30-02.png",
+  "previous_source_sha256": "4c790c6feee085e63f6327fa30bd7c1d1f8737e75c5407c0ff09e4a4964b730a",
+  "specific": "Yitzhak about15-16 digging a trench alongside adult workers. He is adolescent, not a 9-year-old child. Preserve trench, tool and workers, no fighting, no invented violence. Correct head-to-torso scale naturally.",
+  "status": "generated-candidate-for-Claude-integration",
+  "prompt": "Edit the FIRST attached historical graphic-novel panel. Its overall scene, camera angle, framing/aspect ratio, lighting, setting, other people, period clothing and essential actions must remain recognizable. The SECOND image is the age-specific Yitzhak identity reference: it overrides the old panel's too-young face and wrong proportions. Repaint the visible Yitzhak naturally as one anatomically coherent person of the specified age; do not paste or resize a head. Preserve his recognizable brown eyes, prominent ears, distinctive nose and cap, natural smaller eyes and subtle expressions. No generic cartoon, no giant head, no small head on adult torso, no massive shoulders or overlong adult legs on a small child. Treat adult/child scale and head/neck/shoulder relationships coherently. Preserve the established warm painterly watercolor/gouache dramatic pastoral style and paper texture, not glossy photo-realism. Do not introduce new events, symbols or people. Keep faces, hands, feet when relevant, and key props at least10-12% inside edges; leave a naturally calm area ABOVE each visible speaker for later live lettering. NO text, readable writing, balloons, outlines, panel frames or watermarks. This is one complete scene, not a montage. Specific correction: Yitzhak about15-16 digging a trench alongside adult workers. He is adolescent, not a 9-year-old child. Preserve trench, tool and workers, no fighting, no invented violence. Correct head-to-torso scale naturally.",
+  "file": "art/book1-v08-corrections/panels/B01V07-P30-02-agefix.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P30-02-agefix.webp",
+  "sha256": "50577ca8f3771c8f46653bc26d8301a77ba67deeeeeacb23c705ac116c0754f1",
+  "web_sha256": "c7a63df6e42f96d1c452a24886238499ddc14a5755e80b6555d417b962d59066",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-73cfc280-170e-4616-8afa-daf9df803811.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v07/web/B01V07-P30-02.webp",
+      "sha256": "e2a8c939578784331cf984a17ef46c4130eb1281d2cd041651628817c51d5bca"
+    },
+    {
+      "file": "art/book1-v08-corrections/characters/yitzhak-age14-v01.png",
+      "sha256": "88f8e3037476e9682f8444d32cf9a7497ef33b162e3e4574a7c0131c00fadf47"
+    }
+  ],
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:29:24.934539+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}
