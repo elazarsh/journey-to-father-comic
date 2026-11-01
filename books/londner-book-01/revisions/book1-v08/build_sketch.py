@@ -109,7 +109,19 @@ for pg in plan['pages']:
 ready = sum(1 for p in pages for q in p['panels'] if q['art'])
 total = sum(len(p['panels']) for p in pages)
 sp = json.loads((V / 'special-pages.json').read_text(encoding='utf-8')) if (V / 'special-pages.json').exists() else None
-if sp and sp.get('coverArtId'):
+if sp and sp.get('coverArtFile'):
+    cover = B / sp['coverArtFile']
+    if embed:
+        from PIL import Image
+        with Image.open(cover) as im:
+            im = im.convert('RGB')
+            im.thumbnail((1000, 1500))
+            buf = io.BytesIO()
+            im.save(buf, 'WEBP', quality=75, method=5)
+        sp['coverArt'] = 'data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode()
+    else:
+        sp['coverArt'] = '../../' + sp['coverArtFile']
+elif sp and sp.get('coverArtId'):
     ca = art_for(sp['coverArtId'])
     sp['coverArt'] = ca['src'] if ca else ''
 data = dict(special=sp, pages=pages, ready=ready, total=total, title=script['title_he'], title_en=script['title_en'],

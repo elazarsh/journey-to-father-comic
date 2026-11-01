@@ -137,5 +137,10 @@
     "verified_preview_blobs": 170,
     "outside_book1_changes": 0,
     "proof": "revisions/book1-v08/qa/remote-art-verification-20261101.json"
-  }
+  },
+  "shared_branch": "claude/londner-script-review",
+  "shared_art_head": "991458a3a1b50d16bafde4cdad535a0f69b777e7",
+  "dedicated_cover": "art/book1-v08-cover/cover-v01.png",
+  "pdf_regenerated": false,
+  "visual_inventory": "revisions/book1-v08/qa/art-inventory.html"
 }
