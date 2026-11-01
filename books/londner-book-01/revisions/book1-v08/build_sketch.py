@@ -67,7 +67,7 @@ for pg in plan['pages']:
     morphs = [(order.index(a), order.index(b)) for a, b in pg.get('morph', []) if a in order and b in order]
     roomy = [i for i, pid in enumerate(order)
              if any(t.get('type') in ('speech', 'thought', 'whisper', 'shout') for t in pg['texts'].get(pid, []))]
-    shapes = geometry.page_shapes(pg['recipe'], len(order), hero, morphs, inset, roomy)
+    shapes = geometry.page_shapes(pg['recipe'], len(order), hero, morphs, inset, roomy, pg.get('inset_dy', 0))
     out = []
     words = 0
     for i, pid in enumerate(order):
@@ -124,6 +124,25 @@ if sp and sp.get('coverArtFile'):
 elif sp and sp.get('coverArtId'):
     ca = art_for(sp['coverArtId'])
     sp['coverArt'] = ca['src'] if ca else ''
+def file_src(rel, size=(900, 900), alpha=False):
+    if not embed:
+        return '../../' + rel
+    from PIL import Image
+    with Image.open(B / rel) as im:
+        im = im.convert('RGBA' if alpha else 'RGB')
+        im.thumbnail(size)
+        buf = io.BytesIO()
+        im.save(buf, 'WEBP', quality=75, method=5)
+    return 'data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode()
+
+
+if sp and sp.get('titleArtFile'):
+    sp['titleArt'] = file_src(sp['titleArtFile'], (1000, 1500))
+for p_ in pages:
+    for q_ in p_['panels']:
+        for t_ in q_['texts']:
+            if t_.get('imgFile'):
+                t_['img'] = file_src(t_['imgFile'], (600, 600), alpha=True)
 data = dict(special=sp, pages=pages, ready=ready, total=total, title=script['title_he'], title_en=script['title_en'],
             live=not embed)
 html = (V / 'sketch-template.html').read_text(encoding='utf-8').replace(

@@ -36,8 +36,16 @@
       "en": "",
       "kind": "staging",
       "memoir": "לזיכרון הבנים והבת והנכדים",
-      "picture": "grandchildren",
-      "mouth": "Yitzhak's head is upper-center (about 30% down); cloud floats in the empty wall at upper-left, trail of small circles down to his hat"
+      "mouth": "Yitzhak's head is upper-center (about 30% down); cloud floats in the empty wall at upper-left, trail of small circles down to his hat",
+      "imgFile": "art/book1-v08-corrections/extras/children-memory-v01.png",
+      "at": [
+       0.27,
+       0.13
+      ],
+      "mouthXY": [
+       0.58,
+       0.3
+      ]
      }
     ],
     "B01V07-P01-02": [
@@ -48,6 +56,14 @@
       "en": "I will write down everything I remember: about home, about the roads, and about my big dream.",
       "kind": "adapted",
       "memoir": "מה שאני אזכור, אכתוב"
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "תמיד הייתי עסוק בעבודה, ולא היה לי הרבה זמן לשבת עם הנכדים. אבל בלב, אהבתי את כולם.",
+      "en": "I was always busy working and had little time to sit with my grandchildren. But in my heart, I loved them all.",
+      "kind": "adapted",
+      "memoir": "אבל בלב אהבתי את כולם"
      }
     ]
    },
@@ -378,8 +394,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עד שאמא לא ישבה ליד השולחן, אף אחד לא קיבל צלחת.",
-      "en": "Until Mother sat down at the table, nobody got a plate.",
+      "he": "כשישבנו לאכול, אף אחד לא קיבל צלחת עד שגם אמא התיישבה איתנו ליד השולחן.",
+      "en": "When we sat down to eat, nobody got a plate until Mother sat down at the table with us too.",
       "kind": "adapted",
       "memoir": "עד שאמא לא ישבה על יד השולחן, אף אחד לא היה מקבל כלי ביד"
      }
@@ -474,8 +490,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בשנת 1904 התחלתי ללמוד בחדר. אמא באה איתי.",
-      "en": "In 1904 I started learning in cheder. Mother came with me.",
+      "he": "בשנת 1904, כשהייתי בן ארבע, התחלתי ללמוד בחדר. אמא ליוותה אותי ביום הראשון.",
+      "en": "In 1904, when I was four, I started learning at the cheder. Mother walked me there on the first day.",
       "kind": "adapted",
       "memoir": "שהתחלתי ללכת  לחיידר, לרבי ללמוד, אמי הייתה הולכת איתי"
      }
@@ -484,8 +500,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בחדר למדו אצל רבי.",
-      "en": "In cheder we learned from a rebbe.",
+      "he": "בחדר לימד אותנו הרבי לקרוא, אות אחרי אות.",
+      "en": "At the cheder the rabbi taught us to read, letter by letter.",
       "kind": "adapted",
       "memoir": "לחיידר, לרבי ללמוד"
      }
@@ -494,8 +510,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אמא שמה סוכרייה על האות א.",
-      "en": "Mother put a candy on the letter Aleph.",
+      "he": "ביום הראשון, אמא הניחה סוכרייה על האות א׳.",
+      "en": "On the first day, Mother put a sweet on the letter Aleph.",
       "kind": "adapted",
       "memoir": "על האות \"א\" סוכריה"
      }
@@ -504,9 +520,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "ואני לקחתי אותה עם הפה.",
-      "en": "And I took it with my mouth.",
-      "kind": "adapted",
+      "he": "כשקראתי את האות, קיבלתי את הסוכרייה. ככה טעמתי שהלימוד מתוק.",
+      "en": "When I read the letter, I got the sweet. That is how I tasted that learning is sweet.",
+      "kind": "editorial",
       "memoir": "ואני לקחתי עם הפה את הסוכרייה"
      }
     ]
@@ -582,7 +598,8 @@
     "B01V07-P05-02": "שוט בינוני מזווית נמוכה (מגובה ילד): הרבי ליד שולחן הלימוד, ילדים צעירים על ספסל לפניו, אור חלון עמום.",
     "B01V07-P05-03": "פרט במבט ציפור (עיגול): יד האם מניחה סוכרייה על האות א בדף, האות תתווסף בשכבת טקסט.",
     "B01V07-P05-04": "תקריב בגובה עין: פני הילד עם הסוכרייה בפיו, לחיים מלאות ועיניים נוצצות באור חלון חם."
-   }
+   },
+   "inset_dy": 9
   },
   {
    "page": 6,
@@ -604,8 +621,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "לפעמים בא מבקר לחדר. הוא שאל שאלות ונתן לילדים גרוש.",
-      "en": "Sometimes an inspector came to cheder. He asked questions and gave children a penny.",
+      "he": "מדי פעם הגיע לחדר אורח. הוא שאל את הילדים שאלות, ואחר כך נתן לחלק מהם גרוש.",
+      "en": "Now and then a visitor came to the cheder. He asked the children questions, and then gave some of them a coin.",
       "kind": "adapted",
       "memoir": "כשבא המפקח, שמו ר' משה ורגון, יהודי עשיר בן תורה, כל ילד שידע מה הוא שואל, קיבל ממנו גרוש"
      }
@@ -615,8 +632,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "ידעתי את התשובות. אבל לי הוא לא נתן.",
-      "en": "I knew the answers. But he gave me nothing.",
+      "he": "אני ידעתי את כל התשובות. אבל לי הוא לא נתן.",
+      "en": "I knew all the answers. But he gave me nothing.",
       "kind": "adapted",
       "memoir": "אני ילד שיודע אבל לי הוא לא נתן"
      }
@@ -625,9 +642,9 @@
      {
       "type": "speech",
       "speaker": "איטשע",
-      "he": "למה ילדים אחרים הוא נתן גרוש, ולי לא?",
-      "en": "Why did he give other children a penny, and not me?",
-      "kind": "quote",
+      "he": "אמא, למה לילדים אחרים הוא נותן גרוש, ולי לא?",
+      "en": "Mother, why does he give the other children a coin, and not me?",
+      "kind": "adapted_speech",
       "memoir": "למה ילדים אחרים הוא נתן גרוש, ולי לא?",
       "mouth": "left of center, Itche facing his mother"
      }
@@ -709,30 +726,29 @@
   {
    "page": 7,
    "pace": "slow",
-   "recipe": "2-wide",
+   "recipe": "side-2",
    "order": [
     "B01V07-P07-01",
-    "B01V07-P07-02",
-    "B01V07-P07-03"
+    "B01V07-P07-02"
    ],
-   "hero": "B01V07-P07-03",
-   "morph": [
-    [
-     "B01V07-P07-01",
-     "B01V07-P07-02"
-    ]
-   ],
+   "hero": "B01V07-P07-02",
+   "morph": [],
    "inset": null,
    "new_panels": [],
-   "removed": [],
+   "removed": [
+    {
+     "id": "B01V07-P07-03",
+     "why": "החדר הריק לא הוסיף מסר לסצנה (משוב המשפחה 01/11)."
+    }
+   ],
    "texts": {
     "B01V07-P07-01": [
      {
       "type": "speech",
       "speaker": "אמא",
-      "he": "הם מבתים עניים, והם מקבלים ממנו כל יום גרוש",
-      "en": "They come from poor homes, and they get a penny from him every day.",
-      "kind": "quote",
+      "he": "הילדים האלה באים מבתים עניים. הוא עוזר להם ונותן להם גרוש כל יום.",
+      "en": "Those children come from poor homes. He helps them and gives them a coin every day.",
+      "kind": "adapted_speech",
       "memoir": "הם מבתים עניים, והם מקבלים ממנו כל יום גרוש",
       "mouth": "right side, mother's face"
      }
@@ -741,23 +757,22 @@
      {
       "type": "speech",
       "speaker": "אמא",
-      "he": "ואתה לא צריך ממנו, אתה מקבל ממני",
-      "en": "And you don't need it from him. You get from me.",
-      "kind": "quote",
+      "he": "לך לא צריך. אתה מקבל ממני.",
+      "en": "You do not need it. You get from me.",
+      "kind": "adapted_speech",
       "memoir": "ואתה לא צריך ממנו, אתה מקבל ממני",
       "mouth": "right side, mother's face; balloon in left area"
      },
      {
       "type": "speech",
       "speaker": "אמא",
-      "he": "ואני משלמת לרבי כל חודש, שכר לימוד.",
-      "en": "And I pay the rebbe every month, for your lessons.",
-      "kind": "quote",
+      "he": "ואני גם משלמת לרבי כל חודש בשביל הלימודים שלך.",
+      "en": "And I also pay the rabbi every month for your lessons.",
+      "kind": "adapted_speech",
       "memoir": "ואני משלמת לרבי כל חודש, שכר לימוד.",
       "mouth": "right side, mother's face; second balloon linked below the first"
      }
-    ],
-    "B01V07-P07-03": []
+    ]
    },
    "note_he": "דברי אמא הוחזרו למילים המדויקות של הזיכרונות ופוצלו לבועות קצרות; הפאנל השקט בסוף מקבל את המקום הגדול. עורך: גיוון תמונות: שלוש תמונות של אותה שיחה בין אם לבן באותו מקום; צריך לגוון זווית וגודל, ולסיים בשקט אחר. עורך: צילום: מתקריב חם לשני-שוט, ואז חלל ריק וקר שבו הילד כמעט נעלם.",
    "title": "מה שלא רואים",
@@ -1164,7 +1179,7 @@
   {
    "page": 11,
    "pace": "normal",
-   "recipe": "stack-tall",
+   "recipe": "2-wide",
    "order": [
     "B01V07-P11-01",
     "B01V07-P11-03",
@@ -1185,28 +1200,28 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "פעם קראתי על מלחמה בבלקנים.",
-      "en": "Once I read about a war in the Balkans.",
+      "he": "פעם קראתי בעיתון שיש מלחמה בבלקנים.",
+      "en": "Once I read in the newspaper that there was a war in the Balkans.",
       "kind": "adapted",
-      "memoir": "ואני קראתי אז הייתה מלחמה בבלקנים"
+      "memoir": ""
      }
     ],
     "B01V07-P11-03": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אבל חשבתי על בלקונים, מרפסות.",
-      "en": "But I thought of balconies.",
+      "he": "אבל אצלנו, \"בלקון\" זאת מרפסת. מלחמה על מרפסות?!",
+      "en": "But where we lived, a \"balkon\" was a balcony. A war over balconies?!",
       "kind": "adapted",
-      "memoir": "אם אפשר לעשות מלחמה על הבלקונים?"
+      "memoir": "חשבתי על בלקונים, מרפסות"
      }
     ],
     "B01V07-P11-04": [
      {
       "type": "speech",
       "speaker": "איטשע",
-      "he": "אבא, אפשר לעשות מלחמה על הבלקונים?",
-      "en": "Father, can you fight a war over balconies?",
+      "he": "אבא, איך אפשר לעשות מלחמה על מרפסות?",
+      "en": "Father, how can anyone fight a war over balconies?",
       "kind": "adapted_speech",
       "memoir": "שאלתי את אבי ז\"ל, אם אפשר לעשות מלחמה על הבלקונים?",
       "mouth": "from the bed toward the father, Itche's face center-right"
@@ -1273,7 +1288,7 @@
   {
    "page": 12,
    "pace": "normal",
-   "recipe": "3-wide",
+   "recipe": "rigid-4",
    "order": [
     "B01V07-P12-01",
     "B01V07-P12-02",
@@ -2513,8 +2528,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "כשאבא שמע שהספק מוכן להישבע, הוא כתב לו: היו חצי תריסר יותר.",
-      "en": "When Father heard the supplier was ready to swear, he wrote to him: there were half a dozen more.",
+      "he": "אבא בדק שוב, ומצא שהזוגות בכלל לא חסרים. הוא כתב לספק מיד: טעיתי, הכל הגיע.",
+      "en": "Father checked again and found the pairs were not missing at all. He wrote to the supplier at once: I was wrong, everything arrived.",
       "kind": "adapted",
       "memoir": "אבי שמע שהוא רוצה לתת שבועה, כתב לו אבי כי היה חצי תריסר יותר"
      }
@@ -2531,9 +2546,9 @@
      {
       "type": "caption",
       "speaker": "מכתב מבית החרושת",
-      "he": "אם לא תשלם, גם נשלח לך את הסחורה.",
-      "en": "Even if you do not pay, we will send you the goods.",
-      "kind": "quote",
+      "he": "אנחנו נשלח לך סחורה, גם אם עוד לא שילמת על הקודמת.",
+      "en": "We will send you goods, even if you have not yet paid for the last order.",
+      "kind": "adapted",
       "memoir": "אם לא תשלם, גם נשלח לך את הסחורה"
      }
     ],
@@ -2767,18 +2782,18 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אנחנו, הילדים, החלטנו איפה כל אחד יגור.",
-      "en": "We, the children, decided where each of us would live.",
-      "kind": "adapted",
-      "memoir": "החלטנו שחוה תישאר עם רייזל"
+      "he": "עכשיו אספר לכם לאן הלך כל אחד מאיתנו, ואחר כך מה קרה איתי.",
+      "en": "Now I will tell you where each of us went, and then what happened to me.",
+      "kind": "editorial",
+      "memoir": ""
      },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "נשארנו במשפחה, אבל לא כולנו גרנו עוד באותו בית.",
-      "en": "We stayed a family, but we no longer all lived in the same house.",
+      "he": "כל אחד עבר לגור אצל קרובים שדאגו לו.",
+      "en": "Each of us went to live with relatives who took care of us.",
       "kind": "adapted",
-      "memoir": "החלטנו שחוה תישאר עם רייזל... שרהלה תיסע לקילץ... שמעון ייסע לוורשה... לייבל ייסע למיעכוב"
+      "memoir": ""
      }
     ],
     "B01V07-P24-02": [
@@ -3005,8 +3020,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "מה עושים ממני? המקצוע שלי לא התאים למשפחה שלהם.",
-      "en": "What could they do with me? My trade did not suit their family.",
+      "he": "הם חיפשו בשבילי עבודה מתאימה. המקצוע שלמדתי בבית לא התאים לעסק שלהם.",
+      "en": "They looked for suitable work for me. The trade I had learned at home did not fit their business.",
       "kind": "adapted",
       "memoir": "מה עושים ממני, המקצוע שלי לא היה מתאים להם למשפחה"
      }
@@ -4015,14 +4030,14 @@
   {
    "page": 34,
    "pace": "fast",
-   "recipe": "grow-4",
+   "recipe": "tall-3",
    "order": [
-    "B01V07-P34-01",
     "B01V07-P34-02",
+    "B01V07-P34-01",
     "B01V07-P34-03",
     "B01V07-P34-04"
    ],
-   "hero": "B01V07-P34-04",
+   "hero": "B01V07-P34-02",
    "morph": [],
    "inset": null,
    "new_panels": [],
@@ -4032,28 +4047,36 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הייתי צריך גם דרכון ואישורים נוספים. לא הצלחתי לקבל אותם.",
-      "en": "I also needed a passport and more permits. I could not get them.",
-      "kind": "adapted",
-      "memoir": "צריך היה פספורט וחתימה של ורשה מיצחק גרינבוים"
+      "he": "התיק נשאר ריק. החלום נדחה.",
+      "en": "The bag stayed empty. The dream had to wait.",
+      "kind": "editorial",
+      "memoir": ""
      }
     ],
     "B01V07-P34-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בלי פספורט פחדתי לנסוע. פחדתי שיתפסו אותי בגבול.",
-      "en": "Without a passport I was afraid to travel. I was afraid they would catch me at the border.",
+      "he": "הכל היה מוכן: החלום, ההמלצות, הרצון. חסר רק דבר אחד: דרכון ואישורים. ואותם לא הצלחתי לקבל.",
+      "en": "Everything was ready: the dream, the recommendations, the will. Only one thing was missing: a passport and papers. And those I could not get.",
       "kind": "adapted",
-      "memoir": "אני בלי פספורט פחדתי לנסוע, לבזבז כסף, ויתפסו אותי בדרך, בגבול"
+      "memoir": ""
+     },
+     {
+      "type": "thought",
+      "speaker": "יצחק",
+      "he": "בלי דרכון יתפסו אותי בגבול...",
+      "en": "Without a passport, they will catch me at the border...",
+      "kind": "adapted_thought",
+      "memoir": "בלי פספורט פחדתי לנסוע. פחדתי שיתפסו אותי בגבול"
      }
     ],
     "B01V07-P34-03": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בגמר המלחמה, פולין נעשתה שוב עצמאית.",
-      "en": "When the war ended, Poland became independent again.",
+      "he": "בינתיים נגמרה המלחמה, ופולין נעשתה שוב עצמאית.",
+      "en": "Meanwhile the war ended, and Poland became independent again.",
       "kind": "adapted",
       "memoir": "בגמר המלחמה, פולניה קיבלה מידי האוסטרים את פולניה, אחרי שנים שלא הייתה עצמאית"
      }
@@ -5578,12 +5601,16 @@
     "B01V07-P45-04": [
      {
       "type": "speech",
-      "speaker": "נוסעים בדרך",
+      "speaker": "איש שחזר מארץ ישראל",
       "he": "יש לך קרובים? איפה תישן?",
       "en": "Do you have relatives? Where will you sleep?",
       "kind": "adapted_speech",
       "memoir": "שאלו אותי יש לך קרובים, איפה תישן",
-      "mouth": "right, quiet space for the bubble on the left"
+      "mouth": "right, quiet space for the bubble on the left",
+      "mouthXY": [
+       0.666,
+       0.46
+      ]
      },
      {
       "type": "caption",
@@ -5781,114 +5808,6 @@
   },
   {
    "page": 47,
-   "pace": "slow",
-   "recipe": "stack-tall",
-   "order": [
-    "B01V07-P47-01",
-    "B01V07-P47-02",
-    "B01V07-P47-03"
-   ],
-   "hero": "B01V07-P47-03",
-   "morph": [
-    [
-     "B01V07-P47-01",
-     "B01V07-P47-02"
-    ]
-   ],
-   "inset": null,
-   "new_panels": [],
-   "removed": [],
-   "texts": {
-    "B01V07-P47-01": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "תמיד הייתי עסוק בעבודה. לא יכולתי להתעסק הרבה עם הנכדים.",
-      "en": "I was always busy with work. I couldn't spend much time with the grandchildren.",
-      "kind": "adapted",
-      "memoir": "תמיד הייתי עסוק מהקונים ... ולא יכולתי להתעסק עם הנכדים"
-     }
-    ],
-    "B01V07-P47-02": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "אבל בלב אהבתי את כולם.",
-      "en": "But in my heart I loved them all.",
-      "kind": "quote",
-      "memoir": "אבל בלב אהבתי את כולם."
-     }
-    ],
-    "B01V07-P47-03": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "את הזיכרונות האלה כתבתי לזיכרון הבנים והבת והנכדים.",
-      "en": "I wrote these memories in memory for my sons, my daughter and my grandchildren.",
-      "kind": "adapted",
-      "memoir": "לזיכרון הבנים והבת והנכדים"
-     }
-    ]
-   },
-   "note_he": "בלי בועות חדשות, כי כאן מדבר הסבא הכותב; הכותב והמחברת מתמזגים, והפנים החמות בתחתית מקבלות את המקום הגדול. עורך: צילום: מבט מעבר לכתף, חפצים מלמעלה ופנים חמות.",
-   "title": "מה אני משאיר לכם",
-   "purpose": {
-    "B01V07-P47-01": {
-     "id": "B01V07-P47-01",
-     "purpose_he": "חזרה להווה: המספר הכותב",
-     "verdict": "new",
-     "new_shows_he": "בינוני מעבר לכתפו של יצחק המבוגר: הוא כותב במחברת.",
-     "shot": "medium",
-     "angle": "over-shoulder",
-     "light": "warm desk lamp"
-    },
-    "B01V07-P47-02": {
-     "id": "B01V07-P47-02",
-     "purpose_he": "זיכרון: חפצים מן הסיפור",
-     "verdict": "new",
-     "new_shows_he": "פרט ממבט ציפור: מחברת ולצדה עיפרון, חשבון חנות וסל דרך כדימויים.",
-     "shot": "detail",
-     "angle": "birds-eye",
-     "light": "warm lamp pool"
-    },
-    "B01V07-P47-03": {
-     "id": "B01V07-P47-03",
-     "purpose_he": "אהבה: פני המספר",
-     "verdict": "new",
-     "new_shows_he": "תקריב בגובה עין: פנים חמות של המספר.",
-     "shot": "close-up",
-     "angle": "eye",
-     "light": "soft warm window light"
-    }
-   },
-   "shots": {
-    "B01V07-P47-01": {
-     "shot": "medium",
-     "angle": "over-shoulder",
-     "subject": "yitzhak",
-     "light": "warm desk lamp"
-    },
-    "B01V07-P47-02": {
-     "shot": "detail",
-     "angle": "birds-eye",
-     "subject": "object",
-     "light": "warm lamp pool"
-    },
-    "B01V07-P47-03": {
-     "shot": "close-up",
-     "angle": "eye",
-     "subject": "yitzhak",
-     "light": "soft warm window light"
-    }
-   },
-   "shows_override": {
-    "B01V07-P47-01": "בינוני מעבר לכתפו של יצחק המבוגר: הוא כותב במחברת.",
-    "B01V07-P47-02": "פרט ממבט ציפור: מחברת ולצדה עיפרון, חשבון חנות וסל דרך כדימויים.",
-    "B01V07-P47-03": "תקריב בגובה עין: פנים חמות של המספר."
-   }
-  },
-  {
-   "page": 48,
    "pace": "silence",
    "recipe": "2-wide",
    "order": [
@@ -5988,6 +5907,96 @@
     "B01V07-P48-01": "בינוני בגובה עין: המשפחה ליד המעקה, רוח בשיער.",
     "B01V07-P48-03": "רחב מאוד בגובה עין: שלושתם כצללית קטנה מול ים פתוח עצום.",
     "B01V07-P48-02": "פרט מזווית גבוהה: הסל והכרים על הסיפון."
+   }
+  },
+  {
+   "page": 48,
+   "title": "במחברת הבאה",
+   "pace": "slow",
+   "recipe": "big-small",
+   "order": [
+    "B01V07-P47-03",
+    "B01V07-P47-02"
+   ],
+   "hero": "B01V07-P47-03",
+   "morph": [],
+   "inset": null,
+   "texts": {
+    "B01V07-P47-03": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "מה חיכה לנו בארץ? איפה נגור? ממה נתפרנס?",
+      "en": "What waited for us in the Land? Where would we live? How would we earn a living?",
+      "kind": "editorial",
+      "memoir": ""
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "והחלום הישן שלי, להיות חקלאי, האם יתגשם?",
+      "en": "And my old dream, to be a farmer, would it come true?",
+      "kind": "editorial",
+      "memoir": ""
+     }
+    ],
+    "B01V07-P47-02": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אגלה לכם רק קצת: ממתק מוזר שחשבתי שהוא אטריות, בית שבנינו בידיים, וגם סוסים...",
+      "en": "I will tell you just a little: a strange sweet I thought was noodles, a house we built with our own hands, and horses too...",
+      "kind": "editorial",
+      "memoir": ""
+     },
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "את כל זה אספר לכם במחברת הבאה.",
+      "en": "I will tell you all of it in the next notebook.",
+      "kind": "editorial",
+      "memoir": ""
+     }
+    ]
+   },
+   "shots": {
+    "B01V07-P47-03": {
+     "shot": "close",
+     "angle": "eye",
+     "subject": "yitzhak",
+     "light": "warm lamp"
+    },
+    "B01V07-P47-02": {
+     "shot": "detail",
+     "angle": "high",
+     "subject": "objects",
+     "light": "warm lamp"
+    }
+   },
+   "note_he": "סיום עם שאלות פתוחות ורמזים קטנים לספר 2 (בקשת המשפחה 01/11). קטע 'אהבתי את כולם' עבר לעמוד 1.",
+   "shows_override": {
+    "B01V07-P47-02": "פרט ממבט ציפור: מחברת ולצדה עיפרון, חשבון חנות וסל דרך כדימויים.",
+    "B01V07-P47-03": "תקריב בגובה עין: פנים חמות של המספר."
+   },
+   "purpose": {
+    "B01V07-P47-02": {
+     "id": "B01V07-P47-02",
+     "purpose_he": "זיכרון: חפצים מן הסיפור",
+     "verdict": "new",
+     "new_shows_he": "פרט ממבט ציפור: מחברת ולצדה עיפרון, חשבון חנות וסל דרך כדימויים.",
+     "shot": "detail",
+     "angle": "birds-eye",
+     "light": "warm lamp pool"
+    },
+    "B01V07-P47-03": {
+     "id": "B01V07-P47-03",
+     "purpose_he": "אהבה: פני המספר",
+     "verdict": "new",
+     "new_shows_he": "תקריב בגובה עין: פנים חמות של המספר.",
+     "shot": "close-up",
+     "angle": "eye",
+     "light": "soft warm window light"
+    }
    }
   }
  ]

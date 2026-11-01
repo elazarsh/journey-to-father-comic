@@ -47,13 +47,19 @@ body.work .pid{display:block}
 /* lettering */
 .tx{position:absolute;z-index:20;font-size:clamp(.62rem,1.85cqw,1.12rem);line-height:1.3;text-wrap:balance;text-align:center}
 .tx.cap{font-family:'Frank Ruhl Libre',serif;font-weight:700;color:var(--cap);background:var(--capbg);box-shadow:0 0 1em .6em var(--capbg);padding:.15em .35em;border-radius:.6em;text-shadow:0 1px 2px #000;text-align:start}
-.tx.bub,.tx.tho,.tx.whi{font-family:Rubik,sans-serif;font-weight:600;color:var(--ink);background:var(--paper);border:2.6px solid var(--ink);border-radius:50%/46%;padding:.7em 1.15em;box-shadow:3px 3px 0 rgba(0,0,0,.35)}
+.tx.bub,.tx.tho,.tx.whi{font-family:Rubik,sans-serif;font-weight:600;color:#1f150d;background:none;border:0;border-radius:50%/46%;padding:.7em 1.15em}
 .tx.tho{border-radius:42%/40%}
 .tx.whi{border-style:dashed}
 .tx.sho{font-family:Rubik,sans-serif;font-weight:700;color:var(--ink);background:#ffe27a;border:2.6px solid var(--ink);padding:.7em 1.1em;clip-path:polygon(0 18%,12% 0,25% 14%,40% 0,55% 12%,70% 0,84% 14%,100% 4%,92% 30%,100% 52%,90% 70%,100% 92%,80% 86%,64% 100%,50% 86%,34% 100%,20% 86%,4% 96%,10% 70%,0 50%,8% 32%)}
 .tx .who{display:none}
 .tx svg.kids{width:7.5em;height:4.2em;display:block}
 .tail{position:absolute;z-index:21;overflow:visible;pointer-events:none}
+.tail.bshape{z-index:19;filter:drop-shadow(1.5px 2px 1.5px rgba(0,0,0,.28))}
+.tx img.memo{display:block;width:10.5em;height:auto;aspect-ratio:1.45;opacity:.9;filter:sepia(.35) saturate(.85);margin:-.2em auto -.3em}
+.sp.title.lit{background:#f3e6cc}
+.sp.title.lit .veil{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,rgba(255,249,236,.86) 0%,rgba(255,246,228,.6) 45%,rgba(255,244,224,.15) 80%)}
+.sp.title.lit q{color:#5a3415;text-shadow:0 1px 0 rgba(255,255,255,.6)}
+.sp.title.lit p{color:#4a3524}
 .flag{display:none;position:absolute;top:-.7em;inset-inline-end:-.6em;font-size:.75em;background:#2a1d12;color:#ffd27a;border:1px solid #6a4f2c;border-radius:999px;padding:0 .4em;font-family:Heebo;font-weight:800}
 body.work .tx.isnew{outline:2px dashed #ffb84d;outline-offset:3px}
 body.work .flag.on{display:block}
@@ -190,6 +196,7 @@ html.print .pw{animation:none!important}
       if (S.coverArt) { var im = el('img', 'bg', sp); im.src = S.coverArt; im.alt = ''; if (kind === 'back') im.style.filter = 'blur(3px) brightness(.45)'; if (lang === 'en') im.style.transform = 'scaleX(-1)'; }
       el('div', 'shade', sp); el('div', 'frame', sp);
     }
+    if (kind === 'title' && S.titleArt) { sp.classList.add('lit'); var tb = el('img', 'bg', sp); tb.src = S.titleArt; tb.alt = ''; el('div', 'veil', sp); }
     var inn = el('div', 'in', sp);
     if (kind === 'cover') {
       el('div', 'kick', inn).textContent = L.series; el('h2', '', inn).textContent = L.title; el('div', 'sub', inn).textContent = L.subtitle; el('div', 'by', inn).textContent = L.credit;
@@ -275,7 +282,7 @@ html.print .pw{animation:none!important}
         var d = el('div', 'tx ' + k + (t.isnew ? ' isnew' : ''), host);
         pg._tx.push(d);
         var txt = (lang === 'en' ? (t.en || t.he) : t.he) || '';
-        if (t.picture === 'grandchildren') kidsSvg(d); else d.textContent = txt;
+        if (t.img) { var mi = el('img', 'memo', d); mi.src = t.img; mi.alt = ''; } else if (t.picture === 'grandchildren') kidsSvg(d); else d.textContent = txt;
         var f = el('span', 'flag' + (t.kind === 'staging' || t.kind === 'editorial' ? ' on' : ''), d); f.textContent = '⚠️';
         var pad = Math.max(6, box.w * .045);
         var maxW = k === 'cap' ? Math.min(box.w * .66, ph ? box.w * .9 : hr.width * .5) : Math.min(box.w * .62, ph ? box.w * .75 : hr.width * .38);
@@ -292,16 +299,17 @@ html.print .pw{animation:none!important}
           y = Math.max(box.t + pad, my - h - parseFloat(getComputedStyle(d).fontSize) * 1.9);
           if (fpx.length && !t.offPanel) { var head = fpx.filter(function (f) { return Math.abs(f.cx - mx) < 2 && Math.abs(f.my - my) < 2; })[0]; if (head) y = Math.max(box.t + pad, head.y - h - 6); }
           m = [mx, my];
+          if (Array.isArray(t.at)) { var ax = rtl() ? t.at[0] : 1 - t.at[0]; x = box.l + box.w * ax - w / 2; y = box.t + box.h * t.at[1]; }
         }
         /* keep the whole text inside its own panel shape (slanted edges) */
         var off = { x: pr.left - hr.left, y: pr.top - hr.top };
-        for (var g2 = 0; g2 < 40 && !rectInside(q, x - off.x, y - off.y, w, h, pr.width, pr.height, k === 'cap' ? parseFloat(getComputedStyle(d).fontSize) * .8 : 4); g2++) {
+        for (var g2 = 0; g2 < 40 && !Array.isArray(t.at) && !rectInside(q, x - off.x, y - off.y, w, h, pr.width, pr.height, k === 'cap' ? parseFloat(getComputedStyle(d).fontSize) * .8 : 4); g2++) {
           var cxp = box.l + box.w / 2, cyp = box.t + box.h / 2;
           x += Math.sign(cxp - (x + w / 2)) * Math.min(4, Math.abs(cxp - (x + w / 2)));
           y += Math.sign(cyp - (y + h / 2)) * Math.min(4, Math.abs(cyp - (y + h / 2)));
         }
         /* never on top of another text: slide down, then to the other side */
-        for (var guard = 0; guard < 12; guard++) {
+        for (var guard = 0; guard < 12 && !Array.isArray(t.at); guard++) {
           var hit = null;
           obst.forEach(function (o) { if (x < o.x + o.w + 4 && x + w + 4 > o.x && y < o.y + o.h + 4 && y + h + 4 > o.y) hit = o; });
           if (!hit) break;
@@ -316,24 +324,31 @@ html.print .pw{animation:none!important}
   }
   function drawTail(host, pg, d, r, m, k) {
     var fs = parseFloat(getComputedStyle(d).fontSize), cx = r.x + r.w / 2, cy = r.y + r.h / 2;
-    var bx = Math.max(r.x + r.w * .28, Math.min(r.x + r.w * .72, m[0])), by = r.y + r.h - fs * .25;
-    var dx = m[0] - bx, dy = m[1] - by, L = Math.hypot(dx, dy) || 1;
-    if (dy < 0) { by = r.y + r.h / 2; bx = m[0] < cx ? r.x + fs * .3 : r.x + r.w - fs * .3; dx = m[0] - bx; dy = m[1] - by; L = Math.hypot(dx, dy) || 1; }
-    var ux = dx / L, uy = dy / L, s = svg('svg', { class: 'tail', width: 1, height: 1 }, host);
+    var FILL = k === 'sho' ? '#ffe27a' : '#f8eed8', INK = '#3a2818';
+    var s = svg('svg', { class: 'tail' + (k === 'sho' ? '' : ' bshape'), width: 1, height: 1 }, host);
     s.style.left = '0px'; s.style.top = '0px'; pg._tx.push(s);
+    var g = svg('g', { opacity: k === 'sho' ? 1 : .84 }, s);
+    var rx = r.w / 2, ry = r.h / 2;
+    if (k !== 'sho') {   /* the bubble itself, so bubble and tail are one shape with one transparency */
+      var rr = k === 'tho' ? [r.w * .42, r.h * .4] : [r.w * .5, r.h * .46];
+      svg('rect', { x: r.x, y: r.y, width: r.w, height: r.h, rx: rr[0], ry: rr[1], fill: FILL, stroke: INK, 'stroke-width': 2, 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, g);
+    }
+    var dx = m[0] - cx, dy = m[1] - cy, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L;
+    var t = 1 / Math.sqrt((dx / rx) * (dx / rx) + (dy / ry) * (dy / ry));   /* where the line to the mouth leaves the ellipse */
+    var ex = cx + dx * t * .97, ey = cy + dy * t * .97, gap = Math.hypot(m[0] - ex, m[1] - ey);
     if (k === 'tho') {
-      [[.55, .34], [1.15, .24], [1.62, .15]].forEach(function (c) {
-        var dd = Math.min(c[0] * fs, L * .8);
-        svg('circle', { cx: bx + ux * (dd + fs * .2), cy: by + uy * (dd + fs * .2), r: c[1] * fs, fill: '#fffdf6', stroke: '#1b1410', 'stroke-width': 2 }, s);
+      var dd = Math.max(fs * .9, Math.min(gap - fs * .3, fs * 2.4));
+      [[.3, .26], [.62, .19], [.92, .13]].forEach(function (c) {
+        svg('circle', { cx: ex + ux * dd * c[0] + ux * fs * .25, cy: ey + uy * dd * c[0] + uy * fs * .25, r: c[1] * fs, fill: FILL, stroke: INK, 'stroke-width': 1.8 }, g);
       });
       return;
     }
-    var len = Math.min(fs * 1.5, L * .7), tip = [bx + ux * len, by + uy * len], half = fs * .5, px = -uy, py = ux;
-    var a = [bx + px * half, by + py * half], b = [bx - px * half, by - py * half];
-    var dash = k === 'whi' ? '4 3' : '';
-    svg('path', { d: 'M' + a + ' Q' + (bx + ux * len * .55 + px * half * .2) + ',' + (by + uy * len * .55 + py * half * .2) + ' ' + tip + ' L' + b + 'Z', fill: k === 'sho' ? '#ffe27a' : '#fffdf6', stroke: '#1b1410', 'stroke-width': 2.6, 'stroke-dasharray': dash, 'stroke-linejoin': 'round' }, s);
-    /* cover the bubble outline where the tail joins */
-    svg('path', { d: 'M' + [a[0] - ux * 3, a[1] - uy * 3] + ' L' + [b[0] - ux * 3, b[1] - uy * 3], stroke: k === 'sho' ? '#ffe27a' : '#fffdf6', 'stroke-width': 4.5 }, s);
+    var len = Math.max(fs * .8, Math.min(gap - fs * .35, fs * 2.2)), half = fs * .34, px = -uy, py = ux;
+    var bx = ex - ux * fs * .35, by = ey - uy * fs * .35;   /* base sits just inside the bubble */
+    var a = [bx + px * half, by + py * half], b = [bx - px * half, by - py * half], tip = [ex + ux * len, ey + uy * len];
+    var bend = half * .35, c1 = [(a[0] + tip[0]) / 2 + px * bend, (a[1] + tip[1]) / 2 + py * bend], c2 = [(b[0] + tip[0]) / 2 + px * bend, (b[1] + tip[1]) / 2 + py * bend];
+    svg('path', { d: 'M' + a + ' Q' + c1 + ' ' + tip + ' Q' + c2 + ' ' + b + 'Z', fill: FILL, stroke: 'none' }, g);
+    svg('path', { d: 'M' + a + ' Q' + c1 + ' ' + tip + ' Q' + c2 + ' ' + b, fill: 'none', stroke: INK, 'stroke-width': k === 'sho' ? 2.6 : 2, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, g);
   }
 
   function render() {

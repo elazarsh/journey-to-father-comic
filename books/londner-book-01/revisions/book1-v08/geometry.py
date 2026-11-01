@@ -118,7 +118,7 @@ def set_morph(node, i, j, mo=12):
     return set_morph(node['a'], i, j, mo) or set_morph(node['b'], i, j, mo)
 
 
-def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=()):
+def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=(), inset_dy=0):
     """Return {index: {'poly': [...]} or {'circle': (x,y,w,h)}} for n panels in reading order.
     The inset (if any) is a circle over the joint; the rest fill the page with the recipe."""
     flow = [i for i in range(n) if i != inset]
@@ -149,7 +149,7 @@ def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=()):
         prev = res[flow[max(0, min(len(flow) - 1, inset - 1))]]['poly']
         x, y, w, hh = bbox(prev)
         d = 34
-        cy = min(H - d - 2, max(2, y + hh - d * .55))
+        cy = min(H - d - 2, max(2, y + hh - d * .55 + inset_dy))
         cx = min(100 - d - 3, max(3, x + w - d - 4))
         res[inset] = dict(circle=[round(cx, 2), round(cy, 2), d, d])
     return res
