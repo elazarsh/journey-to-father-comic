@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 36,
+  "replacement_count": 37,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -561,6 +561,25 @@
       "qa_notes": "Candidate only: two officials, Yitzhak, Chava and daughter, sparse room, and three visible table legs. Chairs are broken and leaning but their two-legged construction is not clearly readable; must inspect and repair before final integration. Initial unrequested wall portrait removed. Historical and family likeness not independently verified.",
       "created_utc": "2026-11-01T20:56:04.011852+00:00",
       "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P21-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P21-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P21-03-family-proof-v01.webp",
+      "sha256": "7b7f232898af233156e32630954f0998a24803832773c3fd6b8b144f7f452545",
+      "web_sha256": "8ce79008e73b46f5e733fcf68702f049b14d9b9db402ab51d3eb8def4ea320b9",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Cap correction edit of art/book1-v07/B01V07-P21-03.png. Visually checked: One adult black cap; face and workspace visually retained. Generative edit; exact pixel preservation outside the cap has not been established. Final crop, mouth anchors and family review pending.",
+      "created_utc": "2026-11-01T20:57:24.288830+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P21-03-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
