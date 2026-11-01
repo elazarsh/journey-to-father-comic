@@ -58,7 +58,7 @@ def art_for(pid):
         src = 'data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode()
     settings=render_overrides.get(pid,{})
     if settings.get('source_sha256')!=a.get('sha256'):settings={}
-    return dict(src=src, w=w, h=h, status=a['status'], source_sha256=a.get('sha256'), faces=[f for f in faces.get(pid, []) if f[2] >= 2.5], **{k:settings[k] for k in ['fit','fx','fy','zoom'] if k in settings})
+    return dict(src=src, w=w, h=h, status=a['status'], nomirror=bool(a.get('nomirror')), source_sha256=a.get('sha256'), faces=[f for f in faces.get(pid, []) if f[2] >= 2.5], **{k:settings[k] for k in ['fit','fx','fy','zoom'] if k in settings})
 
 
 def frame_art(art, shape, shot):
@@ -77,7 +77,8 @@ def frame_art(art, shape, shot):
     cx = sum(f[0] + f[2] / 2 for f in fc) / len(fc) / 100 if fc else .5
     cy = sum(f[1] + f[3] / 2 for f in fc) / len(fc) / 100 if fc else .4
     # never letterbox or blur: the picture always fills its panel (family feedback 01/11)
-    return dict(fit='cover', zoom=1.0, fx=round(.6 * .5 + .4 * cx, 3), fy=round(.6 * .42 + .4 * cy, 3))
+    k = .4 if lost < .3 else .85   # when the panel crops a lot, keep the faces in view
+    return dict(fit='cover', zoom=1.0, fx=round((1 - k) * .5 + k * cx, 3), fy=round((1 - k) * .42 + k * (cy - .04), 3))
 
 
 problems = []
@@ -128,7 +129,8 @@ for pg in plan['pages']:
             problems.append(f"page {pg['page']}: Yitzhak in every panel")
     if words > 60:
         problems.append(f"page {pg['page']}: {words} words")
-    pages.append(dict(n=pg['page'], title=pg.get('title', ''), pace=pg.get('pace', ''), recipe=pg['recipe'],
+    photos = [dict(ph, src=('../../' + ph['file'])) for ph in pg.get('photos', [])]
+    pages.append(dict(n=pg['page'], photos=photos, title=pg.get('title', ''), pace=pg.get('pace', ''), recipe=pg['recipe'],
                       note=pg.get('note_he', ''), panels=out, H=geometry.H))
 
 ready = sum(1 for p in pages for q in p['panels'] if q['art'])
@@ -161,6 +163,9 @@ def file_src(rel, size=(900, 900), alpha=False):
     return 'data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode()
 
 
+for p_ in pages:
+    for ph in p_.get('photos', []):
+        ph['src'] = file_src(ph['file'], (700, 700))
 if sp and sp.get('titleArtFile'):
     sp['titleArt'] = file_src(sp['titleArtFile'], (1000, 1500))
 for p_ in pages:

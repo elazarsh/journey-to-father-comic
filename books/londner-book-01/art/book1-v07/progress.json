@@ -3198,6 +3198,19 @@
    "reviewed_layout_version": "0.8",
    "claude_v08_review_complete": true,
    "in_active_layout": true
+  },
+  {
+   "id": "NEW-P24-map",
+   "file": "art/book1-v08-claude/NEW-P24-map.png",
+   "web_file": "art/book1-v08-claude/NEW-P24-map.webp",
+   "actual_size": [
+    1536,
+    1024
+   ],
+   "sha256": "7f5b8976d9be1ffb35511273501dbb16d0059b669ab57e37d534c94c09bde803",
+   "status": "claude-drawn-map",
+   "nomirror": true,
+   "receipt": "art/book1-v08-claude/make_map.py"
   }
  ],
  "generated": 170,
