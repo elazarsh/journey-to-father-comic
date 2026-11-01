@@ -61,6 +61,27 @@ def art_for(pid):
     return dict(src=src, w=w, h=h, status=a['status'], source_sha256=a.get('sha256'), faces=[f for f in faces.get(pid, []) if f[2] >= 2.5], **{k:settings[k] for k in ['fit','fx','fy','zoom'] if k in settings})
 
 
+def frame_art(art, shape, shot):
+    """Show as much of each picture as the panel allows. Close-ups and details keep the tight crop;
+    other shots are not zoomed onto a face: a light crop stays 'cover', a heavy one shows the whole
+    picture ('contain') over a blurred copy of itself."""
+    if shot in ('close', 'detail', 'extreme-close', 'xcu', 'ecu'):
+        return {}
+    if 'circle' in shape:
+        x, y, pw, ph = shape['circle']
+    else:
+        xs = [p[0] for p in shape['poly']]; ys = [p[1] for p in shape['poly']]
+        pw, ph = max(xs) - min(xs), max(ys) - min(ys)
+    pa, ia = pw / max(ph, 1e-6), art['w'] / art['h']
+    lost = 1 - min(pa, ia) / max(pa, ia)
+    fc = art.get('faces') or []
+    cx = sum(f[0] + f[2] / 2 for f in fc) / len(fc) / 100 if fc else .5
+    cy = sum(f[1] + f[3] / 2 for f in fc) / len(fc) / 100 if fc else .4
+    if .30 < lost < .55:   # a thin strip would shrink the picture too much: crop it instead
+        return dict(fit='contain', zoom=1.0, fx=.5, fy=.5)
+    return dict(fit='cover', zoom=1.0, fx=round(.6 * .5 + .4 * cx, 3), fy=round(.6 * .42 + .4 * cy, 3))
+
+
 problems = []
 pages = []
 for pg in plan['pages']:
@@ -92,7 +113,10 @@ for pg in plan['pages']:
                 if needle not in hay:
                     problems.append(f"{pid}: quote not verbatim: {t['he']}")
         pur = pg.get('purpose', {}).get(pid, {})
-        out.append(dict(id=pid, shows=shows, art=art_for(pid), texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=('resolved' if pur.get('verdict')=='redirect' and (assets.get(pid,{}).get('claude_v08_review_complete') or (assets.get(pid,{}).get('claude_v08_review') or {}).get('verdict')=='pass') else pur.get('verdict','')),
+        art = art_for(pid)
+        if art and not any(k in art for k in ('fit', 'zoom', 'fx', 'fy')):
+            art.update(frame_art(art, shapes[i], pg.get('shots', {}).get(pid, {}).get('shot', '')))
+        out.append(dict(id=pid, shows=shows, art=art, texts=texts, new=pid not in panels_v07, purpose=pur.get('purpose_he', ''), verdict=('resolved' if pur.get('verdict')=='redirect' and (assets.get(pid,{}).get('claude_v08_review_complete') or (assets.get(pid,{}).get('claude_v08_review') or {}).get('verdict')=='pass') else pur.get('verdict','')),
                         hero=(i == hero), **shapes[i]))
     # shot variety: adjacent panels must differ in at least two of distance, angle, subject, light
     sp = pg.get('shots', {})

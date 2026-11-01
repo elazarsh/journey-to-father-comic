@@ -3410,14 +3410,32 @@
       "speaker": "אחד ממנהיגי התנועה",
       "he": "אתה מתאים לנסוע. אישור יש לך כבר. חסר רק עוד אישור אחד, מוורשה.",
       "en": "You are right for it. You already have approval. Only one more permit is missing, from Warsaw.",
-      "kind": "adapted_speech"
+      "kind": "adapted_speech",
+      "mouthXY": [
+       0.1,
+       0.3
+      ],
+      "offPanel": true,
+      "at": [
+       0.3,
+       0.58
+      ]
      },
      {
       "type": "thought",
       "speaker": "איטשע",
       "he": "עוד אישור אחד, ואני בארץ ישראל!",
       "en": "One more permit, and I am in the Land of Israel!",
-      "kind": "staging"
+      "kind": "staging",
+      "at": [
+       0.74,
+       0.8
+      ],
+      "mouthXY": [
+       0.6,
+       0.45
+      ],
+      "offPanel": true
      }
     ],
     "B01V07-P29-03": [
