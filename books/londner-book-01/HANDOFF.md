@@ -1,4 +1,4 @@
-> **ספר 1: כל170 מקורות האיור הושלמו.** [תצוגת עבודה](revisions/book1-v08/sketch.html), [מסירה לקלוד והערות השילוב](handoffs/codex/BOOK1-V08-ART-COMPLETION.md). זו אינה בדיקת עימוד סופית.
+> **ספר 1: כל 170 מקורות האיור הושלמו.** [תצוגת עבודה](revisions/book1-v08/sketch.html), [מסירה לקלוד והערות השילוב](handoffs/codex/BOOK1-V08-ART-COMPLETION.md). זו אינה בדיקת עימוד סופית.
 
 > Current image production follows Claude v0.8: [layout and lettering](revisions/book1-v08/layout-plan.json), [image requests](handoffs/claude/v08-image-requests.md), [live sketch](revisions/book1-v08/sketch.html). Book2 belongs to Claude; Codex is producing book1 images only.
 

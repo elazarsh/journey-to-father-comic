@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-01T07:04:10.369489+00:00",
+  "created_utc": "2026-11-01T07:11:11.578179+00:00",
   "story_pages": 48,
   "active_images": 170,
   "renderable_images": 170,
@@ -22,7 +22,7 @@
       "reason": "Claude v08 reviewed replacement (overhead bed / dusk exterior). Older same-ID local PNG is an archived source, not the selected master."
     }
   },
-  "master_uploads_pending": 81,
+  "master_uploads_pending": 0,
   "errors": [],
   "rows": [
     {
@@ -1043,7 +1043,7 @@
       "master_git_blob_sha1": "c780e26316b270ef5270159f029bcd407bb49ac5",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.39,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P25-04",
@@ -1055,7 +1055,7 @@
       "master_git_blob_sha1": "883c739e8cf980cc872b23d00e08cbfb26612bef",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.432,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P26-01",
@@ -1103,7 +1103,7 @@
       "master_git_blob_sha1": "653aff7723bda22b95a91aacbda599285e02b999",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.419,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P27-01",
@@ -1115,7 +1115,7 @@
       "master_git_blob_sha1": "43d4824b1841984d48a467ac66ae16a5d261cb54",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.365,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P27-02",
@@ -1127,7 +1127,7 @@
       "master_git_blob_sha1": "51dbd8cfb400e965d31557757243044bc5cb7b56",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.383,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P27-04",
@@ -1139,7 +1139,7 @@
       "master_git_blob_sha1": "57b6b0f2aae6aa7a5ba21c0984799d9bcba81aeb",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.413,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P28-01",
@@ -1151,7 +1151,7 @@
       "master_git_blob_sha1": "6d8bdd72ee98d4fb956c696779f9255b45a8a318",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.383,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P28-02",
@@ -1163,7 +1163,7 @@
       "master_git_blob_sha1": "ae36ab8253eb65eaba9351eb9001c2d02bfe8189",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.377,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P28-03",
@@ -1175,7 +1175,7 @@
       "master_git_blob_sha1": "07369f673dcad143429ea2687f9d6f5d57904aca",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.417,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P28-04",
@@ -1187,7 +1187,7 @@
       "master_git_blob_sha1": "dfb11ad4765cead2f44a604a3b97ebc6f8bb0114",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.409,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P29-01",
@@ -1199,7 +1199,7 @@
       "master_git_blob_sha1": "158c9774445f87a5e34fbb362e04870f63c7e46e",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.415,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P29-02",
@@ -1211,7 +1211,7 @@
       "master_git_blob_sha1": "224777a79f6505ecda64c0804e880330b5363aa3",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.402,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P29-03",
@@ -1223,7 +1223,7 @@
       "master_git_blob_sha1": "a2d7a58cceb306759044b2fb68bee7a9d9d4ae2a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.405,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P29-04",
@@ -1235,7 +1235,7 @@
       "master_git_blob_sha1": "1fae9d094ade8cd614c5b8cbd9c55bdc004ac952",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.393,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P30-01",
@@ -1247,7 +1247,7 @@
       "master_git_blob_sha1": "ad371ee845ea84233c78bfbfd3fa103347f4930c",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.372,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P30-02",
@@ -1259,7 +1259,7 @@
       "master_git_blob_sha1": "3348d3a62eac78c8aa47b2acf8e4c975bf8eef08",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.395,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P30-03",
@@ -1271,7 +1271,7 @@
       "master_git_blob_sha1": "f402b3c7dedea84048bdf0d5fdda86a96ca56ca9",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.426,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P30-04",
@@ -1283,7 +1283,7 @@
       "master_git_blob_sha1": "b81faa80c628a805f982caa8ccf9076eda60fc08",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.429,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P31-01",
@@ -1295,7 +1295,7 @@
       "master_git_blob_sha1": "5adde87da2187169a5bacf09d09117a38472fb93",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.407,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P31-03",
@@ -1307,7 +1307,7 @@
       "master_git_blob_sha1": "5962623b1d43fc1750d9dd1a9410fd46620d0c95",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.43,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P31-04",
@@ -1319,7 +1319,7 @@
       "master_git_blob_sha1": "62da2cd14ce9169c7993cdeb499b150e5e8b4318",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.412,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P32-01",
@@ -1331,7 +1331,7 @@
       "master_git_blob_sha1": "0e94be029f522ef95904a4be3803edd7e3e6964c",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.42,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P32-02",
@@ -1343,7 +1343,7 @@
       "master_git_blob_sha1": "80358820025d1ceaf0f187eef7023623ac79799a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.479,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P32-03",
@@ -1355,7 +1355,7 @@
       "master_git_blob_sha1": "c36e32c0c092a6524c86ace9219ad9feee541a0a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.424,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P32-04",
@@ -1367,7 +1367,7 @@
       "master_git_blob_sha1": "ebe43c3188c328cb857f9ed1acbda60e3a398840",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.461,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P33-02",
@@ -1379,7 +1379,7 @@
       "master_git_blob_sha1": "e2583b7a9921f98d1305c8633696990501cf45a8",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.425,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P33-03",
@@ -1391,7 +1391,7 @@
       "master_git_blob_sha1": "00cda593077ef5ceb3d92aae4d24bbb490233f5c",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.403,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P33-04",
@@ -1403,7 +1403,7 @@
       "master_git_blob_sha1": "8c5cf5c9e14b2102e8aeef3e3865bb1a2cf9d870",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.404,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P34-01",
@@ -1415,7 +1415,7 @@
       "master_git_blob_sha1": "39dc4968ceeaa466a01bd06cd935d9e339b03391",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.393,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P34-02",
@@ -1427,7 +1427,7 @@
       "master_git_blob_sha1": "e31301eea472c89dcfda5d84f65baa2c6ef1f4e9",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.377,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P34-03",
@@ -1439,7 +1439,7 @@
       "master_git_blob_sha1": "fc0d4690fdccade488c4c95922ec303e4e16362b",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.445,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P34-04",
@@ -1451,7 +1451,7 @@
       "master_git_blob_sha1": "640d47ef26ff81855a71381f3826e4da5f05a61d",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.377,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P35-01",
@@ -1463,7 +1463,7 @@
       "master_git_blob_sha1": "e1124eb1986866bde3e79a6fa6ce08ebe9553e2a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.431,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P35-02",
@@ -1475,7 +1475,7 @@
       "master_git_blob_sha1": "21a83e0f99eccffd1b2564f89e9857afa8a6ebe4",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.418,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P35-03",
@@ -1487,7 +1487,7 @@
       "master_git_blob_sha1": "a9453121931da32f25667f5b24e773b83019c673",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.397,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P35-04",
@@ -1499,7 +1499,7 @@
       "master_git_blob_sha1": "f6f50f5894af10be37e898a6819255fb301631dc",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.435,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P36-01",
@@ -1511,7 +1511,7 @@
       "master_git_blob_sha1": "01307389721966cd25e3f8d077a0898ab09aaa8b",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.394,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "NEW-P36-b",
@@ -1523,7 +1523,7 @@
       "master_git_blob_sha1": "d42a813f4c1dfa8c17bbe72b51d6817db7230cee",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.393,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P36-02",
@@ -1535,7 +1535,7 @@
       "master_git_blob_sha1": "04d260579dd75d2749d3fa84f353f5bf7ad41e26",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.393,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "NEW-P36-a",
@@ -1547,7 +1547,7 @@
       "master_git_blob_sha1": "fe7ee05fdfd8ca761353be4ddd1998fc4cf384c5",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.372,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P36-03",
@@ -1559,7 +1559,7 @@
       "master_git_blob_sha1": "224704ee7539ac99f17d5dccc0f8a81b986a197a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.399,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P36-04",
@@ -1595,7 +1595,7 @@
       "master_git_blob_sha1": "7742f1abb7dff40bf7b484087d313bfbe11f61af",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.396,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P37-03",
@@ -1607,7 +1607,7 @@
       "master_git_blob_sha1": "5f4f50ca484656a11d620323286b6e4a3c94cbae",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.398,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P37-04",
@@ -1619,7 +1619,7 @@
       "master_git_blob_sha1": "0c385aefe1aeca6c0627ffee53e9adbca1d3fee4",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.427,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P38-01",
@@ -1631,7 +1631,7 @@
       "master_git_blob_sha1": "893bc7ccfe0c9d9dcfbafb3932554ec725a26901",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.389,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P38-02",
@@ -1643,7 +1643,7 @@
       "master_git_blob_sha1": "15d41bf028813ce609e956d7eb20c39c30477c3a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.395,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P38-03",
@@ -1655,7 +1655,7 @@
       "master_git_blob_sha1": "348720e2b2562ad51c5e662b6f6683bfd138779d",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.46,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P38-04",
@@ -1667,7 +1667,7 @@
       "master_git_blob_sha1": "b720f5b404cec9da625ac0ab8108ebd0fef50e43",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.445,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P39-01",
@@ -1679,7 +1679,7 @@
       "master_git_blob_sha1": "977bb9b5d732f1a411a665a19c3cafc15e7bfeb1",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.527,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P39-02",
@@ -1691,7 +1691,7 @@
       "master_git_blob_sha1": "2e5315ee682dc13f4d132172fbc0d12a545efedb",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.439,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P39-03",
@@ -1703,7 +1703,7 @@
       "master_git_blob_sha1": "08cd8d2d6818c1e25c7350717a40fd0af6a492f4",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.429,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P39-04",
@@ -1715,7 +1715,7 @@
       "master_git_blob_sha1": "434958dde145fd6d19e25cf5b30f290372dfa913",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.398,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P40-02",
@@ -1727,7 +1727,7 @@
       "master_git_blob_sha1": "4c313458665f497a4b09b625d681f77c94cc22fe",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.379,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P40-03",
@@ -1739,7 +1739,7 @@
       "master_git_blob_sha1": "8316134680c045c9af55c502304165d3c2df06e2",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.393,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P40-04",
@@ -1751,7 +1751,7 @@
       "master_git_blob_sha1": "3e891dcd410e45a8af81521dc388fef3a7a13b2f",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.39,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P41-01",
@@ -1763,7 +1763,7 @@
       "master_git_blob_sha1": "6e851bb887216ecc08d23a9520512a0bd252a691",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.416,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P41-02",
@@ -1775,7 +1775,7 @@
       "master_git_blob_sha1": "53389f260ca7862e6dce1ac7f0c120af058da98e",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.401,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P41-03",
@@ -1787,7 +1787,7 @@
       "master_git_blob_sha1": "b52aaddda26254a4fdc5ea0e66779413fd252699",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.439,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P42-01",
@@ -1799,7 +1799,7 @@
       "master_git_blob_sha1": "e6f7e1dc6d154cf9058df1cf32c8f8a59512b2b9",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.439,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P42-02",
@@ -1811,7 +1811,7 @@
       "master_git_blob_sha1": "a5184781716757277d93b4bed57a2eac80d8673d",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.393,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P42-03",
@@ -1823,7 +1823,7 @@
       "master_git_blob_sha1": "c12b6bc90e4615a17889fd8c63e7893decb33018",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.402,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P42-04",
@@ -1835,7 +1835,7 @@
       "master_git_blob_sha1": "a5d1db012cfbf429019ee6f3f8e7a9783097a5ea",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.421,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P43-01",
@@ -1847,7 +1847,7 @@
       "master_git_blob_sha1": "2cdfeaad430bb940e1993c2051c67b519ee326fc",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.471,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P43-03",
@@ -1859,7 +1859,7 @@
       "master_git_blob_sha1": "eb1824a0822b4ca86a0493a3ff3efa98b0c320dd",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.39,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P43-04",
@@ -1871,7 +1871,7 @@
       "master_git_blob_sha1": "d81dfc5556bc3e27d10ef2670e6a0be4279b499d",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.412,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P44-01",
@@ -1883,7 +1883,7 @@
       "master_git_blob_sha1": "bd3c037803d0e6bd71bd88b9e323f3ea4baf57ae",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.404,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P44-02",
@@ -1895,7 +1895,7 @@
       "master_git_blob_sha1": "d0653e92363c11bbf34b88d5cfe9e99821029586",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.426,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P44-04",
@@ -1907,7 +1907,7 @@
       "master_git_blob_sha1": "de8710d8a04e5591e5bd3782f92b065e46064ca8",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.413,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P45-01",
@@ -1919,7 +1919,7 @@
       "master_git_blob_sha1": "9b75fd85a6bc21767c84c3841e085762f1cf2e4c",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.53,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P45-02",
@@ -1931,7 +1931,7 @@
       "master_git_blob_sha1": "f62d317813ea3381b8028c97043ec4a0ac9143f5",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.429,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P45-04",
@@ -1943,7 +1943,7 @@
       "master_git_blob_sha1": "01f7620edcddf475066f42bb4219cc7f634dc949",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.386,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P46-01",
@@ -1955,7 +1955,7 @@
       "master_git_blob_sha1": "1b8638eb17aae7b1ac88a5ddd56e14a4b26fc68f",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.437,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P46-02",
@@ -1967,7 +1967,7 @@
       "master_git_blob_sha1": "8164f691f3ba3103a602b66b6b2bcb0132153cb4",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.41,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P46-03",
@@ -1979,7 +1979,7 @@
       "master_git_blob_sha1": "eab79a83d50f32840e0798f5431af183cde28e23",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.421,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P46-04",
@@ -1991,7 +1991,7 @@
       "master_git_blob_sha1": "7b355861228e7c2d60787adbb36792ef8815d608",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.417,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P47-01",
@@ -2003,7 +2003,7 @@
       "master_git_blob_sha1": "39973e6b58cd7c1b4473957e7d1a1311540a722f",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.447,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P47-02",
@@ -2015,7 +2015,7 @@
       "master_git_blob_sha1": "24e5a180a03cbabbf97c7f0ee433b83702924106",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.438,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P47-03",
@@ -2027,7 +2027,7 @@
       "master_git_blob_sha1": "7ceb91bff2363b68e580a3717c4a636695fc478b",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.419,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P48-01",
@@ -2039,7 +2039,7 @@
       "master_git_blob_sha1": "b55ff6c9360dd998b6b8b1e127888c7f8a2464e7",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.423,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P48-02",
@@ -2051,7 +2051,7 @@
       "master_git_blob_sha1": "7758bf37afc0ba4557f2abc578b61c0729eaab9a",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.435,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     },
     {
       "id": "B01V07-P48-03",
@@ -2063,7 +2063,7 @@
       "master_git_blob_sha1": "9cb27806145930bcfdc15bd40c82b8b6d2406110",
       "master_verified_locally": true,
       "preview_correspondence_mae": 0.461,
-      "master_in_last_synced_tree": false
+      "master_in_last_synced_tree": true
     }
   ],
   "not_claimed": [

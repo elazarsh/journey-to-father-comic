@@ -125,5 +125,17 @@
     "Final Hebrew/English, phone and print crop/lettering review"
   ],
   "completion_handoff": "handoffs/codex/BOOK1-V08-ART-COMPLETION.md",
-  "book2_owner": "Claude"
+  "book2_owner": "Claude",
+  "github_receipt": {
+    "status": "verified",
+    "art_snapshot_commit": "ff48f15ee9c06d2baa75aabfe133b89e19fd3759",
+    "repository": "elazarsh/journey-to-father-comic",
+    "branch": "codex/londner-book-01-v08-art",
+    "directory": "books/londner-book-01",
+    "selected_images": 170,
+    "verified_master_blobs": 170,
+    "verified_preview_blobs": 170,
+    "outside_book1_changes": 0,
+    "proof": "revisions/book1-v08/qa/remote-art-verification-20261101.json"
+  }
 }
