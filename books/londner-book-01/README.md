@@ -1,3 +1,9 @@
+> **ענף העבודה המשותף עודכן:** `claude/londner-script-review` כולל כעת 170 מקורות איור. [מפתח חזותי של כל התמונות](revisions/book1-v08/qa/art-inventory.html). נוספה [עטיפה ייעודית לעיון](art/book1-v08-cover/cover-v01.png). קובצי ה־PDF הישנים טרם הופקו מחדש. [פירוט תיקון המסירה](handoffs/codex/BOOK1-V08-ART-COMPLETION.md).
+
+> **ספר 1: כל 170 מקורות האיור הושלמו.** [תצוגת עבודה](revisions/book1-v08/sketch.html), [מסירה לקלוד והערות השילוב](handoffs/codex/BOOK1-V08-ART-COMPLETION.md). זו אינה בדיקת עימוד סופית.
+
+> Current image production follows Claude v0.8: [layout and lettering](revisions/book1-v08/layout-plan.json), [image requests](handoffs/claude/v08-image-requests.md), [live sketch](revisions/book1-v08/sketch.html). Book2 belongs to Claude; Codex is producing book1 images only.
+
 > **גרסה 0.8 (עימוד קומיקס, Claude):** [הסקיצה](revisions/book1-v08/sketch.html), [התסריט 0.8](revisions/book1-v08/script-v08-he.md), [בקשות תמונה](handoffs/claude/v08-image-requests.md). בתסריט 0.7 הוחלפו שורות שהומצאו במילים מהיומן ([מה שונה](revisions/book1-v07/claude-review/changes-applied-he.md)).
 
 > העלילה ודמות יצחק אושרו. גרסה 0.7 מוסיפה פתיחה ברורה, דיבור ומחשבה ופריסות מגוונות. [תור התמונות הפעיל](revisions/book1-v07/production/manifest.json). הסגנון: דרמטי ופסטורלי.

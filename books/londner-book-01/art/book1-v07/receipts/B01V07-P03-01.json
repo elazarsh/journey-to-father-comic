@@ -6,7 +6,7 @@
     "art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.png"
   ],
   "previous_variant": "art/book1-v07/variants/B01V07-P03-01-before-headcover-correction.png",
-  "status": "generated-reviewed",
+  "status": "source-reviewed-for-v08",
   "visual_review": {
     "single_scene": true,
     "no_text_or_bubbles": true,
@@ -29,5 +29,24 @@
   "file_bytes": 2972247,
   "recorded_at_utc": "2026-10-30T12:12:30.985809+00:00",
   "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
-  "web_sha256": "e224acaf8fe4fd08cf4bc65795fa48a6d8380d04fd51d973f1f514b8f7d3960a"
+  "web_sha256": "e224acaf8fe4fd08cf4bc65795fa48a6d8380d04fd51d973f1f514b8f7d3960a",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P03-01.webp",
+    "source_web_sha256": "9cd9945fdd45a3ce5638b3295094e45ea9e79a08ad20c2f762876353110842ed",
+    "shot": {
+      "shot": "wide",
+      "angle": "eye",
+      "subject": "other",
+      "light": "warm daylight"
+    },
+    "specific_review": "Eye-level wide shop: father/mother behind counter with customer, rolled leather supplies left, stove behind, living-room doorway right. No cobbler making shoes. Parent kippah/headscarf retained; warm cared-for home.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.134445+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

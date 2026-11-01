@@ -1,0 +1,287 @@
+{
+  "created_utc": "2026-10-31T15:20:18.138634+00:00",
+  "note": "Source review only, not final lettering clearance. Empty head_rects describes visible current detail, not a claim that automated absence proves safety. No production face map was modified.",
+  "panels": [
+    {
+      "id": "B01V07-P36-01",
+      "sourceSHA": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+      "reviewed_input": "art/book1-v07/B01V07-P36-01.png",
+      "reviewed_input_sha256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+      "existing_unbound_faces": [
+        [
+          51.5,
+          25.9,
+          19.6,
+          13.0
+        ]
+      ],
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [
+        [
+          41,
+          43,
+          11,
+          16
+        ]
+      ],
+      "hand_prop_rects": [
+        [
+          45,
+          59,
+          10,
+          32
+        ]
+      ],
+      "quiet_source_rects": [
+        [
+          54,
+          3,
+          37,
+          20
+        ]
+      ],
+      "finding": "Current wide night scene: Yitzhak head is lower-center, not the old face box at x51.5 y25.9 w19.6 h13. Old faces.json is stale for this replacement."
+    },
+    {
+      "id": "B01V07-P38-03",
+      "sourceSHA": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+      "reviewed_input": "art/book1-v07/B01V07-P38-03.png",
+      "reviewed_input_sha256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+      "existing_unbound_faces": null,
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [
+        [
+          10,
+          17,
+          20,
+          34
+        ],
+        [
+          30,
+          12,
+          13,
+          26
+        ],
+        [
+          42,
+          19,
+          10,
+          22
+        ],
+        [
+          50,
+          21,
+          13,
+          24
+        ],
+        [
+          61,
+          18,
+          13,
+          25
+        ],
+        [
+          72,
+          20,
+          20,
+          30
+        ]
+      ],
+      "hand_prop_rects": [
+        [
+          16,
+          56,
+          72,
+          25
+        ]
+      ],
+      "quiet_source_rects": [],
+      "finding": "Six complete heads and two male speakers are present in full source. Narrow cover crop clips both male speakers. Reserve lettering in renderer space with contain; do not make daughters into speakers."
+    },
+    {
+      "id": "B01V07-P38-04",
+      "sourceSHA": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+      "reviewed_input": "art/book1-v07/B01V07-P38-04.png",
+      "reviewed_input_sha256": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+      "existing_unbound_faces": null,
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [
+        [
+          20,
+          11,
+          24,
+          40
+        ]
+      ],
+      "hand_prop_rects": [
+        [
+          29,
+          44,
+          17,
+          26
+        ]
+      ],
+      "quiet_source_rects": [
+        [
+          61,
+          3,
+          22,
+          20
+        ]
+      ],
+      "finding": "Chava is the focus. Henich speech comes from off-panel right/edge. Set explicit offPanel=true; skip nearest-face matching; proposed mouth [1.02,.38] in normalized final panel space, mirrored to[-.02,.38] in English. Suggested bubble zone [60,3,36,19] percent of final panel, pending text metrics."
+    },
+    {
+      "id": "B01V07-P21-01",
+      "sourceSHA": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+      "reviewed_input": "art/book1-v07/B01V07-P21-01.png",
+      "reviewed_input_sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+      "existing_unbound_faces": null,
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [
+        [
+          37,
+          10,
+          18,
+          30
+        ]
+      ],
+      "hand_prop_rects": [
+        [
+          34,
+          61,
+          12,
+          13
+        ],
+        [
+          71,
+          25,
+          9,
+          10
+        ],
+        [
+          38,
+          52,
+          62,
+          45
+        ]
+      ],
+      "quiet_source_rects": [],
+      "finding": "Essential head + two hands + open crate span most of source height. Present short strip cannot preserve them at legible size by object-position alone. Increase slot height or use contain as temporary diagnostic."
+    },
+    {
+      "id": "B01V07-P28-04",
+      "sourceSHA": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "reviewed_input": "art/book1-v07/B01V07-P28-04.png",
+      "reviewed_input_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "existing_unbound_faces": null,
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [
+        [
+          60,
+          3,
+          17,
+          25
+        ],
+        [
+          10,
+          39,
+          20,
+          31
+        ]
+      ],
+      "hand_prop_rects": [
+        [
+          43,
+          17,
+          9,
+          21
+        ],
+        [
+          83,
+          70,
+          10,
+          7
+        ],
+        [
+          50,
+          66,
+          24,
+          21
+        ]
+      ],
+      "quiet_source_rects": [],
+      "finding": "Speaker head at top of original source is cut by cover crop. Even fy=0/zoom1 intersects slanted mask; contain .92 is safer. Keep collecting box and raised hand."
+    },
+    {
+      "id": "B01V07-P26-04",
+      "sourceSHA": "f69a0488604893ae5f9db63d390e32ca783fdff269bbe77be465469488df74eb",
+      "reviewed_input": "art/book1-v07/B01V07-P26-04.png",
+      "reviewed_input_sha256": "f69a0488604893ae5f9db63d390e32ca783fdff269bbe77be465469488df74eb",
+      "existing_unbound_faces": [
+        [
+          54.7,
+          19.2,
+          11.6,
+          23.5
+        ]
+      ],
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [],
+      "hand_prop_rects": [
+        [
+          0,
+          4,
+          34,
+          43
+        ],
+        [
+          67,
+          0,
+          33,
+          36
+        ],
+        [
+          17,
+          19,
+          66,
+          51
+        ]
+      ],
+      "quiet_source_rects": [],
+      "finding": "Current source is hands choosing fabric swatches, no face. Existing faces.json entry at x54.7 y19.2 w11.6 h23.5 belongs to superseded source."
+    },
+    {
+      "id": "B01V07-P27-01",
+      "sourceSHA": "d60293a2432b898f3451764c4c531b24ce4528d9216d73037346b4630ccca95c",
+      "reviewed_input": "art/book1-v07/B01V07-P27-01.png",
+      "reviewed_input_sha256": "d60293a2432b898f3451764c4c531b24ce4528d9216d73037346b4630ccca95c",
+      "existing_unbound_faces": [
+        [
+          50.9,
+          29.4,
+          15.8,
+          12.7
+        ]
+      ],
+      "coordinates": "percent x,y,w,h of full source; manually estimated conservative candidate regions, not detector output",
+      "head_rects": [],
+      "hand_prop_rects": [
+        [
+          40,
+          7,
+          35,
+          24
+        ],
+        [
+          9,
+          24,
+          86,
+          70
+        ]
+      ],
+      "quiet_source_rects": [],
+      "finding": "Current source is a hand carrying sample case; no head in the depicted detail. Existing faces.json entry at x50.9 y29.4 w15.8 h12.7 belongs to superseded source."
+    }
+  ]
+}

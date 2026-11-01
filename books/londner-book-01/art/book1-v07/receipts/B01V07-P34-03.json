@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P34-03",
+  "prompt": "LANDSCAPE 1536x1024. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. EXTREME-WIDE HIGH angle: a Polish small-town cobbled street circa1918–1920, simple red-and-white Polish flags on buildings, white stripe ABOVE red stripe, small everyday people in street. Bright clear day. NO ceremony, no rally, no marching army. Purpose: historical turn, independent Poland. Early20th-century Poland, flat gently rolling terrain. If visible, Yitzhak a slender16–17-year-old adolescent, approved narrow oval face, pronounced ears, natural brown eyes, restrained mouth; use child plus youth continuity photo, never adult43. Clear mouths. Keep essential content central70% with15%crop margin. No readable text/letters/numbers, captions, drawn bubbles/blank balloons, frames/collage. Exactly specified angle/shot.\nCORRECTION EDIT: LANDSCAPE 1536x1024. Edit only this single watercolor/gouache scene: REMOVE the LARGE CHILD/young soldier in uniform in the lower-left foreground completely. Replace him naturally with the continuation of the cobbled street, building wall and soft morning sunlight; no hero portrait or foreground soldier. All people should be SMALL ordinary civilian townspeople seen at a distance. Preserve HIGH EXTREME-WIDE view of Polish town street with white-over-red Polish flags on buildings, bright clear day, flat rolling distant countryside. No ceremony, army, parade or foreground portrait. No text, bubbles, frames or lettering.",
+  "tool_original_path": "/workspace/generated_images/exec-b1e4fe77-4506-48d4-84fc-79993c9a6a85.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg",
+    "/workspace/generated_images/exec-857c2ec6-ef68-465c-9ec1-e436ffd15851.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed corrected source: high wide Polish street with ordinary townspeople and white-over-red flags; no ceremony. Removed incorrectly generated foreground youthful soldier via image_gen before accepted master.",
+  "crop_caveats": "Source review only, actual v08 polygon not inspected. P34-02 cap near upper edge requires face-protected crop. P34-04 preserve brother and doorway shoulder relationship.",
+  "file": "art/book1-v07/B01V07-P34-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P34-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "bdba51b0a9cf90eb5b9074ec479904f18d68460ab39c73f9095053a734111c0e"
+}

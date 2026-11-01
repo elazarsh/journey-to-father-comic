@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P14-01",
+  "file": "art/book1-v07/B01V07-P14-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P14-01.webp",
+  "source_path": "/workspace/generated_images/exec-263502ad-115b-4abd-b160-6295a892433d.png",
+  "tool_source_path": "/workspace/generated_images/exec-263502ad-115b-4abd-b160-6295a892433d.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral watercolor and gouache literary graphic novel scene, selective fine ink, restrained rich colors and natural expressive faces, early 1900s Warsaw. WIDE EYE-LEVEL SHOT outside a hospital gateway under pale overcast sky: a townsman in his forties with broad face, short grey moustache, bowler hat and brown wool coat walks out carrying a small travel bag, with his school-age daughter in a muted blue coat and simple dress, and the approved boy Yitzhak beside them. EXACTLY three people: the man, his daughter, Yitzhak. This townsman is NOT Yitzhak's father: clean-shaven chin, broad face, grey moustache, no father's dark beard or flat cap. Yitzhak is the narrow oval-faced boy from reference, pronounced ears, dark hair and cap with tan band, charcoal shirt under a modest dark jacket, natural brown eyes. He walks carefully, one ankle subtly bandaged, no wound or blood. Daughter not identifiable relative, no siblings. Gateway and cloudy sky dominate the upper half, three small figures safely in the central middle, ample headroom and margin around hands and feet. Hospital nineteenth-century pale masonry and iron gate, no signs, no readable lettering, no Christian religious icons, no modern vehicles. Clear simple warm dignity within cool grey weather, no melodramatic rescue or abandonment. Quiet light-grey sky and wall upper-left for future caption. One scene, no text, no balloons, no borders, no collage or watermark.\n",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/web/B01V07-P13-03.webp"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "56e8b93b181f771ca2d36f40e18b7b84248bfd59ed157bf2f2bc67b5f8097872",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Wide eye-level overcast hospital gateway. Exactly three foreground traveling figures: broad moustached townsman with bowler (distinct from bearded father), daughter blue coat, approved boy in cap with subtle ankle bandage. Tiny generic staff deep in gateway do not join group. Non-graphic care, no transport or invented rescue; sky upper-left available. Entire heads and essential hands survive conservative central crop; wide strip actual mask remains pending.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

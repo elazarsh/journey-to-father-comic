@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P25-01",
+  "prompt": "LANDSCAPE canvas1536x1024. EXTREME-WIDE HIGH-ANGLE exterior establishing view of a modest welcoming Jewish relatives' house on a quiet Polish town street in Kielce early1900s, at BLUE-GREY EVENING. One small house central in picture, cream weathered plaster, low dark tile roof, humble wooden door, exactly ONE window glowing softly WARM YELLOW from family life within. No people anywhere, especially no child at doorway. A few modest neighboring houses in soft distance, cobbled lane, atmospheric gentle evening sky. Narrated hazy MEMORY not threatening mystery: soft dissolved watercolor edges and pale mist at margins, calm and secure; no ominous shadows, graveyard, storm, dramatic locked door or abandoned bundle. Main house including roof and warm window lies within central60% width and65% height with15% crop overscan, broad calm upper sky and soft street corners for later caption. The purpose is establishing Sarale's new relatives' home, followed by a daylight welcome and lamplit close study. Dramatic pastoral literary graphic novel watercolor and opaque gouache, painterly marks on textured paper, selective fine ink, muted indigo/slate evening with one amber glow, gentle atmospheric depth, no photo or3D. ONE scene, no readable signs, text, names, numerals, balloons, frames, collage or watermark.",
+  "refs": [],
+  "original_tool_file": "/workspace/generated_images/exec-51bb8fbf-fc0c-4625-bf7c-66408ab0240e.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Quiet high wide town house in blue evening, one main warm front window and soft memory edges, no people or abandoned child. Establishing view distinct from welcome group.",
+    "crop_issues": "Main house central x30–77%,y28–78%; warm window safe. Quiet top sky supports caption. Actual crop and lettering check pending root."
+  },
+  "file": "art/book1-v07/B01V07-P25-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P25-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "b3fd9e0939ffe087e0b2150718f3d227f13a230c7d9251d4195daf77b84d29d8",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [],
+  "crop_notes": "Main house central x30–77%,y28–78%; warm window safe. Quiet top sky supports caption. Actual crop and lettering check pending root."
+}

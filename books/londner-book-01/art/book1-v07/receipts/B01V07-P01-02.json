@@ -5,7 +5,7 @@
   "reference_paths": [
     "art/book1-v07/B01V07-P01-01.png"
   ],
-  "status": "generated-reviewed",
+  "status": "source-reviewed-for-v08",
   "visual_review": {
     "scene_fidelity": "Only elderly writing hands, notebook and same desk/lamp/clothes; one scene.",
     "quiet_lettering": "Broad quiet upper wall field; hands and pen below text zone.",
@@ -22,5 +22,24 @@
   "file_bytes": 2615612,
   "recorded_at_utc": "2026-10-30T12:17:06.868473+00:00",
   "web_file": "art/book1-v07/web/B01V07-P01-02.webp",
-  "web_sha256": "f0c039a820ffeeb70b5b4b12f9b7c02dd98b5d7537aba76538734d0e3a3cfbcc"
+  "web_sha256": "f0c039a820ffeeb70b5b4b12f9b7c02dd98b5d7537aba76538734d0e3a3cfbcc",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P01-02.webp",
+    "source_web_sha256": "b0c2aca6afc27daaa22d69c535ed9eb2f020c095bca90fa1c7e10f81dc3e0866",
+    "shot": {
+      "shot": "detail",
+      "angle": "high",
+      "subject": "hands",
+      "light": "warm lamp"
+    },
+    "specific_review": "Detail slightly high view of elderly hands pen notebook and warm lamp patch. No face; the words-as-gift purpose is clear. Generous upper wall; distinct distance, angle and subject from narrator portrait.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.132098+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

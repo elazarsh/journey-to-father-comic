@@ -1,9 +1,11 @@
 {
-  "active_revision": "../revisions/book1-v07",
-  "active_manifest": "../revisions/book1-v07/production/manifest.json",
+  "active_revision": "../revisions/book1-v08",
+  "active_layout": "../revisions/book1-v08/layout-plan.json",
+  "image_instructions": "../handoffs/claude/v08-image-requests.md",
+  "image_work_queue": "../revisions/book1-v08/image-work-queue.json",
   "story_pages": 48,
-  "panels": 187,
+  "active_images": 170,
   "plot_approved": true,
   "yitzhak_designs_approved": true,
-  "old_manifest_status": "Archived 32-page script; do not generate against it"
+  "old_manifest_status": "v07 image IDs retained, but old187-panel list superseded by v08 active order"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P02-01",
+  "source_path": "/workspace/generated_images/exec-27846241-2e11-4365-81fb-16b08f724cff.png",
+  "prompt": "A single top-down close view of elderly Yitzhak's RIGHT hand in brown jacket/cream shirt cuff with a dark pen about to touch the open blank memoir notebook on his modest wooden desk, matching the approved reference's clothes, warm electric lamp light and painterly style. Only one hand, pen, open paper and wood; no face or extra people. Compose as a gentle transition image before the story moves into his childhood: the pen tip and blank paper are the focus, NOT a drawing of a street on the page, no collage or split screen. Dramatic pastoral watercolor/gouache and fine selective ink, warm amber and soft cool shadow. Portrait 1024x1536 for a nearly square 0.94:1 later crop. Pen tip, all fingers and central book fold within central 55% width and middle 50% height. Upper-left quiet blank paper or softly blurred wall, ample 15% overscan. Absolutely no readable letters, numbers, signatures, bubbles, borders, watermark or panel frame. ONE continuous scene.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P01-01.png"
+  ],
+  "status": "generated-reviewed",
+  "visual_review": {
+    "scene_fidelity": "One aged hand/pen on blank notebook, overhead transition shot, no street drawn onto paper and no collage.",
+    "quiet_lettering": "Upper-right wood field is quieter than upper-left lamp; recommend caption zone [48,5,45,18] for this asset.",
+    "suggested_lettering_zone": [
+      48,
+      5,
+      45,
+      18
+    ],
+    "crop_notes": "Hand, pen tip and book center protected; final near-square crop can trim outer desk/lamp.",
+    "anatomy": "Natural five-fingered writing hand.",
+    "no_text_or_bubbles": true
+  },
+  "file": "art/book1-v07/B01V07-P02-01.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "0b9bd1d5564d532412ad69188fb1dc3499923fcb066e38f3d97dddb12d6d5cd3",
+  "file_bytes": 2892607,
+  "recorded_at_utc": "2026-10-30T12:23:04.911426+00:00",
+  "web_file": "art/book1-v07/web/B01V07-P02-01.webp",
+  "web_sha256": "b4b397d55d8b84ec10851c77bce4bea746813737622076736da4684abd2ec817"
+}

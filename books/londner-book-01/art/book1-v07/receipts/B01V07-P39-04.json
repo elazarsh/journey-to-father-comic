@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P39-04",
+  "file": "art/book1-v07/B01V07-P39-04.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. PORTRAIT 1024x1536. HIGH-ANGLE DETAIL ONLY: a young adult man's right hand holding one pale military summons paper over worn wooden LEATHER SHOP COUNTER, cold grey daylight creates a sharp change after warmth. Other hand lightly on counter; cuffs of dark waistcoat and off-white shirt. Single sheet at central55% height, blank with only faint non-symbolic grey texture, absolutely NO letters, numbers, emblem, stamps or readable marks. Leather roll and ledger edge dimly on far background. No faces or people visible beyond hands. Hands and whole document in central65%, substantial atmospheric empty upper counter. Adds disruption by recall, not another family portrait.",
+  "tool_source_path": "/workspace/generated_images/exec-5a1cfb3b-2e8a-49dd-af85-dd7aadd0dcca.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Cold grey hands-only summons detail; paper unlettered and hands central.",
+  "crop_caveats": "Hands and document reviewed visually; final polygon crop unverified.",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "15ed536825dd23f4aecdab7fd458ffad5faa87a8e7fedb97013a2e57415b3115",
+  "web_file": "art/book1-v07/web/B01V07-P39-04.webp"
+}

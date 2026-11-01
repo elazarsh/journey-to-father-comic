@@ -5,7 +5,7 @@
   "reference_paths": [
     "art/book1-v07/B01V07-P03-01.png"
   ],
-  "status": "generated-reviewed",
+  "status": "source-reviewed-for-v08",
   "visual_review": {
     "scene_fidelity": "Small retail shop doorway, leather-roll window; same interior counter/shelves/tiled stove visible. No cobbler or people.",
     "quiet_lettering": "Upper-left plain plaster field above window.",
@@ -24,5 +24,24 @@
   "file_bytes": 3518353,
   "recorded_at_utc": "2026-10-30T12:20:22.540785+00:00",
   "web_file": "art/book1-v07/web/B01V07-P02-03.webp",
-  "web_sha256": "64aad0161856cc494e614dbc070e9e2ed6e81b0e8b3ccd9b33eeb8846df753cc"
+  "web_sha256": "64aad0161856cc494e614dbc070e9e2ed6e81b0e8b3ccd9b33eeb8846df753cc",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P02-03.webp",
+    "source_web_sha256": "03d140a3976c39bc184214dbd5b1d6c2087992ad279986607a5d046edbb0f074",
+    "shot": {
+      "shot": "wide",
+      "angle": "eye",
+      "subject": "landscape",
+      "light": "bright midday sun"
+    },
+    "specific_review": "Empty home/shop exterior with inviting open doorway, potted flowers and midday cobbles. Through entrance, leather supplies and stove match interior. No invented sign/text. Different subject and light from child street portrait.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.133955+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

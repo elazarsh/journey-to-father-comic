@@ -1,7 +1,7 @@
 {
   "id": "B01V07-P07-03",
   "file": "art/book1-v07/B01V07-P07-03.png",
-  "status": "generated-claude-awaiting-review",
+  "status": "source-reviewed-for-v08",
   "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: The cheder study room, almost empty, in the afternoon, around 1905. Rows of wooden benches and the rabbi's table, plaster walls. The boy Yitzhak sits very small in his place in the background. Most of the frame is empty space. Camera: Extreme wide shot from a high angle. Light and colour: Cool grey afternoon light. Lettering space: No lettering on this panel; full composition. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. He is a tiny figure here; keep his general look consistent. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
   "tool": "openai gpt-image-2 (edit, high)",
   "referenced_files": [
@@ -9,5 +9,24 @@
   ],
   "sha256": "2a7f127ad1d21f337abf6a8b5c7152b155dc798209274e872a421e0779b9af32",
   "bytes": 3543310,
-  "created_at": "2026-10-30T17:48:41.041164+00:00"
+  "created_at": "2026-10-30T17:48:41.041164+00:00",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P07-03.webp",
+    "source_web_sha256": "72cb50536a6da21e8247f87a3fba4b8ce512cbcff199b0e9279467ee5b731ece",
+    "shot": {
+      "shot": "extreme-wide",
+      "angle": "high",
+      "subject": "landscape",
+      "light": "cool grey afternoon"
+    },
+    "specific_review": "Extreme-wide elevated nearly empty cheder: tiny child seated far back, benches and teachers desk dominate, cool grey daylight and ample empty room. No invented coin-giving act. Strong distance/angle/subject/light contrast from preceding mother-child two-shot.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.140042+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P13-04",
+  "file": "art/book1-v07/B01V07-P13-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P13-04.webp",
+  "source_path": "/workspace/generated_images/exec-f3d8c004-4d3a-4ed0-a4b0-c2149b58fa85.png",
+  "tool_source_path": "/workspace/generated_images/exec-f3d8c004-4d3a-4ed0-a4b0-c2149b58fa85.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2, one dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink, restrained natural faces, tactile period materials. WIDE BIRDS-EYE SHOT DIRECTLY OVERHEAD, looking down on an early-1900s Warsaw hospital ward: orderly row of four simple white iron hospital beds on a grey-blue tiled floor, ONLY ONE occupied bed, the small approved boy lies in it, both feet wrapped entirely in clean white bandages under the edge of the blanket. He wears the same charcoal buttoned shirt and dark cap as reference, his face small, narrow oval, pronounced ears, natural brown eyes. Three other beds empty, white linen, quiet cold blue hospital light from tall windows, humane clean surroundings. Scale contrast, architecture and beds dominate, boy modest in size. No father, no staff needed, no other children in this shot. No visible wound, surgery, blood or anatomical changes; fully covered feet. Keep boy, his entire head and bandaged feet inside middle 65% width and middle 60% height, with generous crop overscan on all sides, subtle quiet low-detail upper-left for live caption. ONE scene only, no collage, panels, borders, lettering, readable documents, symbols, crosses, balloons or watermarks. Match the illustrated style of references.\n",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/web/B01V07-P13-03.webp"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "e5b8342bcc0ed30cabb311a5788dd9d6d60d8585c71e78d0b745cbd638bb0154",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "High overhead wide ward view, four white beds and only one child in second bed; both feet fully bandaged with no wounds. Approved narrow face and charcoal shirt/cap preserved. Cold tiled ward and empty beds dominate scale. No text, medical procedure or icons. Entire child and feet inside central source; mask and live lettering QA pending.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

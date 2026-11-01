@@ -1,0 +1,35 @@
+{
+  "id": "B01V07-P46-04",
+  "prompt": "LANDSCAPE 1536x1024. MEDIUM EYE-LEVEL SINGLE SCENE on open deck of1925 passenger steamship Asia in fresh sea daylight. EXACTLY THREE family members joyful together: Yitzhak25 at center-left in familiar brown wool coat, vest and cream shirt, brown cap held safely in one hand; wife Chava at center-right wearing same pale modest high-neck long-sleeve blouse, dark long skirt and muted olive-brown headscarf securely covering hair; sole little daughter Hanna Roza in ochre dress and taupe coat between them with mother gently touching child's shoulder. Yitzhak leans slightly toward wife and daughter with natural delighted smile; Chava looks back at him warmly, daughter looks out toward sea. Match identities/clothes in reference, young father's narrow oval face/natural brown eyes/ears/nose, wife warm slim oval face. Waist-up adults and upper body child. Show all three complete heads and mouths safely between25% and60% canvas height; all hands central70%,15% overscan. TOP25% pale clear sea sky quiet for caption. Timber deck and simple dark iron rail, a sliver of cream ship structure at far left, open blue sea with no land or destination. Not a posed studio portrait. Dramatic pastoral literary graphic novel watercolor/gouache, fine selective ink, tactile paper and cloth, cinematic airy light, natural restrained smiles, rich restrained blues/ochres. ONE scene ONE image; no lettering, bubbles, borders, montage, flags, symbols or watermark. No arrival scene, no future children.",
+  "source_path": "/workspace/generated_images/exec-0a7ef4c3-765c-41e9-bf4a-81de7b2554aa.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Fresh daylight medium eye-level scene of joyful family on deck with open sea.",
+    "family": "Exactly3: Yitzhak, securely headcovered Chava, sole daughter in ochre dress and taupe coat; identities/clothes continue P44-04.",
+    "lettering": "Quiet sky to right; no bubbles requested.",
+    "limits": "Daughter reads as little girl rather than infant; exact age unverified. Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Yitzhak hair top near8%; anchor final crop high to retain full head.",
+    "Final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P46-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P46-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "38078711fe05338aebb5a1186424b4bf29565f91e03f4289b8fe6fc8df13e482",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-04.webp",
+    "/workspace/londner-book-01/art/book1-v07/B01V07-P37-04.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

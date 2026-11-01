@@ -140,6 +140,7 @@ html.print .pw{animation:none!important}
   function phone() { return window.matchMedia('(max-width:700px)').matches; }
 
   function mouthOf(t) {
+    if (Array.isArray(t.mouthXY)) return [rtl() ? t.mouthXY[0] : 1-t.mouthXY[0], t.mouthXY[1]];
     var s = (t.mouth || '').toLowerCase(), x = .5, y = .42;
     if (/right/.test(s)) x = .72; if (/left/.test(s)) x = .28;
     if (/far.?right/.test(s)) x = .85; if (/far.?left/.test(s)) x = .15;
@@ -172,7 +173,7 @@ html.print .pw{animation:none!important}
       if (q.fade) pw.classList.add('morphtop');
       var art = q.art;
       if (art && q.verdict === 'redirect') art = null;
-      if (art) { var img = el('img', '', shape); img.src = art.src; var fc = art.faces || []; if (fc.length) { var fy = fc.reduce(function (s, f) { return s + f[1] + f[3] / 2; }, 0) / fc.length, fx = fc.reduce(function (s, f) { return s + f[0] + f[2] / 2; }, 0) / fc.length; img.style.objectPosition = fx.toFixed(1) + '% ' + Math.max(0, Math.min(100, fy - 6)).toFixed(1) + '%'; q._fx = fx; q._fy = fy - 6; } img.alt = q.shows; img.loading = 'lazy'; img.decoding = 'async'; }
+      if (art) { var img = el('img', '', shape); img.src = art.src; var fc = art.faces || []; if (fc.length) { var fy = fc.reduce(function (s, f) { return s + f[1] + f[3] / 2; }, 0) / fc.length, fx = fc.reduce(function (s, f) { return s + f[0] + f[2] / 2; }, 0) / fc.length; img.style.objectPosition = fx.toFixed(1) + '% ' + Math.max(0, Math.min(100, fy - 6)).toFixed(1) + '%'; q._fx = fx; q._fy = fy - 6; } if (art.fit || art.zoom || art.fx != null || art.fy != null) { var fit=art.fit||'cover', z=art.zoom==null?1.03:art.zoom; img.style.objectFit=fit; q._fx=art.fx==null?50:art.fx*100; q._fy=art.fy==null?50:art.fy*100; img.style.objectPosition=q._fx+'% '+q._fy+'%'; img.style.transform='scale('+z+')'+(rtl()?'':' scaleX(-1)'); } img.alt = q.shows; img.loading = 'lazy'; img.decoding = 'async'; }
       else { var ph = el('div', 'ph' + (q.new ? ' new' : ''), shape); el('em', '', ph).textContent = q.new ? UI[lang].newp : (q.art && q.verdict === 'redirect' ? (lang === 'he' ? 'תצויר מחדש' : 'to be redrawn') : UI[lang].wait); el('span', '', ph).textContent = q.shows; if (q.purpose) { var pu = el('small', 'pur', ph); pu.textContent = q.purpose; } }
       el('span', 'pid', pw).textContent = q.id.replace('B01V07-', '');
     });
@@ -247,7 +248,7 @@ html.print .pw{animation:none!important}
   /* where each face lands inside the panel element (object-fit: cover, scale 1.03, mirrored in English) */
   function facesPx(q, W, Hh) {
     var a = q.art; if (!a || q.verdict === 'redirect' || !a.faces || !a.faces.length) return [];
-    var s = Math.max(W / a.w, Hh / a.h) * 1.03, dw = a.w * s, dh = a.h * s;
+    var s = (a.fit==='contain'?Math.min(W / a.w,Hh / a.h):Math.max(W / a.w,Hh / a.h)) * (a.zoom==null?1.03:a.zoom), dw = a.w * s, dh = a.h * s;
     var px = q._fx == null ? 50 : q._fx, py = q._fy == null ? 32 : q._fy;
     var ox = (W - dw) * px / 100, oy = (Hh - dh) * Math.max(0, Math.min(100, py)) / 100;
     return a.faces.map(function (f) {
@@ -286,10 +287,10 @@ html.print .pw{animation:none!important}
           y = bottom ? box.t + box.h - h - pad : box.t + pad;
         } else {
           m = mouthOf(t); var mx = box.l + box.w * m[0], my = box.t + box.h * m[1];
-          if (fpx.length) { var best = null; fpx.forEach(function (f) { var d2 = Math.abs(f.cx - mx) + Math.abs(f.my - my) * .5; if (!best || d2 < best.d) best = { d: d2, f: f }; }); if (best.d < box.w * .45) { mx = best.f.cx; my = best.f.my; y = 0; } }
+          if (fpx.length && !t.offPanel) { var best = null; fpx.forEach(function (f) { var d2 = Math.abs(f.cx - mx) + Math.abs(f.my - my) * .5; if (!best || d2 < best.d) best = { d: d2, f: f }; }); if (best.d < box.w * .45) { mx = best.f.cx; my = best.f.my; y = 0; } }
           x = Math.max(box.l + pad, Math.min(box.l + box.w - w - pad, mx - w / 2));
           y = Math.max(box.t + pad, my - h - parseFloat(getComputedStyle(d).fontSize) * 1.9);
-          if (fpx.length) { var head = fpx.filter(function (f) { return Math.abs(f.cx - mx) < 2 && Math.abs(f.my - my) < 2; })[0]; if (head) y = Math.max(box.t + pad, head.y - h - 6); }
+          if (fpx.length && !t.offPanel) { var head = fpx.filter(function (f) { return Math.abs(f.cx - mx) < 2 && Math.abs(f.my - my) < 2; })[0]; if (head) y = Math.max(box.t + pad, head.y - h - 6); }
           m = [mx, my];
         }
         /* keep the whole text inside its own panel shape (slanted edges) */

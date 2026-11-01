@@ -1,0 +1,31 @@
+{
+  "id": "B01V07-P29-04",
+  "file": "art/book1-v07/B01V07-P29-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P29-04.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Strongly painterly visible watercolor washes and gouache brushwork; do not look like a photograph. ONE scene, ONE image, no frame, no border, no watermark, no readable text or letters or numbers anywhere. Composition target original 1024x1536 portrait. SCENE: רחב מזווית גבוהה: יצחק לבד בחדר קטן, אורז צרור קטן ליד חלון לילה כחול, פניו מוסטות הצידה; חלל ריק סביבו. PURPOSE: בדידות והחלטה: חוזר הביתה לבד. For Yitzhak facial continuity use the approved child reference and actual youth photograph, growing naturally to young teenager about 13–14. Narrow oval face, natural brown eyes, pronounced ears, distinct nose bridge, restrained mouth. Dark brown hair, slim build. Do not copy a 43-year-old portrait as a teenager. Civilian 1910s Poland clothing: dark wool cap, plain dark jacket and modest trousers unless scene specifies soldier uniform. Supporting faces are plausible historical reconstructions, not verified portraits. No lettering or balloons should be drawn. Reserve a calm low-detail area ABOVE the named speaker/thinker as follows: [{\"type\": \"speech\", \"speaker\": \"איטשע\", \"he\": \"החלטתי לנסוע הביתה.\", \"en\": \"I have decided to go home.\", \"kind\": \"quote\", \"memoir\": \"אמרתי לדודה שהחלטתי לנסוע הביתה\", \"mouth\": \"Yitzhak, packing, turned toward the aunt (no art yet), tail to him\"}] Keep all essential heads, hands and props within central70 percent with15 percent overscan on all edges. Do not repeat an adjacent portrait; follow exact requested shot and angle.",
+  "source_path": "/workspace/generated_images/exec-fd8da5b0-7f98-4fed-878a-e5f08498248e.png",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "ref/S08-img013.jpg"
+  ],
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source-review": "Accepted: high viewpoint packing a small bundle alone at blue night window, turned toward off-panel aunt; empty upper wall reserved for live line. Slightly tighter than wide request, story purpose and adjacent variation preserved.",
+  "source_review": {
+    "reviewed": true,
+    "scope": "source image visual review; actual browser mask and bilingual lettering review pending"
+  },
+  "crop_status": "source-overscan-reviewed; final-render-mask-review-pending",
+  "source_ids": [
+    "S08-memoir-31",
+    "S08-memoir-32",
+    "S08-memoir-33"
+  ],
+  "task": "generate"
+}

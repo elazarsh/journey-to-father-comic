@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P40-03",
+  "file": "art/book1-v07/B01V07-P40-03.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. HIGH-ANGLE EXTREME WIDE view: huge empty blue-white snow field, Yitzhak a SMALL lone1920s Polish soldier lying prone on sentry duty with long rifle laid alongside, centrally at62% down image, seen obliquely from high above. He occupies only16% of width, no visible enemies, no other people, cold immense loneliness and longing; sparse dark reeds and distant fog fade near upper edge. His body head rifle and hands safely CENTRAL. Large smooth snow area ABOVE HIM near center for later thought balloon, no drawn balloon. Paint falling light snow, restrained blue-grey shadows, no dramatic combat, not a close-up face.",
+  "tool_source_path": "/workspace/generated_images/exec-4a84d2fc-b091-40b8-a399-8221340253b7.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "High extreme-wide solitary prone soldier in vast snow; calm center above him for thought; no extra people.",
+  "crop_caveats": "Source reviewed; final polygon crop and 15% zoom unverified in browser.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "5587cece72ba3d248e349ed4fd12a7f21b61ab05cbe0ce247e575b82ecb42be8",
+  "web_file": "art/book1-v07/web/B01V07-P40-03.webp"
+}

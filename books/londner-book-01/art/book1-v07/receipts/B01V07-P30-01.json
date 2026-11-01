@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P30-01",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. One single scene: Medium over-the-shoulder from behind Yitzhak/Itsche, Polish-Jewish teenage boy aged 16–17 (not adult), his cap, head and shoulder in near foreground at right, looking into his sparse Jędrzejów family home during WWI. Exactly three siblings face him beyond a nearly empty wooden table: Chava his older sister as a young woman; Raisel as a younger school-age girl, not a baby; Shimon as a younger teenage boy. No parents, no fourth sibling, no Sarale. Dim grey interior daylight, care and hardship in quiet expressions. PURPOSE: return to a home that needs bread. Yitzhak belongs to same identity as references, narrow oval face, pronounced ears, natural brown eyes, restrained mouth; age the child reference into a slender 16–17-year-old using youth photograph for continuity, never age43 adult. His foreground head sits below top40%, with calm dim wall ABOVE his head for later thought overlay. Keep all faces/hands visibly clear, important content within central70%, at least15% crop margin. No text, letters, numbers, symbols, captions, blank bubbles, frames or collage. Plain worn circa1916 civilian shirt, waistcoat and cap.",
+  "tool_original_path": "/workspace/generated_images/exec-347593b1-e301-4d8d-9401-cf8a8f07c954.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed generated source: exactly four present (Yitzhak foreground, older sister Chava, younger girl Raisel, younger boy Shimon); nearly empty table; medium over-shoulder and dim home. Clear faces and calm upper wall. No baked text/bubbles. Relative ages reconstructed, no identified sibling portraits.",
+  "crop_caveats": "Full-source visual review only. Chava is near left edge; use conservative crop/face protection. Actual v08 mask and live bubble placement remain root/Claude review.",
+  "file": "art/book1-v07/B01V07-P30-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P30-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "ac6c4e3e4394c6e75cf07b2403eebb15e3bddf4ede5f49c6da4aa5716bec60c6"
+}

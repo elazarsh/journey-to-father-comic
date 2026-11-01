@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P30-03",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE, ONE IMAGE. DETAIL from LOW angle at ground level: only young teenage Yitzhak's hands gripping a shovel beside an older worker's bony hands gripping a separate shovel. Stones and earth thrown up, sunlit dust in midday light. No faces. Physically coherent shovel grips and anatomy. Purpose: bodily effort, a boy among grown workers. Yitzhak is visibly16–17, slender adolescent; age approved child reference into teen with youth photograph continuity, never adult43. Identity: narrow oval face, pronounced ears, natural brown eyes, restrained mouth; ordinary period Polish clothing. Keep essential faces/hands/props in central70% with15% crop margin and clear mouths. No text, readable letters/numbers, captions, blank or filled balloons, borders, collage, watermarks.",
+  "tool_original_path": "/workspace/generated_images/exec-79c34011-e0c2-4fc8-85a0-2c843023a4a1.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Source reviewed: low-angle hands and shovels, young/older hand contrast, flying dusty earth, no faces or text; strong distinct physical-effort detail.",
+  "crop_caveats": "Source reviewed only; actual v08 polygon/live lettering not checked. Keep main hands and face in crop. Peripheral adults can crop.",
+  "file": "art/book1-v07/B01V07-P30-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P30-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "4ebda7a4d4cc07cba2a662d59fdccd539aad2ac024e29a0eb658945a68f040fc"
+}

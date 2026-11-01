@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P41-02",
+  "file": "art/book1-v07/B01V07-P41-02.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. HIGH-ANGLE MEDIUM scene in a dim modest home room: ONE little daughter Hanna Roza age roughly2, ill but peacefully awake under quilt in a wooden bed center-left; young mother Chava sits center-right beside her, burgundy high-collar long-sleeve dress and cream period headscarf covering hair, gently holding daughter's hand. No father visible, no other children. Soft weak grey window light and deep warm brown shadows, restrained worry without melodrama, no medical machinery. Keep mother's face, child's face and joined hands centrally within65% image; bed diagonal across frame, painterly quiet upper dark wall. Shows family difficulty and child's illness; distinct high angle and intimacy after street.",
+  "tool_source_path": "/workspace/generated_images/exec-0a3045a6-1b9c-44d2-a09b-254d6126fccf.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "One sick little daughter and headcovered wife, dim room, central hands; supporting faces proposed.",
+  "crop_caveats": "Source visually reviewed; final polygon/15% zoom and bilingual lettering placement remain for renderer review.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "5f02ce9ae9a004612449beb1069b6228b0ae1e5703d82b2bc71b3587c69d2c8f",
+  "web_file": "art/book1-v07/web/B01V07-P41-02.webp"
+}

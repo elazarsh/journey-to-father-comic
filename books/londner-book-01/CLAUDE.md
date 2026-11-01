@@ -1,2 +1,5 @@
-Read AGENTS.md and HANDOFF.md. This scoped book uses production/structure.html for geometry and viewer/index.html for reading. Keep lettering live and original art uncropped. A generated candidate is not family-approved art. Do not import the host repository's Emmanuel story, characters or chronology into this book.
-Current stage: v0.8 comic layout in revisions/book1-v08 (layout-plan.json is the source of truth; build with build_sketch.py). Fidelity edits to the 0.7 script are recorded in revisions/book1-v07/claude-review/. Minimum invention: every new line must rest on the memoir.
+# ספר לונדנר1, מסירת איורים
+
+קראו AGENTS.md ו-handoffs/codex/BOOK1-V08-ART-COMPLETION.md. כל 170 משבצות גרסה 0.8 מצוידות במקור. מקור האמת לפריסה: revisions/book1-v08/layout-plan.json. מקור האמת לבחירת קובץ: art/book1-v07/progress.json, ובשני מקרים source-selection.json. אין להחזיר את גרסת 32 העמודים לפעילות.
+
+אין צורך לייצר שוב משבצות שסומנו existing או תיקונים שכבר נסגרו. מקור PNG נשאר ללא שינוי; חיתוכים וכיתוב בעימוד בלבד. שימו לב לתיבות פנים ישנות שהוסרו, לעוגני דיבור בעמוד38 ולהערות חיתוך בדוח QA. אין טענה לאישור טיפוגרפיה/מסכות בדפדפן. ספר 2 באחריות קלוד ולא שונה בסבב האיור הזה.

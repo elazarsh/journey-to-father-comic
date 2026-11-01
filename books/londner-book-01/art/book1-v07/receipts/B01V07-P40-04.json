@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P40-04",
+  "file": "art/book1-v07/B01V07-P40-04.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. Eye-level MEDIUM view in modest1920s Polish military medical examination room, harsh cold WHITE daylight. OLDER military doctor in white coat sits center-left checking the chest of another adult soldier nearest him, Yitzhak waits IN LINE center-right in dark uniform with cap in hands, two other soldiers recede softly in background. Yitzhak young22–24, slender narrow face. Relief and anticipation, modest non-graphic examination, no modern IVs/fluorescent fixtures or medical monitors. Keep principal faces and hands clustered within central65%; broad pale wall above. Visual focus doctor conducting release checks rather than portrait of Yitzhak.",
+  "tool_source_path": "/workspace/generated_images/exec-42da5d1a-b5ac-4969-ac4a-862c3c95fa5d.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Doctor examines another soldier while young Yitzhak waits with cap. Clinical scene distinct from high snow landscape.",
+  "crop_caveats": "Source reviewed; final polygon crop and 15% zoom unverified in browser.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "b2ae4df59b10f79ab8b7b63ce051059e30aba69ac34ec4a5d551e7b07011100f",
+  "web_file": "art/book1-v07/web/B01V07-P40-04.webp"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P42-03",
+  "file": "art/book1-v07/B01V07-P42-03.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. HIGH-ANGLE DETAIL of thick stack of old recommendation papers spread within an open worn brown leather document folder on a clerk's wooden desk, ADULT CLERK'S HANDS enter from upper-left flipping pages. Absolutely NO faces or bodies, no Yitzhak portrait; speaker is OFF PANEL. Papers unlettered only subtle nonsemantic aged texture, no invented writing/stamps/symbols. Cool filtered grey light with small warm patch on hands. Put hands folder papers at center-lower, quiet dark upper-left desktop ABOVE the incoming hands for a later speech balloon whose tail will point OUTSIDE frame left. Do not draw balloon. Every finger and document central65%, edge props peripheral. Adds thick paperwork and dismissive unseen reply.",
+  "tool_source_path": "/workspace/generated_images/exec-defbe1e3-0b07-4aa5-89cf-133063bc1c8c.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Hands-only thick recommendations file; clerk entirely off-panel, quiet upper-left area for off-panel speech.",
+  "crop_caveats": "Clerk face fully off-panel. Speech balloon should float upper-left with tail leaving frame; hands central. Final polygon/15% zoom unverified.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "7edae71255c14887460be74fa7598eb720dda69ff187090d0a11b2fc992fd18e",
+  "web_file": "art/book1-v07/web/B01V07-P42-03.webp"
+}

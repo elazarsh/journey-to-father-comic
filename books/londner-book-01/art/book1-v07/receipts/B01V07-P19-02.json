@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P19-02",
+  "prompt": "ONE portrait 1024x1536 illustration for a family historical graphic novel. Father and son returning toward home, a simple transitional outdoor moment in early-1900s central Europe. They pause together at the edge of an unnamed modest town street; do not specify a whole long journey on foot and do not depict any train, carriage, station, vehicle, identifiable monument or dated location. Father wears charcoal travel coat over cream shirt and brown vest, small dark kippah; use the same short brown beard/face from reference2. Boy uses reference1 exact narrow face and natural proportions, dark flat cap, charcoal shirt, brown trousers, closed shoes. Calm togetherness and relief, not triumph or running. A small plain cloth bundle is their only travel prop. Figures seen three-quarter from behind in central-right of an atmospheric stone and wood town street, with soft natural daylight, olive-grey sky, gentle amber highlights, painterly watercolor/gouache, fine ink. Both people small enough to fit entirely in central60% width and central60% height, all heads start below y30%, at least15% overscan. Upper-left x4–52%,y4–24% is quiet low-detail sky/plaster for later caption. NO text, signs, bubbles, collage, frames, flags or watermark.",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P18-04.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-f024bf02-01ec-4458-b0e3-ed38839f0148.png",
+  "visual_review": {
+    "source_seen": true,
+    "count": "father and son only",
+    "continuity": "father from 03-01/18-04, boy dressed in charcoal shirt and brown trousers",
+    "quiet_area": "upper-left wall/sky free of faces",
+    "historical_staging": "outdoor return image is transitional staging; not a claim that the whole Warsaw/Vienna journey was on foot; shoulder contact is staged",
+    "crop_note": "feet near lower central margin; face and hand protected; actual mask check pending",
+    "pending": "browser and live lettering"
+  },
+  "file": "art/book1-v07/B01V07-P19-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P19-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "c567bb2ecdb0e169e7fca6de5b42e59863346874f500efc4c99105ff4fbd4272",
+  "status": "generated-reviewed",
+  "generator": "image_gen__imagegen",
+  "generated_on": "2026-10-30"
+}

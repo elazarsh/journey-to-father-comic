@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P14-03",
+  "file": "art/book1-v07/B01V07-P14-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P14-03.webp",
+  "source_path": "/workspace/generated_images/exec-10464e77-6e21-4c0e-8cc8-1dda69721e39.png",
+  "tool_source_path": "/workspace/generated_images/exec-10464e77-6e21-4c0e-8cc8-1dda69721e39.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE painterly watercolor and gouache literary graphic novel illustration, dramatic pastoral style, fine selective ink, tactile cloth and wood. CLOSE-UP DETAIL from a HIGH ANGLE, in the same modest tidy early-1900s Polish Jewish home bed as reference: ONLY the boy's lower leg resting on a folded pale sheet and pillow on the wooden bed, clean white bandage still fully covers the foot. A local doctor's two adult hands gently begin loosening the OUTERMOST loose bandage strip while a complete clean underlying layer continues to cover all skin of the foot. No wound, no blood, no stitches, no anatomy, no scissors or surgery. Doctor's dark jacket cuff and white shirt sleeve enter from the RIGHT edge; his face and entire body are outside the image. Boy's upper body and face also outside image. Dim warm home lamplight, rich brown timber, soft blue-grey shadows, the familiar patched dark quilt edge at bottom. Important foot and hands in central middle 60% with ample margins, upper third a softly lit low-detail plain blanket or wall kept calm for a future off-panel doctor speech balloon with tail pointing right. No need to show speaker. No text, readable writing, balloons, panel borders, collage, religious icons, crosses or watermark. Single grounded non-graphic medical examination detail, quiet disappointment and ongoing care conveyed by hands.\n",
+  "references": [
+    "art/book1-v07/B01V07-P08-04.png"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "56231438073eb25eeba40b6e1388a47aac8fa4aa188ba2078f32953b0016407c",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Close high-angle detail of bandaged foot on home bed, two doctor hands enter from right and loosen outer strip; underlying dressing keeps foot fully covered. Both faces deliberately off-panel per v08. Plain wall top-left/right allows live speech with tail to right edge. No wound, blood, stitches, surgical instruments or readable writing. Bed/quilt and warm lamp preserve home continuity.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

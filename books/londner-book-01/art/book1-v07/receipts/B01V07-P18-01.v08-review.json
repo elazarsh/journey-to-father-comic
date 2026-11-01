@@ -1,0 +1,16 @@
+{
+  "id": "B01V07-P18-01",
+  "accepted_source_sha256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+  "source_sha256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+  "accepted_file": "art/book1-v07/B01V07-P18-01.png",
+  "accepted_web_file": "art/book1-v07/web/B01V07-P18-01.webp",
+  "status": "accepted-existing-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": {
+    "source_seen": true,
+    "shows_review": "Boy visibly uncertain in synagogue chair with woman behind and worshippers beyond. Natural eyes and narrow face continuity; purpose preserved.",
+    "crop_issues": "Faces and hands source reviewed; actual browser polygon and text placement pending."
+  },
+  "reviewed_on": "2026-10-31"
+}

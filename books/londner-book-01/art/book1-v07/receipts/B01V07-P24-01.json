@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P24-01",
+  "prompt": "PORTRAIT canvas1024x1536. TOP-DOWN bird's-eye DETAIL of a single large sheet of warm blank cream paper lying flat on a worn wooden table in an early1900s Polish home. A simple hand-drawn FAMILY ROUTE DIAGRAM in very faint neutral brown ink: one small central blank oval with a tiny modest house icon, four curved branching lines to four small empty outlined ovals, generous blank space around every oval so names can be added later as live text. This is a gentle practical map of siblings living with family in different homes. Absolutely NO letters, names, words, numerals, arrows with labels, seals, readable marks or geographic map. Do not draw people or portraits, not a genealogical tree with invented relationships. Diagram occupies central55% width and55% height, paper fully visible with15% crop margins and upper25% of sheet almost blank for caption. Warm paper light from upper-left and subtle table wood texture, soft slight shadow at paper edge; only paper and table, no other props. Dramatic pastoral literary graphic novel watercolor and opaque gouache, tactile painted paper, selective fine ink, restrained ochre and cream, not clean digital vector or photo. ONE scene, no balloons, frames, montage or watermark. This top-down object detail contrasts following eye-level doorway family scene.",
+  "refs": [],
+  "original_tool_file": "/workspace/generated_images/exec-a7cc9200-fd67-42e5-8bd5-693e5601cb06.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Blank warm-paper family route diagram with central house and four empty branches, no invented names, words or figures. Ample blank upper paper for live text.",
+    "crop_issues": "Diagram spans x11–89%, y34–74%; conservative fit protects outer ovals; live names must be separate overlay. Root exact-mask and lettering check pending."
+  },
+  "file": "art/book1-v07/B01V07-P24-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P24-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "fec695ce1241f463d022c655ad6aeea7687d2fdc991d9890ea583c73d4621e4f",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [],
+  "crop_notes": "Diagram spans x11–89%, y34–74%; conservative fit protects outer ovals; live names must be separate overlay. Root exact-mask and lettering check pending."
+}

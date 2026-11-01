@@ -1,0 +1,29 @@
+{
+  "id": "B01V07-P44-02",
+  "page": 44,
+  "source_path": "/workspace/generated_images/exec-69e18a30-e604-40a9-af23-fb1dd204e011.png",
+  "prompt": "LANDSCAPE1536x1024. DETAIL shot, true bird's-eye looking vertically down at one large open wicker travel basket on worn wooden floor, Poland1925. Warm kerosene lamplight. Contents distinctly visible and neatly wedged: folded cream blankets with subtle blue woven stripes, two simple cream pillows, a small period brass pressure camping stove Primus with round tank and burner, plain tied cloth bags of dry food. No people, no hands, no modern packages, no flaming stove. The single basket and contents centered with generous floor all around. Purpose: material reality, everything a family can take in one basket.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache, selective fine ink, tactile paper, rich restrained colors, natural faces, cinematic atmosphere. No glossy3D, photorealism or cartoon features. ONE scene/image, no text, lettering, readable labels, speech bubbles, thought clouds, borders, montage or watermarks. Keep essential heads/hands/props well within central70% with overscan for diagonal mask and zoom1.15.",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-69e18a30-e604-40a9-af23-fb1dd204e011.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "references": [],
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Birds-eye detail, single wicker travel basket with blankets, two pillows, period brass Primus and dry food bags in warm lamplight.",
+    "family": "No figures.",
+    "lettering": "No bubbles; complete basket within safe frame.",
+    "limits": "Final mask and lettering pending."
+  },
+  "crop_issues": [
+    "Actual masked crop pending."
+  ],
+  "file": "art/book1-v07/B01V07-P44-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P44-02.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "aabde9bef6b9bf03b784c1333f6dd6494f6cb3756794911784c404ed526a9fa5",
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed"
+}

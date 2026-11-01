@@ -1,7 +1,7 @@
 {
   "id": "NEW-P02-b",
   "file": "art/book1-v07/NEW-P02-b.v2.png",
-  "status": "generated-claude-awaiting-review",
+  "status": "source-reviewed-for-v08",
   "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A simple Jewish home in a small Polish town in winter, around 1900. A plain room with whitewashed walls and wooden floorboards. The mother, a young woman in her twenties with a headscarf, rests in a wooden bed under a heavy quilt, holding her newborn baby swaddled in white linen. The village midwife, an older woman in a dark shawl and apron, sits beside the bed smiling gently, both caught in a warm patch of glow from a tiled stove. Through a frost-covered window, small and blurred in cold blue, neighbours in dark winter coats hurry across a snowy courtyard toward a circumcision celebration at a neighbouring house. No birth details; a calm, tender moment after. Camera: Medium shot from a high angle, as if from the upper corner of the ceiling, looking down on the bed. Light and colour: Cold blue winter light from the frosted window contrasting with the warm amber glow of the stove pooling over the mother, baby and midwife. Lettering space: Leave a calm, low-detail area in the upper right of the frame, tall enough for two stacked captions, such as the plain upper wall and ceiling corner; keep the figures in the lower and central part of the frame. Character consistency: The newborn baby is Yitzhak (age stage small child 0-4): tiny, swaddled, face soft and barely visible; no adult features. The midwife is not a family member. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
   "tool": "openai gpt-image-2 (edit, high)",
   "referenced_files": [
@@ -10,5 +10,24 @@
   ],
   "sha256": "f753a5005d0f6463d65b674da037a6c657652f14b2f891594ac4032bd475e2c9",
   "bytes": 3250804,
-  "created_at": "2026-10-30T17:42:45.760513+00:00"
+  "created_at": "2026-10-30T17:42:45.760513+00:00",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/NEW-P02-b.webp",
+    "source_web_sha256": "5682fcbda8813dc6e9c74d06a542f1f5a6ae0a40cf328d3f29df604c7f5ef025",
+    "shot": {
+      "shot": "medium",
+      "angle": "high",
+      "subject": "other",
+      "light": "cold winter window, warm stove glow"
+    },
+    "specific_review": "Selected v2 WebP: high-angle room with mother holding swaddled newborn and smiling older midwife, warm stove glow; cold frosted window contains small blurred neighbours walking in snow. No birth detail, no future events. Plain upper-right wall. Accept v2 only; raw master remains remote.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.133302+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

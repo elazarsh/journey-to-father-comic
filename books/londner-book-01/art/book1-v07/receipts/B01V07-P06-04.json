@@ -1,7 +1,7 @@
 {
   "id": "B01V07-P06-04",
   "file": "art/book1-v07/B01V07-P06-04.png",
-  "status": "generated-claude-awaiting-review",
+  "status": "source-reviewed-for-v08",
   "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home in a modest Jewish house in Poland around 1905. The small boy Yitzhak, about five, stands beside a warm tiled stove, lifting his face toward his mother and asking her a question. The mother, in a headscarf and apron, is seen half from behind, half turning toward him. Simple wooden furniture, plaster walls. Camera: Wide shot from a high angle. Light and colour: Warm hearth light from the stove glowing on both figures. Lettering space: Leave calm empty space in the upper area of the frame, just above Yitzhak's head left of center, for a speech balloon. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
   "tool": "openai gpt-image-2 (edit, high)",
   "referenced_files": [
@@ -9,5 +9,24 @@
   ],
   "sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
   "bytes": 3201195,
-  "created_at": "2026-10-30T17:47:48.506196+00:00"
+  "created_at": "2026-10-30T17:47:48.506196+00:00",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P06-04.webp",
+    "source_web_sha256": "5aae1a1c01d59e79fefbebc56be2fb94148a8df655e42b287822d48363e118ed",
+    "shot": {
+      "shot": "wide",
+      "angle": "high",
+      "subject": "yitzhak",
+      "light": "warm hearth light"
+    },
+    "specific_review": "Wide slightly high home scene: small boy by warm tiled stove looks up to mother half-turned from behind; wall above boy clear for his question. No money handover. Different light/scale/setting from shaded answer close-up.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.139521+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

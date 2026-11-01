@@ -1,25 +1,32 @@
 {
   "id": "B01V07-P36-02",
-  "page": 36,
-  "file": "art/book1-v07/B01V07-P36-02.png",
-  "web_file": "art/book1-v07/B01V07-P36-02.webp",
-  "source_path": "/workspace/generated_images/exec-c5ee6867-9f18-4136-aada-df31dcf2f6c5.png",
+  "source_path": "/workspace/generated_images/exec-4386b4c5-b97b-40a0-810e-650d79eee86f.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE landscape 1536x1024 extreme-wide POINT OF VIEW image from a sentry on a Polish timber bridge circa1920 looking across the river toward reeds. He himself is OUTSIDE frame. Predawn darkness: nearly black blue water, trembling reeds close at lower right, thick fog over marsh and opposite bank, ONLY a very thin cool grey strip on far horizon. NO sun, NO disk, NO orange or yellow sunrise, no enemy, no visible approaching figures, no battle, no weapons in image. Quiet dark open mist across upper center reserved for later thought lettering of off-panel sentry. Purpose: invisible rustle in darkness and uncertainty; landscape itself carries tension. Overscan safe central 70%. ONE continuous rectangular scene no lettering, balloons, circles or borders.",
+  "tool_source": "image_gen__imagegen",
   "tool": "image_gen__imagegen",
-  "prompt_file": "art/book1-v07/receipts/B01V07-P36-02.prompt.txt",
-  "references": [
-    "art/book1-v07/B01V07-P36-01.png"
-  ],
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-4386b4c5-b97b-40a0-810e-650d79eee86f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [],
+  "references": [],
+  "source_review": {
+    "reviewed": true,
+    "scene": "POV from bridge across reeds and river in blue-black predawn; thin grey horizon; no sun/enemy.",
+    "lettering": "Empty upper-center fog supports off-panel thought.",
+    "limits": "Source reviewed only. Actual masks and bilingual lettering pending."
+  },
+  "crop_issues": [],
+  "previous_source_review": "Previous source was sunrise landscape, replaced for correct dark predawn.",
+  "file": "art/book1-v07/B01V07-P36-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P36-02.webp",
   "actual_size": [
-    940,
-    1672
+    1536,
+    1024
   ],
-  "sha256": "5789d8206efa8d97e6feb5c68c4c458ae34fc3387251f61c171f409c7019ec84",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "f6fab8f09304d45c93476795aff96204901d683684cf16d6c674f1f5c690f3cb",
   "status": "generated-source-reviewed",
-  "visual_review": {
-    "source_reviewed": true,
-    "scene": "Quiet river reeds and mist at predawn, no people, enemy or battle.",
-    "lettering": "Upper-left mist/sky is quiet, no faces to obscure.",
-    "limits": "Final masked crop/lettering review remains pending.",
-    "browser_visual_qa": false
-  }
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
 }

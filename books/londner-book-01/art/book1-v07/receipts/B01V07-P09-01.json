@@ -15,5 +15,9 @@
     1536
   ],
   "sha256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
-  "browser_qa": "not performed"
+  "browser_qa": "not performed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "v08_source_review": "Accepted existing source after v08 direct visual review. Chaim older brother seated bedside with pencil and sheet, younger Yitzhak listens from pillow. Two brothers, elder visibly older, warm domestic continuity. Medium view is distinct from ink-hands detail and exterior dusk. No regeneration needed.",
+  "v08_review_action": "accepted existing source without regeneration"
 }

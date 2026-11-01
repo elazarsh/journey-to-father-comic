@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P25-04",
+  "prompt": "LANDSCAPE canvas1536x1024. CLOSE-UP from LOW TABLE-HEIGHT ANGLE of SARALE, the same little brown-haired FIVE-YEAR-OLD GIRL from center of reference welcome group, now learning at a wooden table early1900s Polish home EVENING. Preserve recognizable wavy brown shoulder-length hair, natural small brown eyes, simple dusty rose dress, young child facial proportions, not a teenager. OPEN BOOK dominates softly blurred lower foreground with NO readable writing or marks; above it her face glows with quiet concentration and a small proud happy smile as she looks down toward page. Her head and natural hands lie central x40–60%,y30–65%, entire head visible and not near edges. Warm oil-lamp light reflected from paper illuminates her face from slightly below and side; lamp itself outside frame, soft deep amber and brown shadows. Three BOY COUSINS are only faint indistinct out-of-focus edge silhouettes in background, no crisp faces or competition with Sarale, no adults and no Yitzhak. This is the emotional hopeful culmination: she is safe and learning, focused and capable. All key face/mouth/hands and book center within central65% width and55% height with15% crop margins, calm dark upper20% background for later caption. View changes from preceding wide daylight group to low intimate lamplit close-up. Dramatic pastoral literary graphic novel watercolor and opaque gouache, painterly fine brushwork, selective fine ink, tactile paper, natural face, no cute huge eyes, no photographic skin, no glossy3D. One scene, no text, numerals, balloons, borders, montage or watermark. Reference for Sarale identity only; do not repeat group composition.",
+  "refs": [
+    "art/book1-v07/B01V07-P25-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-dfe6db24-cc2a-4789-af21-fbb83ef6c86b.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Sarale continuity retained, close low table-level view above open blank book, warm concentration and proud joy; exactly three soft boy-cousin background figures. Distinct light/shot/angle from welcome.",
+    "crop_issues": "Head top near7% but face and hands central; conservative zoom1.0 recommended. Captions should use dark upper side areas while avoiding hair and faces. Actual polygon/lettering check pending root."
+  },
+  "file": "art/book1-v07/B01V07-P25-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P25-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "52baa4ff84ebf2eb8b10dbffa2254a47f36b7639203c730221c7e85ca02e7553",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P25-03.png"
+  ],
+  "crop_notes": "Head top near7% but face and hands central; conservative zoom1.0 recommended. Captions should use dark upper side areas while avoiding hair and faces. Actual polygon/lettering check pending root."
+}
