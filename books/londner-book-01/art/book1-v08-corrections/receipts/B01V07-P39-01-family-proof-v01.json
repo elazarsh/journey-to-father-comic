@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P39-01",
+  "file": "art/book1-v08-corrections/panels/B01V07-P39-01-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P39-01-family-proof-v01.webp",
+  "sha256": "5cfac79490fcd1c3e86402e0f45bdb84751206432f57e9a88fbb66e57c3d4849",
+  "web_sha256": "2e7c379d611c2a7416d9e69a4748479bcfea15558422d08f993e034b061f8a31",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Edit of art/book1-v07/B01V07-P39-01.png: groom skullcap replaced by flat cap; source scene otherwise visually preserved. Crop and integration still require review.",
+  "created_utc": "2026-11-01T20:54:05.902923+00:00"
+}
