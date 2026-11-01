@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 44,
+  "replacement_count": 45,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -725,6 +725,25 @@
       "qa_notes": "Uncertain headwear reviewed against original master; cap edited to flat cap. Generative edit; recheck faces, composition, crop and speech anchors before integration.",
       "created_utc": "2026-11-01T21:03:01.863607+00:00",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P11-04-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P41-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P41-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P41-03-family-proof-v01.webp",
+      "sha256": "7396ad10db4d1a12d8812d68ba901b9149f27e2471995b37caf77f524f5fc76c",
+      "web_sha256": "082c98308f5cea7e09db332a8182d04dfcbd8dd346a37023aea4a2a842b38148",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Uncertain headwear reviewed against original master; cap edited to flat cap. Generative edit; recheck faces, composition, crop and speech anchors before integration.",
+      "created_utc": "2026-11-01T21:03:03.934469+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P41-03-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
