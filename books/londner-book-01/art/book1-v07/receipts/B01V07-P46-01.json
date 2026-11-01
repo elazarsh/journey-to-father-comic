@@ -1,0 +1,36 @@
+{
+  "id": "B01V07-P46-01",
+  "prompt": "LANDSCAPE 1536x1024. MEDIUM LOW-ANGLE single scene in a 1925 wood railway compartment near Constanța before boarding, warm golden late light. Yitzhak aged25 stands center-right, confidently speaking with a restrained reassuring smile, right hand resting on the folded cream pillows and striped blankets inside the familiar wicker traveling basket, other hand lightly indicates the bedding. Match young Yitzhak narrow oval face, natural brown eyes, pronounced ears, straight nose bridge and brown hair from reference1, brown flat cap, brown wool coat and vest, cream open collar. Frame from knees upward with entire head, mouth and both hands safely inside the central70%. Keep TOP35% calm plain amber compartment wall DIRECTLY ABOVE Yitzhak's head for later speech lettering; no beam or object over his head. Left foreground only the edge of wife's green-brown headscarf and shoulder as listener, her face out of frame; no extra relative or child is required in this panel. His confidence and the tactile humble bedding are the emotional point, contrasting next panel's distant violet harbor. References2-3 provide same clothes and wicker basket. Do not copy other older male from reference3. Dramatic pastoral literary graphic novel, painterly watercolor and gouache, selective fine ink contours, cinematic chiaroscuro, tactile paper and wool, rich restrained colors, natural expressive faces. No glossy3D, photorealistic skin or cartoon eyes. ONE scene ONE image; no lettering, writing, bubbles, frames, panels, montage or watermarks. Preserve15% crop overscan for diagonal v0.8 mask and zoom1.15, with whole face/mouth/hands and bedding protected.",
+  "source_path": "/workspace/generated_images/exec-16c53361-5758-4bb8-9c09-ed7b4a2d8675.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Low medium view of Yitzhak speaking and gesturing to cream bedding in wicker basket; warm railway compartment with Constanta harbor visible.",
+    "family": "Young adult Yitzhak and wife seen only from behind at left; no extra relatives.",
+    "lettering": "Calm amber wall at upper-left above speaking direction; limited space immediately above head.",
+    "limits": "Final v08 masked lettering review pending."
+  },
+  "crop_issues": [
+    "Head top at about10%; preserve upper image in mask and place speech over upper-left wall; face/mouth and both hands intact.",
+    "Final v08 mask and lettering pending."
+  ],
+  "file": "art/book1-v07/B01V07-P46-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P46-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "330fef4dcce9ec1dd44586ff26b12b5f98ecca2f2dc2cd881adf7684f46fa21b",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/B01V07-P37-04.webp",
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-01.webp",
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P45-04.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

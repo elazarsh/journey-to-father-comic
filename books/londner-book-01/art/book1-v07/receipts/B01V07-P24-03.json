@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P24-03",
+  "prompt": "PORTRAIT canvas1024x1536. EXTREME-WIDE HIGH-ANGLE pastoral travel scene on the road toward Kielce, rural Poland early1900s. Vast open golden afternoon SKY above low rolling fields, a pale winding path through meadow toward a few distant town roofs. Exactly TWO small figures together on path in center at x50%, y66%: Yitzhak an early adolescent about12–13, dark cap and simple period coat, holding his younger sister SARALE aboutFIVE years old gently by one hand; in his other hand he carries a small tied clothing bundle. Sarale small girl in plain muted dusty rose dress and shawl, no baby, no toddler. Boy clearly more than twice her apparent stature, caring older sibling, walking alongside toward relatives, not abandoning her or leaving her at a door. They remain small, faces only tiny suggested shapes; use approved child reference for boy's silhouette and age continuity, not a close portrait. Keep entire two figures, holding hands and bundle within central45% width and55–78% height, generous15% crop margins, open quiet sky upper40% for caption. Warm golden rimlight and soft blue distant fields convey responsibility and a hopeful journey. This differs from previous close doorway group in shot, angle, subject scale and light. Dramatic pastoral literary graphic novel watercolor and opaque gouache, flowing visible brushwork, selective ink only at important edges, airy atmospheric depth, tactile paper, restrained green-gold and lavender, no photographic or3D look. ONE scene, no lettering, signs, numbers, balloons, frames, collage or watermark.",
+  "refs": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-ea62fd5d-5277-448d-874a-1ff814f96a1b.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Golden pastoral long road; exactly two siblings holding hands, older boy with clothing bundle and Sarale aboutfive. No doorway or abandonment. Wide high landscape differs strongly from doorway scene.",
+    "crop_issues": "Both figures central x34–62%, y62–85%; crop conservatively at bottom to retain feet and bundle. Broad open sky provides caption space. Root exact mask check pending."
+  },
+  "file": "art/book1-v07/B01V07-P24-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P24-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "8156851f5f7d162a729b428dcceb69e403fcdc4ae9c271378eaa46951580c18c",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "crop_notes": "Both figures central x34–62%, y62–85%; crop conservatively at bottom to retain feet and bundle. Broad open sky provides caption space. Root exact mask check pending."
+}

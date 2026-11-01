@@ -1,0 +1,25 @@
+{
+  "id": "B01V07-P21-02",
+  "prompt": "LANDSCAPE canvas1536x1024. STRAIGHT BIRD'S-EYE DETAIL of open wooden shipment crate on a leather-supplies shop counter, its contents laid partly out beside a pale invoice sheet. Crate contains brown leather SHOE UPPERS: open-bottom unfinished top components with ankle openings and cut leather edges, NO SOLES, no finished shoes. A few neatly stacked irregular upper components beside packing straw, string and torn brown wrapping. Pale invoice has only faint blank ruling and empty columns; any exact numbers will be added as live text, do not paint readable marks or characters. Flat bright diffuse daylight and neutral tan palette. No faces, no bodies; father's two fingertip tips may enter edge but not necessary. Central crate and blank paper each distinct, leaving broad15% margins and clear calm upper area. This adds the careful count against an invoice. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [],
+  "original_tool_file": "/workspace/generated_images/exec-58a0e90c-0a7b-4385-9563-9129d8625008.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Straight overhead contents count: unfinished open-bottom upper components beside blank ruled invoice, no rendered numbers/text.",
+    "crop_issues": "Paper and crate fill source; edge crop can remove decorative packing, center contents protected.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P21-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P21-02.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "81ec12bc0ba6d26b6f629b2e2d184f0c46be905fb4f0dfbe81f729ef3726cfe3",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

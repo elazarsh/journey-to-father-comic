@@ -1,13 +1,45 @@
 {
   "id": "B01V07-P07-01",
   "file": "art/book1-v07/B01V07-P07-01.png",
-  "status": "generated-claude-awaiting-review",
-  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: At home, evening, around 1905. Over the mother's shoulder: close on the listening face of the boy Yitzhak, about five, attentive and thoughtful. The mother is seen only from behind, her headscarf at the edge of the frame. Camera: Close-up, over-the-shoulder angle from behind the mother. Light and colour: Warm lamp light on the boy's face. Lettering space: Leave calm space in the upper right of the frame, above the mother's head and shoulder, for a speech balloon. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
-  "tool": "openai gpt-image-2 (edit, high)",
-  "referenced_files": [
-    "art/chars/yitzhak-child-v02.png"
+  "actual_size": [
+    1254,
+    1254
   ],
-  "sha256": "737e54f04bcee04d46a9e548f98c593af2af446ddb00b6090f6634c7a89a744f",
-  "bytes": 2111971,
-  "created_at": "2026-10-30T17:48:57.821852+00:00"
+  "sha256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+  "file_bytes": 2748099,
+  "prompt": "SQUARE 1024x1024. Precisely edit selected watercolor illustration, preserving EVERYTHING: over-the-mother's-shoulder framing, mother's headscarf and back in right foreground, boy's crossed forearms and attentive listening pose, table and oil lamp at left, wall and warm lamp lighting, cap and shirt. Change ONLY Yitzhak's apparent age: he must be a little FIVE YEAR OLD preschool/young child, not ten. Smaller, rounder, softer child's face, shorter lower face and soft young jaw, smaller child's arms/hands, while retaining the same narrow oval face structure, natural brown eyes, pronounced ears, cap and recognizable facial features. No enlarged cartoon eyes or generic baby. Listening seriously and thoughtfully toward mother, same gentle expression. Keep existing quiet wall above his cap. No text, no speech balloons/thought clouds, no border, frame or circle, one scene. Same painterly watercolor/gouache selective ink style. All other pixels and elements should remain visually unchanged.",
+  "source_path": "/workspace/generated_images/exec-f85083e8-f59c-4e76-ad64-21ccae016fbd.png",
+  "reference_paths": [
+    "art/book1-v07/web/B01V07-P07-01.webp"
+  ],
+  "reference_archived": "art/book1-v07/variants/v08-before-review-fix/B01V07-P07-01.webp",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": true,
+  "review_fix": {
+    "id": "B01V07-P07-01",
+    "verdict": "fix",
+    "issue": "Yitzhak looks about 10, not about five (inconsistent with P06-04).",
+    "instruction": "Keep everything (over-shoulder framing, mother's headscarf, lamp, pose), change only: make Yitzhak about five years old: smaller, rounder child's face, same narrow oval face shape, brown eyes, pronounced ears and cap."
+  },
+  "shot": {
+    "shot": "close-up",
+    "angle": "over-shoulder",
+    "subject": "yitzhak",
+    "light": "warm lamp"
+  },
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "specific_review": "Yitzhak reads as about five, smaller softer short round child face retaining narrow oval continuity brown eyes pronounced ears and cap. Mother shoulder/headscarf, oil lamp, table and crossed-arm listening pose retained. Quiet top wall available; no text/bubbles or newly depicted poor households. Mask pending.",
+    "composition": "Original selected Claude composition retained; only specified review corrections applied.",
+    "limitations": [
+      "No final browser mask or lettering approval."
+    ]
+  },
+  "crop_status": "Source visually reviewed, actual v08 panel mask and zoom 1.00–1.15 pending root review.",
+  "web_file": "art/book1-v07/web/B01V07-P07-01.webp",
+  "web_sha256": "b8a78b3470b8f4ce082d4a6d50f477c667a3a05a6375e6a00818eec37027b658",
+  "recorded_at_utc": "2026-10-31T04:55:40.292105+00:00"
 }

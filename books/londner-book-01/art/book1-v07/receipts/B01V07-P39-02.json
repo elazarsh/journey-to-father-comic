@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P39-02",
+  "file": "art/book1-v07/B01V07-P39-02.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. PORTRAIT 1024x1536. Medium OVER CUSTOMER'S SHOULDER inside a prosperous modest leather and leather-supplies shop, bright shop daylight. Customer's blurred dark shoulder lower-left foreground. Chava energetically selling a folded leather piece at counter in middle-left, modest burgundy dress and cream headscarf; Yitzhak in shirt dark waistcoat and kippah arranges leather shelves in background RIGHT. NOT a cobbler workshop: hides, leather rolls, supplied goods, no shoemaking bench. He has a quiet private contemplative expression. Compose Yitzhak's head about55% down image, keep the broad wall ABOVE HIS HEAD in upper-right quiet/unpatterned for a later thought balloon. No drawn balloon. Adds her diligence and his hidden dream, different from wedding.",
+  "tool_source_path": "/workspace/generated_images/exec-61eb0cc1-b50d-42b6-8d41-81bbdab0051e.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Chava sells leather; background Yitzhak and calm area above his head visible, no actual balloon.",
+  "crop_caveats": "Background Yitzhak rightward, head about86% x; upper wall available above him. Shelf-working hands approach right edge, renderer must preserve meaningful face/action under final mask. Final polygon crop unverified.",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "f254a86ce3f0f8bab6276d55783f81b165b6aa0ff71c1e944a33ef4e9f7ca24a",
+  "web_file": "art/book1-v07/web/B01V07-P39-02.webp"
+}

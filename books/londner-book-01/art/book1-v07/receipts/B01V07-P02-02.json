@@ -6,7 +6,7 @@
     "art/chars/yitzhak-child-v02.png",
     "art/book1-v07/B01V07-P03-01.png"
   ],
-  "status": "generated-reviewed",
+  "status": "source-reviewed-for-v08",
   "visual_review": {
     "scene_fidelity": "One small boy, no siblings; reconstructed early-1900s Polish street. Clean clothes, curious gaze.",
     "likeness": "Age-down adaptation of approved narrow-faced child; face/ears/nose retained without enlarged cartoon eyes. Apparent age is approximate.",
@@ -23,5 +23,24 @@
   "file_bytes": 2981826,
   "recorded_at_utc": "2026-10-30T12:20:21.918124+00:00",
   "web_file": "art/book1-v07/web/B01V07-P02-02.webp",
-  "web_sha256": "7bb174f1a8f699d8831820f53a8028136942c04b06c0732adee2c006e05f94c2"
+  "web_sha256": "7bb174f1a8f699d8831820f53a8028136942c04b06c0732adee2c006e05f94c2",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P02-02.webp",
+    "source_web_sha256": "554f8daa20313baec80801c6ac2638b749160e9c0a21c68cbc7317246ef2e213",
+    "shot": {
+      "shot": "wide",
+      "angle": "eye",
+      "subject": "yitzhak",
+      "light": "golden autumn sun"
+    },
+    "specific_review": "Young child alone in cobbled town street under golden autumn light with leaves. Full-body wide view and approved narrow face/ears continuity; no extra family. Accept visually about four to five.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.132611+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

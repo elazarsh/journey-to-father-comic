@@ -1,0 +1,34 @@
+{
+  "id": "B01V07-P47-02",
+  "prompt": "PORTRAIT 1024x1536. CLOSE DETAIL STRAIGHT BIRD'S-EYE single still-life view of the elderly memoir writer's wooden desk, no people or hands. In a warm amber lamp pool, an OPEN AGED NOTEBOOK centered, a simple sharpened wooden pencil beside it, one small old shop-account slip with only faint abstract nonletter marks, and a small familiar woven traveling basket containing folded cream striped fabric at upper-right of the desk. These tangible objects recall childhood learning, shop work and the journey; they all sit in ONE real continuous desk space, no montage, ghostly memories or insets. Leave quiet wood in top22% for later caption. Keep notebook, pencil, account slip and basket entirely within central70% width and middle70% height with15% overscan, basket smaller than notebook. Contrast neighboring over-shoulder human view with flat overhead object geometry. Same warm wood, amber lamp and literary watercolor texture as reference. Dramatic pastoral literary graphic novel, watercolor/gouache, selective fine ink, tactile paper/wicker/wood, cinematic warm pool and deep soft brown shadows, rich restrained colors. ONE scene ONE image, no legible letters/numbers or symbols, no bubbles, borders, montage or watermark.",
+  "source_path": "/workspace/generated_images/exec-400a53a4-9525-4642-ae6a-d8582c3142f2.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "High overhead object still-life: open notebook, pencil, small account slip, woven basket with cream striped fabric, warm desk lamp.",
+    "lettering": "Calm upper wood; no readable writing.",
+    "limits": "Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Basket extends to right source edge; notebook/pencil/slip central. Final crop should keep basket recognizable; use contain if needed.",
+    "Final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P47-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P47-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "66e5d62e586aa3f45b6a0e684fb1c153b26d4acbcc2b428a9e8d2ddd50005e17",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P01-01.webp",
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-01.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

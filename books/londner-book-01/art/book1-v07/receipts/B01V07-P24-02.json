@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P24-02",
+  "prompt": "PORTRAIT canvas1024x1536. Eye-level MEDIUM scene at the OPEN doorway of a modest early1900s Polish home, gentle GREY MORNING. Foreground center: CHAVA THE SISTER, a young woman about17–20 in a simple muted brown dress, braid pinned back, clearly older sister not Yitzhak's future wife, holds youngest sister RAISEL, a small toddler about2, safely in her arms. Raisel small child in plain pale dress, two natural hands resting on Chava's shoulder, not newborn and not five-year-old Sarale. Chava remains at home with Raisel, quietly thoughtful face, caring embrace. Background through the open doorway: exactly TWO younger BOYS Leibl about10 and Shimon about8 walking together with TWO ADULT RELATIVES, carrying small bundles; the relatives visibly guide the boys gently, one adult's reassuring hand near boy's shoulder. No additional children, no parents. Family remains supported, no child abandoned outside, no closed threatening door, no suspense. Keep Chava and toddler's complete heads and hands at central x35–65%,y35–65%; background group smaller around x65%,y56% with15% margins. Foreground and background remain legible at narrow crop, calm upper pale plaster for caption. Supporting faces are respectful unverified reconstructions. Dramatic pastoral literary graphic novel watercolor and opaque gouache, painterly soft edges, selective ink, muted slate-grey morning and warm skin, natural faces and small natural eyes, atmospheric depth, no glossy photo or3D. ONE scene, no lettering, names, digits, speech balloons, borders, montage or watermark.",
+  "refs": [],
+  "original_tool_file": "/workspace/generated_images/exec-16a57e02-05af-4364-9954-ebf9f7af68b0.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Chava sister safely holds toddler Raisel; exactly two boys in background accompanied by two caring adult relatives. Door open, no abandonment. Relative ages shown as visual estimates, no extra siblings.",
+    "crop_issues": "Foreground faces and hands readable; background group extends right to95%, requiring full-source fit to preserve all relatives. Upper sky available for caption; exact panel crop pending root."
+  },
+  "file": "art/book1-v07/B01V07-P24-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P24-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "72dd45402ea6430198ca040c2cb387322a7264bab5a559a3588d2482c6b4c201",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [],
+  "crop_notes": "Foreground faces and hands readable; background group extends right to95%, requiring full-source fit to preserve all relatives. Upper sky available for caption; exact panel crop pending root."
+}

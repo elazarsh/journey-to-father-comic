@@ -14,5 +14,9 @@
     1024
   ],
   "sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
-  "browser_qa": "not performed"
+  "browser_qa": "not performed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "v08_source_review": "Accepted existing source after v08 direct visual review. Outdoor close boy gripping door, painful downward gaze, affected foot outside frame, dappled warm light. Matches emotional close-up and contrasts with physician medium and next overhead bed. No regeneration needed.",
+  "v08_review_action": "accepted existing source without regeneration"
 }

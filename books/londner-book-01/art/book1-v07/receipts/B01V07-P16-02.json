@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P16-02",
+  "file": "art/book1-v07/B01V07-P16-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P16-02.webp",
+  "source_path": "/workspace/generated_images/exec-d7bfb47d-693b-4640-ac15-cbc3f65bb883.png",
+  "tool_source_path": "/workspace/generated_images/exec-d7bfb47d-693b-4640-ac15-cbc3f65bb883.png",
+  "prompt": "VERTICAL PORTRAIT 2:3. ONE dramatic pastoral literary graphic novel watercolor and gouache illustration, selective fine ink and tactile period ceramic. CLOSE OBJECT DETAIL from a child's LOW POINT OF VIEW looking sharply upward: the SAME small closed worn dark-brown leather prayer book as reference lies safely flat on the OUTSIDE TOP LEDGE of a very tall pale sage-green tiled masonry heating stove in an early-1900s Vienna hospital, high near the plaster ceiling. The tall stove's simple rectangular tiled column rises from below frame; its upper cornice and the book are clearly visible from below. Book is fully intact, no title or symbols, its worn mottled cover and tan page block recognizable. Top of stove is cool shadow, blue-green and grey; no open fire, flame, smoke, ember, scorching, burning, chimney opening or rescue. NO people or hands in this shot. It tells height and inaccessible placement, not fire danger. Keep complete book nearx0.56 y0.43 with extra headroom above the cornice, calm pale grey ceiling upper-left for external caption. One scene, no text, signs, letters, speech balloons, borders, panels, collage, crosses or watermark. Dramatic height from low perspective, dignified restrained painterly light.\n",
+  "references": [
+    "art/book1-v07/B01V07-P15-04.png"
+  ],
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "4787efbdc3c3063e350425dc85eb380e8757408d5c67d2538194e583cf748cec",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Low child POV detail up sage-green tiled stove to intact closed brown book resting on exterior top cornice near ceiling. Book fully visible middle-upper area; no people, fire, smoke, damage, rescue or writing. Recognizable same worn leather and page block as P15-04/P16-01. Broad pale ceiling quiet zone, generous headroom. Stove colour and tile structure now continuity reference for P16-03.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

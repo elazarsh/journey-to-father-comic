@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P42-04",
+  "file": "art/book1-v07/B01V07-P42-04.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. WIDE EYE-LEVEL interior evening at home, Yitzhak as restrained DARK BACK/THREE-QUARTER SILHOUETTE standing next to window center-right waiting, small enough to show room and quiet solitude. View through window blue violet Polish twilight roofs, one small warm oil lamp very dim lower-left, mostly cool deep shadow. No other people or child, no paperwork foreground, no readable text. Whole head and contemplative hands together at waist within central65%; window glow outlines profile subtly, no portrait close-up. Uncluttered wall above-left. Adds quiet waiting and evening duration, distinct from close hands detail.",
+  "tool_source_path": "/workspace/generated_images/exec-424208b1-a2ff-4fa1-9cd9-e56db3286ac7.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Wide silhouette waiting at home window evening, no extra people or repeated papers. Actual result is dark side-profile figure rim-lit at window, face slightly more visible than pure silhouette.",
+  "crop_caveats": "Source visually reviewed; final polygon/15% zoom and bilingual lettering placement unverified.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "bce27d9533f9e4cd476f37a56dab887c3b36c7ab231931d24b1edf8ce7fc6b7a",
+  "web_file": "art/book1-v07/web/B01V07-P42-04.webp"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P21-04",
+  "prompt": "LANDSCAPE canvas 1536x1024. One extreme close-up scene viewed from a LOW ANGLE at the edge of a wooden counter: father's two natural adult hands hold an OPEN folded cream paper reply letter in an early1900s Polish leather-supplies shop. The letter catches sharp raking cool morning window light; hands and paper are the sole crisp subject, shop shelves and leather rolls dissolve into soft painterly shadow behind. Father's face and body entirely out of frame. Paper completely blank without letters, marks or numbers, live text will be added separately. Distinct from preceding medium profile scene of father writing at evening lamp: here only hands and luminous reply sheet, low camera, daylight. Keep entire letter and both hands within central70% image, with15% empty crop margins and soft quiet upper background for caption. Use reference only for shop/material style, no copying its composition. Dramatic pastoral literary graphic novel illustration in watercolor and opaque gouache, selective fine ink, tactile paper, restrained rich colors, cinematic chiaroscuro, atmospheric depth, hand-painted marks. One scene, no montage, no frames, no bubbles, no text, no watermark.",
+  "refs": [
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-d665a0ba-8e4c-49f0-85dc-2072baaa42b9.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Open blank reply letter in two natural hands, no face or readable marks; low counter-level camera and raking daylight differ from previous medium writing scene.",
+    "crop_issues": "Letter and fingers centrally placed; outer sleeves may crop. Caption can use upper background or blank paper. Actual polygon and live lettering remain for root."
+  },
+  "file": "art/book1-v07/B01V07-P21-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P21-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "3fd597bd28839b1dbabcb32e1c51116ff8b547c21a7efe987153bb465ff10f2e",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "crop_notes": "Letter and fingers centrally placed; outer sleeves may crop. Caption can use upper background or blank paper. Actual polygon and live lettering remain for root."
+}

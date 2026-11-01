@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P23-04",
+  "prompt": "LANDSCAPE canvas1536x1024. WIDE HIGH-ANGLE view from upper corner of early1900s Polish leather SUPPLIES merchant shop. Two adult men ONLY: MEIR GITLER, middle-aged about40–50 with modest brown beard and dark kippah, sits at a small counter writing an INVENTORY on an open blank paper ledger with a pen. CHAIM, visibly younger married adult about25 with short dark beard and dark kippah, stands beside rolled-leather shelves examining stock, one hand supporting a bundle of leather straps. Distinct from Yitzhak's grey-bearded father, who is not present, and no child in this shot. Their actions quietly convey responsible relatives managing the family's stock and debts, warm working daylight, reassuring practical purpose. Shop shelves hold leather rolls and boxes of buckles, not finished shoes, no cobbler bench or shoe-making. Adults occupy central70% width and middle60% height, wide contextual room, all heads and hands safe with15% margins. Quiet pale upper wall for live caption. Use reference for merchant-shop materials only. Dramatic pastoral literary graphic novel, painterly watercolor and opaque gouache with visible brush texture, selective fine ink, warm muted ochre, russet and dusty slate, cinematic light, strong silhouettes and atmosphere, natural faces, no photo or3D. ONE scene, no writing, numbers, readable ledger marks, text, balloons, borders, montage or watermark.\n\nRevision: Edit this single LANDSCAPE1536x1024 watercolor/gouache shop scene. Preserve the entire composition, painterly style, wide high camera angle, warm workday lighting, inventory book, young adult man standing at right, and all leather-supplies stock. Change ONLY seated inventory writer at left to a CLEARLY DIFFERENT supporting adult man, MEIR GITLER: broad ROUND face, heavier stocky shoulders, age about50, full grey beard with a square lower shape, mostly bald head beneath black kippah, round wire-rim spectacles, plain muted olive wool waistcoat over cream shirt. His head must not resemble the narrow-faced dark-haired father in neighboring scenes. His pen and both hands still naturally visible writing on entirely blank ledger. He is a relative helping manage stock after parents died. No Yitzhak or father present. Keep younger Chaim at right unchanged, no additional people. No readable words, numerals or marks in ledger, no balloons, frames, labels or watermark. Preserve all important heads and hands inside15% crop margins. ONE scene.",
+  "refs": [
+    "art/book1-v07/variants/B01V07-P23-04-first-fatherlike.png"
+  ],
+  "rejected_variant": "art/book1-v07/variants/B01V07-P23-04-first-fatherlike.png",
+  "revision_reason": "First generated writer resembled deceased father too closely; distinct supporting adult requested.",
+  "original_tool_file": "/workspace/generated_images/exec-124abc71-5c7d-4c25-9c98-8e8feb12624f.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Wide high-angle shop inventory; Meir now distinctly balding, round-faced, grey-bearded with glasses, separate from father. Chaim younger adult by shelves. Warm practical care after preceding grief close-up.",
+    "crop_issues": "Heads/hands central, standing hand near85% right; conservative zoom needed. Blank wall at upper center for caption. No actual browser crop claim; pending root."
+  },
+  "file": "art/book1-v07/B01V07-P23-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P23-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "bca0320b92ba9985af46a7b568584171ac577c465cb20e7280c7650e7a407684",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/book1-v07/variants/B01V07-P23-04-first-fatherlike.png"
+  ],
+  "crop_notes": "Heads/hands central, standing hand near85% right; conservative zoom needed. Blank wall at upper center for caption. No actual browser crop claim; pending root."
+}

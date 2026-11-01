@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P19-03",
+  "prompt": "LANDSCAPE canvas1536x1024. Edit reference to show ONLY the spacious familiar family apartment, no people anywhere. FIRST-PERSON POV from open entry doorway. Warm home light receives the returned child. The same tall left window, plaster walls, wooden floor, blue-and-white tiled stove, plain wooden dining table with cream cloth and jug, benches, doorway to the leather-supplies shop. Completely REMOVE father and son. An inviting lived-in home, not an abandoned empty house; gentle fresh light and small pot of flowers. Eye-level wide framing through doorway, main furniture comfortably center with broad quiet wall above and 15% margin. This is the place itself welcoming him, followed by a separate father-son sunset scene. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P19-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-08a9c69f-adcd-4f50-b8ad-2fc0d5d679ae.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "True doorway POV with no people: familiar blue tiled stove, dining table, window and open leather supplies shop. Warm inhabited home.",
+    "crop_issues": "No faces/hands; furniture can crop. Actual polygon pending.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P19-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P19-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "b41a8bcfee38d64d2c84f3736112d3e8e902335a94bfc50d65cbae65ef9749fb",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

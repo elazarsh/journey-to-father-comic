@@ -1,0 +1,24 @@
+{
+  "id": "B01V07-P15-01",
+  "file": "art/book1-v07/B01V07-P15-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P15-01.webp",
+  "source_path": "/workspace/generated_images/exec-70db5588-65b6-4297-b25e-08aec4f6373f.png",
+  "tool_source_path": "/workspace/generated_images/exec-70db5588-65b6-4297-b25e-08aec4f6373f.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral literary graphic novel watercolor and gouache illustration, fine selective ink, tactile stone, restrained colours. EXTREME-WIDE WORM'S-EYE SHOT from very low street height looking upward at the towering facade of a large early-1900s Vienna hospital, generic nineteenth-century institutional masonry and tall repeated windows, period-correct proposed setting without pretending an identified building. Cold grey morning, soft blue-green stone shadows, quiet humane dignity. Architecture dominates; no visible people, no doctor, no patient, all medical care remains entirely inside and out of frame. ONE small warm glowing window on left-middle facade hints at the room inside; leave a broad calm light-grey sky and soft low-detail upper-left facade around and above that window for a future doctor's off-screen speech balloon, no actual balloon in illustration. Keep facade broad and readable with spare margins for a wide strip mask, avoid decorative crosses or Christian icons, no signs, logos, lettering, modern cars, flags, IV equipment or emergency symbols. No text, borders, panels, collage or watermark. The contrast between huge cool building and one warm window carries scale and new care.\n",
+  "references": [],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "cc90ebfd477439e4a8fabaacff1cc36e842ffa29a6f3809ec0d47a6a12997035",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Extreme-wide worm-eye facade of generic period Vienna hospital, cold grey morning with one warm window left-middle. No people or procedure shown, matching revised exterior and off-screen doctor. Wide blank sky for speech; future tail should point to warm window, not unseen doctor face. No symbols, text or crosses. Proposed generic architecture, not identified historical building. Window safely inside left-middle crop region.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "B01V07-P37-04",
+  "source_path": "/workspace/generated_images/exec-23af08e4-f154-411e-840c-193801a935f2.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE landscape1536x1024 image. HIGH ANGLE medium shot, modest Polish Jewish home early1920s at NIGHT. Young civilian Yitzhak early20s sits alone at wooden table over a small group of immigration papers, shoulders tense, eyes lowered with worry about travelling without passport. He wears cream shirt and worn brown waistcoat, no military uniform; narrow oval face, pronounced ears, brown eyes and restrained mouth of supplied youth photo and approved child continuity, clearly young not middle-aged. A small oil lamp at left casts warm pool over papers and his hands while rest of room recedes dark blue. Face around55%width50%height, hands/papers60%height, all central70%. Upper third above him calm shadowed wall for later thought bubble. No readable writing on papers, no lettering, no balloons, circles, frames or montage. Purpose: the dream returns with fear after military discharge, distinct from hanging coat close detail.",
+  "tool_source": "image_gen__imagegen",
+  "tool": "image_gen__imagegen",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-23af08e4-f154-411e-840c-193801a935f2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "references": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "Young civilian Yitzhak at papers in night lamp light, worried; changed from old daylight view.",
+    "identity": "Youth face and ears maintained.",
+    "lettering": "Dark wall above, but cap upper edge requires careful bubble placement.",
+    "limits": "Source inspected, actual mask/caption QA pending."
+  },
+  "crop_issues": [
+    "Keep cap with high vertical framing; lamp left may be cropped, face and hands central."
+  ],
+  "previous_source_review": "Old source daylight eye-level, replaced with high angle nighttime lamp.",
+  "file": "art/book1-v07/B01V07-P37-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P37-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "7370a90e4044afdcc3954079ab4ee65b79cc92ba1a9a127e62baed496df76bcf",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

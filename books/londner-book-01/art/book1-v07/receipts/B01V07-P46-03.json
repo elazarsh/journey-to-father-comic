@@ -1,0 +1,34 @@
+{
+  "id": "B01V07-P46-03",
+  "prompt": "LANDSCAPE 1536x1024. WIDE WORM'S-EYE single scene at Constanța quay1925, camera low beside wet cobblestones looking up at the immense dark riveted hull of passenger steamship Asia. No readable ship name. ONE diagonal gangway climbs from lower-left toward middle-right deck, where warm deck lamps cut into dark blue dusk. EXACTLY THREE family travelers are small full-body figures halfway up gangway in central55%: Yitzhak25 in brown cap, brown wool coat/vest and cream shirt carrying the familiar wicker basket with cream striped bedding; wife Chava in muted olive-brown securely tied headscarf, pale modest long-sleeve blouse and long dark skirt; sole little daughter Hanna Roza in ochre dress and muted taupe coat walks between them holding mother's hand. Same family and clothes as reference. Small bodies versus towering ship is the point; do not enlarge faces. Keep all3 distinct and all heads/feet/hands within central70% with15% crop overscan. Ship dominates upper frame, gangway protected. A plain quiet dark hull area upper-left for later caption. Dramatic pastoral watercolor/gouache literary graphic novel, fine selective ink, tactile paper/metal/cloth, rich restrained indigo and amber, cinematic scale, natural anatomy. ONE scene/image, no lettering, bubbles, borders, montage, watermark, emblems, flags or State of Israel flag. Departure only; no destination/arrival or halva.",
+  "source_path": "/workspace/generated_images/exec-de489063-c20c-45ab-b06e-c72deed29a83.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Worms-eye view of towering riveted steamship and diagonal gangway, family3 moving up in center.",
+    "family": "Yitzhak in brown cap/coat with bedding basket, headcovered Chava, sole little daughter between parents; other figures distant on ship are passengers.",
+    "lettering": "Quiet dark hull at upper-left.",
+    "limits": "Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Family group within central crop-safe area; retain entire gangway group at zoom1.15.",
+    "Final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P46-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P46-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "203ee052b76666f9a1b2f7c748c48f972c22b822777027db7136bc119e96d86c",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-04.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

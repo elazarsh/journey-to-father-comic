@@ -1,0 +1,34 @@
+{
+  "id": "B01V07-P47-01",
+  "prompt": "PORTRAIT 1024x1536. MEDIUM OVER-THE-SHOULDER single scene of elderly memoir narrator Yitzhak about71 writing in an open notebook at his familiar warm wooden desk, returning to memoir present. Use reference image for exact older face, glasses, brown hat and brown jacket over white open-collar shirt, and room desk lamp. Camera behind his right shoulder at a moderate high angle, looking toward hands, pen tip and open notebook; near shoulder and hat silhouette at right, a modest sliver of cheek and ear in profile, not a frontal portrait. Whole writing hand and supporting hand safely inside central65%, pen tip on notebook lower-middle. Warm desk lamp at left pools amber light over tactile wood and blank/unreadable page; blue-green plaster wall upper background, books softly blurred. TOP25% calm wall for caption. Protect whole hat silhouette and hands with15% crop overscan, no tight head or hand cuts. The action of writing and shift to present are the point. Dramatic pastoral watercolor/gouache literary graphic novel, selective fine ink contours, natural anatomy, cinematic chiaroscuro, rich restrained amber/teal, tactile paper, warm dignified mood. ONE scene ONE image, no lettering, readable notebook words, drawn bubbles, borders, montage or watermark. No symbolic floating inset memories.",
+  "source_path": "/workspace/generated_images/exec-66396a4d-78b4-4c8b-904c-a29d7f903795.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Portrait medium over right shoulder of elder writing; desk lamp at left, notebook and both hands visible.",
+    "identity": "Elder hat, glasses, jacket and desk continue P01-01.",
+    "lettering": "Calm bluegreen wall above.",
+    "limits": "Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Hat right edge close to source edge; preserve right extent or contain source if needed.",
+    "Both writing hands and notebook inside central region; final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P47-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P47-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "686cfd43e8ea85d833b5a2189b4290b59fab3a1d9f13b5867691cd2c34d62058",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P01-01.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

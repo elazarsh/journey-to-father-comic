@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P20-01",
+  "prompt": "LANDSCAPE canvas1536x1024. Edit the attached kitchen scene, preserving the exact boy and older sister identities, two separate washing bowls, wood range, clothing, lighting and style. PULL CAMERA BACK so the complete heads, both people's working hands and both bowls fit in one compact HORIZONTAL BAND from y32% to y67% of canvas. Show more quiet plaster wall above and table/floor below, same continuous scene, no border. The people should be about60% of current size, still medium high angle with stove warm and two bowls plainly separate. Heads at y34%, hands at y58%. Need safe crop to a very wide short comic panel: central horizontal band must tell the whole action. No faces or hands above y30 or below y70. No added people. Early1900s Polish Jewish home, one scene, no words, bubbles, frames, watermark. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "/workspace/generated_images/exec-fc370837-70d0-43ab-bd4c-e43b2f50f4b7.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-2e9cc188-28bb-44ae-8bf4-33ab0c4420b5.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "High-angle warm kitchen: boy washes in two separate bowls, clearly older sister cooks. Compact revision adds breathing room and protects working hands. Only two siblings.",
+    "crop_issues": "Heads and bowls span middle half; very short target strip still needs exact renderer crop check.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P20-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P20-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "f7b62cf3e16e552d91f9bcc58331320e6d9b052c0377c5f47ba7111b60524195",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

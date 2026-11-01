@@ -1,16 +1,26 @@
 {
   "id": "B01V07-P10-02",
-  "source_path": "/workspace/generated_images/exec-98840aa3-d6d1-4edd-8dc4-bf88cdeeb6cd.png",
-  "prompt": "ONE portrait 2:3 illustration, painterly watercolor/gouache historical graphic novel with fine ink details and warm amber light. Close-up of a household-goods parcel being opened in an early-1900s Jewish Polish shop. Two anonymous adult hands carefully unfold and save the old newspaper wrapping rather than throw it away. One plain ceramic bowl partly visible inside the parcel; no other action. Faint narrow print-column texture on yellowed paper, NO readable words or recognizable letters, no publisher headline. No faces. Keep hands and paper in the central half of the image; large soft unfocused pale counter surface in upper-left reserved for future lettering, generous 18% crop margins. Period materials, no plastic packaging, tape or modern labels. A single continuous scene without borders, balloons, captions, collage, religious icons or watermark.",
-  "references": [],
-  "source_visual_review": "Close parcel opening and saved wrapping paper with a plain bowl. Hands natural. Upper-left counter is quiet; no faces. Dense newspaper-like texture is non-readable and must not be treated as actual historical newspaper evidence.",
-  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
-  "status": "generated-source-reviewed",
   "file": "art/book1-v07/B01V07-P10-02.png",
-  "actual_size": [
-    1024,
-    1536
+  "web_file": "art/book1-v07/web/B01V07-P10-02.webp",
+  "source_path": "/workspace/generated_images/exec-03101829-3793-45c7-a7a3-ad0d618d9bf8.png",
+  "tool_source_path": "/workspace/generated_images/exec-03101829-3793-45c7-a7a3-ad0d618d9bf8.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral literary graphic novel watercolor and gouache illustration, fine selective ink, tactile aged paper and timber. HIGH-ANGLE ALMOST OVERHEAD DETAIL: ONLY TWO ADULT HANDS carefully smoothing and flattening a sheet of formerly crumpled newspaper onto the wooden counter of an early-1900s Polish housewares shop. The unwrapped ceramic bowl has been set aside OUTSIDE the image; NO bowl, parcel or crate visible. One hand presses the paper flat from center outward, the other holds a curling edge gently. The newspaper sheet is opened completely, creases visible, muted grey column-like print texture that is fully illegible, no actual words or headings. It is being preserved as reading material rather than torn or thrown away. Adult white shirt cuffs and brown vest edge barely at right; NO faces, heads or upper body. Warm morning window light rakes across paper and hands, low-detail plain counter at top-left for later live caption, background just softly blurred housewares shelf corner. Complete paper and hands comfortably inside middle60%width and middle55%height with generous crop overscan. One scene, no readable letters, no lettering, no balloons, panel borders, collage, religious symbols or watermark. Intimate hand action meaningfully differs from wide unpacking scene before it and bed POV after it.\n",
+  "references": [
+    "art/book1-v07/B01V07-P10-01.png"
   ],
-  "sha256": "a4b3259d4b7679213762254dc0bed59219408221b9a9b90d80c39a61bad6f84b",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "0f95ef189e81f3a20447fcc9ae87f7204239dc1ef41292d3b006aa2c6f5ddf3d",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "V08 substantive-action replacement, old PNG/WebP/receipt preserved in variants/pre-care-v08. High oblique detail of two adult hands smoothing fully opened creased newspaper on timber shop counter, bowl removed from action; differs clearly from prior wide unpacking. Same housewares and warm light. Fine pseudo-print is illegible, no intentional readable words. Main pressing hand central, holding hand near right edge: fx~0.65 or contain may be needed in left v08 polygon so both hands survive. No faces, balloon or icons.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
   "browser_qa": "not performed"
 }

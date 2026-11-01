@@ -1,0 +1,31 @@
+{
+  "id": "B01V07-P45-04",
+  "page": 45,
+  "source_path": "/workspace/generated_images/exec-e61b32c3-f05c-405e-aca6-286000342e07.png",
+  "prompt": "Create a TALL VERTICAL PORTRAIT canvas width1024 height1536, ratio2:3, NOT landscape. MEDIUM EYE LEVEL shot inside1925 warm wooden train compartment. An older male passenger (NOT a relative) asks young Yitzhak about his journey, beside family's large wicker basket of folded cream bedding. Speaker is RIGHT side, face center about60% down from top, mouth at64%, upper-left half of picture calm plain warm train wall for a later speech bubble ABOVE speakers. Yitzhak listener lower-left, head at58% down, look toward passenger. Frame waistup with both hands visible and safe margin. Only two men in scene, wife and child offscreen; no other children. No invented dialogue drawn. Mood outsider's concern, warmth, period wood/steam window. 1925: Yitzhak age25 matches middle adult face in reference (narrow oval face, brown eyes, pronounced ears/nose bridge), dark cap, brown wool coat/vest, cream shirt. His wife Chava has the woman's proposed face from couple reference, young and slim, modest pale long-sleeve blouse, dark long skirt, muted brown-green headscarf securely covering hair. Their sole child is little daughter Hanna Roza about toddler age, simple warm ochre dress and muted cream/brown coat; exactly3 family members. No twins, siblings or future children. Proposed supporting identities, not verified portraits.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache, selective fine ink, tactile paper, rich restrained colors, natural faces, cinematic atmosphere. No glossy3D, photorealism or cartoon features. ONE scene/image, no text, lettering, readable labels, speech bubbles, thought clouds, borders, montage or watermarks. Keep essential heads/hands/props well within central70% with overscan for diagonal mask and zoom1.15.",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e61b32c3-f05c-405e-aca6-286000342e07.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "references": [
+    "art/chars/yitzhak-three-ages-v01.png"
+  ],
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Medium eye-level older passenger on right questioning Yitzhak on left by bedding in warm train compartment; calm upper-left wall.",
+    "family": "Two men, Yitzhak25 and one older unrelated passenger. Wife/daughter offscreen.",
+    "lettering": "Quiet upper region; no text/bubble drawn.",
+    "limits": "Actual masks/lettering pending."
+  },
+  "crop_issues": [
+    "Final masked crop and lettering pending."
+  ],
+  "file": "art/book1-v07/B01V07-P45-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P45-04.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "ef570ed45049eee2b8700c5c9b151a51d3df33bde088425eb9e6070afbb3e5ee",
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed"
+}

@@ -6,7 +6,7 @@
     "art/chars/yitzhak-three-ages-v01.png",
     "art/drafts/p01-1.png"
   ],
-  "status": "generated-reviewed",
+  "status": "source-reviewed-for-v08",
   "visual_review": {
     "single_scene": true,
     "no_text_or_bubbles": true,
@@ -28,5 +28,24 @@
   "file_bytes": 2823381,
   "recorded_at_utc": "2026-10-30T12:14:27.536182+00:00",
   "web_file": "art/book1-v07/web/B01V07-P01-01.webp",
-  "web_sha256": "5c76a770979cc604960338f9fb5c4a4866355611defc4d6c84f651829c411180"
+  "web_sha256": "5c76a770979cc604960338f9fb5c4a4866355611defc4d6c84f651829c411180",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P01-01.webp",
+    "source_web_sha256": "e77829454e539ce8d6b9dc84973fb0624f1a8b8790a378a676c60348dcf75abc",
+    "shot": {
+      "shot": "medium",
+      "angle": "eye",
+      "subject": "yitzhak",
+      "light": "warm lamp"
+    },
+    "specific_review": "Medium eye-level elderly narrator writing at desk, gently smiling toward reader, warm lamp left, quiet upper-left wall for thought/caption. Distinct from following hands insert.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.131307+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P25-03",
+  "prompt": "LANDSCAPE canvas1536x1024. WIDE EYE-LEVEL single warmly welcoming family vignette in a modest early1900s Polish Jewish room, SOFT DAYLIGHT, no Yitzhak. Exactly SIX PEOPLE TOTAL: one FIVE-YEAR-OLD GIRL SARALE, her AUNT SARAH and UNCLE AVRAHAMLE (two parent-generation adults), and exactly THREE BOY COUSINS. Girl at center in dusty rose plain dress, brown wavy shoulder-length hair, small natural brown eyes, modest shawl loosened, thoughtful face brightening with a small relieved smile. Aunt at left of her bends slightly in open welcoming posture with one hand gently at girl's shoulder; uncle at right with warm beard, dark kippah, plain waistcoat, smiles gently toward girl. Three clearly MALE boy cousins, estimated ages7,9,12 (unverified visual estimates), in period dark caps and simple coats, gathered around them, one boy on left and two on right. No extra children, no fourth boy, no other girl, no parents of Sarale. A welcoming family group rather than posed identical lineup, small natural gestures and eye contact. Keep all SIX heads and hands inside central70% width and60% height: group fully inset with15% outer room margin, no heads touching edges. Soft modest interior and lit window behind, muted daylight cream and warm wood. Upper20% quiet wall for later caption. Memory vignette soft edges. Dramatic pastoral literary graphic novel watercolor and opaque gouache, visible soft brushwork, selective fine ink, restrained warm cream/muted rose/slate palette, natural faces not cute caricature, no photo skin, no3D. One scene, no text, symbols, balloons, borders, montage or watermark.",
+  "refs": [],
+  "original_tool_file": "/workspace/generated_images/exec-1dd53f53-acd2-429d-b114-7025d6a73b6c.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Count verified: one girl Sarale, three boy cousins, aunt and uncle, six people. All focus warmly on Sarale. Soft daylight welcome group distinct from exterior. Generated family seated rather than standing, same welcome purpose.",
+    "crop_issues": "Faces within x18–86%,y21–58%; preserve outer boys with conservative full-source crop. Hands visible. Upper wall calm for caption. Actual polygon check pending root."
+  },
+  "file": "art/book1-v07/B01V07-P25-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P25-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "0a50c88fa566cb1f16917b1d3303fad76d1b3fd3488338bd3ad7ca0d3ef132ec",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [],
+  "crop_notes": "Faces within x18–86%,y21–58%; preserve outer boys with conservative full-source crop. Hands visible. Upper wall calm for caption. Actual polygon check pending root."
+}

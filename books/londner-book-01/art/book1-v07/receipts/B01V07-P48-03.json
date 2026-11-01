@@ -1,0 +1,34 @@
+{
+  "id": "B01V07-P48-03",
+  "prompt": "LANDSCAPE 1536x1024. EXTREME WIDE EYE-LEVEL final image, one continuous scene on1925 passenger steamship Asia before reaching land. Immense open sea under a glowing golden sunset sky occupies85% of picture, vast luminous horizon stretching unbroken, a quiet copper path of light on gentle dark blue waves. In the lower-middle foreground EXACTLY THREE SMALL FAMILY SILHOUETTES at the simple ship rail, occupying only central18% width: young father Yitzhak in flat cap and wool coat at right, wife Chava in tied headscarf and long skirt at left, their sole little daughter Hanna Roza between them, all seen from behind, bodies close and connected, looking toward open horizon. Scale must remain tiny compared with ocean; do not make medium figures. Use reference only for family's silhouettes/clothes, not its indoor setting. Keep entire three silhouettes including heads and feet within central70% and between55% and84% of canvas height with15% overscan. A small strip of shadowed timber deck along bottom, delicate rail, no ship machinery. The emotional point is stillness, courage and being together; differs from previous basket closeup in size, subject, angle and sunset light. TOP30% calm softly graduated sky for final live book lettering; no painted words. Dramatic pastoral literary graphic novel watercolor/gouache, selective fine ink, tactile paper, rich restrained gold/rose/navy, cinematic atmospheric depth, painterly natural silhouettes. ONE scene ONE image; no lettering, title, bubbles, frames, montage, flags, symbols or watermark. NO COAST, NO LAND, NO destination harbor, no arrival, relatives or future children.",
+  "source_path": "/workspace/generated_images/exec-4af7ad57-14fc-44d3-9622-b2f1d40f7e02.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Extreme wide eye-level sunset over vast open sea; small full-body family3 seen from behind at rail.",
+    "family": "Exactly father/mother/sole daughter; father's cap and brown coat, mother's olive scarf and dark skirt, daughter's taupe/ochre continue.",
+    "lettering": "Broad upper sky clear of figures.",
+    "limits": "Final v08 mask pending; bodies are small shadowed figures rather than solid black silhouettes."
+  },
+  "crop_issues": [
+    "Feet at91%; protect lower extent when masking, especially panel diagonal top/bottom.",
+    "Final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P48-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P48-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "c4d51482edf04bbca1f8c6ec598016e53315763ca082d19a0d0f31ed4522a3da",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-04.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

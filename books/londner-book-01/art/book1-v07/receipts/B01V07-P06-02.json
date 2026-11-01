@@ -1,11 +1,52 @@
 {
   "id": "B01V07-P06-02",
   "file": "art/book1-v07/B01V07-P06-02.png",
-  "status": "generated-claude-awaiting-review",
-  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A small copper grosz coin passing from an adult man's hand into the open palm of a young boy (not Yitzhak), around 1905. A shaft of light falls on the coin; the background is dark. Camera: Detail shot at eye level. Light and colour: A narrow shaft of light on the coin, everything around in deep shadow. Lettering space: No lettering on this panel; full composition. Character consistency: Only hands appear; the receiving boy is not Yitzhak. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
-  "tool": "openai gpt-image-2 (generate, high)",
-  "referenced_files": [],
-  "sha256": "512e8046d7edd1f649189162e90ddb354da7af1984a726f0702cdfdca079d5a0",
-  "bytes": 2499188,
-  "created_at": "2026-10-30T17:46:55.674292+00:00"
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "01e575e68727f2ff05e4cc9fdd89e9d79a01637112040a925a6bc4c40b7dc07e",
+  "file_bytes": 1892723,
+  "prompt": "PORTRAIT 1024x1536. Edit this exact painting. ONLY change the small copper coin held by the adult. Show the coin ROTATED in his fingertips by 70 DEGREES so that we see a VERY THIN NARROW METAL EDGE catching light, with only a tiny sliver of its COMPLETELY PLAIN smooth copper reverse. Its front with engraving must be turned away from camera and entirely invisible. The visible sliver must have NO eagle, letters, design or embossing. Keep one small coin, not a ring. All other elements remain exactly identical: adult weathered hand upper left in same pose and fingers, small child's smooth open receiving palm lower right, sleeve cuffs, dark background and beam of light. Keep watercolor/gouache style and exact composition. No text, bubbles, circle or borders. The only visible difference is the rotated coin now showing its narrow plain edge.",
+  "source_path": "/workspace/generated_images/exec-8454a663-6ca9-40cd-aa2e-c80b1680653b.png",
+  "reference_paths": [
+    "art/book1-v07/web/B01V07-P06-02.webp",
+    "/workspace/generated_images/exec-db758e2a-32ff-4885-8405-70d428a06f32.png"
+  ],
+  "reference_archived": "art/book1-v07/variants/v08-before-review-fix/B01V07-P06-02.webp",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": true,
+  "review_fix": {
+    "id": "B01V07-P06-02",
+    "verdict": "fix",
+    "issue": "Receiving palm looks like a large adult hand, not a young boy's; coin shows an embossed eagle with tiny rim lettering.",
+    "instruction": "Keep everything (dark background, light shaft, giving hand), change only: make the receiving hand clearly a small child's hand (small, smooth, short fingers, child's sleeve cuff), and make the coin a plain worn copper disc with no inscription or lettering."
+  },
+  "shot": {
+    "shot": "detail",
+    "angle": "eye",
+    "subject": "hands",
+    "light": "shaft of light on coin"
+  },
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "specific_review": "Receiving hand clearly small smooth child hand, short fingers and cuff. Final coin is rotated toward its narrow plain copper edge with no visible eagle, design, inscription or lettering; light catches metal edge. Giving hand, dark background and shaft of light retained. Earlier face-on token edits retained faint motif and are rejected separately.",
+    "composition": "Original selected Claude composition retained; only specified review corrections applied.",
+    "limitations": [
+      "No final browser mask or lettering approval."
+    ]
+  },
+  "crop_status": "Source visually reviewed, actual v08 panel mask and zoom 1.00–1.15 pending root review.",
+  "web_file": "art/book1-v07/web/B01V07-P06-02.webp",
+  "web_sha256": "81cd94c43c40833dd736f3d4bfa691f3aafc6835a842c61c3af2b0c149ad54a2",
+  "recorded_at_utc": "2026-10-31T04:59:13.535131+00:00",
+  "attempts": 4,
+  "rejected_attempts": [
+    "art/book1-v07/rejected/v08-review/B01V07-P06-02-attempt1.png",
+    "art/book1-v07/rejected/v08-review/B01V07-P06-02-attempt2.png",
+    "art/book1-v07/rejected/v08-review/B01V07-P06-02-attempt3.png"
+  ]
 }

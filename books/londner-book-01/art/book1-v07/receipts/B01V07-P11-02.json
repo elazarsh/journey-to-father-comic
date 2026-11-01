@@ -1,0 +1,19 @@
+{
+  "id": "B01V07-P11-02",
+  "source_path": "/workspace/generated_images/exec-58ca776a-fad7-4330-b6d1-f834c1024105.png",
+  "prompt": "ONE portrait 2:3 continuous watercolor and gouache historical graphic-novel scene, dramatic pastoral warm amber and blue light, selective fine ink. The approved boy in his familiar tidy home bed, early-1900s Polish Jewish home, dark cap, charcoal shirt and clean cream blanket with bandaged feet. He turns from the newspaper on his lap toward his father, who sits beside the bed on image left in three-quarter-back view, anonymous reconstructed adult, short dark beard, dark kippah and simple dark waistcoat. No claimed verified portrait of father. The boy's narrow face and natural eyes show a question forming, father attentive, no laughing or mocking. Keep both whole heads in middle height, away from upper-left area; upper-left top quarter mostly pale blank wall for future speech bubble. Mouth of boy clearly visible center-right, plenty of crop margin. No readable newspaper words, no text, bubbles, borders, collage, religious wall icons or watermark.",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P08-04.png"
+  ],
+  "source_visual_review": "Boy turns toward attentive father in side/back view; father has beard and kippah, remains an unverified reconstructed relative. Boy mouth visible for future speech bubble. Upper-left/top wall clear of both heads, no mocking expression.",
+  "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+  "status": "generated-source-reviewed",
+  "file": "art/book1-v07/B01V07-P11-02.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "5308f66bfcd83c9138f2a576d3d5aa76ca1f0420c211847650efd1043da06cdc",
+  "browser_qa": "not performed"
+}

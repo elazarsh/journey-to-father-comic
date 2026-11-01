@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P40-02",
+  "file": "art/book1-v07/B01V07-P40-02.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. Eye-level MEDIUM farewell at grey daylight open doorway. Exactly FOUR people: young Yitzhak in dark1920s Polish soldier uniform stands LEFT at doorway ready to leave, fully visible face about40% down, gently speaking to his slightly younger adult brother Leibl CENTER in civilian dark vest. Wife Chava RIGHT in burgundy high collar long sleeves and cream headscarf holds ONE little girl Hanna Roza, not twins. Restrained gravity, no melodrama or exaggerated tears. Leave broad calm dark plaster wall ABOVE YITZHAK upper-left and upper-middle for TWO later speech balloons, no drawn balloons. Place heads and hands across central65%, not at edges; fit all four people comfortably with atmosphere and doorway around them. Emotional responsibility passing to Leibl, not family portrait.",
+  "tool_source_path": "/workspace/generated_images/exec-338bcc52-b4cf-490b-ad6a-a149a38e85fe.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Four people correct: Yitzhak soldier, adult brother Leibl, headcovered wife and one daughter. Quiet upper area above speaker left.",
+  "crop_caveats": "Speaker soldier left; upper dark wall quiet but shallow above cap. Two-bubble placement and wide strip crop need final renderer review; preserve all four faces.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "3bb16f5f4cea225daa43d28a7e3928020209e513431385119955ba5a772e2b5c",
+  "web_file": "art/book1-v07/web/B01V07-P40-02.webp"
+}

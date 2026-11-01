@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P48-02",
+  "prompt": "LANDSCAPE 1536x1024. CLOSE DETAIL HIGH-ANGLE single scene of the family's humble travel possessions on the timber deck of1925 passenger steamship Asia: ONE familiar worn rectangular wicker basket holding folded cream blankets with narrow muted blue stripes and TWO soft cream pillows resting partly inside and just beside it. No people, faces, feet or hands. The basket and bedding occupy only the CENTRAL55% width and central55% height, complete objects with generous15% overscan each side for crop. Weathered deck planks run diagonally, long late-afternoon shadows of iron rail stretch over wood, a narrow edge of dark ship rail high in background and a glimpse of open sea beyond. Warm late-afternoon sunlight versus previous panel's brisk bright blue sea; feeling of vulnerability through a few ordinary belongings. Upper25% quiet deck/shadow for later caption. Match wicker, fabric and watercolor/gouache style in reference. Dramatic pastoral literary graphic novel, selective fine ink, tactile paper/wicker/linen/wood, restrained amber/slate blues, cinematic directional sunlight. ONE scene ONE image; no lettering, readable labels, symbols, bubbles, borders, montage or watermark. No arrival, destination, modern objects or flags.",
+  "source_path": "/workspace/generated_images/exec-97d4bc19-2353-47d0-a6ab-08238dbc27fc.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "High-angle object detail of wicker basket and cream striped bedding on ship timber deck, warm long rail shadows; no people.",
+    "lettering": "Quiet upper deck and shadow area.",
+    "limits": "Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Bedding at lower-right approaches edge; preserve full basket and enough fabric to identify pillows; final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P48-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P48-02.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "98925eb8959ed6963027ce791c6d8aabb0ab54f9b03d31f61a79563ae8bdfec8",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-01.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

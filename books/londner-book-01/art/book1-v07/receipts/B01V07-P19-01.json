@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P19-01",
+  "prompt": "LANDSCAPE canvas1536x1024. Completely redirect reference to LOW-ANGLE DETAIL of the recovered boy's TWO LEGS walking down broad stone hospital steps BESIDE his father's adult legs. Camera at step height. NO FACES, NO TORSOS, no heads, composition cuts both people at mid-thigh. Boy's worn brown trousers end above ankles; his TWO ANKLES are plainly free of bandages and he wears simple leather shoes. Father's dark trousers and long coat hem beside, larger black shoes, travel bag lower corner. One foot of boy stepping down, other bearing weight, natural anatomy. Bright spring daylight and tiny green shoots beside steps, warm relief of physical recovery. Boy's two ankles central x43–58%,y52%; father legs x60–72%. All feet safely central65%width and central45%height, generous stone margin. This shows the recovery itself; not another father-son standing portrait. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P19-01.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-64365ba7-d84a-4b3a-8f61-5a33d6c0defa.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Low steps-level feet detail, two bandage-free boy ankles walking beside larger father's legs. No faces or repeated reunion pose.",
+    "crop_issues": "Both boy shoes/ankles central; adult hem/bag may crop. Actual polygon review pending.",
+    "pending": "Browser mask and lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P19-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P19-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "4199b4e05e143156d24de79ebe7c9b3665931ffe1264154af63878e6e442803d",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

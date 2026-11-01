@@ -14,5 +14,9 @@
     1536
   ],
   "sha256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
-  "browser_qa": "not performed"
+  "browser_qa": "not performed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "v08_source_review": "Accepted existing source after v08 direct visual review. Medium physician back in foreground examining seated boy foot, gentle non-graphic examination, doctor head at left allows top-left speech. Matches shot/purpose and differs from doorway wide and outdoor pain close-up. No regeneration needed.",
+  "v08_review_action": "accepted existing source without regeneration"
 }
