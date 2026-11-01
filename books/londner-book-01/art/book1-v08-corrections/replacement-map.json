@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 43,
+  "replacement_count": 44,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -706,6 +706,25 @@
       "qa_notes": "Generative edit of art/book1-v07/B01V07-P23-04.png. Visually checked: Both adults now wear flat caps; faces, hands, ledger and composition appear preserved. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
       "created_utc": "2026-11-01T20:59:21.571644+00:00",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-04-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P11-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.webp",
+      "sha256": "af344986a5470250a5736ef0d84576328dde81cd9ffe3fda780fa27b51950fdf",
+      "web_sha256": "aba8bd08668adddbaeb29a92a41b2cc61da3a436716f8291035a8dffdf5eb1f0",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Uncertain headwear reviewed against original master; cap edited to flat cap. Generative edit; recheck faces, composition, crop and speech anchors before integration.",
+      "created_utc": "2026-11-01T21:03:01.863607+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P11-04-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
