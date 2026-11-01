@@ -19,7 +19,8 @@ const { chromium } = require('playwright');
   for (const id of ids) {
     const el = await p.$('#' + id); await el.scrollIntoViewIfNeeded();
     await p.waitForFunction(id => [...document.querySelectorAll('#' + id + ' img')].every(i => i.complete && i.naturalWidth), id, { timeout: 15000 }).catch(() => {});
-    await p.waitForTimeout(300);
+    await p.evaluate(id => Promise.all([...document.querySelectorAll('#' + id + ' img')].map(i => i.decode().catch(() => {}))), id);
+    await p.waitForTimeout(600);
     const box = await el.$('.page, .sp');
     await box.screenshot({ path: `${out}/sheet-${String(++n).padStart(2, '0')}-${id}.jpg`, type: 'jpeg', quality: 90 });
   }
