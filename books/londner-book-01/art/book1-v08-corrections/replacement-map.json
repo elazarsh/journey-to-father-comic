@@ -2,7 +2,7 @@
   "status": "ready-for-Claude-integration",
   "book": 1,
   "story_art_unchanged_until_integration": true,
-  "replacement_count": 39,
+  "replacement_count": 40,
   "new_character_references": 3,
   "extra_assets": 2,
   "replacements": [
@@ -622,6 +622,25 @@
       "qa_notes": "Generative edit of art/book1-v07/B01V07-P12-01.png. כיפת האב הוחלפה לקסקט; פניו ותנוחתו נראים דומים. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
       "created_utc": "2026-11-01T20:59:11.239396+00:00",
       "receipt": "art/book1-v08-corrections/receipts/B01V07-P12-01-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P20-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P20-04-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P20-04-family-proof-v01.webp",
+      "sha256": "396231003d352806e9dd11b4fa63ec7a3e80ea74207d6962e0365f2a0083a93c",
+      "web_sha256": "06173811d60c1d6574cd76251617266ddf4a3e6e1c381028ea58186b0a0a421b",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P20-04.png. כיפת האב הוחלפה לקסקט; כובע הילד נשמר. זוית הכובע החדשה תלולה, לבדוק בחיתוך. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:13.272210+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P20-04-family-proof-v01.json"
     }
   ],
   "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
