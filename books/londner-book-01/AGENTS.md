@@ -1,5 +1,9 @@
 # Londner Book 1: scoped production instructions
 
+## Current agent budget and background-work policy
+
+Read `method/agent-efficiency-policy.md` before any delegation or heavy production. The user's 2026-11-01 instruction supersedes earlier open-ended parallel-production authorization. Heavy background production is currently paused. Default to the primary agent or deterministic scripts; at most two narrowly scoped workers, no nested delegation. Use `gpt-6-luna` with low reasoning and `fork_turns: "none"` for suitable simple tasks. Never inherit the full conversation for a routine worker. Keep shared integration files and uploads owned by the primary agent; one initial attempt plus one correction, then stop and return a blocker. These are workflow limits, not an API-enforced spending cap.
+
 These instructions apply to this book directory only. This is Yitzhak Meir Londner's story, not the Emmanuel story in the host repository template. Do not change the host repository's root viewer or root production files.
 
 Read README.md, HANDOFF.md, production/manifest.json and method/SKILL.md. The user explicitly requested the present image batch, layout HTML and GitHub filing. Do not infer final family approval of an identity or historical detail from that authorization.
