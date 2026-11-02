@@ -5040,7 +5040,15 @@
       "en": "I'm going to the army and I don't know when I'll be back.",
       "kind": "quote",
       "memoir": "אני הולך לצבא ואינני יודע מתי אני אחזור",
-      "mouth": "Yitzhak at the door, ready to leave (art note: add him to this panel), bubble upper area"
+      "mouth": "Yitzhak at the door, ready to leave (art note: add him to this panel), bubble upper area",
+      "mouthXY": [
+       0.3,
+       0.3
+      ],
+      "at": [
+       0.33,
+       0.56
+      ]
      },
      {
       "type": "speech",
@@ -5049,7 +5057,15 @@
       "en": "You'll stay with Chava",
       "kind": "quote",
       "memoir": "אתה תהיה עם חוה ותסחור עם עורות",
-      "mouth": "same speaker, second balloon toward Leibl"
+      "mouth": "same speaker, second balloon toward Leibl",
+      "mouthXY": [
+       0.3,
+       0.3
+      ],
+      "at": [
+       0.36,
+       0.665
+      ]
      },
      {
       "type": "caption",
