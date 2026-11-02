@@ -130,7 +130,7 @@ for pg in plan['pages']:
     if words > 60:
         problems.append(f"page {pg['page']}: {words} words")
     photos = [dict(ph, src=('../../' + ph['file'])) for ph in pg.get('photos', [])]
-    pages.append(dict(n=pg['page'], photos=photos, title=pg.get('title', ''), pace=pg.get('pace', ''), recipe=pg['recipe'],
+    pages.append(dict(n=pg['page'], photos=photos, present=bool(pg.get('present')), title=pg.get('title', ''), pace=pg.get('pace', ''), recipe=pg['recipe'],
                       note=pg.get('note_he', ''), panels=out, H=geometry.H))
 
 ready = sum(1 for p in pages for q in p['panels'] if q['art'])

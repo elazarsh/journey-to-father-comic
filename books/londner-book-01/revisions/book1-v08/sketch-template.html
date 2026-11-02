@@ -24,6 +24,7 @@ main{padding:2vh 16px 10vh}
 .plabel b{font:700 1rem 'Frank Ruhl Libre',serif;color:var(--cap);letter-spacing:0}
 .note{display:none;margin:.6rem 0 0;padding:.6rem .8rem;border-inline-start:3px solid var(--gold);background:#1d140c;color:#e9dcc3;font-size:.85rem;line-height:1.5}
 body.work .note{display:block}
+.page.present,html.print .page.present{background:#e9d9b5;--rim:#7a5a32}
 .page{position:relative;width:100%;aspect-ratio:100/141;container-type:inline-size;background:#140e09;border-radius:4px;box-shadow:0 20px 40px rgba(0,0,0,.6)}
 .cv{position:absolute;inset:1.8%}
 .pw{position:absolute;filter:drop-shadow(1.5px 0 0 var(--rim)) drop-shadow(-1.5px 0 0 var(--rim)) drop-shadow(0 1.5px 0 var(--rim)) drop-shadow(0 -1.5px 0 var(--rim)) drop-shadow(0 14px 18px rgba(0,0,0,.5))}
@@ -193,7 +194,7 @@ html.print .pw{animation:none!important}
     var lab = el('div', 'plabel', wrap);
     el('b', '', lab).textContent = pg.title;
     el('span', '', lab).textContent = UI[lang].page + ' ' + pg.n;
-    var pageEl = el('div', 'page', wrap); pageEl.style.aspectRatio = '100/' + (pg.H * 1.037).toFixed(1);
+    var pageEl = el('div', 'page' + (pg.present ? ' present' : ''), wrap); pageEl.style.aspectRatio = '100/' + (pg.H * 1.037).toFixed(1);
     var page = el('div', 'cv', pageEl);
     pg._page = page; pg._pageEl = pageEl;
     (pg.photos || []).forEach(function (ph) {
@@ -370,7 +371,9 @@ html.print .pw{animation:none!important}
         d.style.left = x + 'px'; d.style.top = y + 'px';
         placed.push({ x: x, y: y, w: w, h: h }); obst.push({ x: x, y: y, w: w, h: h });
         if (m && (k === 'bub' || k === 'tho' || k === 'whi' || k === 'sho')) {
-          var me = { x: x, y: y, w: w, h: h }, prev = q._lastBub && q._lastBub.speaker === (t.speaker || '') && q._lastBub.k === k && k !== 'sho' ? q._lastBub.r : null;
+          var me = { x: x, y: y, w: w, h: h }, fsz = parseFloat(getComputedStyle(d).fontSize), lb = q._lastBub;
+          var near = lb && (Math.max(lb.r.y, me.y) - Math.min(lb.r.y + lb.r.h, me.y + me.h)) < fsz * 1.2 && Math.min(lb.r.x + lb.r.w, me.x + me.w) - Math.max(lb.r.x, me.x) > fsz * 2;
+          var prev = lb && near && lb.speaker === (t.speaker || '') && lb.k === k && k !== 'sho' ? lb.r : null;
           drawTail(host, pg, d, me, m, k, prev);
           q._lastBub = { speaker: t.speaker || '', k: k, r: me };
         }
@@ -386,14 +389,6 @@ html.print .pw{animation:none!important}
     var s2 = svg('svg', { class: 'tail behind', width: 1, height: 1 }, host);
     s2.style.left = '0px'; s2.style.top = '0px'; pg._tx.push(s2);
     var gt = svg('g', { opacity: k === 'sho' ? 1 : .9 }, s2);
-    if (prev) {   /* same speaker again: link to the previous bubble instead of a second tail */
-      var ax = Math.max(Math.max(prev.x, r.x) + fs, Math.min(Math.min(prev.x + prev.w, r.x + r.w) - fs, (prev.x + prev.w / 2 + r.x + r.w / 2) / 2));
-      var top = prev.y + prev.h < r.y ? prev : r, bot = top === prev ? r : prev;
-      var y1 = top.y + top.h - fs * .4, y2 = bot.y + fs * .4;
-      if (y2 > y1) {
-        svg('path', { d: 'M' + (ax - fs * .32) + ',' + y1 + ' L' + (ax + fs * .32) + ',' + y1 + ' L' + (ax + fs * .32) + ',' + y2 + ' L' + (ax - fs * .32) + ',' + y2 + 'Z', fill: FILL, stroke: INK, 'stroke-width': 2 }, gt);
-      }
-    }
     var rx = r.w / 2, ry = r.h / 2;
     if (k !== 'sho') {   /* the bubble itself, so bubble and tail are one shape with one transparency */
       var rr = k === 'tho' ? [Math.min(r.w * .45, fs * 2.2), Math.min(r.h * .48, fs * 2.2)] : [Math.min(r.w * .5, fs * 1.5), Math.min(r.h * .5, fs * 1.5)];
@@ -414,7 +409,7 @@ html.print .pw{animation:none!important}
     var bx = ex - ux * fs * .35, by = ey - uy * fs * .35;   /* base sits just inside the bubble */
     var a = [bx + px * half, by + py * half], b = [bx - px * half, by - py * half], tip = [ex + ux * len, ey + uy * len];
     var bend = half * .35, c1 = [(a[0] + tip[0]) / 2 + px * bend, (a[1] + tip[1]) / 2 + py * bend], c2 = [(b[0] + tip[0]) / 2 + px * bend, (b[1] + tip[1]) / 2 + py * bend];
-    var gg = k === 'sho' ? g : gt;
+    var gg = g;
     svg('path', { d: 'M' + a + ' Q' + c1 + ' ' + tip + ' Q' + c2 + ' ' + b + 'Z', fill: FILL, stroke: INK, 'stroke-width': k === 'sho' ? 2.6 : 2, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, gg);
   }
 
