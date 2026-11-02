@@ -610,21 +610,24 @@
   },
   {
    "id": "B01V07-P09-01",
-   "file": "art/book1-v07/B01V07-P09-01.png",
-   "web_file": "art/book1-v07/web/B01V07-P09-01.webp",
+   "file": "art/book1-v08-corrections/panels/B01V07-P09-01-family-proof-v01.png",
+   "web_file": "art/book1-v08-corrections/panels/B01V07-P09-01-family-proof-v01.webp",
    "actual_size": [
     1024,
     1536
    ],
-   "sha256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
-   "status": "generated-source-reviewed",
-   "receipt": "art/book1-v07/receipts/B01V07-P09-01.json",
+   "sha256": "1aa2ace0c5bf91ea3b2fb36af17a5e00eab36d12f6a4509be2a6038d6b07facc",
+   "status": "family-headwear-correction-integrated-for-layout",
+   "receipt": "art/book1-v08-corrections/receipts/B01V07-P09-01-family-proof-v01.json",
    "master_available_locally": true,
    "claude_v08_review": null,
    "origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
    "reviewed_layout_version": "0.8",
-   "claude_v08_review_complete": true,
-   "in_active_layout": true
+   "claude_v08_review_complete": false,
+   "in_active_layout": true,
+   "previous_file_before_family_hatfix": "art/book1-v07/B01V07-P09-01.png",
+   "previous_web_file_before_family_hatfix": "art/book1-v07/web/B01V07-P09-01.webp",
+   "family_hatfix_note": "Older brother Chaim wears flat cap per user request; crop review pending."
   },
   {
    "id": "B01V07-P09-02",
