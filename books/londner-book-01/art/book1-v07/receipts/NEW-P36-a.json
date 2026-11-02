@@ -1,0 +1,40 @@
+{
+  "id": "NEW-P36-a",
+  "source_path": "/workspace/generated_images/exec-863bd6ee-b9fb-49c8-b2fd-dcb62808ee9a.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE square 1024x1024 illustration, EXTREME CLOSEUP at eye level of Yitzhak the young early-twenties Polish soldier listening in near-black predawn. ONLY brow, natural brown eyes and bridge of nose fill the central area; faint cool grey dawn light across eyes, cap shadow above, NO tears, NO blood. Follow young face and eyes from reference youth photograph, preserving the approved child facial continuity, not middle-aged face. Both eyes and nose bridge fit inside central 60% square; surrounding dark blue shadow extends all the way to square edges. Renderer will circle-mask this ONE inset so do NOT draw a circle, border or vignette edge. NO other scene, no enemy, no lettering, no balloons, no frame. Purpose is peak tension and listening, not a generic face portrait.",
+  "tool_source": "image_gen__imagegen",
+  "tool": "image_gen__imagegen",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-863bd6ee-b9fb-49c8-b2fd-dcb62808ee9a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "references": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "Extreme closeup of youthful soldier eyes and bridge of nose in blue-black shadow, listening; no visible enemy.",
+    "identity": "Youth photo eye/nose continuity, approved child reference used.",
+    "lettering": "No lettering requested in this inset.",
+    "limits": "Only approved circle inset on page36. Source reviewed; renderer circle mask pending."
+  },
+  "crop_issues": [
+    "Both eyes within central70%; circle mask should keep eyes and nose bridge."
+  ],
+  "file": "art/book1-v07/NEW-P36-a.png",
+  "web_file": "art/book1-v07/web/NEW-P36-a.webp",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "size": [
+    1254,
+    1254
+  ],
+  "sha256": "fdacc613f676a172d78018e60f26a39446567664bafad48ac9154355ee7bd691",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

@@ -1,0 +1,721 @@
+<title>הדרך של איטשע</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700;900&family=Heebo:wght@400;500;700&display=swap">
+<style>
+/* Layout: chapters stacked like scenes of the book; each chapter sits on a full-bleed illustration under a dark lamp-lit veil, one reading column on top, fixed menu above. */
+:root {
+  --room: #0d0907;
+  --panel: rgba(26,18,12,.82);
+  --panel-solid: #1a120c;
+  --ink: #f4e9d4;
+  --muted: #cdb995;
+  --gold: #e0a84f;
+  --gold-deep: #b9822f;
+  --rim: #efe3c8;
+  --line: rgba(224,168,79,.24);
+  --veil: rgba(13,9,7,.84);
+  --display: "Frank Ruhl Libre", "David Libre", "Times New Roman", serif;
+  --body: "Heebo", "Assistant", "Arial Hebrew", Arial, sans-serif;
+  --nav-h: 60px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + env(safe-area-inset-top, 0px) + 8px); }
+body { margin: 0; background: var(--room); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.7; overflow-x: hidden; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--room); }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.2; }
+h2 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 900; color: var(--rim); }
+h3 { font-size: 1.25rem; font-weight: 700; color: var(--gold); }
+p { margin: 0; }
+a { color: var(--gold); }
+img { display: block; max-width: 100%; height: auto; }
+figure { margin: 0; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+.wrap {
+  position: relative; max-width: 1080px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0;
+}
+.eyebrow { font-size: .85rem; letter-spacing: .1em; color: var(--gold); font-weight: 500; }
+.lead { color: var(--muted); max-width: 62ch; font-size: 1.05rem; }
+.head { display: grid; gap: 12px; margin-bottom: 36px; }
+
+/* ---------- top menu ---------- */
+.topnav {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
+  background: rgba(13,9,7,.86); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.topnav .wrap { display: flex; align-items: center; gap: 16px; min-height: var(--nav-h); }
+.brand { font-family: var(--display); font-weight: 900; font-size: 1.25rem; color: var(--rim); text-decoration: none; white-space: nowrap; }
+.brand span { color: var(--gold); }
+.menu { display: flex; gap: 2px; list-style: none; margin: 0; padding: 0; flex: 1; justify-content: center; flex-wrap: wrap; }
+.menu a { display: block; padding: 6px 10px; border-radius: 999px; color: var(--muted); text-decoration: none; font-size: .93rem; white-space: nowrap; transition: color .2s, background .2s; }
+.menu a:hover { color: var(--rim); }
+.menu a.on { color: #1b1410; background: var(--gold); }
+.nav-order { white-space: nowrap; font-size: .92rem !important; padding: .55em 1.1em !important; }
+.burger { display: none; margin-inline-start: auto; background: transparent; border: 1px solid var(--line); color: var(--rim); border-radius: 10px; width: 44px; height: 40px; cursor: pointer; font-size: 1.2rem; }
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5em;
+  font: 700 1.08rem/1.2 var(--body); padding: .9em 1.6em; border-radius: 999px; text-decoration: none; cursor: pointer;
+  border: 1px solid var(--gold); transition: transform .15s ease, background .15s ease;
+}
+.btn-gold { background: var(--gold); color: #1b1410; }
+.btn-gold:hover { background: #ecb862; transform: translateY(-1px); }
+.btn-ghost { background: rgba(13,9,7,.35); color: var(--gold); }
+.btn-ghost:hover { background: rgba(224,168,79,.12); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* ---------- chapters with illustrated backgrounds ---------- */
+.chapter { position: relative; overflow: hidden; padding-block: 96px; isolation: isolate; }
+.chapter .bg {
+  position: absolute; inset: -12% 0; z-index: -2;
+  background-size: cover; background-position: center; will-change: transform;
+}
+.chapter::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(180deg, var(--room) 0%, rgba(13,9,7,.55) 14%, var(--veil) 45%, var(--veil) 80%, var(--room) 100%);
+}
+.chapter.soft::before { background: linear-gradient(180deg, var(--room) 0%, rgba(13,9,7,.86) 12%, rgba(13,9,7,.9) 88%, var(--room) 100%); }
+.bg-town { background-image: url("img/bg-town.webp"); }
+.bg-notebook { background-image: url("img/bg-notebook.webp"); }
+.bg-lodz { background-image: url("img/bg-lodz.webp"); }
+.bg-room { background-image: url("img/bg-room.webp"); }
+.bg-bridge { background-image: url("img/bg-bridge.webp"); }
+.bg-fields { background-image: url("img/bg-fields.webp"); }
+.bg-desk { background-image: url("img/bg-desk.webp"); }
+.bg-ship { background-image: url("img/bg-ship.webp"); }
+
+/* chapter title band: a short scene change between chapters */
+.chapter-mark { display: flex; align-items: center; gap: 14px; color: var(--gold); font-family: var(--display); font-size: 1rem; margin-bottom: 10px; }
+.chapter-mark::after { content: ""; flex: 1; max-width: 120px; height: 1px; background: var(--gold-deep); }
+
+/* reveal: content is fully visible at rest; motion only lifts it into place */
+.js-motion .rv { opacity: .25; transform: translateY(22px); transition: opacity .8s ease, transform .8s ease; }
+.js-motion .rv.in { opacity: 1; transform: none; }
+.js-motion .chapter .bg { transition: filter 1.2s ease; filter: saturate(.7) brightness(.85); }
+.js-motion .chapter.in-view .bg { filter: none; }
+
+/* ---------- hero ---------- */
+.hero { padding-block: 64px 96px; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 48px; align-items: center; }
+.hero-text { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.hero h1 { font-size: clamp(3.2rem, 9vw, 5.8rem); font-weight: 900; color: var(--rim); text-shadow: 0 4px 30px rgba(0,0,0,.6); }
+.hero h1 span { color: var(--gold); }
+.opening { font-family: var(--display); font-size: clamp(1.3rem, 2.7vw, 1.6rem); line-height: 1.55; max-width: 30ch; text-shadow: 0 2px 16px rgba(0,0,0,.7); }
+.hero-cover img { border-radius: 6px; box-shadow: 0 30px 80px rgba(0,0,0,.7), 0 0 0 1px rgba(239,227,200,.14); }
+.hero .fine { font-size: .92rem; color: var(--muted); }
+
+/* ---------- page-by-page book ---------- */
+.book { display: grid; gap: 14px; }
+.book-track { display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; overscroll-behavior-x: contain; scrollbar-width: none; padding-block: 6px; }
+.book-track::-webkit-scrollbar { display: none; }
+.book-track:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+.page { flex: 0 0 100%; scroll-snap-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
+.page img { height: min(80vh, 1100px); width: auto; max-width: 100%; object-fit: contain; border-radius: 4px; box-shadow: 0 24px 60px rgba(0,0,0,.65), 0 0 0 1px rgba(239,227,200,.1); }
+.page figcaption { font-size: .92rem; color: var(--muted); }
+.page-cta { justify-content: center; }
+.cta-inner { display: grid; gap: 16px; justify-items: center; text-align: center; max-width: 34rem; width: 100%; min-height: min(60vh, 560px); align-content: center; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 36px 28px; }
+.cta-inner h3 { font-size: clamp(2rem, 6vw, 2.8rem); color: var(--rim); font-weight: 900; }
+.cta-inner p { color: var(--muted); max-width: 30ch; }
+.book-nav { display: flex; justify-content: center; align-items: center; gap: 18px; }
+.arrow { width: 48px; height: 48px; border-radius: 999px; border: 1px solid var(--gold); background: rgba(13,9,7,.5); color: var(--gold); font-size: 1.4rem; cursor: pointer; line-height: 1; }
+.arrow:hover:not(:disabled) { background: rgba(224,168,79,.14); }
+.arrow:disabled { opacity: .35; cursor: default; }
+.book-count { font-variant-numeric: tabular-nums; color: var(--muted); min-width: 7ch; text-align: center; }
+
+.gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.shot { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.shot button { all: unset; cursor: zoom-in; display: block; border-radius: 6px; overflow: hidden; aspect-ratio: 4 / 5; background: var(--panel-solid); }
+.shot button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.shot img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.shot button:hover img { transform: scale(1.04); }
+.shot figcaption { font-size: .92rem; color: var(--muted); }
+.shot.wide { grid-column: span 2; }
+.shot.wide button { aspect-ratio: 8 / 5; }
+.order-band { margin-top: 56px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 28px; }
+.order-band h3 { font-size: 1.7rem; color: var(--rim); }
+
+/* ---------- timeline ---------- */
+.who-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; align-items: center; margin-bottom: 40px; }
+.ages img { border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,.6); }
+.cap { font-size: .88rem; color: var(--muted); margin-top: 8px; }
+.timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+.timeline::before { content: ""; position: absolute; top: 8px; bottom: 8px; right: 7.4rem; width: 1px; background: var(--line); }
+.timeline li { display: grid; grid-template-columns: 6.6rem minmax(0, 1fr); gap: 2.2rem; padding-block: 14px; position: relative; }
+.timeline li::before { content: ""; position: absolute; right: calc(7.4rem - 5px); top: 24px; width: 11px; height: 11px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px rgba(224,168,79,.18); }
+.timeline .when { font-family: var(--display); font-weight: 700; font-size: 1.3rem; color: var(--gold); font-variant-numeric: tabular-nums; line-height: 1.35; }
+.timeline .what { min-width: 0; }
+.timeline .what strong { color: var(--rim); display: block; font-size: 1.08rem; }
+.timeline .what span { color: var(--muted); }
+
+/* ---------- family ---------- */
+.fam { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; gap: 10px; min-width: 0; backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+.card p { color: var(--ink); }
+.card .muted { color: var(--muted); font-size: .95rem; }
+.names { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.names li { display: flex; gap: 8px; align-items: baseline; }
+.names li b { color: var(--rim); font-weight: 500; white-space: nowrap; }
+.names li span { color: var(--muted); font-size: .95rem; }
+.fam .span2 { grid-column: span 2; }
+blockquote.q { margin: 2px 0 0; font-family: var(--display); font-size: 1.05rem; color: var(--rim); border-inline-start: 2px solid var(--gold-deep); padding-inline-start: 12px; }
+.src { font-size: .8rem; color: var(--muted); letter-spacing: .03em; }
+
+/* ---------- places ---------- */
+.places { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 36px; align-items: start; }
+.map img { border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,.6); }
+.place-list { display: grid; gap: 14px; }
+.place h3 { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.place h3 small { font-family: var(--body); font-size: .85rem; color: var(--muted); font-weight: 400; }
+.harbor { margin-top: 28px; }
+.harbor img { border-radius: 8px; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; }
+
+/* ---------- stories ---------- */
+.stories { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+
+/* ---------- real photos ---------- */
+.photos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; align-items: end; }
+.photo img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 4px; box-shadow: 0 14px 36px rgba(0,0,0,.6); }
+.photo.landscape img { aspect-ratio: 4 / 3; }
+.photo figcaption { margin-top: 10px; }
+.photo figcaption b { display: block; color: var(--rim); font-weight: 500; }
+.photo figcaption span { color: var(--muted); font-size: .9rem; }
+
+/* ---------- diary ---------- */
+.diary { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 40px; align-items: center; }
+.diary-quote { font-family: var(--display); font-size: clamp(1.5rem, 3.4vw, 2.1rem); line-height: 1.5; color: var(--rim); }
+.diary-quote small { display: block; font-family: var(--body); font-size: .9rem; color: var(--muted); margin-top: 10px; }
+
+/* ---------- end ---------- */
+.finale { text-align: center; padding-block: 120px 80px; }
+.finale .inner { display: grid; gap: 22px; justify-items: center; }
+.finale h2 { font-size: clamp(2.2rem, 6vw, 3.6rem); }
+.next-line { font-family: var(--display); font-size: clamp(1.25rem, 3vw, 1.6rem); color: var(--rim); }
+.next-line span { color: var(--gold); font-weight: 700; }
+footer { border-top: 1px solid var(--line); padding-block: 28px 44px; text-align: center; }
+footer .credit { font-family: var(--display); font-size: 1.1rem; color: var(--muted); }
+
+/* lightbox */
+dialog { border: 0; padding: 0; background: transparent; max-width: min(1100px, 94vw); max-height: 92vh; }
+dialog::backdrop { background: rgba(8,5,3,.9); }
+dialog img { max-height: 84vh; width: auto; margin: 0 auto; border-radius: 6px; }
+dialog p { color: var(--ink); text-align: center; margin-top: 10px; }
+dialog .close { position: absolute; top: 8px; left: 8px; background: rgba(13,9,7,.75); color: var(--ink); border: 1px solid var(--line); border-radius: 999px; width: 40px; height: 40px; font-size: 1.3rem; cursor: pointer; }
+
+@media (max-width: 1000px) {
+  .menu a { padding: 6px 8px; font-size: .88rem; }
+  .nav-order { display: none !important; }
+}
+@media (max-width: 860px) {
+  .burger { display: block; }
+  .menu {
+    display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0;
+    background: rgba(13,9,7,.97); border-bottom: 1px solid var(--line);
+    padding: 8px max(16px, env(safe-area-inset-right, 0px)) 16px max(16px, env(safe-area-inset-left, 0px));
+  }
+  .topnav.open .menu { display: flex; }
+  .menu a { padding: 12px 8px; font-size: 1.05rem; border-radius: 8px; }
+  .hero-grid, .who-head, .places, .diary { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .hero-cover { max-width: 380px; margin-inline: auto; width: 100%; }
+  .chapter { padding-block: 72px; }
+  .page img { height: auto; width: 100%; }
+  .book-track { gap: 14px; }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .fam, .stories { grid-template-columns: minmax(0, 1fr); }
+  .fam .span2 { grid-column: auto; }
+  .photos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .order-band { grid-template-columns: minmax(0, 1fr); }
+  .timeline::before { right: 5.3rem; }
+  .timeline li { grid-template-columns: 4.6rem minmax(0, 1fr); gap: 1.6rem; }
+  .timeline li::before { right: calc(5.3rem - 5px); }
+  .timeline .when { font-size: 1.1rem; }
+  .card { padding: 20px; }
+}
+@media (max-width: 420px) {
+  .hero .actions .btn { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .book-track { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+</style>
+
+<div dir="rtl" lang="he">
+
+<nav class="topnav" id="topnav" aria-label="תפריט ראשי">
+  <div class="wrap">
+    <a class="brand" href="#top">הדרך של <span>איטשע</span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="פתיחת התפריט">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="#book">הספר</a></li>
+      <li><a href="#who">מי היה סבא יצחק</a></li>
+      <li><a href="#family">המשפחה</a></li>
+      <li><a href="#places">מקומות</a></li>
+      <li><a href="#stories">סיפורים מהיומן</a></li>
+      <li><a href="#photos">תמונות אמיתיות</a></li>
+      <li><a href="#diary">היומן המקורי</a></li>
+    </ul>
+    <a class="btn btn-gold nav-order" href="https://links.payboxapp.com/tyeZ8FgFJ7b" target="_blank" rel="noopener">להזמנה</a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="chapter hero" id="top">
+  <div class="bg bg-town" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">ספר קומיקס משפחתי · ספר 1</p>
+      <h1>הדרך של <span>איטשע</span></h1>
+      <p class="opening">ילד מעיירה קטנה בפולין, מחברת אחת של זיכרונות, וחלום גדול: להגיע לארץ ישראל ולעבוד את האדמה.</p>
+      <p class="lead">סבא יצחק מאיר לונדנר כתב את סיפור חייו בשביל הילדים והנכדים. עכשיו הסיפור הזה הוא ספר קומיקס מאויר ומודפס, לכל המשפחה.</p>
+      <div class="actions">
+        <a class="btn btn-gold" href="https://links.payboxapp.com/tyeZ8FgFJ7b" target="_blank" rel="noopener">להזמנת הספר המודפס</a>
+        <a class="btn btn-ghost" href="#book">לדפדף בספר</a>
+      </div>
+      <p class="fine">ההזמנה והתשלום בפייבוקס.</p>
+    </div>
+    <div class="hero-cover">
+      <img src="img/cover.webp" width="800" height="1200" alt="עטיפת הספר: הילד איטשע עומד בפתח חנות העורות של הוריו, ברחוב מרוצף באור בוקר">
+    </div>
+  </div>
+</header>
+
+<!-- ================= THE BOOK ================= -->
+<section class="chapter" id="book" aria-labelledby="book-h">
+  <div class="bg bg-notebook" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="head rv">
+      <p class="chapter-mark">הספר</p>
+      <h2 id="book-h">דפדפו בכמה עמודים</h2>
+      <p class="lead">חמישה עמודים שלמים מתוך הספר. בטלפון מחליקים, במחשב לוחצים על החצים.</p>
+    </div>
+
+    <div class="book rv" aria-roledescription="גלריית עמודים">
+      <div class="book-track" id="bookTrack" tabindex="0" aria-label="עמודי הספר">
+        <figure class="page"><img src="img/page-01.webp" width="1000" height="1415" alt="עמוד 1 בספר: סבא יצחק המבוגר כותב במחברת בשביל הילדים והנכדים"><figcaption>עמוד 1 · בשבילכם</figcaption></figure>
+        <figure class="page"><img src="img/page-05.webp" width="1000" height="1415" alt="עמוד 5 בספר: היום הראשון בחדר והסוכרייה על האות א׳" loading="lazy"><figcaption>עמוד 5 · האות המתוקה</figcaption></figure>
+        <figure class="page"><img src="img/page-11.webp" width="1000" height="1415" alt="עמוד 11 בספר: איטשע קורא בעיתון על מלחמה בבלקאן ושואל את אבא על מרפסות" loading="lazy"><figcaption>עמוד 11 · מלחמה על מרפסת?</figcaption></figure>
+        <figure class="page"><img src="img/page-24.webp" width="1000" height="1415" alt="עמוד 24 בספר: מפה ולאן הלך כל אחד מהילדים" loading="lazy"><figcaption>עמוד 24 · כל אחד בדרך אחרת</figcaption></figure>
+        <figure class="page"><img src="img/page-35.webp" width="1000" height="1415" alt="עמוד 35 בספר: המפקד מורה ליצחק לשמור על הגשר בלילה" loading="lazy"><figcaption>עמוד 35 · במקום לצאת לארץ</figcaption></figure>
+        <div class="page page-cta">
+          <div class="cta-inner">
+            <p class="eyebrow">העמוד הבא נמצא רק בספר</p>
+            <h3>מה קרה על הגשר?</h3>
+            <p>יצחק נשאר לשמור לבד, כל הלילה. את ההמשך, ואת כל הדרך לארץ ישראל, תמצאו בספר המודפס.</p>
+            <a class="btn btn-gold" href="https://links.payboxapp.com/tyeZ8FgFJ7b" target="_blank" rel="noopener">הזמינו את הספר</a>
+          </div>
+        </div>
+      </div>
+      <div class="book-nav">
+        <button class="arrow" id="bookPrev" type="button" aria-label="העמוד הקודם">→</button>
+        <span class="book-count" id="bookCount" aria-live="polite">1 מתוך 6</span>
+        <button class="arrow" id="bookNext" type="button" aria-label="העמוד הבא">←</button>
+      </div>
+    </div>
+
+    <h3 class="rv" style="margin-top:64px;margin-bottom:18px;font-size:1.5rem;color:var(--rim)">ועוד כמה רגעים מהדרך</h3>
+    <div class="gallery rv">
+      <figure class="shot wide"><button type="button" data-cap="ביום זאת הייתה החנות של אבא ואמא. בלילה ישנו בה הילדים, ליד התנור."><img src="img/s-p03-01.webp" alt="חנות העורות של המשפחה ביונדזיוב" loading="lazy"></button><figcaption>חנות שהיא גם בית</figcaption></figure>
+      <figure class="shot"><button type="button" data-cap="ביום הראשון בחדר, אמא הניחה סוכרייה על האות א׳."><img src="img/s-p05-03.webp" alt="סוכרייה מונחת על דף בספר לימוד" loading="lazy"></button><figcaption>האות המתוקה</figcaption></figure>
+      <figure class="shot"><button type="button" data-cap="אבא, איך אפשר לעשות מלחמה על מרפסות?"><img src="img/s-p11-03.webp" alt="מרפסת עץ ישנה" loading="lazy"></button><figcaption>מלחמה על מרפסת?</figcaption></figure>
+      <figure class="shot"><button type="button" data-cap="אבא פתח ארגז סחורה ובדק אותו מול החשבון. משהו לא הסתדר."><img src="img/s-p22-04.webp" alt="איטשע ואביו סופרים סחורה בחנות לאור מנורה" loading="lazy"></button><figcaption>הארגז שלא התאים</figcaption></figure>
+      <figure class="shot"><button type="button" data-cap="מי יודע לדבר ולכתוב גרמנית טובה? אני ידעתי!"><img src="img/s-p31-03.webp" alt="מודד עם מכשיר מדידה ליד נחל וגשר קטן" loading="lazy"></button><figcaption>כשצריך מישהו שיבין</figcaption></figure>
+      <figure class="shot wide"><button type="button" data-cap="ראיתי איכרים חורשים וזורעים. התאהבתי בחקלאות."><img src="img/s-p32-01.webp" alt="איטשע נשען על גדר ומביט באיכר שחורש שדה" loading="lazy"></button><figcaption>משהו בשדות</figcaption></figure>
+      <figure class="shot wide"><button type="button" data-cap="כל הפלוגה ישנה. רק אני שמרתי, כל הלילה."><img src="img/s-p36-01.webp" alt="חייל צעיר שומר בלילה מול גשר ונהר באור ירח" loading="lazy"></button><figcaption>עד הבוקר</figcaption></figure>
+      <figure class="shot wide"><button type="button" data-cap="נו איטשע, איך מוצא חן הבת שלי?"><img src="img/s-p38-03.webp" alt="איטשע ובן הדוד הניך יושבים ליד שולחן, ובנות המשפחה עומדות מאחור" loading="lazy"></button><figcaption>חוה</figcaption></figure>
+    </div>
+
+    <div class="order-band rv">
+      <div style="display:grid;gap:6px;min-width:0">
+        <h3>רוצים עותק מודפס?</h3>
+        <p class="lead">ההזמנה והתשלום בפייבוקס.</p>
+      </div>
+      <a class="btn btn-gold" href="https://links.payboxapp.com/tyeZ8FgFJ7b" target="_blank" rel="noopener">להזמנת הספר</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHO ================= -->
+<section class="chapter" id="who" aria-labelledby="who-h">
+  <div class="bg bg-lodz" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="who-head">
+      <div class="head rv" style="margin:0">
+        <p class="chapter-mark">מי היה סבא יצחק</p>
+        <h2 id="who-h">יצחק מאיר לונדנר</h2>
+        <p class="lead">בבית קראו לו איטשע. הוא היה הבן של סוחר עורות מעיירה קטנה, נער שלמד מסחר בעיר הגדולה, חייל, חתן, ובעיקר אדם עם חלום אחד שלא ויתר עליו: לעלות לארץ ישראל ולהיות חקלאי.</p>
+      </div>
+      <figure class="ages rv">
+        <img src="img/ages.webp" width="1200" height="600" alt="ציור של יצחק בארבעה גילים: ילד, נער, בחור צעיר ואיש מבוגר עם משקפיים וכובע" loading="lazy">
+        <figcaption class="cap">יצחק בארבעה גילים, כפי שצויר בספר.</figcaption>
+      </figure>
+    </div>
+
+    <ol class="timeline">
+      <li class="rv"><span class="when">1900</span><p class="what"><strong>נולד ביונדזיוב שבפולין, בט״ו בשבט.</strong><span>באותו יום הייתה ברית אצל השכנים וכולם רצו לשם, אבל המיילדת נשארה עם אמא עד שנולד.</span></p></li>
+      <li class="rv"><span class="when">1904</span><p class="what"><strong>מתחיל ללמוד בחדר, בן ארבע.</strong><span>אמא מלווה אותו ביום הראשון ומניחה סוכרייה על האות א׳.</span></p></li>
+      <li class="rv"><span class="when">ילדות</span><p class="what"><strong>שנים במיטה בגלל הרגליים.</strong><span>פצעים ברגליים שלא התרפאו. ניתוחים בוורשה, ואחר כך טיפול ארוך בבית חולים בווינה, עד שהבריא. במיטה למד לכתוב ולקרוא עיתונים.</span></p></li>
+      <li class="rv"><span class="when">בן 10, 14</span><p class="what"><strong>הבית משתנה.</strong><span>כשהיה בן עשר נפטרה אמא, וכשהיה בן ארבע עשרה נפטר אבא. כל אחד מהילדים עבר לגור אצל קרובים.</span></p></li>
+      <li class="rv"><span class="when">לודז׳</span><p class="what"><strong>אצל הדוד מאיר והדודה נחלה.</strong><span>בגיל שלוש עשרה או ארבע עשרה כבר נוסע לבד לבתי החרושת ובוחר סחורה במסחר הבדים.</span></p></li>
+      <li class="rv"><span class="when">1914</span><p class="what"><strong>מלחמת העולם הראשונה.</strong><span>המסחר נפגע, הדוד מאיר נפטר. יצחק מצטרף להנהלה הציונית בלודז׳ ואוסף כסף לקרן הקיימת.</span></p></li>
+      <li class="rv"><span class="when">התנועה</span><p class="what"><strong>נבחר לנסוע לארץ ישראל.</strong><span>התנועה בוחרת בו עם עוד חמישה בחורים. חסר רק אישור אחד, והחלום נדחה. ההמלצות שלו נשמרו בתיק משנת 1916.</span></p></li>
+      <li class="rv"><span class="when">המלחמה</span><p class="what"><strong>מתורגמן של המודדים.</strong><span>הצבא תופס אותו לעבודה בכבישים. כשמחפשים מי יודע גרמנית טובה, הוא עובר לעבוד עם המהנדסים, ובכפרים מתאהב בחקלאות.</span></p></li>
+      <li class="rv"><span class="when">הצבא</span><p class="what"><strong>חייל בצבא הפולני.</strong><span>במלחמה בין פולין לבולשביקים מתגייס עם ילידי 1902. לילה אחד שומר לבד על גשר.</span></p></li>
+      <li class="rv"><span class="when">1920</span><p class="what"><strong>משתחרר מהצבא.</strong><span>הרצון לעלות לארץ נשאר, אבל אין לו דרכון.</span></p></li>
+      <li class="rv"><span class="when">1922</span><p class="what"><strong>מתחתן עם חוה.</strong><span>נולדת להם בת, חנה רוזא, וקוראים לה חנהצ׳ילה. בלב הוא שומר תוכנית סודית: לעלות לארץ ישראל.</span></p></li>
+      <li class="rv"><span class="when">1925</span><p class="what"><strong>האישור מגיע.</strong><span>במוצאי יום כיפור יוצאים לוורשה, ברכבת לקונסטנצה שברומניה, ובערב סוכות עולים לאונייה ״אסיה״.</span></p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= FAMILY ================= -->
+<section class="chapter" id="family" aria-labelledby="family-h">
+  <div class="bg bg-room" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="head rv">
+      <p class="chapter-mark">המשפחה</p>
+      <h2 id="family-h">הבית שממנו יצא</h2>
+      <p class="lead">חנות עורות ביונדזיוב, חדר קטן צמוד אליה, ושמונה ילדים. כך כתב יצחק על המשפחה שלו.</p>
+    </div>
+    <div class="fam">
+      <article class="card rv">
+        <h3>אבא ואמא</h3>
+        <ul class="names">
+          <li><b>מנחם מנדיל לונדנר</b><span>האבא</span></li>
+          <li><b>חנה רוזא</b><span>האמא</span></li>
+        </ul>
+        <p>בחנות שלהם מכרו עורות וכל מה שצריך כדי לתפור נעליים. אבא היה סוחר ישר, ובתי החרושת סמכו עליו. אמא עבדה בלי הפסקה: בישלה, שטפה רצפות וכיבסה, ובלילה תיקנה את הבגדים של הילדים.</p>
+        <p class="muted">אף אחד לא קיבל צלחת עד שגם אמא התיישבה ליד השולחן.</p>
+      </article>
+      <article class="card rv">
+        <h3>הסבים</h3>
+        <ul class="names">
+          <li><b>שלמה ראובן וחוה לונדנר</b><span>הורי האבא</span></li>
+          <li><b>אלעזר לייב ויהודית וינשטדט</b><span>הורי האמא</span></li>
+        </ul>
+        <p>הסבא אלעזר לייב היה מעשירי יונדזיוב. הייתה להם חנות בדים ובית גדול בן שתי קומות ברחוב הראשי של העיר.</p>
+        <p class="muted">לסבתא יהודית שלח יצחק מהארץ שקית עם אדמה מארץ ישראל.</p>
+      </article>
+      <article class="card rv">
+        <h3>חמישה בנים ושלוש בנות</h3>
+        <ul class="names">
+          <li><b>חיים</b><span>האח הגדול. לימד את יצחק לכתוב</span></li>
+          <li><b>ראובן</b><span>גויס לצבא, ויצחק נשאר לעזור בבית</span></li>
+          <li><b>לייבל</b><span>עבר לדוד שמעון במיעכוב</span></li>
+          <li><b>שמעון</b><span>עבר לדודים בוורשה</span></li>
+          <li><b>חוה</b><span>האחות שבישלה בבית</span></li>
+          <li><b>שרהלה</b><span>עברה לדודים בקילץ</span></li>
+          <li><b>רייזל</b><span>הצעירה</span></li>
+        </ul>
+      </article>
+      <article class="card rv span2">
+        <h3>חוה</h3>
+        <p>הניך [חנוך לונדנר], בן דוד של המשפחה, כתב ליצחק שיש לו בת, וביקש שיבוא לדומברובה לראות אותה. יצחק ראה שם ארבע בנות ולא ידע לאיזו הכוונה. הכוונה הייתה לבת שנכנסה אחרונה, הגבוהה והרזה: חוה. ב־1922 הם התחתנו.</p>
+        <p>חוה עבדה קשה בחנות, והקונים אהבו לקנות אצלה. יצחק כתב עליה:</p>
+        <blockquote class="q">"הייתה נאמנה לכל המשפחה... מ־5 בבוקר, עד 7-8 בלילה."</blockquote>
+        <span class="src">מתוך היומן</span>
+      </article>
+      <article class="card rv">
+        <h3>הילדים</h3>
+        <ul class="names">
+          <li><b>חנה רוזא</b><span>נולדה בפולין, על שם אמו של יצחק</span></li>
+          <li><b>חיה</b><span>נולדה ב־1929</span></li>
+          <li><b>מנחם</b><span>נולד באלול 1930</span></li>
+          <li><b>מוטלה</b><span>נולד ב־1934</span></li>
+        </ul>
+        <p class="muted">את היומן כתב יצחק "לזיכרון הבנים והבת והנכדים".</p>
+      </article>
+      <article class="card rv span2">
+        <h3>הדודים שדאגו</h3>
+        <p>אחרי שההורים נפטרו, הקרובים לקחו אליהם את הילדים. בלודז׳ דאגו ליצחק הדוד מאיר והדודה נחלה, וסידרו לו עבודה במסחר בבדים. הדוד שמעון ממיעכוב לא רצה שיישארו חובות, וחיים, האח הגדול, לקח עליו את החובות וחזר לגור ביונדזיוב.</p>
+        <blockquote class="q">"הדוד מאיר מלודז׳ ז״ל היה בן אדם טוב וגם הדודה נחהלי."</blockquote>
+        <span class="src">מתוך היומן</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PLACES ================= -->
+<section class="chapter" id="places" aria-labelledby="places-h">
+  <div class="bg bg-bridge" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="head rv">
+      <p class="chapter-mark">מקומות</p>
+      <h2 id="places-h">הדרך על המפה</h2>
+      <p class="lead">מעיירה ליד קילץ, דרך בתי חולים בוורשה ובווינה, לעיר התעשייה לודז׳, לגשר בלילה, ועד הנמל בקונסטנצה.</p>
+    </div>
+    <div class="places">
+      <figure class="map rv">
+        <img src="img/map.webp" width="800" height="1200" alt="מפת לוויין של מרכז פולין עם יונדזיוב וחצים לקילץ, מיעכוב, ורשה ולודז׳" loading="lazy">
+        <figcaption class="cap">המפה מתוך הספר, על צילום לוויין אמיתי: לאן הלך כל אחד מהילדים.</figcaption>
+      </figure>
+      <div class="place-list">
+        <article class="card place rv"><h3>יונדזיוב <small>ליד קילץ</small></h3><p>העיירה שבה נולד. בית קטן צמוד לחנות של ההורים, החדר שבו למד, והחצר שבה רצו כולם לברית ביום שנולד.</p></article>
+        <article class="card place rv"><h3>ורשה ווינה <small>בתי החולים</small></h3><p>בגלל הרגליים נסע עם אבא לרופא הגדול בוורשה, ואחר כך לבית חולים בווינה. שם נשאר לבד בין זרים, עד שהרגל התרפאה.</p></article>
+        <article class="card place rv"><h3>לודז׳ <small>העיר הגדולה</small></h3><p>עיר בתי החרושת. כאן למד מסחר בבדים אצל הדוד מאיר, ומכאן התחיל לעבוד בשביל ארץ ישראל.</p></article>
+        <article class="card place rv"><h3>הגשר על נהר הבוג <small>מלחמת פולין והבולשביקים</small></h3><p>יצחק כתב על גשרים "עשרות מטרים רוחב ומאות מטרים ארוכים". על אחד מהם שמר לילה שלם.</p></article>
+        <article class="card place rv"><h3>דומברובה <small>הבית של חוה</small></h3><p>לכאן הגיע לראות את הבת של הניך, ומכאן התחילו החיים המשותפים שלו ושל חוה.</p></article>
+        <article class="card place rv"><h3>קונסטנצה <small>רומניה</small></h3><p>ב־1925 נסעו ברכבת מוורשה לנמל קונסטנצה, "איזה 700 איש", ובערב סוכות עלו לאונייה ״אסיה״.</p></article>
+      </div>
+    </div>
+    <figure class="harbor rv">
+      <img src="img/bg-harbor.webp" width="1400" height="933" alt="נמל עם אוניות בשקיעה, כפי שצויר בספר" loading="lazy">
+      <figcaption class="cap">הנמל, כפי שצויר בספר.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= STORIES ================= -->
+<section class="chapter" id="stories" aria-labelledby="stories-h">
+  <div class="bg bg-fields" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="head rv">
+      <p class="chapter-mark">סיפורים מהיומן</p>
+      <h2 id="stories-h">רגעים קטנים, סיפורים גדולים</h2>
+      <p class="lead">סיפורים קצרים מהמחברת של סבא יצחק. הציטוטים מסומנים "מתוך היומן", והשאר מסופר מחדש בעברית של היום.</p>
+    </div>
+    <div class="stories">
+      <article class="card rv">
+        <h3>הסוכרייה על האות א׳</h3>
+        <p>ב־1904, ביום הראשון בחדר, אמא באה איתו והניחה סוכרייה על האות א׳. כשקרא את האות, קיבל את הסוכרייה. ככה למד שהלימוד מתוק.</p>
+        <blockquote class="q">"אמי הייתה הולכת איתי ושמה על האות א׳ סוכריה, ואני לקחתי עם הפה את הסוכרייה."</blockquote>
+        <span class="src">מתוך היומן</span>
+      </article>
+      <article class="card rv">
+        <h3>למה לו כן ולי לא?</h3>
+        <p>לחדר הגיע לפעמים אורח שבחן את הילדים ונתן לחלק מהם גרוש. יצחק ידע את כל התשובות, ולו לא נתן. אמא הסבירה: הילדים האלה באים מבתים עניים. לך לא צריך, אתה מקבל ממני.</p>
+        <span class="src">מתוך הספר</span>
+      </article>
+      <article class="card rv">
+        <h3>מלחמה על מרפסות?</h3>
+        <p>כשהיה חולה במיטה, הביאו לו לקרוא עיתונים שהגיעו כעטיפה של חבילות. פעם קרא שיש מלחמה בבלקאן. אבל בבית, ״בלקון״ זאת מרפסת.</p>
+        <blockquote class="q">"שאלתי את אבי, אם אפשר לעשות מלחמה על הבלקונים? הוא הסביר לי: לא הבלקונים, אלא הבלקנים."</blockquote>
+        <span class="src">מתוך היומן, בעיבוד קל</span>
+      </article>
+      <article class="card rv">
+        <h3>הסידור על התנור</h3>
+        <p>בבית החולים בווינה ילדים שובבים לקחו לו את הסידור וזרקו אותו על תנור גבוה, כמעט שלושה מטרים. אישה יהודייה שהייתה בבית החולים לקחה אותו בעגלת חולים לבית הכנסת של בית החולים. התפללו שם בגרמנית, והוא לא הבין את המילים.</p>
+        <span class="src">מתוך הספר</span>
+      </article>
+      <article class="card rv">
+        <h3>אבא, הסוחר הישר</h3>
+        <p>אבא פתח ארגז סחורה וראה שהספירה לא מתאימה לחשבון. הספק נעלב ואמר שהוא מוכן להישבע שלא חסר כלום. אז אבא כתב לו: באמת לא חסר. שלחת לי חצי תריסר יותר, ואני רוצה להחזיר. מאז בתי החרושת שלחו לו סחורה גם לפני שהספיק לשלם.</p>
+        <span class="src">מתוך היומן, בעיבוד</span>
+      </article>
+      <article class="card rv">
+        <h3>איסוף לקרן הקיימת</h3>
+        <p>בלודז׳ הוא ועוד בחורים צעירים הלכו להנהלה הציונית וביקשו לעזור. ראש ההנהלה, ד״ר רוזנבלט, אמר להם: "תורה בלי עבודה לא מחזיקה מעמד". הם אספו כסף לקרן הקיימת, ויצחק היה פעיל כל כך שבחרו בו לנסוע לארץ ישראל.</p>
+        <blockquote class="q">"נתנו לנו תפקידים לאסוף כסף לקרן הקיימת."</blockquote>
+        <span class="src">מתוך היומן</span>
+      </article>
+      <article class="card rv">
+        <h3>החלום להיות חקלאי</h3>
+        <p>כשעבד עם מהנדסים אוסטרים במדידת דרכים וגשרים, היה המתורגמן בינם לבין האיכרים. בכפרים ראה איך האיכרים חורשים ומגדלים את האוכל שלהם, ולא צריכים לפחד מהמחר.</p>
+        <blockquote class="q">"ראינו איך שחקלאים חורשים אדמה. זה נכנס לעצמות."</blockquote>
+        <span class="src">מתוך היומן</span>
+      </article>
+      <article class="card rv">
+        <h3>הלילה על הגשר</h3>
+        <p>במלחמה בין פולין לבולשביקים קיבל פקודה לשמור לבד על גשר, כל הלילה, בזמן שכל הפלוגה ישנה. קצינים זרים רצו שיעזוב, והוא ענה: אני מקבל פקודות רק מהמפקד שלי. לפנות בוקר שמע רשרוש מרחוק. איך זה נגמר? זה כבר בספר.</p>
+        <span class="src">מתוך הספר</span>
+      </article>
+      <article class="card rv">
+        <h3>"לא לספור"</h3>
+        <p>ביום התנאים לקח הניך, אבי הכלה, את יצחק ואת אחיו חיים לחנות, ונתן ליצחק חבילה של כסף. הוא אמר שלא יפה לספור כסף שנותנים.</p>
+        <blockquote class="q">"הוא נותן לי ואני באותו רגע נתתי לחיימלה."</blockquote>
+        <span class="src">מתוך היומן</span>
+      </article>
+      <article class="card rv">
+        <h3>שולחן על שלוש רגליים</h3>
+        <p>לפני העלייה דרשו ממנו במס הכנסה לשלם חוב. הוא אמר את האמת: אין לי כסף. פקידי המס באו הביתה לבדוק, ראו שולחן על שלוש רגליים וכיסאות על שתיים, ועזבו אותו בשקט.</p>
+        <span class="src">מתוך הספר</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REAL PHOTOS ================= -->
+<section class="chapter soft" id="photos" aria-labelledby="photos-h">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="chapter-mark">תמונות אמיתיות</p>
+      <h2 id="photos-h">סבא יצחק, באמת</h2>
+      <p class="lead">תמונות מאלבום המשפחה. לפיהן צויר יצחק בספר.</p>
+    </div>
+    <div class="photos">
+      <figure class="photo rv"><img src="img/photo-young.webp" width="313" height="371" alt="תמונה אמיתית: יצחק בצעירותו בכובע מצחייה" loading="lazy"><figcaption><b>בצעירותו</b><span>התמונה שעל כריכת היומן.</span></figcaption></figure>
+      <figure class="photo rv"><img src="img/photo-17.webp" width="828" height="1200" alt="תמונה אמיתית: יצחק במדים" loading="lazy"><figcaption><b>בגיל 17, במדים</b><span>כך כתבה המשפחה ליד התמונה.</span></figcaption></figure>
+      <figure class="photo rv"><img src="img/photo-1939.webp" width="514" height="770" alt="תמונה אמיתית: יצחק בכובע המשמר האזרחי" loading="lazy"><figcaption><b>במשמר האזרחי</b><span>תל אביב, 1939.</span></figcaption></figure>
+      <figure class="photo landscape rv"><img src="img/photo-chava.webp" width="913" height="692" alt="תמונה אמיתית: יצחק וחוה" loading="lazy"><figcaption><b>יצחק וחוה</b><span>שנים רבות אחרי הדרך.</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ORIGINAL DIARY ================= -->
+<section class="chapter" id="diary" aria-labelledby="diary-h">
+  <div class="bg bg-desk" aria-hidden="true"></div>
+  <div class="wrap diary">
+    <div class="head rv" style="margin:0">
+      <p class="chapter-mark">היומן המקורי</p>
+      <h2 id="diary-h">"מה שאני אזכור, אכתוב"</h2>
+      <p class="lead">ביום ד׳ בסיון תשל״א, 26 במאי 1971, התחיל סבא יצחק לכתוב את זיכרונותיו, "מיום הולדתי ועד...". הספר המשפחתי שנערך מהיומן ב־2020 הוא המקור לספר הקומיקס.</p>
+      <div class="actions" style="margin-top:8px">
+        <a class="btn btn-gold" href="https://docs.google.com/document/d/1uW7xYjPh_e8pRvhyb0S5Xfa2Uw31Q1bw/edit?usp=drivesdk&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">לקריאת היומן המקורי</a>
+      </div>
+    </div>
+    <p class="diary-quote rv">"לזיכרון הבנים והבת והנכדים... אולי לא יהיה בסדר הכתוב, מה שאני אזכור, אכתוב."<small>מתוך הפתיחה של היומן</small></p>
+  </div>
+</section>
+
+<!-- ================= FINALE ================= -->
+<section class="chapter finale" aria-label="הזמנה">
+  <div class="bg bg-ship" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <h2 class="rv">הדרך מתחילה כאן</h2>
+    <p class="lead rv" style="margin-inline:auto">ספר קומיקס מאויר על פי היומן, לקרוא יחד עם הילדים והנכדים.</p>
+    <a class="btn btn-gold rv" href="https://links.payboxapp.com/tyeZ8FgFJ7b" target="_blank" rel="noopener">להזמנת הספר המודפס</a>
+    <p class="next-line rv"><span>בקרוב: ספר 2.</span> המחברת הבאה של סבא יצחק.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="credit">על פי היומן שכתב יצחק מאיר לונדנר לילדיו ולנכדיו</p>
+  </div>
+</footer>
+
+<dialog id="lightbox" aria-label="תמונה מהספר">
+  <button class="close" type="button" aria-label="סגירה">×</button>
+  <img id="lbImg" src="" alt="">
+  <p id="lbCap"></p>
+</dialog>
+</div>
+
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---------- mobile menu ----------
+  var nav = document.getElementById('topnav');
+  var burger = document.getElementById('burger');
+  burger.addEventListener('click', function () {
+    var open = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '×' : '☰';
+  });
+  document.querySelectorAll('#menu a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      nav.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); burger.textContent = '☰';
+    });
+  });
+
+  // ---------- active menu item ----------
+  var links = {};
+  document.querySelectorAll('#menu a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+  var ids = Object.keys(links);
+  function markActive() {
+    var y = window.innerHeight * 0.35, cur = null;
+    ids.forEach(function (id) {
+      var el = document.getElementById(id); if (!el) return;
+      var r = el.getBoundingClientRect();
+      if (r.top <= y && r.bottom > y) cur = id;
+    });
+    ids.forEach(function (id) { links[id].classList.toggle('on', id === cur); });
+  }
+
+  // ---------- parallax backgrounds ----------
+  var chapters = Array.prototype.slice.call(document.querySelectorAll('.chapter'));
+  var ticking = false;
+  function parallax() {
+    var vh = window.innerHeight;
+    chapters.forEach(function (c) {
+      var bg = c.querySelector('.bg'); if (!bg) return;
+      var r = c.getBoundingClientRect();
+      if (r.bottom < -100 || r.top > vh + 100) return;
+      var p = (r.top + r.height / 2 - vh / 2) / (vh + r.height); // -0.5 .. 0.5
+      bg.style.transform = 'translate3d(0,' + (p * -18).toFixed(2) + '%,0)';
+    });
+  }
+  function onScroll() {
+    if (ticking) return; ticking = true;
+    requestAnimationFrame(function () { if (!reduce) parallax(); markActive(); ticking = false; });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  // ---------- reveal on scroll (content stays readable without it) ----------
+  if (!reduce && 'IntersectionObserver' in window) {
+    var vh0 = window.innerHeight;
+    document.querySelectorAll('.rv').forEach(function (el) {
+      if (el.getBoundingClientRect().top < vh0) el.classList.add('in');
+    });
+    document.querySelectorAll('.chapter').forEach(function (c) {
+      if (c.getBoundingClientRect().top < vh0) c.classList.add('in-view');
+    });
+    document.documentElement.classList.add('js-motion');
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add(en.target.classList.contains('chapter') ? 'in-view' : 'in'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    document.querySelectorAll('.rv:not(.in), .chapter:not(.in-view)').forEach(function (el) { io.observe(el); });
+  }
+
+  // ---------- lightbox ----------
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lbImg');
+  var lbCap = document.getElementById('lbCap');
+  document.querySelectorAll('.shot button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var img = b.querySelector('img');
+      lbImg.src = img.src; lbImg.alt = img.alt; lbCap.textContent = b.dataset.cap || '';
+      if (lb.showModal) lb.showModal();
+    });
+  });
+  lb.querySelector('.close').addEventListener('click', function () { lb.close(); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) lb.close(); });
+
+  // ---------- page-by-page book ----------
+  var track = document.getElementById('bookTrack');
+  var pages = Array.prototype.slice.call(track.querySelectorAll('.page'));
+  var prev = document.getElementById('bookPrev');
+  var next = document.getElementById('bookNext');
+  var count = document.getElementById('bookCount');
+  var cur = 0;
+  function setCur(i) {
+    cur = i;
+    count.textContent = (i + 1) + ' מתוך ' + pages.length;
+    prev.disabled = i === 0; next.disabled = i === pages.length - 1;
+  }
+  function go(i) {
+    i = Math.max(0, Math.min(pages.length - 1, i));
+    var tr = track.getBoundingClientRect(), pr = pages[i].getBoundingClientRect();
+    track.scrollBy({ left: (pr.left + pr.width / 2) - (tr.left + tr.width / 2) });
+    setCur(i);
+  }
+  prev.addEventListener('click', function () { go(cur - 1); });
+  next.addEventListener('click', function () { go(cur + 1); });
+  track.addEventListener('keydown', function (e) {
+    // right-to-left book: the left arrow turns to the next page
+    if (e.key === 'ArrowLeft') { e.preventDefault(); go(cur + 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); go(cur - 1); }
+  });
+  if ('IntersectionObserver' in window) {
+    var pio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting && en.intersectionRatio > 0.6) setCur(pages.indexOf(en.target)); });
+    }, { root: track, threshold: [0.6] });
+    pages.forEach(function (p) { pio.observe(p); });
+  }
+  setCur(0);
+})();
+</script>

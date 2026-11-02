@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P36-04",
+  "file": "art/book1-v07/B01V07-P36-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P36-04.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+  "accepted_sha256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+  "accepted_origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
+  "status": "accepted-existing-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_review": {
+    "reviewed": true,
+    "review_file": "art/book1-v07/web/B01V07-P36-04.webp",
+    "scene": "Unit crosses timber bridge from behind at golden sunrise; matches release of tension after blue night.",
+    "limits": "Actual renderer masks and bilingual lettering pending."
+  },
+  "crop_issues": [],
+  "prompt": "Existing original retained unchanged after source review against Claude v08 shows, shot, purpose and neighbours.",
+  "tool_source": "existing original, image_gen__imagegen",
+  "refs": [
+    "art/chars/yitzhak-three-ages-v01.png",
+    "ref/S08-img013.jpg"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "B01V07-P05-03",
+  "file": "art/book1-v07/B01V07-P05-03.png",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "sha256": "995f445feb8bea7e86af5e4ddb63e44d1cb16019578db115a7e1b33b1663ea81",
+  "file_bytes": 2570006,
+  "prompt": "SQUARE 1024x1024, precise localized edit of the supplied watercolor image, same composition, same hand, same book, same warm light, same paper texture. Change ONLY the candy and tiny area immediately beneath it: replace the modern cellophane-wrapped red striped peppermint with one SMALL PLAIN UNWRAPPED AMBER/HONEY-COLOURED BOILED SWEET, with absolutely no wrapper, no stripes, no lettering. Mother's same thumb and fingertip are gently placing this sweet on a small CLEAN BLANK PATCH of paper; remove all marks immediately under and around this one sweet, leaving empty parchment there for a separate live Hebrew letter to be overlaid later. Keep other marks elsewhere on page as FAINT BLURRED UNREADABLE SMUDGES only. No new letters, no readable symbols. Preserve oblique overhead detail view exactly as source; this will be cropped to the ONE authorized circular detail by renderer, do not draw a circle, border, or frame. No speech/thought bubbles, text or watermark. Preserve all other elements.",
+  "source_path": "/workspace/generated_images/exec-d2a3c1cd-0fa9-4e5a-bc24-99c8399102a2.png",
+  "reference_paths": [
+    "art/book1-v07/web/B01V07-P05-03.webp"
+  ],
+  "reference_archived": "art/book1-v07/variants/v08-before-review-fix/B01V07-P05-03.webp",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": true,
+  "review_fix": {
+    "id": "B01V07-P05-03",
+    "verdict": "fix",
+    "issue": "Candy is a modern cellophane-wrapped striped peppermint (anachronistic) and sits directly on the letter marks instead of a plain spot; view is oblique rather than bird's-eye.",
+    "instruction": "Keep everything, change only: replace the wrapped striped peppermint with a small plain unwrapped boiled sweet (amber or honey coloured, no wrapper), and place it on a small clean blank patch of paper with no marks under or around it; keep the other letter marks as faint blurred unreadable smudges."
+  },
+  "shot": {
+    "shot": "detail",
+    "angle": "birds-eye",
+    "subject": "hands",
+    "light": "warm window light"
+  },
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "specific_review": "Amber unwrapped boiled sweet replaces striped wrapped candy. Blank patch under and immediately around sweet preserved for live aleph. Remaining marks blurred and unreadable; hand, book and light preserved. Central candy safe for circular mask; no drawn circle.",
+    "composition": "Original selected Claude composition retained; only specified review corrections applied.",
+    "limitations": [
+      "No final browser mask or lettering approval."
+    ]
+  },
+  "crop_status": "Source visually reviewed, actual v08 panel mask and zoom 1.00–1.15 pending root review.",
+  "web_file": "art/book1-v07/web/B01V07-P05-03.webp",
+  "web_sha256": "11ba659a6c687615e42ab16d2a8c0c000620dbd6165f740958a5202e7def3fee",
+  "recorded_at_utc": "2026-10-31T04:50:20.586424+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P44-01",
+  "page": 44,
+  "source_path": "/workspace/generated_images/exec-031b6e35-98a7-4235-9bc0-203acbd7e1c7.png",
+  "prompt": "Create ONE finished literary comic illustration, canvas LANDSCAPE 1536x1024. Dramatic pastoral watercolor and gouache with selective fine ink contours, tactile paper, restrained natural expressive faces, cinematic natural light, rich subdued colors. Not photorealistic, no 3D, no cartoon eyes. No text, writing, lettering, bubbles, border, montage or panels. Scene B01V07-P44-01: a wide HIGH ANGLE view into a simple Polish home in 1925, pale bare daylight, the room becoming empty as young adult Yitzhak, age25, and his wife Chava pack their few belongings into a large woven travel basket. Mood: leaving a home, practical movement and quiet resolve. Both figures small in generous room, seen diagonally from a high corner; use empty pale wall and bare floor as negative space. Keep complete heads and working hands well inside middle 70% safe region. Yitzhak must match the MIDDLE adult in first reference but aged25, narrow oval face, brown eyes, pronounced ears and nose bridge, dark hair under dark brown cloth cap, brown wool coat, cream shirt. Chava must match woman's proposed face in second reference, now married: modest pale blouse, charcoal long skirt and muted brown-green scarf securely covering hair, a slim young adult. NO other adults or children visible in this particular packing scene. The whole traveling family in this sequence is only husband, wife and their one little daughter Hanna Roza, not twins or later children. Reproduce the two adults consistently. One large brown wicker basket, folded cream bedding and pillows, no extra suitcases. No modern objects or flags. Save original output file for this illustration.",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-031b6e35-98a7-4235-9bc0-203acbd7e1c7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "references": [
+    "art/chars/yitzhak-three-ages-v01.png",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "High-angle wide packing in near-empty home; two young adults kneel at wicker basket with bedding.",
+    "family": "Yitzhak25 and wife Chava with modest haircover; no extra children. Chava face is proposed continuity.",
+    "lettering": "Quiet pale upper wall; no speech bubble required.",
+    "limits": "Source reviewed only; actual v08 masks and lettering pending."
+  },
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "crop_issues": [
+    "Final masked crop and lettering not yet reviewed."
+  ],
+  "file": "art/book1-v07/B01V07-P44-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P44-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "24658ca5763496036dfcf20d2051dfd61ac7747637fc442e6b0c6e3e4fb78c8c",
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P15-03",
+  "file": "art/book1-v07/B01V07-P15-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P15-03.webp",
+  "source_path": "/workspace/generated_images/exec-435bb422-fa35-4988-b385-2caa0e448de3.png",
+  "tool_source_path": "/workspace/generated_images/exec-435bb422-fa35-4988-b385-2caa0e448de3.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral literary graphic novel illustration, watercolor and gouache with selective fine ink, natural expressive faces, rich restrained tactile colors. WIDE HIGH-ANGLE SHOT of a clean early-1900s Vienna children's hospital dining area adjoining a ward: a long simple wooden table with nourishing bowls of soup, plain bread and cups in bright clean daylight. Five unfamiliar school-age patients sit around it in period simple shirts and dresses, a few smiling and playfully talking to each other, ordinary children without exaggerated villainy. At the near-right end sits Yitzhak, the small boy from reference: narrow oval face, prominent ears, natural brown eyes, dark cap with tan band, charcoal buttoned shirt, quietly looking at his bowl while others converse. He is visibly among strangers rather than a family gathering. A kind generic nurse sets down a bowl in the background, routine good care. Show good food without religious claims or religious utensils. High viewpoint makes the table, bowls, light and group rhythm dominate; boy small rather than a repeated face portrait. All important heads and hands in central 65% width and middle 60% height; broad pale wall/floor upper-left as quiet caption zone. Subtle blue-green shadows, warm food and wood; no wounds, no active treatment. No lettering, readable writing, balloons, borders, panels, collage, icons, crosses or watermarks. One scene only.\n",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P15-02.png"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "High-angle wide hospital dining table, five children including approved boy at right, nurse serving soup in rear. Good food and bright clean care; four other children unfamiliar patients, not siblings. Boy quiet while others converse; natural cap/face/shirt maintained. No wounds, text or religious claims. Source boy face atx~0.83 and right handx~0.86: right-side v08 panel should use fx~0.7, conservative zoom; default centered square crop risks right hand. Actual mask/lettering pending.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

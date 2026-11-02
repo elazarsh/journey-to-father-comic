@@ -1,0 +1,50 @@
+{
+  "id": "B01V07-P38-03",
+  "source_path": "/workspace/generated_images/exec-c76d62ef-42e5-45f1-8b67-e00251a33b50.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE landscape1536x1024, eye-level MEDIUM conversation inside modest Dombrowa Polish Jewish home early1920s. Yitzhak early20s narrow oval youthful face, prominent ears, clean-shaven following youth photograph, at RIGHT speaks sincerely to Henich at LEFT, older grey-bearded father from supplied threshold image. Henich listens and responds. Behind them in middle distance stand EXACTLY FOUR daughters together in ONE row, four distinct young adult women, no fifth woman, no mother visible. One daughter Chava is tall/slim brown wavy hair, long-sleeved cream modest blouse and dark skirt, others visibly distinct hair/clothes; unmarried, NO bridal veils or married head covering on any daughter. All supporting faces proposed, no verified portrait. Front faces around45%height, enough calm upper third above speakers for TWO future live speech bubbles: Henich LEFT face but his bubble read top-RIGHT first; Yitzhak RIGHT face his bubble top-LEFT. Keep all FOUR daughter heads legible and separate in background between/behind speakers inside central70%; total SIX people only. Warm window daylight with amber interior. No lettering, blank bubbles, borders, circles or montage. Purpose discussion before match; count four daughters exactly.\nCORRECTION PASS: Edit this illustration. REMOVE BOTH white speech balloons and their outlines and tails completely. Replace those shapes with natural continuous warmly lit plaster wall and background furniture/light that belong to this room. Keep the EXACT SAME six people: older Henich left, young Yitzhak right, EXACTLY FOUR unmarried daughters between them, no added or removed figures. Keep all faces, hands, pose, composition, clothing and painterly style. Deliver pure scene artwork only: ABSOLUTELY NO bubbles, thought clouds, letters, text, borders or circles. The upper area must look like ordinary empty room wall. Original landscape dimensions.",
+  "tool_source": "image_gen__imagegen",
+  "tool": "image_gen__imagegen",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-c76d62ef-42e5-45f1-8b67-e00251a33b50.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P38-02.png",
+    "art/book1-v07/web/B01V07-P38-04.webp"
+  ],
+  "references": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P38-02.png",
+    "art/book1-v07/web/B01V07-P38-04.webp"
+  ],
+  "rejected_attempts": [
+    {
+      "path": "/workspace/generated_images/exec-9acbb0fa-5fdd-4df9-b9e2-204206f6e570.png",
+      "reason": "Generator added two prohibited blank balloons."
+    }
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "Henich left and Yitzhak right conversing; EXACTLY FOUR daughters behind, total6people, all unmarried daughters without head coverings. Corrected art contains no balloons.",
+    "identity": "Yitzhak youth continuity; all supporting women/parents proposed casting. Chava tall cream blouse leftmost daughter.",
+    "lettering": "Calm wall in upper third for live lettering; Henich left face/Yitzhak right.",
+    "limits": "Actual mask and two-language lettering pending."
+  },
+  "crop_issues": [
+    "Four daughter heads span central40% width; preserve all4 with wide crop."
+  ],
+  "file": "art/book1-v07/B01V07-P38-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P38-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

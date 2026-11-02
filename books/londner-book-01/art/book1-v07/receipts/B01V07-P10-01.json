@@ -12,5 +12,9 @@
     1024
   ],
   "sha256": "1c71c57692ef7468f6cfa06a00ca41c9f2515b7416b67b5994dde67a77611479",
-  "browser_qa": "not performed"
+  "browser_qa": "not performed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "v08_source_review": "Accepted existing source after v08 direct visual review. Wide housewares shop, crate of newspaper-wrapped parcels, adult hands unpacking among bowls/kettles/hats. Distinct wide material context; not shoe workshop, no Yitzhak face. Matches purpose of newspaper entering story. No regeneration needed.",
+  "v08_review_action": "accepted existing source without regeneration"
 }

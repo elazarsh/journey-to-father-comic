@@ -90,7 +90,7 @@
         "S08-memoir-1",
         "S08-memoir-139"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יצחק המבוגר כותב לבדו, בחום ובנחת. זה אינו מפגש מתועד עם נינים.\nAge continuity for Yitzhak: elder about 71.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.86:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יצחק המבוגר כותב במחברת. זה אינו מפגש מתועד עם נינים.\nAge continuity for Yitzhak: elder about 71.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.86:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
       "actual_size": [
         1024,
         1536
@@ -659,7 +659,7 @@
       "page": 3,
       "file": "art/book1-v07/B01V07-P03-02.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -747,14 +747,21 @@
         "S08-memoir-4",
         "S08-memoir-7"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מבעד לפתח נראה החדר הקטן הצמוד לחנות, מבט רחב שמבהיר את מידותיו המצומצמות. אין רייזל.\nAge continuity for Yitzhak: child about four.\nFamily constraint: אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מבעד לפתח נראה החדר הקטן הצמוד לחנות, מבט רחב שמבהיר את מידותיו המצומצמות. אין רייזל.\nAge continuity for Yitzhak: child about four.\nFamily constraint: אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "8190e40f9ddff1288e3ac8e551257f72f3e106577f7ff64ed06d169f582787d9",
+      "web_file": "art/book1-v07/web/B01V07-P03-02.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-02.json"
     },
     {
       "id": "B01V07-P03-03",
       "page": 3,
       "file": "art/book1-v07/B01V07-P03-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -842,14 +849,21 @@
         "S08-memoir-4",
         "S08-memoir-7"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: ארוחה ביתית מספקת, כלי אוכל מסודרים ובגד מתוקן. לא דלות מוזנחת או הר של רכוש. מסגור חלקי של המשפחה, לא שמונה דיוקנאות.\nAge continuity for Yitzhak: child about four.\nFamily constraint: אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: ארוחה ביתית מספקת, כלי אוכל מסודרים ובגד מתוקן. לא דלות מוזנחת או הר של רכוש. מסגור חלקי של המשפחה, לא שמונה דיוקנאות.\nAge continuity for Yitzhak: child about four.\nFamily constraint: אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "d020d1face43992a1387010774b3a6f68eb1a7a54dd63da5b754ae3d82f974ff",
+      "web_file": "art/book1-v07/web/B01V07-P03-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-03.json"
     },
     {
       "id": "B01V07-P03-04",
       "page": 3,
       "file": "art/book1-v07/B01V07-P03-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -937,14 +951,21 @@
         "S08-memoir-4",
         "S08-memoir-7"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יד האם מסדרת מקום בחדר ובגד לילד, כהמחשה לטיפול המתמשך. ללא מחווה נטענת כרגע מתועד.\nAge continuity for Yitzhak: child about four.\nFamily constraint: אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יד האם מסדרת מקום בחדר ובגד לילד, כהמחשה לטיפול המתמשך. ללא מחווה נטענת כרגע מתועד.\nAge continuity for Yitzhak: child about four.\nFamily constraint: אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "0661f1d50a197187f418e06e798ad2ad34520e47e7946c8249b6b1bfa541af26",
+      "web_file": "art/book1-v07/web/B01V07-P03-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P03-04.json"
     },
     {
       "id": "B01V07-P04-01",
       "page": 4,
       "file": "art/book1-v07/B01V07-P04-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -1034,7 +1055,14 @@
         "S08-memoir-7",
         "S08-memoir-8"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: לילה: אותה נקודת מבט כמו חנות היום, הדלת החיצונית סגורה. הסחורה מסודרת על המדפים ומפנים מקום למצעים. רק חיים, חוה האחות ואיטשע אם נראים ילדים; רייזל טרם נולדה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: לילה: אותה נקודת מבט כמו חנות היום, הדלת החיצונית סגורה. הסחורה מסודרת על המדפים ומפנים מקום למצעים. רק חיים, חוה האחות ואיטשע אם נראים ילדים; רייזל טרם נולדה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "300a22087c13c81b3f969f82f3951f4c9695244362fb162d216a4da9cf77e76d",
+      "web_file": "art/book1-v07/web/B01V07-P04-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-01.json"
     },
     {
       "id": "B01V07-P04-02",
@@ -1131,7 +1159,7 @@
         "S08-memoir-7",
         "S08-memoir-8"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: חיים, חוה האחות ואיטשע ישנים בתוך החנות בין המדפים; בדיוק שני בנים ובת, רק חלק מן האחים. אין כובעים בשינה. תנור ופתח החדר נשארים באותו מקום כמו ביום.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: כמה מהילדים, ביניהם איטשע, ישנים בחנות ליד התנור; ילדים לא מזוהים, רק חלק מן האחים. אין רייזל. אין כובעים בשינה. תנור ופתח החדר נשארים באותו מקום כמו ביום.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
       "actual_size": [
         1024,
         1536
@@ -1145,7 +1173,7 @@
       "page": 4,
       "file": "art/book1-v07/B01V07-P04-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -1218,14 +1246,21 @@
         "S08-memoir-7",
         "S08-memoir-8"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם מתקנת בגד באור מנורת נפט כשהילדים ישנים.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם מתקנת בגד באור מנורת נפט כשהילדים ישנים.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+      "web_file": "art/book1-v07/web/B01V07-P04-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-03.json"
     },
     {
       "id": "B01V07-P04-04",
       "page": 4,
       "file": "art/book1-v07/B01V07-P04-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -1315,14 +1350,21 @@
         "S08-memoir-7",
         "S08-memoir-8"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מעבר ליממה אחרת: ארוחת שבת. כולם מחכים לישיבת האם; מסגור חלקי, ללא ספירת משפחה מלאה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מעבר לערב אחר: ארוחת הערב המשפחתית, בין חמש לשש בערב. כולם מחכים שהאם תשב; מסגור חלקי, ללא ספירת משפחה מלאה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.\nPalette: warm amber oil-lamp light with deep indigo shadows.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "6e357e9601423563469c35bd89c5169076c1fc7665c54b5c6d34f3f4ee31424c",
+      "web_file": "art/book1-v07/web/B01V07-P04-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P04-04.json"
     },
     {
       "id": "B01V07-P05-01",
       "page": 5,
       "file": "art/book1-v07/B01V07-P05-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -1409,14 +1451,21 @@
         "S08-memoir-8",
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע כבן ארבע עם אמו בדרך לחדר בשנת 1904, לפי הזיכרון.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע כבן ארבע עם אמו בדרך לחדר בשנת 1904, לפי הזיכרון.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+      "web_file": "art/book1-v07/web/B01V07-P05-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-01.json"
     },
     {
       "id": "B01V07-P05-02",
       "page": 5,
       "file": "art/book1-v07/B01V07-P05-02.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -1503,14 +1552,21 @@
         "S08-memoir-8",
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מקום לימוד אצל רבי; גיל הסביבה מתאים לילדים צעירים.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מקום לימוד אצל רבי; גיל הסביבה מתאים לילדים צעירים.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+      "web_file": "art/book1-v07/web/B01V07-P05-02.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-02.json"
     },
     {
       "id": "B01V07-P05-03",
       "page": 5,
       "file": "art/book1-v07/B01V07-P05-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -1597,14 +1653,21 @@
         "S08-memoir-8",
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם מניחה סוכרייה על אות א שתתווסף בשכבת טקסט.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם מניחה סוכרייה על אות א שתתווסף בשכבת טקסט.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "09d5101320da782ca5f1ccc1a1767c89a6151b17967addc13e235604d6b24a7c",
+      "web_file": "art/book1-v07/web/B01V07-P05-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-03.json"
     },
     {
       "id": "B01V07-P05-04",
       "page": 5,
       "file": "art/book1-v07/B01V07-P05-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -1691,14 +1754,21 @@
         "S08-memoir-8",
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: הילד לוקח את הסוכרייה בפיו.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: הילד לוקח את הסוכרייה בפיו.\nAge continuity for Yitzhak: child about four.\nFamily constraint: עם אמא; שאר ילדי החדר אינם אחיו. אין להעתיק גיליון בן 9–11 בלי התאמה.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "d4a7b1c71912016935cf8e9af05186ebe94ce8477bb37514ae58866aeced9e25",
+      "web_file": "art/book1-v07/web/B01V07-P05-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P05-04.json"
     },
     {
       "id": "B01V07-P06-01",
       "page": 6,
       "file": "art/book1-v07/B01V07-P06-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -1778,14 +1848,21 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יום אחר בחדר: מבקר שואל ילדים שאלות.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יום אחר בחדר: מבקר שואל ילדים שאלות.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+      "web_file": "art/book1-v07/web/B01V07-P06-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-01.json"
     },
     {
       "id": "B01V07-P06-02",
       "page": 6,
       "file": "art/book1-v07/B01V07-P06-02.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -1865,14 +1942,21 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מטבע עובר ליד ילד אחר.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מטבע עובר ליד ילד אחר.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "512e8046d7edd1f649189162e90ddb354da7af1984a726f0702cdfdca079d5a0",
+      "web_file": "art/book1-v07/web/B01V07-P06-02.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-02.json"
     },
     {
       "id": "B01V07-P06-03",
       "page": 6,
       "file": "art/book1-v07/B01V07-P06-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -1952,14 +2036,21 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע יודע להשיב, אך אינו מקבל מטבע.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע יודע להשיב, אך אינו מקבל מטבע.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "b6814db692d4056d4baab0df84c3b0e8671762cea13b5aa6a9d870d9562b94f5",
+      "web_file": "art/book1-v07/web/B01V07-P06-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-03.json"
     },
     {
       "id": "B01V07-P06-04",
       "page": 6,
       "file": "art/book1-v07/B01V07-P06-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -2039,14 +2130,21 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע שואל את אמו בבית; דיבור מעובד מתוך שאלה שתועדה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע שואל את אמו בבית; דיבור מעובד מתוך שאלה שתועדה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+      "web_file": "art/book1-v07/web/B01V07-P06-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P06-04.json"
     },
     {
       "id": "B01V07-P07-01",
       "page": 7,
       "file": "art/book1-v07/B01V07-P07-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -2126,14 +2224,21 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אם ובנה בשיחה רגועה, בלי המחשת בתים עניים מומצאים.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.86:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אם ובנה בשיחה רגועה, בלי המחשת בתים עניים מומצאים.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.86:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "737e54f04bcee04d46a9e548f98c593af2af446ddb00b6090f6634c7a89a744f",
+      "web_file": "art/book1-v07/web/B01V07-P07-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P07-01.json"
     },
     {
       "id": "B01V07-P07-02",
       "page": 7,
       "file": "art/book1-v07/B01V07-P07-02.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -2213,14 +2318,21 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם ממשיכה להסביר לבנה. שניהם בפריים, האם מדברת והילד מקשיב. אין מטבע שאמא נותנת לו כאילו ניתן ברגע הזה. פני האם מימין, אזור הבועה משמאל.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.60:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם ממשיכה להסביר לבנה. שניהם בפריים, האם מדברת והילד מקשיב. אין מטבע שאמא נותנת לו כאילו ניתן ברגע הזה. פני האם מימין, אזור הבועה משמאל.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.60:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "c6147bb5894fbde98e7edd6f94c6d52c6442c07f772aca87c317f1e0920eb2e0",
+      "web_file": "art/book1-v07/web/B01V07-P07-02.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P07-02.json"
     },
     {
       "id": "B01V07-P07-03",
       "page": 7,
       "file": "art/book1-v07/B01V07-P07-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -2244,7 +2356,7 @@
           66,
           25
         ],
-        "type": "caption",
+        "type": "none",
         "tail_toward": [
           72,
           48
@@ -2283,7 +2395,14 @@
       "source_ids": [
         "S08-memoir-9"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע בחדר אחרי שהבין; אין מסירת מטבע מצדו שלא תועדה.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.60:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: החדר. בלי לקבוע מה הילד הרגיש או הבין.\nAge continuity for Yitzhak: child about four.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.60:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "2a7f127ad1d21f337abf6a8b5c7152b155dc798209274e872a421e0779b9af32",
+      "web_file": "art/book1-v07/web/B01V07-P07-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P07-03.json"
     },
     {
       "id": "B01V07-P08-01",
@@ -3260,7 +3379,7 @@
       "page": 10,
       "file": "art/book1-v07/B01V07-P10-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -3324,14 +3443,21 @@
         "S08-memoir-10",
         "S08-memoir-11"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אותו נייר מגיע למיטת איטשע.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אותו נייר מגיע למיטת איטשע.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "89e4ac43584591d98d1f220f8aec3ab6acb8b8d54dea1ed4c46d690fa48a222a",
+      "web_file": "art/book1-v07/web/B01V07-P10-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P10-03.json"
     },
     {
       "id": "B01V07-P10-04",
       "page": 10,
       "file": "art/book1-v07/B01V07-P10-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -3412,14 +3538,21 @@
         "S08-memoir-10",
         "S08-memoir-11"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: הילד קורא בעיתון, כתב יתווסף בשכבה חיה.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: הילד קורא בעיתון, כתב יתווסף בשכבה חיה.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "bbc776b573f5332a5717faba268374f62f57f3a233dc50443102033307664ba6",
+      "web_file": "art/book1-v07/web/B01V07-P10-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P10-04.json"
     },
     {
       "id": "B01V07-P11-01",
       "page": 11,
       "file": "art/book1-v07/B01V07-P11-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -3499,7 +3632,14 @@
       "source_ids": [
         "S08-memoir-11"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע קורא על מלחמה בבלקנים.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.54:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע קורא על מלחמה בבלקנים.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.54:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "2b67aaa92bcc7e89b1274cdf0fc97ddc510b109793b64cca1175b279f97ddb30",
+      "web_file": "art/book1-v07/web/B01V07-P11-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P11-01.json"
     },
     {
       "id": "B01V07-P11-02",
@@ -3593,7 +3733,7 @@
       "page": 11,
       "file": "art/book1-v07/B01V07-P11-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -3673,14 +3813,21 @@
       "source_ids": [
         "S08-memoir-11"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: דימוי קטן של מרפסת, מסומן כהמחשת משמעות מילה ולא חלום מתועד.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.43:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: דימוי קטן של מרפסת, מסומן כהמחשת משמעות מילה ולא חלום מתועד.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.43:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "f148b0eeecb7bddaf8daa774b6b85b44fec4039991df1f4b5f22ab1751d1c40d",
+      "web_file": "art/book1-v07/web/B01V07-P11-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P11-03.json"
     },
     {
       "id": "B01V07-P11-04",
       "page": 11,
       "file": "art/book1-v07/B01V07-P11-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -3760,14 +3907,21 @@
       "source_ids": [
         "S08-memoir-11"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: תקריב השאלה בלי תגובת לעג מצד האב.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.45:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: תקריב השאלה בלי תגובת לעג מצד האב.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.45:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae",
+      "web_file": "art/book1-v07/web/B01V07-P11-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P11-04.json"
     },
     {
       "id": "B01V07-P12-01",
       "page": 12,
       "file": "art/book1-v07/B01V07-P12-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -3862,14 +4016,21 @@
         "S08-memoir-18",
         "S08-memoir-21"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האב מסביר את המילה.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.90:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האב מסביר את המילה.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.90:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089",
+      "web_file": "art/book1-v07/web/B01V07-P12-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-01.json"
     },
     {
       "id": "B01V07-P12-02",
       "page": 12,
       "file": "art/book1-v07/B01V07-P12-02.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -3947,14 +4108,21 @@
         "S08-memoir-18",
         "S08-memoir-21"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם מקשיבה לאיטשע קורא, ללא נאום חדש.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.90:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האם מקשיבה לאיטשע קורא, ללא נאום חדש.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.90:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "5092d2d630bb1e444a2559fc31e092c26af338c7a682a6dc2a254d502c50c00f",
+      "web_file": "art/book1-v07/web/B01V07-P12-02.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-02.json"
     },
     {
       "id": "B01V07-P12-03",
       "page": 12,
       "file": "art/book1-v07/B01V07-P12-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -4049,14 +4217,21 @@
         "S08-memoir-18",
         "S08-memoir-21"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מעבר מסומן: הדירה המרווחת שאליה עברו באותן שנות ילדות, בלי יום קבוע.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.73:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: הקיר שהופל והדירה שהורחבה, בלי יום קבוע.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.73:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "e74d97080e25eace53fde7331b4b15f24266cd2462aa580514e3ff1468b1acf1",
+      "web_file": "art/book1-v07/web/B01V07-P12-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-03.json"
     },
     {
       "id": "B01V07-P12-04",
       "page": 12,
       "file": "art/book1-v07/B01V07-P12-04.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -4151,14 +4326,21 @@
         "S08-memoir-18",
         "S08-memoir-21"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: תמונת משפחה מבוימת בחלל החדש: בדיוק חמישה בנים ושלוש בנות, כולל רייזל התינוקת; הורים נוספים עליהם.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.29:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: המשפחה בבית המורחב, כהמחשה ולא כצילום של רגע אחד: בדיוק חמישה בנים ושלוש בנות, כולל רייזל התינוקת; הורים נוספים עליהם.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: תמונת המשפחה המלאה היחידה: בדיוק חמישה בנים ושלוש בנות, ועוד אב ואם. רייזל תינוקת; הגדולים נבדלים מן הקטנים. הגילים היחסיים לפי הרשימה, לא תאריכי לידה מוכחים.\nPalette: warm amber and soft blue domestic light.\nCompose for a 1.29:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "sha256": "ff1083e336bb1f907c4b97e115f05c91dfb4901b1c990b5574e072207aa109f7",
+      "web_file": "art/book1-v07/web/B01V07-P12-04.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P12-04.json"
     },
     {
       "id": "B01V07-P13-01",
       "page": 13,
       "file": "art/book1-v07/B01V07-P13-01.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -4238,14 +4420,21 @@
       "source_ids": [
         "S08-memoir-18"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: ההורים אצל רופא מקומי.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: ההורים אצל רופא מקומי.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "4bfcfaab0f6687e585f6eb1f235a702443d3d4bad7cd4749bb541526912253b7",
+      "web_file": "art/book1-v07/web/B01V07-P13-01.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P13-01.json"
     },
     {
       "id": "B01V07-P13-02",
       "page": 13,
       "file": "art/book1-v07/B01V07-P13-02.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1024,
         1536
@@ -4325,14 +4514,21 @@
       "source_ids": [
         "S08-memoir-18"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אב ובנו יוצאים לוורשה בלי אמצעי נסיעה מזוהה.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אב ובנו יוצאים לוורשה בלי אמצעי נסיעה מזוהה.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "f6fd7b8ebc4e0dad8af92982789aef164f91aeab4b4e04c49b227b7a88760a1d",
+      "web_file": "art/book1-v07/web/B01V07-P13-02.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P13-02.json"
     },
     {
       "id": "B01V07-P13-03",
       "page": 13,
       "file": "art/book1-v07/B01V07-P13-03.png",
       "kind": "panel",
-      "status": "planned",
+      "status": "generated-claude-awaiting-review",
       "generate_size": [
         1536,
         1024
@@ -4412,7 +4608,14 @@
       "source_ids": [
         "S08-memoir-18"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: רופא בודק את שתי הרגליים.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: רופא בודק את שתי הרגליים.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+      "web_file": "art/book1-v07/web/B01V07-P13-03.webp",
+      "receipt": "art/book1-v07/receipts/B01V07-P13-03.json"
     },
     {
       "id": "B01V07-P13-04",
@@ -5630,7 +5833,7 @@
       "source_ids": [
         "S08-memoir-19"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אישה יהודייה מן השוהים בבית החולים לצד הילד.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אישה יהודייה בבית החולים לצד הילד, בלי סימני תפקיד.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: muted blue-green with humane warm light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
       "actual_size": [
         1024,
         1536
@@ -6657,7 +6860,7 @@
         "S08-memoir-19",
         "S08-memoir-20"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: חפץ מן הבית ויד הילד; תמונת סיום לפרק, לא סיום הספר.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: אין להמציא מפגש קבוצתי של כל האחים. רואים ילד ואב בבית המוכר.\nPalette: muted blue-green with humane warm light.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: האב והבן בבית המוכר; בלי חפץ שאינו מוזכר ביומן. תמונת סיום לפרק, לא סיום הספר.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: אין להמציא מפגש קבוצתי של כל האחים. רואים ילד ואב בבית המוכר.\nPalette: muted blue-green with humane warm light.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
     },
     {
       "id": "B01V07-P20-01",
@@ -8084,7 +8287,7 @@
         "S08-memoir-25",
         "S08-memoir-26"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: תכנון הדאגה לילדים: חיים המבוגר לצד סחורת החנות, והדודים מסייעים בסידורים. זהו שחזור אחריות מן המקור ולא כינוס מסוים שנמצא בצילום.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מאיר גיטלר רושם רשימה של הסחורה בחנות; חיים לצד הסחורה. שחזור מן המקור, לא כינוס מסוים שנמצא בצילום.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
     },
     {
       "id": "B01V07-P24-01",
@@ -8899,8 +9102,7 @@
           48
         ],
         "tail_status": "provisional; re-anchor near actual speaker mouth after image inspection",
-        "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility.",
-        "placement_note": "Caption moved below the faces after reviewing the actual source composition."
+        "language_policy": "Live Hebrew RTL and English LTR; no lettering baked into images. On phone, text may flow below art for legibility."
       },
       "protected_source_zone": [
         20,
@@ -11805,7 +12007,7 @@
           66,
           25
         ],
-        "type": "caption",
+        "type": "none",
         "tail_toward": [
           72,
           48
@@ -12121,7 +12323,7 @@
         "S08-memoir-37",
         "S08-memoir-48"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מעבר זמן מפורש 1918: סיום מלחמת העולם הראשונה ועצמאות פולין.\nAge continuity for Yitzhak: teenager about 16–17.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: soft amber domestic and work colors.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מעבר זמן: סיום מלחמת העולם הראשונה ועצמאות פולין.\nAge continuity for Yitzhak: teenager about 16–17.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: soft amber domestic and work colors.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
     },
     {
       "id": "B01V07-P34-04",
@@ -13567,7 +13769,7 @@
           66,
           25
         ],
-        "type": "thought",
+        "type": "speech",
         "tail_toward": [
           72,
           48
@@ -13616,7 +13818,7 @@
         "S08-memoir-51",
         "S08-memoir-52"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: ארבע בנות המשפחה נכנסות בזו אחר זו. יצחק הצעיר נוכח מימין ומביט בהן, כדי שהמחשבה תהיה מחוברת לדמות חושבת. בדיוק ארבע בנות ועוד יצחק; אין גילאים מדויקים או סדר גיל מוסק. מקום שקט לבועה למעלה משמאל, הפנים מתחת ומימין.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: ארבע בנות משפחת חוה בפאנל הכניסה. אין גילאים מדויקים; חוה הגבוהה אינה בהכרח הבכורה. הצעת הפנים טרם מאושרת.\nPalette: soft amber domestic and work colors.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: אחרי כניסת ארבע הבנות: יצחק הצעיר מדבר עם הניך, פניו מימין ומקום לבועה למעלה משמאל. ברקע ארבע בנות בדיוק; אין גילאים מדויקים או סדר גיל מוסק.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: ארבע בנות משפחת חוה בפאנל הכניסה. אין גילאים מדויקים; חוה הגבוהה אינה בהכרח הבכורה. הצעת הפנים טרם מאושרת.\nPalette: soft amber domestic and work colors.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
     },
     {
       "id": "B01V07-P38-04",
@@ -14339,7 +14541,7 @@
           66,
           25
         ],
-        "type": "thought",
+        "type": "caption",
         "tail_toward": [
           72,
           48
@@ -14663,7 +14865,7 @@
         "S08-memoir-57",
         "S08-memoir-58"
       ],
-      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: המשפחה שוב באותו חדר, חוה והילדה בגיל מתאים.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: soft amber domestic and work colors.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
+      "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: המשפחה בחדר; הילדה חולה ושוכבת, בלי דרמה. חוה והילדה בגיל מתאים.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: soft amber domestic and work colors.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop."
     },
     {
       "id": "B01V07-P41-03",

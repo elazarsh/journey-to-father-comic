@@ -1,0 +1,15 @@
+{
+  "verified_masters": 37,
+  "verified_previews": 37,
+  "all_png_hashes_match": true,
+  "memory_alpha": {
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "suggested_live_opacity": 0.55
+  },
+  "scene_replacements": 32,
+  "final_layout_qa": false
+}

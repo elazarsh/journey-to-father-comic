@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P21-01",
+  "file": "art/book1-v08-corrections/panels/B01V07-P21-01-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P21-01-family-proof-v01.webp",
+  "sha256": "2595e84da88b0306640589e5a65f417a28a6919448572ae1cf384cab334e156f",
+  "web_sha256": "21c86d2cbac4ed42d68544615cf8ec4895df187230d47a09898c4bc0f8bb244c",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Generative edit of art/book1-v07/B01V07-P21-01.png. כיפת האב הוחלפה לקסקט; הרכב הסצנה נשמר חזותית. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+  "created_utc": "2026-11-01T20:59:15.409123+00:00"
+}

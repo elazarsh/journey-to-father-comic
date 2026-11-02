@@ -1,0 +1,857 @@
+{
+  "status": "ready-for-Claude-integration",
+  "book": 1,
+  "story_art_unchanged_until_integration": true,
+  "replacement_count": 46,
+  "new_character_references": 3,
+  "extra_assets": 2,
+  "replacements": [
+    {
+      "target": "B01V07-P02-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P02-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P02-02-agefix.webp",
+      "sha256": "80f9a97f7ac6d574bdd5cefd5c4616168b98650ea3a0fb63cb218499a533bd4b",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P02-02.png",
+      "previous_sha256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P02-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P05-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P05-02-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P05-02-family-proof-v01.webp",
+      "sha256": "cfeccd4f7942324e7b39cc7d36e9eac72a4871b827f2215871c86c501872ff1c",
+      "web_sha256": "9eba19e89fa79f5240ccd784b3ec30c1bfcf1008165ad39408952a647c6e8655",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P05-02-agefix.png. הוחלפו כיפת המורה וכיפות שני התלמידים האמצעיים; ארבעת התלמידים נשמרו. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:09.407043+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P05-02-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P05-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P05-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P05-04-agefix.webp",
+      "sha256": "d449f400e5cbba631324a875d27c2e0d714c117329004319027a2d3732aa1ec6",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P05-04.png",
+      "previous_sha256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P05-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P06-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P06-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P06-01-agefix.webp",
+      "sha256": "376c0355c848c116aab8464efebf3bf8b7d8f2ab6a4ef468240713127f12c402",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P06-01.png",
+      "previous_sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P06-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P06-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P06-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P06-03-agefix.webp",
+      "sha256": "77b7c3537d8bb0b8364d4fcd2bff31368c0bb42a12e31a89ddf1ea38ca258b32",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P06-03.png",
+      "previous_sha256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P06-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P06-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P06-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P06-04-agefix.webp",
+      "sha256": "c3646077fdebc65a47f642f190f29ec79c7af5568a81ed5f328c6844b208fb0d",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P06-04.png",
+      "previous_sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P06-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P07-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P07-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P07-01-agefix.webp",
+      "sha256": "8944aec87ae7bbaf97321d35b45ac56b3ffff7179ebe72425af6004838895925",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P07-01.png",
+      "previous_sha256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P07-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P07-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P07-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P07-02-agefix.webp",
+      "sha256": "91ac86f21307bc12c70d09e77e3deef0afcbd65ca282489fbc20028299ebc75b",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P07-02.png",
+      "previous_sha256": "2e7946c7ffb62812a22d4d173cc7c856355e295443a524f693052c1810ecb505",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P07-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P08-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P08-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P08-01-agefix.webp",
+      "sha256": "012a2fa8d65c41b433bade7496727ed74eb541a55d1a68eed3d2e59302a5e07d",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "09",
+      "previous_file": "art/book1-v07/B01V07-P08-01.png",
+      "previous_sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P08-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P08-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P08-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P08-03-agefix.webp",
+      "sha256": "ebb5e3d4b4280432e55d26df63059cee5688fe0302eb32f4f96a4a188a6dbee9",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "09",
+      "previous_file": "art/book1-v07/B01V07-P08-03.png",
+      "previous_sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P08-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P13-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P13-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P13-03-agefix.webp",
+      "sha256": "e1574f0dd58ecd14522a327c7198116290a4f33d65ed3828f494542228beccbe",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "09",
+      "previous_file": "art/book1-v07/B01V07-P13-03.png",
+      "previous_sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P13-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P16-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P16-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P16-04-agefix.webp",
+      "sha256": "b8f01b9b2f787b8b46d33abd0187aceb359d37638ce09d33a28048021d104190",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "09",
+      "previous_file": "art/book1-v07/B01V07-P16-04.png",
+      "previous_sha256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P16-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P23-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.webp",
+      "sha256": "620d4f0cca3247275267e99d1504f4bb4a7648a68c71dbd1318b01cd7f9756fe",
+      "web_sha256": "b4e49007bbbd4d87df52dcd8b1c492d28d6b74d7f56594a5902c2a0abc31a0d6",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png. Visually checked: Adult cap changed; teen cap and faces visually retained. Adult hair on forehead is partly covered by added cap. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:19.467642+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P24-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P24-02-familyfix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P24-02-familyfix.webp",
+      "sha256": "66dc67ca6dc84f48fa1899ac35e42867002c651555cc3f92718f02c69ba356f9",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": null,
+      "previous_file": "art/book1-v07/B01V07-P24-02.png",
+      "previous_sha256": "72dd45402ea6430198ca040c2cb387322a7264bab5a559a3588d2482c6b4c201",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P24-02-familyfix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P26-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P26-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-01-agefix.webp",
+      "sha256": "d3a8e740b8f03a2d8537932b4642b5cf321edf9a454575ca163d90a034f81684",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P26-01.png",
+      "previous_sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P26-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P26-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-02-agefix.webp",
+      "sha256": "ca4b4f90bf53f399c241a8fc86fb7db72a684c34075adb0d8186fcf5d93d387a",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P26-02.png",
+      "previous_sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P26-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-family-proof-v01.webp",
+      "sha256": "6e843bfa9b861a55d00065482769092c72e3014ee88bbed07ed836f3f07ec932",
+      "web_sha256": "f78f2670b6230ea4a084a3a998dd32a23ff62b3cfe09a8ce961e67791eff8f9c",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png. Visually checked: Adult cap changed; boy cap and age-corrected face visually retained. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:23.883074+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P28-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P28-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P28-03-agefix.webp",
+      "sha256": "7b67737377ade22a06a283a3e8e48223e9ad0875d977bd55f2b653433efe4da9",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P28-03.png",
+      "previous_sha256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P28-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P28-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P28-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P28-04-agefix.webp",
+      "sha256": "8cc108952dfb4a26f8ba68d33271a1a6713aad3444d00e5d7ae4080ea87f99f9",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P28-04.png",
+      "previous_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P28-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P29-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P29-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P29-01-agefix.webp",
+      "sha256": "ee431d10b456b112dca09ddd48e4315e522e69d3e736ec8f1abb32f70a8f3e9f",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P29-01.png",
+      "previous_sha256": "750e96a8a29589ca085585124cd9c6a49904905258e9c90b9bde59f103ce0627",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P29-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P29-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P29-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P29-02-agefix.webp",
+      "sha256": "bd91f5a29051cf70b2f280df16658e8fe5db1b0a5a7c734c1c408681db577fb2",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P29-02.png",
+      "previous_sha256": "a528ad6e03aa677ca269c04c07b9c244e90273494c11536b2a45300270bd46cb",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P29-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P29-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P29-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P29-03-agefix.webp",
+      "sha256": "c0a4fe1a30d0c463b85f1f6774d2fd43614c9549cf2e6bb349f9feb5e4042aac",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P29-03.png",
+      "previous_sha256": "2b5c4aebb4ccd278d5bbb115fa7887d6bc27ab363dee8687c39a0c2e9a7adac7",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P29-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P29-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P29-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P29-04-agefix.webp",
+      "sha256": "83d3cf8c778f5ba0cb634e2bfc8017c521db86da2906d2865ebf10821db3e2ce",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P29-04.png",
+      "previous_sha256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P29-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P30-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P30-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P30-02-agefix.webp",
+      "sha256": "50577ca8f3771c8f46653bc26d8301a77ba67deeeeeacb23c705ac116c0754f1",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P30-02.png",
+      "previous_sha256": "4c790c6feee085e63f6327fa30bd7c1d1f8737e75c5407c0ff09e4a4964b730a",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P30-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P30-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P30-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P30-04-agefix.webp",
+      "sha256": "a5cd65386abbd4e6ac9a0a4ded117d39fec8c233dfe650ef0075371a1ae06d15",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P30-04.png",
+      "previous_sha256": "595f9cf3c59c108b0261613c2fa5b201076902c0691edff1d84845c6cab99812",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P30-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P31-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P31-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P31-01-agefix.webp",
+      "sha256": "6f5cd49b30098844adcbf2b5454a53df47d4620b90bea4d2cc626d4a0bad3edb",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P31-01.png",
+      "previous_sha256": "e012e7599d908aca8099082f7f3401d95fd7fc60f78aab11d015d616e51eff2e",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P31-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P31-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P31-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P31-04-agefix.webp",
+      "sha256": "73bd0467369ed693acd8b17a976de1622cd560154b59b41f350c0c1f98570ee8",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P31-04.png",
+      "previous_sha256": "cfcd06200a8c8506b408d5550d593ed656de1a76c3b7da2984bd9d002fabd9ca",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P31-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P33-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P33-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P33-02-agefix.webp",
+      "sha256": "9a6309896ef6d425f066022cc44c58df94ca96a0f958425653f14dee6877bb7c",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "17",
+      "previous_file": "art/book1-v07/B01V07-P33-02.png",
+      "previous_sha256": "89e4c470d52e82aeab2d3606052b43460faefebd519923efbafc2122c3a7789e",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P33-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P33-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P33-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P33-04-agefix.webp",
+      "sha256": "ff0291087f8f577a47dbd08abc10cbaf262938d1de84c413ebacbaffb9fb7c74",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "17",
+      "previous_file": "art/book1-v07/B01V07-P33-04.png",
+      "previous_sha256": "44c789bdb543a0672d21fac67c0a76ecba6809682884c209ef511aa2efc269cf",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P33-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P34-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P34-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P34-02-agefix.webp",
+      "sha256": "433ffbe4e4013665c4745fce5da4242b2c40ecc6bda1d3ca66b8c75bd78d0133",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "17",
+      "previous_file": "art/book1-v07/B01V07-P34-02.png",
+      "previous_sha256": "49ebd36687d5da41c40914a2af46850037d1d5adae316fb6196031d0071a1b47",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P34-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P35-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P35-01-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P35-01-agefix.webp",
+      "sha256": "e0822e7cfe15684924797cbd6d58ca5fbc31d90d3622b6eff2434eb6cdeaf224",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "17",
+      "previous_file": "art/book1-v07/B01V07-P35-01.png",
+      "previous_sha256": "d0f64ee8b3a997e3c0e4c5b131aa3b4da78bee5fd198b2e1a80cb4a05287d1b7",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P35-01-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P35-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P35-04-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P35-04-agefix.webp",
+      "sha256": "185761185031293562031d90862abf41f6d1a256bbf328046f8115e317339d21",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "17",
+      "previous_file": "art/book1-v07/B01V07-P35-04.png",
+      "previous_sha256": "6d698528db49b1b33d3bb5eab5ea5b1814563f6ef180ae337a5f15dc1681b70e",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P35-04-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "NEW-P28-jnf",
+      "file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.webp",
+      "sha256": "4ea66629b3240237fda8fcb84a375961b364988fe924942337bd1600c0386507",
+      "web_sha256": "345e47d30d121f6d72bf679aef84646f0fea7e3ae62ed0ff2d1481628968d2da",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Independent visual review: blue boxes and star, coin, notebook, no readable text; hand age and historical box details not independently verified; crop and lettering pending.",
+      "created_utc": "2026-11-01T20:52:13.144069+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P28-jnf-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P39-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P39-01-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P39-01-family-proof-v01.webp",
+      "sha256": "5cfac79490fcd1c3e86402e0f45bdb84751206432f57e9a88fbb66e57c3d4849",
+      "web_sha256": "2e7c379d611c2a7416d9e69a4748479bcfea15558422d08f993e034b061f8a31",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Edit of art/book1-v07/B01V07-P39-01.png: groom skullcap replaced by flat cap; source scene otherwise visually preserved. Crop and integration still require review.",
+      "created_utc": "2026-11-01T20:54:05.902923+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P39-01-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P25-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P25-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P25-03-family-proof-v01.webp",
+      "sha256": "f5e6ce71e2f7bb2fa1e883feb827273017aa28c8df53ddf93eda5d0b0e7d9386",
+      "web_sha256": "99d80e52f13f00d6c607307d95c47176679c18dbb4ca03d3d2ec377449b93743",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Edit of P25-03: uncle has short gray beard, glasses and flat cap; other figures preserved. Existing panel receipt and layout identify uncle as Avrahamle, whereas latest request mentions Meir: identity remains unresolved, no invented identification. Crop and final review pending.",
+      "created_utc": "2026-11-01T20:54:34.587371+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P25-03-family-proof-v01.json"
+    },
+    {
+      "target": "NEW-P43-tax",
+      "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.webp",
+      "sha256": "179ba671b672229e6fbbb93b85c91431f5f4ad6f6463df9046bd682154e17e9d",
+      "web_sha256": "e4f7e3877ea2eea252e1c9e5ae2d92a32754a89365ed6a9f6aa256165d886c1e",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Second independent review: two visible legs on each chair and three visible legs on the table; wall portrait removed. Breakage subtle; check leg visibility after framing. Candidate for integration, not family approval.",
+      "created_utc": "2026-11-01T21:09:16.044505+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v02.json"
+    },
+    {
+      "target": "B01V07-P21-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P21-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P21-03-family-proof-v01.webp",
+      "sha256": "7b7f232898af233156e32630954f0998a24803832773c3fd6b8b144f7f452545",
+      "web_sha256": "8ce79008e73b46f5e733fcf68702f049b14d9b9db402ab51d3eb8def4ea320b9",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Cap correction edit of art/book1-v07/B01V07-P21-03.png. Visually checked: One adult black cap; face and workspace visually retained. Generative edit; exact pixel preservation outside the cap has not been established. Final crop, mouth anchors and family review pending.",
+      "created_utc": "2026-11-01T20:57:24.288830+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P21-03-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P03-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P03-01-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P03-01-family-proof-v01.webp",
+      "sha256": "e3084ebe77d58bf2ac6d4ab9c6af663bb84cad2213ff947d780edee33ef8d081",
+      "web_sha256": "6a9726ac6b1ba22991cf8a564001193eedb0bf81241f05d52fc8a5b90176cecd",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P03-01.png. הוחלפה כיפת המוכר לקסקט; כובע הלקוח ומטפחת האישה נשמרו. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:07.423611+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P03-01-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P12-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P12-01-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P12-01-family-proof-v01.webp",
+      "sha256": "92d5ca0c2bdca4812b5b2945e26578990d8961d6128ba64e7072d83fc065ebd0",
+      "web_sha256": "e65f2f2118cbae14f20a38d70c8bfca888ccb75b7e14f319c181e2dfcf91a841",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P12-01.png. כיפת האב הוחלפה לקסקט; פניו ותנוחתו נראים דומים. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:11.239396+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P12-01-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P20-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P20-04-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P20-04-family-proof-v01.webp",
+      "sha256": "396231003d352806e9dd11b4fa63ec7a3e80ea74207d6962e0365f2a0083a93c",
+      "web_sha256": "06173811d60c1d6574cd76251617266ddf4a3e6e1c381028ea58186b0a0a421b",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P20-04.png. כיפת האב הוחלפה לקסקט; כובע הילד נשמר. זוית הכובע החדשה תלולה, לבדוק בחיתוך. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:13.272210+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P20-04-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P21-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P21-01-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P21-01-family-proof-v01.webp",
+      "sha256": "2595e84da88b0306640589e5a65f417a28a6919448572ae1cf384cab334e156f",
+      "web_sha256": "21c86d2cbac4ed42d68544615cf8ec4895df187230d47a09898c4bc0f8bb244c",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P21-01.png. כיפת האב הוחלפה לקסקט; הרכב הסצנה נשמר חזותית. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:15.409123+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P21-01-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P22-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P22-04-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P22-04-family-proof-v01.webp",
+      "sha256": "6d416a888b65979ecea338000953beb1c4d14bdd1ef66411aa643544b7bf268f",
+      "web_sha256": "c0892462735cc05da087e48b76e69fee63b1b2987df2690eec131ac0e56499e0",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P22-04.png. Visually checked: Adult cap changed, boy cap retained; face, hands and layout appear retained. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:17.558397+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P22-04-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P23-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P23-04-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P23-04-family-proof-v01.webp",
+      "sha256": "bfb9b65c80a5b91d02560b7ccbb96f69b694d4a9b369ce478ac5a41a9893c915",
+      "web_sha256": "73518ca315d11a79e308e9cf0fbc14167cfa759908225d0e659f38c34d4aea77",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Generative edit of art/book1-v07/B01V07-P23-04.png. Visually checked: Both adults now wear flat caps; faces, hands, ledger and composition appear preserved. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+      "created_utc": "2026-11-01T20:59:21.571644+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-04-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P11-04",
+      "file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.webp",
+      "sha256": "af344986a5470250a5736ef0d84576328dde81cd9ffe3fda780fa27b51950fdf",
+      "web_sha256": "aba8bd08668adddbaeb29a92a41b2cc61da3a436716f8291035a8dffdf5eb1f0",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Uncertain headwear reviewed against original master; cap edited to flat cap. Generative edit; recheck faces, composition, crop and speech anchors before integration.",
+      "created_utc": "2026-11-01T21:03:01.863607+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P11-04-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P41-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P41-03-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P41-03-family-proof-v01.webp",
+      "sha256": "7396ad10db4d1a12d8812d68ba901b9149f27e2471995b37caf77f524f5fc76c",
+      "web_sha256": "082c98308f5cea7e09db332a8182d04dfcbd8dd346a37023aea4a2a842b38148",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Uncertain headwear reviewed against original master; cap edited to flat cap. Generative edit; recheck faces, composition, crop and speech anchors before integration.",
+      "created_utc": "2026-11-01T21:03:03.934469+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P41-03-family-proof-v01.json"
+    },
+    {
+      "target": "B01V07-P09-01",
+      "file": "art/book1-v08-corrections/panels/B01V07-P09-01-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P09-01-family-proof-v01.webp",
+      "sha256": "1aa2ace0c5bf91ea3b2fb36af17a5e00eab36d12f6a4509be2a6038d6b07facc",
+      "web_sha256": "68e68e3c8c563ac43a6fb7e607b69b599a5842c94595796444835072a8b35756",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "User requested older brother Chaim wear a flat cap. Edit of original B01V07-P09-01, brother on left; younger boy cap retained. The PDF page number differs from source panel ID. Generative edit, visual crop check recommended.",
+      "created_utc": "2026-11-02T05:46:19.339197+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P09-01-family-proof-v01.json"
+    }
+  ],
+  "opening_background": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
+  "memory": {
+    "file": "art/book1-v08-corrections/extras/children-memory-v01.png",
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "suggested_live_opacity": 0.55,
+    "reference": "art/book1-v08-corrections/references/S08-img053.jpg",
+    "source_caption": "מימין מוטלה, מנחם, סבא יצחק, סבתא חוה וחיה.",
+    "viewer_left_to_right": [
+      "חיה",
+      "מנחם",
+      "מוטלה"
+    ]
+  },
+  "integration_notes": "handoffs/codex/20261101-family-image-review.md",
+  "not_claimed": [
+    "Family approval of new likenesses",
+    "Final lettering/crop/browser/print approval",
+    "A regenerated book PDF"
+  ],
+  "previous_replacement_entries": [
+    {
+      "target": "B01V07-P05-02",
+      "file": "art/book1-v08-corrections/panels/B01V07-P05-02-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P05-02-agefix.webp",
+      "sha256": "e526295e39338962b9b0acd85e8988cae78de3c412f319d0d0e63e1debce028c",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "04",
+      "previous_file": "art/book1-v07/B01V07-P05-02.png",
+      "previous_sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P05-02-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P23-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-agefix.webp",
+      "sha256": "564f6e9f46a88a1d6bb0ef1466b345aabc543beb97c1b8119b2f3e3aea2263ab",
+      "actual_size": [
+        1024,
+        1536
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P23-03.png",
+      "previous_sha256": "261230afbc8f6bf26f89c365094ce27dc97036a20c32ade2e450bd61e5df393c",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P23-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "B01V07-P26-03",
+      "file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.png",
+      "web_file": "art/book1-v08-corrections/panels/B01V07-P26-03-agefix.webp",
+      "sha256": "d808a0ae631b66b3a18f668df1a54a0781a60d47db7ed970e41a6ebf8260c1c2",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "age_band": "14",
+      "previous_file": "art/book1-v07/B01V07-P26-03.png",
+      "previous_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "receipt": "art/book1-v08-corrections/receipts/B01V07-P26-03-agefix.json",
+      "requires_new_face_and_crop_review": true
+    },
+    {
+      "target": "NEW-P43-tax",
+      "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.png",
+      "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v01.webp",
+      "sha256": "14c422e7d9a532a872c7acdf15b298e8d83824783d1fc48fbed858ca7569496f",
+      "web_sha256": "a5840999c2f234c1dd39814a85c43c0f5da48594526c6317f2b6f9deeb932324",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_tool": "image_gen.imagegen",
+      "status": "candidate-for-Claude-integration",
+      "family_approved": false,
+      "requires_new_face_and_crop_review": true,
+      "qa_notes": "Candidate only: two officials, Yitzhak, Chava and daughter, sparse room, and three visible table legs. Chairs are broken and leaning but their two-legged construction is not clearly readable; must inspect and repair before final integration. Initial unrequested wall portrait removed. Historical and family likeness not independently verified.",
+      "created_utc": "2026-11-01T20:56:04.011852+00:00",
+      "receipt": "art/book1-v08-corrections/receipts/NEW-P43-tax-family-proof-v01.json"
+    }
+  ]
+}

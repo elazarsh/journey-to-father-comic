@@ -1,0 +1,12 @@
+{
+  "art_commit": "ff48f15ee9c06d2baa75aabfe133b89e19fd3759",
+  "active_source_images": 170,
+  "matched_master_blobs": 170,
+  "matched_preview_blobs": 170,
+  "mismatches": [],
+  "scope": {
+    "changed_files": 637,
+    "outside_book1": []
+  },
+  "note": "Verified complete recursive Git tree; no local or remote master pixels changed by layout adjustments."
+}

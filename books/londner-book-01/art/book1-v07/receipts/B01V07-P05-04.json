@@ -1,0 +1,45 @@
+{
+  "id": "B01V07-P05-04",
+  "file": "art/book1-v07/B01V07-P05-04.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+  "file_bytes": 2913326,
+  "prompt": "PORTRAIT 1024x1536. Localized edit of this selected watercolor illustration. Preserve EVERYTHING: same framing, cap and pale stripe, dark blue buttoned shirt, window, background, warm window light, ear shape, natural brown eyes and recognizable facial identity. Change ONLY the boy's age and candy reaction: he must look about FOUR years old, with a smaller, rounder softer preschool child's face, shorter lower face and slightly fuller toddler cheeks; still the same narrow oval family face and pronounced ears, never generic baby or large cartoon eyes. One cheek visibly BULGES asymmetrically because he has just taken a small hard boiled sweet INTO HIS MOUTH. Closed lips gently pressed around candy inside, a small contained delighted smile; eyes shine with natural delight in the same window light. Candy remains inside his mouth, no hand, no candy wrapper or stick. Preserve ample existing plain wall above his cap; whole cap and ears comfortably inside canvas. Painterly watercolor/gouache, fine restrained ink, same style. No text, no speech bubbles, no circles or frames. No other changes.",
+  "source_path": "/workspace/generated_images/exec-c273c1b4-d53b-4451-96f4-990c7f8514f4.png",
+  "reference_paths": [
+    "art/book1-v07/web/B01V07-P05-04.webp"
+  ],
+  "reference_archived": "art/book1-v07/variants/v08-before-review-fix/B01V07-P05-04.webp",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": true,
+  "review_fix": {
+    "id": "B01V07-P05-04",
+    "verdict": "fix",
+    "issue": "No candy visible and cheeks not full (plain closed-mouth smile); boy reads about 6-7 rather than about four.",
+    "instruction": "Keep everything (cap, shirt, window light, face features, ears), change only: make him look about four years old (rounder, softer, smaller face) with one cheek visibly bulging from a candy in his mouth and eyes shining with delight."
+  },
+  "shot": {
+    "shot": "close-up",
+    "angle": "eye",
+    "subject": "yitzhak",
+    "light": "warm window light"
+  },
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "specific_review": "Boy now reads as preschool age about four, shorter softer face, same ears cap shirt and warm window light. One cheek asymmetrically puffs with sweet inside mouth and eyes show quiet delight. No wrappers, hands, bubbles or text. Whole cap retained with headroom.",
+    "composition": "Original selected Claude composition retained; only specified review corrections applied.",
+    "limitations": [
+      "No final browser mask or lettering approval."
+    ]
+  },
+  "crop_status": "Source visually reviewed, actual v08 panel mask and zoom 1.00–1.15 pending root review.",
+  "web_file": "art/book1-v07/web/B01V07-P05-04.webp",
+  "web_sha256": "858b634c5676e172598c664514d4c7da06244cd9bd910ec5bb0e31a515518ef9",
+  "recorded_at_utc": "2026-10-31T04:50:57.922312+00:00"
+}

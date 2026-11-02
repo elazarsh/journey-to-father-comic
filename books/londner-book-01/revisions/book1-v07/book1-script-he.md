@@ -18,19 +18,19 @@
 
 ### B01V07-P01-01
 
-יצחק המבוגר כותב לבדו, בחום ובנחת. זה אינו מפגש מתועד עם נינים.
+יצחק המבוגר כותב במחברת. זה אינו מפגש מתועד עם נינים.
 
-יצחק המבוגר · adapted: ילדים, נכדים ונינים אהובים שלי, את הזיכרונות האלה אני כותב בשבילכם.
+יצחק המבוגר · quote: לזיכרון הבנים והבת והנכדים.
 
-My dear children, grandchildren and great-grandchildren, I am writing these memories for you.
+In memory, for my sons, my daughter and my grandchildren.
 
 ### B01V07-P01-02
 
 תקריב ידו והמחברת.
 
-יצחק המבוגר · adapted: כדי שתכירו גם את הילד שהייתי, הרבה לפני שקראו לי סבא.
+יצחק המבוגר · quote: זיכרונות מיום הולדתי ועד... אולי לא יהיה בסדר הכתוב.
 
-So you can know the boy I was, long before anyone called me Grandpa.
+Memories from the day I was born until... Perhaps not in the right order.
 
 ### B01V07-P01-03
 
@@ -66,17 +66,17 @@ Whatever I remember, I will write.
 
 יצחק ילד קטן ביונדזיוב; גיל הדמות שונה מן הנער שיופיע בהמשך.
 
-יצחק המבוגר · adapted: נולדתי בשנת 1900, ביונדזיוב שבפולין, באירופה. שמי יצחק מאיר לונדנר.
+יצחק המבוגר · adapted: נולדתי בט״ו בשבט 1900, בעיר יונדזיוב ליד קיעלץ, בפולין. המיילדת לא חזרה לברית של השכנים, עד שיצאתי במזל לעולם.
 
-I was born in 1900 in Jędrzejów, Poland, in Europe. My name is Yitzhak Meir Londner.
+I was born on Tu BiShvat, 1900, in Jędrzejów near Kielce, Poland. The midwife did not go back to the neighbours’ circumcision party until I had luckily come into the world.
 
 ### B01V07-P02-03
 
 פתח החנות המשפחתית, ללא אתר מזוהה שהומצא.
 
-יצחק המבוגר · adapted: בבית קראו לי איטשע.
+יצחק המבוגר · adapted: שמי יצחק מאיר לונדנר. בבית קראו לי איטשע.
 
-At home, they called me Itshe.
+My name is Yitzhak Meir Londner. At home, they called me Itshe.
 
 מקורות: S08-memoir-1, S08-memoir-3
 
@@ -120,9 +120,9 @@ We were not rich, but we had enough to eat.
 
 יד האם מסדרת מקום בחדר ובגד לילד, כהמחשה לטיפול המתמשך. ללא מחווה נטענת כרגע מתועד.
 
-יצחק המבוגר · adapted: כשנזכרתי בבית, זכרתי כמה אמא דאגה לנו.
+יצחק המבוגר · adapted: אני זוכר כמו היום, ומעריך את העבודה של אמא: לבשל, לרחוץ את הרצפה, לכבס.
 
-When I remembered home, I remembered how Mother cared for us.
+I remember it like today, and I value Mother’s work: cooking, washing the floor, doing the laundry.
 
 המשפחה באיור: ילדות מוקדמת, בית קטן. אם מופיעים אחים נוספים, רק חיים וחוה האחות כהצעת שחזור חלקית. אין רייזל; לא להציג שמונה ילדים שנולדו כולם כבר.
 
@@ -144,17 +144,17 @@ When I remembered home, I remembered how Mother cared for us.
 
 לילה: אותה נקודת מבט כמו חנות היום, הדלת החיצונית סגורה. הסחורה מסודרת על המדפים ומפנים מקום למצעים. רק חיים, חוה האחות ואיטשע אם נראים ילדים; רייזל טרם נולדה.
 
-יצחק המבוגר · adapted: בלילה סגרו את החנות ופינו בה מקום למיטות שלנו.
+יצחק המבוגר · adapted: כל ערב סידרו מקום בחנות, ליד התנור. שם ישנו הילדים.
 
-At night, the shop closed and room was made inside for our beds.
+Every evening, a place was made in the shop, by the stove. That is where the children slept.
 
 ### B01V07-P04-02
 
-חיים, חוה האחות ואיטשע ישנים בתוך החנות בין המדפים; בדיוק שני בנים ובת, רק חלק מן האחים. אין כובעים בשינה. תנור ופתח החדר נשארים באותו מקום כמו ביום.
+כמה מהילדים, ביניהם איטשע, ישנים בחנות ליד התנור; ילדים לא מזוהים, רק חלק מן האחים. אין רייזל. אין כובעים בשינה. תנור ופתח החדר נשארים באותו מקום כמו ביום.
 
-יצחק המבוגר · adapted: אותם מדפים, אותו חדר. עכשיו היה כאן מקום לישון.
+יצחק המבוגר · adapted: ארון הבגדים שלנו עמד בחנות.
 
-The same shelves, the same room. Now there was room to sleep.
+Our clothes cupboard stood in the shop.
 
 ### B01V07-P04-03
 
@@ -166,11 +166,11 @@ After we fell asleep, Mother mended our clothes. A button for one, a pocket for 
 
 ### B01V07-P04-04
 
-מעבר ליממה אחרת: ארוחת שבת. כולם מחכים לישיבת האם; מסגור חלקי, ללא ספירת משפחה מלאה.
+מעבר לערב אחר: ארוחת הערב המשפחתית, בין חמש לשש בערב. כולם מחכים שהאם תשב; מסגור חלקי, ללא ספירת משפחה מלאה.
 
-יצחק המבוגר · adapted: ובשבת, עד שאמא ישבה לאכול, גם אנחנו חיכינו.
+יצחק המבוגר · adapted: עד שאמא לא ישבה ליד השולחן, אף אחד לא קיבל צלחת.
 
-And on Shabbat, we waited until Mother sat down to eat.
+Until Mother sat down at the table, nobody was given a plate.
 
 המשפחה באיור: הבית הישן. שלושה אחים מזוהים בציור חלקי, לא כל בני הבית. שני בנים ובת. אין רייזל.
 
@@ -284,13 +284,13 @@ Mother, why did they get one and I did not?
 
 אם ובנה בשיחה רגועה, בלי המחשת בתים עניים מומצאים.
 
-אמא · adapted_speech: הכסף היה צדקה לילדים ממשפחות שאין להן הרבה.
+אמא · adapted_speech: הם מבתים עניים. הם מקבלים ממנו גרוש כל יום. אתה לא צריך ממנו.
 
-The money was charity for children whose families had little.
+They come from poor homes. They get a coin from him every day. You do not need his.
 
 ### B01V07-P07-02
 
-תקריב מטבע ביד אותו ילד אחר, כהמחשה חוזרת.
+האם ממשיכה להסביר לבנה. שניהם בפריים, האם מדברת והילד מקשיב. אין מטבע שאמא נותנת לו כאילו ניתן ברגע הזה. פני האם מימין, אזור הבועה משמאל.
 
 אמא · adapted_speech: אתה מקבל ממני. אני משלמת לרבי בשביל הלימודים שלך.
 
@@ -298,11 +298,9 @@ You receive from me. I pay the rebbe for your lessons.
 
 ### B01V07-P07-03
 
-איטשע בחדר אחרי שהבין; אין מסירת מטבע מצדו שלא תועדה.
+החדר. בלי לקבוע מה הילד הרגיש או הבין.
 
-יצחק המבוגר · adapted: לא כל מה שנראה כמו פרס, היה באמת פרס.
-
-Not everything that looked like a prize really was one.
+ללא כיתוב.
 
 מקורות: S08-memoir-9
 
@@ -322,9 +320,9 @@ Not everything that looked like a prize really was one.
 
 בשלב מאוחר יותר בילדות: חוזר מהחדר ברגל נפוחה; הגיל המדויק פתוח.
 
-יצחק המבוגר · adapted: כשהייתי גדול יותר, חזרתי פעם מהחדר עם רגל נפוחה.
+יצחק המבוגר · adapted: אני זוכר, פעם באתי מהחדר עם רגל נפוחה.
 
-When I was older, I once came home from the cheder with a swollen foot.
+I remember once coming home from the cheder with a swollen foot.
 
 ### B01V07-P08-02
 
@@ -438,9 +436,9 @@ The newspapers were brought to me.
 
 הילד קורא בעיתון, כתב יתווסף בשכבה חיה.
 
-יצחק המבוגר · adapted: קראתי בהם על מקומות רחוקים, ועל דברים שעוד לא הבנתי.
+יצחק המבוגר · adapted: קראתי. כל פעם התחלתי להבין יותר ויותר.
 
-I read about faraway places and things I did not yet understand.
+I read. Each time, I began to understand more and more.
 
 מקורות: S08-memoir-10, S08-memoir-11
 
@@ -516,15 +514,15 @@ Mother loved hearing me read.
 
 ### B01V07-P12-03
 
-מעבר מסומן: הדירה המרווחת שאליה עברו באותן שנות ילדות, בלי יום קבוע.
+הקיר שהופל והדירה שהורחבה, בלי יום קבוע.
 
-יצחק המבוגר · adapted: באותן שנות ילדות עברנו לדירה גדולה יותר. נולדה גם אחותי הקטנה רייזל.
+יצחק המבוגר · adapted: לבסוף קיבלנו עוד דירה. הרסנו קיר, ונהייתה לנו דירה מרווחת. נולדה לנו אחות, רייזל.
 
-In those childhood years, we moved to a bigger home. My youngest sister, Raisel, was born too.
+In the end, we got another flat. We knocked down a wall, and our home became roomy. A sister was born to us, Raisel.
 
 ### B01V07-P12-04
 
-תמונת משפחה מבוימת בחלל החדש: בדיוק חמישה בנים ושלוש בנות, כולל רייזל התינוקת; הורים נוספים עליהם.
+המשפחה בבית המורחב, כהמחשה ולא כצילום של רגע אחד: בדיוק חמישה בנים ושלוש בנות, כולל רייזל התינוקת; הורים נוספים עליהם.
 
 יצחק המבוגר · adapted: הבית גדל, אבל הרגל שלי עדיין הייתה חולה.
 
@@ -564,9 +562,9 @@ The doctor recommended Warsaw. Father went with me.
 
 רופא בודק את שתי הרגליים.
 
-יצחק המבוגר · adapted: שם החליטו שצריך לנתח את שתי הרגליים.
+יצחק המבוגר · adapted: הרופא החליט לנתח את רגל ימין. אבא הראה לו גם את רגל שמאל, והוא הציע לנתח גם אותה.
 
-There, they decided that both feet needed surgery.
+The doctor decided to operate on my right foot. Father showed him my left foot too, and he suggested operating on it as well.
 
 ### B01V07-P13-04
 
@@ -654,9 +652,9 @@ Father went home. I stayed in the hospital.
 
 ארוחה וטיפול טוב, בין ילדים לא מוכרים.
 
-יצחק המבוגר · adapted: טיפלו בי היטב. אבל הייתי בין ילדים שלא הכרתי.
+יצחק המבוגר · adapted: אוכל טוב, שירות טוב. אבל הייתי לבד בין זרים, והיו שם ילדים שובבים.
 
-I was well cared for. But I was among children I did not know.
+Good food, good care. But I was alone among strangers, and there were naughty children there.
 
 ### B01V07-P15-04
 
@@ -700,17 +698,17 @@ They threw it onto the tall stove.
 
 מבט רחב המראה את הגובה ואת הילד, בלי ניסיון טיפוס.
 
-יצחק המבוגר · adapted: לא יכולתי להגיע אליו.
+יצחק המבוגר · adapted: התנור היה גבוה, כמעט שלושה מטרים.
 
-I could not reach it.
+The stove was tall, almost three metres.
 
 ### B01V07-P16-04
 
 הילד ליד מיטתו; ניתוק מהתפילה המוכרת.
 
-יצחק המבוגר · adapted: גם להתפלל כמו שהכרתי, כבר לא יכולתי.
+יצחק המבוגר · adapted: לא יכולתי להתפלל.
 
-Now I could not even pray in the way I knew.
+I could not pray.
 
 מקורות: S08-memoir-19
 
@@ -728,7 +726,7 @@ Now I could not even pray in the way I knew.
 
 ### B01V07-P17-01
 
-אישה יהודייה מן השוהים בבית החולים לצד הילד.
+אישה יהודייה בבית החולים לצד הילד, בלי סימני תפקיד.
 
 יצחק המבוגר · adapted: בבית החולים הייתה גם אישה יהודייה.
 
@@ -832,13 +830,13 @@ This time, we came home after my foot had healed.
 
 הילד בבית המוכר, חזרה לזווית מהדירה הגדולה.
 
-יצחק המבוגר · adapted: אחרי הרופאים והחדרים הזרים, הייתי שוב בבית.
+יצחק המבוגר · adapted: באנו הביתה, והייתי בריא. עד היום, ברוך השם.
 
-After the doctors and unfamiliar rooms, I was home again.
+We came home, and I was healthy. To this day, thank God.
 
 ### B01V07-P19-04
 
-חפץ מן הבית ויד הילד; תמונת סיום לפרק, לא סיום הספר.
+האב והבן בבית המוכר; בלי חפץ שאינו מוזכר ביומן. תמונת סיום לפרק, לא סיום הספר.
 
 ללא כיתוב.
 
@@ -862,9 +860,9 @@ After the doctors and unfamiliar rooms, I was home again.
 
 תקופת ילדות מאוחרת: חוה האחות מבשלת, יצחק שוטף כלים בנפרד לבשר ולחלב.
 
-יצחק המבוגר · adapted: בבית הייתה עבודה לכולם. אחותי חוה בישלה, ואני רחצתי כלים.
+יצחק המבוגר · adapted: אחותי חוה בישלה. התפקיד שלי היה לרחוץ את הכלים, בשר לחוד וחלב לחוד.
 
-There was work for everyone at home. My sister Chava cooked, and I washed dishes.
+My sister Chava cooked. My job was washing the dishes, meat separately and dairy separately.
 
 ### B01V07-P20-02
 
@@ -922,17 +920,17 @@ Once, Father opened a crate and found that the amount did not match the bill.
 
 כותב לספק.
 
-יצחק המבוגר · adapted: הוא כתב לספק. הספק היה בטוח שארז בדיוק את מה שהזמנו.
+יצחק המבוגר · adapted: אבא כתב לספק: חסרים חצי תריסר עליונות. הספק ענה שהוא בעצמו ארז את הסחורה, ולא ייתכן שחסר.
 
-He wrote to the supplier. The supplier was certain he had packed exactly what we ordered.
+Father wrote to the supplier: half a dozen uppers are missing. The supplier answered that he had packed the goods himself, and nothing could be missing.
 
 ### B01V07-P21-04
 
 מגיע מכתב תשובה; תוכנו מדווח בכיתוב, בלי זעם או ריב מומצאים.
 
-יצחק המבוגר · adapted: המכתבים נמשכו. עד שאבא הסביר מה באמת קרה.
+יצחק המבוגר · adapted: אבא כתב עוד מכתב. הספק ענה שהוא מוכן להישבע בטלית ותפילין.
 
-The letters continued. Until Father explained what had really happened.
+Father wrote again. The supplier answered that he was ready to swear on his tallit and tefillin.
 
 מקורות: S08-memoir-22, S08-memoir-23
 
@@ -952,9 +950,9 @@ The letters continued. Until Father explained what had really happened.
 
 חשיפה חזותית של עוד שש יחידות עליונות לנעליים, לא זוגות נעליים.
 
-יצחק המבוגר · adapted: בארגז היו שש יחידות יותר ממה ששילמנו עליהן. אבא לא רצה לשמור אותן בסוד.
+יצחק המבוגר · adapted: כשאבא שמע שהספק מוכן להישבע, הוא כתב לו: היו חצי תריסר יותר.
 
-The crate held six more pieces than we had paid for. Father did not want to keep them secret.
+When Father heard the supplier was ready to swear, he wrote to him: there were half a dozen more.
 
 ### B01V07-P22-02
 
@@ -974,9 +972,9 @@ After that, they trusted him even more. They sent goods even before he paid.
 
 איטשע ממשיך לעבוד לצד האב.
 
-יצחק המבוגר · adapted: את היושר של אבא זכרתי עוד שנים רבות.
+יצחק המבוגר · adapted: אבא היה סוחר נאמן. זה נכנס לנו לראש ונשאר איתנו.
 
-I remembered Father’s honesty for many years.
+Father was an honest merchant. That went into our heads and stayed with us.
 
 מקורות: S08-memoir-22, S08-memoir-23
 
@@ -1018,11 +1016,11 @@ These are sad memories. But we were not left without someone to care for us.
 
 ### B01V07-P23-04
 
-תכנון הדאגה לילדים: חיים המבוגר לצד סחורת החנות, והדודים מסייעים בסידורים. זהו שחזור אחריות מן המקור ולא כינוס מסוים שנמצא בצילום.
+מאיר גיטלר רושם רשימה של הסחורה בחנות; חיים לצד הסחורה. שחזור מן המקור, לא כינוס מסוים שנמצא בצילום.
 
-יצחק המבוגר · adapted: חיים, אחי הבכור, והדודים עזרו לדאוג לנו ולמצוא לנו מקום לגור.
+יצחק המבוגר · adapted: הדוד שמעון לא רצה שיישארו חובות. חיים אחי לקח עליו את החובות ובא לגור ביונדזיוב. ואנחנו, הילדים, החלטנו איפה כל אחד יגור.
 
-My eldest brother Chaim and our relatives helped care for us and find places for us to live.
+Uncle Shimon did not want debts left behind. My brother Chaim took on the debts and came to live in Jędrzejów. And we children decided where each of us would live.
 
 מקורות: S08-memoir-20, S08-memoir-25, S08-memoir-26
 
@@ -1056,7 +1054,7 @@ Chava stayed with little Raisel.
 
 ### B01V07-P24-03
 
-יצחק ושרהלה בדרך לבית הדודים בקילץ, עם חבילת הבגדים. לא מציירים ילדה לבד מול דלת סגורה ולא מייצרים מתח נטישה. הגיל של שרהלה כבן חמש לפי הזיכרון.
+יצחק ושרהלה בדרך לבית הדודים בקילץ, עם חבילת הבגדים. לא מציירים ילדה לבד מול דלת סגורה ולא מייצרים מתח נטישה. הגיל של שרהלה כבת חמש לפי הזיכרון.
 
 יצחק המבוגר · adapted: את שרהלה הבאתי לדודים בקילץ. משם המשכתי לדוד מאיר בלודז׳.
 
@@ -1136,9 +1134,9 @@ In Łódź, Uncle Meir and Aunt Nachale cared for me.
 
 דוד מאיר ודודה נחלה מקבלים את יצחק; לא אירוע חגיגי שהומצא.
 
-יצחק המבוגר · adapted: סידרו לי עבודה במסחר בבדים. לא אותו המסחר שהכרתי בחנות של אבא.
+יצחק המבוגר · adapted: המקצוע שלי לא התאים למשפחה שלהם. סידרו לי עבודה במסחר בבדים.
 
-They arranged work for me in the fabric trade. It was different from the trade in Father’s shop.
+My trade did not suit their family. They arranged work for me in the fabric trade.
 
 ### B01V07-P26-03
 
@@ -1196,9 +1194,9 @@ I was already traveling to the factories alone. I chose samples and ordered good
 
 מול מנהל מבוגר: הנער כבר יודע מה הוא מזמין.
 
-יצחק המבוגר · adapted: לא הייתי עוד רק הילד שעוזר בחנות. עכשיו סמכו גם על הבחירה שלי.
+יצחק המבוגר · adapted: הייתי ילד פיקח. מנהל אחד אמר לי: אתה תהיה סוחר גדול.
 
-I was no longer only the boy helping in the shop. Now they trusted my choices too.
+I was a clever boy. One manager told me: you will be a great merchant.
 
 המשפחה באיור: עבודה עצמאית בלודז, כבן 13–14. נער, לא הילד בן הארבע ולא חייל בן עשרים.
 
@@ -1236,17 +1234,17 @@ Trade suffered, and income shrank.
 
 חבר ויצחק לומדים בבית הכנסת, ללא שיחה מומצאת.
 
-יצחק המבוגר · adapted: עם חברים המשכתי ללמוד. הצטרפנו גם לפעילות ציונית, למען ארץ ישראל.
+יצחק המבוגר · adapted: הדוד מאיר נפטר. חבר אמר לי: אין מי שילמד אותך, בוא נלך ללמוד בבית הכנסת.
 
-With friends, I kept learning. We also joined Zionist activities for the Land of Israel.
+Uncle Meir passed away. A friend told me: there is no one to teach you, let us go and learn at the synagogue.
 
 ### B01V07-P28-04
 
 פעילות ציונית ואיסוף כספים למען ארץ ישראל.
 
-יצחק המבוגר · adapted: אספנו כסף וקיבלנו משימות.
+יצחק המבוגר · adapted: הצטרפנו גם להנהלה הציונית בלודז׳. אספנו כסף וקיבלנו משימות.
 
-We collected money and were given tasks.
+We also joined the Zionist leadership in Łódź. We collected money and were given tasks.
 
 מקורות: S08-memoir-30, S08-memoir-31, S08-memoir-32
 
@@ -1282,9 +1280,9 @@ But further permissions were needed, and our duties had to be passed on.
 
 הוא ממשיך במשימות בזמן שהיציאה טרם התאפשרה.
 
-יצחק המבוגר · adapted: בינתיים החיים בלודז׳ נעשו קשים יותר.
+יצחק המבוגר · adapted: הדודה אמרה: הפרנסה מתמעטת, ואין מי שישגיח עליך. קיבלתי את זה ללב.
 
-Meanwhile, life in Łódź grew harder.
+My aunt said: income is shrinking, and there is no one to look after you. I took it to heart.
 
 ### B01V07-P29-04
 
@@ -1388,9 +1386,9 @@ I helped measure roads and bridges.
 
 מתרגם בין המהנדס האוסטרי לחקלאי פולני, לא נאום שהומצא.
 
-יצחק המבוגר · adapted: תרגמתי בין המהנדס לבין החקלאים. מה שידעתי נעשה שימושי מאוד.
+יצחק המבוגר · adapted: תרגמתי בין החקלאים לבין המהנדס, על האדמה שקלקלו להם. העבודה הייתה קלה, וכסף לא היה חסר.
 
-I translated between the engineer and the farmers. What I knew became very useful.
+I translated between the farmers and the engineer about the land that had been ruined for them. The work was easy, and there was no shortage of money.
 
 מקורות: S08-memoir-34
 
@@ -1460,7 +1458,7 @@ I was about sixteen or seventeen.
 
 ### B01V07-P33-02
 
-פרט מעבודת חקלאות שהוא רואה, לא חלום חזותי שהתגשם כבר.
+יצחק הנער נראה מימין במבט אל השדות והחקלאים. רואים את פניו והבעתו כדי לחבר אליו בועת מחשבה. החקלאי והאדמה במרחב, לא מראים את המשק העתידי. שמיים שקטים משמאל לבועה.
 
 איטשע · adapted_thought: אני רוצה להיות חקלאי בארץ ישראל.
 
@@ -1478,9 +1476,7 @@ I already had recommendations and approval in principle from the movement.
 
 הוא מתעניין בדרך לנסיעה; מבט במסמכים בלי פקיד מסרב שהומצא.
 
-יצחק המבוגר · adapted: אבל האם זה מספיק כדי לנסוע?
-
-But was that enough to travel?
+ללא כיתוב.
 
 המשפחה באיור: חלום החקלאות, כבן 16–17. מתבגר לפי זיכרונו. לא פנים בגיל 4 או 25.
 
@@ -1510,25 +1506,25 @@ I also needed a passport and further permissions. I could not obtain them.
 
 מסמך חסר מסומן כרכיב גרפי: דרכון, לא דף מזויף מן המקור.
 
-יצחק המבוגר · adapted: המלצה לא פתחה את הגבול. בינתיים נשארתי בפולין.
+יצחק המבוגר · adapted: בלי פספורט פחדתי לנסוע. פחדתי שיתפסו אותי בגבול.
 
-A recommendation did not open the border. For now, I remained in Poland.
+Without a passport, I was afraid to travel. I was afraid they would catch me at the border.
 
 ### B01V07-P34-03
 
-מעבר זמן מפורש 1918: סיום מלחמת העולם הראשונה ועצמאות פולין.
+מעבר זמן: סיום מלחמת העולם הראשונה ועצמאות פולין.
 
-יצחק המבוגר · adapted: ב־1918 הסתיימה המלחמה. פולין נעשתה שוב עצמאית.
+יצחק המבוגר · adapted: בגמר המלחמה, פולין נעשתה שוב עצמאית.
 
-In 1918, the war ended. Poland became independent again.
+When the war ended, Poland became independent again.
 
 ### B01V07-P34-04
 
 הנער נעשה צעיר; מסגרת מעבר לקראת שירות בצבא הפולני.
 
-יצחק המבוגר · adapted: אבל השקט לא נמשך. פרצה מלחמה בין פולין לבולשביקים, השלטון החדש ברוסיה.
+יצחק המבוגר · adapted: אחר כך פרצה המלחמה בין פולין לבולשביקים. את ראובן אחי לקחו לצבא.
 
-But peace did not last. Poland went to war against the Bolsheviks, Russia’s new rulers.
+Then war broke out between Poland and the Bolsheviks. My brother Reuven was taken into the army.
 
 מקורות: S08-memoir-35, S08-memoir-37, S08-memoir-48
 
@@ -1548,17 +1544,17 @@ But peace did not last. Poland went to war against the Bolsheviks, Russia’s ne
 
 יצחק מבוגר יותר במדי הצבא הפולני, לא הדמות בת הארבע.
 
-יצחק המבוגר · adapted: גייסו אותי לצבא הפולני. במקום לצאת לארץ, נעשיתי חייל.
+יצחק המבוגר · adapted: לקחתי את תעודת הלידה של לייבל אחי. כשלקחו את ילידי 1902 לצבא, הלכתי לצבא.
 
-I was drafted into the Polish army. Instead of leaving for the Land of Israel, I became a soldier.
+I took my brother Leibl’s birth certificate. When those born in 1902 were called up, I went into the army.
 
 ### B01V07-P35-02
 
 יחידה במחנה, ללא ענישה גרפית.
 
-יצחק המבוגר · adapted: היו אימונים ושמירות. היינו רחוקים מהבית.
+יצחק המבוגר · adapted: שלחו אותנו לברסט ליטובסק. היו אימונים, ושמרנו על מחסנים וגשרים.
 
-There were drills and guard duties. We were far from home.
+They sent us to Brest-Litovsk. There were drills, and we guarded storehouses and bridges.
 
 ### B01V07-P35-03
 
@@ -1684,9 +1680,9 @@ I still wanted to move to the Land of Israel. But I still had no passport.
 
 מגיע מכתב ממשפחת הניך בדומברובה.
 
-יצחק המבוגר · adapted: קיבלתי הזמנה לבקר משפחה בדומברובה. חשבו שאולי אתאים לאחת הבנות.
+יצחק המבוגר · adapted: קיבלתי מכתב מהניך, בן דוד שלנו. הוא כתב שיש לו בת, ושאבוא לדומברובה לראות אותה.
 
-I was invited to visit relatives in Dąbrowa. They thought I might be a match for one daughter.
+I got a letter from Henech, our cousin. He wrote that he had a daughter, and that I should come to Dąbrowa to see her.
 
 ### B01V07-P38-02
 
@@ -1696,11 +1692,11 @@ I was invited to visit relatives in Dąbrowa. They thought I might be a match fo
 
 ### B01V07-P38-03
 
-ארבע בנות המשפחה נכנסות בזו אחר זו, דמויות צעירות לא מזוהות עד בירור; אין לטעון סדר גיל.
+אחרי כניסת ארבע הבנות: יצחק הצעיר מדבר עם הניך, פניו מימין ומקום לבועה למעלה משמאל. ברקע ארבע בנות בדיוק; אין גילאים מדויקים או סדר גיל מוסק.
 
-יצחק · adapted_thought: לאיזו מהבנות הוא מתכוון?
+יצחק · adapted_speech: ראיתי ארבע בנות. אני לא יודע לאיזו בת אתה מתכוון.
 
-Which daughter does he mean?
+I saw four daughters. I do not know which daughter you mean.
 
 ### B01V07-P38-04
 
@@ -1730,9 +1726,9 @@ It was Chava. Not my sister Chava, but the woman who would become my wife, and y
 
 1922, נישואי יצחק וחוה, בלי המון קרובים שספירתם מומצאת.
 
-יצחק המבוגר · adapted: בשנת 1922 התחתנו. פתחנו פרק חדש יחד.
+יצחק המבוגר · adapted: בשנת 1922 התחתנו. גרנו כמו שסיכמנו לפני החתונה.
 
-In 1922, we married. We began a new chapter together.
+In 1922 we married. We lived as we had agreed before the wedding.
 
 ### B01V07-P39-02
 
@@ -1794,9 +1790,9 @@ Chava stayed with our daughter. My brother Leibl helped her in the shop.
 
 יצחק במדי צבא מתגעגע לפי היומן; אין בועת מחשבה מומצאת.
 
-יצחק · adapted_thought: אני רוצה לחזור לחוה ולילדה.
+יצחק המבוגר · adapted: מאוד התגעגעתי הביתה. דאגתי איך לצאת מהצבא.
 
-I want to go home to Chava and our daughter.
+I missed home very much. I worried about how to get out of the army.
 
 ### B01V07-P40-04
 
@@ -1832,11 +1828,11 @@ At Purim in 1923, I returned home.
 
 ### B01V07-P41-02
 
-המשפחה שוב באותו חדר, חוה והילדה בגיל מתאים.
+המשפחה בחדר; הילדה חולה ושוכבת, בלי דרמה. חוה והילדה בגיל מתאים.
 
-יצחק המבוגר · adapted: עכשיו כבר היינו משפחה. רציתי לבנות את העתיד שלנו בארץ ישראל.
+יצחק המבוגר · adapted: חזרתי הביתה בלי סחורה, בלי כסף, והילדה חולה. אבל רעיון ארץ ישראל נשאר אצלי.
 
-Now we were a family. I wanted to build our future in the Land of Israel.
+I came home with no goods, no money, and our little girl was ill. But the idea of the Land of Israel stayed with me.
 
 ### B01V07-P41-03
 
@@ -1940,7 +1936,7 @@ There were tax matters and papers to sort out. At last, I received the passport.
 
 ### B01V07-P43-04
 
-דרכון מתקבל; חלון הנסיעה מוגבל בזמן, בלי שעון או תאריך שהומצא.
+לאחר קבלת הדרכון, יצחק במשרד העלייה בוורשה מקבל את התנאי לצאת בזמן. נציג המשרד נראה מדבר, יצחק מקשיב. אזור שקט לבועה משמאל, פני הדובר במרכז־ימין; אין תאריך או שעון שהומצאו.
 
 במשרד העלייה · adapted_speech: אם לא תצא בזמן, האישור יעבור למישהו אחר.
 
@@ -1972,9 +1968,9 @@ We sold things, made arrangements and packed. I took a large basket for our belo
 
 סל גדול, שמיכות וכרים.
 
-יצחק המבוגר · adapted: שמיכות וכרים, פרימוס לבישול, וגם אוכל שלא יתקלקל בדרך.
+יצחק המבוגר · adapted: שמיכות וכרים, פרימוס, וקצת אוכל יבש שיהיה לנו כשנגיע: שומן, גריסים ואטריות.
 
-Blankets and pillows, a primus stove for cooking, and food that would keep during the journey.
+Blankets and pillows, a primus stove, and a little dry food for when we arrived: fat, groats and noodles.
 
 ### B01V07-P44-03
 
@@ -1986,9 +1982,9 @@ Blankets and pillows, a primus stove for cooking, and food that would keep durin
 
 חוה, יצחק ובתם מוכנים לצאת, לא תאומות או ילדים שטרם נולדו.
 
-יצחק המבוגר · adapted: לא חיכיתי שהכול יהיה קל. הגיע הזמן לצאת.
+יצחק המבוגר · adapted: חשבתי לנסוע יחד עם קרובים שלנו. אבל פחדתי לחכות.
 
-I did not wait for everything to become easy. It was time to leave.
+I thought of travelling together with relatives of ours. But I was afraid to wait.
 
 המשפחה באיור: מסע 1925. המשפחה הנוסעת: אב כבן 25, אם ובת צעירה. אין מספר גיל מדויק לבת או לאם.
 
@@ -2030,7 +2026,7 @@ On the way, we met people returning from the Land of Israel. They asked where we
 
 ### B01V07-P45-04
 
-המשפחה עם חפציה, המבט אל הדרך נותר פתוח.
+נוסע מבוגר בדרך שואל את יצחק; שני הדוברים נראים לצד חפצי המשפחה. פני השואל מימין ושטח שקט לבועה משמאל. חוה ובתם אם נראות הן משפחתו, אין ילדים נוספים שמוצגים כילדיו.
 
 נוסעים בדרך · adapted_speech: יש לך קרובים? איפה תישן?
 
@@ -2102,25 +2098,25 @@ Our joy was beyond measure.
 
 חזרה ליצחק המבוגר כותב; אותו אדם שאיתו פתחנו.
 
-יצחק המבוגר · adapted: כשהייתי ילד, היו מי שעזרו לי. כשגדלתי, למדתי לקחת אחריות בעצמי.
+יצחק המבוגר · adapted: תמיד הייתי עסוק בעבודה. לא יכולתי להתעסק הרבה עם הנכדים.
 
-When I was a boy, people helped me. As I grew, I learned to take responsibility myself.
+I was always busy with work. I could not spend much time with my grandchildren.
 
 ### B01V07-P47-02
 
 מחברת ולצדה דימויים מן הסיפור: עיפרון, חשבון חנות, סל דרך. לא שרידים שהוכח ששמר.
 
-יצחק המבוגר · adapted: היו גם ימים קשים. ולצדם אנשים טובים, סקרנות, וחלומות שלא עזבתי.
+יצחק המבוגר · quote: אבל בלב אהבתי את כולם.
 
-There were hard days too. Alongside them were good people, curiosity and dreams I held on to.
+But in my heart, I loved them all.
 
 ### B01V07-P47-03
 
 פנים חמות של המספר, ללא שורת הסבר נוספת על כל מסר.
 
-יצחק המבוגר · adapted: את הסיפור הזה אני משאיר לכם באהבה.
+יצחק המבוגר · adapted: את הזיכרונות האלה כתבתי לזיכרון הבנים והבת והנכדים.
 
-I leave this story to you with love.
+I wrote these memories in memory, for my sons, my daughter and my grandchildren.
 
 שלוש מחשבות קצרות לקורא, בנפרד מקולו של יצחק:
 
@@ -2156,17 +2152,17 @@ We were on our way. The two of us, our little girl, and the blankets and pillows
 
 הסל והכרים ליד המשפחה. אין בית מוכן בדימוי קדימה.
 
-יצחק המבוגר · adapted: בארץ עוד לא היה לנו בית משלנו, ולא עבודה קבועה.
+יצחק המבוגר · adapted: אמרו לנו שקשה להשיג דירה בארץ.
 
-We still had no home of our own there, and no steady work.
+We were told it was hard to find a home in the Land.
 
 ### B01V07-P48-03
 
 ים פתוח ממלא את רוב המשבצת האחרונה; השלושה נשארים יחד בפריים.
 
-לקורא · editorial: איך מתחילים מחדש כשעוד לא יודעים איפה נגור?
+יצחק המבוגר · quote: לא פחדתי משום איומים.
 
-How do you begin again when you do not yet know where you will live?
+I was not afraid of any threats.
 
 המשך יבוא.
 

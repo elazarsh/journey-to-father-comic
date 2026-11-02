@@ -1,0 +1,18 @@
+{
+  "target": "NEW-P43-tax",
+  "file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.png",
+  "web_file": "art/book1-v08-corrections/panels/NEW-P43-tax-family-proof-v02.webp",
+  "sha256": "179ba671b672229e6fbbb93b85c91431f5f4ad6f6463df9046bd682154e17e9d",
+  "web_sha256": "e4f7e3877ea2eea252e1c9e5ae2d92a32754a89365ed6a9f6aa256165d886c1e",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Second independent review: two visible legs on each chair and three visible legs on the table; wall portrait removed. Breakage subtle; check leg visibility after framing. Candidate for integration, not family approval.",
+  "created_utc": "2026-11-01T21:09:16.044505+00:00"
+}

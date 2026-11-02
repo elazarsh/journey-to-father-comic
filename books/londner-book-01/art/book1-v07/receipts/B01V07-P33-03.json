@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P33-03",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. DETAIL BIRD'S-EYE directly above recommendation documents from a youth movement spread on a wooden table, warm lamp light on paper. Paper bears faint abstract unreadable ink traces only; absolutely no readable characters or text. No people. Purpose: recommendations and approval in principle. Poland flat rolling countryside circa1916. If visible, Yitzhak is slender teenage16–17-year-old, narrow oval face, pronounced ears, natural brown eyes; age approved child into teen using youth photo continuity, never adult43. Keep essential content central70%, at least15% crop margin. Keep eyes/mouth clear, upper quiet space for later lettering. No text, readable characters/numbers, captions, drawn balloons/blank balloons, borders or collage. Respect camera distance.",
+  "tool_original_path": "/workspace/generated_images/exec-714a3cea-ca0f-4c2c-8511-51099e1dc81f.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed: bird/high view recommendation papers on wood in warm lamp; ink consists of illegible gestural traces, no readable words. Desk accessories reconstructed.",
+  "crop_caveats": "Source review only; polygon/live bubble not inspected. P33-02 head high-right: anchor crop to retain cap/face and upper-left sky. P33-04 thought area above head.",
+  "file": "art/book1-v07/B01V07-P33-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P33-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "4a8b70828ac170515713fa756b2ae763078acb0b8b88284435b9a7eabf3fc2a3"
+}

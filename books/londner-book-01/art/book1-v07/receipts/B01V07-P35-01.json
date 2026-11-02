@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P35-01",
+  "prompt": "LANDSCAPE 1536x1024. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. MEDIUM EYE-level: Yitzhak now young adult early20s in civilian clothes, holding a birth certificate with no readable writing. Younger siblings softly in background under warm home oil lamp, partial household only, no full family lineup or parents. Purpose: resourcefulness and responsibility, staying home using brother's certificate. His youthful face follows youth photograph; NOT a middle-aged man. Yitzhak is now early20s YOUNG ADULT, slender but grown, youthful clean-shaven narrow oval face, pronounced ears, natural brown eyes, restrained mouth; follow YOUTH PHOTOGRAPH for main facial identity, mature the illustrated child slightly. Do NOT render age43 middle-aged face; do NOT render small child in army. Plain early Polish army WWI/postWWI wool field tunic/cap when specified, no Nazi/WWII details. Keep eyes and mouths clear. Essential faces/hands/props central70% with15% crop margin, quiet upper third over indicated speaker. No text/readable characters/numbers, captions, drawn balloons or blank bubbles, borders/collage. Respect specified camera distance.",
+  "tool_original_path": "/workspace/generated_images/exec-2b36af9b-7da1-4d98-b4e2-511eb998562d.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed: youthful clean-shaven young adult holding certificate with no readable writing, civilian coat, warm home lamp, two younger siblings background (partial household, no parents). Narrow oval face/ears retained.",
+  "crop_caveats": "Source reviewed only. Actual v08 polygon/live lettering untested. Protect designated sky above commander in P35-04 and OTS figure in P35-03; do not auto-center away from small Yitzhak P35-02.",
+  "file": "art/book1-v07/B01V07-P35-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P35-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "d0f64ee8b3a997e3c0e4c5b131aa3b4da78bee5fd198b2e1a80cb4a05287d1b7"
+}

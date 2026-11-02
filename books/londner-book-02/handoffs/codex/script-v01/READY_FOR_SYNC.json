@@ -1,0 +1,151 @@
+{
+  "ready_for_sync": true,
+  "scope": "book2 only; completed review draft for family plot approval, no new illustrations",
+  "version": "0.2-reviewed-script",
+  "prepared_at_utc": "2026-10-31T04:43:02.228749+00:00",
+  "directory": "/workspace/londner-book-02",
+  "story_pages": 64,
+  "panels": 197,
+  "entrypoints": {
+    "reader": "book2-reader.html",
+    "overview": "index.html",
+    "script": "script-he.md",
+    "reading_text": "reading-text-he.md",
+    "editorial_review": "editorial-review.md",
+    "family_continuity": "family-continuity.md"
+  },
+  "checks": {
+    "python3 build.py": "passed",
+    "node verify_pagination.js": "passed with DOM stub",
+    "copied_sources_equal_book1_canonical": "all 173 source records matched"
+  },
+  "open_questions_file": "chronology-and-omissions.md",
+  "not_claimed": [
+    "No illustrations generated for book 2.",
+    "No browser visual QA, image masking, face-crop or final typography approval.",
+    "No child comprehension trial or guarantee against anxiety.",
+    "No final family approval of book 2 or unresolved chronology."
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 3150,
+      "sha256": "3f1c19abbd3bc4d1798d8d8541d533c71582d8c5bc24cf87cebfae3b2bc2f4e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2868,
+      "sha256": "dbe008f18e66a7c6fb04286abede574d07fde00a7c1825288702e9cea3f37d8a"
+    },
+    {
+      "path": "bereavement-direction.md",
+      "bytes": 1948,
+      "sha256": "75329b9d47e644b74a63497f4bf986dfd6323f1fc6ad076662f5ac9da19cde4e"
+    },
+    {
+      "path": "book2-reader.html",
+      "bytes": 241265,
+      "sha256": "9a7e6f8376e65829b7ece14b63bdf86442cfad7d6d72088dc88a44fad2d53307"
+    },
+    {
+      "path": "book2-script.json",
+      "bytes": 359344,
+      "sha256": "78791eb7598ba41fe2226294ab5b0563b395a6d2adc815e373425cd39ffeb192"
+    },
+    {
+      "path": "build.py",
+      "bytes": 12036,
+      "sha256": "1e7277fd8329c612ef710628b551f7b2e33c3974301f8350ca285d0383c5239a"
+    },
+    {
+      "path": "chronology-and-omissions.md",
+      "bytes": 5347,
+      "sha256": "56e82d1f632fa19b0b408ea9251c627787655ffc1f1902e25a604dcb3fc90d7a"
+    },
+    {
+      "path": "editorial-review.md",
+      "bytes": 3925,
+      "sha256": "b9b107b2dc2acf04d5e1d55c0b5704b5414b5c1bea9a2f51da4f4e3eedd106c8"
+    },
+    {
+      "path": "family-continuity.json",
+      "bytes": 8780,
+      "sha256": "5b40b3bda8cdd7c9a34713b7746598d9b8d0d05f1b34b70a0db63db59436a104"
+    },
+    {
+      "path": "family-continuity.md",
+      "bytes": 6741,
+      "sha256": "0bd625b5bd712ffdf8823f399c361403ab5784c726fb711d68f8ffdf7e2b6fdf"
+    },
+    {
+      "path": "family_data.py",
+      "bytes": 7258,
+      "sha256": "0d881f1108c4014b0a1086092874da635426b6d326dd182f62354242d6d51e85"
+    },
+    {
+      "path": "index.html",
+      "bytes": 241267,
+      "sha256": "89daa8fafeacd21ed9284500cb5cb5ea29c198882c25a1c6fb5bfe7184ceaef0"
+    },
+    {
+      "path": "navigation-qa-report.json",
+      "bytes": 216,
+      "sha256": "9b1a0a2edbbedb23cdd546381db34105714d7c23408fda2bec31c4c7606f96ae"
+    },
+    {
+      "path": "new-wording-registry.json",
+      "bytes": 91970,
+      "sha256": "68f4e7d53f82c8afa1579b440d068b8a8a1aeca8332fe64f799f40f207fd8602"
+    },
+    {
+      "path": "new-wording-review.md",
+      "bytes": 53431,
+      "sha256": "5f33e5a2fdf92d435c5719159446872ec2f746a9b278d8835d577e5a00afe82d"
+    },
+    {
+      "path": "qa-report.json",
+      "bytes": 1305,
+      "sha256": "04c6a13742b2127c264a853f5630c43bf0d769f08f96f01a58a100494e3d15e2"
+    },
+    {
+      "path": "reading-text-he.md",
+      "bytes": 17511,
+      "sha256": "d926c7cd03785dd7dfff1c725b0fcb1372b35176784e8acbbb0912783d8d9ca3"
+    },
+    {
+      "path": "research/source-pages.json",
+      "bytes": 331041,
+      "sha256": "14d3accdcee295ddcb83f20663886cac8f959cf9339cdcca91cd314fbc373830"
+    },
+    {
+      "path": "script-he.md",
+      "bytes": 88692,
+      "sha256": "bb880dc7b98ee76b4369ce92fa0cb296151d766ea1bda4c1c7cd0a3cac8ba018"
+    },
+    {
+      "path": "script_data.py",
+      "bytes": 70737,
+      "sha256": "83b4908f824d136f0922260ddd4ad25f8a95b645a4f4b995278eb98eb320a2b8"
+    },
+    {
+      "path": "series_data.py",
+      "bytes": 6779,
+      "sha256": "29c66679d7dc76cdbaa412c2cb69dee8aa50825fbc8532c5b5954d9123debefd"
+    },
+    {
+      "path": "source-excerpts.json",
+      "bytes": 85531,
+      "sha256": "c8462e064a8ca8b23ef8d7afbf969bade3011c0a5dd1f976a48b8ab398b02581"
+    },
+    {
+      "path": "template.html",
+      "bytes": 16946,
+      "sha256": "5269d4b3b4fc77f2990a89d6c1de97498bd5d20fe2f8cd2fe10733bc974e6bf0"
+    },
+    {
+      "path": "verify_pagination.js",
+      "bytes": 2449,
+      "sha256": "994133f2dec38324cabbaf609ad83df5f2500fca1ffe89bb32275b867ca47759"
+    }
+  ]
+}

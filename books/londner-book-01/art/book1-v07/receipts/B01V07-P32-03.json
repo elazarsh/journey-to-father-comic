@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P32-03",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. MEDIUM HIGH angle: inside a timber barn, sacks of grain, root vegetables and tied dried bundles stored for winter. No people. Ochre autumn barn light. Polish agricultural storage circa1916. Purpose: information and abundance, harvest kept for winter. Poland flat rolling countryside circa1916. If visible, Yitzhak is slender teenage16–17-year-old, narrow oval face, pronounced ears, natural brown eyes; use child and youth photo continuity, not adult face. Keep essential content central70% for15% crop margin. No lettering/readable characters/numbers, captions, drawn balloons, frames or collage. Respect camera distance exactly.",
+  "tool_original_path": "/workspace/generated_images/exec-88e7b3b7-bc43-4d0f-a372-17144b6a191b.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed: high angle barn harvest still life, grain sacks, root vegetables, dried bundles, autumn ochre light; zero people.",
+  "crop_caveats": "Source review only; final v08 polygon/lettering not inspected. Preserve plough blade or small figure per panel; do not automatically center on background heads.",
+  "file": "art/book1-v07/B01V07-P32-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P32-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "f20de896d413da0a6886346dc4a96caa35230d2f0fec9a9544721d395d0fcad7"
+}

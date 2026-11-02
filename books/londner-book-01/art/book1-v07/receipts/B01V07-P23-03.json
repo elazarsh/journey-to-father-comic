@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P23-03",
+  "prompt": "PORTRAIT canvas1024x1536. CLOSE-UP at eye level of TWO brothers sitting close side by side in modest early1900s Polish room. Yitzhak late childhood about12 at LEFT, approved narrow oval face, natural small brown eyes, pronounced ears, recognizable nose bridge and restrained mouth, dark cap, plain dark period coat. His eldest brother CHAIM at RIGHT, clearly much older, a MARRIED young adult about23–28, taller adult build, subtle short dark beard, dark kippah and period coat; he is the brother NOT father (do not copy grey-bearded father). Chaim's one natural caring hand rests visibly on Yitzhak's near shoulder. Quiet grief, both sad and composed; the older brother leans toward boy protectively, no smiling performance or theatrical sobbing. Soft warm afternoon light returning to faces against cool blurred plaster. Tight intimate two-face composition but BOTH HEADS ENTIRELY VISIBLE at y30–50%, hand at y59%; all crucial faces mouth and hand within central70% width and55% height with15% crop margins. Calm pale upper wall for live reassurance caption. The scene makes visible the family care after parents' deaths, absolutely no child alone, no corpses, graves, ghost imagery or suspense. Dramatic pastoral literary graphic novel, watercolor and opaque gouache, visible fine brushwork, natural expressive faces, atmospheric soft edges, restrained warm grey and amber, no cute enlarged eyes, no photographic skin or3D. One scene, no lettering, balloons, frames, collage or watermark. Reference ONLY Yitzhak's identity, age him gently to late childhood.",
+  "refs": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-f75257a8-c2bd-401b-99ec-faf732cc4de0.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Quiet sad close two-shot with correctly older adult brother Chaim visibly caring for Yitzhak. Natural likeness and soft light retained.",
+    "crop_issues": "Caring hand reaches left source edge and Chaim head starts near10%; use full-source fit/zoom1.0 and protect hand; do not claim15% overscan achieved. Root exact-mask review required."
+  },
+  "file": "art/book1-v07/B01V07-P23-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P23-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "261230afbc8f6bf26f89c365094ce27dc97036a20c32ade2e450bd61e5df393c",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "crop_notes": "Caring hand reaches left source edge and Chaim head starts near10%; use full-source fit/zoom1.0 and protect hand; do not claim15% overscan achieved. Root exact-mask review required."
+}

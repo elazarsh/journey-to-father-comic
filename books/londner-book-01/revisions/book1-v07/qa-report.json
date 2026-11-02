@@ -3,14 +3,14 @@
   "physical_pages_provisional": 52,
   "scene_sequences": 8,
   "panels": 187,
-  "text_blocks": 167,
-  "words_he": 1316,
-  "max_page_words_he": 38,
-  "max_text_block_words_he": 14,
-  "silent_action_panels": 24,
-  "literal_quotes_verified": 4,
-  "adapted_documented_thought": 3,
-  "adapted_reported_speech": 9,
+  "text_blocks": 165,
+  "words_he": 1385,
+  "max_page_words_he": 47,
+  "max_text_block_words_he": 22,
+  "silent_action_panels": 26,
+  "literal_quotes_verified": 8,
+  "adapted_documented_thought": 1,
+  "adapted_reported_speech": 10,
   "designed_page_turn_pairs": 7,
   "checks": {
     "exactly_three_volumes": true,
@@ -26,10 +26,7 @@
     "all_text_has_hebrew_and_english": true,
     "page_turn_pairs_not_on_same_provisional_spread": true,
     "no_long_dashes_in_hebrew": true,
-    "all_panel_ids_unique_and_separate_from_old_manifest": true,
-    "planned_frames_inside_canvas": true,
-    "planned_frames_do_not_overlap": true,
-    "javascript_navigation": "passed using DOM stub"
+    "all_panel_ids_unique_and_separate_from_old_manifest": true
   },
   "not_claimed": [
     "No child-reader comprehension study.",
@@ -49,5 +46,5 @@
     "all_have_crop_and_quiet_zone": true,
     "actual_image_crop_review": "pending generation"
   },
-  "generated_assets": 38
+  "generated_assets": 71
 }

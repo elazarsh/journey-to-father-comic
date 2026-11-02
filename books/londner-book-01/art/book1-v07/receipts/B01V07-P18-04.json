@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P18-04",
+  "prompt": "PORTRAIT canvas1024x1536. Completely recompose the reference scene as a WIDE OVER-THE-BOY'S-SHOULDER view in same early1900s hospital. Foreground lower-right: back of seated boy's dark flat cap, ear and cream nightshirt shoulder, checked blanket edge. He turns toward the far OPEN WARD DOOR at x46%,y44% where his father has just entered, standing small in bright doorway backlight with dark coat, kippah, dark beard streaked grey, modest travel bag. Father is NOT seated at bedside. The room has cream iron beds and blue-green plaster. Strong diagonal depth from boy foreground to father background, feeling of relief and joy. Father's full head around y42%, boy cap around y60%; both within x30–70% so portrait polygon cropping protects them. Calm blue wall above. Keep recognizable faces as in reference but the father's smiling face is distant. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P18-04.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-8fef9b13-5b94-42f0-b28e-588ab332e6ef.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "True over-shoulder depth composition; boy foreground turns to father standing in backlit open doorway. Natural joyful face and period ward continuity.",
+    "crop_issues": "Boy near right edge intentionally seen from back; father central. Browser crop may trim foreground shoulder, safe.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P18-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P18-04.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "bbb2c5492ddfc071334ffe3d8f462f0ab8303108f9150c6a1ac8e3cec8e507bf",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "B01V07-P37-03",
+  "source_path": "/workspace/generated_images/exec-149c59ed-8084-49a1-96be-f5ff0dc91555.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE PORTRAIT1024x1536, close DETAIL at eye level of a worn early1920s Polish military wool coat and soft military cap hanging together on a wooden peg on the plaster wall of a modest Polish Jewish home. NO PEOPLE, no faces or hands. Warm amber indoor lamp light, tactile fabric, simple quiet room corner, coat visibly unused after discharge. The coat and cap follow period material/shape in supplied photo without drawing readable marks. Peg and cap in upper-middle40% height, coat fills middle-lower central60% image. Calm wall left/top for later caption. At least15% overscan. Purpose: civilian transition, service over, not a portrait. One continuous rectangular illustration, no lettering, balloons, circles or borders.",
+  "tool_source": "image_gen__imagegen",
+  "tool": "image_gen__imagegen",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-149c59ed-8084-49a1-96be-f5ff0dc91555.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [
+    "ref/S08-img013.jpg"
+  ],
+  "references": [
+    "ref/S08-img013.jpg"
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "Coat and military cap hang unused on peg; warm interior lamp light, no people. Correct object-only transition.",
+    "lettering": "Upper-left wall quiet.",
+    "limits": "Actual polygon/caption QA pending."
+  },
+  "crop_issues": [],
+  "previous_source_review": "Old source was street portrait; replaced for object-only v08 direction.",
+  "file": "art/book1-v07/B01V07-P37-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P37-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b81e3094f676f98e7a9bd15ea745c13a5a855bff942e797645387d050ccf8d8e",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

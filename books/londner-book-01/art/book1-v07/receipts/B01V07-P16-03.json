@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P16-03",
+  "file": "art/book1-v07/B01V07-P16-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P16-03.webp",
+  "source_path": "/workspace/generated_images/exec-eb951341-fb7f-49ab-8887-0e3ac0d6ed57.png",
+  "tool_source_path": "/workspace/generated_images/exec-eb951341-fb7f-49ab-8887-0e3ac0d6ed57.png",
+  "prompt": "VERTICAL PORTRAIT 2:3. ONE dramatic pastoral literary graphic novel watercolor and gouache illustration with selective fine ink, restrained natural faces and tactile period surfaces. WIDE SHOT FROM VERY HIGH ABOVE, camera beside the top of the SAME nearly three-metre tall sage-green tiled masonry stove as reference, looking DOWN along its immense rectangular column into an early-1900s Vienna hospital room. Stove dominates left foreground and rises almost to camera; its simple broad top cornice holds the SAME intact small worn dark-brown closed prayer book, clearly safe OUTSIDE on top, no title or symbols. Far below on the grey-blue tiled floor stands the small approved boy, narrow oval face with pronounced ears, dark cap tan band, charcoal buttoned shirt and simple shorts, pale clean bandages covering his feet; he is motionless looking UP from a safe distance, arms DOWN by his sides. His whole small figure about20percent image height near lower-middle, protected withinx0.40–0.70 y0.52–0.78. NO stretching, reaching, climbing, ladder, chair to stand on, retrieval or helper. The dramatic scale contrast explains he cannot reach the book. Show a little white iron bed and pale cabinet in room, blue-grey plaster wall, cool afternoon light, generous calm ceiling/wall upper-right for external caption. Complete book and boy safely inset from edges. No fire, flames, smoke, danger, wounds or medical procedure. ONE scene only, no text, lettering, signs, balloons, borders, panels, collage, religious crosses or watermark.\n",
+  "references": [
+    "art/book1-v07/B01V07-P16-02.png",
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P15-02.png"
+  ],
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b3ab3a429869d76c2fe986175f03998c2703a7cd0e4daf8dbc9274d3feae9754",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "High wide view down same sage-green stove: intact brown book on outside top at upper-left, small boy far below looking up with arms down, both feet bandaged. No reaching, climbing, retrieval, fire, smoke or helper. Room and iron bed consistent with hospital, boy cap/face/shirt preserved. Strong height contrast adds information beyond prior low book detail. Source book is upper-left nearx0.05; retain zoom1.0 and inspect triangular mask before increasing zoom to1.15.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

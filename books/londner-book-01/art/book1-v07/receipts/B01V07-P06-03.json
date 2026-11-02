@@ -1,0 +1,45 @@
+{
+  "id": "B01V07-P06-03",
+  "file": "art/book1-v07/B01V07-P06-03.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+  "file_bytes": 2709535,
+  "prompt": "PORTRAIT 1024x1536. Localized age correction to this exact selected watercolor. Preserve composition, dark blue shirt and cap with pale stripe, table, both empty hands resting on table, dim classroom background and other blurred boys, half-shadow on his face, slightly open mouth and hurt/puzzled expression. Change ONLY Yitzhak's apparent age from ten to about FIVE: a much smaller softer rounder young child's face, shorter lower face, softer jaw, child proportions, and smaller smooth short-fingered hands. Preserve identity: narrow oval structure, brown eyes, pronounced ears, recognizable bridge of nose, restrained mouth, same cap. Do not enlarge eyes unnaturally or make a generic cute baby. Young child looks just after answering a question, empty hands, no coin. Preserve headroom and wall space above cap. Natural painterly watercolor/gouache with fine ink matching source. No lettering, no bubbles, circles, borders or other additions; one scene.",
+  "source_path": "/workspace/generated_images/exec-f9d2b9e2-fa6e-46cc-9de2-59ad0737da47.png",
+  "reference_paths": [
+    "art/book1-v07/web/B01V07-P06-03.webp"
+  ],
+  "reference_archived": "art/book1-v07/variants/v08-before-review-fix/B01V07-P06-03.webp",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": true,
+  "review_fix": {
+    "id": "B01V07-P06-03",
+    "verdict": "fix",
+    "issue": "Yitzhak looks about 9-10, not about five; otherwise expression, open mouth, hands on table and shade are right.",
+    "instruction": "Keep everything (composition, cap, shirt, hands on table, half-shadow, hurt puzzled expression), change only: make Yitzhak about five years old: smaller, rounder child's face and hands, same narrow oval face shape, brown eyes and pronounced ears."
+  },
+  "shot": {
+    "shot": "close-up",
+    "angle": "eye",
+    "subject": "yitzhak",
+    "light": "dim shade"
+  },
+  "visual_review": {
+    "single_scene": true,
+    "no_text_or_bubbles": true,
+    "specific_review": "Boy now reads as about five with shorter rounder soft child face and smaller smooth hands. Same brown eyes pronounced ears cap shirt half-shadow and hurt puzzled open mouth retained. Hands empty on table; no added coin or gesture. Central face and cap have headroom; final mask pending.",
+    "composition": "Original selected Claude composition retained; only specified review corrections applied.",
+    "limitations": [
+      "No final browser mask or lettering approval."
+    ]
+  },
+  "crop_status": "Source visually reviewed, actual v08 panel mask and zoom 1.00–1.15 pending root review.",
+  "web_file": "art/book1-v07/web/B01V07-P06-03.webp",
+  "web_sha256": "27a6078f8925aae252c3d3a28ad8240467c77531d3418d85059bbffabce0fc0a",
+  "recorded_at_utc": "2026-10-31T04:54:51.639893+00:00"
+}

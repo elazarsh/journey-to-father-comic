@@ -1,0 +1,26 @@
+{
+  "id": "opening-dedication-background-v01",
+  "kind": "opening-background",
+  "target": null,
+  "prompt": "Create ONE luminous, beautiful portrait 2:3 background painting for the dedication page of a real family graphic novel. The live words over it will say a grandfather wrote his memoir for his children and descendants; DO NOT render any writing. An intimate simple Israeli home writing corner around1971, no people needed: a modest wooden table along lower20% with a closed worn cloth notebook and ordinary pen, sunlit window on far right overlooking soft green leafy garden, gentle cream wall carrying reflected leaf shadows, gauzy curtain at edge, a small vase or potted sprig near window. The CENTER and upper-left65% is a naturally luminous calm warm ivory/cream plaster wall with subtle watercolor texture and warm reflected light, suitable for dark readable Hebrew/English live text. It must feel like a real warm lived-in place, NOT a black blank page, NOT an empty white rectangle, no heavy black vignette, no flat brown murk. Dramatic pastoral watercolor/gouache historical graphic novel painting, warm honey daylight and soft sage/teal shadows, tender inviting mood, restrained props, no spoilers about the story, no maps, ships, army or events. Keep essential notebook and window details inside 12% crop margin, readable quiet center. No letters, text, labels, photographs, balloons, frames or watermarks.",
+  "transparent": false,
+  "file": "art/book1-v08-corrections/extras/opening-dedication-background-v01.png",
+  "web_file": "art/book1-v08-corrections/extras/opening-dedication-background-v01.webp",
+  "sha256": "aff81e4c5fb5371329c14978691543394f64b6b35e8b6ccea3457ab4d52be3b9",
+  "web_sha256": "1ef72a192b9bd84f17ceb903f6e178241451233f2fdf8b7d13b11258f1fb9eac",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-ed140a64-bf9e-469d-9f06-c41fb03a5bc5.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [],
+  "status": "generated-candidate-for-Claude-integration",
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:02:38.464888+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

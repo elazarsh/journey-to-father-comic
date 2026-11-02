@@ -15,5 +15,9 @@
     1024
   ],
   "sha256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
-  "browser_qa": "not performed"
+  "browser_qa": "not performed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "v08_source_review": "Accepted existing Claude v08 replacement after direct visual inspection. Exterior extreme-wide town roofs in cold blue dusk, single warm window containing small reading boy, sky and roofs dominate. Meets evening exterior redirection; no regeneration necessary.",
+  "v08_review_action": "accepted existing replacement without regeneration"
 }

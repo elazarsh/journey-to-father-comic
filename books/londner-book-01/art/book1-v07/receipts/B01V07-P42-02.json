@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P42-02",
+  "file": "art/book1-v07/B01V07-P42-02.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. EXTREME WIDE LOW ANGLE view of1920s Palestine Office in Warsaw, imposing high-ceilinged room with tall shelves of files, high clerk's wooden counter deep center-right and huge arched windows casting cool office light. Yitzhak is SMALL full figure waiting center-left at tall desk, holding worn closed document folder, dark suit waistcoat and cap; middle-aged clerk small behind raised desk. Architectural scale dominates, no other scenes, no readable signs or paper lettering. Principal figures desk interaction central65% for crop. Light cool formal institutional grey-brown. This is a human dwarfed by bureaucracy, different from medium home discussion.",
+  "tool_source_path": "/workspace/generated_images/exec-bc22f8ac-3a5c-4095-b2b3-f20e728637a1.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Low extreme-wide institutional hall, Yitzhak small before tall clerk desk, no readable signage.",
+  "crop_caveats": "Source visually reviewed; final polygon/15% zoom and bilingual lettering placement unverified.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "f35324db8c8982655e8e7337203fb38efdc667c68b8ea03adb1ae3c36e2cf33d",
+  "web_file": "art/book1-v07/web/B01V07-P42-02.webp"
+}

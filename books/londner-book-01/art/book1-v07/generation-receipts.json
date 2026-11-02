@@ -83,6 +83,38 @@
     "web_sha256": "1102a444fe178f245efd5f760bc1618ccf12895f9e17ed485e2df160c7b3412d"
   },
   {
+    "id": "B01V07-P02-01",
+    "source_path": "/workspace/generated_images/exec-27846241-2e11-4365-81fb-16b08f724cff.png",
+    "prompt": "A single top-down close view of elderly Yitzhak's RIGHT hand in brown jacket/cream shirt cuff with a dark pen about to touch the open blank memoir notebook on his modest wooden desk, matching the approved reference's clothes, warm electric lamp light and painterly style. Only one hand, pen, open paper and wood; no face or extra people. Compose as a gentle transition image before the story moves into his childhood: the pen tip and blank paper are the focus, NOT a drawing of a street on the page, no collage or split screen. Dramatic pastoral watercolor/gouache and fine selective ink, warm amber and soft cool shadow. Portrait 1024x1536 for a nearly square 0.94:1 later crop. Pen tip, all fingers and central book fold within central 55% width and middle 50% height. Upper-left quiet blank paper or softly blurred wall, ample 15% overscan. Absolutely no readable letters, numbers, signatures, bubbles, borders, watermark or panel frame. ONE continuous scene.",
+    "reference_paths": [
+      "art/book1-v07/B01V07-P01-01.png"
+    ],
+    "status": "generated-reviewed",
+    "visual_review": {
+      "scene_fidelity": "One aged hand/pen on blank notebook, overhead transition shot, no street drawn onto paper and no collage.",
+      "quiet_lettering": "Upper-right wood field is quieter than upper-left lamp; recommend caption zone [48,5,45,18] for this asset.",
+      "suggested_lettering_zone": [
+        48,
+        5,
+        45,
+        18
+      ],
+      "crop_notes": "Hand, pen tip and book center protected; final near-square crop can trim outer desk/lamp.",
+      "anatomy": "Natural five-fingered writing hand.",
+      "no_text_or_bubbles": true
+    },
+    "file": "art/book1-v07/B01V07-P02-01.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "0b9bd1d5564d532412ad69188fb1dc3499923fcb066e38f3d97dddb12d6d5cd3",
+    "file_bytes": 2892607,
+    "recorded_at_utc": "2026-10-30T12:23:04.911426+00:00",
+    "web_file": "art/book1-v07/web/B01V07-P02-01.webp",
+    "web_sha256": "b4b397d55d8b84ec10851c77bce4bea746813737622076736da4684abd2ec817"
+  },
+  {
     "id": "B01V07-P02-02",
     "source_path": "/workspace/generated_images/exec-40b02952-2dad-4c0a-a3bf-e6eeebe69146.png",
     "prompt": "A new single illustration for a historical family graphic novel: Yitzhak as a SMALL boy about FOUR YEARS OLD in a Polish town around 1904. Use the FIRST reference solely for approved facial identity, age him down naturally: same narrow oval facial family, noticeable ears, natural brown eyes, longish natural nose and restrained mouth, but clearly a preschool child rather than the 9–11-year-old model. Small child proportions, not huge cartoon eyes. Dark flat cap on head, simple clean charcoal button shirt, dark shorts/trousers and modest period shoes, neat cared-for clothes not rags. He stands in a quiet cobbled small-town street, looking curiously toward a shop just out of frame. No companion or other identifiable children. Warm autumn daylight and muted blue shadows, old plaster-and-timber shop buildings softly blurred behind; no recognizable real address claimed. Use the SECOND reference only for painterly style/material palette. Portrait 1024x1536: entire small boy including cap and shoes within central 60% width and middle 55% height, face around x65% y42%, body compact with ample environment/overscan. Upper-left 45% width by 25% height is quiet pale plaster/sky for later caption. Dramatic pastoral watercolor/gouache, selective ink, cinematic gentle light. NO readable signs, text, letters, bubbles, borders, collage, watermark, no flags or modern cars. ONE continuous scene.",
@@ -169,6 +201,123 @@
     "recorded_at_utc": "2026-10-30T12:12:30.985809+00:00",
     "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
     "web_sha256": "e224acaf8fe4fd08cf4bc65795fa48a6d8380d04fd51d973f1f514b8f7d3960a"
+  },
+  {
+    "id": "B01V07-P03-02",
+    "source_path": "/workspace/generated_images/exec-d10bac5a-9694-43df-a972-4dac66d60825.png",
+    "prompt": "Make ONE tiny correction to this exact small early-1900s religious Jewish family room: remove the small framed human/icon-like picture hanging on the LEFT wall inside the room, above the little shelf. Replace that one rectangle with bare matching plaster wall, no image, no emblem, no religious symbol. Preserve absolutely all other architecture, doorway, furniture, window, light, colors, bread, blankets, viewpoint and painterly texture. Do not add people or change the room size. No text, lettering, bubbles, borders or watermark.",
+    "original_prompt": "Create a single close establishing view THROUGH THE RIGHT-HAND INTERIOR DOOR of this exact reference shop, into its tiny adjoining living room. Preserve the same doorway, modest plaster, light and furniture glimpsed in the reference. Early-1900s Polish Jewish family's cramped but meticulously cared-for room, about 3 by 2 meters: compact wooden table and a few simple chairs by the one small window; narrow bed at left rear, another small sleeping place tucked alongside, a wooden storage chest and modest buffet fitted tightly against walls, folded clean linen. Show how small and efficiently packed it is, not a large cottage room, no luxury, no destitution or torn fabrics. No people, no baby, no added siblings. A sliver of leather merchandise in the foreground links the room to the shop, not a separate building. Warm daylight, simple bread and water jug on table if visible, safe warm ordinary home. Dramatic pastoral literary watercolor/gouache matching reference with selective ink and cinematic amber/muted blue. Portrait 1024x1536 with doorway and domestic essentials in central 60% width and middle 55% height. Broad subdued upper-left plaster/door shadow quiet for live caption. Generous margin for cropping. No text, letters, labels, bubbles, border, collage or watermark. ONE scene.",
+    "reference_paths": [
+      "art/book1-v07/variants/B01V07-P03-02-before-wall-picture-removal.png"
+    ],
+    "original_reference_paths": [
+      "art/book1-v07/B01V07-P03-01.png"
+    ],
+    "status": "generated-reviewed",
+    "visual_review": {
+      "scene_fidelity": "Tiny cared-for living room through shop interior doorway. Compact table, beds/linens/chest, no people or baby. Matches P03-01 inner-room light/furniture.",
+      "correction": "Removed unrequested human/icon-like wall picture to avoid invented religious imagery in Jewish household.",
+      "quiet_lettering": "Upper doorway/plaster field has no faces; use caption background as needed.",
+      "crop_notes": "Domestic essentials centered; outer doorway/leather sliver may crop. Final parent mask/lettering review required.",
+      "no_text_or_bubbles": true
+    },
+    "file": "art/book1-v07/B01V07-P03-02.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "372d42f23f7abae63f48b20123e6a06af2b5cc8587aedd788bb9d9ba6f49a600",
+    "file_bytes": 2404712,
+    "recorded_at_utc": "2026-10-30T12:24:27.091419+00:00",
+    "web_file": "art/book1-v07/web/B01V07-P03-02.webp",
+    "web_sha256": "39b8108b461af6ca25519206b4cb38c144ac22fff187ac6fee32951b0d417f27"
+  },
+  {
+    "id": "B01V07-P03-03",
+    "source_path": "/workspace/generated_images/exec-1e28e93d-1921-45f1-8b73-eda7174d913b.png",
+    "prompt": "One continuous close domestic scene in this SAME tiny adjoining room, around 1904 in a Polish Jewish home. Use references for room continuity, the mother in navy headscarf/blue dress, father with dark kippah/cream shirt/dark vest, and the small boy Yitzhak about four. Show a modest but SUFFICIENT ordinary meal: clean simple bowls of soup or cooked vegetables, bread, water jug, carefully set utensils, a neatly patched/folded shirt on a chest at back. No grand feast and no starving/ragged children. Frame only PART of the household: mother and father partly seen at table, small boy Yitzhak and one older girl Chava with their bowls lower in the picture; exactly two adults, one boy and one girl in the visible crop, no baby, no eight-child group. Faces are quiet natural proposed supporting portraits, not a new historical identification. Dramatic pastoral watercolor/gouache, selective ink, cinematic warm domestic amber with muted blue shadows, dignity and sense of enough despite cramped space. Portrait 1024x1536; all four faces/hands/bowls clustered in central 60% width and middle 55% height. Upper-left plaster should stay quiet and low-detail for a live caption; keep faces on middle-right and below caption. 15% overscan. NO text, readable letters, speech bubbles, borders, collage, icons or watermark.",
+    "reference_paths": [
+      "art/book1-v07/B01V07-P03-01.png",
+      "art/book1-v07/B01V07-P03-02.png",
+      "art/book1-v07/B01V07-P02-02.png"
+    ],
+    "status": "generated-reviewed",
+    "visual_review": {
+      "scene_fidelity": "Ordinary sufficient family meal in cramped cared-for room, not feast or deprivation; two adults, small Yitzhak boy and one older girl only.",
+      "family_count": "Exactly two adults, one boy, one girl; partial family crop, not all eight children.",
+      "quiet_lettering": "Upper-left wall clear above Father’s head. Prefer source [4,3,44,20].",
+      "suggested_source_lettering_zone": [
+        4,
+        3,
+        44,
+        20
+      ],
+      "crop_notes": "Faces central band; oval mask can trim foreground table/outer father shoulder but must preserve four faces.",
+      "no_text_or_bubbles": true
+    },
+    "file": "art/book1-v07/B01V07-P03-03.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "aacdebeb24f9eaf00c90cd68814903a225cc6f2fc2df94d60396fe4c5c19bfe2",
+    "file_bytes": 2657939,
+    "recorded_at_utc": "2026-10-30T12:30:42.653214+00:00",
+    "web_file": "art/book1-v07/web/B01V07-P03-03.webp",
+    "web_sha256": "c0c4c1ac661932220a31ec413d61b459c5385526803768a764386ec87932b55c"
+  },
+  {
+    "id": "B01V07-P03-04",
+    "source_path": "/workspace/generated_images/exec-afaf95b9-5b77-4da9-9a42-74213db3454e.png",
+    "prompt": "A single close-up of the MOTHER'S HANDS carefully folding a small clean child's charcoal shirt on a simple wooden chest/table inside the same cramped early-1900s Polish Jewish shop/home. Mother wears the same modest blue patterned dress as center woman in reference; only hands, sleeves and a small edge of torso visible, NO face or added people. One small neatly sewn button and a neatly repaired pocket show care, without depicting a sewing action yet. Tidy linen and the soft outline of leather shelves in the background tie it to the family shop. Warm daylight and tender ordinary dignity, not luxury or deprivation. Dramatic pastoral literary watercolor/gouache, fine selective ink, amber/muted blue matching reference. LANDSCAPE 1536x1024 for a 1.53:1 panel. Hands, folded shirt and chest central 60% width and middle 55% height, natural five fingers, generous overscan. Upper-left 45% width by 25% height softly blurred and low-detail for later live narration. NO letters, readable labels, bubbles, frames, collage, icons or watermark. ONE scene.",
+    "reference_paths": [
+      "art/book1-v07/B01V07-P03-01.png"
+    ],
+    "status": "generated-reviewed",
+    "visual_review": {
+      "scene_fidelity": "Mother’s hands fold child shirt with visible neat repair; no invented face, same shop/home. Source-informed domestic-care staging.",
+      "quiet_lettering": "Upper-left softly blurred background, no faces; caption may overlay nonessential shelves.",
+      "crop_notes": "Hands and repaired shirt centrally protected; lower box edges can trim.",
+      "anatomy": "Natural hands, no obvious extra fingers.",
+      "no_text_or_bubbles": true
+    },
+    "file": "art/book1-v07/B01V07-P03-04.png",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "526f6d0734b05ed427932e9a861de5cb55a6f1fed790ca7de31bc5cc96e5b9cb",
+    "file_bytes": 2492616,
+    "recorded_at_utc": "2026-10-30T12:30:43.142876+00:00",
+    "web_file": "art/book1-v07/web/B01V07-P03-04.webp",
+    "web_sha256": "8bc575b6a674ed95105cbc4cc67038c8975af6ee816c613aee3b41d3318e0745"
+  },
+  {
+    "id": "B01V07-P04-01",
+    "source_path": "/workspace/generated_images/exec-203fb9d0-6e66-473e-a7a1-ddb3fe8f7feb.png",
+    "prompt": "One single LANDSCAPE 1536x1024 illustration of this EXACT same leather-and-supplies shop at NIGHT as it is being prepared for sleeping, BEFORE the three children lie down. Same left shelves, low counter, tall blue-and-white tiled stove back center, interior door right to tiny room. Front exterior door is out of view and shop is closed; no street customers. Merchandise neatly stored. Chaim, one older teenage boy in a modest cream shirt and dark kippah, seen mostly from back/side, rolls out a tidy low mattress and folded blankets on the cleared shop floor. Only ONE boy visible; no other people in this frame, no baby, no added siblings. Do NOT copy the sleeping children from reference into this preparation frame. This is ordinary domestic preparation showing that the shop becomes a sleeping room, not a workshop or desolate warehouse. Warm amber oil-lamp light and deep indigo, safe cared-for atmosphere. Dramatic pastoral watercolor/gouache, selective ink and cinematic light, match references' architecture/materials. Essential hands, mattress and boy central 60% width and middle 55% height, 15% overscan. Upper-left plaster/shadow broad quiet low-detail area for live caption, no face there. No text, bubbles, borders, collage, icons or watermark.",
+    "reference_paths": [
+      "art/book1-v07/B01V07-P03-01.png",
+      "art/book1-v07/B01V07-P04-02.png"
+    ],
+    "status": "generated-reviewed",
+    "visual_review": {
+      "scene_fidelity": "Same shop/night, one older boy Chaim rolls bedding, not a cobbler; no other visible people.",
+      "family_count": "One older boy, no baby, partial scene only.",
+      "quiet_lettering": "Upper-left plaster above shelving has a clear caption field, face below middle.",
+      "crop_notes": "Hands, bedroll and head centered; landscape crop can trim rug foreground.",
+      "no_text_or_bubbles": true
+    },
+    "file": "art/book1-v07/B01V07-P04-01.png",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "ea6fa9deac38ea890c9f95bed7f593172a52ffefc89161b02d90508d84ff263a",
+    "file_bytes": 3121822,
+    "recorded_at_utc": "2026-10-30T12:30:43.636892+00:00",
+    "web_file": "art/book1-v07/web/B01V07-P04-01.webp",
+    "web_sha256": "6785fe746542084cc65e28554e2199d657b2b80f4d1e8844a59f7a05a4b38f52"
   },
   {
     "id": "B01V07-P04-02",
@@ -388,6 +537,116 @@
     "browser_qa": "not performed"
   },
   {
+    "id": "B01V07-P10-03",
+    "source_path": "/workspace/generated_images/exec-2ca69d22-eba0-43ec-9d01-f2887ffdc28d.png",
+    "prompt": "ONE portrait 2:3 continuous painterly watercolor/gouache graphic-novel illustration, dramatic pastoral warm domestic light. Same tidy Jewish home and bed as reference, early-1900s Poland. The saved folded newspapers have now reached the boy's bedside: an anonymous adult hand places a small folded stack on the bedside wooden board; the boy's small hand reaches to receive it. Only hands, folded paper, board and cream bed linen in frame; no face necessary. Newspaper-like paper has faint printed column textures, absolutely no readable words, date, title or actual letters. Keep both hands and paper centered in middle-lower half, important props within central 60%, generous margins for an oval crop. Upper-left quarter quiet softly blurred cream linen reserved for live narration. Do not invent a named visitor, delivery conversation or gift wrapping. Single scene, no caption, bubble, border, collage, Christian icon or watermark.",
+    "references": [
+      "art/book1-v07/B01V07-P08-04.png"
+    ],
+    "source_visual_review": "Newspapers reach bedside as anonymous hands pass small folded stack; no invented visitor identity. Cream home linen and bed match the sequence. Print is texture only. Upper-left wall/linen quiet; hands and paper stay center.",
+    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+    "status": "generated-source-reviewed",
+    "file": "art/book1-v07/B01V07-P10-03.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "98e4ba9861c14d5110b52543800dde57a9c8d40a5875e2b0c4403c84ec6ed0b6",
+    "browser_qa": "not performed"
+  },
+  {
+    "id": "B01V07-P10-04",
+    "source_path": "/workspace/generated_images/exec-974d3026-1bf7-44d5-9361-2b67e3843002.png",
+    "prompt": "ONE landscape 3:2 continuous literary graphic-novel illustration, watercolor and gouache with fine selective ink, dramatic pastoral warm amber plus pale blue light. Same approved narrow-faced boy in dark cap and charcoal shirt sits propped up in the same clean home bed, both feet still bandaged. He reads a large old newspaper with absorbed curious expression, paper resting partly on a simple wooden lap-board so his entire face is visible above it. Newspaper surface has only soft non-readable print texture, no actual readable words or headings. Use approved brown eyes, ears, nose, restrained mouth. Boy and paper in center-right/lower-middle; keep face below 30% of height and far from upper-left quarter. Broad plain pale wall upper-left for live narration and at least 18% overscan around head, hands, paper and feet. No other people, invented dialogue, thought bubble or fantasy scene. No text, borders, collage, crosses, religious wall icons or watermark.",
+    "references": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P08-04.png"
+    ],
+    "source_visual_review": "Boy reads in the same bed; approved face visible above paper, both feet bandaged, absorbed calm expression. No readable newspaper title/text. Pale wall top-left clear of face and hands. Room continuity follows P08-04.",
+    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+    "status": "generated-source-reviewed",
+    "file": "art/book1-v07/B01V07-P10-04.png",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "b4b945894dc91539c67b45190dcd5ed00f7d3d586abe50c31f681f0263362237",
+    "browser_qa": "not performed"
+  },
+  {
+    "id": "B01V07-P11-01",
+    "source_path": "/workspace/generated_images/exec-7fd22aad-2640-4441-a1ea-e0d08d69fc90.png",
+    "prompt": "ONE portrait 2:3 painterly watercolor/gouache literary graphic-novel illustration, dramatic pastoral warm amber/blue domestic light. Same approved narrow-faced later-childhood Jewish boy, dark cap and charcoal shirt, in the same early-1900s Polish home bed as reference, both feet bandaged under blanket. He reads an old newspaper, now pausing with slight puzzled curiosity, one fingertip following a print column. Keep entire face visible above newspaper and do not exaggerate eyes. Newspaper has non-readable column textures only, no real words or headline. Boy and paper occupy center-right/middle-lower image. Broad plain pale wall in upper-left and top third for future narration, at least 18% overscan around head/hands. No fantasy war, no map, no invented person or promise. No captions, bubbles, frames, collage, crosses, religious wall icons or watermark.",
+    "references": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P08-04.png"
+    ],
+    "source_visual_review": "Approved boy pauses puzzled over newspaper; face visible, no exaggerated eyes, same bed/clothes and both bandaged feet. Large upper-left wall clear. Newspaper print non-readable texture only.",
+    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+    "status": "generated-source-reviewed",
+    "file": "art/book1-v07/B01V07-P11-01.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "622670ece1863483c3085876945362b72948082af34f617fdf8593f367cafb87",
+    "browser_qa": "not performed"
+  },
+  {
+    "id": "B01V07-P11-02",
+    "source_path": "/workspace/generated_images/exec-58ca776a-fad7-4330-b6d1-f834c1024105.png",
+    "prompt": "ONE portrait 2:3 continuous watercolor and gouache historical graphic-novel scene, dramatic pastoral warm amber and blue light, selective fine ink. The approved boy in his familiar tidy home bed, early-1900s Polish Jewish home, dark cap, charcoal shirt and clean cream blanket with bandaged feet. He turns from the newspaper on his lap toward his father, who sits beside the bed on image left in three-quarter-back view, anonymous reconstructed adult, short dark beard, dark kippah and simple dark waistcoat. No claimed verified portrait of father. The boy's narrow face and natural eyes show a question forming, father attentive, no laughing or mocking. Keep both whole heads in middle height, away from upper-left area; upper-left top quarter mostly pale blank wall for future speech bubble. Mouth of boy clearly visible center-right, plenty of crop margin. No readable newspaper words, no text, bubbles, borders, collage, religious wall icons or watermark.",
+    "references": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P08-04.png"
+    ],
+    "source_visual_review": "Boy turns toward attentive father in side/back view; father has beard and kippah, remains an unverified reconstructed relative. Boy mouth visible for future speech bubble. Upper-left/top wall clear of both heads, no mocking expression.",
+    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+    "status": "generated-source-reviewed",
+    "file": "art/book1-v07/B01V07-P11-02.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "5308f66bfcd83c9138f2a576d3d5aa76ca1f0420c211847650efd1043da06cdc",
+    "browser_qa": "not performed"
+  },
+  {
+    "id": "B01V07-P11-03",
+    "source_path": "/workspace/generated_images/exec-cf40c648-b381-4c17-96e6-d0a73944cb51.png",
+    "prompt": "ONE portrait 2:3 literary watercolor/gouache graphic-novel illustration, dramatic pastoral light, selective fine ink. A simple early-1900s Polish town balcony attached to pale plaster building, dark modest iron railing and wooden French door, warm sun and a little trailing plant. This is an editorial visual of the ordinary word balcony, NOT a historical incident, NOT a dream by the boy. No people, no soldiers, no war, no weapons, no flags. Balcony centered in middle half, lots of plain pale wall/sky above and to upper-left for future caption and crop. Human scale, period architecture, quietly humorous through the mundane object alone. No text, letters, signs, speech bubbles, thought clouds, panel frames, collage, religious wall icons or watermark.",
+    "references": [],
+    "source_visual_review": "Editorial balcony illustration only, no people, war, flags or fantasy incident. Period-style architecture, wide sky/wall area top-left. This is not claimed to depict the family’s identified balcony.",
+    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+    "status": "generated-source-reviewed",
+    "file": "art/book1-v07/B01V07-P11-03.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "7405dd0c782661b5a8146d9dfd042f110e6adff0dc6399be13065f59657727bd",
+    "browser_qa": "not performed"
+  },
+  {
+    "id": "B01V07-P11-04",
+    "source_path": "/workspace/generated_images/exec-70441133-6ab7-4386-b99e-d66408fbb798.png",
+    "prompt": "ONE portrait 2:3 illustration, dramatic pastoral watercolor and gouache literary graphic novel with delicate ink. Close three-quarter view of the approved later-childhood boy in dark cap and charcoal shirt in the same tidy early-1900s Polish Jewish home bed as the reference. The newspaper is lowered on his lap. He is asking his father an earnest slightly puzzled question: lips slightly parted, natural-size brown eyes directed toward the left, no exaggerated expression and no laughter. Father remains outside frame; no reply shown. Keep the entire face and mouth center-right BELOW the top 35% of the canvas, within central 60% width; generous headroom, plain pale wall upper-left and top third specifically reserved for a future speech balloon. Important hands and newspaper safely inside lower-middle frame. No readable newspaper words. No balloons or lettering in image, no panel borders/collage, no Christian icons/crosses, no watermark.",
+    "references": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P08-04.png"
+    ],
+    "source_visual_review": "Boy's narrow approved face and visible questioning mouth center-right, newspaper lowered. No father reply or mocking. Very broad pale top-left wall for the speech bubble; head has good top clearance.",
+    "crop_status": "source composition checked; actual mask/lettering/zoom pending renderer QA",
+    "status": "generated-source-reviewed",
+    "file": "art/book1-v07/B01V07-P11-04.png",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "c95dcf5d4f4d8d79eff3b4468bd42bf56256f5940a988101cb641c5695b423b4",
+    "browser_qa": "not performed"
+  },
+  {
     "id": "B01V07-P17-01",
     "page": 17,
     "status": "generated-reviewed",
@@ -565,6 +824,144 @@
     "generated_on": "2026-10-30"
   },
   {
+    "id": "B01V07-P18-03",
+    "prompt": "ONE landscape scene 1536x1024, dramatic pastoral watercolor/gouache with restrained ink. Same approved boy identity and early-1900s Vienna ward from the references: cream painted iron bed, blue-green plaster, tall window, cream nightshirt, dark flat cap and blue-grey checked blanket. This scene marks continuing quiet medical care after the synagogue visit, not a magical cure. The boy rests on the bed at center-right; an anonymous adult hospital caregiver seen mostly from back in a modest period white apron quietly tends a clean folded bandage on the bedside tray. No wound, blood, needles, surgery, distress or exposed injured foot. No need to show the caregiver's face; this is not the Jewish visitor from previous scene. Both feet remain discreetly beneath the blanket. No book in boy's hands. A calm ordinary moment of care, a little time has passed. Place boy's face x67%, y45%, caregiver hands x52%, y60%, all heads/hands inside central 60% width and central 56% height. Leave upper-left quarter as quiet blue-green wall with no face for future caption; at least 15% overscan. No text, letters, signs, bubbles, frames, montage or watermark.",
+    "reference_paths": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P17-01.png"
+    ],
+    "original_tool_file": "/workspace/generated_images/exec-d243418e-2828-4289-b905-f840e7530960.png",
+    "visual_review": {
+      "source_seen": true,
+      "count": "one child and anonymous caregiver whose face is turned away",
+      "quiet_area": "upper-left wall has no face",
+      "safety": "no visible wounds or medical distress; father's hand contact is proposed staging, not a quoted incident",
+      "crop_note": "protected content is faces and hands; bottom bed frame may crop",
+      "pending": "actual browser mask and live caption placement"
+    },
+    "file": "art/book1-v07/B01V07-P18-03.png",
+    "web_file": "art/book1-v07/web/B01V07-P18-03.webp",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "02fff42f866d89ef42540860ef4737985554673da77fbfe8b2d0ab464a6fdb88",
+    "status": "generated-reviewed",
+    "generator": "image_gen__imagegen",
+    "generated_on": "2026-10-30"
+  },
+  {
+    "id": "B01V07-P18-04",
+    "prompt": "ONE landscape scene 1536x1024, painterly watercolor/gouache historical graphic novel, cinematic humane light and restrained ink. The Jewish father has returned to collect his son after treatment in the Vienna hospital. Keep boy's approved narrow oval face, natural brown eyes and prominent ears from reference1; same cream nightshirt, flat cap and cream iron bed/blue-green ward from reference2. Match the father's face/clothing established in reference3: middle-aged man with short brown beard/stubble, small dark kippah, cream shirt and dark brown vest; he now has a charcoal travel coat over it and slightly older temples, not an elderly grandfather. Anonymous proposed father's face, not a verified portrait. Only father and boy. Father stands beside the bed, boy looks up at him with quiet relieved warmth, small natural smile; no dramatic hug or promise, no running or unrecorded conversation. No staff, other children, Jewish visitor or extra siblings. No surgery/injury detail, feet under blanket. Put both complete faces around x55–73%, y35–50%; hands and important objects central. Upper-left x4–52%, y4–24% is empty softly lit teal plaster for live caption. At least 15% margin around heads and hands. One scene only, no lettering, speech/thought balloons, borders, collage or watermarks.",
+    "reference_paths": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P17-01.png",
+      "art/book1-v07/B01V07-P03-01.png"
+    ],
+    "original_tool_file": "/workspace/generated_images/exec-e222578a-f9ab-47c3-b16d-a9e7d684325c.png",
+    "visual_review": {
+      "source_seen": true,
+      "count": "one child and father matching the opening shop father's proposed identity",
+      "quiet_area": "leftmost upper wall is clear; father head enters broader top caption area, so reduce caption width or adjust crop after live lettering",
+      "safety": "no visible wounds or medical distress; father's hand contact is proposed staging, not a quoted incident",
+      "crop_note": "protected content is faces and hands; bottom bed frame may crop",
+      "pending": "actual browser mask and live caption placement"
+    },
+    "file": "art/book1-v07/B01V07-P18-04.png",
+    "web_file": "art/book1-v07/web/B01V07-P18-04.webp",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "516549b92c6cb1eeddbbfab8fcd283f8e3c0c2759da0a0f954a7280d259d8175",
+    "status": "generated-reviewed",
+    "generator": "image_gen__imagegen",
+    "generated_on": "2026-10-30"
+  },
+  {
+    "id": "B01V07-P19-01",
+    "prompt": "ONE portrait scene, 1024x1536. Father and son together before going home after the boy's Vienna hospital treatment. Preserve the exact two identities from references: narrow face, natural brown eyes and prominent ears for boy; father short brown beard, dark small kippah, brown vest, cream shirt, charcoal travel coat. Boy is now dressed to leave in his plain charcoal button shirt, brown trousers and dark flat cap, no longer hospital nightshirt. He has ordinary closed period shoes, both feet intact in shape under footwear; no medical details or impossible regrown toes. They stand quietly beside a cream iron bed in blue-green ward. Father holds a small plain cloth bundle, boy beside him looks calmly hopeful. No other relatives or staff. No hug, dramatic action, words or invented promise. Watercolor/gouache dramatic pastoral graphic novel, humane soft amber window light, fine selective ink. IMPORTANT framing: show the pair as a medium-long view, all faces start BELOW y32%, centrally x40–75%, all essential hands/props inside x20–80%, y28–80%. Leave upper-left 50% width x25% height entirely bare quiet teal plaster for live caption. At least15% margin around heads, hands, feet. No text, lettering, bubbles, borders, split panels, montage or watermark.",
+    "reference_paths": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P18-04.png"
+    ],
+    "original_tool_file": "/workspace/generated_images/exec-456fd2ea-5a17-47c0-ba8a-b0de52f1f85c.png",
+    "visual_review": {
+      "source_seen": true,
+      "count": "father and son only",
+      "continuity": "father from 03-01/18-04, boy dressed in charcoal shirt and brown trousers",
+      "quiet_area": "upper-left wall/sky free of faces",
+      "historical_staging": "dressed to depart, no medical details or invented dialogue",
+      "crop_note": "feet near lower central margin; face and hand protected; actual mask check pending",
+      "pending": "browser and live lettering"
+    },
+    "file": "art/book1-v07/B01V07-P19-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P19-01.webp",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "6d0e08dba798d40858e83e7234217d5b0f6849cd89df08bd57cf77f8c2bc0328",
+    "status": "generated-reviewed",
+    "generator": "image_gen__imagegen",
+    "generated_on": "2026-10-30"
+  },
+  {
+    "id": "B01V07-P19-02",
+    "prompt": "ONE portrait 1024x1536 illustration for a family historical graphic novel. Father and son returning toward home, a simple transitional outdoor moment in early-1900s central Europe. They pause together at the edge of an unnamed modest town street; do not specify a whole long journey on foot and do not depict any train, carriage, station, vehicle, identifiable monument or dated location. Father wears charcoal travel coat over cream shirt and brown vest, small dark kippah; use the same short brown beard/face from reference2. Boy uses reference1 exact narrow face and natural proportions, dark flat cap, charcoal shirt, brown trousers, closed shoes. Calm togetherness and relief, not triumph or running. A small plain cloth bundle is their only travel prop. Figures seen three-quarter from behind in central-right of an atmospheric stone and wood town street, with soft natural daylight, olive-grey sky, gentle amber highlights, painterly watercolor/gouache, fine ink. Both people small enough to fit entirely in central60% width and central60% height, all heads start below y30%, at least15% overscan. Upper-left x4–52%,y4–24% is quiet low-detail sky/plaster for later caption. NO text, signs, bubbles, collage, frames, flags or watermark.",
+    "reference_paths": [
+      "art/chars/yitzhak-child-v02.png",
+      "art/book1-v07/B01V07-P18-04.png"
+    ],
+    "original_tool_file": "/workspace/generated_images/exec-f024bf02-01ec-4458-b0e3-ed38839f0148.png",
+    "visual_review": {
+      "source_seen": true,
+      "count": "father and son only",
+      "continuity": "father from 03-01/18-04, boy dressed in charcoal shirt and brown trousers",
+      "quiet_area": "upper-left wall/sky free of faces",
+      "historical_staging": "outdoor return image is transitional staging; not a claim that the whole Warsaw/Vienna journey was on foot; shoulder contact is staged",
+      "crop_note": "feet near lower central margin; face and hand protected; actual mask check pending",
+      "pending": "browser and live lettering"
+    },
+    "file": "art/book1-v07/B01V07-P19-02.png",
+    "web_file": "art/book1-v07/web/B01V07-P19-02.webp",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "c567bb2ecdb0e169e7fca6de5b42e59863346874f500efc4c99105ff4fbd4272",
+    "status": "generated-reviewed",
+    "generator": "image_gen__imagegen",
+    "generated_on": "2026-10-30"
+  },
+  {
+    "id": "B01V07-P19-03",
+    "prompt": "ONE LANDSCAPE illustration 1536x1024, dramatic pastoral painterly watercolor/gouache graphic novel, restrained ink and warm natural daylight. Father and son are home again after hospital treatment. Refer to the two people in reference1 exactly: boy narrow face/natural brown eyes/prominent ears, dark flat cap, charcoal shirt, brown trousers; father short brown beard, dark kippah, cream shirt/brown vest/charcoal coat. They appear together on right side of a modest but ROOMIER Polish Jewish home than reference2's cramped shop. This is the larger home after the family's move. Establish a reusable layout: broad clean wooden floorboards, one large sunlit window at back left, the family's tall blue-and-white ceramic tiled stove near back center, a simple rectangular table and wood chairs in the central room, an open doorway to the leather-supplies shop on the far RIGHT. Leather rolls and small supply boxes can be glimpsed only through that doorway; NO cobbler workshop or shoe making. A plain bed or chest along the far wall, uncluttered and well kept, enough space around furniture. Father and boy just inside the room at center-right, no mother or crowd of siblings, no reunion party, no running/hugging. Warm safe homecoming expressed by light and relaxed posture. Figures small enough that full heads and bodies fit in central60% width/height, at least15% surrounding margin. Reserve top-left x4–52%, y4–24% as subdued simple plaster wall above the furniture, no faces/objects; this is for later live captions. No readable text, lettering, signs, frames, bubbles, collage or watermark. One continuous room scene. Supporting father and architecture are proposed historical staging, not newly identified evidence.",
+    "reference_paths": [
+      "art/book1-v07/B01V07-P19-01.png",
+      "art/book1-v07/B01V07-P03-01.png"
+    ],
+    "original_tool_file": "/workspace/generated_images/exec-56ec06b1-81e3-4813-b339-de933ce255ec.png",
+    "visual_review": {
+      "source_seen": true,
+      "count": "father and son only, no unrecorded family reunion",
+      "continuity": "larger home with broad floor, large left window, blue-white stove at back center and shop doorway far right",
+      "quiet_area": "top-left/center plaster wall free of faces",
+      "historical_staging": "architecture and shoulder contact are proposed staging, not verified layout or a new documented incident",
+      "pending": "actual browser masks and live lettering"
+    },
+    "file": "art/book1-v07/B01V07-P19-03.png",
+    "web_file": "art/book1-v07/web/B01V07-P19-03.webp",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "cd0b6e3daa1256df46cc23eee7a312f4df66e274d92921f7076bfdddd207fecd",
+    "status": "generated-reviewed",
+    "generator": "image_gen__imagegen",
+    "generated_on": "2026-10-30"
+  },
+  {
     "id": "B01V07-P26-01",
     "page": 26,
     "file": "art/book1-v07/B01V07-P26-01.png",
@@ -712,25 +1109,28 @@
     "page": 27,
     "file": "art/book1-v07/B01V07-P27-02.png",
     "web_file": "art/book1-v07/web/B01V07-P27-02.webp",
-    "status": "generated-awaiting-source-review",
-    "prompt": "VERTICAL PORTRAIT 2:3 CANVAS. The same teenage Yitzhak age13–14 walking toward an ordinary red-brick textile factory entrance in Łódź about1913. Small civilian flat cap, modest short sidelocks, dark neatly maintained jacket; carries a small bound cloth-sample folder. Face in a clear three-quarter profile on mid-right, no huge closeup. Old factory arch and tall windows, horse cart in distant depth, no readable signage or modern flags. Upper-left soft plaster/sky low-detail for caption.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יוצא אל בית החרושת לבחור סחורה בעצמו.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: נער, לא הילד בן הארבע ולא חייל בן עשרים.\nPalette: ochre and restrained blue-grey.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "status": "generated-source-reviewed",
+    "prompt": "VERTICAL PORTRAIT 2:3 CANVAS. Deliberately DIFFERENT VIEWPOINT from the reference portraits: observer at the side of a factory entry, showing Yitzhak age13–14 in full stride walking INTO the textile factory through a broad archway. Clear side profile in middle-right, his leading foot lifted slightly and body turned away, NOT posing or looking at camera. Same cap and dark jacket, carries small cloth-sample folder under one arm. Wide tall doorway creates quiet plaster area upper-left for caption. Street and mill windows in depth. This is confident practical travel, no peril.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: יוצא אל בית החרושת לבחור סחורה בעצמו.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: נער, לא הילד בן הארבע ולא חייל בן עשרים.\nPalette: ochre and restrained blue-grey.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
     "tool": "image_gen__imagegen",
-    "source_path": "/workspace/generated_images/exec-a1dd0787-545c-46d1-9c3f-2320fc98e227.png",
+    "source_path": "/workspace/generated_images/exec-5e31d4bd-2f52-45ee-9a1f-54cf32b32657.png",
     "referenced_files": [
-      "art/chars/yitzhak-child-v02.png",
-      "ref/S08-img013.jpg"
+      "art/book1-v07/B01V07-P26-01.png",
+      "art/book1-v07/B01V07-P26-04.png"
     ],
     "actual_size": [
       1024,
       1536
     ],
-    "sha256": "520e1f9be54835daef759c2c7b00d6bcfd1c144db87c50795ab756f9c4dce8d6",
-    "bytes": 2968490,
-    "created_at": "2026-10-30T12:19:09.679428+00:00",
+    "sha256": "9b2b93b15cc489dd299b1a342f3020ad6da14e8a9333c551b5567a821badf829",
+    "bytes": 2858686,
+    "created_at": "2026-10-30T12:24:11.753640+00:00",
     "visual_review": {
-      "source_viewed": false,
-      "notes": "",
-      "browser_mask_review": "not performed"
+      "source_viewed": true,
+      "identity": "Teen face/cap/clothing continuity preserved where face appears. No uniform or modern objects.",
+      "scene": "P27-02 now walks into factory in side view; P27-03 overhead hands and blank ledger (varied camera). P28-01 city and gates, no battle; P28-02 quieter shop and adult leaving, no destruction.",
+      "quiet_zone": "Sky/plaster/tabletop upper-left has low visual detail and no faces.",
+      "crop_review": "Source-only review; actual masks, zoom and lettering not yet tested.",
+      "notes": "Earlier P27-02 and P27-03 sources are preserved as attempt01; active masters were replaced with the more varied viewpoint."
     }
   },
   {
@@ -738,25 +1138,28 @@
     "page": 27,
     "file": "art/book1-v07/B01V07-P27-03.png",
     "web_file": "art/book1-v07/web/B01V07-P27-03.webp",
-    "status": "generated-awaiting-source-review",
-    "prompt": "HORIZONTAL LANDSCAPE 3:2. Close observational scene of Yitzhak comparing cloth swatches beside a blank ruled order ledger on an old wooden factory counter. The handwritten content will be added live later if needed; NO readable letters or numbers. Emphasize exactly two natural hands, wool fibers and his attentive narrow teenage face on the right. No dialogue. Upper-left quiet low-detail wall, face and cloth well within central safe area. This is a practical skill, not a prize or test.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: משווה דוגמאות ומספרי הזמנה, בלי מכשירי משרד מודרניים.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: נער, לא הילד בן הארבע ולא חייל בן עשרים.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "status": "generated-source-reviewed",
+    "prompt": "HORIZONTAL LANDSCAPE 3:2. DIFFERENT CAMERA ANGLE: overhead close-up of a teenage boy's TWO hands comparing cloth swatches beside a blank ruled order book on a wooden textile office counter. Do NOT show a face, full portrait or another person. Shirt cuffs and dark jacket sleeves connect to the prior scene. One hand lifts the blue swatch, the other touches an ochre swatch; anatomically natural fingers. The ledger has faint unnumbered empty ruling only, no letters or digits. Lower-right hands and cloth, upper-left empty tabletop provides live caption room. Painterly drama in texture and light.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: משווה דוגמאות ומספרי הזמנה, בלי מכשירי משרד מודרניים.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: נער, לא הילד בן הארבע ולא חייל בן עשרים.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
     "tool": "image_gen__imagegen",
-    "source_path": "/workspace/generated_images/exec-b57ef906-b077-42b7-bfa6-14386bdd0d15.png",
+    "source_path": "/workspace/generated_images/exec-15652038-6ae3-4fa3-9785-289b8fe37b3c.png",
     "referenced_files": [
-      "art/chars/yitzhak-child-v02.png",
-      "ref/S08-img013.jpg"
+      "art/book1-v07/B01V07-P26-01.png",
+      "art/book1-v07/B01V07-P26-04.png"
     ],
     "actual_size": [
-      1610,
+      1609,
       977
     ],
-    "sha256": "35660ac54e06ed428d7e78c8bcb4ec67004b8b633771a26770f95337b46cbea3",
-    "bytes": 2706234,
-    "created_at": "2026-10-30T12:18:24.139993+00:00",
+    "sha256": "f3229d9492920c61030daa6cfaa595e978f414f747daaf2774beff927dffec12",
+    "bytes": 2926427,
+    "created_at": "2026-10-30T12:24:11.741726+00:00",
     "visual_review": {
-      "source_viewed": false,
-      "notes": "",
-      "browser_mask_review": "not performed"
+      "source_viewed": true,
+      "identity": "Teen face/cap/clothing continuity preserved where face appears. No uniform or modern objects.",
+      "scene": "P27-02 now walks into factory in side view; P27-03 overhead hands and blank ledger (varied camera). P28-01 city and gates, no battle; P28-02 quieter shop and adult leaving, no destruction.",
+      "quiet_zone": "Sky/plaster/tabletop upper-left has low visual detail and no faces.",
+      "crop_review": "Source-only review; actual masks, zoom and lettering not yet tested.",
+      "notes": "Earlier P27-02 and P27-03 sources are preserved as attempt01; active masters were replaced with the more varied viewpoint."
     }
   },
   {
@@ -786,6 +1189,168 @@
       "identity": "Narrow youthful face, natural eyes, same cap and dark jacket; age approximately13–14.",
       "quiet_zone": "Upper-left wall/sky low detail, faces separate and right/central.",
       "crop_review": "Source reviewed. Actual masks, 15% zoom and final lettering remain open."
+    }
+  },
+  {
+    "id": "B01V07-P28-01",
+    "page": 28,
+    "file": "art/book1-v07/B01V07-P28-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P28-01.webp",
+    "status": "generated-source-reviewed",
+    "prompt": "HORIZONTAL LANDSCAPE 3:2. Establishing view of industrial Łódź as the First World War begins in1914, without literal captions. Same red-brick mill district as reference, now a cooler overcast early morning with factory gates half-closed, a distant horse cart and a few ordinary adult pedestrians in civilian clothes. NO battle, fire, destroyed buildings, corpses, army flags or modern symbols. The disruption is told by quieter activity and atmosphere, not an invented dramatic incident. Upper-left sky reserved as low-detail caption zone.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: 1914, מלחמת העולם הראשונה מתחילה; לודז ולא עיר הילדות.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "tool": "image_gen__imagegen",
+    "source_path": "/workspace/generated_images/exec-b98a9d9c-bf5a-46a9-8686-2e810f0aa6d6.png",
+    "referenced_files": [
+      "art/book1-v07/B01V07-P26-01.png",
+      "art/book1-v07/B01V07-P26-03.png"
+    ],
+    "actual_size": [
+      1551,
+      1014
+    ],
+    "sha256": "72d4b91aeb737cfd1145b0f35dffede53a6ab654175efd3aea72b83fd383812f",
+    "bytes": 3039713,
+    "created_at": "2026-10-30T12:24:11.744523+00:00",
+    "visual_review": {
+      "source_viewed": true,
+      "identity": "Teen face/cap/clothing continuity preserved where face appears. No uniform or modern objects.",
+      "scene": "P27-02 now walks into factory in side view; P27-03 overhead hands and blank ledger (varied camera). P28-01 city and gates, no battle; P28-02 quieter shop and adult leaving, no destruction.",
+      "quiet_zone": "Sky/plaster/tabletop upper-left has low visual detail and no faces.",
+      "crop_review": "Source-only review; actual masks, zoom and lettering not yet tested.",
+      "notes": "Earlier P27-02 and P27-03 sources are preserved as attempt01; active masters were replaced with the more varied viewpoint."
+    }
+  },
+  {
+    "id": "B01V07-P28-02",
+    "page": 28,
+    "file": "art/book1-v07/B01V07-P28-02.png",
+    "web_file": "art/book1-v07/web/B01V07-P28-02.webp",
+    "status": "generated-source-reviewed",
+    "prompt": "VERTICAL PORTRAIT 2:3 CANVAS. Inside the textile trade premises in wartime Łódź, ordinary commerce has slowed. A closed wooden counter, folded cloth waiting unsold, one idle wooden hand-loom visible deeper inside, an adult worker from the back gathering his coat. NO devastated factory, bombing, fire or hungry ragged crowds. Historical interiors proposed, not a specific identified building. Cool muted blue-grey daylight with touches of remembered ochre; upper-left plaster wall quiet for caption; important objects in central-lower frame.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: המסחר והעבודה במפעלים נפגעים.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "tool": "image_gen__imagegen",
+    "source_path": "/workspace/generated_images/exec-c5c1e006-015f-4683-b638-ac3b4e423ea6.png",
+    "referenced_files": [
+      "art/book1-v07/B01V07-P26-01.png",
+      "art/book1-v07/B01V07-P26-03.png"
+    ],
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "ae838d11bedd682d93b0ee8e4caa62919ff81cc39a9f76753e6902ef8b863f85",
+    "bytes": 2731959,
+    "created_at": "2026-10-30T12:23:28.626502+00:00",
+    "visual_review": {
+      "source_viewed": true,
+      "identity": "Teen face/cap/clothing continuity preserved where face appears. No uniform or modern objects.",
+      "scene": "P27-02 now walks into factory in side view; P27-03 overhead hands and blank ledger (varied camera). P28-01 city and gates, no battle; P28-02 quieter shop and adult leaving, no destruction.",
+      "quiet_zone": "Sky/plaster/tabletop upper-left has low visual detail and no faces.",
+      "crop_review": "Source-only review; actual masks, zoom and lettering not yet tested.",
+      "notes": "Earlier P27-02 and P27-03 sources are preserved as attempt01; active masters were replaced with the more varied viewpoint."
+    }
+  },
+  {
+    "id": "B01V07-P28-03",
+    "page": 28,
+    "file": "art/book1-v07/B01V07-P28-03.png",
+    "web_file": "art/book1-v07/web/B01V07-P28-03.webp",
+    "status": "generated-awaiting-source-review",
+    "prompt": "VERTICAL PORTRAIT 2:3 CANVAS. An intimate active scene, NOT another standing street portrait. Yitzhak age14–15 and ONE distinct teenage friend sitting side by side at a wooden study table in a modest Łódź synagogue. Both learning from one open prayer/Torah study book; pages only soft indecipherable marks, NO readable letters. Yitzhak on right, his narrow face and cap familiar; friend on left has a rounder face and small dark skullcap, not his duplicate. Gentle slant light on their hands, an ordinary study setting, no supernatural glow. Quiet upper-left wall above both heads for caption. Exactly TWO teens, no elders or relatives.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: חבר ויצחק לומדים בבית הכנסת, ללא שיחה מומצאת.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "tool": "image_gen__imagegen",
+    "source_path": "/workspace/generated_images/exec-9ecc7437-772d-445a-a55e-ea7dc27a6272.png",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png",
+      "ref/S08-img013.jpg"
+    ],
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "460be104fbd23bdf2e6c57c9e820e83265c92f47967698568d39b2d5c65776f7",
+    "bytes": 2536235,
+    "created_at": "2026-10-30T12:32:14.082808+00:00",
+    "visual_review": {
+      "source_viewed": false,
+      "notes": "",
+      "browser_mask_review": "not performed"
+    }
+  },
+  {
+    "id": "B01V07-P28-04",
+    "page": 28,
+    "file": "art/book1-v07/B01V07-P28-04.png",
+    "web_file": "art/book1-v07/web/B01V07-P28-04.webp",
+    "status": "generated-awaiting-source-review",
+    "prompt": "HORIZONTAL LANDSCAPE 3:2. Ordinary Zionist volunteer fundraising in Łódź during WWI, not a rally or victory scene. The teenage Yitzhak, same narrow face and dark civilian cap, on middle-right holding a small UNLABELLED wooden collection box; one ordinary adult donor, seen from side/back, places a coin into it. One other young volunteer in the background at most. No readable text, flags, modern Israeli symbols, uniforms or political posters. Practical work and responsibility shown by hand action. Leave low-detail wall/sky upper-left for caption, faces clear and below top quarter.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: פעילות ציונית ואיסוף כספים למען ארץ ישראל.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "tool": "image_gen__imagegen",
+    "source_path": "/workspace/generated_images/exec-ebc013ab-18b6-41dc-a9d7-c4e5ffad8594.png",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png",
+      "ref/S08-img013.jpg"
+    ],
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "35ebf0a9a41c4b8df5ff19f7a171c64693b5e13aeaef664acffd68f3d3dd2a88",
+    "bytes": 2668228,
+    "created_at": "2026-10-30T12:32:14.104501+00:00",
+    "visual_review": {
+      "source_viewed": false,
+      "notes": "",
+      "browser_mask_review": "not performed"
+    }
+  },
+  {
+    "id": "B01V07-P29-01",
+    "page": 29,
+    "file": "art/book1-v07/B01V07-P29-01.png",
+    "web_file": "art/book1-v07/web/B01V07-P29-01.webp",
+    "status": "generated-awaiting-source-review",
+    "prompt": "HORIZONTAL LANDSCAPE 3:2. Interior of a modest Zionist movement meeting room in Łódź during WWI. Two ordinary adult organizers in plain civilian coats at a table talk to a PARTIAL visible group of four young male volunteers including Yitzhak. It is not meant to be the full group of17 or a formal group photograph. The teen Yitzhak is central-right, recognizable narrow face, cap and dark jacket; all others are distinct supporting faces, not identified portraits. No handshakes, medals, documents with readable text, maps of future borders or flags. Quiet plaster wall upper-left for narration. Emphasize attentive listening through posture.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: הנהגת התנועה פוגשת את הצעירים.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 1.53:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "tool": "image_gen__imagegen",
+    "source_path": "/workspace/generated_images/exec-411ab924-d545-4b90-b116-61619e45a2c0.png",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png",
+      "ref/S08-img013.jpg"
+    ],
+    "actual_size": [
+      1552,
+      1013
+    ],
+    "sha256": "5ae6e506127552c35bccca4a55bae62e21b1aa5c902516072f1e43c28a51055b",
+    "bytes": 2582770,
+    "created_at": "2026-10-30T12:28:26.150880+00:00",
+    "visual_review": {
+      "source_viewed": false,
+      "notes": "",
+      "browser_mask_review": "not performed"
+    }
+  },
+  {
+    "id": "B01V07-P29-02",
+    "page": 29,
+    "file": "art/book1-v07/B01V07-P29-02.png",
+    "web_file": "art/book1-v07/web/B01V07-P29-02.webp",
+    "status": "generated-awaiting-source-review",
+    "prompt": "VERTICAL PORTRAIT 2:3 CANVAS. A scene suggesting the group selected to prepare for aliyah. EXACTLY SIX YOUNG MALE VOLUNTEERS, INCLUDING Yitzhak (not six plus Yitzhak). Arrange three in front seated on a simple bench and three behind standing in one modest meeting room; informal attentive posture, NOT a historical photograph reproduction or ceremony. Yitzhak front-right has the approved narrow face, flat cap and neat dark clothes, age14–15; the other five range late teens to young adults and have different faces and simple hats/skullcaps. Keep all SIX complete heads inside central safe region, faces below top quarter. Pale upper-left wall quiet for caption. No adult leader added, no women, no labels, flags, prizes or raised arms.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: איטשע בין שישה שנבחרו להתכונן לעלייה, אין גיל ילדים קטנים.\nAge continuity for Yitzhak: young teenager about 13–14.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: ochre and restrained blue-grey.\nCompose for a 0.83:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.\n",
+    "tool": "image_gen__imagegen",
+    "source_path": "/workspace/generated_images/exec-c2c3472c-62ee-42a8-afb0-7b0b2ad4b0db.png",
+    "referenced_files": [
+      "art/chars/yitzhak-child-v02.png",
+      "ref/S08-img013.jpg"
+    ],
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "8056c64ce2c0cae9c15d73f0fafe487a8b0c08659bac764940b9631698f6061b",
+    "bytes": 2846130,
+    "created_at": "2026-10-30T12:29:30.163858+00:00",
+    "visual_review": {
+      "source_viewed": false,
+      "notes": "",
+      "browser_mask_review": "not performed"
     }
   },
   {
@@ -954,6 +1519,116 @@
       1500
     ],
     "sha256": "3fd9265c66c900d47a66614842bb86f399fca3b1e3be2a89c6554c4e4d34a9a2",
+    "tool": "image_gen__imagegen",
+    "status": "generated-source-reviewed"
+  },
+  {
+    "id": "B01V07-P37-03",
+    "page": 37,
+    "source_path": "/workspace/generated_images/exec-46ff5b7c-776d-42ef-99b0-692630babd76.png",
+    "prompt": "WIDE LANDSCAPE illustration, 1536x1024 target. Time has passed since bridge night: it is 1920 and Yitzhak, now about twenty, has been released from first military service. Show a calm return to civilian life on a quiet Polish street: same recognizable youthful narrow face and pronounced ears from the youth photograph, clean-shaven, not a middle-aged man. He wears a brown wool jacket and waistcoat over an ivory shirt, dark trousers and a simple dark civilian flat cap, carrying a small cloth travel bundle at his side. No military medals or visible written discharge order, no scene of undressing. Gentle relief, daylight. Keep him middle-right, entire head and hand in central 60% width with margins. Upper-left subdued wall and sky for live caption. Clothes and setting are proposed staging, not a newly claimed historical event.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מעבר זמן בולט: 1920, שחרור מן השירות הראשון.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: dusk blue, warm skin, restrained contrast.\nCompose for a 1.64:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+    "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-46ff5b7c-776d-42ef-99b0-692630babd76.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "references": [
+      "ref/S08-img013.jpg",
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "visual_review": {
+      "source_reviewed": true,
+      "scene": "Return to civilian life in 1920; young adult, no middle-aged face or military glory.",
+      "lettering": "Upper-left sky/wall quiet; face remains right, mouth below top caption.",
+      "limits": "Exact mask/zoom and final text placement remain pending.",
+      "browser_visual_qa": false
+    },
+    "file": "art/book1-v07/B01V07-P37-03.png",
+    "web_file": "art/book1-v07/B01V07-P37-03.webp",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "cd1e05fb91dfc46ff207e3ca69ed699bee9dedb1c099ad1828862efbbf44c96d",
+    "tool": "image_gen__imagegen",
+    "status": "generated-source-reviewed"
+  },
+  {
+    "id": "B01V07-P37-04",
+    "page": 37,
+    "source_path": "/workspace/generated_images/exec-7724593a-5bb4-40a5-b46a-d2de9aa1e164.png",
+    "prompt": "WIDE LANDSCAPE illustration, 1536x1024 target. Young Yitzhak about twenty, same narrow face, natural brown eyes and prominent ears as the youthful reference, sits at a modest wooden table looking over the recommendations he has kept for moving to the Land of Israel. Civilian brown waistcoat, ivory collared shirt, dark hair and simple flat cap resting on a nearby hook. He is clean-shaven, clearly a young adult, not the forty-year-old portrait. Papers on lower table have no readable writing. His thoughtful face on right at middle height, hands near center below it. Upper-left pale plaster wall is quiet for live narration. Warm hopeful daylight, no fantasy farm or ship shown.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: שב לבגדים אזרחיים ולמסמכי העלייה, לא שחרור מיד למחרת הלילה.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: dusk blue, warm skin, restrained contrast.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+    "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7724593a-5bb4-40a5-b46a-d2de9aa1e164.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "references": [
+      "ref/S08-img013.jpg",
+      "art/chars/yitzhak-child-v02.png"
+    ],
+    "visual_review": {
+      "source_reviewed": true,
+      "scene": "Young adult considering saved documents, no future farm/ship or readable fake text.",
+      "lettering": "Upper-left sky/wall quiet; face remains right, mouth below top caption.",
+      "limits": "Exact mask/zoom and final text placement remain pending.",
+      "browser_visual_qa": false
+    },
+    "file": "art/book1-v07/B01V07-P37-04.png",
+    "web_file": "art/book1-v07/B01V07-P37-04.webp",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "d8dcb40db77f04e7ac1525f814ee82181f43063770880d5ab5a25edd3c09ede0",
+    "tool": "image_gen__imagegen",
+    "status": "generated-source-reviewed"
+  },
+  {
+    "id": "B01V07-P38-01",
+    "page": 38,
+    "source_path": "/workspace/generated_images/exec-18bfbc5c-0626-4169-a984-27b5c0704ce9.png",
+    "prompt": "VERTICAL PORTRAIT 1024x1536. Young civilian Yitzhak age about21 has received an invitation letter from relatives in Dąbrowa. He is at a modest wooden table looking at the single letter he holds, wearing the same brown waistcoat, ivory shirt and youthful narrow facial identity as reference. No postal worker, no readable text on letter, no modern envelope logo. Keep his face middle-right at 45–55% height; hand and letter near middle below. Quiet pale plaster in the entire upper-left quarter for caption. Warm soft Polish daylight, curiosity, no invented words or reaction of shock.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: מגיע מכתב ממשפחת הניך בדומברובה.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: ארבע בנות משפחת חוה בפאנל הכניסה. אין גילאים מדויקים; חוה הגבוהה אינה בהכרח הבכורה. הצעת הפנים טרם מאושרת.\nPalette: soft amber domestic and work colors.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+    "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-18bfbc5c-0626-4169-a984-27b5c0704ce9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "references": [
+      "art/book1-v07/B01V07-P37-03.png",
+      "art/book1-v07/B01V07-P37-04.png"
+    ],
+    "visual_review": {
+      "source_reviewed": true,
+      "scene": "Invitation letter read by the young civilian, not a newly invented dialogue.",
+      "family": "No additional family faces.",
+      "lettering": "Broad upper-left quiet wall, faces on right/below caption zone.",
+      "limits": "Exact masked crop and final lettering pending. Supporting face unverified.",
+      "browser_visual_qa": false
+    },
+    "file": "art/book1-v07/B01V07-P38-01.png",
+    "web_file": "art/book1-v07/B01V07-P38-01.webp",
+    "actual_size": [
+      1024,
+      1536
+    ],
+    "sha256": "7710f7701c535e949706be8dc881beda8fd7f93520eb173e148b226c2702858b",
+    "tool": "image_gen__imagegen",
+    "status": "generated-source-reviewed"
+  },
+  {
+    "id": "B01V07-P38-04",
+    "page": 38,
+    "source_path": "/workspace/generated_images/exec-285db495-468e-4c1b-b7fb-5e9adc9afb6e.png",
+    "prompt": "WIDE LANDSCAPE image 1536x1024. One quiet family-room meeting in Poland around1921: young Yitzhak about21, same slim narrow face, natural eyes and pronounced ears as reference, in brown jacket and ivory shirt, sits on the right. Chava, the young woman he will marry, sits near center-left in a modest long-sleeved pale blouse and dark long skirt. She is slender and tall with an elongated young face, dark brown hair simply pinned back, natural facial proportions; no glamour styling. Her exact face is proposed historical staging, not an identified portrait. Do not show romance/embrace or an invented intimate conversation; they are respectfully present at a family table with cups. Other family members are out of frame. Keep both faces within central60% width and below the top third. The upper-left wall is quiet for narration, generous crop margins. Single scene, not a character sheet.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: חוה לעתיד עם יצחק במרחב משפחתי, לא שיחת אהבה מומצאת.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: ארבע בנות משפחת חוה בפאנל הכניסה. אין גילאים מדויקים; חוה הגבוהה אינה בהכרח הבכורה. הצעת הפנים טרם מאושרת.\nPalette: soft amber domestic and work colors.\nCompose for a 1.68:1 visible panel, source requested 1536x1024. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+    "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-285db495-468e-4c1b-b7fb-5e9adc9afb6e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "references": [
+      "art/book1-v07/B01V07-P37-03.png",
+      "art/book1-v07/B01V07-P37-04.png"
+    ],
+    "visual_review": {
+      "source_reviewed": true,
+      "scene": "Yitzhak and future wife Chava in family room; both young, respectful table meeting, no embrace.",
+      "family": "Only the pair shown here; Chava's face is proposed staging, not an identified portrait.",
+      "lettering": "Broad upper-left quiet wall, faces on right/below caption zone.",
+      "limits": "Exact masked crop and final lettering pending. Supporting face unverified.",
+      "browser_visual_qa": false
+    },
+    "file": "art/book1-v07/B01V07-P38-04.png",
+    "web_file": "art/book1-v07/B01V07-P38-04.webp",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "sha256": "6e11575d9eee889452b215ef6699d7fe22b64c928b477404901e16a668420d5c",
     "tool": "image_gen__imagegen",
     "status": "generated-source-reviewed"
   }

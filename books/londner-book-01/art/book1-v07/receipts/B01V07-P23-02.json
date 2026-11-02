@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P23-02",
+  "prompt": "PORTRAIT canvas1024x1536. EXTREME-WIDE HIGH-ANGLE view looking down into a spacious nearly empty modest early1900s Polish family room. Father is a SMALL LIVING FIGURE seated upright on a plain chair beside a tall winter window at center-right, his dark kippah, greying dark beard and period dark waistcoat matching reference, distant face not detailed. Cold grey winter daylight falls across broad bare worn floorboards and faded blue-grey plaster. Very few furnishings, no bed, no hospital, no illness performance. Father quietly gazes toward daylight, hands naturally in lap. Thoughtful sad memory of a father, dignified and gentle. No child, no body, no grave, no abandoned doorway, no suspense. Keep small father and entire window inside central65% image, father around x58%, y52–65%;15% outer crop margins, ample pale calm upper wall for later caption. This extreme-wide room contrasts previous hand detail and next warm two-face comfort close-up. Dramatic pastoral literary graphic novel, watercolor and opaque gouache, selective fine ink, painterly atmospheric depth and soft outer edges, cool slate-blue greys with tiny natural skin warmth, no photo or glossy3D. One scene, no text, numbers, bubbles, frames, montage or watermark. Use reference for father's appearance only.",
+  "refs": [
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-bde660e4-1b46-4422-9753-09170659e0c9.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Small living father seated upright by winter window in large cool grey room, high wide angle; no bed, corpse or child. Dignified quiet sadness.",
+    "crop_issues": "Father central-right at x55–74%,y40–60%, clear15% margins. Upper-left empty wall ample for caption. Exact mask pending root."
+  },
+  "file": "art/book1-v07/B01V07-P23-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P23-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "cae152ba9380af704601d3570c62946e1eb58f40f0572c120743e82ecd0d2331",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "crop_notes": "Father central-right at x55–74%,y40–60%, clear15% margins. Upper-left empty wall ample for caption. Exact mask pending root."
+}

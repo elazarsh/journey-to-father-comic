@@ -1,0 +1,40 @@
+{
+  "id": "B01V07-P38-02",
+  "source_path": "/workspace/generated_images/exec-b0d8fbca-353e-4f28-b158-001ee9cb37f3.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE landscape1536x1024 WIDE over-the-shoulder shot from just behind young civilian Yitzhak at a house threshold in Dombrowa Poland early1920s. His back/shoulder and brown cap dark at lower right FOREGROUND, face not shown. In the softly lit open doorway CENTER-left the older Jewish couple Henich and Eidel welcome him with friendly restrained smiles and open gesture. Henich in dark coat, modest cap and short grey beard, Eidel in long modest dress and simple married-woman headscarf. These are proposed supporting faces, no claim of verified likeness. Warm home interior against cooler pale outdoor light; no children or daughters visible in this establishing shot. Main couple inside central65% and generous15% margin. Quiet wall upper third for captions. One scene no lettering, balloons, borders, circles or montage. Purpose welcome/arrival and establish Chava parents, distinct from letter detail.",
+  "tool_source": "image_gen__imagegen",
+  "tool": "image_gen__imagegen",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-b0d8fbca-353e-4f28-b158-001ee9cb37f3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "references": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "Over Yitzhak shoulder at house threshold, Henich and Eidel welcome him; only relevant3adults, no invented family portrait.",
+    "identity": "Henich and Eidel proposed supporting faces; Yitzhak back only.",
+    "lettering": "Calm doorway wall above center but figures relatively close.",
+    "limits": "Source inspected; actual mask/caption pending."
+  },
+  "crop_issues": [
+    "Keep Henich head above left within crop; his gesture partly toward lower-left."
+  ],
+  "file": "art/book1-v07/B01V07-P38-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P38-02.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

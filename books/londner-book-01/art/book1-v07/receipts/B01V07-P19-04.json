@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P19-04",
+  "prompt": "LANDSCAPE canvas1536x1024. A WIDE eye-level silhouette scene. Continue the father and recovered son from the reference in the same spacious plaster-and-wood apartment, but now late sunset. Father and boy stand quietly side by side near the tall window, small dark silhouettes against glowing gold evening sky. Boy flat cap, narrow face, age about11; father dark coat and kippah. No hugging or illness. Long shadows across wooden floor and simple table corner, much quiet room around them; father and son clustered x55–70%, heads y38–48%, hands y58%. Their calm shared presence ends the hospital journey with peace; do not repeat the daylight frontal homecoming pose. Golden light with deep russet/plum shadows. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s Polish Jewish home, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central65% width and60% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P19-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-d9dea71e-6f25-4fcc-9e3c-7a0c4621d9fb.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Distinct wide rear-view sunset silhouette of father and recovered boy at window, no repeated frontal reunion; familiar stove and room continuity.",
+    "crop_issues": "Heads and hands central, feet low can crop. Actual polygon browser review pending.",
+    "pending": "Browser mask and lettering review with root."
+  },
+  "file": "art/book1-v07/B01V07-P19-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P19-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "51d8b672012f71d6d666721d03c993d1a7581d3600bcf655179513618ff348ef",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P23-03",
+  "file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P23-03-family-proof-v01.webp",
+  "sha256": "620d4f0cca3247275267e99d1504f4bb4a7648a68c71dbd1318b01cd7f9756fe",
+  "web_sha256": "b4e49007bbbd4d87df52dcd8b1c492d28d6b74d7f56594a5902c2a0abc31a0d6",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P23-03-agefix.png. Visually checked: Adult cap changed; teen cap and faces visually retained. Adult hair on forehead is partly covered by added cap. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+  "created_utc": "2026-11-01T20:59:19.467642+00:00"
+}

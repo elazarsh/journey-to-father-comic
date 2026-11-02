@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P31-01",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE, ONE IMAGE. MEDIUM LOW angle: Austrian road surveyors in WWI circa1916 work clothes/simple field caps gathered around a brass optical survey instrument on wooden tripod; civilian teenage Yitzhak steps towards them. Crisp morning. No WWII uniform/emblems. Purpose: opportunity, his knowledge of German lets him step forward. Yitzhak is visibly16–17, slender adolescent; age child reference into teen with youth photograph continuity, never adult43. Identity: narrow oval face, pronounced ears, natural brown eyes, restrained mouth. Keep essential faces/hands/props in central70% with15% crop margin and clear mouths. No text, readable letters/numbers, captions, blank or filled balloons, borders, collage, watermarks. Respect specified shot distance exactly; no foreground portrait unless called for.",
+  "tool_original_path": "/workspace/generated_images/exec-11ce2f96-5a9c-4ee2-b499-561f21c9f816.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed: medium low-view group with brass tripod survey instrument; Yitzhak youthful moving into conversation; crisp light. No WWII motifs. Austrian uniforms are reconstructed, not verified portraits or precise insignia; background hills are stylized.",
+  "crop_caveats": "Source review only. Main teenage face central. Peripheral engineer/farmer may crop; actual polygon/live lettering remains untested.",
+  "file": "art/book1-v07/B01V07-P31-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P31-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "e012e7599d908aca8099082f7f3401d95fd7fc60f78aab11d015d616e51eff2e"
+}

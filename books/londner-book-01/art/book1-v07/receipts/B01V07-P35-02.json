@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P35-02",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. WIDE HIGH angle: early Polish army camp circa1919–1921, rows of canvas tents, young soldier Yitzhak early20s among soldiers, his identifiable youthful face glancing sideways. Pale overcast daylight. No punishment/combat. Yitzhak located lower-middle, EMPTY CALM SPACE ABOVE HIS HEAD for later thought. Early Polish khaki-grey wool field uniform, simple four-cornered cap/period cap, no WWII emblems. Purpose: uniform versus agricultural aspiration. Yitzhak is now early20s YOUNG ADULT, slender but grown, youthful clean-shaven narrow oval face, pronounced ears, natural brown eyes, restrained mouth; follow YOUTH PHOTOGRAPH for main facial identity, mature the illustrated child slightly. Do NOT render age43 middle-aged face; do NOT render small child in army. Plain early Polish army WWI/postWWI wool field tunic/cap when specified, no Nazi/WWII details. Keep eyes and mouths clear. Essential faces/hands/props central70% with15% crop margin, quiet upper third over indicated speaker. No text/readable characters/numbers, captions, drawn balloons or blank bubbles, borders/collage. Respect specified camera distance.\nCORRECTION EDIT: PORTRAIT1024x1536. Recompose same watercolor/gouache scene from HIGH ABOVE, WIDE SHOT OF ENTIRE CAMP. Camera on roof looking down at early Polish army tents and soldiers. Yitzhak is now a small ADULT soldier in his early20s standing center-lower, full body occupying at most20% image HEIGHT, youthful face turned SIDEWAYS away from camera. All men adult-sized. Tent rows extend to upper background; leave calm pale canvas/sky ABOVE his small head for later thought. Do not retain large foreground seated portrait. Same clothing, identity and painterly style. No text, bubbles, frames or battle.",
+  "tool_original_path": "/workspace/generated_images/exec-f3489d8c-72bc-42a1-b05c-81d654e9546c.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg",
+    "/workspace/generated_images/exec-ffe3d25a-9d41-4346-85ce-c6b99dc8c059.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed corrected source: HIGH-WIDE view over rows of camp tents, adult-sized Yitzhak small full-body lower-center looking aside, no punishment or battle. Corrected first medium portrait via image_gen. Calm ground/air directly above Yitzhak permits later thought.",
+  "crop_caveats": "Source reviewed only. Actual v08 polygon/live lettering untested. Protect designated sky above commander in P35-04 and OTS figure in P35-03; do not auto-center away from small Yitzhak P35-02.",
+  "file": "art/book1-v07/B01V07-P35-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P35-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "b3a66e07cb92069bf022f904910fa2106e9a1ded6b50d85eef33d89afcbefd81"
+}

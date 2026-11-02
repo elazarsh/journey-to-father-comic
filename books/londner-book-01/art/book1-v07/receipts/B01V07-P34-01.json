@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P34-01",
+  "prompt": "LANDSCAPE 1536x1024. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. DETAIL BIRD'S-EYE directly above an UNPACKED still life: folded map with no readable labels, simple travel items lying motionless next to an empty open worn cloth travel bag. Dim grey daylight. No figures, no invented passport. Purpose: journey blocked, possessions never packed. Early20th-century Poland, flat gently rolling terrain. If visible, Yitzhak a slender16–17-year-old adolescent, approved narrow oval face, pronounced ears, natural brown eyes, restrained mouth; use child plus youth continuity photo, never adult43. Clear mouths. Keep essential content central70% with15%crop margin. No readable text/letters/numbers, captions, drawn bubbles/blank balloons, frames/collage. Exactly specified angle/shot.",
+  "tool_original_path": "/workspace/generated_images/exec-d2f02d16-1b50-4d02-8fc6-5c89fdc6fd93.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed: overhead unpacked travel items, folded unlabeled map and open empty bag; grey stillness, no figures, no visible passport.",
+  "crop_caveats": "Source review only, actual v08 polygon not inspected. P34-02 cap near upper edge requires face-protected crop. P34-04 preserve brother and doorway shoulder relationship.",
+  "file": "art/book1-v07/B01V07-P34-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P34-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "15174c0cdb61d1a7ee4a76a656b688fcc0c23f7a6f22ad9580a07f3e65677641"
+}

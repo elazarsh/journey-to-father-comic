@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P23-01",
+  "prompt": "LANDSCAPE canvas1536x1024. Gentle intimate detail at bed height in a modest early1900s Polish home, only a LIVING MOTHER'S single natural relaxed hand resting on top of a woven pale grey blanket, its forearm entering softly from left and body entirely outside the picture. Small wooden bedside table to the right holding a plain cup of water and an ordinary small brown medicine bottle with NO label. Pale winter-grey diffuse window light, muted sage-grey and dusty mauve shadows, quiet compassionate atmosphere, a memory of severe illness. No face, no full person, no corpse, no death moment, no hospital apparatus, no skulls, no grave, no candles or religious symbols. The hand has warm living skin color and natural fingers gently bent on blanket. Essential hand, cup and bottle within central65% width and60% height,15% crop margins, upper area calm soft grey wall. Diffuse soft fading outer edges for memoir page transition. Dramatic pastoral watercolor and gouache literary graphic novel, visible painterly marks and paper texture, restrained delicate color, gentle cinematic light, selective ink, NOT photorealistic, no3D. One scene, no text, numerals, balloons, frames, montage or watermark. The next scene is an extreme-wide high-angle room; this is a close intimate detail.",
+  "refs": [],
+  "original_tool_file": "/workspace/generated_images/exec-3be07968-8f32-42df-9b79-3bf2c962e0af.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Gentle hand-only illness memory: natural living-color hand on blanket, water and unlabeled medicine, no face or death moment. Soft grey watercolor edges.",
+    "crop_issues": "Hand central; bottle at x84%, needs conservative crop with rightward safe framing. Upper-middle wall quiet for caption. Actual mask check pending root."
+  },
+  "file": "art/book1-v07/B01V07-P23-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P23-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "3603ebbaa2b0c6ae40b469d19b623d1981038250c74019bb78eb2407682ada1f",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [],
+  "crop_notes": "Hand central; bottle at x84%, needs conservative crop with rightward safe framing. Upper-middle wall quiet for caption. Actual mask check pending root."
+}

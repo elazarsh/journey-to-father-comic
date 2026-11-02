@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P18-03",
+  "prompt": "PORTRAIT canvas1024x1536. Completely redirect the reference to a HIGH-ANGLE DETAIL without any faces or heads: the hospital caregiver's hands gently wind a CLEAN linen bandage around the boy's healthy-looking lower calf beside the cream iron bed. No wound or blood or needle or distress. Boy's foot and calf rest relaxed on clean folded towel. Cream nightshirt hem and blue-grey checked blanket at edge. Two adult caregiver hands naturally anatomical at center x50%,y55%, calf diagonally across central area. Tall window upper-right reveals amber/red AUTUMN TREES, a quiet signal that time has passed. Cool autumn window light. This is continuing care and recovery, distinctly an object/hand detail between boy's synagogue expression and father's doorway arrival, do not show frontal boy or seated caregiver. Broad15% margins around the hands and calf. Historically modest non-graphic1900s ward. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P18-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-534c4b5c-35c7-4a26-b581-96b6caec93f0.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Clean calf bandaging detail without faces; caregiver hands and leg central, autumn trees through window mark elapsed time. No wound, blood or distress.",
+    "crop_issues": "Foot near left edge can crop; caregiver hands and bandage are central. Actual polygon review pending.",
+    "pending": "Browser mask and lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P18-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P18-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "baade583e29ae06963cd81c40bc462e26442e6a266dc052b8761d6d245aec985",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

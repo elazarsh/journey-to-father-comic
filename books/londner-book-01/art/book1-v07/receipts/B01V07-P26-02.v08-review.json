@@ -1,0 +1,12 @@
+{
+  "id": "B01V07-P26-02",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "existing-accepted-v08",
+  "accepted_sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+  "accepted_web_sha256": "67589a98ba190c588918fd4d263ebacf0e7b7d7d4491f7c8729a1f3f46474fb9",
+  "accepted_file": "art/book1-v07/B01V07-P26-02.png",
+  "reviewed_file": "art/book1-v07/web/B01V07-P26-02.webp",
+  "notes": "Source visually inspected against current scene/shot/purpose. Keeps approved youthful likeness and requested Lodz story information. Adjacent panels vary setting, angle, subject and shot; minor differences acceptable. No redraw needed.",
+  "crop_status": "source-reviewed; final-render-mask-review-pending"
+}

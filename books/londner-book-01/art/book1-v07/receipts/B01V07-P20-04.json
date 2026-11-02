@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P20-04",
+  "prompt": "LANDSCAPE canvas1536x1024. WIDE LOW-ANGLE shop scene: Yitzhak about11 stands taller now, reaching both hands to lift a tied bundle of leather stock onto a wooden shelf, while his father stands beside him helping steady the goods. Full physical action, not a static portrait. Boy narrow oval face and natural brown eyes, prominent ears, dark flat cap, dark shirt and brown trousers. Father same dark coat/kippah and slightly greying beard from reference2. Family shop sells leather and cobbler SUPPLIES: rolled hides, small wooden drawers, strapped goods; nobody making shoes, no bench tools in use. Late-morning amber shop daylight and tall shelf perspective from below. Keep both heads, both pairs of hands, bundle within x28–73%,y28–67%. Quiet shadowed upper shelving for captions;15% margin. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P19-04.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-c5142836-c5ec-4a3b-ba8a-0e730ba304a8.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Low-angle physical reaching action in leather-supplies shop, father steadies stock; no shoemaking. Same father and boy continuity.",
+    "crop_issues": "Raised hands/bundle upper-right; head and hand clearance source checked; actual polygon and1.15 pending.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P20-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P20-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "pages8–16",
+  "layout_version": "0.8",
+  "new_missing_sources_completed": ["B01V07-P13-04", "B01V07-P14-01", "B01V07-P14-03", "B01V07-P14-04", "B01V07-P15-01", "B01V07-P15-02", "B01V07-P15-03", "B01V07-P15-04", "B01V07-P16-01", "B01V07-P16-02", "B01V07-P16-03", "B01V07-P16-04"],
+  "substantive_replacements": ["B01V07-P08-01", "B01V07-P10-02"],
+  "archived_originals": "art/book1-v07/variants/pre-care-v08/",
+  "existing_sources_accepted": ["B01V07-P08-02", "B01V07-P08-03", "B01V07-P08-04", "B01V07-P09-01", "B01V07-P09-03", "B01V07-P09-04", "B01V07-P10-01"],
+  "claude_pass_sources_preserved": ["B01V07-P10-03", "B01V07-P10-04", "B01V07-P11-01", "B01V07-P11-03", "B01V07-P11-04", "B01V07-P12-01", "B01V07-P12-02", "B01V07-P12-03", "B01V07-P12-04", "B01V07-P13-01", "B01V07-P13-02", "B01V07-P13-03"],
+  "removed_panel_not_generated": "B01V07-P14-02",
+  "validation": "All14 generated/replacement PNGs exist unchanged with format-only WebPs, matching SHA256 and complete per-ID v08 source-review receipts. All output dimensions match v08 requested sizes. No global files edited, no uploads performed.",
+  "actual_mask_browser_lettering_qa": "not performed; root renderer QA pending",
+  "crop_attention": {
+    "B01V07-P08-01": "Much improved small figure. Boy spansy~0.27–0.70, needs fy~0.49 and zoom1.0 in very-wide slanted strip; inspect cap and shoes. Contain/overscan if needed.",
+    "B01V07-P10-02": "Main hand central but holding hand near right edge; fx~0.65 or contain may preserve both in left polygon.",
+    "B01V07-P14-04": "Travelers low in source; fy~0.68. Map is poetic editorial geography, not verified historical borders or route.",
+    "B01V07-P15-01": "Doctor is intentionally off-screen; speech tail should point to warm left-middle window, no doctor face needed.",
+    "B01V07-P15-03": "Quiet boy at source-right; fx~0.7 recommended to preserve face and right hand.",
+    "B01V07-P16-03": "Book near upper-left; zoom1.0 pending triangular-mask review.",
+    "B01V07-P16-04": "Conservative zoom1.0 protects cap and low empty hands. Face partly lit rather than pure silhouette, accepted for empty-hands purpose."
+  }
+}

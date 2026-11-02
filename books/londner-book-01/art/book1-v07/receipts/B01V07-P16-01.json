@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P16-01",
+  "file": "art/book1-v07/B01V07-P16-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P16-01.webp",
+  "source_path": "/workspace/generated_images/exec-c2d6cbbc-2a68-4ab4-b0d0-b6710521738d.png",
+  "tool_source_path": "/workspace/generated_images/exec-c2d6cbbc-2a68-4ab4-b0d0-b6710521738d.png",
+  "prompt": "VERTICAL PORTRAIT 2:3. ONE dramatic pastoral literary graphic novel illustration in painterly watercolor and gouache, selective fine ink and tactile cloth. EYE-LEVEL CLOSE-UP OF CHILDREN'S HANDS ONLY above a pale hospital blanket in an early-1900s Vienna ward: two unfamiliar children's hands, one entering from upper-left in an off-white striped sleeve and one from upper-right in a pale blue sleeve, are taking away the SAME palm-sized closed worn dark-brown leather prayer book as reference. The book is intact, no writing or symbols. From lower-right the small boy's one hand in his recognizable charcoal buttoned shirt sleeve reaches after the book, fingers open, empty palm, no violent grip or injury. Exactly three small hands visible, anatomically natural, no adult hands, no faces or bodies. Capture the moment the book leaves the blanket, held firmly by the other children, not torn or damaged. Harsh clear daylight and cool blue-white shadows. Composition of hands and complete book inside middle 65% width and middle 55% height, with spare blanket/wall margin above and below for safe crop; keep a quiet top-left field for external caption. No aggressive faces, no wounds, no weapons, no crosses or icons. No text, balloons, panel frames, collage or watermark. One scene only, the missing familiar object is the story.\n",
+  "references": [
+    "art/book1-v07/B01V07-P15-04.png"
+  ],
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b1b09c92da84973b88ee67d6d2022758809bd438d634cb75002f30548b666348",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Portrait close detail of exactly three child hands: two other children in light striped/blue sleeves take the same intact worn brown prayer book above blanket, empty charcoal-sleeved hand reaches after it. No faces or violent contact. Book continuity with P15-04 strong, no title or symbols. Bright daylight, clean blue-white bed and wall. Entire book and fingers in middle, generous blank upper/lower source; no text.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}
