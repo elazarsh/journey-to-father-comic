@@ -1,0 +1,20 @@
+{
+  "file": "art/book1-v08-claude/yitzhak-four-ages-v01.png",
+  "web_file": "art/book1-v08-claude/yitzhak-four-ages-v01.webp",
+  "sha256": "2c457a300a20054bdd91eb479bdb96827de818fbd4c99f2ea49da946ea501f87",
+  "actual_size": [
+    1774,
+    887
+  ],
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    "art/book1-v08-corrections/characters/yitzhak-age04-v01.png",
+    "art/book1-v08-corrections/characters/yitzhak-age14-v01.png",
+    "art/chars/yitzhak-three-ages-v01.png"
+  ],
+  "purpose": "Four stylized ages for conclusions page, youngest to oldest in RTL reading order",
+  "status": "illustrated-composite-for-review",
+  "family_approved": false,
+  "notes": "Age ranges are artistic presentation, not exact historical age claims. Four-age image newly created from existing references; not a documentary photograph.",
+  "created_utc": "2026-11-02T06:47:08.125851+00:00"
+}
