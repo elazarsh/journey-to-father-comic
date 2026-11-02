@@ -166,6 +166,10 @@ def file_src(rel, size=(900, 900), alpha=False):
 for p_ in pages:
     for ph in p_.get('photos', []):
         ph['src'] = file_src(ph['file'], (700, 700))
+if sp and sp.get('closeArtFile') and (B / sp['closeArtFile']).exists():
+    sp['closeArt'] = file_src(sp['closeArtFile'], (1400, 1400))
+if sp and sp.get('backPhotoFile'):
+    sp['backPhoto'] = file_src(sp['backPhotoFile'], (700, 700))
 if sp and sp.get('titleArtFile'):
     sp['titleArt'] = file_src(sp['titleArtFile'], (1000, 1500))
 for p_ in pages:

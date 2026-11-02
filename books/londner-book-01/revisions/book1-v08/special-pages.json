@@ -49,5 +49,7 @@
  "coverArtFile": "art/book1-v08-cover/cover-v01.webp",
  "coverMasterFile": "art/book1-v08-cover/cover-v01.png",
  "coverStatus": "Dedicated cover generated; family review pending. Use 2:3 or A4 centered without zoom.",
- "titleArtFile": "art/book1-v08-corrections/extras/opening-dedication-background-v01.webp"
+ "titleArtFile": "art/book1-v08-corrections/extras/opening-dedication-background-v01.webp",
+ "backPhotoFile": "ref/S08-img002.jpg",
+ "closeArtFile": "art/book1-v08-claude/three-ages.png"
 }

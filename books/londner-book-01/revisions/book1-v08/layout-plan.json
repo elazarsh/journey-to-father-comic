@@ -2912,8 +2912,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אחר כך סיפרו לי על הבית החדש של שרהלה.",
-      "en": "Later I was told about Sarale's new home.",
+      "he": "סיפרו לי על הבית החדש של שרהלה.",
+      "en": "They told me about Sarale's new home.",
       "kind": "adapted",
       "memoir": "אחרי זמן מה שמעתי כי קיבלו אותה בשמחה"
      }
@@ -2999,9 +2999,10 @@
   {
    "page": 26,
    "pace": "normal",
-   "recipe": "zig-4",
+   "recipe": "2-1-2",
    "order": [
     "B01V07-P26-01",
+    "PHOTO-YOUNG",
     "B01V07-P26-02",
     "B01V07-P26-03",
     "B01V07-P26-04"
@@ -3050,6 +3051,15 @@
       "en": "I had to learn new things.",
       "kind": "adapted",
       "memoir": "וקיבלתי את המקצוע"
+     }
+    ],
+    "PHOTO-YOUNG": [
+     {
+      "type": "caption",
+      "speaker": "",
+      "he": "תמונה אמיתית: סבא יצחק בצעירותו.",
+      "en": "Real photo: Grandpa Yitzhak as a young man.",
+      "kind": "editorial"
      }
     ]
    },
@@ -3105,13 +3115,20 @@
      "angle": "high",
      "subject": "hands",
      "light": "warm raking lamp light on cloth"
+    },
+    "PHOTO-YOUNG": {
+     "shot": "close",
+     "angle": "eye",
+     "subject": "photo",
+     "light": "sepia"
     }
    },
    "shows_override": {
     "B01V07-P26-04": "פרט מלמעלה: רק אצבעות הנער ממששות ומשוות שתי דוגמאות אריג זו לזו על הדלפק, תוויות מספר קטנות לא קריאות, אור מנורה נוגע במרקם; בלי פנים ובלי ראש.",
     "B01V07-P26-01": "רחב בגובה עין: הנער עם צרורו ברחוב מרוצף של לודז׳, ארובות עשנות ובנייני לבנים מאחוריו, אור בוקר זהוב (האיור הקיים).",
     "B01V07-P26-02": "בינוני בגובה עין: דוד מאיר ודודה נחלה בביתם מקבלים את יצחק, הדודה מביטה בו בשאלה; בלי חגיגה (האיור הקיים).",
-    "B01V07-P26-03": "בינוני מעבר לכתפו של הסוחר המבוגר: הוא פורש בד על הדלפק, הנער מולו מתבונן, מדפי גלילים מאחור (האיור הקיים)."
+    "B01V07-P26-03": "בינוני מעבר לכתפו של הסוחר המבוגר: הוא פורש בד על הדלפק, הנער מולו מתבונן, מדפי גלילים מאחור (האיור הקיים).",
+    "PHOTO-YOUNG": "תמונה אמיתית מהיומן של סבא יצחק."
    }
   },
   {
@@ -3299,16 +3316,20 @@
      {
       "type": "speech",
       "speaker": "ד״ר רוזנבלט",
-      "he": "תורה בלי עבודה אין קיום.",
-      "en": "Torah without work cannot last.",
-      "kind": "quote",
+      "he": "תורה בלי עבודה לא מחזיקה מעמד. צריך גם ללמוד וגם לעבוד!",
+      "en": "Torah without work cannot last. You must both learn and work!",
+      "kind": "adapted_speech",
       "memoir": "תורה בלי עבודה אין קיום",
       "mouth": "Dr. Rosenblatt, head of the leadership (no art yet: an older man addressing the young men), tail to him",
       "mouthXY": [
        0.67,
        0.2
       ],
-      "offPanel": true
+      "offPanel": true,
+      "at": [
+       0.27,
+       0.62
+      ]
      }
     ],
     "NEW-P28-jnf": [
@@ -4890,19 +4911,10 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "חוה עבדה קשה בחנות. הקונים אהבו לקנות אצלה.",
-      "en": "Chava worked hard in the shop. Customers loved to buy from her.",
+      "he": "חוה עבדה קשה בחנות, והקונים אהבו לקנות אצלה. ואני שמרתי בלב תוכנית סודית: יום אחד ניסע לארץ ישראל. עוד לא סיפרתי עליה לאף אחד.",
+      "en": "Chava worked hard in the shop, and the customers loved buying from her. And I kept a secret plan in my heart: one day we would go to the Land of Israel. I had not told anyone yet.",
       "kind": "adapted",
-      "memoir": "כשחוה לא הייתה בחנות לא קנו. היו רק אצל חוהלה"
-     },
-     {
-      "type": "thought",
-      "speaker": "יצחק",
-      "he": "ארץ ישראל... לא אספר לאף אחד.",
-      "en": "The Land of Israel... I won't tell anyone.",
-      "kind": "adapted_thought",
-      "memoir": "אבל אצלי היה רעיון ארץ-ישראל, ולא סיפרתי לאף אחד",
-      "mouth": "above Yitzhak, wherever he stands in the shop"
+      "memoir": "רק אני ידעתי התכנית"
      }
     ],
     "B01V07-P39-03": [
@@ -5041,8 +5053,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שוב קראו לי לצבא. הפעם כבר היו לי אישה, ילדה קטנה וחנות.",
-      "en": "Again I was called up. This time I already had a wife, a little girl and a shop.",
+      "he": "הפעם כבר היו לי אישה, ילדה קטנה וחנות.",
+      "en": "This time I already had a wife, a little girl and a shop.",
       "kind": "adapted",
       "memoir": "קיבלתי להתייצב לצבא, לא הייתה לי ברירה"
      }
@@ -5890,11 +5902,10 @@
   {
    "page": 47,
    "pace": "silence",
-   "recipe": "3-wide",
+   "recipe": "2-wide",
    "order": [
     "B01V07-P48-01",
     "B01V07-P48-02",
-    "PHOTO-P47",
     "B01V07-P48-03"
    ],
    "hero": "B01V07-P48-03",
@@ -5931,15 +5942,6 @@
       "en": "I was not afraid of any threats.",
       "kind": "quote",
       "memoir": "לא פחדתי משום איומים."
-     }
-    ],
-    "PHOTO-P47": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "תמונה אמיתית: סבא יצחק בצעירותו.",
-      "en": "Real photo: Grandpa Yitzhak as a young man.",
-      "kind": "editorial"
      }
     ]
    },
@@ -5992,29 +5994,21 @@
      "angle": "eye",
      "subject": "yitzhak",
      "light": "golden sunset"
-    },
-    "PHOTO-P47": {
-     "shot": "close",
-     "angle": "eye",
-     "subject": "photo",
-     "light": "sepia"
     }
    },
    "shows_override": {
     "B01V07-P48-01": "בינוני בגובה עין: המשפחה ליד המעקה, רוח בשיער.",
     "B01V07-P48-03": "רחב מאוד בגובה עין: שלושתם כצללית קטנה מול ים פתוח עצום.",
-    "B01V07-P48-02": "פרט מזווית גבוהה: הסל והכרים על הסיפון.",
-    "PHOTO-P47": "תמונה אמיתית מהיומן של סבא יצחק."
+    "B01V07-P48-02": "פרט מזווית גבוהה: הסל והכרים על הסיפון."
    }
   },
   {
    "page": 48,
    "title": "במחברת הבאה",
    "pace": "slow",
-   "recipe": "tall-2",
+   "recipe": "big-small",
    "order": [
     "B01V07-P47-03",
-    "PHOTO-P48",
     "B01V07-P47-02"
    ],
    "hero": "B01V07-P47-03",
@@ -6056,15 +6050,6 @@
       "kind": "editorial",
       "memoir": ""
      }
-    ],
-    "PHOTO-P48": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "תמונה אמיתית: סבא יצחק וסבתא חוה.",
-      "en": "Real photo: Grandpa Yitzhak and Grandma Chava.",
-      "kind": "editorial"
-     }
     ]
    },
    "shots": {
@@ -6079,19 +6064,12 @@
      "angle": "high",
      "subject": "objects",
      "light": "warm lamp"
-    },
-    "PHOTO-P48": {
-     "shot": "medium",
-     "angle": "eye",
-     "subject": "photo",
-     "light": "sepia"
     }
    },
    "note_he": "סיום עם שאלות פתוחות ורמזים קטנים לספר 2 (בקשת המשפחה 01/11). קטע 'אהבתי את כולם' עבר לעמוד 1.",
    "shows_override": {
     "B01V07-P47-02": "פרט ממבט ציפור: מחברת ולצדה עיפרון, חשבון חנות וסל דרך כדימויים.",
-    "B01V07-P47-03": "תקריב בגובה עין: פנים חמות של המספר.",
-    "PHOTO-P48": "תמונה אמיתית מהיומן של סבא יצחק."
+    "B01V07-P47-03": "תקריב בגובה עין: פנים חמות של המספר."
    },
    "purpose": {
     "B01V07-P47-02": {

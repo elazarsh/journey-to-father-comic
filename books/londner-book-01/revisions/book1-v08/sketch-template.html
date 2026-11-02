@@ -60,6 +60,7 @@ body.work .pid{display:block}
 .tx svg.kids{width:7.5em;height:4.2em;display:block}
 .tail{position:absolute;z-index:21;overflow:visible;pointer-events:none}
 .tail.bshape{z-index:19;filter:drop-shadow(1.5px 2px 1.5px rgba(0,0,0,.28))}
+.tail.behind{z-index:18;filter:drop-shadow(1.5px 2px 1.5px rgba(0,0,0,.28))}
 .tx img.memo{display:block;width:10.5em;height:auto;aspect-ratio:1.45;opacity:.9;filter:sepia(.35) saturate(.85);margin:-.2em auto -.3em}
 .sp.title.lit{background:#f3e6cc}
 .sp.title.lit .veil{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,rgba(255,249,236,.86) 0%,rgba(255,246,228,.6) 45%,rgba(255,244,224,.15) 80%)}
@@ -90,6 +91,8 @@ body.work .legend{display:block}
 .sp.title p{font:500 3cqw/1.6 'Frank Ruhl Libre',serif;color:#e7d6b6;max-width:80%}
 .sp.close{background:radial-gradient(ellipse at 50% 40%,#3a2612,#120b06 75%)}
 .sp.close .in{justify-content:center;gap:5cqw}
+.sp.close .closeart{width:100%;border-radius:1cqw;box-shadow:0 2cqw 4cqw rgba(0,0,0,.55)}
+.sp.close:has(.closeart) .in{gap:3cqw}
 .card{background:#fbf5e6;color:#1b1410;width:78%;padding:6cqw 6cqw 5cqw;border-radius:1.2cqw;box-shadow:0 2cqw 4cqw rgba(0,0,0,.5);background-image:repeating-linear-gradient(transparent 0 6.4cqw,#d9cdb4 6.4cqw 6.55cqw);text-align:start}
 .card h3{margin:0 0 3cqw;font:900 5.4cqw 'Frank Ruhl Libre',serif;color:#7a2a1a;text-align:center}
 .card ol{margin:0;padding:0;list-style:none;display:grid;gap:2.6cqw;counter-reset:k}
@@ -98,6 +101,17 @@ body.work .legend{display:block}
 .sp .cont{font:900 6cqw 'Frank Ruhl Libre',serif;color:#f2c46a}
 .sp.back .in{justify-content:center;gap:3.4cqw}
 .sp.back .blurb{font:500 3.3cqw/1.65 'Frank Ruhl Libre',serif;color:#f3e8d2;max-width:86%;display:grid;gap:2.2cqw}
+.sp.back .bphoto{margin:1cqw 0 .5cqw;width:56%;background:#fbf7ee;padding:1.2cqw 1.2cqw 3.2cqw;box-shadow:0 1.5cqw 3cqw rgba(0,0,0,.6);transform:rotate(-2deg)}
+.sp.back .bphoto img{display:block;width:100%;filter:sepia(.2)}
+html.land .sp.back .bphoto{width:42%}
+.sp.back:has(.bphoto) .blurb{font-size:2.45cqw;line-height:1.55;gap:1.2cqw}
+.sp.back:has(.bphoto) h2{font-size:9cqw}
+.sp.back:has(.bphoto) .in{gap:2cqw}
+html.land .sp.back:has(.bphoto) .in{inset:5% 20%;gap:1.4cqw}
+html.land .sp.back:has(.bphoto) .blurb{font-size:2.2cqw;gap:.8cqw}
+html.land .sp.close:has(.closeart) .in{inset:4% 20%;gap:2cqw}
+html.land .sp.close .closeart{width:60%}
+html.land .sp.close:has(.closeart) .card{padding:3.5cqw 5cqw 3cqw}
 .sp.back .for{font:700 2.8cqw Heebo;color:#e9c98c;letter-spacing:.06em}
 /* print: one A4 sheet per section, nothing else */
 html.print header,html.print .plabel,html.print .note,html.print .legend,html.print .intro{display:none!important}
@@ -220,10 +234,13 @@ html.print .pw{animation:none!important}
     } else if (kind === 'title') {
       el('q', '', inn).textContent = L.dedication; el('p', '', inn).textContent = L.dedicationNote;
     } else if (kind === 'close') {
+      if (S.closeArt) { var ca = el('img', 'closeart', inn); ca.src = S.closeArt; ca.alt = ''; }
       var card = el('div', 'card', inn); el('h3', '', card).textContent = L.cardTitle; var ol = el('ol', '', card);
       L.takeaways.forEach(function (x) { el('li', '', ol).textContent = x; }); el('div', 'cont', inn).textContent = L.continued;
     } else if (kind === 'back') {
-      el('div', 'kick', inn).textContent = L.series; el('h2', '', inn).textContent = L.title; var b = el('div', 'blurb', inn);
+      el('div', 'kick', inn).textContent = L.series; el('h2', '', inn).textContent = L.title;
+      if (S.backPhoto) { var bp = el('figure', 'bphoto', inn); var bi = el('img', '', bp); bi.src = S.backPhoto; bi.alt = ''; }
+      var b = el('div', 'blurb', inn);
       L.blurb.forEach(function (x) { el('p', '', b).textContent = x; }); el('div', 'for', inn).textContent = L.forWho;
     }
   }
@@ -352,21 +369,37 @@ html.print .pw{animation:none!important}
         }
         d.style.left = x + 'px'; d.style.top = y + 'px';
         placed.push({ x: x, y: y, w: w, h: h }); obst.push({ x: x, y: y, w: w, h: h });
-        if (m && (k === 'bub' || k === 'tho' || k === 'whi' || k === 'sho')) drawTail(host, pg, d, { x: x, y: y, w: w, h: h }, m, k);
+        if (m && (k === 'bub' || k === 'tho' || k === 'whi' || k === 'sho')) {
+          var me = { x: x, y: y, w: w, h: h }, prev = q._lastBub && q._lastBub.speaker === (t.speaker || '') && q._lastBub.k === k && k !== 'sho' ? q._lastBub.r : null;
+          drawTail(host, pg, d, me, m, k, prev);
+          q._lastBub = { speaker: t.speaker || '', k: k, r: me };
+        }
       });
     });
   }
-  function drawTail(host, pg, d, r, m, k) {
+  function drawTail(host, pg, d, r, m, k, prev) {
     var fs = parseFloat(getComputedStyle(d).fontSize), cx = r.x + r.w / 2, cy = r.y + r.h / 2;
     var FILL = k === 'sho' ? '#ffe27a' : '#f8eed8', INK = '#3a2818';
     var s = svg('svg', { class: 'tail' + (k === 'sho' ? '' : ' bshape'), width: 1, height: 1 }, host);
     s.style.left = '0px'; s.style.top = '0px'; pg._tx.push(s);
-    var g = svg('g', { opacity: k === 'sho' ? 1 : .84 }, s);
+    var g = svg('g', { opacity: k === 'sho' ? 1 : .9 }, s);
+    var s2 = svg('svg', { class: 'tail behind', width: 1, height: 1 }, host);
+    s2.style.left = '0px'; s2.style.top = '0px'; pg._tx.push(s2);
+    var gt = svg('g', { opacity: k === 'sho' ? 1 : .9 }, s2);
+    if (prev) {   /* same speaker again: link to the previous bubble instead of a second tail */
+      var ax = Math.max(Math.max(prev.x, r.x) + fs, Math.min(Math.min(prev.x + prev.w, r.x + r.w) - fs, (prev.x + prev.w / 2 + r.x + r.w / 2) / 2));
+      var top = prev.y + prev.h < r.y ? prev : r, bot = top === prev ? r : prev;
+      var y1 = top.y + top.h - fs * .4, y2 = bot.y + fs * .4;
+      if (y2 > y1) {
+        svg('path', { d: 'M' + (ax - fs * .32) + ',' + y1 + ' L' + (ax + fs * .32) + ',' + y1 + ' L' + (ax + fs * .32) + ',' + y2 + ' L' + (ax - fs * .32) + ',' + y2 + 'Z', fill: FILL, stroke: INK, 'stroke-width': 2 }, gt);
+      }
+    }
     var rx = r.w / 2, ry = r.h / 2;
     if (k !== 'sho') {   /* the bubble itself, so bubble and tail are one shape with one transparency */
       var rr = k === 'tho' ? [Math.min(r.w * .45, fs * 2.2), Math.min(r.h * .48, fs * 2.2)] : [Math.min(r.w * .5, fs * 1.5), Math.min(r.h * .5, fs * 1.5)];
       svg('rect', { x: r.x, y: r.y, width: r.w, height: r.h, rx: rr[0], ry: rr[1], fill: FILL, stroke: INK, 'stroke-width': 2, 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, g);
     }
+    if (prev) return;
     var dx = m[0] - cx, dy = m[1] - cy, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L;
     var t = 1 / Math.sqrt((dx / rx) * (dx / rx) + (dy / ry) * (dy / ry));   /* where the line to the mouth leaves the ellipse */
     var ex = cx + dx * t * .97, ey = cy + dy * t * .97, gap = Math.hypot(m[0] - ex, m[1] - ey);
@@ -381,8 +414,8 @@ html.print .pw{animation:none!important}
     var bx = ex - ux * fs * .35, by = ey - uy * fs * .35;   /* base sits just inside the bubble */
     var a = [bx + px * half, by + py * half], b = [bx - px * half, by - py * half], tip = [ex + ux * len, ey + uy * len];
     var bend = half * .35, c1 = [(a[0] + tip[0]) / 2 + px * bend, (a[1] + tip[1]) / 2 + py * bend], c2 = [(b[0] + tip[0]) / 2 + px * bend, (b[1] + tip[1]) / 2 + py * bend];
-    svg('path', { d: 'M' + a + ' Q' + c1 + ' ' + tip + ' Q' + c2 + ' ' + b + 'Z', fill: FILL, stroke: 'none' }, g);
-    svg('path', { d: 'M' + a + ' Q' + c1 + ' ' + tip + ' Q' + c2 + ' ' + b, fill: 'none', stroke: INK, 'stroke-width': k === 'sho' ? 2.6 : 2, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, g);
+    var gg = k === 'sho' ? g : gt;
+    svg('path', { d: 'M' + a + ' Q' + c1 + ' ' + tip + ' Q' + c2 + ' ' + b + 'Z', fill: FILL, stroke: INK, 'stroke-width': k === 'sho' ? 2.6 : 2, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, gg);
   }
 
   function render() {
