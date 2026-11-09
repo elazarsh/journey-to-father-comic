@@ -5047,7 +5047,7 @@
       ],
       "at": [
        0.33,
-       0.56
+       0.46
       ]
      },
      {
@@ -5064,7 +5064,7 @@
       ],
       "at": [
        0.36,
-       0.665
+       0.66
       ]
      },
      {
@@ -5312,7 +5312,11 @@
       "en": "Don't let the time slip away",
       "kind": "quote",
       "memoir": "הייתה איתי בדעה, לא להזניח את הזמן וגם הסרטיפיקט",
-      "mouth": "left, facing Yitzhak (unnamed, no identified portrait)"
+      "mouth": "left, facing Yitzhak (unnamed, no identified portrait)",
+      "at": [
+       0.165,
+       0.5
+      ]
      }
     ],
     "B01V07-P42-02": [
