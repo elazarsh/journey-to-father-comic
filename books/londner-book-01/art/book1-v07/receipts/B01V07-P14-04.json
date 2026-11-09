@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P14-04",
+  "file": "art/book1-v07/B01V07-P14-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P14-04.webp",
+  "source_path": "/workspace/generated_images/exec-eccae935-c223-428c-a970-7b2c935ecd0a.png",
+  "tool_source_path": "/workspace/generated_images/exec-eccae935-c223-428c-a970-7b2c935ecd0a.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral literary graphic novel illustration in painterly watercolor and gouache, selective fine ink and tactile paper. EXTREME-WIDE EYE-LEVEL EDITORIAL TRANSITION IMAGE: two tiny BACK-VIEW silhouettes of a father and school-age son stand together near bottom middle facing the distance, against a huge softly illuminated antique parchment map of central Europe. This is visibly a poetic editorial illustration of traveling farther to Vienna, not a literal historical scene or dated document. Map dominates almost entire image, dusk amber backlight fading into muted blue-violet edges. No named place labels, no letters, no dates, no flags, no route lines, no railroad or vehicle; neutral subtle map contours only, no precise invented itinerary. Father dark long coat, flat cap and small bag; boy dark cap with tan band and simple dark jacket, clearly much shorter; same silhouettes and clothes as father/boy reference, rear views only. Both figures tiny with whole heads/hands safely within central 50% width and middle 60% height. Huge calm upper-left parchment space for later live caption and city labels added externally. No additional people, no balloons, no borders or panels, no collage, no icons or watermarks. Strong contrast of small travelers and large unfamiliar geography; solemn hope, no danger.\n",
+  "references": [
+    "art/book1-v07/web/B01V07-P13-03.webp"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "c8ebe141fd2ab28857e4351950c8051aae7c96f1877db82ecc2820dd3d948aca",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Extreme-wide editorial geography transition: father and son small back-view silhouettes against parchment Europe, amber dusk and blue shadows. No written labels, routes, railroad or transport; map boundaries are illustrative and must not be treated as verified period borders. Two figures only. Generous sky/map negative space. Travelers are low in source: use crop fy about0.68 and conservative zoom; actual lower slant mask must preserve both heads and bag. Live place labels remain external.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

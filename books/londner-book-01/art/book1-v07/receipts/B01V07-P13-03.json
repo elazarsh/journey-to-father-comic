@@ -1,0 +1,13 @@
+{
+  "id": "B01V07-P13-03",
+  "file": "art/book1-v07/B01V07-P13-03.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: A tall examination room in a Warsaw hospital around 1912: high ceiling, tall glass cabinets. The doctor, a man in a white coat, bends to examine both feet of the boy Yitzhak, about eleven, who sits on the examination table. The father, bearded, stands beside them pointing at the boy's left foot. Nothing graphic. Camera: Wide shot from a low angle, emphasizing the tall ceiling. Light and colour: Cool light from tall windows. Lettering space: Leave calm low-detail space in the upper part of the frame: upper right above the doctor for two speech balloons, and room for one caption, using the high ceiling and plain wall. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+  "bytes": 3008059,
+  "created_at": "2026-10-30T17:54:37.395103+00:00"
+}

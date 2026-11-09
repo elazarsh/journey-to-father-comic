@@ -1,17 +1,15 @@
 {
   "id": "B01V07-P17-04",
-  "prompt": "ONE portrait scene 1024x1536, dramatic pastoral watercolor/gouache graphic novel. Same Jewish woman, boy, wicker hospital push-chair, cream nightshirt, dark flat cap and blue-green hospital atmosphere as attached reference. They are at the threshold of a modest JEWISH hospital synagogue in Vienna in the early 1900s. The destination is a Jewish prayer room, NOT a Christian chapel: absolutely no crosses, crucifixes, church altar, saints, ecclesiastical finial or Christian symbols anywhere. A plain flat-topped wooden cabinet with a linen curtain, simple wood benches, and only three anonymous adult men quietly praying with indistinct unlettered books suggest the small prayer room. No readable signs or text. The woman stays behind the chair, boy sits facing into the room with empty hands on his blanket; he has not recovered his own prayer book. View from rear three-quarter so the room is revealed naturally beyond an open simple rectangular door. All woman/boy/chair inside central 60% width and y30–80%, every wheel and footrest at least 15% from bottom/side edges. Upper-left wall and door surround x4–52%, y4–24% remain quiet low-detail dark teal for future captions; no face in that zone. Keep warm amber light inside prayer room contrasting softly with muted teal hospital corridor. No new rescue, dialogue or medical drama. One continuous scene, no lettering, bubbles, frames, collage, watermark.",
+  "prompt": "PORTRAIT canvas 1024x1536. Redraw attached scene with a completely different first-person camera from the seated boy's eyes, looking forward from inside the old wheelchair across an open doorway into an early-1900s Vienna synagogue. The ONLY visible trace of the boy is his two knees covered by the familiar blue-grey checked blanket along the lower foreground, no boy's face, no head, no woman. No exterior view of a wheelchair. Cool blue hospital corridor and doorjambs frame the warm gold synagogue interior; beyond the threshold see the backs of three adult worshippers and dark wooden benches, a hanging oil lamp, tall softly glowing windows. The sanctuary warmly receives the viewer. Explicitly FIRST PERSON POV, not an observer behind the wheelchair. Central safe area x20–80%, y25–80% holds threshold, worshippers and blanket knees, with 15% room for polygon cropping and zoom1.15. Upper area calm wall and light for captions. Painterly dramatic pastoral watercolor and gouache with restrained ink, tactile paper and pigments, atmospheric depth, natural anatomy, period clothing. One continuous scene only; no lettering, words, legible prayer books, bubbles, frame or watermark.",
   "reference_paths": [
-    "art/book1-v07/B01V07-P17-02.png"
+    "art/book1-v07/B01V07-P17-04.png"
   ],
-  "original_tool_file": "/workspace/generated_images/exec-ba92cda5-bdcc-4049-b777-0c757e195b3c.png",
+  "original_tool_file": "/workspace/generated_images/exec-53202c5e-219d-460e-8cfd-285f166627a2.png",
   "visual_review": {
     "source_seen": true,
-    "count": "boy, anonymous woman, exactly three anonymous praying men",
-    "historical_detail": "Jewish prayer room, plain curtained cabinet, no Christian symbol or text",
-    "quiet_area": "upper-left teal wall left of door, heads below the caption zone",
-    "crop_note": "main chair and figures have floor/side margins; use existing geometry without extra zoom until actual mask review",
-    "pending": "browser masks and final live lettering review"
+    "source_visual_review": "True first-person view: checked blanket knees in foreground, cool threshold, warm benches and three worshippers backs, no exterior boy/woman faces.",
+    "crop_issues": "Knees intentionally continue below image; essential doorway and worshippers central. Actual narrow polygon crop requires renderer confirmation.",
+    "pending": "Browser mask and lettering review with root."
   },
   "file": "art/book1-v07/B01V07-P17-04.png",
   "web_file": "art/book1-v07/web/B01V07-P17-04.webp",
@@ -19,8 +17,11 @@
     1024,
     1536
   ],
-  "sha256": "acf03d248a953b36a3e1de79442bfaf0e8684ae936dbde69e4a07e1f094bb59e",
+  "sha256": "385e204b351e1ba5449bc9260fde62dc59bd0e2a17c284739519cc20a71abde6",
   "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
   "generator": "image_gen__imagegen",
-  "generated_on": "2026-10-30"
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
 }

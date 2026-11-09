@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P22-03",
+  "prompt": "PORTRAIT canvas1024x1536. Wide LOW ANGLE scene from near cobblestones looking through the OPEN doorway of an early1900s small Polish leather-and-cobbler-supplies MERCHANT SHOP: three newly delivered substantial wooden shipment crates stacked safely just inside the doorway, central lower middle, lit by fresh golden MORNING light. Wooden floor and shelves of rolled leather glimpsed behind them. No people. Crates have no lettering, labels, stamped symbols or numbers. The door is propped open, ordinary welcoming commercial atmosphere. This scene means trusted shipments arriving; emphasize tactile wood and cool blue street shadows contrasted with morning sun, NOT another tabletop close-up. Fit intact stack, threshold and daylight within central70% width and70% height with15% margins. Calm upper door-shadow area for later caption. Use reference for shop materials only, change composition and angle radically. Dramatic pastoral watercolor and opaque gouache literary graphic novel illustration, selective fine ink, painterly brushwork, atmospheric depth, restrained rich warm ochre and cool slate palette, no photographic rendering. One scene, no text, balloons, border, frames, montage or watermark.",
+  "refs": [
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-e34d0f5b-9f23-49c2-a02e-ac1d0c5cc758.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "New unmarked shipment crates in open shop entrance, low wide view, bright morning light, nobody present. Supplies merchant shelves remain consistent.",
+    "crop_issues": "Crate stack central x30–64%, y35–64%; 15% margins safe. Upper rafters provide quieter dark caption area. Exact polygon and lettering check pending root."
+  },
+  "file": "art/book1-v07/B01V07-P22-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P22-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "0e3a5e0e4724acb8dc23aef450752f80a4898c395ae1fd67ff4a40864c8b0c89",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "crop_notes": "Crate stack central x30–64%, y35–64%; 15% margins safe. Upper rafters provide quieter dark caption area. Exact polygon and lettering check pending root."
+}

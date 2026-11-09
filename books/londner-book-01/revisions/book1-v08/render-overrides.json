@@ -1,0 +1,10 @@
+{
+  "B01V07-P05-01": {
+    "source_sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+    "fit": "cover",
+    "fx": 0.5,
+    "fy": 1.0,
+    "zoom": 1.0,
+    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+  }
+}

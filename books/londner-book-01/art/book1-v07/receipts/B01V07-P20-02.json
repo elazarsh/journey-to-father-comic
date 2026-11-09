@@ -1,0 +1,25 @@
+{
+  "id": "B01V07-P20-02",
+  "prompt": "LANDSCAPE canvas1536x1024. BIRD'S-EYE DETAIL looking straight down on a wooden kitchen table in an early1900s Polish family home. A boy's two hands with worn dark shirt sleeves arrange several neatly folded LAUNDRY BUNDLES in descending sizes from adult shirts to small child garments. Different sizes tell how carefully he sorts clothing for each person. Keep partial framing: some bundles continue off side, no fixed household portrait or exact family-count claim. Warm cream, faded indigo and earth cloth, worn table grain, a small cloth tie. Hands and middle bundles safely in central65%width and45%height. NO FACES, no bodies or heads. Gentle window light, golden clean-laundry domestic warmth, tactile folds. No ink labels or written names. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [],
+  "original_tool_file": "/workspace/generated_images/exec-ced7b0e4-f18e-49ff-ae9e-fc7fdace0faf.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Overhead hands sorting descending-size folded garments, partial household bundles without fixed count claim. No faces; different subject/angle from adjacent panels.",
+    "crop_issues": "Hands central; side laundry intentionally extends past edge. Actual polygon check pending.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P20-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P20-02.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "ecfd8585db08ebc1e0aa396aa6c2265a84c22e2d6e239b31a99694fac29fb6a2",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

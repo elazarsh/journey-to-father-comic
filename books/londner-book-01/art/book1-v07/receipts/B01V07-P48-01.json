@@ -1,0 +1,35 @@
+{
+  "id": "B01V07-P48-01",
+  "prompt": "LANDSCAPE 1536x1024. MEDIUM EYE-LEVEL single scene on1925 steamship Asia: same three-person family AT THE RAIL facing the sea, photographed from three-quarter rear-left with faces in clear side profile and wind lifting loose hair. Yitzhak25 on RIGHT in brown wool coat/vest, cream shirt and familiar brown cap, one hand holding cap against wind; Chava LEFT in pale long-sleeve modest blouse, dark long skirt, olive-brown headscarf still securely tied with a small wisp of hair at temple; little daughter Hanna Roza BETWEEN them in taupe coat over ochre dress, her small hands resting safely on lower rail. Exactly3 family members, no passengers in foreground, match reference identities/clothes. They look outward at the bright horizon, no mutual gaze or staged smile. Show salt wind and forward anticipation, bright crisp blue midday sea, white wind-blown clouds. Large open sea/sky to left; no coastline, buildings, destination or arrival. Keep all three complete heads positioned BELOW28% of image, faces/mouths and all hands inside central70%,15% crop overscan; no cropping hat at top. Rail crosses lower third, no large ship structure. Distinguish from earlier happy family panel by three-quarter rear viewpoint, all looking toward horizon, wind action and strong cool blue-white light. Dramatic pastoral watercolor/gouache literary graphic novel, selective fine ink, tactile paper/cloth, natural faces/anatomy, rich restrained blue/umber/ochre, cinematic sea atmosphere. ONE scene ONE image; no lettering, bubbles, frames, montage, flags, emblems or watermark.",
+  "source_path": "/workspace/generated_images/exec-5469695c-29d9-40ee-ac00-165767bcd37d.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Three-quarter rear eye-level family at ship rail looking out to open bright sea, wind moves loose hair and clothing, Yitzhak steadies cap.",
+    "family": "Exactly3, same brown-clothed Yitzhak25, olive-brown headcovered wife, sole little daughter in taupe/ochre.",
+    "lettering": "Open sky/sea at left.",
+    "limits": "Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Head/cap at12% from top; preserve high anchor for Yitzhak raised hand and cap.",
+    "Final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P48-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P48-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "fe46fd4e54721154aa9c7b1f85ea3f1bb7dcd76e38ec1dbb70ccc83cf1e642ed",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P44-04.webp",
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P46-04.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

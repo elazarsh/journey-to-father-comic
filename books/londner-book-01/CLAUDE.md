@@ -1,1 +1,9 @@
-Read AGENTS.md and HANDOFF.md. This scoped book uses production/structure.html for geometry and viewer/index.html for reading. Keep lettering live and original art uncropped. A generated candidate is not family-approved art. Do not import the host repository's Emmanuel story, characters or chronology into this book.
+## משוב משפחה חדש: תיקוני איורים, 01/11/2026
+
+לפני המשך עבודה קראו `handoffs/codex/20261101-family-image-review.md` ואת `art/book1-v08-corrections/replacement-map.json`. נוספו 32 איורים חלופיים, שלושה רפרנסים לגיל ורקע הקדמה וזיכרון הילדים. זו מסירת נכסים לשילוב עתידי בידי קלוד, לפי בקשת המשפחה, ולא החלפה אוטומטית במניפסט או ב־PDF. יש הנחיה חדשה להעדיף עברית תקינה וסיפורית על פני העתקה מילולית מהיומן, תוך שמירת העובדות והבחנה בין עיבוד לציטוט.
+
+# ספר לונדנר1, מסירת איורים
+
+קראו AGENTS.md ו-handoffs/codex/BOOK1-V08-ART-COMPLETION.md. כל 170 משבצות גרסה 0.8 מצוידות במקור. מקור האמת לפריסה: revisions/book1-v08/layout-plan.json. מקור האמת לבחירת קובץ: art/book1-v07/progress.json, ובשני מקרים source-selection.json. אין להחזיר את גרסת 32 העמודים לפעילות.
+
+אין צורך לייצר שוב משבצות שסומנו existing או תיקונים שכבר נסגרו. מקור PNG נשאר ללא שינוי; חיתוכים וכיתוב בעימוד בלבד. שימו לב לתיבות פנים ישנות שהוסרו, לעוגני דיבור בעמוד38 ולהערות חיתוך בדוח QA. אין טענה לאישור טיפוגרפיה/מסכות בדפדפן. ספר 2 באחריות קלוד ולא שונה בסבב האיור הזה.

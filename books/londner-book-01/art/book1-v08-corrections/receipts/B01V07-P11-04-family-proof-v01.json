@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P11-04",
+  "file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P11-04-family-proof-v01.webp",
+  "sha256": "af344986a5470250a5736ef0d84576328dde81cd9ffe3fda780fa27b51950fdf",
+  "web_sha256": "aba8bd08668adddbaeb29a92a41b2cc61da3a436716f8291035a8dffdf5eb1f0",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Uncertain headwear reviewed against original master; cap edited to flat cap. Generative edit; recheck faces, composition, crop and speech anchors before integration.",
+  "created_utc": "2026-11-01T21:03:01.863607+00:00"
+}

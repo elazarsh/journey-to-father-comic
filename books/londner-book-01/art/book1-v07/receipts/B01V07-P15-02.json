@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P15-02",
+  "file": "art/book1-v07/B01V07-P15-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P15-02.webp",
+  "source_path": "/workspace/generated_images/exec-73991f33-6b83-4d19-ae91-bf383ecc321a.png",
+  "tool_source_path": "/workspace/generated_images/exec-73991f33-6b83-4d19-ae91-bf383ecc321a.png",
+  "prompt": "VERTICAL PORTRAIT 2:3. ONE dramatic pastoral literary graphic novel watercolor/gouache illustration with selective fine ink, natural restrained period detail, muted cold blue hospital corridor light. WIDE POINT-OF-VIEW FROM THE SMALL BOY'S HOSPITAL BED in early-1900s Vienna: the pale blanket and a little of his charcoal sleeve are in the lower foreground, NO view of the boy's face; beyond them his FATHER seen ONLY FROM BEHIND walks calmly through an open doorway into a long clean blue-grey corridor. Father wears the same dark long coat and dark flat cap as reference and carries a small brown bag; recognizable same shape and clothes, no invented goodbye gesture or promise. A small generic nurse in pale period uniform far in corridor carries folded linen, showing continuing ordinary care, not abandonment. Architecture, doorway and depth dominate, father modest-sized in middle half with entire head and bag well inside safe area; broad upper-left quiet wall and generous headroom. White enamel bed rail, simple tiled floor, plaster walls, no modern equipment or fluorescent lights. No distress spectacle, no reaching out after him. One scene, no text, no signs, no balloons, no panel borders, no collage, religious crosses or watermark. Calm truthful separation after treatment; the child remains cared for.\n",
+  "references": [
+    "art/book1-v07/web/B01V07-P13-03.webp",
+    "art/book1-v07/B01V07-P13-04.png"
+  ],
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "82e402e23c39e959005dc24d53e3c269ad4a4181f2273055a356634a97da7a77",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Bed POV with pale blanket foreground, father viewed from behind exiting into long cool corridor with small bag, same dark flat cap and long coat as prior father. Nurse with folded linen in corridor shows continued routine care. No child face, no reaching gesture or invented promise; ordinary separation, no abandonment staging. Broad plain upper-left wall, complete head and bag in middle-right; portrait source with overscan.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

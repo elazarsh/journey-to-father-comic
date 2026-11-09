@@ -1,0 +1,38 @@
+{
+  "id": "B01V07-P06-04-agefix",
+  "kind": "panel-replacement",
+  "target": "B01V07-P06-04",
+  "age_band": "04",
+  "previous_source_file": "art/book1-v07/B01V07-P06-04.png",
+  "previous_source_sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+  "specific": "The boy standing inside doorway opposite his mother is FOUR. Keep mother adult and preserve perspective/doorway. Natural short preschool body and limbs with relatively larger child head, no adult-long legs or tiny adult head. Tender child uncertainty, not abandonment fear. Keep child fully inside safe margins.",
+  "status": "generated-candidate-for-Claude-integration",
+  "prompt": "Edit the FIRST attached historical graphic-novel panel. Its overall scene, camera angle, framing/aspect ratio, lighting, setting, other people, period clothing and essential actions must remain recognizable. The SECOND image is the age-specific Yitzhak identity reference: it overrides the old panel's too-young face and wrong proportions. Repaint the visible Yitzhak naturally as one anatomically coherent person of the specified age; do not paste or resize a head. Preserve his recognizable brown eyes, prominent ears, distinctive nose and cap, natural smaller eyes and subtle expressions. No generic cartoon, no giant head, no small head on adult torso, no massive shoulders or overlong adult legs on a small child. Treat adult/child scale and head/neck/shoulder relationships coherently. Preserve the established warm painterly watercolor/gouache dramatic pastoral style and paper texture, not glossy photo-realism. Do not introduce new events, symbols or people. Keep faces, hands, feet when relevant, and key props at least10-12% inside edges; leave a naturally calm area ABOVE each visible speaker for later live lettering. NO text, readable writing, balloons, outlines, panel frames or watermarks. This is one complete scene, not a montage. Specific correction: The boy standing inside doorway opposite his mother is FOUR. Keep mother adult and preserve perspective/doorway. Natural short preschool body and limbs with relatively larger child head, no adult-long legs or tiny adult head. Tender child uncertainty, not abandonment fear. Keep child fully inside safe margins.",
+  "file": "art/book1-v08-corrections/panels/B01V07-P06-04-agefix.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P06-04-agefix.webp",
+  "sha256": "c3646077fdebc65a47f642f190f29ec79c7af5568a81ed5f328c6844b208fb0d",
+  "web_sha256": "b8917d5aee367c99614d41808d6c6498ec7e9f2c75c0fe60a70a82ba9f1ba24f",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-596234cd-58b9-419f-835d-2db30df6672b.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v07/web/B01V07-P06-04.webp",
+      "sha256": "5aae1a1c01d59e79fefbebc56be2fb94148a8df655e42b287822d48363e118ed"
+    },
+    {
+      "file": "art/book1-v08-corrections/characters/yitzhak-age04-v01.png",
+      "sha256": "2c7931c1780cc422f6d16a72adc6e745d90e6eef433c546fcfeb1af8551f2ec7"
+    }
+  ],
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:10:00.213834+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

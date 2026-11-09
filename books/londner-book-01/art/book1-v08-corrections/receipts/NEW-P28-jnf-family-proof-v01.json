@@ -1,0 +1,18 @@
+{
+  "target": "NEW-P28-jnf",
+  "file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/NEW-P28-jnf-family-proof-v01.webp",
+  "sha256": "4ea66629b3240237fda8fcb84a375961b364988fe924942337bd1600c0386507",
+  "web_sha256": "345e47d30d121f6d72bf679aef84646f0fea7e3ae62ed0ff2d1481628968d2da",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Independent visual review: blue boxes and star, coin, notebook, no readable text; hand age and historical box details not independently verified; crop and lettering pending.",
+  "created_utc": "2026-11-01T20:52:13.144069+00:00"
+}

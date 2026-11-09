@@ -1,0 +1,1125 @@
+{
+  "note": "Static mask/image transformation at phone aspect clamp .72\u20131.45. Live text height, collisions, fonts, tails and actual 390px layout are not tested. Sources unchanged.",
+  "panels": [
+    {
+      "id": "B01V07-P01-01",
+      "input": "art/book1-v07/B01V07-P01-01.png",
+      "inputSHA256": "3ec28b724763f7e8d9af493755a4c6141b647ea8bbb54fa8f30bf1ac8a5ead86",
+      "phone_aspect": 0.72,
+      "object_position": [
+        65.8,
+        28.0
+      ]
+    },
+    {
+      "id": "B01V07-P01-02",
+      "input": "art/book1-v07/B01V07-P01-02.png",
+      "inputSHA256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P02-02",
+      "input": "art/book1-v07/B01V07-P02-02.png",
+      "inputSHA256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+      "phone_aspect": 0.72,
+      "object_position": [
+        54.85,
+        28.799999999999997
+      ]
+    },
+    {
+      "id": "NEW-P02-b",
+      "input": "art/book1-v07/web/NEW-P02-b.webp",
+      "inputSHA256": "5682fcbda8813dc6e9c74d06a542f1f5a6ae0a40cf328d3f29df604c7f5ef025",
+      "phone_aspect": 0.72,
+      "object_position": [
+        52.0,
+        39.125
+      ]
+    },
+    {
+      "id": "B01V07-P02-03",
+      "input": "art/book1-v07/B01V07-P02-03.png",
+      "inputSHA256": "6de3782ab21ba28003704f88b647c0ab13479eea17cdff155ae1e97410e48e9d",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P03-02",
+      "input": "art/book1-v07/web/B01V07-P03-02.webp",
+      "inputSHA256": "45df0e68fe46dec36797a42baffd040f117c5f88f6a825b99133afc5de10de3c",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P03-03",
+      "input": "art/book1-v07/web/B01V07-P03-03.webp",
+      "inputSHA256": "057861e42b794d0398e954b87d26a0f2ae7124bf8abd8d505ffbde462f5674c9",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P03-04",
+      "input": "art/book1-v07/web/B01V07-P03-04.webp",
+      "inputSHA256": "4b89018afcd3c20eff1dbb052f04324c591dcdba6b46a454bfb24e92413b3de3",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P03-01",
+      "input": "art/book1-v07/B01V07-P03-01.png",
+      "inputSHA256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
+      "phone_aspect": 1.1127183709803048,
+      "object_position": [
+        47.53333333333333,
+        29.4
+      ]
+    },
+    {
+      "id": "B01V07-P04-01",
+      "input": "art/book1-v07/web/B01V07-P04-01.webp",
+      "inputSHA256": "91b379e01be1ca79c84d0e8127f9cc1b922c4759bb05317972bda396029aefb9",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P04-03",
+      "input": "art/book1-v07/web/B01V07-P04-03.webp",
+      "inputSHA256": "062a21d9dd152a05a1228188f569046faaf87d6eca74d8289fef4e70a61da7fd",
+      "phone_aspect": 0.940435437491442,
+      "object_position": [
+        66.94999999999999,
+        43.75
+      ]
+    },
+    {
+      "id": "B01V07-P04-04",
+      "input": "art/book1-v07/web/B01V07-P04-04.webp",
+      "inputSHA256": "0dbf28928e35063959eb6ab841c4a7a7c1c68851291ecfbd3eb528efc38eec04",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P04-02",
+      "input": "art/book1-v07/B01V07-P04-02.png",
+      "inputSHA256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
+      "phone_aspect": 0.72,
+      "object_position": [
+        57.23333333333333,
+        48.43333333333334
+      ]
+    },
+    {
+      "id": "B01V07-P05-01",
+      "input": "art/book1-v07/web/B01V07-P05-01.webp",
+      "inputSHA256": "679d64a2195e754252f2f1a74562419d65a8a33d42a1b4de8102bb68b352a031",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P05-02",
+      "input": "art/book1-v07/web/B01V07-P05-02.webp",
+      "inputSHA256": "6ef3712cd2d67a0c8f146069a4e2779a22c92533271de121042b800b6d9922be",
+      "phone_aspect": 0.72,
+      "object_position": [
+        64.51666666666667,
+        44.78333333333333
+      ]
+    },
+    {
+      "id": "B01V07-P05-04",
+      "input": "art/book1-v07/B01V07-P05-04.png",
+      "inputSHA256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+      "phone_aspect": 0.7655717761557177,
+      "object_position": [
+        51.95,
+        39.85
+      ]
+    },
+    {
+      "id": "B01V07-P05-03",
+      "input": "art/book1-v07/B01V07-P05-03.png",
+      "inputSHA256": "995f445feb8bea7e86af5e4ddb63e44d1cb16019578db115a7e1b33b1663ea81",
+      "phone_aspect": 1.0,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P06-01",
+      "input": "art/book1-v07/web/B01V07-P06-01.webp",
+      "inputSHA256": "3a25f92a57a58bc6ba3fccc906da9ddf0295d11d013777dc3f3a8fa7a1c56344",
+      "phone_aspect": 0.8668122270742358,
+      "object_position": [
+        34.84375,
+        41.33125
+      ]
+    },
+    {
+      "id": "B01V07-P06-02",
+      "input": "art/book1-v07/B01V07-P06-02.png",
+      "inputSHA256": "01e575e68727f2ff05e4cc9fdd89e9d79a01637112040a925a6bc4c40b7dc07e",
+      "phone_aspect": 0.8255204195137454,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P06-03",
+      "input": "art/book1-v07/B01V07-P06-03.png",
+      "inputSHA256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+      "phone_aspect": 0.72,
+      "object_position": [
+        46.6,
+        35.45
+      ]
+    },
+    {
+      "id": "B01V07-P06-04",
+      "input": "art/book1-v07/web/B01V07-P06-04.webp",
+      "inputSHA256": "5aae1a1c01d59e79fefbebc56be2fb94148a8df655e42b287822d48363e118ed",
+      "phone_aspect": 0.7794839521711768,
+      "object_position": [
+        36.5,
+        42.6
+      ]
+    },
+    {
+      "id": "B01V07-P07-02",
+      "input": "art/book1-v07/B01V07-P07-02.png",
+      "inputSHA256": "2e7946c7ffb62812a22d4d173cc7c856355e295443a524f693052c1810ecb505",
+      "phone_aspect": 0.9779847586790855,
+      "object_position": [
+        46.475,
+        38.325
+      ]
+    },
+    {
+      "id": "B01V07-P07-03",
+      "input": "art/book1-v07/web/B01V07-P07-03.webp",
+      "inputSHA256": "72cb50536a6da21e8247f87a3fba4b8ce512cbcff199b0e9279467ee5b731ece",
+      "phone_aspect": 1.2035142616440004,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P07-01",
+      "input": "art/book1-v07/B01V07-P07-01.png",
+      "inputSHA256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+      "phone_aspect": 0.9796832506798913,
+      "object_position": [
+        40.55,
+        34.599999999999994
+      ]
+    },
+    {
+      "id": "B01V07-P08-01",
+      "input": "art/book1-v07/B01V07-P08-01.png",
+      "inputSHA256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+      "phone_aspect": 1.45,
+      "object_position": [
+        64.45,
+        8.8
+      ]
+    },
+    {
+      "id": "B01V07-P08-02",
+      "input": "art/book1-v07/B01V07-P08-02.png",
+      "inputSHA256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
+      "phone_aspect": 0.8227114716106605,
+      "object_position": [
+        66.2,
+        31.799999999999997
+      ]
+    },
+    {
+      "id": "B01V07-P08-03",
+      "input": "art/book1-v07/B01V07-P08-03.png",
+      "inputSHA256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+      "phone_aspect": 0.767080745341615,
+      "object_position": [
+        51.5,
+        32.45
+      ]
+    },
+    {
+      "id": "B01V07-P08-04",
+      "input": "art/book1-v07/B01V07-P08-04.png",
+      "inputSHA256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
+      "phone_aspect": 1.45,
+      "object_position": [
+        33.75,
+        15.75
+      ]
+    },
+    {
+      "id": "B01V07-P09-01",
+      "input": "art/book1-v07/B01V07-P09-01.png",
+      "inputSHA256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
+      "phone_aspect": 1.2523481527864748,
+      "object_position": [
+        63.1,
+        40.900000000000006
+      ]
+    },
+    {
+      "id": "B01V07-P09-03",
+      "input": "art/book1-v07/B01V07-P09-03.png",
+      "inputSHA256": "3c146c65a520473053a1dfe9310c6158e1bde227b7c9001f58dce1c2220b5f61",
+      "phone_aspect": 0.7955893536121673,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P09-04",
+      "input": "art/book1-v07/B01V07-P09-04.png",
+      "inputSHA256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
+      "phone_aspect": 0.8519056847545219,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P10-01",
+      "input": "art/book1-v07/B01V07-P10-01.png",
+      "inputSHA256": "1c71c57692ef7468f6cfa06a00ca41c9f2515b7416b67b5994dde67a77611479",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P10-03",
+      "input": "art/book1-v07/web/B01V07-P10-03.webp",
+      "inputSHA256": "4b4764d68014c89188fe54b26388db8c06f1b45b4c79d01117efadc7eb5bbd04",
+      "phone_aspect": 1.126874279123414,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P10-04",
+      "input": "art/book1-v07/web/B01V07-P10-04.webp",
+      "inputSHA256": "7b01dbd374fa1022218ab935217aa8a9d25228977ca08f6d9e3ff9b0969f2c9b",
+      "phone_aspect": 1.45,
+      "object_position": [
+        41.65,
+        40.55
+      ]
+    },
+    {
+      "id": "B01V07-P10-02",
+      "input": "art/book1-v07/B01V07-P10-02.png",
+      "inputSHA256": "0f95ef189e81f3a20447fcc9ae87f7204239dc1ef41292d3b006aa2c6f5ddf3d",
+      "phone_aspect": 1.005500171880371,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P11-01",
+      "input": "art/book1-v07/web/B01V07-P11-01.webp",
+      "inputSHA256": "5ecc53c8a7deb8291bed7bd0138d08c501df4895ef5387758659cddce28bfaed",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P11-03",
+      "input": "art/book1-v07/web/B01V07-P11-03.webp",
+      "inputSHA256": "29caf86a0725279ca3969c6bc655828cc67aa68c5c093e08852057c43e07cb55",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P11-04",
+      "input": "art/book1-v07/web/B01V07-P11-04.webp",
+      "inputSHA256": "95482f4a88baffc5fccec374237803cc1d98b2ecf837359b42b0fc627c6a7ab8",
+      "phone_aspect": 0.72,
+      "object_position": [
+        56.5,
+        44.2
+      ]
+    },
+    {
+      "id": "B01V07-P12-01",
+      "input": "art/book1-v07/web/B01V07-P12-01.webp",
+      "inputSHA256": "9f8e8150b76c2ae2287b62b67d00a252ea526d8aa7fca7000c5e231827aca3dd",
+      "phone_aspect": 0.8206499382969972,
+      "object_position": [
+        46.65,
+        33.5
+      ]
+    },
+    {
+      "id": "B01V07-P12-02",
+      "input": "art/book1-v07/web/B01V07-P12-02.webp",
+      "inputSHA256": "49b32368abee91b704ce6a2262498488e8f4642c2d76417c4fecd978e436f820",
+      "phone_aspect": 0.72,
+      "object_position": [
+        55.75,
+        28.049999999999997
+      ]
+    },
+    {
+      "id": "B01V07-P12-03",
+      "input": "art/book1-v07/web/B01V07-P12-03.webp",
+      "inputSHA256": "23fe480a8b30e5bbf3acda0d2817921c1e1835cac0d3632b196e9ed8c980885a",
+      "phone_aspect": 0.7798627002288329,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P12-04",
+      "input": "art/book1-v07/web/B01V07-P12-04.webp",
+      "inputSHA256": "97e81fc2c8f701f894e48a03acecf03ce015ac96077bba55aff51eb613bfb23f",
+      "phone_aspect": 1.031140441328109,
+      "object_position": [
+        50.75,
+        29.364999999999995
+      ]
+    },
+    {
+      "id": "B01V07-P13-01",
+      "input": "art/book1-v07/web/B01V07-P13-01.webp",
+      "inputSHA256": "96959cdd83e6a955d4dfad0ae8f9e8773e8cd1dd5b08ba46855b25f2fa79c52f",
+      "phone_aspect": 0.72,
+      "object_position": [
+        48.925,
+        29.5
+      ]
+    },
+    {
+      "id": "B01V07-P13-02",
+      "input": "art/book1-v07/web/B01V07-P13-02.webp",
+      "inputSHA256": "07d520b5dc83fa5025d76bf62393e352d3dd81ae23d321feb2a9924f9cb2fdff",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P13-03",
+      "input": "art/book1-v07/web/B01V07-P13-03.webp",
+      "inputSHA256": "a4bb02c25cd2a49118c4e6833fa1ba6e2f7234c30d4a573e3ef33c92246cf7bd",
+      "phone_aspect": 0.7951466127401415,
+      "object_position": [
+        48.38333333333333,
+        44.583333333333336
+      ]
+    },
+    {
+      "id": "B01V07-P13-04",
+      "input": "art/book1-v07/B01V07-P13-04.png",
+      "inputSHA256": "e5b8342bcc0ed30cabb311a5788dd9d6d60d8585c71e78d0b745cbd638bb0154",
+      "phone_aspect": 1.0922992900054616,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P14-01",
+      "input": "art/book1-v07/B01V07-P14-01.png",
+      "inputSHA256": "56e8b93b181f771ca2d36f40e18b7b84248bfd59ed157bf2f2bc67b5f8097872",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P14-03",
+      "input": "art/book1-v07/B01V07-P14-03.png",
+      "inputSHA256": "56231438073eb25eeba40b6e1388a47aac8fa4aa188ba2078f32953b0016407c",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P14-04",
+      "input": "art/book1-v07/B01V07-P14-04.png",
+      "inputSHA256": "c8ebe141fd2ab28857e4351950c8051aae7c96f1877db82ecc2820dd3d948aca",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P15-01",
+      "input": "art/book1-v07/B01V07-P15-01.png",
+      "inputSHA256": "cc90ebfd477439e4a8fabaacff1cc36e842ffa29a6f3809ec0d47a6a12997035",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P15-02",
+      "input": "art/book1-v07/B01V07-P15-02.png",
+      "inputSHA256": "82e402e23c39e959005dc24d53e3c269ad4a4181f2273055a356634a97da7a77",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P15-03",
+      "input": "art/book1-v07/B01V07-P15-03.png",
+      "inputSHA256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace",
+      "phone_aspect": 0.9184439771703214,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P15-04",
+      "input": "art/book1-v07/B01V07-P15-04.png",
+      "inputSHA256": "d213c7da7650865bf1be25297bf38a8842698812674bc322145f5b21fc12bb7c",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P16-01",
+      "input": "art/book1-v07/B01V07-P16-01.png",
+      "inputSHA256": "b1b09c92da84973b88ee67d6d2022758809bd438d634cb75002f30548b666348",
+      "phone_aspect": 0.8038897893030794,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P16-02",
+      "input": "art/book1-v07/B01V07-P16-02.png",
+      "inputSHA256": "4787efbdc3c3063e350425dc85eb380e8757408d5c67d2538194e583cf748cec",
+      "phone_aspect": 0.8519339738851937,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P16-03",
+      "input": "art/book1-v07/B01V07-P16-03.png",
+      "inputSHA256": "b3ab3a429869d76c2fe986175f03998c2703a7cd0e4daf8dbc9274d3feae9754",
+      "phone_aspect": 0.8835205014364064,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P16-04",
+      "input": "art/book1-v07/B01V07-P16-04.png",
+      "inputSHA256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+      "phone_aspect": 0.9764671418806757,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P17-01",
+      "input": "art/book1-v07/B01V07-P17-01.png",
+      "inputSHA256": "c2f7043544c885ef3998616bde51e5ada084231e7517138e76daee7d0b5e5588",
+      "phone_aspect": 0.72,
+      "object_position": [
+        57.7,
+        41.65
+      ]
+    },
+    {
+      "id": "B01V07-P17-02",
+      "input": "art/book1-v07/B01V07-P17-02.png",
+      "inputSHA256": "ee4ea7e10bab6549657a4b803f8f744ae4131edec3611bf4ad218f1648566465",
+      "phone_aspect": 0.72,
+      "object_position": [
+        64.125,
+        31.700000000000003
+      ]
+    },
+    {
+      "id": "B01V07-P17-04",
+      "input": "art/book1-v07/B01V07-P17-04.png",
+      "inputSHA256": "385e204b351e1ba5449bc9260fde62dc59bd0e2a17c284739519cc20a71abde6",
+      "phone_aspect": 0.72,
+      "object_position": [
+        49.05,
+        28.799999999999997
+      ]
+    },
+    {
+      "id": "B01V07-P18-01",
+      "input": "art/book1-v07/B01V07-P18-01.png",
+      "inputSHA256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+      "phone_aspect": 0.72,
+      "object_position": [
+        47.325,
+        30.7125
+      ]
+    },
+    {
+      "id": "B01V07-P18-03",
+      "input": "art/book1-v07/B01V07-P18-03.png",
+      "inputSHA256": "baade583e29ae06963cd81c40bc462e26442e6a266dc052b8761d6d245aec985",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P18-04",
+      "input": "art/book1-v07/B01V07-P18-04.png",
+      "inputSHA256": "bbb2c5492ddfc071334ffe3d8f462f0ab8303108f9150c6a1ac8e3cec8e507bf",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P19-01",
+      "input": "art/book1-v07/B01V07-P19-01.png",
+      "inputSHA256": "4199b4e05e143156d24de79ebe7c9b3665931ffe1264154af63878e6e442803d",
+      "phone_aspect": 1.0348499515972895,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P19-03",
+      "input": "art/book1-v07/B01V07-P19-03.png",
+      "inputSHA256": "b41a8bcfee38d64d2c84f3736112d3e8e902335a94bfc50d65cbae65ef9749fb",
+      "phone_aspect": 1.0452450775031419,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P19-04",
+      "input": "art/book1-v07/B01V07-P19-04.png",
+      "inputSHA256": "51d8b672012f71d6d666721d03c993d1a7581d3600bcf655179513618ff348ef",
+      "phone_aspect": 1.06439595529537,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P20-01",
+      "input": "art/book1-v07/B01V07-P20-01.png",
+      "inputSHA256": "f7b62cf3e16e552d91f9bcc58331320e6d9b052c0377c5f47ba7111b60524195",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P20-02",
+      "input": "art/book1-v07/B01V07-P20-02.png",
+      "inputSHA256": "ecfd8585db08ebc1e0aa396aa6c2265a84c22e2d6e239b31a99694fac29fb6a2",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P20-04",
+      "input": "art/book1-v07/B01V07-P20-04.png",
+      "inputSHA256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P21-01",
+      "input": "art/book1-v07/B01V07-P21-01.png",
+      "inputSHA256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P21-02",
+      "input": "art/book1-v07/B01V07-P21-02.png",
+      "inputSHA256": "81ec12bc0ba6d26b6f629b2e2d184f0c46be905fb4f0dfbe81f729ef3726cfe3",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P21-03",
+      "input": "art/book1-v07/B01V07-P21-03.png",
+      "inputSHA256": "905387a183519a6219255783a448e874e7073b6e3bf4698d5361c9826aefb49b",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P21-04",
+      "input": "art/book1-v07/B01V07-P21-04.png",
+      "inputSHA256": "3fd597bd28839b1dbabcb32e1c51116ff8b547c21a7efe987153bb465ff10f2e",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P22-01",
+      "input": "art/book1-v07/B01V07-P22-01.png",
+      "inputSHA256": "5b1f58c3881fa3699467bd41e23d87ea43a20de07c0be6f229eff67ea0193aa7",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P22-03",
+      "input": "art/book1-v07/B01V07-P22-03.png",
+      "inputSHA256": "0e3a5e0e4724acb8dc23aef450752f80a4898c395ae1fd67ff4a40864c8b0c89",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P26-01",
+      "input": "art/book1-v07/B01V07-P26-01.png",
+      "inputSHA256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+      "phone_aspect": 0.8668122270742358,
+      "object_position": [
+        62.3,
+        37.3
+      ]
+    },
+    {
+      "id": "B01V07-P26-02",
+      "input": "art/book1-v07/B01V07-P26-02.png",
+      "inputSHA256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+      "phone_aspect": 0.8255204195137454,
+      "object_position": [
+        49.7,
+        30.700000000000003
+      ]
+    },
+    {
+      "id": "B01V07-P26-03",
+      "input": "art/book1-v07/B01V07-P26-03.png",
+      "inputSHA256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "phone_aspect": 0.72,
+      "object_position": [
+        61.25,
+        19.625
+      ]
+    },
+    {
+      "id": "B01V07-P26-04",
+      "input": "art/book1-v07/B01V07-P26-04.png",
+      "inputSHA256": "f69a0488604893ae5f9db63d390e32ca783fdff269bbe77be465469488df74eb",
+      "phone_aspect": 0.7794839521711768,
+      "object_position": [
+        60.5,
+        24.95
+      ]
+    },
+    {
+      "id": "B01V07-P27-01",
+      "input": "art/book1-v07/B01V07-P27-01.png",
+      "inputSHA256": "d60293a2432b898f3451764c4c531b24ce4528d9216d73037346b4630ccca95c",
+      "phone_aspect": 0.72,
+      "object_position": [
+        58.8,
+        29.75
+      ]
+    },
+    {
+      "id": "B01V07-P27-02",
+      "input": "art/book1-v07/B01V07-P27-02.png",
+      "inputSHA256": "bba4b78ba3fbfaf55b8184e12602ec58e4fce512452eeea4f7ce0a27e7dccffb",
+      "phone_aspect": 0.72,
+      "object_position": [
+        59.0,
+        35.4
+      ]
+    },
+    {
+      "id": "B01V07-P27-04",
+      "input": "art/book1-v07/B01V07-P27-04.png",
+      "inputSHA256": "12dffc379e3017d0755d5d35f9fdaac70d209118169953798ae99bd2b114b4e2",
+      "phone_aspect": 0.72,
+      "object_position": [
+        68.75,
+        30.85
+      ]
+    },
+    {
+      "id": "B01V07-P28-01",
+      "input": "art/book1-v07/B01V07-P28-01.png",
+      "inputSHA256": "bcb8a6a06e2df29700a88e8446b35b5f8fd1cc34294b611c23fef731b65c00f1",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P28-02",
+      "input": "art/book1-v07/B01V07-P28-02.png",
+      "inputSHA256": "1dddc2bd6087118a488294e4f8be3baf4a4a2dc6ea9f341d3856fae3153f8e0d",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P28-03",
+      "input": "art/book1-v07/B01V07-P28-03.png",
+      "inputSHA256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+      "phone_aspect": 0.9095268542199488,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P28-04",
+      "input": "art/book1-v07/B01V07-P28-04.png",
+      "inputSHA256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P29-01",
+      "input": "art/book1-v07/B01V07-P29-01.png",
+      "inputSHA256": "750e96a8a29589ca085585124cd9c6a49904905258e9c90b9bde59f103ce0627",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P29-02",
+      "input": "art/book1-v07/B01V07-P29-02.png",
+      "inputSHA256": "a528ad6e03aa677ca269c04c07b9c244e90273494c11536b2a45300270bd46cb",
+      "phone_aspect": 0.8548948614399109,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P29-03",
+      "input": "art/book1-v07/B01V07-P29-03.png",
+      "inputSHA256": "2b5c4aebb4ccd278d5bbb115fa7887d6bc27ab363dee8687c39a0c2e9a7adac7",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P29-04",
+      "input": "art/book1-v07/B01V07-P29-04.png",
+      "inputSHA256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+      "phone_aspect": 0.7501786479919966,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P30-01",
+      "input": "art/book1-v07/B01V07-P30-01.png",
+      "inputSHA256": "ac6c4e3e4394c6e75cf07b2403eebb15e3bddf4ede5f49c6da4aa5716bec60c6",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P36-01",
+      "input": "art/book1-v07/B01V07-P36-01.png",
+      "inputSHA256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+      "phone_aspect": 1.0935622317596567,
+      "object_position": [
+        61.3,
+        26.4
+      ]
+    },
+    {
+      "id": "NEW-P36-b",
+      "input": "art/book1-v07/NEW-P36-b.png",
+      "inputSHA256": "7df8416fac9a89033269f1f714804aa3009d472d5b77ce3d1f9ad1ed3403126a",
+      "phone_aspect": 1.0253847691385167,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P36-02",
+      "input": "art/book1-v07/B01V07-P36-02.png",
+      "inputSHA256": "f6fab8f09304d45c93476795aff96204901d683684cf16d6c674f1f5c690f3cb",
+      "phone_aspect": 1.45,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P36-03",
+      "input": "art/book1-v07/B01V07-P36-03.png",
+      "inputSHA256": "de0ee7a989815ec2e69bf5f2d81a61ad70a8d989e7de0af5aecabb41b88e4045",
+      "phone_aspect": 1.1757115078663605,
+      "object_position": [
+        46.875,
+        47.125
+      ]
+    },
+    {
+      "id": "B01V07-P36-04",
+      "input": "art/book1-v07/B01V07-P36-04.png",
+      "inputSHA256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+      "phone_aspect": 0.72,
+      "object_position": [
+        54.9,
+        39.949999999999996
+      ]
+    },
+    {
+      "id": "NEW-P36-a",
+      "input": "art/book1-v07/NEW-P36-a.png",
+      "inputSHA256": "fdacc613f676a172d78018e60f26a39446567664bafad48ac9154355ee7bd691",
+      "phone_aspect": 1.0,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P37-02",
+      "input": "art/book1-v07/B01V07-P37-02.png",
+      "inputSHA256": "74008c54621339ed0ff234bf825fa47f1c058de91f72cfacd6a68f2c785ea25a",
+      "phone_aspect": 0.72,
+      "object_position": [
+        46.05,
+        28.4
+      ]
+    },
+    {
+      "id": "B01V07-P37-03",
+      "input": "art/book1-v07/B01V07-P37-03.png",
+      "inputSHA256": "b81e3094f676f98e7a9bd15ea745c13a5a855bff942e797645387d050ccf8d8e",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P37-04",
+      "input": "art/book1-v07/B01V07-P37-04.png",
+      "inputSHA256": "7370a90e4044afdcc3954079ab4ee65b79cc92ba1a9a127e62baed496df76bcf",
+      "phone_aspect": 0.880757972577415,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P37-01",
+      "input": "art/book1-v07/B01V07-P37-01.png",
+      "inputSHA256": "e1a4a572100bb44565e82414b8a85742c8f27093ede40710c6453d88155686bc",
+      "phone_aspect": 0.9145902731512325,
+      "object_position": [
+        59.824999999999996,
+        25.775
+      ]
+    },
+    {
+      "id": "B01V07-P38-01",
+      "input": "art/book1-v07/B01V07-P38-01.png",
+      "inputSHA256": "ce87a3d62044bd9fdc803dd07ba3307173c21207e25f3bd0e8ac2be673262158",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P38-02",
+      "input": "art/book1-v07/B01V07-P38-02.png",
+      "inputSHA256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+      "phone_aspect": 0.757928802588997,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P38-03",
+      "input": "art/book1-v07/B01V07-P38-03.png",
+      "inputSHA256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+      "phone_aspect": 0.8871480472297911,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P38-04",
+      "input": "art/book1-v07/B01V07-P38-04.png",
+      "inputSHA256": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+      "phone_aspect": 1.031140441328109,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P39-01",
+      "input": "art/book1-v07/B01V07-P39-01.png",
+      "inputSHA256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356",
+      "phone_aspect": 1.294665976178146,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P44-01",
+      "input": "art/book1-v07/B01V07-P44-01.png",
+      "inputSHA256": "24658ca5763496036dfcf20d2051dfd61ac7747637fc442e6b0c6e3e4fb78c8c",
+      "phone_aspect": 1.0348499515972895,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P44-02",
+      "input": "art/book1-v07/B01V07-P44-02.png",
+      "inputSHA256": "aabde9bef6b9bf03b784c1333f6dd6494f6cb3756794911784c404ed526a9fa5",
+      "phone_aspect": 1.0452450775031419,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P44-04",
+      "input": "art/book1-v07/B01V07-P44-04.png",
+      "inputSHA256": "1369e8f32efa233c70449a1b6c57721e14b4a35de8a1399b8ab02da664ff0ea8",
+      "phone_aspect": 1.06439595529537,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P45-02",
+      "input": "art/book1-v07/B01V07-P45-02.png",
+      "inputSHA256": "5e38a12ccb8a3337361cd5f5e76ee0c495af471768027a46cd01a37e59bdca36",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P45-04",
+      "input": "art/book1-v07/B01V07-P45-04.png",
+      "inputSHA256": "ef570ed45049eee2b8700c5c9b151a51d3df33bde088425eb9e6070afbb3e5ee",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    },
+    {
+      "id": "B01V07-P45-01",
+      "input": "art/book1-v07/B01V07-P45-01.png",
+      "inputSHA256": "5a53f89e87d880fcee9890d778234b60c723ccba0750ca99430943d9655ef6fd",
+      "phone_aspect": 0.72,
+      "object_position": [
+        50,
+        32
+      ]
+    }
+  ]
+}

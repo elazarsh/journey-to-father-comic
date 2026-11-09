@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P41-01",
+  "file": "art/book1-v07/B01V07-P41-01.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. LANDSCAPE1536x1024. Wide EYE-LEVEL back view of young Yitzhak walking ALONE along a modest small Polish town cobblestone street TOWARD his distant home, spring thaw grey light, melting dirty snow at roadside and glossy muddy puddles. Figure small center about55% down wearing dark wool civilian overcoat and period cap, small battered suitcase in hand. Home has warm dim window. Street recedes diagonally, low wooden shops and plaster buildings. No identifiable faces, no crowds, no readable signs. Whole figure and suitcase central so masked wide strip retains them. Quiet upper atmosphere. Adds return and place, not yet reunion.",
+  "tool_source_path": "/workspace/generated_images/exec-02b5e184-aaa0-468a-b0bd-fc9fbd1dcb25.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Back-view wide thaw street; no invented sibling reunion.",
+  "crop_caveats": "Source visually reviewed; final polygon/15% zoom and bilingual lettering placement remain for renderer review.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "7e1110d0449db19581865c71bb97638b866cc5faa45bd7f6f94fafcf40029d25",
+  "web_file": "art/book1-v07/web/B01V07-P41-01.webp"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P15-04",
+  "file": "art/book1-v07/B01V07-P15-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P15-04.webp",
+  "source_path": "/workspace/generated_images/exec-ca911361-0b1e-4f6f-852e-5ebef80f662e.png",
+  "tool_source_path": "/workspace/generated_images/exec-ca911361-0b1e-4f6f-852e-5ebef80f662e.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral literary graphic novel watercolor and gouache illustration, delicate selective ink and tactile worn leather. EYE-LEVEL CLOSE DETAIL OF AN OBJECT: a small closed dark-brown leather siddur prayer book, palm-sized, no title and no symbols, rests on the plain pale wooden bedside cabinet of an early-1900s Vienna hospital. The boy's SMALL right hand in the same charcoal buttoned shirt sleeve rests gently flat on the book, fingers relaxed, a single warm patch of late light touches the leather and hand. No face, head or body visible. A blurred white iron bed rail and clean pale linen behind, muted blue-grey hospital wall and soft cool shadows; same hospital visual world as reference. Tiny book and child hand centered atx0.55 y0.58, no other hands or books, ample clear margin and subdued wall across upper-left/top for future caption. This familiar personal book is intact and cared for. ONE scene, no text, letters, title, readable writing, religious emblems, stars or crosses, no balloons, panels, frames, collage or watermark. Quiet intimate sense of familiarity after the wide group scene.\n",
+  "references": [
+    "art/book1-v07/B01V07-P15-02.png"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "d213c7da7650865bf1be25297bf38a8842698812674bc322145f5b21fc12bb7c",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Eye-level object detail: small closed worn dark-brown leather prayer book on pale bedside cabinet, child hand in charcoal sleeve rests upon it. Single warm patch of light against blue-grey ward, white iron bed behind. No face, lettering, title or symbols; book whole and central, creates recurring prop reference for page16. Plain upper-left wall available for caption. Entire book and essential fingers away from edges.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

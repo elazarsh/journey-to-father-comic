@@ -1,34 +1,41 @@
 {
   "id": "B01V07-P36-03",
-  "page": 36,
-  "source_path": "/workspace/generated_images/exec-dc30d930-62e5-4a28-9630-678745084927.png",
-  "prompt": "Create a TALL VERTICAL PORTRAIT image, approximately 1024 wide by 1536 high, definitely NOT landscape. One scene for a narrow comic panel. Dramatic pastoral watercolor and gouache graphic novel with fine selective ink, natural faces, rich warm/cool predawn light.\nSame young Polish soldier Yitzhak as supplied reference photo and scene, age about twenty, narrow oval face, natural brown eyes, pronounced ears and straight nose. Same early Polish military cap and uniform. He is alerting a fellow soldier who was resting beside the river before dawn. Show Yitzhak's face at middle-right at 48% image height; one fellow soldier's face lower near center, looking up at him. Both faces fit in the narrow central 55% image width and between 35% and 70% image height. Other unit members, if visible, are indistinct backs in the distance, not extra foreground faces. Their bodies can overlap vertically, not spread horizontally. Clear purposeful waking gesture, no shouting text, no battle, no aiming weapons. Misty river and wooden bridge softly behind them. The entire upper-left quarter is low-detail pale blue-grey mist for later live caption, no faces there. At least 15% overscan around all important content. One single scene, no montage, no panels, no frames, no lettering or bubbles. Keep the human action readable even in a tight vertical crop.",
-  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-dc30d930-62e5-4a28-9630-678745084927.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
-  "references": [
-    "art/book1-v07/B01V07-P36-01.png",
-    "ref/S08-img013.jpg"
-  ],
-  "visual_review": {
-    "source_reviewed": true,
-    "scene": "Young Yitzhak wakes a resting unit member; one background soldier, no battle or enemy.",
-    "composition": "Regenerated as vertical portrait with stacked faces; quiet sky above.",
-    "lettering": "Upper-left sky is clear. Faces and mouths below 30% image height.",
-    "limits": "Final target mask and lettering review pending; source-side crop needs check because other soldier is lower-left.",
-    "browser_visual_qa": false
-  },
-  "rejected_attempts": [
-    {
-      "source_path": "/workspace/generated_images/exec-26df0fde-c0bc-4417-9b4e-67ac615ccde9.png",
-      "reason": "Landscape output unsuitable for narrow portrait target; do not use."
-    }
-  ],
-  "file": "art/book1-v07/B01V07-P36-03.png",
-  "web_file": "art/book1-v07/B01V07-P36-03.webp",
-  "actual_size": [
-    1024,
-    1536
-  ],
-  "sha256": "0cb5d0175d66be65d8802d9fc0ece31d3b0cdfe27598500671007aed316c9988",
+  "source_path": "/workspace/generated_images/exec-8413aa6c-cdb8-4828-ad18-3ff8a0f24482.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE landscape1536x1024 illustration, medium LOW ANGLE, at the river bridge Poland circa1920. Sudden purposeful movement: Yitzhak at RIGHT, young early20s clean-shaven narrow oval face with prominent ears following supplied youth photograph, leans down to shake ONE resting Polish soldier awake by shoulder, mouth open calling an alarm. Resting soldier at LEFT raises his face in startled wakefulness. Same period uniforms/caps as photo, rifle slung safely, no aiming. Dark blue predawn, FIRST COOL GREY light over distant river, NO sun disk, NO orange sunrise. Other sleeping unit can be indistinct shadows only. NO visible enemy or battle. Both important faces and waking hand inside central70% with 15% cropping protection; Yitzhak face around60% width50% height, resting face35% width65% height. Calm upper-right sky ABOVE Yitzhak for later shout bubble, no objects there. No lettering or blank balloons, no circles, borders or frames. Purpose decisive action waking the unit, distinct from watchful wide night and extreme eyes closeup.",
+  "tool_source": "image_gen__imagegen",
   "tool": "image_gen__imagegen",
-  "status": "generated-source-reviewed"
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8413aa6c-cdb8-4828-ad18-3ff8a0f24482.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "references": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "Yitzhak right wakes resting unit member left with firm shoulder touch and open mouth; blue first-grey predawn, no sun disk/enemy.",
+    "identity": "Young soldier follows approved facial continuity and photo.",
+    "lettering": "Calm sky upper-right but cap near top; shout must sit to upper-right of face.",
+    "limits": "Actual polygon and lettering pending; composition extends cap/rifle into top15%."
+  },
+  "crop_issues": [
+    "Keep vertical crop aligned high enough for Yitzhak cap. Actual renderer shout/cap overlap review required."
+  ],
+  "previous_source_review": "Previous sunrise source replaced for predawn staging.",
+  "file": "art/book1-v07/B01V07-P36-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P36-03.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "de0ee7a989815ec2e69bf5f2d81a61ad70a8d989e7de0af5aecabb41b88e4045",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
 }

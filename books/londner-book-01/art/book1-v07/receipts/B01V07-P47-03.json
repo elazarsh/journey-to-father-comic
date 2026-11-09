@@ -1,0 +1,34 @@
+{
+  "id": "B01V07-P47-03",
+  "prompt": "PORTRAIT 1024x1536. CLOSE-UP EYE-LEVEL single scene of the affectionate elderly narrator Yitzhak about71, identity exactly from reference: narrow long oval face aged with fine lines, prominent ears, warm natural brown eyes behind brown rectangular glasses, long bridged nose, restrained gentle mouth, clean-shaven, sparse grey hair beneath familiar brown fedora; brown jacket over cream open-collar shirt. He looks straight toward the reader with a small tender smile and relaxed eyes, conveying love for his children and grandchildren. Soft warm window light from left, gentle cool bluegreen background shadow; plain plaster behind, no desk lamp dominant. Full hat crown AND chin AND both ears entirely within central65% width and middle65% height, head top at22% and chin at67%, shoulders lower, ample15% overscan on every side. TOP20% calm bluegreen wall for later caption. Focus on warm natural face, not a caricature or exaggerated smile. Contrast previous overhead object panel in shot/angle/subject/light. Dramatic pastoral literary graphic novel, painterly watercolor/gouache, selective fine ink, tactile paper, cinematic soft window light, rich restrained umber/teal/ochre. ONE scene ONE image, no lettering, thought/speech bubbles, borders, montage, watermark or floating memories.",
+  "source_path": "/workspace/generated_images/exec-d0e4e43b-fb86-4966-8433-c647d4813372.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Warm closeup of elder narrator at eye level; tender direct gaze, soft window light.",
+    "identity": "Matches P01-01 elder hat, rectangular glasses, narrow oval face, ears/nose and brown jacket.",
+    "lettering": "Calm wall above full hat; no bubbles requested.",
+    "limits": "Final v08 mask pending."
+  },
+  "crop_issues": [
+    "Whole hat, ears, chin and mouth retained with generous top space.",
+    "Final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P47-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P47-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "c2f51c41a54824b450853d43d799956a08c201e6ca93f368e7f898f8d09f58f1",
+  "references": [
+    "/workspace/londner-book-01/art/book1-v07/web/B01V07-P01-01.webp"
+  ],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

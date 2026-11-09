@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P24-02-familyfix",
+  "kind": "panel-replacement",
+  "target": "B01V07-P24-02",
+  "prompt": "REMAKE this historical watercolor/gouache comic panel from scratch preserving the SAME Chava sister and Raisel little sister, their clothes/face family resemblance, the warm doorway, cold Polish street and departing siblings with relatives in the distant background. Main correction is credible human anatomy and a simple, unambiguous holding pose. Chava is the YOUNG ADULT ELDER SISTER, NOT the child's mother and not Yitzhak's wife. She holds toddler Raisel aged about2-3 on her left hip, toddler's torso upright and bottom seated securely on ONE clearly visible supporting forearm. Chava's other hand rests gently on the child's upper back. Exactly TWO arms per person, BOTH adult arms visibly connected to their correct shoulders via sleeves. No arm wrapping impossibly across front, no hand emerging from fabric, no adult elbow going backwards. Child's near arm rests naturally against her own chest with small fingers; other small hand rests on Chava's shoulder. Natural child head/body ratio and short toddler limbs; toddler's legs hang naturally, do not merge with adult hands. Calm tender reassuring eye contact between the sisters, warm attachment without an invented farewell dialogue. Medium shot preferably upperthigh-up so main arm anatomy is large and readable and feet need not crowd lower border. Preserve the departure story in the background but do not add an extra front-facing family group. Portrait 2:3 composition with generous quiet upper-right doorway/sky for LIVE text, none baked in. Essential faces, connected hands/arms inside central80%. Painterly dramatic pastoral style, natural facial features, no text, no lettering, no balloons, no frames.",
+  "file": "art/book1-v08-corrections/panels/B01V07-P24-02-familyfix.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P24-02-familyfix.webp",
+  "sha256": "66dc67ca6dc84f48fa1899ac35e42867002c651555cc3f92718f02c69ba356f9",
+  "web_sha256": "12e09df8afb3004f6d6b548b6aac1b3a7e235d76cbf6dfabe9f8a700f40f770f",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-d0ac236f-a709-47f2-b89e-72c95bd225e6.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v07/web/B01V07-P24-02.webp",
+      "sha256": "8e8c7bac8aede0458868ccdb061ef5ceab6f76c873d0b0d4de7ad875074d9154"
+    }
+  ],
+  "status": "generated-candidate-for-Claude-integration",
+  "family_approved": false,
+  "created_utc": "2026-11-01T09:59:33.899313+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

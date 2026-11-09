@@ -1,0 +1,31 @@
+{
+  "id": "children-memory-v01",
+  "kind": "memory-overlay",
+  "target": null,
+  "prompt": "Create a gently painterly FAMILY MEMORY CUTOUT for an old grandfather's thought balloon, based on the attached real identified family photograph. Show EXACTLY THREE of his offspring, preserving their recognizable facial shapes, hairstyles, relative apparent ages and clothing from the source, without inventing grandchildren. SOURCE IDENTIFICATION by the memoir caption from the VIEWER'S RIGHT to LEFT in the original five-person photo: Motelle is the rightmost man with dark brimmed hat and dark shirt; Menachem is the younger male second from right wearing light rolled-sleeve buttoned shirt; grandfather Yitzhak is the central back figure in a cap; grandmother Chava is the light floral dress woman second from left; Haya is the young woman at far left with headscarf and patterned dress. Use ONLY Haya, Menachem and Motelle; OMIT the central grandfather and the grandmother. Do not swap identities or genders. Render a coherent relaxed waist-up sibling grouping with Haya on VIEWER LEFT, Menachem CENTER and Motelle VIEWER RIGHT, based on those photographic faces. Tender restrained natural smiles, slight sense of looking toward a loved one, hands either naturally resting or below bust crop, not many hands. No invented posed historical event is claimed: this is an illustrated memory assembly, faithful likenesses based on the identified photograph. Soft painterly watercolor/gouache, warm amber/cream and muted sage colors consistent with a high quality historical graphic novel. ISOLATED on TRANSPARENT BACKGROUND; edges softly feather and dissolve into transparency like a remembered image, whole group softly translucent, not ghosts/scary. Keep faces internally clear, with translucent dissolving shoulders and lower edges. No thought balloon outline, no border, no text, no clouds, no labels, no scenery, no opaque white/black rectangle. Leave generous transparent space around all heads. Portraits and shoulders within central80% of a landscape-ish composition. The compositing tool will set the whole group to about55% opacity over the warm thought balloon.",
+  "transparent": true,
+  "file": "art/book1-v08-corrections/extras/children-memory-v01.png",
+  "web_file": "art/book1-v08-corrections/extras/children-memory-v01.webp",
+  "sha256": "68c0b876c673af36eb6191407f1a4c388c11e3bc2b37953ae574febc7e307d6a",
+  "web_sha256": "a9205240b36bc31e67c56a388182bdbb9d427784ffde760dcb44fdca9ea4a211",
+  "actual_size": [
+    1510,
+    1041
+  ],
+  "mode": "RGBA",
+  "original_generation_path": "/workspace/generated_images/exec-bfaa646c-0eb3-4d4b-ba86-452b51fcb70b.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v08-corrections/references/S08-img053.jpg",
+      "sha256": "5289b72fbd9387c9bfdedb771e69f9100641e006ce69f304f29325367f1ffb42"
+    }
+  ],
+  "status": "generated-candidate-for-Claude-integration",
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:02:38.973135+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

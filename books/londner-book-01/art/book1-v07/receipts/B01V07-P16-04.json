@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P16-04",
+  "file": "art/book1-v07/B01V07-P16-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P16-04.webp",
+  "source_path": "/workspace/generated_images/exec-dd8bfe0b-b4fd-4a5f-ae90-f8bc7f3cd114.png",
+  "tool_source_path": "/workspace/generated_images/exec-dd8bfe0b-b4fd-4a5f-ae90-f8bc7f3cd114.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2. ONE dramatic pastoral literary graphic novel watercolor and gouache illustration, selective fine ink, rich restrained blue shadows. EYE-LEVEL CLOSE SILHOUETTE SHOT in the same early-1900s Vienna hospital: the approved school-age boy sits quietly beside his white iron hospital bed, seen in three-quarter profile against a cold blue dusk window. His dark cap with tan band, narrow oval face and pronounced ear define the recognizable silhouette; same charcoal buttoned shirt. Both hands EMPTY and relaxed in his lap, fully visible and centered, shoulders slightly lowered, no theatrical tears, no praying gesture, no object or book anywhere within his reach. The missing familiar prayer book is expressed by empty hands. Most of the picture is quiet deep blue-grey room shadow and negative space, with window a soft luminous rectangle, pale bed edge a small counterpoint. Face and entire head aroundx0.62 y0.43, hands aroundx0.56 y0.68, plenty of margins around head and fingers; broad dark upper-left clear for later live caption. Warm dignity even in loneliness, restrained contemplative expression. No other people, no father, no abandonment tableau, no flames, no treatment, no wounds or crosses. ONE scene only, no text, readable writing, speech/thought balloons, borders, panels, collage, emblems or watermark.\n",
+  "references": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P16-03.png"
+  ],
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "Eye-level close quiet boy against cold dusk window, dark room dominates left, empty hands together in lap visible below. Face partially lit rather than pure silhouette but same approved narrow face/cap/ears, subdued posture conveys absence of book without theatrical distress. No book, other people, fire, icons or invented event. White iron bed and blue plaster preserve ward. Use conservative zoom1.0 to protect full head and low hands; broad dark left for caption.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
+  "browser_qa": "not performed"
+}

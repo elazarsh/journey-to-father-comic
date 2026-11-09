@@ -1,0 +1,38 @@
+{
+  "id": "B01V07-P28-03-agefix",
+  "kind": "panel-replacement",
+  "target": "B01V07-P28-03",
+  "age_band": "14",
+  "previous_source_file": "art/book1-v07/B01V07-P28-03.png",
+  "previous_source_sha256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+  "specific": "FOURTEEN-year-old studying and conversing with religious friend, both are adolescents, not preschool boys. Preserve quiet candlelit study and both faces apart.",
+  "status": "generated-candidate-for-Claude-integration",
+  "prompt": "Edit the FIRST attached historical graphic-novel panel. Its overall scene, camera angle, framing/aspect ratio, lighting, setting, other people, period clothing and essential actions must remain recognizable. The SECOND image is the age-specific Yitzhak identity reference: it overrides the old panel's too-young face and wrong proportions. Repaint the visible Yitzhak naturally as one anatomically coherent person of the specified age; do not paste or resize a head. Preserve his recognizable brown eyes, prominent ears, distinctive nose and cap, natural smaller eyes and subtle expressions. No generic cartoon, no giant head, no small head on adult torso, no massive shoulders or overlong adult legs on a small child. Treat adult/child scale and head/neck/shoulder relationships coherently. Preserve the established warm painterly watercolor/gouache dramatic pastoral style and paper texture, not glossy photo-realism. Do not introduce new events, symbols or people. Keep faces, hands, feet when relevant, and key props at least10-12% inside edges; leave a naturally calm area ABOVE each visible speaker for later live lettering. NO text, readable writing, balloons, outlines, panel frames or watermarks. This is one complete scene, not a montage. Specific correction: FOURTEEN-year-old studying and conversing with religious friend, both are adolescents, not preschool boys. Preserve quiet candlelit study and both faces apart.",
+  "file": "art/book1-v08-corrections/panels/B01V07-P28-03-agefix.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P28-03-agefix.webp",
+  "sha256": "7b67737377ade22a06a283a3e8e48223e9ad0875d977bd55f2b653433efe4da9",
+  "web_sha256": "1d4184126ac1ec4f9fba20eeb26a73a41d91409438d2c62917a209bbd32e53b0",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-9e697bac-f984-4f21-bd8f-952a4862821c.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v07/web/B01V07-P28-03.webp",
+      "sha256": "e897ae1ed0e0e75c2b0aed3139bbeaa2c2182794555271c974fe07b30fb0037a"
+    },
+    {
+      "file": "art/book1-v08-corrections/characters/yitzhak-age14-v01.png",
+      "sha256": "88f8e3037476e9682f8444d32cf9a7497ef33b162e3e4574a7c0131c00fadf47"
+    }
+  ],
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:22:02.527938+00:00",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

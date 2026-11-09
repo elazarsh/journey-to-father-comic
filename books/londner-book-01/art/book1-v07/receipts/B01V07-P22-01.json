@@ -1,0 +1,26 @@
+{
+  "id": "B01V07-P22-01",
+  "prompt": "PORTRAIT canvas 1024x1536, TOP-DOWN bird's-eye object detail. Exactly SIX individual brown leather SHOE UPPERS, unsoled stitched upper shells, no soles and no complete shoes, neatly spaced in ONE VERTICAL COLUMN across the central strip of a tall worn wooden shop counter, count all six clearly. Each is a single hollow leather upper for one shoe, not pairs, not leather rolls or flat scraps. Their long axes horizontal across counter and repeated down portrait. Warm bright afternoon window light makes distinct shadows and rich russet edges. Early1900s Polish leather-supplies merchant's shop. Nobody present. Essential six objects all inside central60% width and70% height with15% crop margins. Keep top15% calm counter wood for live caption. This reveals the half dozen surplus leather uppers, isolated countable merchandise, distinct from the next low wide doorway scene. Dramatic pastoral literary graphic novel, watercolor and gouache on tactile paper, selective fine ink, restrained warm colors, painterly detail, natural materials, atmospheric edges. ONE scene, no text, numbers, writing, balloons, frames, watermark, collage.",
+  "refs": [],
+  "original_tool_file": "/workspace/generated_images/exec-56ceba46-fa72-4cc1-827e-bc67690a80f4.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Exactly six separate unsoled leather uppers in one top-down column, warm light, no people, no text. Count checked visually.",
+    "crop_issues": "All six countable; bottom upper near89% and top near9%, so preserve full column with centered fit and conservative zoom; precise polygon crop check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P22-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P22-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "5b1f58c3881fa3699467bd41e23d87ea43a20de07c0be6f229eff67ea0193aa7",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [],
+  "crop_notes": "All six countable; bottom upper near89% and top near9%, so preserve full column with centered fit and conservative zoom; precise polygon crop check remains with root."
+}

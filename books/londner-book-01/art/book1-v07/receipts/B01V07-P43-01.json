@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P43-01",
+  "file": "art/book1-v07/B01V07-P43-01.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. PORTRAIT1024x1536. MEDIUM EYE-LEVEL view Yitzhak and Chava read ONE newly arrived letter TOGETHER, faces softly brighten with restrained hope and relief in warm clear morning light. Young man left, wife right in modest burgundy long-sleeve high-neck dress and cream1920s headscarf covering hair, both in their20s. Put both full faces at x40%/60%, y48% and hands jointly holding paper y68%, safely within central65%. Letter paper toward them so blank back visible to viewer, no text. Wooden kitchen table and quiet pale wall above, no portrait accessories, no baby or extra people. Their eyes focused on shared letter, not reader. Warm hope after evening waiting; distinct from bureaucratic detail next.",
+  "tool_source_path": "/workspace/generated_images/exec-38ed44f5-3aa1-4e2f-89b9-32824cce1f81.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "Young married pair reading letter with relief, headcovered wife, no lettering, central faces/hands.",
+  "crop_caveats": "Source visually reviewed; final polygon/15% zoom and bilingual lettering placement remain for renderer review.",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "747a15e5f409380d1935ff338bb47f5feb88fd2c77462c1d1d3dcd597a9d85d4",
+  "web_file": "art/book1-v07/web/B01V07-P43-01.webp"
+}

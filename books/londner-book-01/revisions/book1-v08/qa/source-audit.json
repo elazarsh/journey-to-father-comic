@@ -1,0 +1,3365 @@
+{
+  "created_utc": "2026-10-31T15:20:47.547557+00:00",
+  "scope": "Source and receipt integrity only; no browser, mask, lettering, identity or face-detection approval",
+  "active_panel_count": 170,
+  "pages": 48,
+  "assets": 120,
+  "active_assets": 112,
+  "active_local_masters": 88,
+  "active_remote_masters_with_local_preview": 24,
+  "missing": [
+    {
+      "id": "B01V07-P22-04",
+      "page": 22
+    },
+    {
+      "id": "B01V07-P23-01",
+      "page": 23
+    },
+    {
+      "id": "B01V07-P23-02",
+      "page": 23
+    },
+    {
+      "id": "B01V07-P23-03",
+      "page": 23
+    },
+    {
+      "id": "B01V07-P23-04",
+      "page": 23
+    },
+    {
+      "id": "B01V07-P24-01",
+      "page": 24
+    },
+    {
+      "id": "B01V07-P24-02",
+      "page": 24
+    },
+    {
+      "id": "B01V07-P24-03",
+      "page": 24
+    },
+    {
+      "id": "B01V07-P25-01",
+      "page": 25
+    },
+    {
+      "id": "B01V07-P25-03",
+      "page": 25
+    },
+    {
+      "id": "B01V07-P25-04",
+      "page": 25
+    },
+    {
+      "id": "B01V07-P30-02",
+      "page": 30
+    },
+    {
+      "id": "B01V07-P30-03",
+      "page": 30
+    },
+    {
+      "id": "B01V07-P30-04",
+      "page": 30
+    },
+    {
+      "id": "B01V07-P31-01",
+      "page": 31
+    },
+    {
+      "id": "B01V07-P31-03",
+      "page": 31
+    },
+    {
+      "id": "B01V07-P31-04",
+      "page": 31
+    },
+    {
+      "id": "B01V07-P32-01",
+      "page": 32
+    },
+    {
+      "id": "B01V07-P32-02",
+      "page": 32
+    },
+    {
+      "id": "B01V07-P32-03",
+      "page": 32
+    },
+    {
+      "id": "B01V07-P32-04",
+      "page": 32
+    },
+    {
+      "id": "B01V07-P33-02",
+      "page": 33
+    },
+    {
+      "id": "B01V07-P33-03",
+      "page": 33
+    },
+    {
+      "id": "B01V07-P33-04",
+      "page": 33
+    },
+    {
+      "id": "B01V07-P34-01",
+      "page": 34
+    },
+    {
+      "id": "B01V07-P34-02",
+      "page": 34
+    },
+    {
+      "id": "B01V07-P34-03",
+      "page": 34
+    },
+    {
+      "id": "B01V07-P34-04",
+      "page": 34
+    },
+    {
+      "id": "B01V07-P35-01",
+      "page": 35
+    },
+    {
+      "id": "B01V07-P35-02",
+      "page": 35
+    },
+    {
+      "id": "B01V07-P35-03",
+      "page": 35
+    },
+    {
+      "id": "B01V07-P35-04",
+      "page": 35
+    },
+    {
+      "id": "B01V07-P39-02",
+      "page": 39
+    },
+    {
+      "id": "B01V07-P39-03",
+      "page": 39
+    },
+    {
+      "id": "B01V07-P39-04",
+      "page": 39
+    },
+    {
+      "id": "B01V07-P40-02",
+      "page": 40
+    },
+    {
+      "id": "B01V07-P40-03",
+      "page": 40
+    },
+    {
+      "id": "B01V07-P40-04",
+      "page": 40
+    },
+    {
+      "id": "B01V07-P41-01",
+      "page": 41
+    },
+    {
+      "id": "B01V07-P41-02",
+      "page": 41
+    },
+    {
+      "id": "B01V07-P41-03",
+      "page": 41
+    },
+    {
+      "id": "B01V07-P42-01",
+      "page": 42
+    },
+    {
+      "id": "B01V07-P42-02",
+      "page": 42
+    },
+    {
+      "id": "B01V07-P42-03",
+      "page": 42
+    },
+    {
+      "id": "B01V07-P42-04",
+      "page": 42
+    },
+    {
+      "id": "B01V07-P43-01",
+      "page": 43
+    },
+    {
+      "id": "B01V07-P43-03",
+      "page": 43
+    },
+    {
+      "id": "B01V07-P43-04",
+      "page": 43
+    },
+    {
+      "id": "B01V07-P46-01",
+      "page": 46
+    },
+    {
+      "id": "B01V07-P46-02",
+      "page": 46
+    },
+    {
+      "id": "B01V07-P46-03",
+      "page": 46
+    },
+    {
+      "id": "B01V07-P46-04",
+      "page": 46
+    },
+    {
+      "id": "B01V07-P47-01",
+      "page": 47
+    },
+    {
+      "id": "B01V07-P47-02",
+      "page": 47
+    },
+    {
+      "id": "B01V07-P47-03",
+      "page": 47
+    },
+    {
+      "id": "B01V07-P48-01",
+      "page": 48
+    },
+    {
+      "id": "B01V07-P48-02",
+      "page": 48
+    },
+    {
+      "id": "B01V07-P48-03",
+      "page": 48
+    }
+  ],
+  "issue_counts": {
+    "preview_aspect_vs_master": 1
+  },
+  "rows": [
+    {
+      "id": "B01V07-P01-01",
+      "page": 1,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "3ec28b724763f7e8d9af493755a4c6141b647ea8bbb54fa8f30bf1ac8a5ead86",
+      "recorded_master_sha256": "3ec28b724763f7e8d9af493755a4c6141b647ea8bbb54fa8f30bf1ac8a5ead86",
+      "web_file": "art/book1-v07/web/B01V07-P01-01.webp",
+      "web_sha256": "e77829454e539ce8d6b9dc84973fb0624f1a8b8790a378a676c60348dcf75abc",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "3ec28b724763f7e8d9af493755a4c6141b647ea8bbb54fa8f30bf1ac8a5ead86",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          55.9,
+          26.2,
+          19.8,
+          15.6
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P01-02",
+      "page": 1,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+      "recorded_master_sha256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+      "web_file": "art/book1-v07/web/B01V07-P01-02.webp",
+      "web_sha256": "b0c2aca6afc27daaa22d69c535ed9eb2f020c095bca90fa1c7e10f81dc3e0866",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P01-03",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "70e15637034e8d75e869d80e0c8d0ef6324d4abf0e16e3ef6cf1ed1f73d51679",
+      "recorded_master_sha256": "70e15637034e8d75e869d80e0c8d0ef6324d4abf0e16e3ef6cf1ed1f73d51679",
+      "web_file": "art/book1-v07/web/B01V07-P01-03.webp",
+      "web_sha256": "30845093e0de1cfa2416698ee67a6d89ee2be558edf1d991c698bb256505aa16",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "70e15637034e8d75e869d80e0c8d0ef6324d4abf0e16e3ef6cf1ed1f73d51679",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          40.2,
+          32.7,
+          34.9,
+          29.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P02-02",
+      "page": 2,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+      "recorded_master_sha256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+      "web_file": "art/book1-v07/web/B01V07-P02-02.webp",
+      "web_sha256": "554f8daa20313baec80801c6ac2638b749160e9c0a21c68cbc7317246ef2e213",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "9d0721e320c1d6c79f532e3ac52fedb458345b159bfddb975e74ae840799d12a",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          48.9,
+          29.4,
+          11.9,
+          10.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P02-03",
+      "page": 2,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "6de3782ab21ba28003704f88b647c0ab13479eea17cdff155ae1e97410e48e9d",
+      "recorded_master_sha256": "6de3782ab21ba28003704f88b647c0ab13479eea17cdff155ae1e97410e48e9d",
+      "web_file": "art/book1-v07/web/B01V07-P02-03.webp",
+      "web_sha256": "03d140a3976c39bc184214dbd5b1d6c2087992ad279986607a5d046edbb0f074",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "6de3782ab21ba28003704f88b647c0ab13479eea17cdff155ae1e97410e48e9d",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          75.0,
+          50.0,
+          1.3,
+          1.1
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P03-01",
+      "page": 3,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
+      "recorded_master_sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
+      "web_file": "art/book1-v07/web/B01V07-P03-01.webp",
+      "web_sha256": "9cd9945fdd45a3ce5638b3295094e45ea9e79a08ad20c2f762876353110842ed",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "4ed91d1d8358ef67968856d6f50edf6c9dffc47c56acd318e03c875872e3e3ec",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          45.2,
+          35.7,
+          2.7,
+          5.1
+        ],
+        [
+          36.9,
+          28.8,
+          2.7,
+          6.3
+        ],
+        [
+          56.0,
+          33.3,
+          3.6,
+          5.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P03-02",
+      "page": 3,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "8190e40f9ddff1288e3ac8e551257f72f3e106577f7ff64ed06d169f582787d9",
+      "web_file": "art/book1-v07/web/B01V07-P03-02.webp",
+      "web_sha256": "45df0e68fe46dec36797a42baffd040f117c5f88f6a825b99133afc5de10de3c",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "8190e40f9ddff1288e3ac8e551257f72f3e106577f7ff64ed06d169f582787d9",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P03-03",
+      "page": 3,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "d020d1face43992a1387010774b3a6f68eb1a7a54dd63da5b754ae3d82f974ff",
+      "web_file": "art/book1-v07/web/B01V07-P03-03.webp",
+      "web_sha256": "057861e42b794d0398e954b87d26a0f2ae7124bf8abd8d505ffbde462f5674c9",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "d020d1face43992a1387010774b3a6f68eb1a7a54dd63da5b754ae3d82f974ff",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P03-04",
+      "page": 3,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "0661f1d50a197187f418e06e798ad2ad34520e47e7946c8249b6b1bfa541af26",
+      "web_file": "art/book1-v07/web/B01V07-P03-04.webp",
+      "web_sha256": "4b89018afcd3c20eff1dbb052f04324c591dcdba6b46a454bfb24e92413b3de3",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "0661f1d50a197187f418e06e798ad2ad34520e47e7946c8249b6b1bfa541af26",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P04-01",
+      "page": 4,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "300a22087c13c81b3f969f82f3951f4c9695244362fb162d216a4da9cf77e76d",
+      "web_file": "art/book1-v07/web/B01V07-P04-01.webp",
+      "web_sha256": "91b379e01be1ca79c84d0e8127f9cc1b922c4759bb05317972bda396029aefb9",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "300a22087c13c81b3f969f82f3951f4c9695244362fb162d216a4da9cf77e76d",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P04-02",
+      "page": 4,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
+      "recorded_master_sha256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
+      "web_file": "art/book1-v07/web/B01V07-P04-02.webp",
+      "web_sha256": "230c7421fae45fd027e27e1eff2737fd45a2c46190b0609f67179c45c164f20c",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "387885a2e9c88ce489e88cdf9fe908db670fdeae491d6f6f4c15a112a8f97cdd",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          75.6,
+          57.5,
+          7.9,
+          5.2
+        ],
+        [
+          53.9,
+          51.1,
+          8.3,
+          5.2
+        ],
+        [
+          31.0,
+          47.3,
+          6.2,
+          4.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P04-03",
+      "page": 4,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+      "web_file": "art/book1-v07/web/B01V07-P04-03.webp",
+      "web_sha256": "062a21d9dd152a05a1228188f569046faaf87d6eca74d8289fef4e70a61da7fd",
+      "source_size": [
+        1024,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          33.5,
+          28.3,
+          18.9,
+          20.3
+        ],
+        [
+          86.6,
+          56.8,
+          8.7,
+          8.5
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P04-04",
+      "page": 4,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "6e357e9601423563469c35bd89c5169076c1fc7665c54b5c6d34f3f4ee31424c",
+      "web_file": "art/book1-v07/web/B01V07-P04-04.webp",
+      "web_sha256": "0dbf28928e35063959eb6ab841c4a7a7c1c68851291ecfbd3eb528efc38eec04",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "6e357e9601423563469c35bd89c5169076c1fc7665c54b5c6d34f3f4ee31424c",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P05-01",
+      "page": 5,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+      "web_file": "art/book1-v07/web/B01V07-P05-01.webp",
+      "web_sha256": "679d64a2195e754252f2f1a74562419d65a8a33d42a1b4de8102bb68b352a031",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          44.6,
+          71.7,
+          1.9,
+          3.5
+        ],
+        [
+          38.4,
+          57.0,
+          1.9,
+          3.6
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P05-02",
+      "page": 5,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+      "web_file": "art/book1-v07/web/B01V07-P05-02.webp",
+      "web_sha256": "6ef3712cd2d67a0c8f146069a4e2779a22c92533271de121042b800b6d9922be",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "688dd65008b3ab5b6ffd085098eb599612935612baa265a587c141cf0ab15fff",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          26.0,
+          35.6,
+          8.6,
+          8.3
+        ],
+        [
+          71.4,
+          52.9,
+          5.1,
+          5.6
+        ],
+        [
+          86.1,
+          53.6,
+          6.4,
+          6.6
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P05-03",
+      "page": 5,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "995f445feb8bea7e86af5e4ddb63e44d1cb16019578db115a7e1b33b1663ea81",
+      "recorded_master_sha256": "995f445feb8bea7e86af5e4ddb63e44d1cb16019578db115a7e1b33b1663ea81",
+      "web_file": "art/book1-v07/web/B01V07-P05-03.webp",
+      "web_sha256": "0c1bf10de842c74488d88cacc40929b6b86f9605edc71cb7365fc983ab907fb3",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "995f445feb8bea7e86af5e4ddb63e44d1cb16019578db115a7e1b33b1663ea81",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P05-04",
+      "page": 5,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+      "recorded_master_sha256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+      "web_file": "art/book1-v07/web/B01V07-P05-04.webp",
+      "web_sha256": "2edca53ea8a3a43c11b0fc26c40175fb3110cd1881b258fa4817734eb04c5de3",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "bff46ba597573b5edb6d5be9edd0cfdefb14665d847a26d44a2f9b3b9712258c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          30.7,
+          29.0,
+          42.5,
+          33.7
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P06-01",
+      "page": 6,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+      "web_file": "art/book1-v07/web/B01V07-P06-01.webp",
+      "web_sha256": "3a25f92a57a58bc6ba3fccc906da9ddf0295d11d013777dc3f3a8fa7a1c56344",
+      "source_size": [
+        1024,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "39df3983c93867e3797ee478ee8a332a8479d498d339549088f45284344ddb6e",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          46.4,
+          46.3,
+          3.9,
+          4.7
+        ],
+        [
+          39.2,
+          46.5,
+          3.5,
+          4.5
+        ],
+        [
+          14.4,
+          45.0,
+          3.6,
+          4.4
+        ],
+        [
+          30.8,
+          45.1,
+          3.3,
+          4.8
+        ],
+        [
+          22.5,
+          48.4,
+          3.2,
+          5.3
+        ],
+        [
+          14.6,
+          49.1,
+          3.2,
+          5.1
+        ],
+        [
+          32.1,
+          51.2,
+          3.3,
+          5.5
+        ],
+        [
+          64.6,
+          26.9,
+          4.3,
+          6.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P06-02",
+      "page": 6,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "01e575e68727f2ff05e4cc9fdd89e9d79a01637112040a925a6bc4c40b7dc07e",
+      "recorded_master_sha256": "01e575e68727f2ff05e4cc9fdd89e9d79a01637112040a925a6bc4c40b7dc07e",
+      "web_file": "art/book1-v07/web/B01V07-P06-02.webp",
+      "web_sha256": "39b6b9bbf9b3ffc9799545f462cff972425704ae06010ab43aae8bba75f61890",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "01e575e68727f2ff05e4cc9fdd89e9d79a01637112040a925a6bc4c40b7dc07e",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P06-03",
+      "page": 6,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+      "recorded_master_sha256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+      "web_file": "art/book1-v07/web/B01V07-P06-03.webp",
+      "web_sha256": "5779134a3dc9218d73a393e8f757ec7cd6b94e6c324ad95079b820265ff33578",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "f56b7fac5fcd75c8a84dffde15e7e7f127c20e15ef3ba656df0625080b8ba910",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          30.5,
+          28.2,
+          32.2,
+          26.5
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P06-04",
+      "page": 6,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+      "web_file": "art/book1-v07/web/B01V07-P06-04.webp",
+      "web_sha256": "5aae1a1c01d59e79fefbebc56be2fb94148a8df655e42b287822d48363e118ed",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "5b65c6022640ed1b7f2e9c5bbefa3623f648da3e4063be262781006ec167e9b9",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          31.1,
+          43.9,
+          10.8,
+          9.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P07-01",
+      "page": 7,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+      "recorded_master_sha256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+      "web_file": "art/book1-v07/web/B01V07-P07-01.webp",
+      "web_sha256": "e4ff5f4e0f639bc69998e6f0d56008d19115b61c95068caa7272d04927da3024",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "e303d96e582b40c57c9baca30e165b4ba6845932d0f05fa77ef3f5512438ed09",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          29.6,
+          27.4,
+          21.9,
+          26.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P07-02",
+      "page": 7,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "2e7946c7ffb62812a22d4d173cc7c856355e295443a524f693052c1810ecb505",
+      "recorded_master_sha256": "2e7946c7ffb62812a22d4d173cc7c856355e295443a524f693052c1810ecb505",
+      "web_file": "art/book1-v07/web/B01V07-P07-02.webp",
+      "web_sha256": "6d8e41d4c404d176367a1f803d3ee49011f0023060f408d7ac06a535b77f3aa9",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "2e7946c7ffb62812a22d4d173cc7c856355e295443a524f693052c1810ecb505",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          23.1,
+          41.2,
+          12.9,
+          18.9
+        ],
+        [
+          55.1,
+          27.5,
+          16.6,
+          21.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P07-03",
+      "page": 7,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "2a7f127ad1d21f337abf6a8b5c7152b155dc798209274e872a421e0779b9af32",
+      "web_file": "art/book1-v07/web/B01V07-P07-03.webp",
+      "web_sha256": "72cb50536a6da21e8247f87a3fba4b8ce512cbcff199b0e9279467ee5b731ece",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "2a7f127ad1d21f337abf6a8b5c7152b155dc798209274e872a421e0779b9af32",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          59.7,
+          38.0,
+          1.8,
+          3.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P08-01",
+      "page": 8,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+      "recorded_master_sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+      "web_file": "art/book1-v07/web/B01V07-P08-01.webp",
+      "web_sha256": "6f1db71e387a7ce3e35d7108d91c798cddb5ce43aa921a53692474c90d8ccf11",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          60.9,
+          9.6,
+          7.1,
+          10.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P08-02",
+      "page": 8,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
+      "recorded_master_sha256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
+      "web_file": "art/book1-v07/web/B01V07-P08-02.webp",
+      "web_sha256": "cdb3df36976d32c6ee6afbed2b8f48ad4de61e1beb50f76c47dcac58c0a1a997",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ed4254b25517697bad8119b7159a6ccc1402577c2a27e32f63faf1c2e3362cd0",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          59.6,
+          32.4,
+          13.2,
+          10.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P08-03",
+      "page": 8,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+      "recorded_master_sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+      "web_file": "art/book1-v07/web/B01V07-P08-03.webp",
+      "web_sha256": "ea11c1faf973f1c5b7df24ef91f1e3bfbb825f7ebd191d6abf8e96724303b49a",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ff12cdb8156587e6feb65d4ff32c52b56ef0396aa8c31d7c6cee591a244f3914",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          43.6,
+          24.9,
+          15.8,
+          27.1
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P08-04",
+      "page": 8,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
+      "recorded_master_sha256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
+      "web_file": "art/book1-v07/web/B01V07-P08-04.webp",
+      "web_sha256": "891e166ad49f7956403f227c25bd1c6e7b2c8bedb5f2b6fadd030043b6afb060",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "4f3ce31ec9ffe894b8a8bc0cc167452791fb75285647d153ec4b3daf720cf3d4",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          31.6,
+          17.5,
+          4.3,
+          8.5
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P09-01",
+      "page": 9,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
+      "recorded_master_sha256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
+      "web_file": "art/book1-v07/web/B01V07-P09-01.webp",
+      "web_sha256": "e191c316158f89577b9c09c0ab29a9a1319e533410a7e1f61e0a09d0095029b8",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "d8ee14413ae75c2526a91c86725aa83ee334674246b96ecab0fe5cdbae0bba59",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          56.7,
+          41.7,
+          12.8,
+          10.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P09-02",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "ec33d92004d454ecef40356b91107690452417cfceecfdf861af2b1fb6f470c0",
+      "recorded_master_sha256": "ec33d92004d454ecef40356b91107690452417cfceecfdf861af2b1fb6f470c0",
+      "web_file": "art/book1-v07/web/B01V07-P09-02.webp",
+      "web_sha256": "ce50274326fadb2086f4b1b2361498e5ac0700065e7c569ba652de37541b71a2",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ec33d92004d454ecef40356b91107690452417cfceecfdf861af2b1fb6f470c0",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P09-03",
+      "page": 9,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "3c146c65a520473053a1dfe9310c6158e1bde227b7c9001f58dce1c2220b5f61",
+      "recorded_master_sha256": "3c146c65a520473053a1dfe9310c6158e1bde227b7c9001f58dce1c2220b5f61",
+      "web_file": "art/book1-v07/web/B01V07-P09-03.webp",
+      "web_sha256": "ee002d6557d0818f607def145ce303704182c5c81806faf8ceb0786886ba8847",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "3c146c65a520473053a1dfe9310c6158e1bde227b7c9001f58dce1c2220b5f61",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P09-04",
+      "page": 9,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
+      "recorded_master_sha256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
+      "web_file": "art/book1-v07/web/B01V07-P09-04.webp",
+      "web_sha256": "69957b19106d26fcbac3b2463c1c295f701316f84fcfc7c8f99d145d877a4b96",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "bf71edcabdbcb2dbf1cf162c43bb098ab4d1beed2d8131255503531d2a620e1c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": [
+        "preview_aspect_vs_master"
+      ]
+    },
+    {
+      "id": "B01V07-P10-01",
+      "page": 10,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "1c71c57692ef7468f6cfa06a00ca41c9f2515b7416b67b5994dde67a77611479",
+      "recorded_master_sha256": "1c71c57692ef7468f6cfa06a00ca41c9f2515b7416b67b5994dde67a77611479",
+      "web_file": "art/book1-v07/web/B01V07-P10-01.webp",
+      "web_sha256": "51d6d2322dbbf6a52bc408903a3b295408e529040bb3644b9265080608460f4e",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "1c71c57692ef7468f6cfa06a00ca41c9f2515b7416b67b5994dde67a77611479",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P10-02",
+      "page": 10,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "0f95ef189e81f3a20447fcc9ae87f7204239dc1ef41292d3b006aa2c6f5ddf3d",
+      "recorded_master_sha256": "0f95ef189e81f3a20447fcc9ae87f7204239dc1ef41292d3b006aa2c6f5ddf3d",
+      "web_file": "art/book1-v07/web/B01V07-P10-02.webp",
+      "web_sha256": "3f9f563643deec9ab8c4dc5a022bd53031a17cd95da913c9891f37b87afc9554",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "0f95ef189e81f3a20447fcc9ae87f7204239dc1ef41292d3b006aa2c6f5ddf3d",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P10-03",
+      "page": 10,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "89e4ac43584591d98d1f220f8aec3ab6acb8b8d54dea1ed4c46d690fa48a222a",
+      "web_file": "art/book1-v07/web/B01V07-P10-03.webp",
+      "web_sha256": "4b4764d68014c89188fe54b26388db8c06f1b45b4c79d01117efadc7eb5bbd04",
+      "source_size": [
+        1024,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "89e4ac43584591d98d1f220f8aec3ab6acb8b8d54dea1ed4c46d690fa48a222a",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P10-04",
+      "page": 10,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "bbc776b573f5332a5717faba268374f62f57f3a233dc50443102033307664ba6",
+      "web_file": "art/book1-v07/web/B01V07-P10-04.webp",
+      "web_sha256": "7b01dbd374fa1022218ab935217aa8a9d25228977ca08f6d9e3ff9b0969f2c9b",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "bbc776b573f5332a5717faba268374f62f57f3a233dc50443102033307664ba6",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          31.7,
+          27.2,
+          19.9,
+          38.7
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P11-01",
+      "page": 11,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "2b67aaa92bcc7e89b1274cdf0fc97ddc510b109793b64cca1175b279f97ddb30",
+      "web_file": "art/book1-v07/web/B01V07-P11-01.webp",
+      "web_sha256": "5ecc53c8a7deb8291bed7bd0138d08c501df4895ef5387758659cddce28bfaed",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "2b67aaa92bcc7e89b1274cdf0fc97ddc510b109793b64cca1175b279f97ddb30",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P11-03",
+      "page": 11,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "f148b0eeecb7bddaf8daa774b6b85b44fec4039991df1f4b5f22ab1751d1c40d",
+      "web_file": "art/book1-v07/web/B01V07-P11-03.webp",
+      "web_sha256": "29caf86a0725279ca3969c6bc655828cc67aa68c5c093e08852057c43e07cb55",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "f148b0eeecb7bddaf8daa774b6b85b44fec4039991df1f4b5f22ab1751d1c40d",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P11-04",
+      "page": 11,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae",
+      "web_file": "art/book1-v07/web/B01V07-P11-04.webp",
+      "web_sha256": "95482f4a88baffc5fccec374237803cc1d98b2ecf837359b42b0fc627c6a7ab8",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "45f2fefb6c6454f4b7ffdfc7749dce2935da896e4ea015c50bb0f24c991301ae",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          43.9,
+          40.2,
+          25.2,
+          20.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P12-01",
+      "page": 12,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089",
+      "web_file": "art/book1-v07/web/B01V07-P12-01.webp",
+      "web_sha256": "9f8e8150b76c2ae2287b62b67d00a252ea526d8aa7fca7000c5e231827aca3dd",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "4ca6816017d1c1d21dde9b91e335bce3fcaf7d143d77131803abeb621bbd9089",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          39.5,
+          32.7,
+          14.3,
+          13.6
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P12-02",
+      "page": 12,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "5092d2d630bb1e444a2559fc31e092c26af338c7a682a6dc2a254d502c50c00f",
+      "web_file": "art/book1-v07/web/B01V07-P12-02.webp",
+      "web_sha256": "49b32368abee91b704ce6a2262498488e8f4642c2d76417c4fecd978e436f820",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "5092d2d630bb1e444a2559fc31e092c26af338c7a682a6dc2a254d502c50c00f",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          43.2,
+          23.7,
+          25.1,
+          20.7
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P12-03",
+      "page": 12,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "e74d97080e25eace53fde7331b4b15f24266cd2462aa580514e3ff1468b1acf1",
+      "web_file": "art/book1-v07/web/B01V07-P12-03.webp",
+      "web_sha256": "23fe480a8b30e5bbf3acda0d2817921c1e1835cac0d3632b196e9ed8c980885a",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "e74d97080e25eace53fde7331b4b15f24266cd2462aa580514e3ff1468b1acf1",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P12-04",
+      "page": 12,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "ff1083e336bb1f907c4b97e115f05c91dfb4901b1c990b5574e072207aa109f7",
+      "web_file": "art/book1-v07/web/B01V07-P12-04.webp",
+      "web_sha256": "97e81fc2c8f701f894e48a03acecf03ce015ac96077bba55aff51eb613bfb23f",
+      "source_size": [
+        1024,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "ff1083e336bb1f907c4b97e115f05c91dfb4901b1c990b5574e072207aa109f7",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          15.3,
+          23.0,
+          5.6,
+          7.0
+        ],
+        [
+          69.2,
+          31.5,
+          5.2,
+          6.7
+        ],
+        [
+          50.2,
+          45.7,
+          4.5,
+          5.4
+        ],
+        [
+          80.2,
+          46.3,
+          5.1,
+          6.6
+        ],
+        [
+          48.1,
+          20.8,
+          5.3,
+          6.9
+        ],
+        [
+          39.7,
+          43.1,
+          5.0,
+          5.9
+        ],
+        [
+          55.4,
+          25.3,
+          3.9,
+          4.8
+        ],
+        [
+          60.9,
+          36.8,
+          5.0,
+          6.2
+        ],
+        [
+          28.0,
+          33.9,
+          5.1,
+          6.6
+        ],
+        [
+          35.0,
+          15.3,
+          6.3,
+          7.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P13-01",
+      "page": 13,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "4bfcfaab0f6687e585f6eb1f235a702443d3d4bad7cd4749bb541526912253b7",
+      "web_file": "art/book1-v07/web/B01V07-P13-01.webp",
+      "web_sha256": "96959cdd83e6a955d4dfad0ae8f9e8773e8cd1dd5b08ba46855b25f2fa79c52f",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "4bfcfaab0f6687e585f6eb1f235a702443d3d4bad7cd4749bb541526912253b7",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          68.6,
+          30.3,
+          11.7,
+          10.8
+        ],
+        [
+          18.1,
+          29.6,
+          10.6,
+          11.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P13-02",
+      "page": 13,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "f6fd7b8ebc4e0dad8af92982789aef164f91aeab4b4e04c49b227b7a88760a1d",
+      "web_file": "art/book1-v07/web/B01V07-P13-02.webp",
+      "web_sha256": "07d520b5dc83fa5025d76bf62393e352d3dd81ae23d321feb2a9924f9cb2fdff",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "f6fd7b8ebc4e0dad8af92982789aef164f91aeab4b4e04c49b227b7a88760a1d",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P13-03",
+      "page": 13,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+      "web_file": "art/book1-v07/web/B01V07-P13-03.webp",
+      "web_sha256": "a4bb02c25cd2a49118c4e6833fa1ba6e2f7234c30d4a573e3ef33c92246cf7bd",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "7cb2907e9a0541255c32d7632876a1f30c00b92fcad48938954deb2b26d8b02c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          29.4,
+          45.9,
+          6.2,
+          5.2
+        ],
+        [
+          47.9,
+          42.0,
+          7.9,
+          5.3
+        ],
+        [
+          57.6,
+          55.7,
+          6.4,
+          5.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P17-01",
+      "page": 17,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "c2f7043544c885ef3998616bde51e5ada084231e7517138e76daee7d0b5e5588",
+      "recorded_master_sha256": "c2f7043544c885ef3998616bde51e5ada084231e7517138e76daee7d0b5e5588",
+      "web_file": "art/book1-v07/web/B01V07-P17-01.webp",
+      "web_sha256": "554f0ac0a7089759f15536a9d5b3eb00725bf664fdb9bda1eb2720b19c01fcbb",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "c2f7043544c885ef3998616bde51e5ada084231e7517138e76daee7d0b5e5588",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          64.0,
+          43.9,
+          14.3,
+          12.1
+        ],
+        [
+          38.1,
+          40.0,
+          12.3,
+          10.7
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P17-02",
+      "page": 17,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ee4ea7e10bab6549657a4b803f8f744ae4131edec3611bf4ad218f1648566465",
+      "recorded_master_sha256": "ee4ea7e10bab6549657a4b803f8f744ae4131edec3611bf4ad218f1648566465",
+      "web_file": "art/book1-v07/web/B01V07-P17-02.webp",
+      "web_sha256": "c1a7dfd409802ad515375fb1a92a9f2d363d52a26d08d9b82690be78242bb507",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ee4ea7e10bab6549657a4b803f8f744ae4131edec3611bf4ad218f1648566465",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          54.4,
+          40.7,
+          7.3,
+          6.4
+        ],
+        [
+          66.9,
+          28.7,
+          6.6,
+          5.6
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P17-03",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "fbb4739a450e0a09802934a77d11dea975e9a4333e3e8e85d44edc589dd34d2e",
+      "recorded_master_sha256": "fbb4739a450e0a09802934a77d11dea975e9a4333e3e8e85d44edc589dd34d2e",
+      "web_file": "art/book1-v07/web/B01V07-P17-03.webp",
+      "web_sha256": "92e88c9c4e986566873719337a3cb4692bece102641fee5125dc54257f33899c",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "fbb4739a450e0a09802934a77d11dea975e9a4333e3e8e85d44edc589dd34d2e",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          46.9,
+          27.7,
+          2.8,
+          6.0
+        ],
+        [
+          55.7,
+          41.9,
+          2.3,
+          6.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P17-04",
+      "page": 17,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "385e204b351e1ba5449bc9260fde62dc59bd0e2a17c284739519cc20a71abde6",
+      "recorded_master_sha256": "385e204b351e1ba5449bc9260fde62dc59bd0e2a17c284739519cc20a71abde6",
+      "web_file": "art/book1-v07/web/B01V07-P17-04.webp",
+      "web_sha256": "79bc21e67861879da5f60911c90d8cfa4aa83f7e51dd2d7d91fe5403fac440be",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "385e204b351e1ba5449bc9260fde62dc59bd0e2a17c284739519cc20a71abde6",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          54.0,
+          41.0,
+          4.8,
+          5.1
+        ],
+        [
+          38.4,
+          23.5,
+          6.6,
+          5.1
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P18-01",
+      "page": 18,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+      "recorded_master_sha256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+      "web_file": "art/book1-v07/web/B01V07-P18-01.webp",
+      "web_sha256": "3ed53ba02f9bb265a2bb33ec131159e3abd114b0dbd9667a8ef280a3f7c850a6",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "42829845e314ca354a692e41be86b48672c705c54d36bca50cec54100d635006",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          46.1,
+          34.1,
+          17.1,
+          13.2
+        ],
+        [
+          70.0,
+          14.0,
+          14.1,
+          10.3
+        ],
+        [
+          33.1,
+          41.2,
+          3.4,
+          3.6
+        ],
+        [
+          21.0,
+          42.6,
+          3.6,
+          2.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P18-02",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "a149a62b1d10cbd22948b644931f034ed95220a5828688d4bd2146c3e868ac82",
+      "recorded_master_sha256": "a149a62b1d10cbd22948b644931f034ed95220a5828688d4bd2146c3e868ac82",
+      "web_file": "art/book1-v07/web/B01V07-P18-02.webp",
+      "web_sha256": "a8c6ea906503825c7b61010f00bb8ac7201844f8e3c7a48dad961bedd9190b01",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "a149a62b1d10cbd22948b644931f034ed95220a5828688d4bd2146c3e868ac82",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          48.2,
+          28.5,
+          22.6,
+          17.2
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P26-01",
+      "page": 26,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+      "recorded_master_sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+      "web_file": "art/book1-v07/web/B01V07-P26-01.webp",
+      "web_sha256": "4ca14808de3a49f1e777948b01a204c3d58189cbccb3cede38d4cc9ae48031e6",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          54.8,
+          37.3,
+          15.0,
+          12.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P26-02",
+      "page": 26,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+      "recorded_master_sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+      "web_file": "art/book1-v07/web/B01V07-P26-02.webp",
+      "web_sha256": "67589a98ba190c588918fd4d263ebacf0e7b7d7d4491f7c8729a1f3f46474fb9",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "35c31e543a8978995e023cdb759f60c2720f1982ebc8397ef071db1eb455c209",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          43.6,
+          31.6,
+          12.2,
+          10.2
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P26-03",
+      "page": 26,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "recorded_master_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "web_file": "art/book1-v07/web/B01V07-P26-03.webp",
+      "web_sha256": "c4eb3aab0c4716223c0e6c7868d6f2d3747877ec564f335ac06b9cb22ca9f517",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "49825c7481e74a4974fea2ed44d2f7e5a6da4b91b8a89c53e02814cd2fd79e93",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          48.0,
+          20.4,
+          8.8,
+          16.3
+        ],
+        [
+          66.7,
+          15.0,
+          6.8,
+          15.4
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P26-04",
+      "page": 26,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "f69a0488604893ae5f9db63d390e32ca783fdff269bbe77be465469488df74eb",
+      "recorded_master_sha256": "f69a0488604893ae5f9db63d390e32ca783fdff269bbe77be465469488df74eb",
+      "web_file": "art/book1-v07/web/B01V07-P26-04.webp",
+      "web_sha256": "5b6e599925d44ac34aed17359abe1e4d0431e5397b378cdeaef922514390478f",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "f69a0488604893ae5f9db63d390e32ca783fdff269bbe77be465469488df74eb",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          54.7,
+          19.2,
+          11.6,
+          23.5
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P27-01",
+      "page": 27,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "d60293a2432b898f3451764c4c531b24ce4528d9216d73037346b4630ccca95c",
+      "recorded_master_sha256": "d60293a2432b898f3451764c4c531b24ce4528d9216d73037346b4630ccca95c",
+      "web_file": "art/book1-v07/web/B01V07-P27-01.webp",
+      "web_sha256": "16de9dc97b3c5b6ed1e861416330698d66823f75c7c442a97cb6327d905e8ce9",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "d60293a2432b898f3451764c4c531b24ce4528d9216d73037346b4630ccca95c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          50.9,
+          29.4,
+          15.8,
+          12.7
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P27-02",
+      "page": 27,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "bba4b78ba3fbfaf55b8184e12602ec58e4fce512452eeea4f7ce0a27e7dccffb",
+      "recorded_master_sha256": "bba4b78ba3fbfaf55b8184e12602ec58e4fce512452eeea4f7ce0a27e7dccffb",
+      "web_file": "art/book1-v07/web/B01V07-P27-02.webp",
+      "web_sha256": "f08858e56d079f8187be768c6c9654fe2a0b88fe1c8baa6399ff6c3983831fb2",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "bba4b78ba3fbfaf55b8184e12602ec58e4fce512452eeea4f7ce0a27e7dccffb",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          51.8,
+          35.8,
+          14.4,
+          11.2
+        ],
+        [
+          94.0,
+          54.2,
+          2.3,
+          2.2
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P27-03",
+      "page": null,
+      "active": false,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "35660ac54e06ed428d7e78c8bcb4ec67004b8b633771a26770f95337b46cbea3",
+      "web_file": "art/book1-v07/web/B01V07-P27-03.webp",
+      "web_sha256": "5ef3baa63782eac0d499a4cba4f9cbef924c30dee7bb7f1ecc3742655ce636b0",
+      "source_size": [
+        1610,
+        977
+      ],
+      "status": "generated-awaiting-source-review",
+      "receipt_exists": true,
+      "receipt_sha256": "35660ac54e06ed428d7e78c8bcb4ec67004b8b633771a26770f95337b46cbea3",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          60.0,
+          17.9,
+          11.0,
+          22.2
+        ],
+        [
+          84.3,
+          40.8,
+          0.9,
+          1.9
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P27-04",
+      "page": 27,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "12dffc379e3017d0755d5d35f9fdaac70d209118169953798ae99bd2b114b4e2",
+      "recorded_master_sha256": "12dffc379e3017d0755d5d35f9fdaac70d209118169953798ae99bd2b114b4e2",
+      "web_file": "art/book1-v07/web/B01V07-P27-04.webp",
+      "web_sha256": "b2e93410d3eb859f86d2eba20596e8116241e55e4c0f6d886126f9ecd446d256",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "12dffc379e3017d0755d5d35f9fdaac70d209118169953798ae99bd2b114b4e2",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          47.9,
+          26.8,
+          8.7,
+          15.7
+        ],
+        [
+          82.0,
+          31.6,
+          6.5,
+          14.9
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P36-01",
+      "page": 36,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+      "recorded_master_sha256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+      "web_file": "art/book1-v07/web/B01V07-P36-01.webp",
+      "web_sha256": "0e4b1f8fc5ced24bc0e2e746d3d49502818c77e49e75da2e7763f6024bd4e276",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          51.5,
+          25.9,
+          19.6,
+          13.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P36-02",
+      "page": 36,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "f6fab8f09304d45c93476795aff96204901d683684cf16d6c674f1f5c690f3cb",
+      "recorded_master_sha256": "f6fab8f09304d45c93476795aff96204901d683684cf16d6c674f1f5c690f3cb",
+      "web_file": "art/book1-v07/web/B01V07-P36-02.webp",
+      "web_sha256": "c4fdf94656b66e53d6095a18c2efc2075b7df5b80b4ba7a959e633d46c94bbb4",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "f6fab8f09304d45c93476795aff96204901d683684cf16d6c674f1f5c690f3cb",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P36-03",
+      "page": 36,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "de0ee7a989815ec2e69bf5f2d81a61ad70a8d989e7de0af5aecabb41b88e4045",
+      "recorded_master_sha256": "de0ee7a989815ec2e69bf5f2d81a61ad70a8d989e7de0af5aecabb41b88e4045",
+      "web_file": "art/book1-v07/web/B01V07-P36-03.webp",
+      "web_sha256": "b26321f634fb7e0bf00e3302f34d815cbfdbddc270a62b802fbf6e6ca6d723ac",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "de0ee7a989815ec2e69bf5f2d81a61ad70a8d989e7de0af5aecabb41b88e4045",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          50.5,
+          32.4,
+          16.1,
+          12.7
+        ],
+        [
+          26.0,
+          61.1,
+          18.4,
+          12.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P36-04",
+      "page": 36,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+      "recorded_master_sha256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+      "web_file": "art/book1-v07/web/B01V07-P36-04.webp",
+      "web_sha256": "85374992c875d6b10d19465306f96f530b64fec8e57270635d53b08cabf5106b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "accepted-existing-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "398017266ce91bff51adfbaa39671ce69a9d92f4aba166e26a009b98ccac9c0a",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          51.5,
+          42.9,
+          6.8,
+          6.1
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P37-01",
+      "page": 37,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "e1a4a572100bb44565e82414b8a85742c8f27093ede40710c6453d88155686bc",
+      "recorded_master_sha256": "e1a4a572100bb44565e82414b8a85742c8f27093ede40710c6453d88155686bc",
+      "web_file": "art/book1-v07/web/B01V07-P37-01.webp",
+      "web_sha256": "f85cfd76e4b2d1a76a5b44161ae5107d5dc4677e02877cd98882b504dbf270a3",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "accepted-existing-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "e1a4a572100bb44565e82414b8a85742c8f27093ede40710c6453d88155686bc",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          67.3,
+          28.2,
+          10.6,
+          8.7
+        ],
+        [
+          41.9,
+          26.5,
+          10.3,
+          9.0
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P37-02",
+      "page": 37,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "74008c54621339ed0ff234bf825fa47f1c058de91f72cfacd6a68f2c785ea25a",
+      "recorded_master_sha256": "74008c54621339ed0ff234bf825fa47f1c058de91f72cfacd6a68f2c785ea25a",
+      "web_file": "art/book1-v07/web/B01V07-P37-02.webp",
+      "web_sha256": "ef24003d4051b89c94e2117f6b9e2776d517d0bf3e8fc3088f85e78ed63824bd",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "74008c54621339ed0ff234bf825fa47f1c058de91f72cfacd6a68f2c785ea25a",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": [
+        [
+          33.2,
+          32.8,
+          6.0,
+          5.6
+        ],
+        [
+          53.5,
+          30.3,
+          4.8,
+          5.8
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "NEW-P02-b",
+      "page": 2,
+      "active": true,
+      "local_master": false,
+      "master_sha256": null,
+      "recorded_master_sha256": "f753a5005d0f6463d65b674da037a6c657652f14b2f891594ac4032bd475e2c9",
+      "web_file": "art/book1-v07/web/NEW-P02-b.webp",
+      "web_sha256": "5682fcbda8813dc6e9c74d06a542f1f5a6ae0a40cf328d3f29df604c7f5ef025",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "f753a5005d0f6463d65b674da037a6c657652f14b2f891594ac4032bd475e2c9",
+      "source_review_bound_to_current_preview": true,
+      "face_boxes_unbound": [
+        [
+          35.0,
+          41.8,
+          6.5,
+          5.8
+        ],
+        [
+          62.8,
+          42.6,
+          5.9,
+          5.9
+        ]
+      ],
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P02-01",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "0b9bd1d5564d532412ad69188fb1dc3499923fcb066e38f3d97dddb12d6d5cd3",
+      "recorded_master_sha256": "0b9bd1d5564d532412ad69188fb1dc3499923fcb066e38f3d97dddb12d6d5cd3",
+      "web_file": "art/book1-v07/web/B01V07-P02-01.webp",
+      "web_sha256": "8647e2b2fd0f83d68cae9497f55a54a86ef7515c6c6c81ece2738d271333a798",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "0b9bd1d5564d532412ad69188fb1dc3499923fcb066e38f3d97dddb12d6d5cd3",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P11-02",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "5308f66bfcd83c9138f2a576d3d5aa76ca1f0420c211847650efd1043da06cdc",
+      "recorded_master_sha256": "5308f66bfcd83c9138f2a576d3d5aa76ca1f0420c211847650efd1043da06cdc",
+      "web_file": "art/book1-v07/web/B01V07-P11-02.webp",
+      "web_sha256": "d220fae4d4fc1b65c18d92fe2da826b01f9f9e9bb7478030f554e523a87cc983",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "5308f66bfcd83c9138f2a576d3d5aa76ca1f0420c211847650efd1043da06cdc",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P13-04",
+      "page": 13,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "e5b8342bcc0ed30cabb311a5788dd9d6d60d8585c71e78d0b745cbd638bb0154",
+      "recorded_master_sha256": "e5b8342bcc0ed30cabb311a5788dd9d6d60d8585c71e78d0b745cbd638bb0154",
+      "web_file": "art/book1-v07/web/B01V07-P13-04.webp",
+      "web_sha256": "a50caf20a4205e3b8d0afb0d462965b9e40eca9e9c694b9d1e02846417fed451",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "e5b8342bcc0ed30cabb311a5788dd9d6d60d8585c71e78d0b745cbd638bb0154",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P14-01",
+      "page": 14,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "56e8b93b181f771ca2d36f40e18b7b84248bfd59ed157bf2f2bc67b5f8097872",
+      "recorded_master_sha256": "56e8b93b181f771ca2d36f40e18b7b84248bfd59ed157bf2f2bc67b5f8097872",
+      "web_file": "art/book1-v07/web/B01V07-P14-01.webp",
+      "web_sha256": "4f48967dfdc705345ad21c872899306dc449356798b8609dbbcc4c02c791f6a9",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "56e8b93b181f771ca2d36f40e18b7b84248bfd59ed157bf2f2bc67b5f8097872",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P14-03",
+      "page": 14,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "56231438073eb25eeba40b6e1388a47aac8fa4aa188ba2078f32953b0016407c",
+      "recorded_master_sha256": "56231438073eb25eeba40b6e1388a47aac8fa4aa188ba2078f32953b0016407c",
+      "web_file": "art/book1-v07/web/B01V07-P14-03.webp",
+      "web_sha256": "6aa05ad9df8b5595ec457c5e125689f5f24b10e5a5edb1b120e342095197011d",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "56231438073eb25eeba40b6e1388a47aac8fa4aa188ba2078f32953b0016407c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P14-04",
+      "page": 14,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "c8ebe141fd2ab28857e4351950c8051aae7c96f1877db82ecc2820dd3d948aca",
+      "recorded_master_sha256": "c8ebe141fd2ab28857e4351950c8051aae7c96f1877db82ecc2820dd3d948aca",
+      "web_file": "art/book1-v07/web/B01V07-P14-04.webp",
+      "web_sha256": "530a52fa2293542051fb7890d54ce46498ec06f3fafcde3ca8929f24e45cdc15",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "c8ebe141fd2ab28857e4351950c8051aae7c96f1877db82ecc2820dd3d948aca",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P15-01",
+      "page": 15,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "cc90ebfd477439e4a8fabaacff1cc36e842ffa29a6f3809ec0d47a6a12997035",
+      "recorded_master_sha256": "cc90ebfd477439e4a8fabaacff1cc36e842ffa29a6f3809ec0d47a6a12997035",
+      "web_file": "art/book1-v07/web/B01V07-P15-01.webp",
+      "web_sha256": "8c910550a47da2d170054cefcd17628ce445d2377e18ba3307a8940a86609727",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "cc90ebfd477439e4a8fabaacff1cc36e842ffa29a6f3809ec0d47a6a12997035",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P15-02",
+      "page": 15,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "82e402e23c39e959005dc24d53e3c269ad4a4181f2273055a356634a97da7a77",
+      "recorded_master_sha256": "82e402e23c39e959005dc24d53e3c269ad4a4181f2273055a356634a97da7a77",
+      "web_file": "art/book1-v07/web/B01V07-P15-02.webp",
+      "web_sha256": "4cfd4b5bfa93ae7c592737a0e038b8963c04449986055959ecde91844c1a4eb8",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "82e402e23c39e959005dc24d53e3c269ad4a4181f2273055a356634a97da7a77",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P15-03",
+      "page": 15,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace",
+      "recorded_master_sha256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace",
+      "web_file": "art/book1-v07/web/B01V07-P15-03.webp",
+      "web_sha256": "cb9c7c54214425a3ff6ae217843bc8f24015fa29b8717114b855fd170d29d362",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P15-04",
+      "page": 15,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "d213c7da7650865bf1be25297bf38a8842698812674bc322145f5b21fc12bb7c",
+      "recorded_master_sha256": "d213c7da7650865bf1be25297bf38a8842698812674bc322145f5b21fc12bb7c",
+      "web_file": "art/book1-v07/web/B01V07-P15-04.webp",
+      "web_sha256": "0e3982083408317d60312f3c69c26565d3aedb581dc105daa79ef9f0bdcf4d93",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "d213c7da7650865bf1be25297bf38a8842698812674bc322145f5b21fc12bb7c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P16-01",
+      "page": 16,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "b1b09c92da84973b88ee67d6d2022758809bd438d634cb75002f30548b666348",
+      "recorded_master_sha256": "b1b09c92da84973b88ee67d6d2022758809bd438d634cb75002f30548b666348",
+      "web_file": "art/book1-v07/web/B01V07-P16-01.webp",
+      "web_sha256": "003ecb0a19d99f46487f60d712d919331fb48b53c1cf37bc3ff9c381d8c686f9",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "b1b09c92da84973b88ee67d6d2022758809bd438d634cb75002f30548b666348",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P16-02",
+      "page": 16,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "4787efbdc3c3063e350425dc85eb380e8757408d5c67d2538194e583cf748cec",
+      "recorded_master_sha256": "4787efbdc3c3063e350425dc85eb380e8757408d5c67d2538194e583cf748cec",
+      "web_file": "art/book1-v07/web/B01V07-P16-02.webp",
+      "web_sha256": "e6549ed669c924c41608c11738725306ae59c0eee6136b9e988da3096599a0f4",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "4787efbdc3c3063e350425dc85eb380e8757408d5c67d2538194e583cf748cec",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P16-03",
+      "page": 16,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "b3ab3a429869d76c2fe986175f03998c2703a7cd0e4daf8dbc9274d3feae9754",
+      "recorded_master_sha256": "b3ab3a429869d76c2fe986175f03998c2703a7cd0e4daf8dbc9274d3feae9754",
+      "web_file": "art/book1-v07/web/B01V07-P16-03.webp",
+      "web_sha256": "bb6bef5644215d38a9074662561ae2343703d4a4926db9551e0e8494ccf94f7b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "b3ab3a429869d76c2fe986175f03998c2703a7cd0e4daf8dbc9274d3feae9754",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P16-04",
+      "page": 16,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+      "recorded_master_sha256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+      "web_file": "art/book1-v07/web/B01V07-P16-04.webp",
+      "web_sha256": "d9013c6b575293c7ee94fdeb4ced6da9e78bc30fba8f4b054ff188f39313addf",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "396f0fac552a0b0e46c043109999d19d629d83fea90a3019daa362af361cece9",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P18-03",
+      "page": 18,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "baade583e29ae06963cd81c40bc462e26442e6a266dc052b8761d6d245aec985",
+      "recorded_master_sha256": "baade583e29ae06963cd81c40bc462e26442e6a266dc052b8761d6d245aec985",
+      "web_file": "art/book1-v07/web/B01V07-P18-03.webp",
+      "web_sha256": "e55a23d0706405d02c535138efbf42609d4d2094e58531d437c8b8c6c33a4c0b",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "baade583e29ae06963cd81c40bc462e26442e6a266dc052b8761d6d245aec985",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P18-04",
+      "page": 18,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "bbb2c5492ddfc071334ffe3d8f462f0ab8303108f9150c6a1ac8e3cec8e507bf",
+      "recorded_master_sha256": "bbb2c5492ddfc071334ffe3d8f462f0ab8303108f9150c6a1ac8e3cec8e507bf",
+      "web_file": "art/book1-v07/web/B01V07-P18-04.webp",
+      "web_sha256": "772fa767a4580180c2420b4ee596753197b195c2b893283cb88e64d335383122",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "bbb2c5492ddfc071334ffe3d8f462f0ab8303108f9150c6a1ac8e3cec8e507bf",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P19-01",
+      "page": 19,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "4199b4e05e143156d24de79ebe7c9b3665931ffe1264154af63878e6e442803d",
+      "recorded_master_sha256": "4199b4e05e143156d24de79ebe7c9b3665931ffe1264154af63878e6e442803d",
+      "web_file": "art/book1-v07/web/B01V07-P19-01.webp",
+      "web_sha256": "5545c771434a2176b4d9f1662d0ff2138b427e862e3723a5aa431d1fa84b0013",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "4199b4e05e143156d24de79ebe7c9b3665931ffe1264154af63878e6e442803d",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P19-02",
+      "page": null,
+      "active": false,
+      "local_master": true,
+      "master_sha256": "c567bb2ecdb0e169e7fca6de5b42e59863346874f500efc4c99105ff4fbd4272",
+      "recorded_master_sha256": "c567bb2ecdb0e169e7fca6de5b42e59863346874f500efc4c99105ff4fbd4272",
+      "web_file": "art/book1-v07/web/B01V07-P19-02.webp",
+      "web_sha256": "13fa3f09a6423faff9f6b5e40dc9245019d768ebaa92dc69b0d57c0a361db821",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "c567bb2ecdb0e169e7fca6de5b42e59863346874f500efc4c99105ff4fbd4272",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P19-03",
+      "page": 19,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "b41a8bcfee38d64d2c84f3736112d3e8e902335a94bfc50d65cbae65ef9749fb",
+      "recorded_master_sha256": "b41a8bcfee38d64d2c84f3736112d3e8e902335a94bfc50d65cbae65ef9749fb",
+      "web_file": "art/book1-v07/web/B01V07-P19-03.webp",
+      "web_sha256": "07f9ce0067620522e0beaffb712eb00807ce753dde7fa24202f30ae92829521f",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "b41a8bcfee38d64d2c84f3736112d3e8e902335a94bfc50d65cbae65ef9749fb",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P19-04",
+      "page": 19,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "51d8b672012f71d6d666721d03c993d1a7581d3600bcf655179513618ff348ef",
+      "recorded_master_sha256": "51d8b672012f71d6d666721d03c993d1a7581d3600bcf655179513618ff348ef",
+      "web_file": "art/book1-v07/web/B01V07-P19-04.webp",
+      "web_sha256": "6f66263532bbd065fd29da8360306ec9098a89a1df484f83a3e1a5784a8f6433",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "51d8b672012f71d6d666721d03c993d1a7581d3600bcf655179513618ff348ef",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P20-01",
+      "page": 20,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "f7b62cf3e16e552d91f9bcc58331320e6d9b052c0377c5f47ba7111b60524195",
+      "recorded_master_sha256": "f7b62cf3e16e552d91f9bcc58331320e6d9b052c0377c5f47ba7111b60524195",
+      "web_file": "art/book1-v07/web/B01V07-P20-01.webp",
+      "web_sha256": "6f5b929c773e5cdf7cb7d907c2b294eca92e07f07184683b354f2e2d4c5fd75d",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "f7b62cf3e16e552d91f9bcc58331320e6d9b052c0377c5f47ba7111b60524195",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P20-02",
+      "page": 20,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ecfd8585db08ebc1e0aa396aa6c2265a84c22e2d6e239b31a99694fac29fb6a2",
+      "recorded_master_sha256": "ecfd8585db08ebc1e0aa396aa6c2265a84c22e2d6e239b31a99694fac29fb6a2",
+      "web_file": "art/book1-v07/web/B01V07-P20-02.webp",
+      "web_sha256": "2be8ba3c350ed4f33358a0d47bc2cb784ddb77fa6310625dd549d7f1c207312c",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ecfd8585db08ebc1e0aa396aa6c2265a84c22e2d6e239b31a99694fac29fb6a2",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P20-04",
+      "page": 20,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f",
+      "recorded_master_sha256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f",
+      "web_file": "art/book1-v07/web/B01V07-P20-04.webp",
+      "web_sha256": "48917722d76af90909a8be3ca6328458b631e3136e3f2c07ab327612c19c03fd",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "78f490f49a5cba6f884015df5b9e8ca25be5504eef2aec3e8f0b0a3918d9773f",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P21-01",
+      "page": 21,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+      "recorded_master_sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+      "web_file": "art/book1-v07/web/B01V07-P21-01.webp",
+      "web_sha256": "e05cbacf076ec454b74267108e21459e7f31c076303aae979a8d501b3503ca90",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P21-02",
+      "page": 21,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "81ec12bc0ba6d26b6f629b2e2d184f0c46be905fb4f0dfbe81f729ef3726cfe3",
+      "recorded_master_sha256": "81ec12bc0ba6d26b6f629b2e2d184f0c46be905fb4f0dfbe81f729ef3726cfe3",
+      "web_file": "art/book1-v07/web/B01V07-P21-02.webp",
+      "web_sha256": "57bdec4dcbe85b856443466712c39d1ca536e5396e4eb577a383d6b494aa7d9d",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "81ec12bc0ba6d26b6f629b2e2d184f0c46be905fb4f0dfbe81f729ef3726cfe3",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P21-03",
+      "page": 21,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "905387a183519a6219255783a448e874e7073b6e3bf4698d5361c9826aefb49b",
+      "recorded_master_sha256": "905387a183519a6219255783a448e874e7073b6e3bf4698d5361c9826aefb49b",
+      "web_file": "art/book1-v07/web/B01V07-P21-03.webp",
+      "web_sha256": "ee185d2c05d88c65b3d5ed157fb60d72d30f3afd8d72ea6d1a69efcd10f67ff9",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "905387a183519a6219255783a448e874e7073b6e3bf4698d5361c9826aefb49b",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P21-04",
+      "page": 21,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "3fd597bd28839b1dbabcb32e1c51116ff8b547c21a7efe987153bb465ff10f2e",
+      "recorded_master_sha256": "3fd597bd28839b1dbabcb32e1c51116ff8b547c21a7efe987153bb465ff10f2e",
+      "web_file": "art/book1-v07/web/B01V07-P21-04.webp",
+      "web_sha256": "ae1b4747c95252ad4001c33957461487229c0528d6233a21a76bc5be6ae74480",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "3fd597bd28839b1dbabcb32e1c51116ff8b547c21a7efe987153bb465ff10f2e",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P22-01",
+      "page": 22,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "5b1f58c3881fa3699467bd41e23d87ea43a20de07c0be6f229eff67ea0193aa7",
+      "recorded_master_sha256": "5b1f58c3881fa3699467bd41e23d87ea43a20de07c0be6f229eff67ea0193aa7",
+      "web_file": "art/book1-v07/web/B01V07-P22-01.webp",
+      "web_sha256": "d5cdeda12fd01f02b88bfb97a7f13b090ca0916e18d00516b4cf5e66d6ac9aff",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "5b1f58c3881fa3699467bd41e23d87ea43a20de07c0be6f229eff67ea0193aa7",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P22-03",
+      "page": 22,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "0e3a5e0e4724acb8dc23aef450752f80a4898c395ae1fd67ff4a40864c8b0c89",
+      "recorded_master_sha256": "0e3a5e0e4724acb8dc23aef450752f80a4898c395ae1fd67ff4a40864c8b0c89",
+      "web_file": "art/book1-v07/web/B01V07-P22-03.webp",
+      "web_sha256": "ded2b486f7b2ca59a118c6d2901a45cb820cfe9c24638bb994e76937d67b8bdd",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "0e3a5e0e4724acb8dc23aef450752f80a4898c395ae1fd67ff4a40864c8b0c89",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P28-01",
+      "page": 28,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "bcb8a6a06e2df29700a88e8446b35b5f8fd1cc34294b611c23fef731b65c00f1",
+      "recorded_master_sha256": "bcb8a6a06e2df29700a88e8446b35b5f8fd1cc34294b611c23fef731b65c00f1",
+      "web_file": "art/book1-v07/web/B01V07-P28-01.webp",
+      "web_sha256": "ac66ea2f35504f8cac751dcf7e2c33ea03aedfa44669d5a12044752ad4fca63f",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "bcb8a6a06e2df29700a88e8446b35b5f8fd1cc34294b611c23fef731b65c00f1",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P28-02",
+      "page": 28,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "1dddc2bd6087118a488294e4f8be3baf4a4a2dc6ea9f341d3856fae3153f8e0d",
+      "recorded_master_sha256": "1dddc2bd6087118a488294e4f8be3baf4a4a2dc6ea9f341d3856fae3153f8e0d",
+      "web_file": "art/book1-v07/web/B01V07-P28-02.webp",
+      "web_sha256": "b0011f2844cb02072eced5010b639b2c2df26f967c26e6d0b4ded819fa787707",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "1dddc2bd6087118a488294e4f8be3baf4a4a2dc6ea9f341d3856fae3153f8e0d",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P28-03",
+      "page": 28,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+      "recorded_master_sha256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+      "web_file": "art/book1-v07/web/B01V07-P28-03.webp",
+      "web_sha256": "e897ae1ed0e0e75c2b0aed3139bbeaa2c2182794555271c974fe07b30fb0037a",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "903ad8d7e21ae3c4393ded7898c65c7021ba9faccef3ede321f0c010c1e26612",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P28-04",
+      "page": 28,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "recorded_master_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "web_file": "art/book1-v07/web/B01V07-P28-04.webp",
+      "web_sha256": "824f0e6258937691948f90a43d454118a8bb8995763b8f042bed5d0d9f1716b1",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "0200fe4a26f19cd0a3b97d0fce5356a0c7d0bbc3cc28dd0cc0ec40b472c605fe",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P29-01",
+      "page": 29,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "750e96a8a29589ca085585124cd9c6a49904905258e9c90b9bde59f103ce0627",
+      "recorded_master_sha256": "750e96a8a29589ca085585124cd9c6a49904905258e9c90b9bde59f103ce0627",
+      "web_file": "art/book1-v07/web/B01V07-P29-01.webp",
+      "web_sha256": "0c8643cf3524f32c1b8f9a2b6be801b720209fdf42e79db00faa549ee79fe861",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "750e96a8a29589ca085585124cd9c6a49904905258e9c90b9bde59f103ce0627",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P29-02",
+      "page": 29,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "a528ad6e03aa677ca269c04c07b9c244e90273494c11536b2a45300270bd46cb",
+      "recorded_master_sha256": "a528ad6e03aa677ca269c04c07b9c244e90273494c11536b2a45300270bd46cb",
+      "web_file": "art/book1-v07/web/B01V07-P29-02.webp",
+      "web_sha256": "42850d759f7ebe5cf1b47e928e6b4a733cc7989b1ca56452c0189ffe49dad470",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "a528ad6e03aa677ca269c04c07b9c244e90273494c11536b2a45300270bd46cb",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P29-03",
+      "page": 29,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "2b5c4aebb4ccd278d5bbb115fa7887d6bc27ab363dee8687c39a0c2e9a7adac7",
+      "recorded_master_sha256": "2b5c4aebb4ccd278d5bbb115fa7887d6bc27ab363dee8687c39a0c2e9a7adac7",
+      "web_file": "art/book1-v07/web/B01V07-P29-03.webp",
+      "web_sha256": "7ce4a28486af3274f80bedfb67f7fcebec287603f7fe5407c6f4abaf7fbbf08d",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "2b5c4aebb4ccd278d5bbb115fa7887d6bc27ab363dee8687c39a0c2e9a7adac7",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P29-04",
+      "page": 29,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+      "recorded_master_sha256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+      "web_file": "art/book1-v07/web/B01V07-P29-04.webp",
+      "web_sha256": "e5ccb21fcb6548c02fb56726ae04f4c1cf0d3edfe3b0888850c5c3c302eb6175",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "8cfc01ee4157345ea7b716ab68bc0404b4175b7b3d70e8e8bd99a46876eece82",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P30-01",
+      "page": 30,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ac6c4e3e4394c6e75cf07b2403eebb15e3bddf4ede5f49c6da4aa5716bec60c6",
+      "recorded_master_sha256": "ac6c4e3e4394c6e75cf07b2403eebb15e3bddf4ede5f49c6da4aa5716bec60c6",
+      "web_file": "art/book1-v07/web/B01V07-P30-01.webp",
+      "web_sha256": "8eee049d38488d2251870af918ddf21346c157a6987ec8a129d4c131f6a8726c",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "ac6c4e3e4394c6e75cf07b2403eebb15e3bddf4ede5f49c6da4aa5716bec60c6",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P37-03",
+      "page": 37,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "b81e3094f676f98e7a9bd15ea745c13a5a855bff942e797645387d050ccf8d8e",
+      "recorded_master_sha256": "b81e3094f676f98e7a9bd15ea745c13a5a855bff942e797645387d050ccf8d8e",
+      "web_file": "art/book1-v07/web/B01V07-P37-03.webp",
+      "web_sha256": "2392e836316d64f76c4d3066acedce2e2a40ffef6bf318841fc77a107ef857cd",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "b81e3094f676f98e7a9bd15ea745c13a5a855bff942e797645387d050ccf8d8e",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P37-04",
+      "page": 37,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "7370a90e4044afdcc3954079ab4ee65b79cc92ba1a9a127e62baed496df76bcf",
+      "recorded_master_sha256": "7370a90e4044afdcc3954079ab4ee65b79cc92ba1a9a127e62baed496df76bcf",
+      "web_file": "art/book1-v07/web/B01V07-P37-04.webp",
+      "web_sha256": "4785fc879e0b1c51323d7fbeec2da0787975b4de5f040be5be5671b385e85659",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "7370a90e4044afdcc3954079ab4ee65b79cc92ba1a9a127e62baed496df76bcf",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P38-01",
+      "page": 38,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ce87a3d62044bd9fdc803dd07ba3307173c21207e25f3bd0e8ac2be673262158",
+      "recorded_master_sha256": "ce87a3d62044bd9fdc803dd07ba3307173c21207e25f3bd0e8ac2be673262158",
+      "web_file": "art/book1-v07/web/B01V07-P38-01.webp",
+      "web_sha256": "4c9c3cd60fde4ce39634da24fd6232d24f355f13a31a81fc2b8feedeca91ca63",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ce87a3d62044bd9fdc803dd07ba3307173c21207e25f3bd0e8ac2be673262158",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P38-02",
+      "page": 38,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+      "recorded_master_sha256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+      "web_file": "art/book1-v07/web/B01V07-P38-02.webp",
+      "web_sha256": "90e1ab24af4baa1171cb247367038b382fdfac4b5fcf919bb450a97f6f7e932e",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P38-03",
+      "page": 38,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+      "recorded_master_sha256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+      "web_file": "art/book1-v07/web/B01V07-P38-03.webp",
+      "web_sha256": "1cfd18ca499ba7ff785e19afe0b7dc14314c4ef4ff77180b590ca0b10f7faf3b",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "cf33476a76c66d3fc71666cdd78f11371dd79fc8d18713930f2d7f89f4611990",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P38-04",
+      "page": 38,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+      "recorded_master_sha256": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+      "web_file": "art/book1-v07/web/B01V07-P38-04.webp",
+      "web_sha256": "a674dd7e131c860ad4045050d291132fe510d7c6168914c4222416c6f5504f76",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P39-01",
+      "page": 39,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356",
+      "recorded_master_sha256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356",
+      "web_file": "art/book1-v07/web/B01V07-P39-01.webp",
+      "web_sha256": "3db45482857659fcdb1e5984067a56b0f16a8700cc76c1c573350c37b1964a8e",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "source-reviewed-for-v08",
+      "receipt_exists": true,
+      "receipt_sha256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P44-01",
+      "page": 44,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "24658ca5763496036dfcf20d2051dfd61ac7747637fc442e6b0c6e3e4fb78c8c",
+      "recorded_master_sha256": "24658ca5763496036dfcf20d2051dfd61ac7747637fc442e6b0c6e3e4fb78c8c",
+      "web_file": "art/book1-v07/web/B01V07-P44-01.webp",
+      "web_sha256": "6ff074510f298ee06011a7ec94e836d6389d80dabb4b6108bfe977c3353a603a",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "24658ca5763496036dfcf20d2051dfd61ac7747637fc442e6b0c6e3e4fb78c8c",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P44-02",
+      "page": 44,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "aabde9bef6b9bf03b784c1333f6dd6494f6cb3756794911784c404ed526a9fa5",
+      "recorded_master_sha256": "aabde9bef6b9bf03b784c1333f6dd6494f6cb3756794911784c404ed526a9fa5",
+      "web_file": "art/book1-v07/web/B01V07-P44-02.webp",
+      "web_sha256": "e3327d1d93e59da2955ab38b7c26d2fd33d02fd71f67ddb82909595b4fd15b52",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "aabde9bef6b9bf03b784c1333f6dd6494f6cb3756794911784c404ed526a9fa5",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P44-04",
+      "page": 44,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "1369e8f32efa233c70449a1b6c57721e14b4a35de8a1399b8ab02da664ff0ea8",
+      "recorded_master_sha256": "1369e8f32efa233c70449a1b6c57721e14b4a35de8a1399b8ab02da664ff0ea8",
+      "web_file": "art/book1-v07/web/B01V07-P44-04.webp",
+      "web_sha256": "b4cfbb3b1e40903a6fff4d4472429079c0949f0f5c05c3ef15c4d3f9a17a2b64",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "1369e8f32efa233c70449a1b6c57721e14b4a35de8a1399b8ab02da664ff0ea8",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P45-01",
+      "page": 45,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "5a53f89e87d880fcee9890d778234b60c723ccba0750ca99430943d9655ef6fd",
+      "recorded_master_sha256": "5a53f89e87d880fcee9890d778234b60c723ccba0750ca99430943d9655ef6fd",
+      "web_file": "art/book1-v07/web/B01V07-P45-01.webp",
+      "web_sha256": "194d1f4d0aa5f9ef85ee2c20d1f7a9f7fe13c7a9ba846da5a4046e0e276c8df0",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "5a53f89e87d880fcee9890d778234b60c723ccba0750ca99430943d9655ef6fd",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P45-02",
+      "page": 45,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "5e38a12ccb8a3337361cd5f5e76ee0c495af471768027a46cd01a37e59bdca36",
+      "recorded_master_sha256": "5e38a12ccb8a3337361cd5f5e76ee0c495af471768027a46cd01a37e59bdca36",
+      "web_file": "art/book1-v07/web/B01V07-P45-02.webp",
+      "web_sha256": "98935d93e954a486b577b9a1060348ebc9bf04aa1a962527528e657e673b16cb",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "5e38a12ccb8a3337361cd5f5e76ee0c495af471768027a46cd01a37e59bdca36",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "B01V07-P45-04",
+      "page": 45,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "ef570ed45049eee2b8700c5c9b151a51d3df33bde088425eb9e6070afbb3e5ee",
+      "recorded_master_sha256": "ef570ed45049eee2b8700c5c9b151a51d3df33bde088425eb9e6070afbb3e5ee",
+      "web_file": "art/book1-v07/web/B01V07-P45-04.webp",
+      "web_sha256": "9db4d530fc7dc732992aa9315e8e54a5c1c3ca4bc383e41c5991db2523c1fcc3",
+      "source_size": [
+        1024,
+        1536
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "ef570ed45049eee2b8700c5c9b151a51d3df33bde088425eb9e6070afbb3e5ee",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "NEW-P36-a",
+      "page": 36,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "fdacc613f676a172d78018e60f26a39446567664bafad48ac9154355ee7bd691",
+      "recorded_master_sha256": "fdacc613f676a172d78018e60f26a39446567664bafad48ac9154355ee7bd691",
+      "web_file": "art/book1-v07/web/NEW-P36-a.webp",
+      "web_sha256": "d32c74a73b09c944e060f1f671c21f6857e14710489cabea7af673e19cc1c09b",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "fdacc613f676a172d78018e60f26a39446567664bafad48ac9154355ee7bd691",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    },
+    {
+      "id": "NEW-P36-b",
+      "page": 36,
+      "active": true,
+      "local_master": true,
+      "master_sha256": "7df8416fac9a89033269f1f714804aa3009d472d5b77ce3d1f9ad1ed3403126a",
+      "recorded_master_sha256": "7df8416fac9a89033269f1f714804aa3009d472d5b77ce3d1f9ad1ed3403126a",
+      "web_file": "art/book1-v07/web/NEW-P36-b.webp",
+      "web_sha256": "dd3e2168df9f7cab5b14da0b7384320f0944178236e662338c61b67a4506d59a",
+      "source_size": [
+        1536,
+        1024
+      ],
+      "status": "generated-source-reviewed",
+      "receipt_exists": true,
+      "receipt_sha256": "7df8416fac9a89033269f1f714804aa3009d472d5b77ce3d1f9ad1ed3403126a",
+      "source_review_bound_to_current_preview": false,
+      "face_boxes_unbound": null,
+      "face_provenance": "UNBOUND: faces.json contains no sourceSHA/model/time; coordinates are candidates, not confirmed protection",
+      "issues": []
+    }
+  ]
+}

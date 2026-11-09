@@ -1,26 +1,41 @@
 {
   "id": "B01V07-P36-01",
-  "page": 36,
-  "file": "art/book1-v07/B01V07-P36-01.png",
-  "source_path": "/workspace/generated_images/exec-d7075bb9-6e4b-441c-a93d-0d48f153c60f.png",
+  "source_path": "/workspace/generated_images/exec-3d62f977-c6b9-400b-81a9-c80dd4ab9c40.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nCreate ONE NEW illustration, landscape 1536x1024. Period Poland circa 1920. Wide HIGH ANGLE over sleeping soldiers beside a simple timber bridge over a river at NIGHT. Rows of sleeping soldiers in dark blankets across foreground; Yitzhak, ONE young awake soldier, alone near center holding his upright period rifle, fighting sleep, small compared with landscape. His early-twenties youthful narrow oval face, prominent ears, natural brown eyes, restrained mouth and uniform follow the supplied youth photograph, preserving continuity with approved child reference, NOT middle-aged. Dark blue moonlit night with moon and sparse stars, pale glints on water, NO sunrise, NO sunset, NO orange horizon, NO enemy or battle. Calm dark space above central awake soldier for later thought lettering. Keep face, hands, rifle within central 70% so 15% crop is safe. Full rectangular image with no lettering, no symbols, no balloons, no circles, no borders. Its purpose is loneliness and wakefulness; NOT a portrait.",
+  "tool_source": "image_gen__imagegen",
   "tool": "image_gen__imagegen",
-  "actual_size": [
-    923,
-    1705
-  ],
-  "sha256": "5e259796198d641ee89b9eb2fd4737a663f03036b7d6fb7dadaf6d9b6e84e4b6",
-  "status": "generated-source-reviewed",
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3d62f977-c6b9-400b-81a9-c80dd4ab9c40.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
   "references": [
     "ref/S08-img013.jpg",
     "art/chars/yitzhak-child-v02.png"
   ],
-  "visual_review": {
-    "source_reviewed": true,
-    "young_adult_likeness": "Narrow young face, natural eyes and pronounced ears follow supplied youth photo; not age-43 face.",
-    "scene": "One young Polish soldier by river and bridge, no enemy/combat.",
-    "lettering": "Upper-left sky is calm; face centered right, mouth below upper-left lettering zone.",
-    "limits": "Hands at lower edge; exact 1.00–1.15 masked crop and final lettering need renderer review. Uniform insignia is a stylized reconstruction, not verified detail.",
-    "browser_visual_qa": false
+  "refs": [
+    "ref/S08-img013.jpg",
+    "art/chars/yitzhak-child-v02.png"
+  ],
+  "source_review": {
+    "reviewed": true,
+    "scene": "One young awake soldier among sleeping unit beside bridge, night moon and stars, no sunrise/enemy.",
+    "identity": "Young early twenties consistent with supplied youth photo.",
+    "lettering": "Calm dark region above centered Yitzhak.",
+    "limits": "Source inspected. Actual renderer masks and bilingual lettering pending root review."
   },
-  "web_file": "art/book1-v07/B01V07-P36-01.webp"
+  "crop_issues": [
+    "No essential content near outer 15%; actual polygon and lettering QA pending."
+  ],
+  "previous_source_review": "Redirected: previous source had sunrise and solitary portrait instead of night watch among sleeping soldiers.",
+  "file": "art/book1-v07/B01V07-P36-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P36-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
 }

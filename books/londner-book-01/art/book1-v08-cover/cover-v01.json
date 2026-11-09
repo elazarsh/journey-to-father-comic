@@ -1,0 +1,60 @@
+{
+  "id": "B01V08-COVER-01",
+  "version": "0.8",
+  "status": "generated-review-candidate",
+  "kind": "dedicated-front-cover",
+  "file": "art/book1-v08-cover/cover-v01.png",
+  "preview": "art/book1-v08-cover/cover-v01.webp",
+  "source_original": "/workspace/generated_images/exec-002cdba3-62f4-4a70-8d47-d67e48bf95d3.png",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "32980827292ac7d113387557f9a6bf57d5f3fcae95585650888fbe71e50591f7",
+  "preview_sha256": "e798a4ac0509519406f7e0df32a6e9827927349c463c8116ebfd9689cd780d8c",
+  "generation_tool": "image_gen.imagegen",
+  "transparent_background": false,
+  "reference_identity": "art/chars/yitzhak-child-v02.png",
+  "reference_sha256": "ce81be84ce48c479c9f331e27a59eafc6b1b1df80383736d59648bcb2167e46c",
+  "historical_status": "Artistic cover composition: reconstructed childhood street and shop. Not a newly attested event or architectural record. No new dialogue or narration.",
+  "prompts": [
+    "Create a single premium illustrated FRONT COVER ART for a Hebrew family historical graphic novel called \"Itshe's Journey\" (DO NOT RENDER THE TITLE OR ANY TEXT). Portrait format 2:3, full bleed. Use the attached approved child portrait as the exact character identity reference, not as a composition to reproduce. Preserve his recognizably narrow oval face, high prominent ears, long distinct nose bridge, natural medium small brown eyes, restrained mouth, brown hair, the simple brown cap and buttoned dark traditional everyday clothing. He is Yitzhak / Itshe, a Polish Jewish boy aged about 8 in the early 1900s, never a generic big-eyed cartoon boy. Mild warm half-smile, curiosity and quiet resolve, not a sad or impoverished expression.\n\nONE coherent childhood moment, no montage, no future imagery or spoilers: the boy stands just outside the open wooden doorway of his family's small tidy leather-supplies shop in an early 1900s modest Polish market town. He is looking up and slightly toward the reader with the curiosity of a child about to discover his world. The shop is at the left edge, open door and a subtle glimpse of stored rolled leather inside, no shoemaker at work, no machinery, no readable shop sign. A small cobbled street curves through old modest plaster houses, distant green trees, warm grazing morning light after passing clouds. Historically plausible, human, inviting, dignified. No soldiers, ships, hospital, medical hints, wounds, suitcase, destination or later-life scenes. No invented action involving other family members; no other identifiable faces.\n\nCINEMATIC DRAMATIC PASTORAL STYLE: masterful painterly watercolor and gouache on fine paper, rich deep teal blue shadows and golden amber sunlight, natural anatomy, soft visible brush textures, crisp expressive facial likeness, confident graphic-novel shapes, lyrical depth and natural countryside air. One strong silhouette and clear emotional focal point. The boy is in the lower middle/right, full body entirely within x=35%-76%, y=45%-88%. His face is at about (58%,54%), head comfortably below title area. Hands naturally relaxed and visibly complete, shoes fully visible, coat and trousers well cared for. Restrained detailed landscape rather than decorative clutter.\n\nCRITICAL COVER SPACE: Keep the upper 36%-40% of the entire image calm, low-detail blue-grey/golden clouded sky suitable for large live Hebrew or English title lettering, no faces, roof spikes, branches, signs or objects crossing that title zone. Keep bottom 8%-10% softly shadowed uncluttered paving for live credit lettering. Subject face, hands, shoes and essential doorway details remain inside central safe inset, at least 12% from all outer edges, so a 10%-15% print crop will not cut them. Do not paint a blank white rectangle; negative space is naturally part of the sky. Text will be composited later. NO text, NO letters, NO numerals, NO speech or thought balloons, NO border, NO panel frames, NO watermarks. The attached portrait is identity reference only; create a real cover composition, not a portrait on beige background.",
+    "Revise this illustrated graphic novel cover for final PRINT SAFE composition. Preserve the FIRST attached image's entire visual style, warm golden light, leather-supplies shop with no shoemaking, inviting historic Polish street and the SAME recognizable child face and clothing. The SECOND reference is his approved child identity, preserve its narrow face, pronounced ears and nose bridge, natural brown eyes. DO NOT add any text or balloons.\n\nEssential correction: In the first image the boy's shoes are too close to the lower edge. Recompose the whole single scene naturally so the COMPLETE boy is slightly smaller, with cap top at about 40% of image height, face at 46%-50%, and BOTH shoes with their complete soles at 84%-86% of the image height. Put visually calm cobblestone foreground across the bottom 13%-15% of the image, enough that cropping 10% off the bottom still leaves shoes intact. Keep his complete body inside x=37%-72%; eyes look warmly toward the viewer, restrained gentle half-smile. Hands in pockets are fine, no need to show separate hands. Do not stretch his anatomy. Preserve full height portrait 2:3 composition and the softly detailed watercolor/gouache painterly character, not photographic.\n\nKeep the upper center and right x=32%-93%, y=4%-32% calm uninterrupted blue and gold sky suitable for live Hebrew/English title lettering, no new objects or branches there. The shop can frame the far left. This is one childhood scene without ships, soldiers, hospitals, other people or future spoilers. NO writing, NO title, NO border, NO watermark. Render a complete polished cover painting with the child and his shoes comfortably away from outer crop boundaries."
+  ],
+  "composition": {
+    "title_zone_normalized": [
+      0.33,
+      0.035,
+      0.94,
+      0.28
+    ],
+    "credit_zone_normalized": [
+      0.2,
+      0.945,
+      0.88,
+      0.985
+    ],
+    "boy_essential_bounds_approx": [
+      0.38,
+      0.335,
+      0.66,
+      0.92
+    ],
+    "face_center_approx": [
+      0.53,
+      0.405
+    ],
+    "recommended_rendering": "Portrait 2:3 or contain. If A4 full bleed, center and use no zoom; aspect-ratio crop is approximately 2.9% top/bottom. Do not apply 10%-15% vertical crop: shoe margins are about 8%, so that would clip feet. Title stays in upper-right sky clear of shop facade.",
+    "safe_crop_review": "Second generation improved bottom margin but did not meet requested 14% shoe inset. Actual composition measured/recorded honestly; do not claim a 15% vertical crop pass."
+  },
+  "visual_review": {
+    "identity": "Narrow oval face, prominent ears, brown cap, natural brown eyes and restrained friendly expression broadly follow approved child v02. Family approval of this new cover not yet obtained.",
+    "shop": "Leather and belts displayed; no shoemaking action, no invented family group.",
+    "spoilers": "No ships, army, hospitals, adult achievements or later family.",
+    "lettering": "No baked-in text, balloons, readable signs or borders.",
+    "style": "Warm golden light, blue sky, painterly watercolor/gouache-like historical scene; dedicated single cover image.",
+    "print_browser_checked": false
+  },
+  "variant_01": "art/book1-v08-cover/variants/cover-attempt-01.png",
+  "variant_reason": "First attempt had shoes too close to bottom edge; second chosen for larger lower margin."
+}

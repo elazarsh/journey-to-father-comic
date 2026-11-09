@@ -1,0 +1,45 @@
+{
+ "coverArtId": "COVER-B2",
+ "he": {
+  "series": "סיפורי סבא יצחק · ספר 2",
+  "title": "מקום משלנו",
+  "subtitle": "סיפור אמיתי בקומיקס",
+  "credit": "על פי הזיכרונות שכתב יצחק מאיר לונדנר לילדיו ולנכדיו, 1971",
+  "dedication": "לזיכרון הבנים והבת והנכדים.",
+  "dedicationNote": "מתוך המחברת שבה כתב סבא יצחק את זיכרונותיו, 1971.",
+  "cardTitle": "מה לקחתי מהדרך",
+  "takeaways": [
+   "כשדרך אחת נסגרת, אפשר ללמוד דבר חדש ולהתחיל מחדש. החלום נשאר.",
+   "מי שקיבל עזרה, יודע לעזור.",
+   "ללמוד מכל אחד, גם מהילדים."
+  ],
+  "continued": "המשך יבוא...",
+  "blurb": [
+   "חול המועד סוכות, 1925. אונייה מגיעה לחוף, ועליה אבא, אמא וילדה קטנה, עם סל של שמיכות וכרים.",
+   "אין להם בית ואין להם עבודה. יש להם ידיים חזקות, הרבה עקשנות, וחלום אחד מגיל ארבע עשרה.",
+   "סיפור אמיתי, מתוך הזיכרונות שכתב סבא יצחק לילדיו ולנכדיו."
+  ],
+  "forWho": "לכל המשפחה: לילדים, להורים ולסבים"
+ },
+ "en": {
+  "series": "GRANDPA YITZHAK’S STORIES · BOOK 2",
+  "title": "A Place of Our Own",
+  "subtitle": "A true story in comics",
+  "credit": "Based on the memoir Yitzhak Meir Londner wrote for his children and grandchildren, 1971",
+  "dedication": "In memory, for my sons, my daughter and my grandchildren.",
+  "dedicationNote": "From the notebook in which Grandpa Yitzhak wrote his memories, 1971.",
+  "cardTitle": "What I took from the journey",
+  "takeaways": [
+   "When one road closes, you can learn something new and start again. The dream stays.",
+   "Whoever was helped knows how to help.",
+   "Learn from everyone, even from the children."
+  ],
+  "continued": "To be continued...",
+  "blurb": [
+   "Sukkot, 1925. A ship reaches the shore, carrying a father, a mother and a little girl, with a basket of blankets and pillows.",
+   "They have no home and no work. They have strong hands, plenty of stubbornness, and one dream since the age of fourteen.",
+   "A true story, from the memoir Grandpa Yitzhak wrote for his children and grandchildren."
+  ],
+  "forWho": "For the whole family: children, parents and grandparents"
+ }
+}

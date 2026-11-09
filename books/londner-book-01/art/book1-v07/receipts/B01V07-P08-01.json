@@ -1,23 +1,27 @@
 {
   "id": "B01V07-P08-01",
   "file": "art/book1-v07/B01V07-P08-01.png",
-  "source_path": "/workspace/generated_images/exec-53e0d630-c2cc-47ea-9b53-0deb99b7c417.png",
-  "status": "generated-source-reviewed-crop-adjustment-needed",
-  "actual_size": [
-    1484,
-    1060
-  ],
-  "sha256": "4a020099815c73f596f0c411b52e1cb83351cd4f45cb138e1dda91a6c46b642d",
-  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: בשלב מאוחר יותר בילדות: חוזר מהחדר ברגל נפוחה; הגיל המדויק פתוח.\nAge continuity for Yitzhak: later childhood, exact age uncertain.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: warm amber and soft blue domestic light.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
+  "web_file": "art/book1-v07/web/B01V07-P08-01.webp",
+  "source_path": "/workspace/generated_images/exec-ca45b5b4-1acc-4fd9-af40-e4ee87680bf3.png",
+  "tool_source_path": "/workspace/generated_images/exec-ca45b5b4-1acc-4fd9-af40-e4ee87680bf3.png",
+  "prompt": "HORIZONTAL LANDSCAPE 3:2 SOURCE FOR A VERY WIDE SHALLOW COMIC STRIP. ONE dramatic pastoral watercolor/gouache literary graphic novel illustration, fine ink and warm tactile domestic materials. EXTREME-WIDE EYE-LEVEL VIEW from deep inside the family's tidy early-1900s Polish Jewish home toward its OPEN WOODEN FRONT DOOR. The approved later-childhood boy is SMALL within the room, only about35 percent of total canvas height: his COMPLETE HEAD at y0.33 and feet at y0.68. Entire figure must fit into the MIDDLE HORIZONTAL BAND of image, so later wide strip crop never cuts his cap or feet. He carefully limps in from golden outdoor sunlight through the doorway at center-right, one hand resting naturally on door jamb, school bag on shoulder. Narrow oval face, pronounced ears, natural brown eyes, dark cap with tan band, same charcoal buttoned shirt, brown trousers and worn shoes as reference; one ankle subtly swollen above shoe, non-graphic, no blood or wound. Wide room spatial context rather than full-height character portrait. Keep door/figure/ankle all within central70% width, exactly one boy and no other people. Above and below action band: quiet plain plaster wall, old timber floor, warm shadows and modest furniture, abundant overscan. Gentle dignity and concern, home maintained and clean. No text, lettering, signs, speech balloons, panel frames, collage, crosses, religious icons or watermark. ONE scene only. The second reference is previous composition for clothing/architecture only; make the boy MUCH SMALLER with very wide environmental framing.\n",
   "references": [
-    "art/chars/yitzhak-child-v02.png"
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/variants/pre-care-v08/B01V07-P08-01.png"
   ],
-  "visual_review": {
-    "approved_child_identity": "closely follows narrow oval face, cap and natural eyes",
-    "historical_scene": "child at home doorway, no graphic wound, right ankle subtly bandaged",
-    "text_free": true,
-    "quiet_area": "large clear upper-left wall",
-    "pending": "Source returned landscape despite portrait request. Head has insufficient top overscan for 1.15 zoom; do not claim default crop passed. Suggested fx .64, zoom 1.0 only pending render or regenerate with more headroom."
-  },
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "830c320fa87e4170ac6f9137e2f407921c16f24f355829d7174416c512f7ee17",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "status": "generated-source-reviewed",
+  "source_visual_review": "V08 crop-motivated replacement: old original/receipt/WebP preserved in variants/pre-care-v08. Much wider environmental room, small boy limping through same golden doorway; same cap/shirt/bag, non-graphic ankle swelling. Complete boy now spans abouty0.27-0.70 instead of almost full sourceheight. New very-wide slanted strip needs fy~0.49, zoom1.0 only; do not claim1.15 passed. Plain wall left, no other people or icons. Renderer may need slight contain/overscan to preserve cap and shoes at slanted lower edge.",
+  "crop_status": "Source composition visually reviewed against v08 shot and quiet area; actual masks, live bilingual lettering and zoom pending renderer QA.",
   "browser_qa": "not performed"
 }

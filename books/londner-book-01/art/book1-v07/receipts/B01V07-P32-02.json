@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P32-02",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. DETAIL from WORM'S-EYE, almost soil level: iron blade of a traditional horse-drawn plough cuts earth, clods roll toward viewer. Teenage Yitzhak only a blurred distant silhouette background. Low raking sunlight, earthy colors. Purpose: tactile encounter with the moving soil. Poland flat rolling countryside circa1916. If visible, Yitzhak is slender teenage16–17-year-old, narrow oval face, pronounced ears, natural brown eyes; use child and youth photo continuity, not adult face. Keep essential content central70% for15% crop margin. No lettering/readable characters/numbers, captions, drawn balloons, frames or collage. Respect camera distance exactly.\nCORRECTION EDIT: PORTRAIT 1024x1536. Edit this ONE watercolor/gouache scene. KEEP the dramatic ground-level extreme close detail of iron plough blade slicing soil and turning clods, horse at right, golden low sunlight. IMPORTANT historical correction: teenage Yitzhak is NOT operating the plough. Remove the foreground teenage operator and his grasping hands entirely. Put a faint blurry ADULT farmer behind the handles, partly outside the upper crop, wearing plain pale rural shirt. If teenage Yitzhak appears, he is ONLY a tiny indistinct motionless silhouette far back beyond a fence at far upper-left, watching, not touching any equipment. Keep blade/soil the clear subject. No text, no bubbles or borders. Do not change painterly style.",
+  "tool_original_path": "/workspace/generated_images/exec-75a881cd-08e8-4997-a675-e66520a6e568.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg",
+    "/workspace/generated_images/exec-8c77f9f8-41e2-47b7-9a6f-0b6e32916c31.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed corrected source: worms-eye plough blade and flying clods dominate; ADULT farmer operates, Yitzhak only tiny blurred watcher beyond fence. Original attempt erroneously made Yitzhak operator; corrected via image_gen before accepted master. No text.",
+  "crop_caveats": "Source review only; final v08 polygon/lettering not inspected. Preserve plough blade or small figure per panel; do not automatically center on background heads.",
+  "file": "art/book1-v07/B01V07-P32-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P32-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "6a11544b96a737b25352d804ab80004fae565855f1ac22bc3ab82c5fbd76cd92"
+}

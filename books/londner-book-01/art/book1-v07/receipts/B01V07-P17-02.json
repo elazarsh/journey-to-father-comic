@@ -1,34 +1,27 @@
 {
   "id": "B01V07-P17-02",
-  "prompt": "ONE portrait graphic-novel illustration, 1024x1536. Continue the same boy, woman and Vienna hospital from reference 2, keeping the approved boy identity from reference 1. Dramatic pastoral watercolor and gouache with restrained ink, blue-green plaster walls, warm humane window light. The anonymous middle-aged Jewish woman in the same brown patterned headscarf and dark modest dress gently pushes the boy seated in a period hospital transport chair: old dark wood/wicker seat, four spoked wheels, simple push handles, no modern chrome wheelchair. Boy wears cream nightshirt, familiar dark flat cap, feet discreetly wrapped under a blanket supported by chair footrest. He looks quietly curious, not frightened or crying. The single action is leaving the bed by hospital chair, no embracing, no dialogue or promise. No prayer book in his hands, no book returned. Three-quarter view, all heads/faces and hands concentrated in the central-right x45–75%, y32–62%. The transport chair must fit safely with 15% margin from every image edge. Leave upper-left wall, x4–52%, y4–24%, completely quiet for later caption. Natural anatomically correct hands; no extra people. No lettering, bubble, frame, collage, border or watermark.\nEDIT: Edit this single illustration only by pulling the camera back / expanding the same continuous room around the entire scene. Preserve exactly the two identities, clothing, chair, ward, colors and style. The entire hospital chair INCLUDING every wheel and the forward footrest must have at least 15% image margin below and beside it. Currently the footrest and wheel are too close to the bottom. Make the woman and chair about 75% of their current size within the frame by showing more floor, more wall and more space at both sides. Do not add people or objects. Keep upper-left wall empty for live lettering. Faces and hands must remain naturally visible, not distorted or changed. Output 1024x1536 portrait, one continuous scene, no inset, frame, text or bubbles.",
+  "prompt": "PORTRAIT canvas 1024x1536. Redraw the attached hospital wheelchair scene as an entirely different HIGH-ANGLE DETAIL, not a full-body view: camera looks down behind and beside the chair. NO FACES, NO HEADS visible anywhere. Only the woman's two hands on the rear wheelchair push handles (dark floral dress sleeves), the boy's smaller hands gripping armrests (cream nightshirt sleeves), the blue-grey checked blanket, cane and wood chair, and large spoked wheels beginning to roll on cool blue-grey tiled floor. Early 1900s Vienna hospital, period materials, no modern equipment. This adds movement and caring physical action between the preceding face-to-face scene and following first-person synagogue threshold. Arrange all four hands and wheel hubs in central 60% width/65% height so a narrow vertical polygon and 1.15 zoom protect them; surrounding tile and textile can crop. Dramatic pastoral literary graphic novel watercolor and gouache, selective fine ink contours, tactile pigment, restrained natural anatomy, cool tiled daylight, gentle beauty and dignity. One scene, no montage, no text, letters, frames, speech balloons or watermarks. Preserve palette, fabric and wheelchair continuity from reference but change shot completely.",
   "reference_paths": [
-    "art/chars/yitzhak-child-v02.png",
-    "art/book1-v07/B01V07-P17-01.png",
-    "/workspace/generated_images/exec-61dfecf1-7ce7-450e-a96d-a3897ce28db0.png"
+    "art/book1-v07/B01V07-P17-02.png"
   ],
-  "original_tool_file": "/workspace/generated_images/exec-62b007d5-334c-4d60-b74b-b453410b9a52.png",
+  "original_tool_file": "/workspace/generated_images/exec-1f3e1ad8-bbe8-49cf-b406-1aea3f6d0e43.png",
   "visual_review": {
     "source_seen": true,
-    "count": "one child, one anonymous woman",
-    "quiet_area": "upper-left wall clear",
-    "crop_note": "edited camera back; all chair wheels and footrest now inside broad floor margin; actual live-mask review remains pending",
-    "safety": "calm caring scene, no visible wounds",
-    "pending": "No browser masks or final live lettering review"
+    "source_visual_review": "High angle hands-only wheelchair movement; all four hands clear, no faces, period cane and wood transport chair, checked blanket continuity.",
+    "crop_issues": "Hands near side margins; narrow polygon/1.15 crop needs renderer confirmation. No faces can be cropped.",
+    "pending": "Actual browser polygon and live lettering check remains with root."
   },
-  "rejected_attempts": [
-    {
-      "path": "/workspace/generated_images/exec-61dfecf1-7ce7-450e-a96d-a3897ce28db0.png",
-      "reason": "chair footrest/wheels too close to image bottom for zoom margin"
-    }
-  ],
   "file": "art/book1-v07/B01V07-P17-02.png",
   "web_file": "art/book1-v07/web/B01V07-P17-02.webp",
   "actual_size": [
     1024,
     1536
   ],
-  "sha256": "a167e7eb43095f8a0c9da30498c92a548cf76926d43afbecbe1834294725561c",
+  "sha256": "ee4ea7e10bab6549657a4b803f8f744ae4131edec3611bf4ad218f1648566465",
   "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
   "generator": "image_gen__imagegen",
-  "generated_on": "2026-10-30"
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
 }

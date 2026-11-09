@@ -1,0 +1,30 @@
+{
+  "id": "B01V07-P46-02",
+  "prompt": "LANDSCAPE 1536x1024. EXTREME WIDE HIGH-ANGLE establishing view, looking down from the old breakwater over Constanța harbor, Romania, on the eve of Sukkot in1925. Violet evening sky and lilac mist over Black Sea, dark silhouettes of period dock cranes and masonry warehouses, a period passenger steamship at the quay with warm tiny deck lamps, distant masts and funnels. Historically plausible early20th century harbor, low skyline, no modern terminal, container crane, city tower or vehicles. No identifiable protagonist: just tiny indistinct travelers on far quay, no foreground figures. A vast atmospheric place and a new transition after the intimate bedding scene. Large calm violet sky upper quarter for later caption, ship and harbor in middle60%;15% natural overscan around key forms for diagonal crop. Dramatic pastoral literary graphic novel, watercolor and gouache with selective fine ink, cinematic twilight, restrained violet/navy/amber palette, tactile paper, natural atmospheric depth, beautiful without idealizing hardship. ONE scene ONE image, no collage or panels, no words or ship name painted, no lettering, flags, banners, symbols, bubbles, borders or watermark. Departure harbor only, no destination/arrival, no State of Israel flag.",
+  "source_path": "/workspace/generated_images/exec-322df3e2-0043-4d69-b516-f55520bce4fc.png",
+  "visual_review": {
+    "source_reviewed": true,
+    "scene": "Extreme wide elevated violet evening harbor, period steamships/cranes/quays; no hero closeup.",
+    "lettering": "Broad sky above harbor for caption.",
+    "limits": "Reconstructed harbor setting; final v08 mask pending."
+  },
+  "crop_issues": [
+    "Keep principal steamship at middle-right and harbor horizon; final v08 mask pending."
+  ],
+  "file": "art/book1-v07/B01V07-P46-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P46-02.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "789b6c9b7ff06705f0a03432d60a4698ea982be46cc789a36ecaad1d260cc0c2",
+  "references": [],
+  "tool": "image_gen__imagegen",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P04-03",
+  "file": "art/book1-v07/B01V07-P04-03.png",
+  "status": "source-reviewed-for-v08",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Night in a modest Jewish home in Poland around 1905. Close on the mother's face, a woman in her thirties with a headscarf, bent over a garment as she mends it with needle and thread in her hand. She is lit from below by a single pool of light from a kerosene lamp; everything else is dark. At the edge of the frame, the shapes of sleeping children lie in shadow under blankets, indistinct. Camera: Close-up from a low angle, looking slightly up at the mother's lowered face. Light and colour: A single warm kerosene lamp pool in surrounding darkness, deep chiaroscuro. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, in the dark empty shadow above and behind the mother's head. Character consistency: The sleeping children are only partial dim shapes, no more than three (two boys and a girl), not the whole household; no baby. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/book1-v07/web/B01V07-P04-02.webp"
+  ],
+  "sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+  "bytes": 1588312,
+  "created_at": "2026-10-30T17:44:58.596323+00:00",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P04-03.webp",
+    "source_web_sha256": "062a21d9dd152a05a1228188f569046faaf87d6eca74d8289fef4e70a61da7fd",
+    "shot": {
+      "shot": "close-up",
+      "angle": "low",
+      "subject": "other",
+      "light": "single kerosene lamp pool in darkness"
+    },
+    "specific_review": "Selected Claude WebP is low-angle intimate close view of mother bent over garment, visible needle/thread, single lamp lighting her face from below; sleeping children only indistinct at edge. Quiet dark upper-right field. Accept Claude selected source; earlier locally generated wider composition is not this selection.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.137235+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
+}

@@ -6,7 +6,7 @@
     "art/book1-v07/B01V07-P03-01.png",
     "art/chars/yitzhak-child-v02.png"
   ],
-  "status": "generated-reviewed",
+  "status": "source-reviewed-for-v08",
   "visual_review": {
     "single_scene": true,
     "no_text_or_bubbles": true,
@@ -28,5 +28,24 @@
   "file_bytes": 3145935,
   "recorded_at_utc": "2026-10-30T12:10:11.384308+00:00",
   "web_file": "art/book1-v07/web/B01V07-P04-02.webp",
-  "web_sha256": "6935dc24e00b183a13c20f9d10043e257cac5e826c46e2a58fd6414601f618a2"
+  "web_sha256": "6935dc24e00b183a13c20f9d10043e257cac5e826c46e2a58fd6414601f618a2",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P04-02.webp",
+    "source_web_sha256": "230c7421fae45fd027e27e1eff2737fd45a2c46190b0609f67179c45c164f20c",
+    "shot": {
+      "shot": "wide",
+      "angle": "high",
+      "subject": "yitzhak",
+      "light": "warm lantern night"
+    },
+    "specific_review": "Wide moderately elevated night view of exactly three sleeping siblings, two boys and one girl, differing age scales, low mattresses in shop by stove. Same shelves/stove/right doorway architecture. No baby, no awake child. Camera elevation is milder than literal bird view but substantive wide sleeping-room contrast works; accepted.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.136945+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
 }

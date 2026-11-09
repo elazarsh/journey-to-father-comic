@@ -1,28 +1,34 @@
 {
   "id": "B01V07-P37-02",
-  "page": 37,
-  "source_path": "/workspace/generated_images/exec-e1125e46-712b-45d3-b4e4-51deb5793bf0.png",
-  "prompt": "VERTICAL PORTRAIT image, approximately 1024 x 1536. A quiet rear view of two Polish soldiers, young Yitzhak and his officer, leaving the bridge behind together. Both are healthy and walking, not carrying anyone, no battle or visible enemy. A small distant unit continues on the far bank. Keep the two men in central 55% width, their heads and feet comfortably away from the edges, bridge receding behind. Upper-left open mist has no faces or important detail. One continuous historical scene, no flags or readable markings.\nDramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering.\nONE scene, ONE image; no panel borders, collage, speech balloons, thought clouds, readable lettering, logos or watermarks.\nAction: שניהם עוזבים; הצבא הלוחם מקבל אחריות על הגשר.\nAge continuity for Yitzhak: young adult, early twenties.\nFamily constraint: Only the figures required by this action. Do not populate the scene with extra identifiable siblings.\nPalette: dusk blue, warm skin, restrained contrast.\nCompose for a 0.70:1 visible panel, source requested 1024x1536. Keep all essential faces, hands and props within central 60% width and central 56% height, with at least 15% overscan. Reserve subdued low-detail wall/sky in upper-left for live lettering. Use foreground, gaze and light to convey the action instead of explaining it with invented objects.\nSource-based historical event, proposed staging. No new promises, rescues, battles, relatives, modern flags or invented dated evidence. Leather shop sells supplies and is not a cobbler workshop.",
-  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e1125e46-712b-45d3-b4e4-51deb5793bf0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
-  "references": [
-    "art/book1-v07/B01V07-P36-01.png",
-    "ref/S08-img013.jpg"
-  ],
-  "visual_review": {
-    "source_reviewed": true,
-    "lettering": "Calm upper-left sky; no mouth in upper-left.",
-    "browser_visual_qa": false,
-    "scene": "Two soldiers walking away together, unit distant on bridge. No combat or physical rescue.",
-    "composition": "Portrait; mostly rear view and central figures.",
-    "limits": "Final target mask and caption review pending."
-  },
-  "file": "art/book1-v07/B01V07-P37-02.png",
-  "web_file": "art/book1-v07/B01V07-P37-02.webp",
-  "actual_size": [
-    1049,
-    1500
-  ],
-  "sha256": "3fd9265c66c900d47a66614842bb86f399fca3b1e3be2a89c6554c4e4d34a9a2",
+  "source_path": "/workspace/generated_images/exec-0d9c12f0-a1ef-4357-9993-e7e202dea4c2.png",
+  "prompt": "Dramatic pastoral literary graphic novel illustration, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes and meaningful visual storytelling. Never cartoon enlarged eyes, generic cute faces, photorealistic skin or glossy 3D.\nONE portrait-oriented1024x1536 illustration, EXTREME WIDE aerial BIRDS EYE view of a winding river crossed by a distant timber military bridge in Poland circa1920. Cool MORNING mist dispersing, pale blue-grey and muted green, no orange sunrise glare. Bridge far upper-middle with several TINY soldier dots on it; a winding footpath descends away through slopes in lower-middle, exactly TWO very small dots of departing soldiers together on path. The landscape is the subject: two men occupy less than3% image height, no large foreground portraits or bodies. Relief and end of danger; no enemy/battle. Essential bridge and path inside central70%, full environmental overscan. No lettering, balloons, frames, circles or maps, one continuous pastoral landscape.",
+  "tool_source": "image_gen__imagegen",
   "tool": "image_gen__imagegen",
-  "status": "generated-source-reviewed"
+  "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-0d9c12f0-a1ef-4357-9993-e7e202dea4c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "refs": [],
+  "references": [],
+  "source_review": {
+    "reviewed": true,
+    "scene": "High aerial landscape, far bridge with tiny unit, exactly two tiny soldiers on winding path; cool mist disperses.",
+    "lettering": "Silent panel.",
+    "limits": "Actual polygon framing pending."
+  },
+  "crop_issues": [
+    "Keep lower-central two figures and far bridge in target crop; wide vertical source suits panel."
+  ],
+  "previous_source_review": "Previous source repeated foreground two-soldier walking shot, replaced with landscape.",
+  "file": "art/book1-v07/B01V07-P37-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P37-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "74008c54621339ed0ff234bf825fa47f1c058de91f72cfacd6a68f2c785ea25a",
+  "status": "generated-source-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true
 }

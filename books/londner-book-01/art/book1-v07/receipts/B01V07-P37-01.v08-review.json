@@ -1,0 +1,28 @@
+{
+  "id": "B01V07-P37-01",
+  "file": "art/book1-v07/B01V07-P37-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P37-01.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "e1a4a572100bb44565e82414b8a85742c8f27093ede40710c6453d88155686bc",
+  "accepted_sha256": "e1a4a572100bb44565e82414b8a85742c8f27093ede40710c6453d88155686bc",
+  "accepted_origin_commit": "4b7f81fb6a1c052602e2c8e13460e7171eb6b0c2",
+  "status": "accepted-existing-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_review": {
+    "reviewed": true,
+    "review_file": "art/book1-v07/web/B01V07-P37-01.webp",
+    "scene": "Commander accompanies youthful Yitzhak away from bridge at sunrise; gratitude and safe departure clear.",
+    "limits": "Actual renderer masks and bilingual lettering pending."
+  },
+  "crop_issues": [],
+  "prompt": "Existing original retained unchanged after source review against Claude v08 shows, shot, purpose and neighbours.",
+  "tool_source": "existing original, image_gen__imagegen",
+  "refs": [
+    "art/chars/yitzhak-three-ages-v01.png",
+    "ref/S08-img013.jpg"
+  ]
+}

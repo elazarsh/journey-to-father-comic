@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P39-01",
+  "file": "art/book1-v07/B01V07-P39-01.png",
+  "prompt": "Create a single LANDSCAPE 1536x1024 painting for B01V07-P39-01. Dramatic pastoral literary graphic novel, painterly watercolor and gouache, selective fine ink, cinematic chiaroscuro, restrained natural eyes, rich restrained color, tactile period materials. ONE full-bleed scene, no text, lettering, borders, balloons or watermarks. High-angle WIDE view of Yitzhak and young Chava marrying under a simple Jewish chuppah in a modest Polish town in 1922, few adult relatives standing discreetly around, festive warm candlelight and deep amber shadows, tender restrained joy. Yitzhak is 22, narrow oval face, prominent ears, natural brown eyes, bridge of nose and restrained mouth; use seated young man reference and youth photo, NOT middle aged. Chava uses the slender young woman's proposed face reference, in modest long-sleeved high-neck period bridal dress and veil. Not a verified family portrait. Jewish ceremony with chuppah and small kippah, no Christian imagery. Keep couple faces, mouths, joined hands and ceremonial action within central 65% of image so 15% trim on all sides is safe. Few relatives are peripheral atmosphere, not a counted family portrait. This panel adds wedding joy; use architectural high perspective and whole figures, not another close-up portrait. Calm upper backdrop available for later caption.",
+  "tool_source_path": "/workspace/generated_images/exec-32d9d863-1c4b-47f3-8bf9-272ab5ed6620.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "High wide wedding under chuppah, warm candles, couple young, no text; approved Yitzhak continuity, Chava supporting face proposed not verified. Central faces and joined hands protected. Peripheral guests/canopy edges intentionally croppable.",
+  "crop_caveats": "Source reviewed only; actual final polygon/15% browser crop remains for root layout verification.",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "166f74bff644d710c7775e71f65eebf7bcc09da40c0a8c8e9eb8f07ddc73d356",
+  "web_file": "art/book1-v07/web/B01V07-P39-01.webp"
+}

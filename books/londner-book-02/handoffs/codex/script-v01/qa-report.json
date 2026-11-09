@@ -1,0 +1,39 @@
+{
+  "story_pages": 64,
+  "physical_pages_provisional": 68,
+  "panels": 197,
+  "text_blocks": 194,
+  "words_he": 1675,
+  "max_page_words_he": 42,
+  "max_text_block_words_he": 15,
+  "silent_action_panels": 7,
+  "literal_quotes_verified": 3,
+  "adapted_speech_bubbles": 11,
+  "documented_thought_bubbles": 2,
+  "scene_sequences": 11,
+  "farm_sequence_pages": 23,
+  "designed_real_page_turn_pairs": 8,
+  "layout_families": 5,
+  "checks": {
+    "all_64_pages_have_need_change_emotion": true,
+    "all_sources_resolve": true,
+    "quotes_match_primary": true,
+    "all_text_bilingual": true,
+    "all_new_text_registered": true,
+    "no_long_dashes_in_hebrew": true,
+    "all_block_word_counts_under_19": true,
+    "all_page_word_counts_under_51": true,
+    "unique_panel_ids": true,
+    "geometry_in_canvas_and_no_frame_overlaps": true,
+    "exact_horse_theft_boundary_without_solution": true,
+    "speech_and_thought_under_13_words": true,
+    "oval_insets_at_most_two": true,
+    "household_counts_consistent": true
+  },
+  "not_claimed": [
+    "No illustrations generated for book 2.",
+    "No browser visual QA, image masking, face-crop or final typography approval.",
+    "No child comprehension trial or guarantee against anxiety.",
+    "No final family approval of book 2 or unresolved chronology."
+  ]
+}

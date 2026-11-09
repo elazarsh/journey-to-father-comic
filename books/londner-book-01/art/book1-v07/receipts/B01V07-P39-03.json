@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P39-03",
+  "file": "art/book1-v07/B01V07-P39-03.png",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, rich restrained colors, natural expressive eyes (never oversized), tactile 1920s Polish materials. ONE full-bleed scene per image, no collage, no lettering, no readable documents, no borders, no speech/thought balloons, no watermark. Essential face/mouth and hands inside central 65% for 15% crop on every edge. Use young man seated in reference and youth photo for Yitzhak age22–25, narrow oval face, pronounced ears, natural brown eyes, nose bridge and restrained mouth; never age43. Chava uses slender young woman's reference face, only a proposed supporting face not verified portrait; after marriage modest long sleeves/high collar and period headscarf covering hair. Household only Yitzhak, wife Chava, one little daughter Hanna Roza. PORTRAIT 1024x1536. Eye-level CLOSE-UP focused on ONE small newborn daughter Hanna Roza tenderly cradled by BOTH parents' hands in soft warm morning window light. Baby centered about55% down, parents leaning inward from left and right, their upper faces intentionally partly outside framing, noses/mouths and supporting hands within central safe composition. Chava cream modest headscarf, young Yitzhak dark waistcoat. Tender, quiet real baby proportions, no other children. Painterly cloth textures; creamy pale wall above; intimate soft light distinct from shop scene. Baby's face and all hands fully visible, no invented thought or text.",
+  "tool_source_path": "/workspace/generated_images/exec-d483ae23-b7be-4217-8ad9-81e33b8076c1.png",
+  "refs": [
+    "art/book1-v07/B01V07-P37-04.png",
+    "ref/S08-img013.jpg",
+    "art/book1-v07/B01V07-P38-04.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "visual_source_review": "One infant, two parents partial close-up, soft light. Intentional partial parents face framing; infant/hands central.",
+  "crop_caveats": "Parents' heads intentionally partly framed; baby's face and supporting hands central. Final polygon crop unverified.",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "342b5e44a0ae8defd9ef3cb4211307d4bd774dc72aba9b172a261c516bc82acc",
+  "web_file": "art/book1-v07/web/B01V07-P39-03.webp"
+}

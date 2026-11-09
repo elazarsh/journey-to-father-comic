@@ -1,0 +1,21 @@
+{
+  "id": "B01V07-P30-02",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE, ONE IMAGE. Extreme-wide HIGH angle: a very long line of civilians carrying shovels and picks winds down a dirt road through WWI Poland; slender16–17-year-old Yitzhak a tiny figure in the line. Guards only distant silhouettes beside it. Harsh pale overcast. Show forced labor without assault, marching combat, battle or violence. Purpose: people compelled into road work. Yitzhak is visibly16–17, slender adolescent; age approved child reference into teen with youth photograph continuity, never adult43. Identity: narrow oval face, pronounced ears, natural brown eyes, restrained mouth; ordinary period Polish clothing. Keep essential faces/hands/props in central70% with15% crop margin and clear mouths. No text, readable letters/numbers, captions, blank or filled balloons, borders, collage, watermarks.",
+  "tool_original_path": "/workspace/generated_images/exec-ac180f62-2830-49ef-83d0-60466c702ac3.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Source reviewed: long roadwork line with tools, high view, distant guards, no violence; Yitzhak reads as adolescent. Hero rendered larger foreground than requested tiny figure; overall line and landscape remain dominant. Distinct from adjacent OTS and hand detail.",
+  "crop_caveats": "Source reviewed only; actual v08 polygon/live lettering not checked. Keep main hands and face in crop. Peripheral adults can crop.",
+  "file": "art/book1-v07/B01V07-P30-02.png",
+  "web_file": "art/book1-v07/web/B01V07-P30-02.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "4c790c6feee085e63f6327fa30bd7c1d1f8737e75c5407c0ff09e4a4964b730a"
+}

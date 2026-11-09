@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P22-04",
+  "prompt": "PORTRAIT canvas1024x1536. Eye-level MEDIUM TWO-SHOT: late-childhood Yitzhak about11–12 and his bearded father work quietly SIDE BY SIDE behind the wooden sales counter in their early1900s Polish LEATHER SUPPLIES MERCHANT SHOP, warm evening oil lamp. Father at RIGHT, boy at LEFT, both upper bodies and working hands fully visible, relaxed attentive expressions; each sorting a small bundle of leather straps and merchant hardware into separate compartments, not making or repairing shoes. Boy has approved narrow natural oval face, brown eyes, pronounced ears, natural nose bridge, restrained mouth, dark cap and simple dark period coat from child portrait. Father same greying dark beard, narrow nose, dark kippah and dark waistcoat as shop reference, visibly parent generation. Faces at x40%,60%, y40–45%; hands central at y65%. Warm lamplight connects their hands, shelves of rolled leather softly behind, few amber glints, intimate trust and learning by doing. Keep heads and hands within central60% width and55% height,15% crop margins all around. Quiet dark wall upper20% for later caption. This image adds father-son relationship after preceding object-only crate shot. Dramatic pastoral literary graphic novel, opaque gouache and watercolor, visible soft brushwork, fine selective ink, cinematic amber lamplight on muted brown and indigo, natural faces, no enlarged cute eyes, no photographic skin, no glossy3D. One scene, no text or lettering, no bubbles, no montage, no frames or watermark.",
+  "refs": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-491f33da-33ef-4849-8ea2-b6ebff8e517e.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Yitzhak and father sort leather straps and buckles together by lamplight, no shoe-making. Natural narrow boy face, distinct parent generation. Medium relationship scene varies from preceding low doorway objects.",
+    "crop_issues": "Both faces and working hands visible. Father's outer right sleeve reaches edge; retain hands with conservative zoom and right-aware framing. Quiet upper wall for caption. Polygon/browser check pending root."
+  },
+  "file": "art/book1-v07/B01V07-P22-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P22-04.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "68c68d95df022395f8a504da16190966135a2035e8653ce48e663a138d248345",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31",
+  "reference_paths": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/B01V07-P21-03.png"
+  ],
+  "crop_notes": "Both faces and working hands visible. Father's outer right sleeve reaches edge; retain hands with conservative zoom and right-aware framing. Quiet upper wall for caption. Polygon/browser check pending root."
+}

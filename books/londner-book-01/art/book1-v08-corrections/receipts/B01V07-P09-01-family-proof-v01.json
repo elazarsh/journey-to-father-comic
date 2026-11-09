@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P09-01",
+  "file": "art/book1-v08-corrections/panels/B01V07-P09-01-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P09-01-family-proof-v01.webp",
+  "sha256": "1aa2ace0c5bf91ea3b2fb36af17a5e00eab36d12f6a4509be2a6038d6b07facc",
+  "web_sha256": "68e68e3c8c563ac43a6fb7e607b69b599a5842c94595796444835072a8b35756",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "User requested older brother Chaim wear a flat cap. Edit of original B01V07-P09-01, brother on left; younger boy cap retained. The PDF page number differs from source panel ID. Generative edit, visual crop check recommended.",
+  "created_utc": "2026-11-02T05:46:19.339197+00:00"
+}

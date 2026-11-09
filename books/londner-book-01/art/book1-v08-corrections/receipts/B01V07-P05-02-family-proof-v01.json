@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P05-02",
+  "file": "art/book1-v08-corrections/panels/B01V07-P05-02-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P05-02-family-proof-v01.webp",
+  "sha256": "cfeccd4f7942324e7b39cc7d36e9eac72a4871b827f2215871c86c501872ff1c",
+  "web_sha256": "9eba19e89fa79f5240ccd784b3ec30c1bfcf1008165ad39408952a647c6e8655",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Generative edit of art/book1-v08-corrections/panels/B01V07-P05-02-agefix.png. הוחלפו כיפת המורה וכיפות שני התלמידים האמצעיים; ארבעת התלמידים נשמרו. תיקון מחולל עשוי לשנות פיקסלים מעבר לכובע; דורש בקרת חיתוך ובועות לאחר שילוב, אין אישור משפחתי. Recheck crop and mouth anchors; no family approval inferred.",
+  "created_utc": "2026-11-01T20:59:09.407043+00:00"
+}

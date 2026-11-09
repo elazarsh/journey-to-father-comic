@@ -1,0 +1,32 @@
+{
+  "id": "B01V07-P04-01",
+  "file": "art/book1-v07/B01V07-P04-01.png",
+  "status": "source-reviewed-for-v08",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: Inside a small village shop in Poland around 1905, at dusk. Hands spread straw mattresses and woollen blankets on the wooden shop floor beside the base of a tiled stove, making a sleeping place for the children. In the corner, the edge of a shelf stocked with simple goods (sacks, jars, bundles, no labels). Only hands and arms visible. Camera: Detail shot from a high angle, looking down at the hands and bedding on the floor. Light and colour: Orange dusk glow from an oil lamp, warm light on the blankets and long soft shadows across the floorboards. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the plain floorboards or the shadowed wall above the stove base. Character consistency: Only hands appear; no full family is shown. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/book1-v07/web/B01V07-P04-02.webp"
+  ],
+  "sha256": "300a22087c13c81b3f969f82f3951f4c9695244362fb162d216a4da9cf77e76d",
+  "bytes": 3326032,
+  "created_at": "2026-10-30T17:44:02.397539+00:00",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "fixed_by_review": false,
+  "v08_source_review": {
+    "verdict": "pass",
+    "source_viewed": "art/book1-v07/web/B01V07-P04-01.webp",
+    "source_web_sha256": "91b379e01be1ca79c84d0e8127f9cc1b922c4759bb05317972bda396029aefb9",
+    "shot": {
+      "shot": "detail",
+      "angle": "high",
+      "subject": "hands",
+      "light": "dusk lamp glow"
+    },
+    "specific_review": "High-angle hands-only bedding detail beside tiled-stove base and goods shelf edge; warm dusk floor light. Correct revised composition, no standing hero portrait.",
+    "scene_and_lettering": "One scene, no embedded text or bubbles. Quiet lettering space inspected in source.",
+    "variation": "Adjacent revised shots checked for meaningful distance/angle/subject/light changes. Mild source angle differences recorded above where applicable.",
+    "reviewed_at_utc": "2026-10-31T05:00:27.136360+00:00"
+  },
+  "crop_status": "Source visually reviewed for v08 shot/purpose; final polygon, zoom 1.00–1.15 and live Hebrew/English lettering review pending."
+}

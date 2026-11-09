@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P35-04",
+  "prompt": "LANDSCAPE 1536x1024. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. MEDIUM LOW angle: early Polish army commander at LEFT points and SPEAKS to youthful soldier Yitzhak at LOWER portion of frame. Commander's FACE lit by a warm lantern at night; mouth clearly visible. Calm dark sky ABOVE COMMANDER LEFT for later speech overlay. No drawn bubble. Uniforms circa1919–1921, no WWII motifs. Purpose: trust, commander chooses Yitzhak for watch duty. No combat or enemy. Yitzhak is now early20s YOUNG ADULT, slender but grown, youthful clean-shaven narrow oval face, pronounced ears, natural brown eyes, restrained mouth; follow YOUTH PHOTOGRAPH for main facial identity, mature the illustrated child slightly. Do NOT render age43 middle-aged face; do NOT render small child in army. Plain early Polish army WWI/postWWI wool field tunic/cap when specified, no Nazi/WWII details. Keep eyes and mouths clear. Essential faces/hands/props central70% with15% crop margin, quiet upper third over indicated speaker. No text/readable characters/numbers, captions, drawn balloons or blank bubbles, borders/collage. Respect specified camera distance.\nCORRECTION EDIT: LANDSCAPE1536x1024. Recompose same single watercolor scene at MEDIUM LOW CAMERA ANGLE. Move speaking commander at LEFT DOWN so TOP OF HIS CAP is at40% image HEIGHT, allowing a LARGE CALM DARK SKY AREA DIRECTLY ABOVE HIS LEFT-SIDE HEAD for later speech. His face and open speaking MOUTH must remain clear. Yitzhak in LOWER RIGHT, visibly young ADULT early20s with a slightly more developed jaw than teenage image, listening. Both figures smaller in frame, lantern warm light, pointing gesture preserved. Do not place either cap on top image border. Same early Polish uniforms and watercolor/gouache. No text, bubbles/blank balloons or frames.",
+  "tool_original_path": "/workspace/generated_images/exec-fb245612-9bd6-4f12-8076-72eecc6d3655.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg",
+    "/workspace/generated_images/exec-dff943e4-2f16-4336-be1e-785d49a1054e.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed corrected source: low-angle commander left speaking/pointing, warm lantern, young adult Yitzhak lower-right; open mouth clear. Image_gen recomposed first too-high commander, now large calm dark sky directly above left speaker.",
+  "crop_caveats": "Source reviewed only. Actual v08 polygon/live lettering untested. Protect designated sky above commander in P35-04 and OTS figure in P35-03; do not auto-center away from small Yitzhak P35-02.",
+  "file": "art/book1-v07/B01V07-P35-04.png",
+  "web_file": "art/book1-v07/web/B01V07-P35-04.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "6d698528db49b1b33d3bb5eab5ea5b1814563f6ef180ae337a5f15dc1681b70e"
+}

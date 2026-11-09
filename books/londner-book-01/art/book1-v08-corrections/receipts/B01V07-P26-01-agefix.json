@@ -1,0 +1,42 @@
+{
+  "id": "B01V07-P26-01-agefix",
+  "kind": "panel-replacement",
+  "target": "B01V07-P26-01",
+  "age_band": "14",
+  "previous_source_file": "art/book1-v07/B01V07-P26-01.png",
+  "previous_source_sha256": "b237ba3809fca5aa4fad52beaca625b4bf89198ab550fc68bc63f2679fa4fd5c",
+  "specific": "He is a slim FOURTEEN-year-old arriving in Lodz, full body, NOT a little child. Longer adolescent face and appropriate teenage posture; clothes remain same plain dark clothing. Preserve street shot and safe hands/shoes. CRITICAL PRINT COMPOSITION CORRECTION: pull the camera back. The whole teenager must be SMALLER within this portrait, cap top around28% of image height, both complete shoes including soles no lower than84%-86%. Show a full uninterrupted band of cobbled pavement across bottom14%, no foot, leg or body crossing that lower band. Do NOT reproduce the previous lower-edge shoe clipping. Keep all hands and cap inside central76%. Preserve adolescent face and natural14-year-old anatomy, same street, walking pose and shoulder bag.",
+  "status": "generated-candidate-for-Claude-integration",
+  "output_source": "/workspace/generated_images/exec-df959b4f-a989-4982-87f9-8637960077c5.png",
+  "retry": 1,
+  "prompt": "Edit the FIRST attached historical graphic-novel panel. Its overall scene, camera angle, framing/aspect ratio, lighting, setting, other people, period clothing and essential actions must remain recognizable. The SECOND image is the age-specific Yitzhak identity reference: it overrides the old panel's too-young face and wrong proportions. Repaint the visible Yitzhak naturally as one anatomically coherent person of the specified age; do not paste or resize a head. Preserve his recognizable brown eyes, prominent ears, distinctive nose and cap, natural smaller eyes and subtle expressions. No generic cartoon, no giant head, no small head on adult torso, no massive shoulders or overlong adult legs on a small child. Treat adult/child scale and head/neck/shoulder relationships coherently. Preserve the established warm painterly watercolor/gouache dramatic pastoral style and paper texture, not glossy photo-realism. Do not introduce new events, symbols or people. Keep faces, hands, feet when relevant, and key props at least10-12% inside edges; leave a naturally calm area ABOVE each visible speaker for later live lettering. NO text, readable writing, balloons, outlines, panel frames or watermarks. This is one complete scene, not a montage. Specific correction: He is a slim FOURTEEN-year-old arriving in Lodz, full body, NOT a little child. Longer adolescent face and appropriate teenage posture; clothes remain same plain dark clothing. Preserve street shot and safe hands/shoes. CRITICAL PRINT COMPOSITION CORRECTION: pull the camera back. The whole teenager must be SMALLER within this portrait, cap top around28% of image height, both complete shoes including soles no lower than84%-86%. Show a full uninterrupted band of cobbled pavement across bottom14%, no foot, leg or body crossing that lower band. Do NOT reproduce the previous lower-edge shoe clipping. Keep all hands and cap inside central76%. Preserve adolescent face and natural14-year-old anatomy, same street, walking pose and shoulder bag.",
+  "file": "art/book1-v08-corrections/panels/B01V07-P26-01-agefix.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P26-01-agefix.webp",
+  "sha256": "d3a8e740b8f03a2d8537932b4642b5cf321edf9a454575ca163d90a034f81684",
+  "web_sha256": "470c817e790368d11efe95ffa4253c54ac9894ff2458c4222793761d4c4516a8",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "original_generation_path": "/workspace/generated_images/exec-6b8b929b-1117-4db8-8229-9f6634acac24.png",
+  "generation_tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "art/book1-v08-corrections/variants/B01V07-P26-01-agefix-attempt01.png",
+      "sha256": "37fd4b130f588685fd5c57a3a75b2ab23a9296798604ac68143b489ec6e43f16",
+      "note": "Actual first-attempt image supplied to imagegen; preserved before selected output replaced the same working filename."
+    },
+    {
+      "file": "art/book1-v08-corrections/characters/yitzhak-age14-v01.png",
+      "sha256": "88f8e3037476e9682f8444d32cf9a7497ef33b162e3e4574a7c0131c00fadf47"
+    }
+  ],
+  "family_approved": false,
+  "created_utc": "2026-11-01T10:19:52.242557+00:00",
+  "crop_note": "Both shoes visible after one correction, but lower margin is about5%; use full2:3 source framing, no automatic zoom/crop at feet.",
+  "source_visual_review": {
+    "reviewed": true,
+    "scope": "Source image viewed; age, main anatomy, scene and likeness checked. Final family approval and live lettering/mask checks pending."
+  }
+}

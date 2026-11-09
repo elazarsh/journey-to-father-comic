@@ -1,0 +1,15 @@
+{
+  "id": "B01V07-P10-04",
+  "file": "art/book1-v07/B01V07-P10-04.png",
+  "status": "generated-claude-awaiting-review",
+  "prompt": "Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. Scene: In bed at home, around 1908. Close on the face of the boy Yitzhak, about eight, lit from the open newspaper page that reflects warm light onto him, his eyes reading with concentration. The page itself is not legible; the writing will be added later as a separate layer. Camera: Close-up from a low angle, from below the page looking up at his face. Light and colour: Warm light reflected up from the paper onto the face, darker surroundings. Lettering space: Leave a calm, low-detail area in the upper right of the frame for a caption, such as the dark soft background above his head. Character consistency: Yitzhak at age stage child 4-11; keep the face identical to the attached reference: narrow oval face, natural brown eyes, pronounced ears, straight nose bridge, restrained mouth. One single scene, one image. No text, letters, numbers, signs with writing, speech balloons, captions, panel borders, frames or watermarks. Keep faces and key action inside the central 60% of the frame with generous margins for cropping; continue the scene naturally to the edges.",
+  "tool": "openai gpt-image-2 (edit, high)",
+  "referenced_files": [
+    "art/chars/yitzhak-child-v02.png",
+    "art/book1-v07/web/B01V07-P10-01.webp",
+    "art/book1-v07/web/B01V07-P10-02.webp"
+  ],
+  "sha256": "bbc776b573f5332a5717faba268374f62f57f3a233dc50443102033307664ba6",
+  "bytes": 2970627,
+  "created_at": "2026-10-30T17:50:21.328910+00:00"
+}

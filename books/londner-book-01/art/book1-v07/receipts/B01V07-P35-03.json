@@ -1,0 +1,22 @@
+{
+  "id": "B01V07-P35-03",
+  "prompt": "PORTRAIT 1024x1536. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich but restrained colors, tactile period materials, gentle atmospheric depth. Strong silhouettes and meaningful visual storytelling. Warmth and dignity in ordinary life, quiet beauty without idealizing hardship. Never cartoonishly enlarged eyes, generic cute faces, photorealistic skin or glossy 3D rendering. ONE SINGLE SCENE. WIDE OVER Yitzhak's shoulder: Yitzhak a foreground silhouette, young Polish soldier early20s. Other selected soldiers WALK AWAY toward a bridge and river in cold blue moonlit night. Yitzhak's head below top40%, calm sky ABOVE HIM for later thought. No battle/enemy/violence. Purpose: hurt and suspense, he wasn't selected. Yitzhak is now early20s YOUNG ADULT, slender but grown, youthful clean-shaven narrow oval face, pronounced ears, natural brown eyes, restrained mouth; follow YOUTH PHOTOGRAPH for main facial identity, mature the illustrated child slightly. Do NOT render age43 middle-aged face; do NOT render small child in army. Plain early Polish army WWI/postWWI wool field tunic/cap when specified, no Nazi/WWII details. Keep eyes and mouths clear. Essential faces/hands/props central70% with15% crop margin, quiet upper third over indicated speaker. No text/readable characters/numbers, captions, drawn balloons or blank bubbles, borders/collage. Respect specified camera distance.\nCORRECTION EDIT: PORTRAIT1024x1536. Correct framing of same watercolor night bridge scene: turn foreground Yitzhak so we see ONLY BACK OF HIS HEAD AND SHOULDER in deep DARK SILHOUETTE at lower-left. No face visible and no eye looking back. His HEAD sits below45% image height, empty calm dark-blue sky ABOVE HIM. Full adult size/proportions early20s. Other selected soldiers walk AWAY toward bridge and river, cold blue moonlight. Keep bridge visible and camera OVER HIS SHOULDER. No text, bubbles, frames, battle or enemy.",
+  "tool_original_path": "/workspace/generated_images/exec-065f58a5-3d17-409a-8aa0-e4bf821121fa.png",
+  "refs": [
+    "/workspace/londner-book-01/art/chars/yitzhak-child-v02.png",
+    "/workspace/londner-book-01/ref/S08-img013.jpg",
+    "/workspace/generated_images/exec-f9f5044e-e9ac-4675-9314-8f243cc03253.png"
+  ],
+  "status": "source-reviewed-for-v08",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "source_visual_review": "Reviewed corrected source: dark back-of-head/shoulder foreground, other soldiers walking away to bridge/river, blue moonlight. Corrected first face-turning portrait into OTS dark figure, quiet sky above. No enemy/violence.",
+  "crop_caveats": "Source reviewed only. Actual v08 polygon/live lettering untested. Protect designated sky above commander in P35-04 and OTS figure in P35-03; do not auto-center away from small Yitzhak P35-02.",
+  "file": "art/book1-v07/B01V07-P35-03.png",
+  "web_file": "art/book1-v07/web/B01V07-P35-03.webp",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "sha256": "2b3c7750fdd3308fff08af174ac78d233c0ec386e9a3ef2e28a200759112ffb4"
+}

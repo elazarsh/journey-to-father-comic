@@ -1,0 +1,27 @@
+{
+  "id": "B01V07-P21-01",
+  "prompt": "LANDSCAPE canvas1536x1024. MEDIUM eye-level scene of father alone at family leather SUPPLIES shop counter opening a wooden shipment crate. Hinged/lifted lid in his hand, moment of discovery, sober slightly puzzled expression looking INSIDE crate, not at reader. Middle-aged Jewish father dark kippah, dark coat/waistcoat, greying dark beard as reference; no boy visible. The contents are brown leather SHOE UPPERS, unfinished upper components without soles, alongside wrapping straw. Warm shop daylight; shelves of leather stock behind. Father and crate compact central x35–70%,y30–70%, calm upper wall and generous15% margins. Medium single-person discovery contrasts following straight-overhead contents detail. No cobbler working or manufacture. Dramatic pastoral literary graphic novel, painterly watercolor and gouache with selective fine ink contours, cinematic chiaroscuro, natural expressive faces, rich restrained colors, tactile period materials, gentle atmospheric depth, strong silhouettes. Never enlarged cartoon eyes, cute generic faces, photorealistic skin or glossy3D. Early1900s, no modern objects. ONE scene per image, no lettering, digits, words, bubbles, frames or watermark. Protect faces and hands within central60% width and50% height with15% overscan for polygon crop and zoom1.15. Quiet upper area for later captions.",
+  "reference_paths": [
+    "art/book1-v07/B01V07-P20-04.png"
+  ],
+  "original_tool_file": "/workspace/generated_images/exec-81c4bd09-c38d-4ffe-b2e2-25f824a48151.png",
+  "visual_review": {
+    "source_seen": true,
+    "source_visual_review": "Father opens crate and examines unfinished leather uppers, distinct discovery moment and single figure. Correct supplies shop.",
+    "crop_issues": "Crate right edge may crop; father's head and both hands inside. Browser check pending.",
+    "pending": "Browser mask and live lettering check remains with root."
+  },
+  "file": "art/book1-v07/B01V07-P21-01.png",
+  "web_file": "art/book1-v07/web/B01V07-P21-01.webp",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "sha256": "d55fe71a5a81b97f4a3ba1f8d7b405c561b43928013e5fe3666dc8a5c0b2f6bf",
+  "status": "generated-reviewed",
+  "layout_version": "0.8",
+  "claude_v08_review_complete": true,
+  "generator": "image_gen__imagegen",
+  "tool_source": "image_gen__imagegen",
+  "generated_on": "2026-10-31"
+}

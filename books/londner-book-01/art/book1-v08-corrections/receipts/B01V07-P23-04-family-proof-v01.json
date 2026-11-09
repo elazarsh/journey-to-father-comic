@@ -1,0 +1,18 @@
+{
+  "target": "B01V07-P23-04",
+  "file": "art/book1-v08-corrections/panels/B01V07-P23-04-family-proof-v01.png",
+  "web_file": "art/book1-v08-corrections/panels/B01V07-P23-04-family-proof-v01.webp",
+  "sha256": "bfb9b65c80a5b91d02560b7ccbb96f69b694d4a9b369ce478ac5a41a9893c915",
+  "web_sha256": "73518ca315d11a79e308e9cf0fbc14167cfa759908225d0e659f38c34d4aea77",
+  "actual_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "generation_tool": "image_gen.imagegen",
+  "status": "candidate-for-Claude-integration",
+  "family_approved": false,
+  "requires_new_face_and_crop_review": true,
+  "qa_notes": "Generative edit of art/book1-v07/B01V07-P23-04.png. Visually checked: Both adults now wear flat caps; faces, hands, ledger and composition appear preserved. Generative edit; exact pixel preservation outside the cap has not been established. Recheck crop and mouth anchors; no family approval inferred.",
+  "created_utc": "2026-11-01T20:59:21.571644+00:00"
+}
