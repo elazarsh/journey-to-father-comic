@@ -4430,14 +4430,22 @@
       "speaker": "קצין מהחזית",
       "he": "זוז מכאן! אנחנו מחליפים אתכם.",
       "en": "Move! We are taking over.",
-      "kind": "adapted_speech"
+      "kind": "adapted_speech",
+      "mouthXY": [
+       0.3,
+       0.27
+      ]
      },
      {
       "type": "speech",
       "speaker": "יצחק",
       "he": "אני מקבל פקודות רק מהמפקד שלי.",
       "en": "I take orders only from my commander.",
-      "kind": "adapted_speech"
+      "kind": "adapted_speech",
+      "mouthXY": [
+       0.93,
+       0.42
+      ]
      }
     ],
     "B01V07-P36-02": [

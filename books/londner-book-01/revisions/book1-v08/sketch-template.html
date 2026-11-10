@@ -51,16 +51,16 @@ body.work .ph .pur{display:block}
 .pid{display:none;position:absolute;bottom:3px;inset-inline-start:4px;font:700 9px Heebo;color:#ffe9b8;background:rgba(0,0,0,.6);padding:1px 4px;border-radius:3px;z-index:4;direction:ltr}
 body.work .pid{display:block}
 /* lettering */
-.tx{position:absolute;z-index:20;font-size:clamp(.62rem,1.85cqw,1.12rem);line-height:1.3;text-wrap:balance;text-align:center}
+.tx{position:absolute;z-index:20;font-size:clamp(.7rem,2.1cqw,1.27rem);line-height:1.32;text-wrap:balance;text-align:center}
 .tx.cap{font-family:'Frank Ruhl Libre',serif;font-weight:700;color:var(--cap);background:var(--capbg);box-shadow:0 0 1em .6em var(--capbg);padding:.15em .35em;border-radius:.6em;text-shadow:0 1px 2px #000;text-align:start}
-.tx.bub,.tx.tho,.tx.whi{font-family:Rubik,sans-serif;font-weight:500;color:#2e2014;background:none;border:0;padding:.55em .95em;letter-spacing:.005em}
+.tx.bub,.tx.tho,.tx.whi{font-family:Rubik,sans-serif;font-weight:500;color:#21140a;background:none;border:0;padding:.55em .95em;letter-spacing:.005em}
 .tx.tho{border-radius:42%/40%}
 .tx.whi{border-style:dashed}
-.tx.sho{font-family:Rubik,sans-serif;font-weight:700;color:var(--ink);background:#ffe27a;border:2.6px solid var(--ink);padding:.7em 1.1em;clip-path:polygon(0 18%,12% 0,25% 14%,40% 0,55% 12%,70% 0,84% 14%,100% 4%,92% 30%,100% 52%,90% 70%,100% 92%,80% 86%,64% 100%,50% 86%,34% 100%,20% 86%,4% 96%,10% 70%,0 50%,8% 32%)}
+.tx.sho{font-family:Rubik,sans-serif;font-weight:700;color:#21140a;background:none;padding:.7em 1.1em}
 .tx .who{display:none}
 .tx svg.kids{width:7.5em;height:4.2em;display:block}
 .tail{position:absolute;z-index:21;overflow:visible;pointer-events:none}
-.tail.bshape{z-index:19;filter:drop-shadow(0 .5px 1.5px rgba(20,10,0,.16))}
+.tail.bshape{z-index:19;filter:drop-shadow(0 1px 2px rgba(10,5,0,.35))}
 .tail.behind{z-index:18;filter:drop-shadow(1.5px 2px 1.5px rgba(0,0,0,.28))}
 .tx img.memo{display:block;width:10.5em;height:auto;aspect-ratio:1.45;opacity:.9;filter:sepia(.35) saturate(.85);margin:-.2em auto -.3em}
 .sp.title.lit{background:#f3e6cc}
@@ -131,7 +131,7 @@ html.print .pw{animation:none!important}
   .page{aspect-ratio:auto;background:none;box-shadow:none;display:flex;flex-direction:column;gap:14px}
   .pw{position:relative!important;left:auto!important;top:auto!important;width:100%!important;container-type:inline-size}
   .pw.circle{width:72%!important;align-self:center}
-  .tx{font-size:clamp(.85rem,4.1cqw,1.08rem)}
+  .tx{font-size:clamp(.95rem,4.6cqw,1.22rem)}
   .ph{font-size:3.6cqw}
 }
 @media (prefers-reduced-motion:no-preference){.pw{animation:in .6s ease both}@keyframes in{from{opacity:0;transform:translateY(10px)}}}
@@ -383,48 +383,64 @@ html.print .pw{animation:none!important}
   function drawTail(host, pg, d, r, m, k, prev) {
     /* One continuous shape per bubble: a soft rounded body whose outline flows into the tail (like a hand-lettered comic). */
     var fs = parseFloat(getComputedStyle(d).fontSize), cx = r.x + r.w / 2, cy = r.y + r.h / 2;
-    var s = svg('svg', { class: 'tail' + (k === 'sho' ? '' : ' bshape'), width: 1, height: 1 }, host);
+    var s = svg('svg', { class: 'tail bshape', width: 1, height: 1 }, host);
     s.style.left = '0px'; s.style.top = '0px'; pg._tx.push(s);
     var dx = m[0] - cx, dy = m[1] - cy, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L;
-    if (k === 'sho') {   /* shout keeps its jagged box; tail only */
-      var tt = 1 / Math.sqrt((dx / (r.w / 2)) * (dx / (r.w / 2)) + (dy / (r.h / 2)) * (dy / (r.h / 2)));
-      var sx = cx + dx * tt * .9, sy = cy + dy * tt * .9, ln = Math.max(fs * .8, Math.min(Math.hypot(m[0] - sx, m[1] - sy) - fs * .3, fs * 2)), hf = fs * .32;
-      svg('path', { d: 'M' + (sx - uy * hf) + ',' + (sy + ux * hf) + ' L' + (sx + ux * ln) + ',' + (sy + uy * ln) + ' L' + (sx + uy * hf) + ',' + (sy - ux * hf) + 'Z', fill: '#ffe27a', stroke: '#1b1410', 'stroke-width': 2.4, 'stroke-linejoin': 'round' }, s);
-      return;
-    }
-    var FILL = 'rgba(250,243,228,.8)', INK = 'rgba(70,48,28,.5)';   /* soft, semi-transparent, thin line (lettering practice) */
+    var FILL = '#fffaf0', INK = '#2a1a0e', SW = Math.max(1.3, fs * .1);   /* opaque paper, real ink line (family feedback 02/11) */
+    var seed = (r.x * 7.13 + r.y * 3.71) % 6.283;
     var g = svg('g', {}, s);
-    var rx = r.w / 2 + fs * .45, ry = r.h / 2 + fs * .3, n = 2.25;   /* an oval with room around the text */
+    var rx = r.w / 2 + fs * .5, ry = r.h / 2 + fs * .38, n = 2.15;   /* an oval with room around the text */
     function pt(th, bump) {
       var c = Math.cos(th), sn = Math.sin(th), q = 1 + (bump || 0);
       return [cx + rx * q * Math.sign(c) * Math.pow(Math.abs(c), 2 / n), cy + ry * q * Math.sign(sn) * Math.pow(Math.abs(sn), 2 / n)];
     }
-    var cloud = k === 'tho', per = Math.PI * (rx + ry), bumps = Math.max(8, Math.round(per / (fs * 1.7)));
-    function bumpAt(th) { return cloud ? .06 * Math.abs(Math.sin(th * bumps / 2)) - .03 : 0; }
-    var thm = Math.atan2(dy / ry, dx / rx), N = 140, pts = [], tail = !prev && !cloud;
-    var del = tail ? Math.min(.22, (fs * .3) / Math.min(rx, ry)) : 0;   /* narrow tail base */
+    function wob(th) { return .014 * Math.sin(3 * th + seed) + .008 * Math.sin(7 * th + seed * 2); }   /* hand-drawn, not a perfect oval */
+    var thm = Math.atan2(dy / ry, dx / rx), pts = [], d0;
+    if (k === 'sho') {   /* shout: an inked starburst, its longest spike points at the speaker */
+      var spikes = Math.max(14, Math.round(Math.PI * (rx + ry) / (fs * 1.25))), M = spikes * 2, sp = '';
+      for (var a = 0; a < M; a++) {
+        var th0 = thm + Math.PI * 2 * a / M, out = a % 2 === 0, q0 = out ? 1.2 + .06 * Math.sin(a * 2.3 + seed) : .98;
+        var P = pt(th0, q0 - 1);
+        if (a === 0) { var e0 = pt(thm, .2), gap0 = Math.hypot(m[0] - e0[0], m[1] - e0[1]), l0 = Math.max(fs * .8, Math.min(gap0 * .55, fs * 1.8)); P = [e0[0] + ux * l0, e0[1] + uy * l0]; }
+        sp += (a ? ' L' : 'M') + P[0].toFixed(1) + ',' + P[1].toFixed(1);
+      }
+      svg('path', { d: sp + 'Z', fill: '#ffe27a', stroke: INK, 'stroke-width': SW * 1.3, 'stroke-linejoin': 'miter', 'stroke-miterlimit': 6 }, g);
+      return;
+    }
+    var cloud = k === 'tho', tail = !prev && !cloud;
+    if (cloud) {   /* thought: a real cloud made of round scallops */
+      var nb = Math.max(9, Math.round(Math.PI * (rx + ry) / (fs * 1.9))), cp = [];
+      for (var b = 0; b < nb; b++) cp.push(pt(thm + Math.PI * 2 * (b + .5) / nb, -.02 + .02 * Math.sin(b * 1.7 + seed)));
+      d0 = 'M' + cp[0][0].toFixed(1) + ',' + cp[0][1].toFixed(1);
+      for (var b2 = 1; b2 <= nb; b2++) {
+        var P0 = cp[b2 - 1], P1 = cp[b2 % nb], ch = Math.hypot(P1[0] - P0[0], P1[1] - P0[1]), rr2 = ch * .6;
+        d0 += ' A' + rr2.toFixed(1) + ',' + rr2.toFixed(1) + ' 0 0 1 ' + P1[0].toFixed(1) + ',' + P1[1].toFixed(1);
+      }
+      svg('path', { d: d0 + 'Z', fill: FILL, stroke: INK, 'stroke-width': SW, 'stroke-linejoin': 'round' }, g);
+      if (!prev) {   /* three puffs getting smaller toward the thinker */
+        var e2 = pt(thm, .1), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), dd = Math.max(fs * 1.2, Math.min(gap2 - fs * .2, fs * 2.8));
+        [[.18, .36], [.55, .25], [.88, .16]].forEach(function (c) {
+          svg('circle', { cx: e2[0] + ux * dd * c[0], cy: e2[1] + uy * dd * c[0], r: c[1] * fs, fill: FILL, stroke: INK, 'stroke-width': SW * .9 }, g);
+        });
+      }
+      return;
+    }
+    var N = 160, del = tail ? Math.min(.32, (fs * .48) / Math.min(rx, ry)) : 0;   /* tail base */
     for (var i = 0; i <= N; i++) {
       var th = thm + del + (2 * Math.PI - 2 * del) * i / N;
-      pts.push(pt(th, bumpAt(th)));
+      pts.push(pt(th, wob(th)));
     }
-    var dpath = 'M' + pts[0][0].toFixed(1) + ',' + pts[0][1].toFixed(1);
-    for (var j = 1; j < pts.length; j++) dpath += ' L' + pts[j][0].toFixed(1) + ',' + pts[j][1].toFixed(1);
-    if (tail) {
+    d0 = 'M' + pts[0][0].toFixed(1) + ',' + pts[0][1].toFixed(1);
+    for (var j = 1; j < pts.length; j++) d0 += ' L' + pts[j][0].toFixed(1) + ',' + pts[j][1].toFixed(1);
+    if (tail) {   /* one outline: the body flows into a tapered, gently curved tail */
       var e = pt(thm), gap = Math.hypot(m[0] - e[0], m[1] - e[1]);
-      var len = Math.max(fs * .7, Math.min(gap * .45, fs * 1.5));   /* a third to half of the way to the mouth */
-      var tip = [e[0] + ux * len, e[1] + uy * len], A = pts[pts.length - 1], B = pts[0];
-      var bend = fs * .16, px = -uy, py = ux;   /* outer edge bows out a little, inner edge in: an even taper */
-      dpath += ' Q' + ((A[0] + tip[0]) / 2 + px * bend).toFixed(1) + ',' + ((A[1] + tip[1]) / 2 + py * bend).toFixed(1) + ' ' + tip[0].toFixed(1) + ',' + tip[1].toFixed(1);
-      dpath += ' Q' + ((B[0] + tip[0]) / 2 + px * bend * .9).toFixed(1) + ',' + ((B[1] + tip[1]) / 2 + py * bend * .9).toFixed(1) + ' ' + B[0].toFixed(1) + ',' + B[1].toFixed(1);
+      var len = Math.max(fs * 1.0, Math.min(gap * .55, fs * 2.1));
+      var px = -uy, py = ux, curl = fs * .35;
+      var tip = [e[0] + ux * len + px * curl, e[1] + uy * len + py * curl], A = pts[pts.length - 1], B = pts[0];
+      d0 += ' Q' + ((A[0] + tip[0]) / 2 + px * fs * .22).toFixed(1) + ',' + ((A[1] + tip[1]) / 2 + py * fs * .22).toFixed(1) + ' ' + tip[0].toFixed(1) + ',' + tip[1].toFixed(1);
+      d0 += ' Q' + ((B[0] + tip[0]) / 2 + px * fs * .05).toFixed(1) + ',' + ((B[1] + tip[1]) / 2 + py * fs * .05).toFixed(1) + ' ' + B[0].toFixed(1) + ',' + B[1].toFixed(1);
     }
-    dpath += 'Z';
-    svg('path', { d: dpath, fill: FILL, stroke: INK, 'stroke-width': 1.1, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '5 4' : '' }, g);
-    if (cloud && !prev) {   /* thought: three small soft puffs toward the thinker */
-      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), dd = Math.max(fs * .9, Math.min(gap2 - fs * .3, fs * 2.4));
-      [[.28, .24], [.6, .17], [.9, .11]].forEach(function (c) {
-        svg('circle', { cx: e2[0] + ux * (dd * c[0] + fs * .2), cy: e2[1] + uy * (dd * c[0] + fs * .2), r: c[1] * fs * .8, fill: FILL, stroke: INK, 'stroke-width': 1 }, g);
-      });
-    }
+    svg('path', { d: d0 + 'Z', fill: FILL, stroke: INK, 'stroke-width': SW, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? (fs * .45) + ' ' + (fs * .3) : '' }, g);
   }
 
   function render() {
