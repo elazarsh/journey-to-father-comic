@@ -133,6 +133,26 @@ for pg in plan['pages']:
     pages.append(dict(n=pg['page'], photos=photos, present=bool(pg.get('present')), title=pg.get('title', ''), pace=pg.get('pace', ''), recipe=pg['recipe'],
                       note=pg.get('note_he', ''), panels=out, H=geometry.H))
 
+# partial nikud on the displayed Hebrew (names and words that read two ways); the quote check above used the plain text
+NIK = json.loads((V / 'nikud.json').read_text(encoding='utf-8')) if (V / 'nikud.json').exists() else None
+def nikud(txt, page=None):
+    if not NIK or not txt:
+        return txt
+    m = dict(NIK['global']); m.update(NIK.get('pages', {}).get(str(page), {}))
+    def one(w):
+        if w in m:
+            return m[w]
+        a = len(w) - len(w.lstrip('"(\u201c'))
+        core = w[a:].rstrip('.,!?:;"\u201d)\u2026')
+        b = a + len(core)
+        return w[:a] + m.get(core, core) + w[b:] if core in m else w
+    return ' '.join(one(w) for w in txt.split(' '))
+if NIK:
+    for p_ in pages:
+        for q_ in p_['panels']:
+            for t_ in q_['texts']:
+                if t_.get('he'):
+                    t_ = t_.update(he=nikud(t_['he'], p_['n']))
 ready = sum(1 for p in pages for q in p['panels'] if q['art'])
 total = sum(len(p['panels']) for p in pages)
 sp = json.loads((V / 'special-pages.json').read_text(encoding='utf-8')) if (V / 'special-pages.json').exists() else None
@@ -177,6 +197,9 @@ for p_ in pages:
         for t_ in q_['texts']:
             if t_.get('imgFile'):
                 t_['img'] = file_src(t_['imgFile'], (600, 600), alpha=True)
+if NIK and sp:
+    for k_, v_ in list(sp.get('he', {}).items()):
+        sp['he'][k_] = [nikud(x) for x in v_] if isinstance(v_, list) else (nikud(v_) if isinstance(v_, str) else v_)
 data = dict(special=sp, pages=pages, ready=ready, total=total, title=script['title_he'], title_en=script['title_en'],
             live=not embed, landscape=land)
 html = (V / 'sketch-template.html').read_text(encoding='utf-8').replace(
