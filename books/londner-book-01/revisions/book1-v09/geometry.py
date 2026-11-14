@@ -120,7 +120,7 @@ def set_morph(node, i, j, mo=12):
     return set_morph(node['a'], i, j, mo) or set_morph(node['b'], i, j, mo)
 
 
-def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=(), inset_dy=0):
+def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=(), inset_dy=0, roomy_amt=0.55):
     """Return {index: {'poly': [...]} or {'circle': (x,y,w,h)}} for n panels in reading order.
     The inset (if any) is a circle over the joint; the rest fill the page with the recipe."""
     if H < 100:   # landscape album: thin strips become columns
@@ -137,7 +137,7 @@ def page_shapes(recipe, n, hero=None, morphs=(), inset=None, roomy=(), inset_dy=
     # panels that carry speech or thought bubbles need room for them (user's rule): a gentler push
     for r in roomy:
         if r in flow and r != hero:
-            bias(tree, flow.index(r), 0.55)
+            bias(tree, flow.index(r), roomy_amt)
     if hero is not None and hero in flow:
         bias(tree, flow.index(hero))
     for a, b in morphs:
