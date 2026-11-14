@@ -52,9 +52,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אכתוב לכם כל מה שאני זוכר: על הבית, על הדרכים, ועל החלום הגדול שלי.",
-      "en": "I will write down everything I remember: about home, about the roads, and about my big dream.",
-      "kind": "adapted",
+      "he": "אכתוב לכם כל מה שאני זוכר: על הבית, על הדרכים, ועל החלום הגדול שלי: לעלות לארץ ישראל.",
+      "en": "I will write down everything I remember: about home, about the roads, and about my big dream: to go up to the Land of Israel.",
+      "kind": "editorial",
       "memoir": "מה שאני אזכור, אכתוב"
      },
      {
@@ -631,8 +631,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "מדי פעם הגיע לחדר אורח. הוא שאל את הילדים שאלות, ואחר כך נתן לחלק מהם גרוש.",
-      "en": "Now and then a visitor came to the cheder. He asked the children questions, and then gave some of them a coin.",
+      "he": "מדי פעם הגיע לחדר אורח. הוא שאל את הילדים שאלות, ואחר כך נתן לחלק מהם גרוש (מטבע קטן).",
+      "en": "Now and then a visitor came to the cheder. He asked the children questions, and then gave some of them a groschen (a small coin).",
       "kind": "adapted",
       "memoir": "כשבא המפקח, שמו ר' משה ורגון, יהודי עשיר בן תורה, כל ילד שידע מה הוא שואל, קיבל ממנו גרוש"
      }
@@ -865,7 +865,7 @@
      {
       "type": "speech",
       "speaker": "הרופא",
-      "he": "לא ללבוש נעליים. בעוד כמה ימים לבוא עוד פעם.",
+      "he": "אסור ללבוש נעליים. בעוד כמה ימים תבוא שוב.",
       "en": "No shoes. Come back again in a few days.",
       "kind": "adapted_speech",
       "memoir": "הוא אומר שלא ללבוש נעליים, בעוד כמה ימים לבוא עוד פעם",
@@ -1205,8 +1205,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אבל אצלנו, \"בלקון\" זאת מרפסת. מלחמה על מרפסות?!",
-      "en": "But where we lived, a \"balkon\" was a balcony. A war over balconies?!",
+      "he": "אבל אצלנו, \"בלקון\" זאת מרפסת.",
+      "en": "But where we lived, a \"balkon\" was a balcony.",
       "kind": "adapted",
       "memoir": "חשבתי על בלקונים, מרפסות"
      }
@@ -1282,12 +1282,11 @@
   },
   {
    "page": 12,
-   "pace": "normal",
+   "pace": "slow",
    "recipe": "rigid-4",
    "order": [
     "B01V07-P12-01",
     "B01V07-P12-02",
-    "B01V07-P12-03",
     "B01V07-P12-04"
    ],
    "hero": "B01V07-P12-04",
@@ -1315,16 +1314,6 @@
       "en": "Mother loved to hear me read.",
       "kind": "adapted",
       "memoir": "אמי ע\"ה היה לה תענוג לשמוע ממני קריאת עיתון"
-     }
-    ],
-    "B01V07-P12-03": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "לבסוף קיבלנו עוד דירה. הרסנו קיר, ונהייתה לנו דירה מרווחת.",
-      "en": "In the end we got another flat. We knocked down a wall, and our home became roomy.",
-      "kind": "adapted",
-      "memoir": "לבסוף קיבלנו את הדירה והחנויות. ... הרסנו קיר ורצפות קרשים חדשים. נהייתה לנו  דירה מרווחת"
      }
     ],
     "B01V07-P12-04": [
@@ -1367,15 +1356,6 @@
      "angle": "over-shoulder",
      "light": "soft warm side light"
     },
-    "B01V07-P12-03": {
-     "id": "B01V07-P12-03",
-     "purpose_he": "מרחב חדש: הקלה ונשימה",
-     "verdict": "new",
-     "new_shows_he": "שוט רחב בלי אנשים: הפתח הרחב במקום הקיר שהוסר, שתי הדירות כחלל אחד מואר, אבק עדין באוויר.",
-     "shot": "wide",
-     "angle": "eye",
-     "light": "bright airy daylight"
-    },
     "B01V07-P12-04": {
      "id": "B01V07-P12-04",
      "purpose_he": "המשפחה שלמה עם רייזל, והצל של הרגל החולה",
@@ -1399,12 +1379,6 @@
      "subject": "other",
      "light": "soft warm side light"
     },
-    "B01V07-P12-03": {
-     "shot": "wide",
-     "angle": "eye",
-     "subject": "landscape",
-     "light": "bright airy daylight"
-    },
     "B01V07-P12-04": {
      "shot": "wide",
      "angle": "high",
@@ -1414,7 +1388,6 @@
    },
    "shows_override": {
     "B01V07-P12-02": "תקריב מעבר לכתפו של איטשע: פני האם המקשיבה, מבט רך, איטשע והעיתון מטושטשים בחזית.",
-    "B01V07-P12-03": "שוט רחב בלי אנשים: הפתח הרחב במקום הקיר שהוסר, שתי הדירות כחלל אחד מואר, אבק עדין באוויר.",
     "B01V07-P12-01": "שוט בינוני מזווית נמוכה (מגובה הילד): האב מסביר בסבלנות, אצבע מורמת, העיתון בידו; מקום לבועה.",
     "B01V07-P12-04": "שוט רחב מזווית גבוהה בבית המורחב, כהמחשה: חמישה בנים ושלוש בנות, כולל רייזל התינוקת בזרועות האם, והאב; איטשע יושב בצד, רגלו החבושה מונחת על שרפרף."
    }
@@ -1588,7 +1561,7 @@
   },
   {
    "page": 14,
-   "pace": "normal",
+   "pace": "fast",
    "recipe": "strips-3",
    "order": [
     "B01V07-P14-01",
@@ -1610,7 +1583,7 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אבא חזר הביתה לפניי. איש מעירנו בא לקחת את בתו, ולקח גם אותי.",
+      "he": "אבא חזר הביתה לפניי. איש מהעיירה בא לקחת את בתו, ולקח גם אותי.",
       "en": "Father went home before me. A man from our town came to fetch his daughter, and took me too.",
       "kind": "adapted",
       "memoir": "אבי הבחורה בא לקחת מבית החולים את ביתו. אז אמרה דודה רבקהלה, שהוא ייקח אותי גם"
@@ -1857,7 +1830,6 @@
    "recipe": "3-wide",
    "order": [
     "B01V07-P16-01",
-    "B01V07-P16-02",
     "B01V07-P16-03",
     "B01V07-P16-04"
    ],
@@ -1875,16 +1847,6 @@
       "en": "Other children took my siddur.",
       "kind": "adapted",
       "memoir": "הילדים השובבים לקחו אותו ממני"
-     }
-    ],
-    "B01V07-P16-02": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "הם זרקו אותו על התנור הגבוה.",
-      "en": "They threw it on top of the tall stove.",
-      "kind": "adapted",
-      "memoir": "וזרקו על התנור"
      }
     ],
     "B01V07-P16-03": [
@@ -1920,15 +1882,6 @@
      "angle": "eye",
      "light": "harsh daylight"
     },
-    "B01V07-P16-02": {
-     "id": "B01V07-P16-02",
-     "purpose_he": "הסידור נעלם למעלה, מחוץ להישג",
-     "verdict": "new",
-     "new_shows_he": "פרט בנקודת מבט מלמטה: הסידור מונח על קצה ראש התנור הגבוה, ליד התקרה, בצל קר.",
-     "shot": "detail",
-     "angle": "pov",
-     "light": "cold upper shadow"
-    },
     "B01V07-P16-03": {
      "id": "B01V07-P16-03",
      "purpose_he": "הגובה הבלתי אפשרי: הילד קטן מול התנור (רחב, מלמטה)",
@@ -1955,12 +1908,6 @@
      "subject": "hands",
      "light": "harsh daylight"
     },
-    "B01V07-P16-02": {
-     "shot": "detail",
-     "angle": "pov",
-     "subject": "object",
-     "light": "cold upper shadow"
-    },
     "B01V07-P16-03": {
      "shot": "wide",
      "angle": "high",
@@ -1975,7 +1922,6 @@
     }
    },
    "shows_override": {
-    "B01V07-P16-02": "פרט בנקודת מבט מלמטה: הסידור מונח על קצה ראש התנור הגבוה, ליד התקרה, בצל קר.",
     "B01V07-P16-01": "תקריב: ידיים של ילדים אחרים חוטפות את הסידור מעל השמיכה, יד הילד נשלחת אחריו, אור יום חד.",
     "B01V07-P16-03": "שוט רחב מזווית גבוהה לאורך התנור: התנור מתנשא כמעט שלושה מטרים אל המצלמה, והילד זעיר על הרצפה למטה, בלי ניסיון טיפוס.",
     "B01V07-P16-04": "תקריב בצללית: הילד יושב ליד מיטתו מול חלון דמדומים כחול, ידיו ריקות בחיקו; רוב הפריים חלל כהה."
@@ -2223,9 +2169,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "באנו הביתה, והייתי בריא. עד היום, ברוך השם.",
-      "en": "We came home, and I was healthy. To this day, thank God.",
-      "kind": "adapted",
+      "he": "באנו הביתה, והייתי בריא. עד היום, ברוך השם. והחלום הגדול שלי עוד חיכה.",
+      "en": "We came home, and I was well. To this day, thank God. And my big dream was still waiting.",
+      "kind": "editorial",
       "memoir": "באנו הביתה בריא עד היום ב\"ה"
      }
     ],
@@ -2416,8 +2362,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "פעם אבא פתח ארגז סחורה מבית החרושת, ובדק אותו מול החשבון. משהו לא הסתדר.",
-      "en": "Once Father opened a crate of goods from the factory and checked it against the bill. Something did not add up.",
+      "he": "פעם אבא פתח ארגז סחורה מהספק שלו, האיש שמכר לו סחורה, ובדק אותו מול החשבון. משהו לא הסתדר.",
+      "en": "Once Father opened a crate of goods from his supplier, the man who sold him merchandise, and checked it against the bill. Something did not add up.",
       "kind": "adapted"
      }
     ],
@@ -2815,8 +2761,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "חוה אחותי נשארה בבית עם רייזל הקטנה. אחי שמעון נסע לדודים בוורשה, ואחי לייבל לדוד שמעון במיעכוב.",
-      "en": "My sister Chava stayed home with little Reizel. My brother Shimon went to our relatives in Warsaw, and my brother Leibel to Uncle Shimon in Miechów.",
+      "he": "החלטנו יחד: חוה אחותי נשארה בבית עם רייזל הקטנה. אחי שמעון נסע לדודים בוורשה, ואחי לייבל לדוד שמעון במיעכוב.",
+      "en": "We decided together: my sister Chava stayed home with little Reizel. My brother Shimon went to our relatives in Warsaw, and my brother Leibel to Uncle Shimon in Miechów.",
       "kind": "adapted"
      }
     ],
@@ -2828,22 +2774,14 @@
       "en": "I brought my sister Sarale to our aunt and uncle in Kielce. From there I went on to Uncle Meir in Lodz.",
       "kind": "adapted",
       "memoir": "את שרהלה אני אקח עד קילץ, מתי אני אסע ללודז'"
-     },
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "אחרי זמן מה שמעתי כי קיבלו אותה בשמחה.",
-      "en": "After a while I heard they had welcomed her gladly.",
-      "kind": "quote",
-      "memoir": "אחרי זמן מה שמעתי כי קיבלו אותה בשמחה"
      }
     ],
     "NEW-P24-map": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עכשיו אספר לכם לאן הלך כל אחד מאיתנו. כל אחד עבר לגור אצל קרובים שדאגו לו.",
-      "en": "Now I will tell you where each of us went. Each of us went to live with relatives who took care of us.",
+      "he": "ישבנו וחשבנו יחד איך לדאוג לכל ילד.",
+      "en": "We sat down and thought together about how to take care of every child.",
       "kind": "adapted"
      }
     ]
@@ -2967,7 +2905,7 @@
     ]
    },
    "note_he": "הוסר פאנל 02 הכפול; הדגש עבר לשרהלה שלומדת עם הבנים, רגע ההקלה של העמוד. אין כאן שום רמז להמשך גורלה. עורך: גיוון תמונות: שלוש תמונות של אותה משפחה בפנים הבית באותו אור חם יחזרו על עצמן; צריך פתיחה מבחוץ וסיום קרוב על שרהלה. עורך: צילום: מבית בודד מבחוץ, דרך תמונה קבוצתית, אל תקריב נמוך של שרהלה מעל הספר: מרחק, זווית ואור משתנים בכל פאנל, ויצחק כלל אינו בעמוד.",
-   "title": "מה קרה אחרי הדלת",
+   "title": "בית חדש לשרהלה",
    "purpose": {
     "B01V07-P25-01": {
      "id": "B01V07-P25-01",
@@ -3084,8 +3022,8 @@
      {
       "type": "caption",
       "speaker": "",
-      "he": "תמונה אמיתית: סבא יצחק בצעירותו.",
-      "en": "Real photo: Grandpa Yitzhak as a young man.",
+      "he": "סבא יצחק בצעירותו.",
+      "en": "Grandpa Yitzhak as a young man.",
       "kind": "editorial"
      }
     ]
@@ -3344,8 +3282,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הצטרפנו להנהלה הציונית בלודז׳, וקיבלנו משימות.",
-      "en": "We joined the Zionist leadership in Lodz and were given tasks.",
+      "he": "הצטרפנו להנהלה הציונית בלודז׳ (הארגון שעזר לעלות לארץ ישראל), וקיבלנו משימות.",
+      "en": "We joined the Zionist Executive in Lodz (the organization that helped people go up to the Land of Israel), and were given tasks.",
       "kind": "adapted",
       "memoir": "החלטנו ללכת להנהלה הציונית בלודז', ראש ההנהלה היה ד\"ר רוזנבלט, קיבלו אותנו, נתנו לנו תפקידים לאסוף כסף לקרן הקיימת"
      },
@@ -3372,8 +3310,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אספנו כסף לקרן הקיימת בקופסאות הכחולות, כדי לקנות אדמות בארץ ישראל.",
-      "en": "We collected money for the Jewish National Fund in the blue boxes, to buy land in the Land of Israel.",
+      "he": "אספנו כסף לקרן הקיימת, הקרן שקונה אדמות בארץ ישראל.",
+      "en": "We collected money for the Jewish National Fund, which buys land in the Land of Israel.",
       "kind": "adapted"
      }
     ]
@@ -3528,8 +3466,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הבנתי שהדודה כבר לא יכולה להחזיק אותי בביתה.",
-      "en": "I understood that my aunt could no longer keep me in her home.",
+      "he": "הבנתי שדודה נחלה כבר לא יכולה להחזיק אותי בביתה.",
+      "en": "I understood that Aunt Nechala could no longer keep me in her home.",
       "kind": "adapted"
      }
     ],
@@ -3800,8 +3738,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הצטרפתי למהנדסים, ומדדנו דרכים וגשרים. העבודה הייתה קלה יותר, ושילמו בה הרבה יותר.",
-      "en": "I joined the engineers, and we measured roads and bridges. The work was easier, and it paid much better.",
+      "he": "הצטרפתי למהנדסים, ומדדנו דרכים וגשרים. העבודה הייתה קלה, וכסף לא היה חסר.",
+      "en": "I joined the engineers, and we measured roads and bridges. The work was easy, and there was no shortage of money.",
       "kind": "adapted"
      }
     ],
@@ -3809,8 +3747,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "האיכרים דיברו פולנית, המהנדס דיבר רק גרמנית, ואני הייתי המתורגמן ביניהם. מה שלמדתי בלודז׳ הפך פתאום ליתרון שלי.",
-      "en": "The farmers spoke Polish, the engineer spoke only German, and I was the interpreter between them. What I had learned in Lodz suddenly became my advantage.",
+      "he": "האיכרים דיברו פולנית, המהנדס דיבר רק גרמנית, ואני הייתי המתורגמן ביניהם. הגרמנית שידעתי הפכה פתאום ליתרון שלי.",
+      "en": "The peasants spoke Polish, the engineer spoke only German, and I was the interpreter between them. The German I knew suddenly became my advantage.",
       "kind": "editorial"
      }
     ]
@@ -3916,8 +3854,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "התאהבתי בחקלאות. חלמתי על אדמה משלי, ועל חיים שקטים ובטוחים.",
-      "en": "I fell in love with farming. I dreamed of land of my own, and of a calm and secure life.",
+      "he": "התאהבתי בחקלאות. חלמתי לנסוע לארץ ישראל ולהיות חקלאי.",
+      "en": "I fell in love with farming. I dreamed of going to the Land of Israel and becoming a farmer.",
       "kind": "editorial"
      }
     ]
@@ -4133,8 +4071,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "התיק נשאר ריק. החלום נדחה.",
-      "en": "The bag stayed empty. The dream had to wait.",
+      "he": "הסרטיפיקט וההמלצות היו מוכנים. החלום נדחה.",
+      "en": "The certificate and the recommendations were ready. The dream was put off.",
       "kind": "editorial",
       "memoir": ""
      }
@@ -4143,8 +4081,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הכל היה מוכן: החלום, ההמלצות, הרצון. חסר רק דבר אחד: דרכון ואישורים. ואותם לא הצלחתי לקבל.",
-      "en": "Everything was ready: the dream, the recommendations, the will. Only one thing was missing: a passport and papers. And those I could not get.",
+      "he": "חסר רק דבר אחד: דרכון ואישורים. ואותם לא הצלחתי לקבל.",
+      "en": "Only one thing was missing: a passport and permits. And those I could not get.",
       "kind": "adapted",
       "memoir": ""
      },
@@ -4171,8 +4109,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "ואז פרצה מלחמה חדשה, בין פולין לבולשביקים, והצבא גייס את ראובן אחי.",
-      "en": "Then a new war broke out, between Poland and the Bolsheviks, and the army drafted my brother Reuven.",
+      "he": "ואז פרצה מלחמה חדשה, בין פולין לבולשביקים (הצבא הרוסי האדום), והצבא גייס את ראובן אחי.",
+      "en": "Then a new war broke out, between Poland and the Bolsheviks (the Red Army), and the army drafted my brother Reuven.",
       "kind": "adapted"
      }
     ]
@@ -4271,8 +4209,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "עכשיו, כשראובן בצבא, הבית היה צריך אותי. השתמשתי בתעודת הלידה של לייבל אחי, וכך נשארתי בבית עוד שנה.",
-      "en": "Now, with Reuven in the army, home needed me. I used my brother Leibel's birth certificate, and so I stayed home another year.",
+      "he": "קראו לצבא את ילידי 1901. לקחתי את תעודת הלידה של לייבל אחי, משנת 1902, ונסעתי ללודז׳ כאילו אני צעיר בשנה.",
+      "en": "They called up those born in 1901. I took the birth certificate of my brother Leibel, from 1902, and went to Lodz as if I were a year younger.",
       "kind": "adapted"
      }
     ],
@@ -4329,8 +4267,8 @@
      {
       "type": "caption",
       "speaker": "",
-      "he": "תמונה אמיתית: סבא יצחק בגיל 17, במדים.",
-      "en": "Real photo: Grandpa Yitzhak at 17, in uniform.",
+      "he": "סבא יצחק בצעירותו, במדים.",
+      "en": "Grandpa Yitzhak as a young man, in uniform.",
       "kind": "editorial"
      }
     ]
@@ -4422,7 +4360,6 @@
    "recipe": "2-1-2",
    "order": [
     "B01V07-P36-01",
-    "NEW-P36-b",
     "B01V07-P36-02",
     "NEW-P36-a",
     "B01V07-P36-03",
@@ -4435,6 +4372,14 @@
    "removed": [],
    "texts": {
     "B01V07-P36-01": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "אותו לילה בגשר היה מפחיד. אבל בזכות מה שעשיתי, כולנו ניצלנו.",
+      "en": "That night on the bridge was frightening. But thanks to what I did, we were all saved.",
+      "kind": "editorial",
+      "memoir": ""
+     },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
@@ -4451,45 +4396,6 @@
       "kind": "adapted_thought",
       "memoir": "הייתי ער עד לפנות בוקר",
       "mouth": "center"
-     }
-    ],
-    "NEW-P36-b": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "לפנות בוקר הגיעו קצינים זרים ורצו שאעזוב.",
-      "en": "Before dawn, strange officers came and wanted me to leave.",
-      "kind": "adapted"
-     },
-     {
-      "type": "speech",
-      "speaker": "קצין מהחזית",
-      "he": "זוז מכאן! אנחנו מחליפים אתכם.",
-      "en": "Move! We are taking over.",
-      "kind": "adapted_speech",
-      "at": [
-       0.4,
-       0.8
-      ],
-      "mouthXY": [
-       0.2,
-       0.22
-      ]
-     },
-     {
-      "type": "speech",
-      "speaker": "יצחק",
-      "he": "אני מקבל פקודות רק מהמפקד שלי.",
-      "en": "I take orders only from my commander.",
-      "kind": "adapted_speech",
-      "at": [
-       0.4,
-       0.05
-      ],
-      "mouthXY": [
-       0.93,
-       0.25
-      ]
      }
     ],
     "B01V07-P36-02": [
@@ -4535,8 +4441,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "תוך חמישה רגעים כל הפלוגה הייתה בצד השני של הגשר. ניצלנו ברגע האחרון, ואני פחדתי מאוד.",
-      "en": "Within five minutes the whole company was across the bridge. We were saved at the last moment, and I was very scared.",
+      "he": "תוך חמישה רגעים כל הפלוגה הייתה בצד השני של הגשר, ואחר כך ברחנו.",
+      "en": "Within five minutes the whole company was across the bridge, and then we ran.",
       "kind": "adapted"
      }
     ]
@@ -4552,15 +4458,6 @@
      "shot": "wide",
      "angle": "high",
      "light": "cold blue moonlit night"
-    },
-    "NEW-P36-b": {
-     "id": "NEW-P36-b",
-     "purpose_he": "עמידה: לא זז בלי פקודה",
-     "verdict": "new",
-     "new_shows_he": "בינוני מזווית נמוכה: הקצין מהחזית וחייליו כצלליות גבוהות משמאל מול שמי לילה, יצחק ישר ושקט מימין עם הרובה; שני הדוברים נראים.",
-     "shot": "medium",
-     "angle": "low",
-     "light": "moonlit silhouettes, dark blue"
     },
     "B01V07-P36-02": {
      "id": "B01V07-P36-02",
@@ -4602,12 +4499,6 @@
      "subject": "yitzhak",
      "light": "cold blue moonlit night"
     },
-    "NEW-P36-b": {
-     "shot": "medium",
-     "angle": "low",
-     "subject": "other",
-     "light": "moonlit silhouettes, dark blue"
-    },
     "B01V07-P36-02": {
      "shot": "extreme-wide",
      "angle": "pov",
@@ -4635,7 +4526,6 @@
    },
    "shows_override": {
     "B01V07-P36-01": "רחב מזווית גבוהה: שורות חיילים ישנים בחזית, ויצחק לבד ליד הגשר נשען על הרובה ומחזיק את עצמו ער; ירח וכוכבים, לילה כחול כהה, בלי שמש.",
-    "NEW-P36-b": "בינוני מזווית נמוכה: הקצין מהחזית וחייליו כצלליות גבוהות משמאל מול שמי לילה, יצחק ישר ושקט מימין עם הרובה; שני הדוברים נראים.",
     "B01V07-P36-02": "רחב מאוד מנקודת מבטו של יצחק: הנהר והקנים בחושך שלפני השחר, ערפל, רק פס אפור דק באופק; בלי שמש.",
     "B01V07-P36-03": "בינוני מזווית נמוכה: יצחק צועק ומעיר חייל שוכב, תנועה חדה, חושך כחול עם אפור ראשון; בלי דיסק שמש.",
     "NEW-P36-a": "עיגול תקריב קיצוני: עיניו של יצחק בחושך לפנות בוקר, מקשיב; בלי אויב נראה.",
@@ -4648,17 +4538,11 @@
    "recipe": "zig-4",
    "order": [
     "B01V07-P37-01",
-    "B01V07-P37-02",
     "B01V07-P37-03",
     "B01V07-P37-04"
    ],
    "hero": "B01V07-P37-01",
-   "morph": [
-    [
-     "B01V07-P37-01",
-     "B01V07-P37-02"
-    ]
-   ],
+   "morph": [],
    "inset": null,
    "new_panels": [],
    "removed": [],
@@ -4673,7 +4557,6 @@
       "memoir": "ואז בא הקצין שלי ולקח גם אותי וברחנו"
      }
     ],
-    "B01V07-P37-02": [],
     "B01V07-P37-03": [
      {
       "type": "caption",
@@ -4692,15 +4575,6 @@
       "en": "The wish to go to the Land of Israel stayed with me.",
       "kind": "adapted",
       "memoir": "רק אצלי היה עוד על הפרק, לנסוע לארץ ישראל"
-     },
-     {
-      "type": "thought",
-      "speaker": "יצחק",
-      "he": "בלי פספורט אני מפחד לנסוע. יתפסו אותי בגבול.",
-      "en": "Without a passport I'm afraid to travel. They'll catch me at the border.",
-      "kind": "adapted_thought",
-      "memoir": "אני בלי פספורט פחדתי לנסוע, לבזבז כסף, ויתפסו אותי בדרך, בגבול",
-      "mouth": "center, above Yitzhak"
      }
     ]
    },
@@ -4711,15 +4585,6 @@
      "id": "B01V07-P37-01",
      "purpose_he": "הכרת תודה: המפקד חזר בשבילו",
      "verdict": "keep"
-    },
-    "B01V07-P37-02": {
-     "id": "B01V07-P37-02",
-     "purpose_he": "סוף הסכנה: הגשר בידיים אחרות",
-     "verdict": "redirect",
-     "new_shows_he": "רחב מאוד ממבט ציפור: הגשר רחוק עם חיילים זעירים עליו, שביל מתפתל, שתי נקודות קטנות מתרחקות; הערפל מתפזר.",
-     "shot": "extreme-wide",
-     "angle": "birds-eye",
-     "light": "cool morning mist dispersing"
     },
     "B01V07-P37-03": {
      "id": "B01V07-P37-03",
@@ -4747,12 +4612,6 @@
      "subject": "yitzhak",
      "light": "golden sunrise"
     },
-    "B01V07-P37-02": {
-     "shot": "extreme-wide",
-     "angle": "birds-eye",
-     "subject": "landscape",
-     "light": "cool morning mist dispersing"
-    },
     "B01V07-P37-03": {
      "shot": "detail",
      "angle": "eye",
@@ -4767,7 +4626,6 @@
     }
    },
    "shows_override": {
-    "B01V07-P37-02": "רחב מאוד ממבט ציפור: הגשר רחוק עם חיילים זעירים עליו, שביל מתפתל, שתי נקודות קטנות מתרחקות; הערפל מתפזר.",
     "B01V07-P37-03": "פרט בגובה עין: מעיל צבאי ומצנפת תלויים על וו בבית, אור פנים חם.",
     "B01V07-P37-04": "בינוני מזווית גבוהה: יצחק בבגדים אזרחיים מעל ניירות העלייה, מבט דואג, מנורה בלילה.",
     "B01V07-P37-01": "רחב בגובה עין: המפקד ויצחק הולכים יחד בשביל הרחק מהגשר (האיור הקיים)."
@@ -4793,8 +4651,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "קיבלתי מכתב מהניך [חנוך לונדנר], בן דוד שלנו. הוא כתב שיש לו בת, ושאבוא לדומברובה לראות אותה.",
-      "en": "I got a letter from Henech [Hanoch Londner], our cousin. He wrote that he had a daughter, and that I should come to Dąbrowa to meet her.",
+      "he": "קיבלתי מכתב מהניך, בן דוד שלנו. הוא כתב שיש לו בת, ושאבוא לדומברובה לראות אותה.",
+      "en": "I received a letter from Henich, our cousin. He wrote that he had a daughter and that I should come to Dombrowa to see her.",
       "kind": "adapted",
       "memoir": "קיבלתי מכתב מהניך, כי יש לו בת,  והוא רוצה שאני אבוא לדומברובה לראות את הבת"
      }
@@ -4957,9 +4815,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בשנת 1922 התחתנו, חוה ואני. התרגשתי מאוד: התחלנו את החיים שלנו בדיוק כמו שהבטחנו זה לזה, בחדר משלנו ועם פינה קטנה בחנות.",
-      "en": "In 1922 Chava and I were married. I was so moved: we began our life exactly as we had promised each other, with a room of our own and a little corner in the shop.",
-      "kind": "editorial"
+      "he": "בשנת 1922 התחתנו, חוה ואני. גרנו בבית של חמי, בחדר אחד ועם פינה קטנה בחנות.",
+      "en": "In 1922 Chava and I were married. We lived in my father-in-law's house, in one room with a small corner in the shop.",
+      "kind": "adapted"
      }
     ],
     "B01V07-P39-02": [
@@ -5419,8 +5277,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שוב לחכות, בלי לדעת אם יאשרו אותי ומתי. ההמתנה הזאת הייתה קשה מאוד.",
-      "en": "Waiting again, without knowing if or when they would approve me. That waiting was very hard.",
+      "he": "שוב לחכות, בלי לדעת אם יאשרו אותי.",
+      "en": "Waiting again, without knowing whether they would approve me.",
       "kind": "editorial"
      }
     ],
@@ -5567,9 +5425,9 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "גם מס הכנסה דרש ממני לשלם חוב. אמרתי להם את האמת: אין לי כסף.",
-      "en": "The tax office also demanded I pay a debt. I told them the truth: I have no money.",
-      "kind": "adapted"
+      "he": "גם מס הכנסה דרש ממני לשלם חוב. אמרתי להם את האמת, כמו שאבא לימד אותנו: אין לי כסף.",
+      "en": "The tax office also demanded that I pay a debt. I told them the truth, as Father taught us: I had no money.",
+      "kind": "editorial"
      },
      {
       "type": "caption",
@@ -5677,7 +5535,7 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שמיכות וכרים, פרימוס, וקצת אוכל יבש שיהיה לנו כשנגיע: שומן, גריסים ואטריות.",
+      "he": "שמיכות וכרים, פרימוס (תנור קטן לנסיעה), וקצת אוכל יבש שיהיה לנו כשנגיע: שומן, גריסים ואטריות.",
       "en": "Blankets and pillows, a Primus stove, and a little dry food for when we arrived: fat, groats and noodles.",
       "kind": "adapted",
       "memoir": "לקחתי איתי מכונת פרימוס, וגם קצת אוכל, שיהיה לנו מה לאכול כי נבוא ארצה - שומן בשר, גריסים ואטריות"
