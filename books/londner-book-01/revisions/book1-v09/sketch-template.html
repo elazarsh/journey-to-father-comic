@@ -9,8 +9,15 @@
 <style>
 @font-face{font-family:'Gveret';src:url(fonts/GveretLevin-Regular.ttf);font-display:block}
 @font-face{font-family:'Amatic';src:url(fonts/AmaticSC-Bold.ttf);font-weight:700;font-display:block}
+@font-face{font-family:'RubikC';src:url(fonts/Rubik-Medium.ttf);font-display:block}
+@font-face{font-family:'HeeboC';src:url(fonts/Heebo-Medium.ttf);font-display:block}
+@font-face{font-family:'AssistantC';src:url(fonts/Assistant-SemiBold.ttf);font-display:block}
+@font-face{font-family:'VarelaC';src:url(fonts/VarelaRound-Regular.ttf);font-display:block}
 @font-face{font-family:'Karantina';src:url(fonts/Karantina-Bold.ttf);font-weight:700;font-display:block}
-:root{--hand:'Gveret','Heebo',sans-serif;--handscale:1.04;--handw:400;--bold:'Karantina','Rubik',sans-serif}
+:root{--capfont:'RubikC','Heebo',sans-serif;--hand:'Gveret','Heebo',sans-serif;--handscale:1.04;--handw:400;--bold:'Karantina','Rubik',sans-serif}
+html.cap-heebo{--capfont:'HeeboC','Heebo',sans-serif}
+html.cap-assistant{--capfont:'AssistantC','Heebo',sans-serif}
+html.cap-varela{--capfont:'VarelaC','Heebo',sans-serif}
 html.hand-amatic{--hand:'Amatic','Heebo',sans-serif;--handscale:1.5;--handw:700}
 html.hand-karantina{--hand:'Karantina','Heebo',sans-serif;--handscale:1.12;--handw:700}
 :root{--room:#0d0907;--ink:#1b1410;--gold:#e0a84f;--paper:#fffdf6;--rim:#efe3c8;--cap:#fff6e4;--capbg:rgba(10,7,4,.62);--muted:#b9a88c}
@@ -58,7 +65,7 @@ body.work .ph .pur{display:block}
 body.work .pid{display:block}
 /* lettering */
 .tx{position:absolute;z-index:20;font-size:clamp(.68rem,2.05cqw,1.24rem);line-height:1.3;text-wrap:balance;text-align:center}
-.tx.cap{font-family:var(--hand);font-weight:var(--handw);font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale)*1.0);color:#1b1410;background:#fbf1d6;border:2px solid #1b1410;box-shadow:3px 3px 0 rgba(27,20,16,.9);padding:.3em .6em .35em;border-radius:2px;line-height:1.25;text-align:start}
+.tx.cap{font-family:var(--capfont);font-weight:500;font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*.9);color:#1b1410;background:#fbf1d6;border:2px solid #1b1410;box-shadow:3px 3px 0 rgba(27,20,16,.9);padding:.3em .6em .35em;border-radius:2px;line-height:1.25;text-align:start}
 .tx.bub,.tx.tho,.tx.whi{font-family:var(--hand);font-weight:var(--handw);font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale));color:#1b1410;background:none;border:0;padding:.3em .6em;line-height:1.2}
 .tx.tho{border-radius:42%/40%}
 .tx.whi{border-style:dashed}
@@ -163,7 +170,7 @@ html.print .pw{animation:none!important}
 (function () {
   var DATA = /*DATA*/null;
   if (DATA && DATA.landscape) document.documentElement.classList.add('land');
-  var Q = new URLSearchParams(location.search); if (Q.get('hand')) document.documentElement.classList.add('hand-' + Q.get('hand')); if (Q.has('print')) document.documentElement.classList.add('print');
+  var Q = new URLSearchParams(location.search); if (Q.get('cap')) document.documentElement.classList.add('cap-' + Q.get('cap')); if (Q.get('hand')) document.documentElement.classList.add('hand-' + Q.get('hand')); if (Q.has('print')) document.documentElement.classList.add('print');
   var lang = Q.get('lang') === 'en' ? 'en' : 'he', SVGNS = 'http://www.w3.org/2000/svg';
   var UI = {
     he: { sub: 'סקיצת עימוד, גרסה 0.8. תמונות שעוד לא צוירו מוצגות כמשבצת עם תיאור.', prog: function (a, b) { return a + ' מתוך ' + b + ' תמונות מוכנות'; }, page: 'עמוד', wait: 'ממתין לתמונה', newp: 'משבצת חדשה', lang: 'English', work: 'סימוני עבודה',
