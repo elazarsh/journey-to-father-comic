@@ -1,0 +1,53 @@
+{
+ "he": {
+  "series": "סיפורי סבא יצחק · ספר 1",
+  "title": "הדרך של איטשע",
+  "subtitle": "סיפור אמיתי בקומיקס",
+  "credit": "על פי הזיכרונות שכתב יצחק מאיר לונדנר לילדיו ולנכדיו, 1971",
+  "dedication": "לזיכרון הבנים והבת והנכדים.",
+  "dedicationNote": "כך פתח סבא יצחק את המחברת שבה כתב את זיכרונותיו, בשנת 1971.",
+  "cardTitle": "מה לקחתי מהדרך",
+  "takeaways": [
+   "לשאול, ללמוד ולנסות.",
+   "לשמור על יושר, גם כשאף אחד לא בודק.",
+   "לקחת אחריות ויוזמה, בלי לחכות שמישהו יעזור מבחוץ.",
+   "להאמין בחלום וללכת אחריו בביטחון, גם כשצריך לעבוד קשה."
+  ],
+  "continued": "המשך יבוא...",
+  "blurb": [
+   "יונדזיוב, פולין, שנת 1900. ילד קטן גדל בחנות עורות שבלילה הופכת לחדר שינה.",
+   "הוא ממשיך ללמוד גם מתוך המיטה, נוסע עם אבא אל רופאים בערים רחוקות, עובד לבד בעיר הגדולה ושומר לילה שלם על גשר.",
+   "ולאורך כל הדרך הוא נושא איתו חלום אחד גדול."
+  ],
+  "forWho": "על פי היומן שכתב יצחק מאיר לונדנר לילדיו ולנכדיו"
+ },
+ "en": {
+  "series": "GRANDPA YITZHAK’S STORIES · BOOK 1",
+  "title": "Itshe’s Journey",
+  "subtitle": "A true story in comics",
+  "credit": "Based on the memoir Yitzhak Meir Londner wrote for his children and grandchildren, 1971",
+  "dedication": "In memory, for my sons, my daughter and my grandchildren.",
+  "dedicationNote": "This is how Grandpa Yitzhak opened the notebook of his memories, in 1971.",
+  "cardTitle": "What I took from the journey",
+  "takeaways": [
+   "Ask, learn and try.",
+   "Stay honest, even when nobody is checking.",
+   "Take responsibility and initiative, without waiting for help from outside.",
+   "Believe in your dream and follow it with confidence, even when it means working hard."
+  ],
+  "continued": "To be continued...",
+  "blurb": [
+   "Jędrzejów, Poland, 1900. A little boy grows up in a leather shop that turns into a bedroom at night.",
+   "He keeps learning even from his bed, travels with his father to doctors in faraway cities, works alone in the big city and keeps watch all night on a bridge.",
+   "And all along the way he carries one big dream."
+  ],
+  "forWho": "Based on the diary Yitzhak Meir Londner wrote for his children and grandchildren"
+ },
+ "previousCoverArtId": "B01V07-P02-02",
+ "coverArtFile": "art/book1-v08-cover/cover-v01.webp",
+ "coverMasterFile": "art/book1-v08-cover/cover-v01.png",
+ "coverStatus": "Dedicated cover generated; family review pending. Use 2:3 or A4 centered without zoom.",
+ "titleArtFile": "art/book1-v08-corrections/extras/opening-dedication-background-v01.webp",
+ "backPhotoFile": "ref/S08-img002.jpg",
+ "closeArtFile": "art/book1-v08-claude/yitzhak-four-ages-v01.png"
+}
