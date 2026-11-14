@@ -9,6 +9,9 @@
 | **Claude Code** | הסקיל הזה (`.claude/skills/family-comic-book`) + `CLAUDE.md` במאגר הספר | תסריט סופי, פריסה, כיתוב, אתר, PDF, בדיקות |
 | **Gemini / אחר** | `gpt-instructions.md` כהנחיית מערכת | כמו ChatGPT |
 
+## קבצי תהליך חשובים
+`references/roles-and-rounds.md` (סבבי ביקורת ותבניות תדריך) ו־`references/decisions-and-rules.md` (כללי ברזל ותבנית `RULES.md`) חלים על כל כלי. בכל כלי: הכרעות המשתמש נכנסות מיד ל־`RULES.md`, ואין שינוי בלי אישור.
+
 ## איך עובדים במקביל
 1. פותחים מאגר פרטי לספר (ראו `templates/new-book-repo.md`).
 2. כל כלי מקבל את קובץ ההנחיות שלו ועובד רק בתיקיות שלו; מסירות דרך `handoffs/<כלי>/`.
