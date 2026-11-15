@@ -625,8 +625,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "ידעתי את כל התשובות. אבל לי הוא לא נתן!",
-      "en": "I knew all the answers. But he did not give me any!",
+      "he": "ידעתי את כל התשובות, ולי הוא לא נתן כלום.",
+      "en": "I knew all the answers, and he gave me nothing.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -884,8 +884,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "נפצעתי ממסמר גם ברגל השנייה. עכשיו שתיהן חבושות.",
-      "en": "I got hurt by a nail in the other foot too. Now both are bandaged.",
+      "he": "אוי, גם הרגל השנייה. עכשיו שתיהן חבושות.",
+      "en": "Oh, the other foot too. Now both are bandaged.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -895,8 +895,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "הרופא אמר להישאר במיטה. אני לא יכול ללכת ללמוד.",
-      "en": "The doctor said to stay in bed. I cannot go to study.",
+      "he": "הרופא אמר להישאר במיטה... ואיך אלך ללמוד?",
+      "en": "The doctor said to stay in bed... and how will I go to study?",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -1101,8 +1101,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "אני קורא, ומבין יותר ויותר.",
-      "en": "I read, and I understand more and more.",
+      "he": "רגע, אני מתחיל להבין מה כתוב כאן...",
+      "en": "Wait, I am starting to understand what it says here...",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -1355,8 +1355,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "הבית גדל, אבל הרגל שלי עדיין חולה.",
-      "en": "The house grew, but my leg is still sick.",
+      "he": "הבית גדל, ואני עדיין עם הרגל החולה.",
+      "en": "The house has grown, and I am still with the sick leg.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -1505,8 +1505,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "רגל אחת החלימה מהר יותר. השנייה עדיין לא.",
-      "en": "One leg healed faster. The other still has not.",
+      "he": "רגל אחת כבר מרגישה יותר טוב. השנייה עדיין לא.",
+      "en": "One leg is already feeling better. The other one still is not.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -1753,8 +1753,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "האוכל טוב והשירות טוב. אבל אני לבד בין זרים, ויש כאן ילדים שובבים.",
-      "en": "The food is good and the service is good. But I am alone among strangers, and there are naughty children here.",
+      "he": "הכול כאן טוב, אבל אני לבד בין זרים. ויש פה ילדים שובבים...",
+      "en": "Everything here is good, but I am alone among strangers. And there are naughty children here...",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -1883,8 +1883,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "לא יכולתי להתפלל.",
-      "en": "I could not pray.",
+      "he": "בלי הסידור אני לא יכול להתפלל.",
+      "en": "Without my prayer book I cannot pray.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -2288,8 +2288,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "התפקיד שלי: לרחוץ את הכלים. בשר לחוד וחלב לחוד.",
-      "en": "My job: to wash the dishes. Meat apart and milk apart.",
+      "he": "הכלים של הבשר לחוד, ושל החלב לחוד.",
+      "en": "The meat dishes apart, and the milk dishes apart.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -2428,7 +2428,11 @@
       "speaker": "הספק",
       "he": "אני מוכן להישבע בטלית ותפילין שלא חסר כלום!",
       "en": "I am ready to swear on my tallit and tefillin that nothing is missing!",
-      "kind": "adapted"
+      "kind": "adapted",
+      "at": [
+       0.3,
+       0.42
+      ]
      }
     ]
    },
@@ -2538,7 +2542,8 @@
       "speaker": "אבא",
       "he": "אבל לא חסר כלום! שלחת לי חצי תריסר יותר, ואני רוצה להחזיר לך אותם.",
       "en": "But nothing is missing! You sent me half a dozen extra, and I want to give them back.",
-      "kind": "adapted"
+      "kind": "adapted",
+      "ink": "light"
      }
     ],
     "B01V07-P22-03": [
@@ -2554,15 +2559,16 @@
       "speaker": "הספק",
       "he": "אנחנו נשלח לך סחורה, גם אם עוד לא שילמת על הקודמת.",
       "en": "We will send you goods, even if you have not yet paid for the last order.",
-      "kind": "adapted"
+      "kind": "adapted",
+      "ink": "light"
      }
     ],
     "B01V07-P22-04": [
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "אבא היה סוחר נאמן. זה נכנס לנו לראש ונשאר איתנו.",
-      "en": "Father was a faithful merchant. That got into our heads and stayed with us.",
+      "he": "אבא לא הסכים לקחת אפילו חצי תריסר שלא שלנו.",
+      "en": "Father would not agree to keep even half a dozen that were not ours.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -3901,8 +3907,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "איכרים חורשים, זורעים ומגדלים בעצמם את האוכל שלהם!",
-      "en": "Peasants plowing, sowing and growing their own food!",
+      "he": "הם חורשים, זורעים, ומגדלים לעצמם את כל האוכל. כמה זה יפה.",
+      "en": "They plow, they sow, and they grow all their own food. How beautiful.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -4294,8 +4300,8 @@
      {
       "type": "thought",
       "speaker": "יצחק",
-      "he": "לבשתי מדים של פולין, אבל חלמתי על השדות של ארץ ישראל.",
-      "en": "I wore a Polish uniform, but I dreamed of the fields of the Land of Israel.",
+      "he": "אני לובש מדים של פולין, וחולם על השדות של ארץ ישראל.",
+      "en": "I wear a Polish uniform, and I dream of the fields of the Land of Israel.",
       "kind": "adapted_thought",
       "memoir": "התאהבתי מאוד בחקלאות וחשבתי... לנסוע לארץ ישראל להיות חקלאי",
       "mouth": "center"
@@ -4629,11 +4635,11 @@
     ],
     "B01V07-P37-04": [
      {
-      "type": "thought",
-      "speaker": "איטשע",
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
       "he": "הרצון לעלות לארץ נשאר.",
       "en": "The wish to go up to the Land of Israel remains.",
-      "kind": "adapted_thought",
+      "kind": "adapted",
       "memoir": "",
       "mouth": "Yitzhak"
      }
@@ -5080,8 +5086,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "אני חוזר הביתה, ולחלום שלי: לבנות בית בארץ ישראל.",
-      "en": "I am going home, and to my dream: to build a home in the Land of Israel.",
+      "he": "סוף סוף הביתה. ואולי עכשיו אפשר לחשוב שוב על ארץ ישראל.",
+      "en": "Finally home. And maybe now I can think about the Land of Israel again.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -5179,8 +5185,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "בלי סחורה, בלי כסף, והילדה חולה. אבל רעיון ארץ ישראל נשאר אצלי.",
-      "en": "Without goods, without money, and the girl is sick. But the idea of the Land of Israel stays with me.",
+      "he": "אין סחורה, אין כסף, והילדה חולה. מה עושים עכשיו?",
+      "en": "No goods, no money, and the girl is sick. What do we do now?",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -5616,8 +5622,8 @@
      {
       "type": "thought",
       "speaker": "יצחק",
-      "he": "חשבתי שניסע יחד עם הקרובים... אבל אני מפחד לחכות.",
-      "en": "I thought we'd travel together with our relatives... but I'm afraid to wait.",
+      "he": "אולי ניסע יחד עם הקרובים... אבל אני מפחד לחכות.",
+      "en": "Maybe we will travel together with the relatives... but I am afraid to wait.",
       "kind": "adapted_thought",
       "memoir": "חשבתי  כי אני ושמעונלה ובלצ'י ז\"ל  ניסע יחד. אבל פחדתי לחכות",
       "mouth": "above Yitzhak, family ready by the door"
@@ -5974,8 +5980,8 @@
     ],
     "B01V07-P48-03": [
      {
-      "type": "thought",
-      "speaker": "איטשע",
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
       "he": "לא פחדתי משום איומים.",
       "en": "I was not afraid of any threats.",
       "kind": "quote",
