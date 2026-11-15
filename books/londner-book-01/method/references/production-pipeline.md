@@ -43,6 +43,7 @@
 4. כל הכרעת משתמש נכנסת באותו יום ל־`RULES.md`, ורק משם לתדריכים ולפרומפטים. סוכן או כלי תמונות לא נשענים על "מה שדובר".
 5. לפני ציור או כתיבה מחדש של משבצת: חיפוש הכרעה קודמת עליה (`RULES.md`, handoffs).
 6. מסירה: בודק שאינו הכותב. PDF רק כשהכול נבדק.
+7. **חיסכון בעיבוד (בקשת המשתמש):** בגרסאות ביניים מרנדרים PDF מסך (כ־130dpi) או רק את העמודים ששונו. 300dpi להדפסה רק לפי בקשה מפורשת. המטרה של גרסת ביניים היא לראות ולהחליט, והמשתמש מבקש עוד תיקונים.
 
 ## 3. הנחיות לתמונות (לכלי התמונות)
 - **סגנון קבוע** לכל הספר (בלוק סגנון), למשל: "Warm painterly European graphic-novel illustration with Pixar-like emotional expressiveness, fine clean ink outlines, soft cinematic lighting, richly detailed backgrounds, expressive faces."
