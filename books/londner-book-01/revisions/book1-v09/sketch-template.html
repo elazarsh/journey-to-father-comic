@@ -72,6 +72,7 @@ body.work .pid{display:block}
 .tx.cap.ctx{font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale)*.78);background:#e8d19c;padding:.12em .6em .18em;text-align:center;letter-spacing:.04em;box-shadow:2px 2px 0 rgba(27,20,16,.9)}
 .tx.let{font-family:var(--hand);font-weight:var(--handw);font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale)*1.08);color:#2b2340;background:none;border:0;padding:.1em .2em;line-height:1.22;transform:rotate(-1.5deg);text-shadow:0 0 .35em rgba(250,238,205,.95),0 0 .9em rgba(250,238,205,.85),0 0 1.4em rgba(250,238,205,.7)}
 .tx.let.light{background:rgba(24,14,8,.26);border-radius:46% / 58%;padding:.45em 1em;box-shadow:0 0 1.1em .5em rgba(24,14,8,.26);color:#fff3d6;text-shadow:0 0 .12em #1b1410,0 0 .35em rgba(20,12,6,.95),0 0 .8em rgba(20,12,6,.9),1px 2px 3px rgba(0,0,0,.8)}
+.tx.sfx.shouty{font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*2.7);white-space:normal;text-align:center;line-height:1.05;max-width:62%}
 .tx.sfx{font-family:var(--bold);font-weight:700;font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*3.4);color:#ffe27a;-webkit-text-stroke:3px #1b1410;paint-order:stroke fill;letter-spacing:.06em;text-shadow:2px 3px 0 rgba(27,20,16,.8);background:none;border:0;padding:0;transform:rotate(-7deg);white-space:nowrap}
 .tx.sho{font-family:var(--bold);font-weight:700;color:var(--ink);background:#ffe27a;border:2.6px solid var(--ink);padding:.7em 1.1em;clip-path:polygon(0 18%,12% 0,25% 14%,40% 0,55% 12%,70% 0,84% 14%,100% 4%,92% 30%,100% 52%,90% 70%,100% 92%,80% 86%,64% 100%,50% 86%,34% 100%,20% 86%,4% 96%,10% 70%,0 50%,8% 32%)}
 .tx .who{display:none}
@@ -333,7 +334,7 @@ html.print .pw{animation:none!important}
       var rdo = q._pw.querySelector('.redo'); if (rdo) { var rr = rdo.getBoundingClientRect(); obst.push({ x: rr.left - hr.left, y: rr.top - hr.top, w: rr.width, h: rr.height }); }
       (q.texts || []).forEach(function (t) {
         var k = KIND[t.type] || 'cap';
-        var d = el('div', 'tx ' + k + (t.ctx ? ' ctx' : '') + (t.ink === 'light' ? ' light' : '') + (t.isnew ? ' isnew' : ''), host);
+        var d = el('div', 'tx ' + k + (t.ctx ? ' ctx' : '') + (t.ink === 'light' ? ' light' : '') + (t.big ? ' shouty' : '') + (t.isnew ? ' isnew' : ''), host);
         pg._tx.push(d);
         var txt = (lang === 'en' ? (t.en || t.he) : t.he) || '';
         if (t.img) { var mi = el('img', 'memo', d); mi.src = t.img; mi.alt = ''; } else if (t.picture === 'grandchildren') kidsSvg(d); else d.textContent = txt;
@@ -503,10 +504,10 @@ html.print .pw{animation:none!important}
       var stopAt = function (ln) { for (var u = 0; u <= ln; u += 2) { var qx = e[0] + ax * u, qy = e[1] + ay * u; for (var a2 = 0; a2 < (avoid || []).length; a2++) { var rc = avoid[a2], mg = fs * .3; if (qx > rc.x - mg && qx < rc.x + rc.w + mg && qy > rc.y - mg && qy < rc.y + rc.h + mg) return Math.max(u - 2, fs * .8); } } return ln; };
       len = stopAt(len);
       var tip = [e[0] + ax * len, e[1] + ay * len], A = pts[pts.length - 1], B = pts[0];
-      var sg = ax < 0 ? 1 : -1, nx = -ay * sg, ny = ax * sg, cb = len * .1, rt = fs * .13;   /* nearly straight, a hint of curve; rounded tip */
+      var sg = ax < 0 ? 1 : -1, nx = -ay * sg, ny = ax * sg, cb = len * .08, rt = fs * .06;   /* nearly straight; tiny rounded tip, no loop */
       var tA = [tip[0] + nx * rt, tip[1] + ny * rt], tB = [tip[0] - nx * rt, tip[1] - ny * rt];
       dpath += ' Q' + ((A[0] + tA[0]) / 2 + nx * cb).toFixed(1) + ',' + ((A[1] + tA[1]) / 2 + ny * cb).toFixed(1) + ' ' + tA[0].toFixed(1) + ',' + tA[1].toFixed(1);
-      dpath += ' Q' + (tip[0] + ax * rt * 1.5).toFixed(1) + ',' + (tip[1] + ay * rt * 1.5).toFixed(1) + ' ' + tB[0].toFixed(1) + ',' + tB[1].toFixed(1);
+      dpath += ' L' + tB[0].toFixed(1) + ',' + tB[1].toFixed(1);
       dpath += ' Q' + ((B[0] + tB[0]) / 2 + nx * cb * .6).toFixed(1) + ',' + ((B[1] + tB[1]) / 2 + ny * cb * .6).toFixed(1) + ' ' + B[0].toFixed(1) + ',' + B[1].toFixed(1);
     }
     dpath += 'Z';

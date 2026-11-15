@@ -4541,14 +4541,19 @@
     "NEW-P36-a": [],
     "B01V07-P36-03": [
      {
-      "type": "shout",
+      "type": "sfx",
       "speaker": "יצחק",
       "he": "קומו! האויב מתקרב!",
-      "en": "Get up! The enemy is coming!",
+      "en": "Wake up! The enemy is coming!",
       "kind": "staging",
       "memoir": "עשיתי רעש כזה",
       "mouth": "right",
-      "face": 0
+      "face": 0,
+      "big": true,
+      "at": [
+       0.5,
+       0.13
+      ]
      },
      {
       "type": "caption",
@@ -4947,9 +4952,14 @@
       "mouth": "Yitzhak",
       "free": true,
       "mouthXY": [
-       0.95,
-       0.25
-      ]
+       0.85,
+       0.28
+      ],
+      "at": [
+       0.66,
+       0.42
+      ],
+      "fixed": true
      }
     ],
     "B01V07-P39-03": [
