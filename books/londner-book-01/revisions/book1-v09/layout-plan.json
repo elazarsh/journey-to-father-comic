@@ -1961,8 +1961,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "היא לקחה אותי בעגלת חולים לבית הכנסת של בית החולים.",
-      "en": "She took me in a wheelchair to the hospital synagogue.",
+      "he": "היא לקחה אותי לבית הכנסת של בית החולים.",
+      "en": "She took me to the hospital synagogue.",
       "kind": "adapted",
       "memoir": "לקחה אותי על עגלה ונסעה איתי לבית כנסת של הבית חולים"
      }
@@ -2604,7 +2604,7 @@
     "B01V07-P23-03",
     "B01V07-P23-04"
    ],
-   "hero": "B01V07-P23-04",
+   "hero": "B01V07-P23-02",
    "morph": [
     [
      "B01V07-P23-01",
@@ -5785,6 +5785,14 @@
     ],
     "B01V07-P46-03": [],
     "B01V07-P46-04": [
+     {
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "חיכיתי לרגע הזה שנים.",
+      "en": "I had waited for this moment for years.",
+      "kind": "editorial",
+      "memoir": ""
+     },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
