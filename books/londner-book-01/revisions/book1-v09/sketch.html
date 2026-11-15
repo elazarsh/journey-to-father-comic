@@ -488,7 +488,8 @@ html.print .pw{animation:none!important}
     var cloud = k === 'tho', per = Math.PI * (rx + ry), bumps = Math.max(8, Math.round(per / (fs * 1.7)));
     function bumpAt(th) { return cloud ? .06 * Math.abs(Math.sin(th * bumps / 2)) - .03 : 0; }
     var thm = Math.atan2(dy / ry, dx / rx), N = 140, pts = [], tail = !prev && !cloud;
-    var del = tail ? Math.min(.3, (fs * .42) / Math.min(rx, ry)) : 0;   /* small tail: modest base */
+    var del = 0;
+    if (tail) { var p0 = pt(thm), bw = fs * .46; for (var dl = .01; dl < .6; dl += .01) { var p1 = pt(thm + dl); if (Math.hypot(p1[0] - p0[0], p1[1] - p0[1]) >= bw) { del = dl; break; } } if (!del) del = .1; }   /* slender base: about .6 line-heights wide */
     for (var i = 0; i <= N; i++) {
       var th = thm + del + (2 * Math.PI - 2 * del) * i / N;
       pts.push(pt(th, bumpAt(th)));
@@ -498,11 +499,11 @@ html.print .pw{animation:none!important}
     if (tail) {
       var e = pt(thm), gap = Math.hypot(m[0] - e[0], m[1] - e[1]);
       var ax = (m[0] - e[0]) / (gap || 1), ay = (m[1] - e[1]) / (gap || 1);   /* aim straight from the base at the source of the voice */
-      var len = Math.max(fs * 1.0, Math.min(gap * .4, fs * 1.7));   /* small and short, as in the printed comics (family preference) */
+      var len = Math.max(fs * 1.1, Math.min(gap * .45, fs * 1.8));   /* small and short, as in the printed comics (family preference) */
       var stopAt = function (ln) { for (var u = 0; u <= ln; u += 2) { var qx = e[0] + ax * u, qy = e[1] + ay * u; for (var a2 = 0; a2 < (avoid || []).length; a2++) { var rc = avoid[a2], mg = fs * .3; if (qx > rc.x - mg && qx < rc.x + rc.w + mg && qy > rc.y - mg && qy < rc.y + rc.h + mg) return Math.max(u - 2, fs * .8); } } return ln; };
       len = stopAt(len);
       var tip = [e[0] + ax * len, e[1] + ay * len], A = pts[pts.length - 1], B = pts[0];
-      var sg = ax < 0 ? 1 : -1, nx = -ay * sg, ny = ax * sg, cb = len * .1, rt = fs * .1;   /* nearly straight, a hint of curve; rounded tip */
+      var sg = ax < 0 ? 1 : -1, nx = -ay * sg, ny = ax * sg, cb = len * .1, rt = fs * .13;   /* nearly straight, a hint of curve; rounded tip */
       var tA = [tip[0] + nx * rt, tip[1] + ny * rt], tB = [tip[0] - nx * rt, tip[1] - ny * rt];
       dpath += ' Q' + ((A[0] + tA[0]) / 2 + nx * cb).toFixed(1) + ',' + ((A[1] + tA[1]) / 2 + ny * cb).toFixed(1) + ' ' + tA[0].toFixed(1) + ',' + tA[1].toFixed(1);
       dpath += ' Q' + (tip[0] + ax * rt * 1.5).toFixed(1) + ',' + (tip[1] + ay * rt * 1.5).toFixed(1) + ' ' + tB[0].toFixed(1) + ',' + tB[1].toFixed(1);
@@ -510,13 +511,13 @@ html.print .pw{animation:none!important}
     }
     dpath += 'Z';
     svg('path', { d: dpath, fill: FILL, stroke: INK, 'stroke-width': 2.1, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '6 4' : '', filter: 'url(#wobble)' }, g);
-    if (cloud && !prev) {   /* thought: three small soft puffs toward the thinker */
+    if (cloud) {   /* thought: three small soft puffs toward the thinker (always) */
       var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), pf = memo ? 1.9 : 1;
       var bx = (m[0] - e2[0]) / (gap2 || 1), by = (m[1] - e2[1]) / (gap2 || 1);
       var room = gap2 - fs * .2;
       for (var a3 = 0; a3 < (avoid || []).length; a3++) { var rc2 = avoid[a3], mg2 = fs * .3; for (var u2 = 0; u2 <= room; u2 += 2) { var q2x = e2[0] + bx * u2, q2y = e2[1] + by * u2; if (q2x > rc2.x - mg2 && q2x < rc2.x + rc2.w + mg2 && q2y > rc2.y - mg2 && q2y < rc2.y + rc2.h + mg2) { room = Math.min(room, Math.max(u2 - 2, fs * 1.2)); break; } } }
       var dd = Math.max(fs * 1.6 * pf, Math.min(room, fs * 4.2 * pf));
-      [[.2, .52], [.55, .36], [.9, .24]].forEach(function (c) {
+      [[.2, .62], [.55, .43], [.9, .28]].forEach(function (c) {
         svg('circle', { cx: e2[0] + bx * (dd * c[0] + fs * .2), cy: e2[1] + by * (dd * c[0] + fs * .2), r: c[1] * fs * pf, fill: FILL, stroke: INK, 'stroke-width': 2, filter: 'url(#wobble)' }, g);
       });
     }
