@@ -460,13 +460,13 @@ html.print .pw{animation:none!important}
               mt = tgt(x, y);
             }
           }
-          drawTail(host, pg, d, me, mt, k, prev);
+          drawTail(host, pg, d, me, mt, k, prev, fpx.map(function (f2) { return { x: f2.x + f2.w * .17, y: f2.y + f2.h * .2, w: f2.w * .66, h: f2.h * .6 }; }));
           q._lastBub = { speaker: t.speaker || '', k: k, r: me };
         }
       });
     });
   }
-  function drawTail(host, pg, d, r, m, k, prev) {
+  function drawTail(host, pg, d, r, m, k, prev, avoid) {
     /* One continuous shape per bubble: a soft rounded body whose outline flows into the tail (like a hand-lettered comic). */
     var fs = parseFloat(getComputedStyle(d).fontSize), cx = r.x + r.w / 2, cy = r.y + r.h / 2;
     var s = svg('svg', { class: 'tail' + (k === 'sho' ? '' : ' bshape'), width: 1, height: 1 }, host);
@@ -488,7 +488,7 @@ html.print .pw{animation:none!important}
     var cloud = k === 'tho', per = Math.PI * (rx + ry), bumps = Math.max(8, Math.round(per / (fs * 1.7)));
     function bumpAt(th) { return cloud ? .06 * Math.abs(Math.sin(th * bumps / 2)) - .03 : 0; }
     var thm = Math.atan2(dy / ry, dx / rx), N = 140, pts = [], tail = !prev && !cloud;
-    var del = tail ? Math.min(.22, (fs * .3) / Math.min(rx, ry)) : 0;   /* narrow tail base */
+    var del = tail ? Math.min(.34, (fs * .62) / Math.min(rx, ry)) : 0;   /* tail base: wide, tapering to the tip (Comicraft) */
     for (var i = 0; i <= N; i++) {
       var th = thm + del + (2 * Math.PI - 2 * del) * i / N;
       pts.push(pt(th, bumpAt(th)));
@@ -497,18 +497,25 @@ html.print .pw{animation:none!important}
     for (var j = 1; j < pts.length; j++) dpath += ' L' + pts[j][0].toFixed(1) + ',' + pts[j][1].toFixed(1);
     if (tail) {
       var e = pt(thm), gap = Math.hypot(m[0] - e[0], m[1] - e[1]);
-      var len = Math.max(fs * 1.1, Math.min(gap * .8, fs * 3.2));   /* a third to half of the way to the mouth */
-      var tip = [e[0] + ux * len, e[1] + uy * len], A = pts[pts.length - 1], B = pts[0];
-      var bend = fs * .16, px = -uy, py = ux;   /* outer edge bows out a little, inner edge in: an even taper */
-      dpath += ' Q' + ((A[0] + tip[0]) / 2 + px * bend).toFixed(1) + ',' + ((A[1] + tip[1]) / 2 + py * bend).toFixed(1) + ' ' + tip[0].toFixed(1) + ',' + tip[1].toFixed(1);
-      dpath += ' Q' + ((B[0] + tip[0]) / 2 + px * bend * .9).toFixed(1) + ',' + ((B[1] + tip[1]) / 2 + py * bend * .9).toFixed(1) + ' ' + B[0].toFixed(1) + ',' + B[1].toFixed(1);
+      var ax = (m[0] - e[0]) / (gap || 1), ay = (m[1] - e[1]) / (gap || 1);   /* aim straight from the base at the source of the voice */
+      var len = Math.max(fs * 1.2, Math.min(gap * .5, fs * 3.2));   /* a third to half of the way to the mouth */
+      var stopAt = function (ln) { for (var u = 0; u <= ln; u += 2) { var qx = e[0] + ax * u, qy = e[1] + ay * u; for (var a2 = 0; a2 < (avoid || []).length; a2++) { var rc = avoid[a2], mg = fs * .3; if (qx > rc.x - mg && qx < rc.x + rc.w + mg && qy > rc.y - mg && qy < rc.y + rc.h + mg) return Math.max(u - 2, fs * .8); } } return ln; };
+      len = stopAt(len);
+      var tip = [e[0] + ax * len, e[1] + ay * len], A = pts[pts.length - 1], B = pts[0];
+      var sg = ax < 0 ? 1 : -1, nx = -ay * sg, ny = ax * sg, cb = len * .22;   /* a gentle curve: one edge bows out, the other bows in */
+      dpath += ' Q' + ((A[0] + tip[0]) / 2 + nx * cb * 1.25).toFixed(1) + ',' + ((A[1] + tip[1]) / 2 + ny * cb * 1.25).toFixed(1) + ' ' + tip[0].toFixed(1) + ',' + tip[1].toFixed(1);
+      dpath += ' Q' + ((B[0] + tip[0]) / 2 + nx * cb * .55).toFixed(1) + ',' + ((B[1] + tip[1]) / 2 + ny * cb * .55).toFixed(1) + ' ' + B[0].toFixed(1) + ',' + B[1].toFixed(1);
     }
     dpath += 'Z';
     svg('path', { d: dpath, fill: FILL, stroke: INK, 'stroke-width': 2.1, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '6 4' : '', filter: 'url(#wobble)' }, g);
     if (cloud && !prev) {   /* thought: three small soft puffs toward the thinker */
-      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), pf = memo ? 1.9 : 1, dd = Math.max(fs * 1.6 * pf, Math.min(gap2 - fs * .2, fs * 4.2 * pf));
+      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), pf = memo ? 1.9 : 1;
+      var bx = (m[0] - e2[0]) / (gap2 || 1), by = (m[1] - e2[1]) / (gap2 || 1);
+      var room = gap2 - fs * .2;
+      for (var a3 = 0; a3 < (avoid || []).length; a3++) { var rc2 = avoid[a3], mg2 = fs * .3; for (var u2 = 0; u2 <= room; u2 += 2) { var q2x = e2[0] + bx * u2, q2y = e2[1] + by * u2; if (q2x > rc2.x - mg2 && q2x < rc2.x + rc2.w + mg2 && q2y > rc2.y - mg2 && q2y < rc2.y + rc2.h + mg2) { room = Math.min(room, Math.max(u2 - 2, fs * 1.2)); break; } } }
+      var dd = Math.max(fs * 1.6 * pf, Math.min(room, fs * 4.2 * pf));
       [[.2, .52], [.55, .36], [.9, .24]].forEach(function (c) {
-        svg('circle', { cx: e2[0] + ux * (dd * c[0] + fs * .2), cy: e2[1] + uy * (dd * c[0] + fs * .2), r: c[1] * fs * pf, fill: FILL, stroke: INK, 'stroke-width': 2, filter: 'url(#wobble)' }, g);
+        svg('circle', { cx: e2[0] + bx * (dd * c[0] + fs * .2), cy: e2[1] + by * (dd * c[0] + fs * .2), r: c[1] * fs * pf, fill: FILL, stroke: INK, 'stroke-width': 2, filter: 'url(#wobble)' }, g);
       });
     }
   }
