@@ -79,7 +79,7 @@ body.work .pid{display:block}
 .tail{position:absolute;z-index:21;overflow:visible;pointer-events:none}
 .tail.bshape{z-index:19;filter:drop-shadow(0 .5px 1.5px rgba(20,10,0,.16))}
 .tail.behind{z-index:18;filter:drop-shadow(1.5px 2px 1.5px rgba(0,0,0,.28))}
-.tx img.memo{display:block;width:18em;height:auto;aspect-ratio:1.45;filter:sepia(.12) saturate(1.2);margin:-.5em -.6em;clip-path:ellipse(49% 49% at 50% 50%)}
+.tx img.memo{display:block;width:14em;height:auto;aspect-ratio:1.45;filter:sepia(.12) saturate(1.2);margin:-.5em -.6em;clip-path:ellipse(49% 49% at 50% 50%)}
 .sp.title.lit{background:#f3e6cc}
 .sp.title.lit .veil{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,rgba(255,249,236,.86) 0%,rgba(255,246,228,.6) 45%,rgba(255,244,224,.15) 80%)}
 .sp.title.lit q{color:#5a3415;text-shadow:0 1px 0 rgba(255,255,255,.6)}
@@ -434,7 +434,7 @@ html.print .pw{animation:none!important}
           var near = lb && (Math.max(lb.r.y, me.y) - Math.min(lb.r.y + lb.r.h, me.y + me.h)) < fsz * 1.2 && Math.min(lb.r.x + lb.r.w, me.x + me.w) - Math.max(lb.r.x, me.x) > fsz * 2;
           var prev = lb && near && lb.speaker === (t.speaker || '') && lb.k === k && k !== 'sho' ? lb.r : null;
           var mt = m;
-          if (k === 'tho' && !Array.isArray(t.at)) {
+          if (k === 'tho') {
             var hd = fpx.filter(function (f) { return Math.abs(f.cx - m[0]) < 2 && Math.abs(f.my - m[1]) < 2; })[0];
             if (hd) {
               var coreOf = function (f) { return { x: f.x + f.w * .17, y: f.y + f.h * .2, w: f.w * .66, h: f.h * .6 }; };
@@ -455,7 +455,7 @@ html.print .pw{animation:none!important}
               cs2.slice(1, 4).forEach(function (c) { nc.push([c[0], Math.max(top0, c[1])]); });
               nc.push([box.l + box.w - w - 6, top0], [box.l + 6, top0]);
               cs2 = cs2.concat(nc);
-              for (var ci = 0; ci < cs2.length; ci++) { if (ci === 0 && !(y + h / 2 < hd.y + hd.h * .45)) continue; if (okPos(cs2[ci][0], cs2[ci][1])) { x = cs2[ci][0]; y = cs2[ci][1]; d.style.left = x + 'px'; d.style.top = y + 'px'; me.x = x; me.y = y; pr2.x = x - bp; pr2.y = y - bp * .7; break; } }
+              for (var ci = 0; ci < cs2.length && !Array.isArray(t.at); ci++) { if (ci === 0 && !(y + h / 2 < hd.y + hd.h * .45)) continue; if (okPos(cs2[ci][0], cs2[ci][1])) { x = cs2[ci][0]; y = cs2[ci][1]; d.style.left = x + 'px'; d.style.top = y + 'px'; me.x = x; me.y = y; pr2.x = x - bp; pr2.y = y - bp * .7; break; } }
               mt = tgt(x, y);
             }
           }
@@ -505,9 +505,9 @@ html.print .pw{animation:none!important}
     dpath += 'Z';
     svg('path', { d: dpath, fill: FILL, stroke: INK, 'stroke-width': 2.1, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '6 4' : '', filter: 'url(#wobble)' }, g);
     if (cloud && !prev) {   /* thought: three small soft puffs toward the thinker */
-      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), dd = Math.max(fs * .9, Math.min(gap2 - fs * .3, fs * 2.4));
-      [[.28, .24], [.6, .17], [.9, .11]].forEach(function (c) {
-        svg('circle', { cx: e2[0] + ux * (dd * c[0] + fs * .2), cy: e2[1] + uy * (dd * c[0] + fs * .2), r: c[1] * fs * .8, fill: FILL, stroke: INK, 'stroke-width': 2, filter: 'url(#wobble)' }, g);
+      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), pf = memo ? 1.9 : 1, dd = Math.max(fs * 1.2 * pf, Math.min(gap2 - fs * .3, fs * 3 * pf));
+      [[.26, .34], [.58, .24], [.9, .15]].forEach(function (c) {
+        svg('circle', { cx: e2[0] + ux * (dd * c[0] + fs * .2), cy: e2[1] + uy * (dd * c[0] + fs * .2), r: c[1] * fs * pf, fill: FILL, stroke: INK, 'stroke-width': 2, filter: 'url(#wobble)' }, g);
       });
     }
   }
