@@ -496,7 +496,7 @@ html.print .pw{animation:none!important}
     for (var j = 1; j < pts.length; j++) dpath += ' L' + pts[j][0].toFixed(1) + ',' + pts[j][1].toFixed(1);
     if (tail) {
       var e = pt(thm), gap = Math.hypot(m[0] - e[0], m[1] - e[1]);
-      var len = Math.max(fs * .7, Math.min(gap * .45, fs * 1.5));   /* a third to half of the way to the mouth */
+      var len = Math.max(fs * 1.1, Math.min(gap * .8, fs * 3.2));   /* a third to half of the way to the mouth */
       var tip = [e[0] + ux * len, e[1] + uy * len], A = pts[pts.length - 1], B = pts[0];
       var bend = fs * .16, px = -uy, py = ux;   /* outer edge bows out a little, inner edge in: an even taper */
       dpath += ' Q' + ((A[0] + tip[0]) / 2 + px * bend).toFixed(1) + ',' + ((A[1] + tip[1]) / 2 + py * bend).toFixed(1) + ' ' + tip[0].toFixed(1) + ',' + tip[1].toFixed(1);
@@ -505,8 +505,8 @@ html.print .pw{animation:none!important}
     dpath += 'Z';
     svg('path', { d: dpath, fill: FILL, stroke: INK, 'stroke-width': 2.1, 'stroke-linejoin': 'round', 'stroke-dasharray': k === 'whi' ? '6 4' : '', filter: 'url(#wobble)' }, g);
     if (cloud && !prev) {   /* thought: three small soft puffs toward the thinker */
-      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), pf = memo ? 1.9 : 1, dd = Math.max(fs * 1.2 * pf, Math.min(gap2 - fs * .3, fs * 3 * pf));
-      [[.26, .34], [.58, .24], [.9, .15]].forEach(function (c) {
+      var e2 = pt(thm), gap2 = Math.hypot(m[0] - e2[0], m[1] - e2[1]), pf = memo ? 1.9 : 1, dd = Math.max(fs * 1.6 * pf, Math.min(gap2 - fs * .2, fs * 4.2 * pf));
+      [[.2, .52], [.55, .36], [.9, .24]].forEach(function (c) {
         svg('circle', { cx: e2[0] + ux * (dd * c[0] + fs * .2), cy: e2[1] + uy * (dd * c[0] + fs * .2), r: c[1] * fs * pf, fill: FILL, stroke: INK, 'stroke-width': 2, filter: 'url(#wobble)' }, g);
       });
     }
