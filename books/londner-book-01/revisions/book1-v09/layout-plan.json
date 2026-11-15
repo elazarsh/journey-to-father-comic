@@ -123,12 +123,13 @@
    "texts": {
     "B01V07-P02-02": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "קוראים לי יצחק מאיר לונדנר. אבל בבית, כולם קראו לי איטשע.",
-      "en": "My name is Yitzhak Meir Londner. But at home, everyone called me Itshe.",
-      "kind": "adapted",
-      "memoir": "שמי יצחק מאיר / איטשע"
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "אני יצחק מאיר לונדנר. אבל בבית כולם קוראים לי איטשע.",
+      "en": "I am Yitzhak Meir Londner. But at home everyone calls me Itshe.",
+      "kind": "adapted_speech",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "NEW-P02-b": [
@@ -622,12 +623,13 @@
     "B01V07-P06-02": [],
     "B01V07-P06-03": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "אני ידעתי את כל התשובות. אבל לי הוא לא נתן.",
-      "en": "I knew all the answers. But he gave me nothing.",
-      "kind": "adapted",
-      "memoir": "אני ילד שיודע אבל לי הוא לא נתן"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "ידעתי את כל התשובות. אבל לי הוא לא נתן!",
+      "en": "I knew all the answers. But he did not give me any!",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P06-04": [
@@ -880,22 +882,24 @@
     ],
     "B01V07-P08-03": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "אחר כך נפצעתי ממסמר ברגל השנייה. עכשיו שתיהן היו חבושות.",
-      "en": "Later a nail hurt my other foot. Now both were bandaged.",
-      "kind": "adapted",
-      "memoir": "נכנס לי מסמר חלוד לאצבע רגל שמאל, היה לי כבר שתי רגליים לרפא הלכתי עם תחבושות על שתי הרגליים"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "נפצעתי ממסמר גם ברגל השנייה. עכשיו שתיהן חבושות.",
+      "en": "I got hurt by a nail in the other foot too. Now both are bandaged.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P08-04": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "הרופא אמר להישאר במיטה. לא יכולתי ללכת ללמוד.",
-      "en": "The doctor said to stay in bed. I could not go to cheder.",
-      "kind": "adapted",
-      "memoir": "הרופא ציווה לא ללכת לחיידר רק לשכב במיטה"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "הרופא אמר להישאר במיטה. אני לא יכול ללכת ללמוד.",
+      "en": "The doctor said to stay in bed. I cannot go to study.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -1095,12 +1099,13 @@
     "B01V07-P10-03": [],
     "B01V07-P10-04": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "קראתי. כל פעם התחלתי להבין יותר ויותר.",
-      "en": "I read. Each time I began to understand more and more.",
-      "kind": "adapted",
-      "memoir": "כל פעם התחלתי להבין יותר ויותר"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "אני קורא, ומבין יותר ויותר.",
+      "en": "I read, and I understand more and more.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -1348,12 +1353,13 @@
       "memoir": "ונולדה לנו אחות  רייזל"
      },
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "הבית גדל, אבל הרגל שלי עדיין הייתה חולה.",
-      "en": "Our home grew, but my foot was still sick.",
-      "kind": "adapted",
-      "memoir": "אמא ע\"ה לא יכלה לסבול ממני, ז\"א מחלת רגליים"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "הבית גדל, אבל הרגל שלי עדיין חולה.",
+      "en": "The house grew, but my leg is still sick.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -1491,10 +1497,19 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אחר כך נשארתי בבית החולים. רגל אחת החלימה מהר יותר. השנייה עדיין לא.",
-      "en": "Afterwards I stayed in the hospital. One foot healed faster. The other did not yet.",
+      "he": "אחר כך נשארתי בבית החולים.",
+      "en": "Afterwards I stayed in the hospital.",
       "kind": "adapted",
       "memoir": "ברגל שמאל התרפא יותר מהר, כיוון שהרגל לא הייתה כל כך חולה. ברגל ימין  היה צורך להישאר עוד כמה ימים בבית החולים"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "רגל אחת החלימה מהר יותר. השנייה עדיין לא.",
+      "en": "One leg healed faster. The other still has not.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -1736,12 +1751,13 @@
     ],
     "B01V07-P15-03": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "אוכל טוב, שירות טוב. אבל הייתי לבד בין זרים, והיו שם ילדים שובבים.",
-      "en": "Good food, good care. But I was alone among strangers, and there were naughty children there.",
-      "kind": "adapted",
-      "memoir": "נשארתי בבית החולים לבד בין הגויים, אכלתי מה שנתנו לי טרף, אוכל טוב, שירות טוב. הייתי ילד שקט, אך  היו שם ילדים גויים שובבים"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "האוכל טוב והשירות טוב. אבל אני לבד בין זרים, ויש כאן ילדים שובבים.",
+      "en": "The food is good and the service is good. But I am alone among strangers, and there are naughty children here.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P15-04": [
@@ -1865,12 +1881,13 @@
     ],
     "B01V07-P16-04": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
+      "type": "thought",
+      "speaker": "איטשע",
       "he": "לא יכולתי להתפלל.",
       "en": "I could not pray.",
-      "kind": "quote",
-      "memoir": "לא יכולתי להתפלל"
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -2057,12 +2074,13 @@
    "texts": {
     "B01V07-P18-01": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "אבל התפללו בגרמנית. לא הבנתי את המילים.",
-      "en": "But they prayed in German. I did not understand the words.",
-      "kind": "adapted",
-      "memoir": "אבל לא הבנתי שום דבר, בגלל שהתפללו שם בשפה הגרמנית"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "מתפללים בגרמנית! אני לא מבין את המילים.",
+      "en": "They pray in German! I do not understand the words.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P18-03": [
@@ -2262,10 +2280,19 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אחותי חוה בישלה. התפקיד שלי היה לרחוץ את הכלים, בשר לחוד וחלב לחוד.",
-      "en": "My sister Chava cooked. My job was to wash the dishes, meat apart and dairy apart.",
+      "he": "אחותי חוה בישלה.",
+      "en": "My sister Chava cooked.",
       "kind": "adapted",
       "memoir": "אחותי ע\"ה חוה הייתה המבשלת, אני, תפקידי היה לרחוץ הכלים, בשר לחוד וגם חלב לחוד"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "התפקיד שלי: לרחוץ את הכלים. בשר לחוד וחלב לחוד.",
+      "en": "My job: to wash the dishes. Meat apart and milk apart.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P20-02": [
@@ -2532,12 +2559,13 @@
     ],
     "B01V07-P22-04": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
+      "type": "thought",
+      "speaker": "איטשע",
       "he": "אבא היה סוחר נאמן. זה נכנס לנו לראש ונשאר איתנו.",
-      "en": "Father was an honest merchant. It got into our heads and stayed with us.",
-      "kind": "adapted",
-      "memoir": "ואבי ז\"ל היה סוחר נאמן... וזה נכנס לנו בדמיון ונשאר אתנו"
+      "en": "Father was a faithful merchant. That got into our heads and stayed with us.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -3871,11 +3899,13 @@
    "texts": {
     "B01V07-P32-01": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "בכפרים ראיתי איכרים חורשים, זורעים ומגדלים בעצמם את האוכל שלהם.",
-      "en": "In the villages I saw farmers ploughing, sowing and growing their own food.",
-      "kind": "adapted"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "איכרים חורשים, זורעים ומגדלים בעצמם את האוכל שלהם!",
+      "en": "Peasants plowing, sowing and growing their own food!",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P32-02": [],
@@ -4599,12 +4629,13 @@
     ],
     "B01V07-P37-04": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
+      "type": "thought",
+      "speaker": "איטשע",
       "he": "הרצון לעלות לארץ נשאר.",
-      "en": "The wish to go to the Land of Israel stayed with me.",
-      "kind": "adapted",
-      "memoir": "רק אצלי היה עוד על הפרק, לנסוע לארץ ישראל"
+      "en": "The wish to go up to the Land of Israel remains.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -5041,10 +5072,19 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "בסוף שחררו אותי. חזרתי הביתה, ולחלום שלי: לבנות בית בארץ ישראל.",
-      "en": "In the end I was released. I went home, back to my dream: building a home in the Land of Israel.",
+      "he": "בסוף שחררו אותי.",
+      "en": "In the end they released me.",
       "kind": "adapted",
       "memoir": "ואני דאגתי איך לצאת מהצבא / רעיון ארץ-ישראל"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "אני חוזר הביתה, ולחלום שלי: לבנות בית בארץ ישראל.",
+      "en": "I am going home, and to my dream: to build a home in the Land of Israel.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ]
    },
@@ -5137,12 +5177,13 @@
     ],
     "B01V07-P41-02": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "חזרתי הביתה בלי סחורה, בלי כסף, והילדה חולה. אבל רעיון ארץ ישראל נשאר אצלי.",
-      "en": "I came home with no goods, no money, and the child was sick. But the idea of the Land of Israel stayed with me.",
-      "kind": "adapted",
-      "memoir": "באתי הביתה ללא סחורה, לא כסף, ילדה חולה"
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "בלי סחורה, בלי כסף, והילדה חולה. אבל רעיון ארץ ישראל נשאר אצלי.",
+      "en": "Without goods, without money, and the girl is sick. But the idea of the Land of Israel stays with me.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P41-03": [
