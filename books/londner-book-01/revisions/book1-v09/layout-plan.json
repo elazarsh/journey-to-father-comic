@@ -40,20 +40,21 @@
       "imgFile": "art/book1-v08-corrections/extras/children-memory-v01.webp",
       "at": [
        0.27,
-       0.13
+       0.2
       ],
       "mouthXY": [
-       0.58,
-       0.3
-      ]
+       0.62,
+       0.36
+      ],
+      "fixed": true
      }
     ],
     "B01V07-P01-02": [
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אכתוב לכם כל מה שאני זוכר: על הבית, על הדרכים, ועל החלום הגדול שלי: לעלות לארץ ישראל.",
-      "en": "I will write down everything I remember: about home, about the roads, and about my big dream: to go up to the Land of Israel.",
+      "he": "אכתוב לכם כל מה שאני זוכר: על הבית, על הדרכים, ועל החלום הגדול שלי.",
+      "en": "I will write down everything I remember: about home, about the roads, and about my big dream.",
       "kind": "editorial",
       "memoir": "מה שאני אזכור, אכתוב"
      },
@@ -2191,8 +2192,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "באנו הביתה, והייתי בריא. עד היום, ברוך השם. והחלום הגדול שלי עוד חיכה.",
-      "en": "We came home, and I was well. To this day, thank God. And my big dream was still waiting.",
+      "he": "באנו הביתה, והייתי בריא. עד היום, ברוך השם.",
+      "en": "We came home, and I was well. To this day, thank God.",
       "kind": "editorial",
       "memoir": "באנו הביתה בריא עד היום ב\"ה"
      }
@@ -2430,8 +2431,8 @@
       "en": "I am ready to swear on my tallit and tefillin that nothing is missing!",
       "kind": "adapted",
       "at": [
-       0.3,
-       0.42
+       0.47,
+       0.41
       ]
      }
     ]
@@ -3319,8 +3320,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הצטרפנו להנהלה הציונית בלודז׳ (הארגון שעזר לעלות לארץ ישראל), וקיבלנו משימות.",
-      "en": "We joined the Zionist Executive in Lodz (the organization that helped people go up to the Land of Israel), and were given tasks.",
+      "he": "הצטרפנו להנהלה הציונית בלודז׳, וקיבלנו משימות.",
+      "en": "We joined the Zionist Executive in Lodz, and were given tasks.",
       "kind": "adapted",
       "memoir": "החלטנו ללכת להנהלה הציונית בלודז', ראש ההנהלה היה ד\"ר רוזנבלט, קיבלו אותנו, נתנו לנו תפקידים לאסוף כסף לקרן הקיימת"
      },
@@ -3347,8 +3348,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "אספנו כסף לקרן הקיימת, הקרן שקונה אדמות בארץ ישראל.",
-      "en": "We collected money for the Jewish National Fund, which buys land in the Land of Israel.",
+      "he": "אספנו כסף לקרן הקיימת, כדי לקנות אדמה.",
+      "en": "We collected money for the Jewish National Fund, to buy land.",
       "kind": "adapted"
      }
     ]
@@ -3477,8 +3478,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "עוד אישור אחד, ואני בארץ ישראל!",
-      "en": "One more permit, and I am in the Land of Israel!",
+      "he": "עוד אישור אחד... ואני שם!",
+      "en": "One more permit... and I am there!",
       "kind": "staging",
       "at": [
        0.74,
@@ -3928,8 +3929,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "התאהבתי בחקלאות. חלמתי לנסוע לארץ ישראל ולהיות חקלאי.",
-      "en": "I fell in love with farming. I dreamed of going to the Land of Israel and becoming a farmer.",
+      "he": "התאהבתי בחקלאות. חלמתי על אדמה משלי.",
+      "en": "I fell in love with farming. I dreamed of land of my own.",
       "kind": "editorial"
      }
     ]
@@ -4300,8 +4301,8 @@
      {
       "type": "thought",
       "speaker": "יצחק",
-      "he": "אני לובש מדים של פולין, וחולם על השדות של ארץ ישראל.",
-      "en": "I wear a Polish uniform, and I dream of the fields of the Land of Israel.",
+      "he": "אני לובש מדים של פולין, ובלב שלי שדות אחרים.",
+      "en": "I wear a Polish uniform, and in my heart are other fields.",
       "kind": "adapted_thought",
       "memoir": "התאהבתי מאוד בחקלאות וחשבתי... לנסוע לארץ ישראל להיות חקלאי",
       "mouth": "center"
@@ -4633,17 +4634,7 @@
       "memoir": "יום אחד בשנת 1920 הגיע פקודה שמי שנולד עד 1901, הולכים חופשי הביתה"
      }
     ],
-    "B01V07-P37-04": [
-     {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
-      "he": "הרצון לעלות לארץ נשאר.",
-      "en": "The wish to go up to the Land of Israel remains.",
-      "kind": "adapted",
-      "memoir": "",
-      "mouth": "Yitzhak"
-     }
-    ]
+    "B01V07-P37-04": []
    },
    "note_he": "שני הפאנלים הקיימים מתמזגים לרגע אחד של יציאה מהגשר, והחצי השני של הכיתוב האחרון הפך לבועת מחשבה על הפחד לנסוע בלי פספורט, כפי שכתוב ביומן. עורך: גיוון תמונות: שתי התמונות באותה זריחה, אותו גשר, אותם שני אנשים; הן גם חוזרות על כל עמוד 36. עורך: צילום: שני הולכים בשחר, הגשר כמפה מלמעלה, מעיל על וו וחזרה לניירות: הפאנל השני כבר לא חוזר על אותן שתי דמויות.",
    "title": "גם אני עברתי",
@@ -4890,8 +4881,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "יום אחד ניסע לארץ ישראל. עוד לא אספר לאף אחד.",
-      "en": "One day we will go to the Land of Israel. I will not tell anyone yet.",
+      "he": "יש לי תוכנית. עוד לא אספר לאף אחד.",
+      "en": "I have a plan. I will not tell anyone yet.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
@@ -5086,8 +5077,8 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "סוף סוף הביתה. ואולי עכשיו אפשר לחשוב שוב על ארץ ישראל.",
-      "en": "Finally home. And maybe now I can think about the Land of Israel again.",
+      "he": "סוף סוף הביתה. עכשיו אפשר לחזור לתוכנית שלי.",
+      "en": "Finally home. Now I can go back to my plan.",
       "kind": "adapted_thought",
       "memoir": "",
       "mouth": "Yitzhak"
