@@ -1,10 +1,18 @@
 {
-  "B01V07-P05-01": {
-    "source_sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
-    "fit": "cover",
-    "fx": 0.5,
-    "fy": 1.0,
-    "zoom": 1.0,
-    "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
-  }
+ "B01V07-P05-01": {
+  "source_sha256": "1d21048d1fc8d205636d5620f8c9299330d5973ba7fffde13828ed7186aa27c8",
+  "fit": "cover",
+  "fx": 0.5,
+  "fy": 1.0,
+  "zoom": 1.0,
+  "review_status": "Conservative static QA treatment; final browser and lettering approval pending."
+ },
+ "B01V07-P15-03": {
+  "fit": "cover",
+  "fx": 0.8,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "framed to keep Yitzhak (right edge) in view; family request 15/11",
+  "source_sha256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace"
+ }
 }

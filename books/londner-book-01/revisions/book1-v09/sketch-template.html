@@ -357,7 +357,7 @@ html.print .pw{animation:none!important}
           y = bottom ? box.t + box.h - h - pad : box.t + pad;
         } else {
           m = mouthOf(t); var mx = box.l + box.w * m[0], my = box.t + box.h * m[1];
-          if (fpx.length && !t.offPanel) { var best = null; fpx.forEach(function (f) { var d2 = Math.abs(f.cx - mx) + Math.abs(f.my - my) * .5; if (!best || d2 < best.d) best = { d: d2, f: f }; }); if (best.d < box.w * .45) { mx = best.f.cx; my = best.f.my; y = 0; } }
+          if (fpx.length && !t.offPanel) { var best = null; fpx.forEach(function (f) { var d2 = Math.abs(f.cx - mx) + Math.abs(f.my - my) * .5; if (!best || d2 < best.d) best = { d: d2, f: f }; }); if (typeof t.face === 'number' && fpx[t.face]) best = { d: 0, f: fpx[t.face] }; if (best.d < box.w * .45) { mx = best.f.cx; my = best.f.my; y = 0; } }
           x = Math.max(box.l + pad, Math.min(box.l + box.w - w - pad, mx - w / 2));
           y = Math.max(box.t + pad, my - h - parseFloat(getComputedStyle(d).fontSize) * 1.9);
           if (fpx.length && !t.offPanel) { var head = fpx.filter(function (f) { return Math.abs(f.cx - mx) < 2 && Math.abs(f.my - my) < 2; })[0]; if (head) y = Math.max(box.t + pad, head.y - h - 6); }

@@ -1754,11 +1754,12 @@
      {
       "type": "thought",
       "speaker": "איטשע",
-      "he": "הכול כאן טוב, אבל אני לבד בין זרים. ויש פה ילדים שובבים...",
-      "en": "Everything here is good, but I am alone among strangers. And there are naughty children here...",
+      "he": "הכול כאן טוב. אבל אני לבד, בין זרים...",
+      "en": "Everything here is good. But I am alone, among strangers...",
       "kind": "adapted_thought",
       "memoir": "",
-      "mouth": "Yitzhak"
+      "mouth": "Yitzhak",
+      "face": 2
      }
     ],
     "B01V07-P15-04": [
