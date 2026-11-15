@@ -14,5 +14,101 @@
   "zoom": 1.0,
   "review_status": "framed to keep Yitzhak (right edge) in view; family request 15/11",
   "source_sha256": "543fef75d3044293222edf4fc602313425341f155366300596ec3c8f7c1c7ace"
+ },
+ "B01V07-P01-02": {
+  "source_sha256": "f450ad3ca0502cca07a19c47d364ea730b0661e53de76b41186a2be73f5ec231",
+  "fit": "cover",
+  "fx": 0.25,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P04-03": {
+  "source_sha256": "4a3a36fb56f4d645d24fbd81f5fc8c5df25f186a3ffc9c11cd9edbdebe541d2d",
+  "fit": "cover",
+  "fx": 0,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P05-02": {
+  "source_sha256": "cfeccd4f7942324e7b39cc7d36e9eac72a4871b827f2215871c86c501872ff1c",
+  "fit": "cover",
+  "fx": 0.6,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P08-04": {
+  "source_sha256": "f63037913b28a4b649bc88f9b4d4c59329fe542c15951e74d68d706905bf253f",
+  "fit": "cover",
+  "fx": 0.4,
+  "fy": 0.8,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P16-03": {
+  "source_sha256": "b3ab3a429869d76c2fe986175f03998c2703a7cd0e4daf8dbc9274d3feae9754",
+  "fit": "cover",
+  "fx": 0.1,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P18-04": {
+  "source_sha256": "bbb2c5492ddfc071334ffe3d8f462f0ab8303108f9150c6a1ac8e3cec8e507bf",
+  "fit": "cover",
+  "fx": 0.5,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P36-01": {
+  "source_sha256": "d12f8ad2ce25a8aeb02bb00df1aac0c3b803ceb297b3a92e0e3b0afa8ac1207c",
+  "fit": "cover",
+  "fx": 0.3,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P38-02": {
+  "source_sha256": "f7500188dc4a167a5e4b6e410df38b618b5ec91d9b850038fe60c3fa103a7f13",
+  "fit": "cover",
+  "fx": 0.2,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P38-04": {
+  "source_sha256": "083d70c7e012472c7b2a1cacc56b6c3ed6b48dad5d18201994e6c4fc01d71190",
+  "fit": "cover",
+  "fx": 0.8,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P42-02": {
+  "source_sha256": "f35324db8c8982655e8e7337203fb38efdc667c68b8ea03adb1ae3c36e2cf33d",
+  "fit": "cover",
+  "fx": 0.35,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P45-04": {
+  "source_sha256": "ef570ed45049eee2b8700c5c9b151a51d3df33bde088425eb9e6070afbb3e5ee",
+  "fit": "cover",
+  "fx": 0.3,
+  "fy": 0.5,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P46-04": {
+  "source_sha256": "38078711fe05338aebb5a1186424b4bf29565f91e03f4289b8fe6fc8df13e482",
+  "fit": "cover",
+  "fx": 0.5,
+  "fy": 0.2,
+  "zoom": 1.0,
+  "review_status": "crop-reviewer agent 15/11"
  }
 }
