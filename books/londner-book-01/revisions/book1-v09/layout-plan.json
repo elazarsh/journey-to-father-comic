@@ -859,7 +859,15 @@
       "en": "No shoes. Come back again in a few days.",
       "kind": "adapted_speech",
       "memoir": "הוא אומר שלא ללבוש נעליים, בעוד כמה ימים לבוא עוד פעם",
-      "mouth": "lower-left: the doctor, seen from behind, head at left about 40% down; balloon top-left"
+      "mouth": "lower-left: the doctor, seen from behind, head at left about 40% down; balloon top-left",
+      "at": [
+       0.36,
+       0.12
+      ],
+      "mouthXY": [
+       0.34,
+       0.42
+      ]
      },
      {
       "type": "caption",
@@ -3703,13 +3711,13 @@
   {
    "page": 31,
    "pace": "normal",
-   "recipe": "stack-tall",
+   "recipe": "wide-2",
    "order": [
     "B01V07-P31-01",
     "B01V07-P31-03",
     "B01V07-P31-04"
    ],
-   "hero": "B01V07-P31-04",
+   "hero": "B01V07-P31-01",
    "morph": [],
    "inset": null,
    "new_panels": [],
@@ -3735,7 +3743,15 @@
       "en": "Who can speak and write good German?",
       "kind": "adapted_speech",
       "memoir": "",
-      "mouth": "the surveyor, asking"
+      "mouth": "the surveyor, asking",
+      "at": [
+       0.5,
+       0.04
+      ],
+      "mouthXY": [
+       0.2,
+       0.35
+      ]
      },
      {
       "type": "speech",
@@ -3744,7 +3760,15 @@
       "en": "I do!",
       "kind": "adapted_speech",
       "memoir": "",
-      "mouth": "Yitzhak, raising his hand"
+      "mouth": "Yitzhak, raising his hand",
+      "at": [
+       0.5,
+       0.2
+      ],
+      "mouthXY": [
+       0.5,
+       0.45
+      ]
      }
     ],
     "B01V07-P31-03": [
@@ -3821,7 +3845,8 @@
     "B01V07-P31-03": "רחב מאוד מזווית גבוהה: דרך וגשר בשדה פתוח, מודד זעיר עם מכשיר על חצובה, ויצחק רחוק מחזיק מוט מדידה; שמיים גדולים.",
     "B01V07-P31-01": "בינוני מזווית נמוכה: מודדים אוסטרים באתר הדרכים סביב מכשיר מדידה, יצחק צועד אליהם; בלי סמלים של מלחמת העולם השנייה.",
     "B01V07-P31-04": "בינוני מעבר לכתף המהנדס האוסטרי: יצחק במרכז מתרגם, החקלאי הפולני מצביע על האדמה הפגועה, אור שמש נמוך וחם."
-   }
+   },
+   "roomy_amt": 1.0
   },
   {
    "page": 32,
