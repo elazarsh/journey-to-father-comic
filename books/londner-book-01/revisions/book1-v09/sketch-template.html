@@ -328,6 +328,7 @@ html.print .pw{animation:none!important}
       if (ph) placed = [];
       var nCap = 0, offx = pr.left - hr.left, offy = pr.top - hr.top;
       var fpx = facesPx(q, pr.width, pr.height).map(function (f) { return { x: f.x + offx, y: f.y + offy, w: f.w, h: f.h, cx: f.cx + offx, my: f.my + offy, face: true }; });
+      if (Q.has('faces')) fpx.forEach(function (f, fi) { var dv = el('div', 'tx', host); dv.textContent = q.id.replace('B01V07-', '') + ':' + fi; dv.style.cssText += 'left:' + (f.cx - 12) + 'px;top:' + (f.y + f.h * .3) + 'px;font:700 11px Heebo;background:#f0f;color:#fff;padding:0 3px;z-index:60'; pg._tx.push(dv); });
       var obst = placed.concat(fpx);
       var rdo = q._pw.querySelector('.redo'); if (rdo) { var rr = rdo.getBoundingClientRect(); obst.push({ x: rr.left - hr.left, y: rr.top - hr.top, w: rr.width, h: rr.height }); }
       (q.texts || []).forEach(function (t) {
@@ -357,7 +358,7 @@ html.print .pw{animation:none!important}
           y = bottom ? box.t + box.h - h - pad : box.t + pad;
         } else {
           m = mouthOf(t); var mx = box.l + box.w * m[0], my = box.t + box.h * m[1];
-          if (fpx.length && !t.offPanel) { var best = null; fpx.forEach(function (f) { var d2 = Math.abs(f.cx - mx) + Math.abs(f.my - my) * .5; if (!best || d2 < best.d) best = { d: d2, f: f }; }); if (typeof t.face === 'number' && fpx[t.face]) best = { d: 0, f: fpx[t.face] }; if (best.d < box.w * .45) { mx = best.f.cx; my = best.f.my; y = 0; } }
+          if (fpx.length && !t.offPanel && !t.free) { var best = null; fpx.forEach(function (f) { var d2 = Math.abs(f.cx - mx) + Math.abs(f.my - my) * .5; if (!best || d2 < best.d) best = { d: d2, f: f }; }); if (typeof t.face === 'number' && fpx[t.face]) best = { d: 0, f: fpx[t.face] }; if (best.d < box.w * .45) { mx = best.f.cx; my = best.f.my; y = 0; } }
           x = Math.max(box.l + pad, Math.min(box.l + box.w - w - pad, mx - w / 2));
           y = Math.max(box.t + pad, my - h - parseFloat(getComputedStyle(d).fontSize) * 1.9);
           if (fpx.length && !t.offPanel) { var head = fpx.filter(function (f) { return Math.abs(f.cx - mx) < 2 && Math.abs(f.my - my) < 2; })[0]; if (head) y = Math.max(box.t + pad, head.y - h - 6); }

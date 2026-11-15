@@ -868,9 +868,10 @@
        0.12
       ],
       "mouthXY": [
-       0.34,
-       0.42
-      ]
+       0.4,
+       0.46
+      ],
+      "free": true
      },
      {
       "type": "caption",
@@ -1364,7 +1365,8 @@
       "en": "The house has grown, and I am still with the sick leg.",
       "kind": "adapted_thought",
       "memoir": "",
-      "mouth": "Yitzhak"
+      "mouth": "Yitzhak",
+      "face": 3
      }
     ]
    },
@@ -1474,6 +1476,11 @@
       "at": [
        0.5,
        0.03
+      ],
+      "free": true,
+      "mouthXY": [
+       0.72,
+       0.62
       ]
      },
      {
@@ -1495,6 +1502,11 @@
       "at": [
        0.5,
        0.32
+      ],
+      "free": true,
+      "mouthXY": [
+       0.72,
+       0.62
       ]
      }
     ],
@@ -1741,7 +1753,12 @@
       "en": "The stitches have to be opened.",
       "kind": "quote",
       "memoir": "צריך לפתוח את התפרים",
-      "mouth": "doctor, left side of panel, beside the bed"
+      "mouth": "doctor, left side of panel, beside the bed",
+      "free": true,
+      "mouthXY": [
+       0.18,
+       0.5
+      ]
      }
     ],
     "B01V07-P15-02": [
@@ -1893,7 +1910,8 @@
       "en": "Without my prayer book I cannot pray.",
       "kind": "adapted_thought",
       "memoir": "",
-      "mouth": "Yitzhak"
+      "mouth": "Yitzhak",
+      "face": 0
      }
     ]
    },
@@ -3212,7 +3230,16 @@
       "en": "You will be a great merchant.",
       "kind": "quote",
       "memoir": "אתה תהיה סוחר גדול",
-      "mouth": "the older manager (check the art; likely the adult figure facing the boy), tail to his mouth"
+      "mouth": "the older manager (check the art; likely the adult figure facing the boy), tail to his mouth",
+      "free": true,
+      "mouthXY": [
+       0.7,
+       0.17
+      ],
+      "at": [
+       0.22,
+       0.05
+      ]
      }
     ]
    },
@@ -3347,14 +3374,15 @@
       "memoir": "תורה בלי עבודה אין קיום",
       "mouth": "Dr. Rosenblatt, head of the leadership (no art yet: an older man addressing the young men), tail to him",
       "mouthXY": [
-       0.67,
-       0.2
+       0.9,
+       0.25
       ],
       "offPanel": true,
       "at": [
        0.27,
        0.62
-      ]
+      ],
+      "free": true
      }
     ],
     "NEW-P28-jnf": [
@@ -3486,7 +3514,8 @@
       "at": [
        0.3,
        0.58
-      ]
+      ],
+      "face": 1
      },
      {
       "type": "thought",
@@ -3502,7 +3531,8 @@
        0.6,
        0.45
       ],
-      "offPanel": true
+      "offPanel": true,
+      "face": 0
      }
     ],
     "B01V07-P29-03": [
@@ -3512,7 +3542,8 @@
       "he": "אינני יכולה להשגיח עליך. הפרנסה מתמעטת.",
       "en": "I cannot look after you. Our income is shrinking.",
       "kind": "adapted_speech",
-      "memoir": "אינני יכולה להשגיח. הפרנסה מתמעטת"
+      "memoir": "אינני יכולה להשגיח. הפרנסה מתמעטת",
+      "face": 0
      },
      {
       "type": "caption",
@@ -4057,7 +4088,8 @@
       "en": "I want to be a farmer in the Land of Israel.",
       "kind": "adapted_thought",
       "memoir": "וחשבתי בנוגע לנסוע לארץ - ישראל להיות חקלאי",
-      "mouth": "Itsche on the right, face visible; thought bubble in the quiet sky on the left"
+      "mouth": "Itsche on the right, face visible; thought bubble in the quiet sky on the left",
+      "face": 0
      }
     ],
     "B01V07-P33-03": [
@@ -4498,7 +4530,12 @@
       "en": "They’re coming!",
       "kind": "adapted_thought",
       "memoir": "והרגשתי שבולשביקים מקרבים",
-      "mouth": "center"
+      "mouth": "center",
+      "free": true,
+      "mouthXY": [
+       0.45,
+       0.97
+      ]
      }
     ],
     "NEW-P36-a": [],
@@ -4510,7 +4547,8 @@
       "en": "Get up! The enemy is coming!",
       "kind": "staging",
       "memoir": "עשיתי רעש כזה",
-      "mouth": "right"
+      "mouth": "right",
+      "face": 0
      },
      {
       "type": "caption",
@@ -4906,7 +4944,12 @@
       "en": "I have a plan. I will not tell anyone yet.",
       "kind": "adapted_thought",
       "memoir": "",
-      "mouth": "Yitzhak"
+      "mouth": "Yitzhak",
+      "free": true,
+      "mouthXY": [
+       0.95,
+       0.25
+      ]
      }
     ],
     "B01V07-P39-03": [
@@ -5039,7 +5082,8 @@
       "at": [
        0.33,
        0.46
-      ]
+      ],
+      "face": 0
      },
      {
       "type": "speech",
@@ -5056,7 +5100,8 @@
       "at": [
        0.36,
        0.66
-      ]
+      ],
+      "face": 0
      },
      {
       "type": "caption",
@@ -5195,13 +5240,12 @@
     ],
     "B01V07-P41-02": [
      {
-      "type": "thought",
-      "speaker": "איטשע",
-      "he": "אין סחורה, אין כסף, והילדה חולה. מה עושים עכשיו?",
-      "en": "No goods, no money, and the girl is sick. What do we do now?",
-      "kind": "adapted_thought",
-      "memoir": "",
-      "mouth": "Yitzhak"
+      "type": "caption",
+      "speaker": "יצחק המבוגר",
+      "he": "בלי סחורה, בלי כסף, והילדה חולה.",
+      "en": "No goods, no money, and the girl was sick.",
+      "kind": "adapted",
+      "memoir": ""
      }
     ],
     "B01V07-P41-03": [
@@ -5623,15 +5667,6 @@
       "en": "Blankets and pillows, a Primus stove, and a little dry food: fat, groats and noodles.",
       "kind": "adapted",
       "memoir": "לקחתי איתי מכונת פרימוס, וגם קצת אוכל, שיהיה לנו מה לאכול כי נבוא ארצה - שומן בשר, גריסים ואטריות"
-     },
-     {
-      "type": "thought",
-      "speaker": "איטשע",
-      "he": "שיהיה לנו מה לאכול כשנגיע.",
-      "en": "So that we will have something to eat when we arrive.",
-      "kind": "adapted_thought",
-      "memoir": "",
-      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P44-04": [
