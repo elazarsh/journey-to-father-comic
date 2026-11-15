@@ -3724,9 +3724,27 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "יום אחד שאלו המודדים האוסטרים: מי יודע לדבר ולכתוב גרמנית טובה? אני ידעתי!",
-      "en": "One day the Austrian surveyors asked: who can speak and write good German? I could!",
+      "he": "יום אחד שאלו המודדים האוסטרים:",
+      "en": "One day the Austrian surveyors asked:",
       "kind": "adapted"
+     },
+     {
+      "type": "speech",
+      "speaker": "המודד האוסטרי",
+      "he": "מי יודע לדבר ולכתוב גרמנית טובה?",
+      "en": "Who can speak and write good German?",
+      "kind": "adapted_speech",
+      "memoir": "",
+      "mouth": "the surveyor, asking"
+     },
+     {
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "אני יודע!",
+      "en": "I do!",
+      "kind": "adapted_speech",
+      "memoir": "",
+      "mouth": "Yitzhak, raising his hand"
      }
     ],
     "B01V07-P31-03": [
@@ -4802,10 +4820,19 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "חוה עבדה קשה בחנות, והקונים אהבו לקנות אצלה. ואני שמרתי בלב תוכנית סודית: יום אחד ניסע לארץ ישראל. עוד לא סיפרתי עליה לאף אחד.",
-      "en": "Chava worked hard in the shop, and the customers loved buying from her. And I kept a secret plan in my heart: one day we would go to the Land of Israel. I had not told anyone yet.",
+      "he": "חוה עבדה קשה בחנות, והקונים אהבו לקנות אצלה.",
+      "en": "Chava worked hard in the shop, and the customers loved buying from her.",
       "kind": "adapted",
       "memoir": "רק אני ידעתי התכנית"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "יום אחד ניסע לארץ ישראל. עוד לא אספר לאף אחד.",
+      "en": "One day we will go to the Land of Israel. I will not tell anyone yet.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P39-03": [
@@ -5385,9 +5412,18 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "גם מס הכנסה דרש ממני לשלם חוב. אמרתי להם את האמת, כמו שאבא לימד אותנו: אין לי כסף.",
-      "en": "The tax office also demanded that I pay a debt. I told them the truth, as Father taught us: I had no money.",
+      "he": "גם מס הכנסה דרש ממני לשלם חוב. אמרתי להם את האמת, כמו שאבא לימד אותנו:",
+      "en": "The tax office also demanded that I pay a debt. I told them the truth, as Father taught us:",
       "kind": "editorial"
+     },
+     {
+      "type": "speech",
+      "speaker": "איטשע",
+      "he": "אין לי מאיפה לשלם.",
+      "en": "I have nothing to pay with.",
+      "kind": "adapted_speech",
+      "memoir": "",
+      "mouth": "Yitzhak, to the clerk"
      },
      {
       "type": "caption",
@@ -5495,10 +5531,19 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "שמיכות וכרים, פרימוס (תנור קטן לנסיעה), וקצת אוכל יבש שיהיה לנו כשנגיע: שומן, גריסים ואטריות.",
-      "en": "Blankets and pillows, a Primus stove, and a little dry food for when we arrived: fat, groats and noodles.",
+      "he": "שמיכות וכרים, פרימוס (תנור קטן לנסיעה), וקצת אוכל יבש: שומן, גריסים ואטריות.",
+      "en": "Blankets and pillows, a Primus stove, and a little dry food: fat, groats and noodles.",
       "kind": "adapted",
       "memoir": "לקחתי איתי מכונת פרימוס, וגם קצת אוכל, שיהיה לנו מה לאכול כי נבוא ארצה - שומן בשר, גריסים ואטריות"
+     },
+     {
+      "type": "thought",
+      "speaker": "איטשע",
+      "he": "שיהיה לנו מה לאכול כשנגיע.",
+      "en": "So that we will have something to eat when we arrive.",
+      "kind": "adapted_thought",
+      "memoir": "",
+      "mouth": "Yitzhak"
      }
     ],
     "B01V07-P44-04": [
@@ -5863,8 +5908,8 @@
     ],
     "B01V07-P48-03": [
      {
-      "type": "caption",
-      "speaker": "יצחק המבוגר",
+      "type": "thought",
+      "speaker": "איטשע",
       "he": "לא פחדתי משום איומים.",
       "en": "I was not afraid of any threats.",
       "kind": "quote",
