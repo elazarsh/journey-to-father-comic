@@ -89,7 +89,7 @@ for pg in plan['pages']:
     inset = order.index(pg['inset']) if pg.get('inset') in order else None
     morphs = [(order.index(a), order.index(b)) for a, b in pg.get('morph', []) if a in order and b in order]
     roomy = [i for i, pid in enumerate(order)
-             if pid in pg.get('roomy_extra', []) or any(t.get('type') in ('speech', 'thought', 'whisper', 'shout') for t in pg['texts'].get(pid, []))]
+             if pid in pg.get('roomy_extra', []) or any(t.get('type') in ('speech', 'thought', 'whisper', 'shout', 'letter') for t in pg['texts'].get(pid, []))]
     shapes = geometry.page_shapes(pg.get('recipe_land', pg['recipe']) if land else pg['recipe'], len(order), hero, morphs, inset, roomy, pg.get('inset_dy', 0), pg.get('roomy_amt', 0.55))
     out = []
     words = 0

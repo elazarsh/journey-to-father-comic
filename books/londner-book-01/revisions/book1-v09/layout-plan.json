@@ -124,15 +124,6 @@
     "B01V07-P02-02": [
      {
       "type": "caption",
-      "speaker": "",
-      "he": "יונדזיוב · 1900",
-      "en": "Jędrzejów · 1900",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
-     {
-      "type": "caption",
       "speaker": "יצחק המבוגר",
       "he": "קוראים לי יצחק מאיר לונדנר. אבל בבית, כולם קראו לי איטשע.",
       "en": "My name is Yitzhak Meir Londner. But at home, everyone called me Itshe.",
@@ -490,15 +481,6 @@
     "B01V07-P05-01": [
      {
       "type": "caption",
-      "speaker": "",
-      "he": "בחדר · 1904",
-      "en": "The cheder · 1904",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
-     {
-      "type": "caption",
       "speaker": "יצחק המבוגר",
       "he": "בשנת 1904, כשהייתי בן ארבע, התחלתי ללמוד בחדר. אמא ליוותה אותי ביום הראשון.",
       "en": "In 1904, when I was four, I started learning at the cheder. Mother walked me there on the first day.",
@@ -762,6 +744,10 @@
       "mouthXY": [
        0.64,
        0.45
+      ],
+      "at": [
+       0.7,
+       0.06
       ]
      },
      {
@@ -773,6 +759,10 @@
       "mouthXY": [
        0.64,
        0.45
+      ],
+      "at": [
+       0.7,
+       0.26
       ]
      }
     ],
@@ -1304,6 +1294,18 @@
       "kind": "adapted_speech",
       "memoir": "הוא הסביר לי, לא הבלקונים, אלא, הבלקנים",
       "mouth": "father's face, balloon above"
+     },
+     {
+      "type": "sfx",
+      "speaker": "",
+      "he": "חחח",
+      "en": "Ha ha!",
+      "kind": "staging",
+      "memoir": "",
+      "at": [
+       0.78,
+       0.16
+      ]
      }
     ],
     "B01V07-P12-02": [
@@ -1314,6 +1316,18 @@
       "en": "Mother loved to hear me read.",
       "kind": "adapted",
       "memoir": "אמי ע\"ה היה לה תענוג לשמוע ממני קריאת עיתון"
+     },
+     {
+      "type": "sfx",
+      "speaker": "",
+      "he": "חחח",
+      "en": "Ha ha!",
+      "kind": "staging",
+      "memoir": "",
+      "at": [
+       0.78,
+       0.16
+      ]
      }
     ],
     "B01V07-P12-04": [
@@ -1409,15 +1423,6 @@
    "removed": [],
    "texts": {
     "B01V07-P13-01": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "ורשה",
-      "en": "Warsaw",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
      {
       "type": "speech",
       "speaker": "הרופא",
@@ -1693,15 +1698,6 @@
    "removed": [],
    "texts": {
     "B01V07-P15-01": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "וינה",
-      "en": "Vienna",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
@@ -2393,8 +2389,8 @@
       "kind": "adapted"
      },
      {
-      "type": "caption",
-      "speaker": "מכתב הספק",
+      "type": "letter",
+      "speaker": "הספק",
       "he": "אני מוכן להישבע בטלית ותפילין שלא חסר כלום!",
       "en": "I am ready to swear on my tallit and tefillin that nothing is missing!",
       "kind": "adapted"
@@ -2503,8 +2499,8 @@
       "kind": "adapted"
      },
      {
-      "type": "caption",
-      "speaker": "מכתב של אבא",
+      "type": "letter",
+      "speaker": "אבא",
       "he": "אבל לא חסר כלום! שלחת לי חצי תריסר יותר, ואני רוצה להחזיר לך אותם.",
       "en": "But nothing is missing! You sent me half a dozen extra, and I want to give them back.",
       "kind": "adapted"
@@ -2519,8 +2515,8 @@
       "kind": "adapted"
      },
      {
-      "type": "caption",
-      "speaker": "מכתב מבית החרושת",
+      "type": "letter",
+      "speaker": "הספק",
       "he": "אנחנו נשלח לך סחורה, גם אם עוד לא שילמת על הקודמת.",
       "en": "We will send you goods, even if you have not yet paid for the last order.",
       "kind": "adapted"
@@ -2652,7 +2648,11 @@
       "he": "הדוד שמעון לא רצה שיישארו חובות.",
       "en": "Uncle Shimon did not want any debts left behind.",
       "kind": "adapted",
-      "memoir": "הדוד שמעון לא רצה שישאירו חובות אחרי אבא ז\"ל"
+      "memoir": "הדוד שמעון לא רצה שישאירו חובות אחרי אבא ז\"ל",
+      "at": [
+       0.72,
+       0.83
+      ]
      },
      {
       "type": "caption",
@@ -2660,7 +2660,11 @@
       "he": "חיים אחי לקח עליו את החובות ובא לגור ביונדזיוב.",
       "en": "My brother Chaim took on the debts and came to live in Jedrzejow.",
       "kind": "adapted",
-      "memoir": "חיימלה אחי ייקח עליו את החובות וישלם ויבוא לגור לינדזיוב"
+      "memoir": "חיימלה אחי ייקח עליו את החובות וישלם ויבוא לגור לינדזיוב",
+      "at": [
+       0.27,
+       0.83
+      ]
      }
     ]
    },
@@ -3231,15 +3235,6 @@
    "removed": [],
    "texts": {
     "B01V07-P28-01": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "לודז׳ · 1914",
-      "en": "Lodz · 1914",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
@@ -4797,15 +4792,6 @@
     "B01V07-P39-01": [
      {
       "type": "caption",
-      "speaker": "",
-      "he": "1922",
-      "en": "1922",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
-     {
-      "type": "caption",
       "speaker": "יצחק המבוגר",
       "he": "בשנת 1922 התחתנו, חוה ואני. גרנו בבית של חמי, בחדר אחד ועם פינה קטנה בחנות.",
       "en": "In 1922 Chava and I were married. We lived in my father-in-law's house, in one room with a small corner in the shop.",
@@ -4957,8 +4943,8 @@
      {
       "type": "speech",
       "speaker": "יצחק",
-      "he": "אתה תהיה עם חוה",
-      "en": "You'll stay with Chava",
+      "he": "אתה תהיה עם חוה ותסחור עם עורות",
+      "en": "You will be with Chava, and you will trade in hides",
       "kind": "quote",
       "memoir": "אתה תהיה עם חוה ותסחור עם עורות",
       "mouth": "same speaker, second balloon toward Leibl",
@@ -4974,8 +4960,8 @@
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
-      "he": "הפעם כבר היו לי אישה, ילדה קטנה וחנות.",
-      "en": "This time I already had a wife, a little girl and a shop.",
+      "he": "הפעם כבר היו לי אישה, ילדה קטנה וחנות. ללייבל אחי אמרתי:",
+      "en": "This time I already had a wife, a little girl and a shop. To my brother Leibel I said:",
       "kind": "adapted",
       "memoir": "קיבלתי להתייצב לצבא, לא הייתה לי ברירה"
      }
@@ -5090,15 +5076,6 @@
     "B01V07-P41-01": [
      {
       "type": "caption",
-      "speaker": "",
-      "he": "פורים · 1923",
-      "en": "Purim · 1923",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
-     {
-      "type": "caption",
       "speaker": "יצחק המבוגר",
       "he": "בפורים 1923 חזרתי הביתה.",
       "en": "On Purim 1923 I came home.",
@@ -5210,15 +5187,6 @@
    "removed": [],
    "texts": {
     "B01V07-P42-01": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "ורשה · 1925",
-      "en": "Warsaw · 1925",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
      {
       "type": "caption",
       "speaker": "יצחק המבוגר",
@@ -5630,15 +5598,6 @@
     "B01V07-P45-01": [
      {
       "type": "caption",
-      "speaker": "",
-      "he": "קונסטנצה, רומניה",
-      "en": "Constanța, Romania",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
-     {
-      "type": "caption",
       "speaker": "יצחק המבוגר",
       "he": "במוצאי יום כיפור יצאנו לוורשה. משם נסענו ברכבת לקונסטנצה שברומניה.",
       "en": "At the end of Yom Kippur we left for Warsaw. From there we took the train to Constanța in Romania.",
@@ -5754,15 +5713,6 @@
    "removed": [],
    "texts": {
     "B01V07-P46-01": [
-     {
-      "type": "caption",
-      "speaker": "",
-      "he": "האונייה אסיה",
-      "en": "The ship Asia",
-      "kind": "label",
-      "memoir": "מקום או שנה שכבר כתובים בקריינות של אותו עמוד",
-      "ctx": true
-     },
      {
       "type": "speech",
       "speaker": "יצחק",

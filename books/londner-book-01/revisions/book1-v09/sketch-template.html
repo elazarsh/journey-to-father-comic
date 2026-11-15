@@ -64,12 +64,14 @@ body.work .ph .pur{display:block}
 .pid{display:none;position:absolute;bottom:3px;inset-inline-start:4px;font:700 9px Heebo;color:#ffe9b8;background:rgba(0,0,0,.6);padding:1px 4px;border-radius:3px;z-index:4;direction:ltr}
 body.work .pid{display:block}
 /* lettering */
-.tx{position:absolute;z-index:20;font-size:clamp(.68rem,2.05cqw,1.24rem);line-height:1.3;text-wrap:balance;text-align:center}
-.tx.cap{font-family:var(--capfont);font-weight:500;font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*.9);color:#1b1410;background:#fbf1d6;border:2px solid #1b1410;box-shadow:3px 3px 0 rgba(27,20,16,.9);padding:.3em .6em .35em;border-radius:2px;line-height:1.25;text-align:start}
+.tx{position:absolute;z-index:20;font-size:clamp(.68rem,2.05cqw,1.24rem);line-height:1.3;text-wrap:pretty;text-align:center}
+.tx.cap{font-family:var(--capfont);font-weight:500;font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*.9);color:#1b1410;background:rgba(251,241,214,.78);border:2px solid #1b1410;box-shadow:3px 3px 0 rgba(27,20,16,.9);padding:.3em .6em .35em;border-radius:2px;line-height:1.25;text-align:start}
 .tx.bub,.tx.tho,.tx.whi{font-family:var(--hand);font-weight:var(--handw);font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale));color:#1b1410;background:none;border:0;padding:.3em .6em;line-height:1.2}
 .tx.tho{border-radius:42%/40%}
 .tx.whi{border-style:dashed}
 .tx.cap.ctx{font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale)*.78);background:#e8d19c;padding:.12em .6em .18em;text-align:center;letter-spacing:.04em;box-shadow:2px 2px 0 rgba(27,20,16,.9)}
+.tx.let{font-family:var(--hand);font-weight:var(--handw);font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*var(--handscale));color:#2a1d12;background:rgba(246,232,200,.86);border:1.5px solid #6b5230;padding:.3em .7em .35em;line-height:1.2;transform:rotate(-1.2deg);box-shadow:2px 3px 0 rgba(27,20,16,.55);clip-path:polygon(0 0,100% 0,100% calc(100% - .9em),calc(100% - .9em) 100%,0 100%)}
+.tx.sfx{font-family:var(--bold);font-weight:700;font-size:calc(clamp(.68rem,2.05cqw,1.24rem)*3.4);color:#ffe27a;-webkit-text-stroke:3px #1b1410;paint-order:stroke fill;letter-spacing:.06em;text-shadow:2px 3px 0 rgba(27,20,16,.8);background:none;border:0;padding:0;transform:rotate(-7deg);white-space:nowrap}
 .tx.sho{font-family:var(--bold);font-weight:700;color:var(--ink);background:#ffe27a;border:2.6px solid var(--ink);padding:.7em 1.1em;clip-path:polygon(0 18%,12% 0,25% 14%,40% 0,55% 12%,70% 0,84% 14%,100% 4%,92% 30%,100% 52%,90% 70%,100% 92%,80% 86%,64% 100%,50% 86%,34% 100%,20% 86%,4% 96%,10% 70%,0 50%,8% 32%)}
 .tx .who{display:none}
 .tx svg.kids{width:7.5em;height:4.2em;display:block}
@@ -183,7 +185,7 @@ html.print .pw{animation:none!important}
   function rtl() { return lang === 'he'; }
   function bb(poly) { var x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9; poly.forEach(function (p) { x0 = Math.min(x0, p[0]); y0 = Math.min(y0, p[1]); x1 = Math.max(x1, p[0]); y1 = Math.max(y1, p[1]); }); return { x: x0, y: y0, w: x1 - x0, h: y1 - y0 }; }
   function screenPoly(q) { return q.poly.map(function (p) { return [rtl() ? 100 - p[0] : p[0], p[1]]; }); }
-  var KIND = { caption: 'cap', speech: 'bub', thought: 'tho', whisper: 'whi', shout: 'sho' };
+  var KIND = { caption: 'cap', speech: 'bub', thought: 'tho', whisper: 'whi', shout: 'sho', sfx: 'sfx', letter: 'let' };
   function phone() { return window.matchMedia('(max-width:700px)').matches; }
 
   function mouthOf(t) {
@@ -338,6 +340,12 @@ html.print .pw{animation:none!important}
         var maxW = k === 'cap' ? Math.min(box.w * .66, ph ? box.w * .9 : hr.width * .5) : Math.min(box.w * .5, ph ? box.w * .72 : hr.width * .3);
         d.style.maxWidth = maxW + 'px';
         var r = d.getBoundingClientRect(), w = r.width, h = r.height, x, y, m = null;
+        if ((k === 'cap' || k === 'let' || k === 'bub' || k === 'tho' || k === 'whi') && d.firstChild && d.firstChild.nodeType === 3) {   /* box exactly as wide as its widest line */
+          var rg = document.createRange(); rg.selectNodeContents(d.firstChild);
+          var wl = 0; Array.prototype.forEach.call(rg.getClientRects(), function (q2) { wl = Math.max(wl, q2.width); });
+          var cs = getComputedStyle(d), extra = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight) + parseFloat(cs.borderLeftWidth) + parseFloat(cs.borderRightWidth);
+          if (wl > 0 && wl + extra + 2 < w) { d.style.width = Math.ceil(wl + extra + 2) + 'px'; r = d.getBoundingClientRect(); w = r.width; h = r.height; }
+        }
         if (k !== 'cap' && k !== 'sho') {   /* minimal bubbles: never let one swallow its panel */
           var fs00 = parseFloat(getComputedStyle(d).fontSize), tries = 0;
           while (tries++ < 5 && (w * h) / (box.w * box.h) > .13 && fs00 > 9) { fs00 *= .92; d.style.fontSize = fs00 + 'px'; r = d.getBoundingClientRect(); w = r.width; h = r.height; }
