@@ -110,5 +110,13 @@
   "fy": 0.2,
   "zoom": 1.0,
   "review_status": "crop-reviewer agent 15/11"
+ },
+ "B01V07-P17-02": {
+  "source_sha256": "ee4ea7e10bab6549657a4b803f8f744ae4131edec3611bf4ad218f1648566465",
+  "fit": "cover",
+  "fx": 0.6,
+  "fy": 1.0,
+  "zoom": 2.0,
+  "review_status": "crop to the wheel and floor: hides the part of the source where the child has no head (family request 16/11)"
  }
 }
