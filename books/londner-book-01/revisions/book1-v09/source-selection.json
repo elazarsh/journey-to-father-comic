@@ -1,0 +1,14 @@
+{
+  "B01V07-P08-04": {
+    "sha256": "f63037913b28a4b649bc88f9b4d4c59329fe542c15951e74d68d706905bf253f",
+    "file": "art/book1-v07/B01V07-P08-04.v2.png",
+    "web_file": "art/book1-v07/web/B01V07-P08-04.webp",
+    "reason": "Claude v08 reviewed replacement (overhead bed / dusk exterior). Older same-ID local PNG is an archived source, not the selected master."
+  },
+  "B01V07-P09-04": {
+    "sha256": "06a62819f1fbbee70bc92a802716b6b2be9b6e6de578e525de19c5f764b5ae91",
+    "file": "art/book1-v07/B01V07-P09-04.v2.png",
+    "web_file": "art/book1-v07/web/B01V07-P09-04.webp",
+    "reason": "Claude v08 reviewed replacement (overhead bed / dusk exterior). Older same-ID local PNG is an archived source, not the selected master."
+  }
+}

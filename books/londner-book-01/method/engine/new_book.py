@@ -29,7 +29,7 @@ cfg = dict(book_root='..', title_he=o.title, title_en=o.title_en, id_prefix=o.pr
 for name in ['layout-plan.json', 'new-panels.json', 'special-pages.json']:
     txt = (T / name).read_text(encoding='utf-8').replace('{{PREFIX}}', o.prefix).replace('{{TITLE}}', o.title).replace('{{TITLE_EN}}', o.title_en).replace('{{HERO}}', o.hero)
     (B / 'layout' / name).write_text(txt, encoding='utf-8')
-for name in ['CLAUDE.md', 'AGENTS.md', 'README.md']:
+for name in ['CLAUDE.md', 'AGENTS.md', 'README.md', 'RULES.md']:
     txt = (T / name).read_text(encoding='utf-8').replace('{{PREFIX}}', o.prefix).replace('{{TITLE}}', o.title).replace('{{HERO}}', o.hero)
     (B / name).write_text(txt, encoding='utf-8')
 print(f'ready: {B}\n  build: cd {B}/layout && python3 build_sketch.py   (serve the book folder over http to see images)')
